@@ -1,8 +1,8 @@
-"""Qwen2.5-VL captioner for structured visuals (charts, tables, diagrams).
+"""Qwen2.5-VL captioner: single model for all MinerU2.5-extracted visuals
+(photos, diagrams, charts, tables).
 
-Runs in the main project venv (transformers native support, no vendoring
-needed). Loaded lazily and released after use to respect the
-load-one-model-at-a-time memory budget (24GB unified memory, MPS backend).
+Loaded lazily and released after use to keep the memory footprint down on
+24GB unified memory (MPS backend).
 
 Uses bfloat16 (not float16) and loads to CPU before moving to MPS: torch's
 MPS backend has recurring, unresolved SIGSEGVs in its fp16 cast kernel
@@ -64,8 +64,20 @@ class QwenVLCaptioner:
         elif torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-    def caption(self, image_path: str, prompt: str = DEFAULT_PROMPT) -> str:
+    def caption(self, image_path: str, prompt: str = DEFAULT_PROMPT, labels: str | None = None) -> str:
+        """labels: OCR'd text labels from MinerU2.5 (content_list "content"
+        field), passed as grounding context for labeled diagrams so the
+        model transcribes existing labels instead of re-reading the image
+        from scratch."""
         self.load()
+
+        if labels:
+            prompt = (
+                f"{prompt}\n\nThe following labels were extracted from "
+                f"this image via OCR, in reading order (top to bottom may "
+                f"not match visually, use the image to place each "
+                f"correctly):\n{labels}"
+            )
 
         messages = [
             {

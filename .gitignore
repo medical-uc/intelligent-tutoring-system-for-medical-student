@@ -116,4 +116,3 @@ cython_debug/
 
 # Project-specific
 output/
-vendor/LLaVA-Med/
