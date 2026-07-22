@@ -23,9 +23,16 @@ from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 
 MODEL_PATH = "Qwen/Qwen2.5-VL-7B-Instruct"
 DEFAULT_PROMPT = (
-    "Describe this medical figure in detail. If it is a diagram, "
-    "explain its structure and labeled components. If it is a table "
-    "or chart, summarize the data and what it represents."
+    "Describe strictly what is visually present in this image, in detail. "
+    "For any text or labels, transcribe them exactly and describe where "
+    "each one is located in the image (e.g. top-left, pointing to the "
+    "center-right region) and, if a leader line or arrow connects it to a "
+    "part of the image, what it points to. For diagrams, describe shapes, "
+    "regions, and their spatial layout as drawn. For tables, describe the "
+    "rows and columns as they visually appear. "
+    "Do not explain, interpret, or add outside knowledge about what any "
+    "label or structure means or is used for — describe only what is "
+    "visible in the image itself."
 )
 
 
