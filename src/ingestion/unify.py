@@ -22,6 +22,7 @@ class UnifiedItem:
     page_idx: int
     content_type: str
     text: str  # rendered text: prose, list joined, table_body, or [FIGURE: ...] marker
+    text_level: int | None = None  # heading level for "text" items, if any
 
 
 def make_item_id(pdf_stem: str, page_idx: int, index: int) -> str:
@@ -59,8 +60,10 @@ def build_unified_items(
         page_idx = entry.get("page_idx", -1)
         item_id = make_item_id(pdf_stem, page_idx, index)
 
+        text_level = None
         if content_type in TEXT_FIELD_TYPES:
             text = _render_text_item(entry)
+            text_level = entry.get("text_level")
         elif content_type == "list":
             text = _render_list_item(entry)
         elif content_type == "table":
@@ -74,13 +77,34 @@ def build_unified_items(
         if not text:
             continue
 
-        items.append(UnifiedItem(item_id=item_id, page_idx=page_idx, content_type=content_type, text=text))
+        items.append(UnifiedItem(
+            item_id=item_id,
+            page_idx=page_idx,
+            content_type=content_type,
+            text=text,
+            text_level=text_level,
+        ))
 
     return items
 
 
 def render_unified_text(items: list[UnifiedItem]) -> str:
     return "\n\n".join(item.text for item in items)
+
+
+def _render_markdown_block(item: UnifiedItem) -> str:
+    if item.content_type in TEXT_FIELD_TYPES and item.text_level:
+        return f"{'#' * min(item.text_level, 6)} {item.text}"
+    if item.content_type in VISUAL_TYPES:
+        return f"> {item.text}"
+    return item.text
+
+
+def render_unified_markdown(items: list[UnifiedItem]) -> str:
+    """Same content as render_unified_text, with headings promoted to `#`
+    and figure/table captions rendered as blockquotes so the output reads
+    as proper Markdown instead of plain prose."""
+    return "\n\n".join(_render_markdown_block(item) for item in items)
 
 
 def captions_by_item_id(
