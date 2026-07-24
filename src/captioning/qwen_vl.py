@@ -34,6 +34,16 @@ DEFAULT_PROMPT = (
     "label or structure means or is used for — describe only what is "
     "visible in the image itself."
 )
+PAGE_TRANSCRIPTION_PROMPT = (
+    "Transcribe all body text on this page — headings, paragraphs, bullet "
+    "points, and captions — as clean Markdown, in natural reading order "
+    "(top to bottom, left to right across columns). Use '#'/'##' etc. for "
+    "headings based on visual prominence, and '-' for bullet points. "
+    "Do not transcribe text that appears inside a photo, diagram, chart, "
+    "or table graphic — skip those regions entirely and do not describe "
+    "them, they are handled separately. Do not add commentary, "
+    "explanation, or content that is not literally printed on the page."
+)
 
 
 def get_device() -> str:
@@ -76,8 +86,6 @@ class QwenVLCaptioner:
         field), passed as grounding context for labeled diagrams so the
         model transcribes existing labels instead of re-reading the image
         from scratch."""
-        self.load()
-
         if labels:
             prompt = (
                 f"{prompt}\n\nThe following labels were extracted from "
@@ -85,12 +93,40 @@ class QwenVLCaptioner:
                 f"not match visually, use the image to place each "
                 f"correctly):\n{labels}"
             )
+        return self._generate(image_path, prompt, max_new_tokens=512)
+
+    def transcribe_page(self, image_path: str, prompt: str = PAGE_TRANSCRIPTION_PROMPT) -> str:
+        """Transcribes body text from a full rendered PDF page image
+        (Thread B of the dual-pipeline architecture). Visuals on the page
+        are deliberately skipped — they're captioned separately from
+        MinerU-extracted crops.
+
+        max_pixels caps the image at ~1.28M px (1280x1000-ish) before
+        tokenization — qwen_vl_utils' default max is 16384 vision tokens
+        (~12.8M px), so an uncapped full-page render at 200 DPI (e.g.
+        2667x1500 = ~4M px) burns thousands of vision tokens on prefill
+        alone, which is what made this take hours across 68 pages on MPS
+        (no flash-attention / optimized kernels there)."""
+        return self._generate(image_path, prompt, max_new_tokens=2048, max_pixels=1_280_000)
+
+    def _generate(
+        self,
+        image_path: str,
+        prompt: str,
+        max_new_tokens: int,
+        max_pixels: int | None = None,
+    ) -> str:
+        self.load()
+
+        image_content = {"type": "image", "image": Image.open(image_path).convert("RGB")}
+        if max_pixels is not None:
+            image_content["max_pixels"] = max_pixels
 
         messages = [
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": Image.open(image_path).convert("RGB")},
+                    image_content,
                     {"type": "text", "text": prompt},
                 ],
             }
@@ -112,7 +148,7 @@ class QwenVLCaptioner:
             inputs["pixel_values"] = inputs["pixel_values"].to(torch.bfloat16)
 
         with torch.inference_mode():
-            generated_ids = self.model.generate(**inputs, max_new_tokens=512, do_sample=False)
+            generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
 
         generated_ids_trimmed = [
             out_ids[len(in_ids):]

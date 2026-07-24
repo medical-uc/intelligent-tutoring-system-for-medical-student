@@ -8,6 +8,7 @@ dependencies = [
     "einops>=0.8.2",
     "pillow>=12.3.0",
     "protobuf>=7.35.1",
+    "pymupdf>=1.28.0",
     "qwen-vl-utils>=0.0.14",
     "sentencepiece>=0.2.2",
     "torch>=2.13.0",
