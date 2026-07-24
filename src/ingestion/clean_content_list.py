@@ -10,7 +10,9 @@ position in the outer per-page grouping):
   page_header      -> header (text)
   page_footer      -> footer (text)
   page_aside_text  -> aside_text (text)
-  list             -> list (list_items: list[str])
+  list, index      -> list (list_items: list[str]) — "index" has the same
+                      content shape as "list", just a different layout
+                      label MinerU assigns to some legend/list regions
   image            -> image (img_path, image_caption, image_footnote,
                       content, sub_type)
   table            -> table (img_path, table_caption, table_footnote,
@@ -61,7 +63,7 @@ def _convert_item(entry: dict, page_idx: int) -> dict:
             out["text_level"] = content.get("level")
         return out
 
-    if v2_type == "list":
+    if v2_type in ("list", "index"):
         return {
             "type": "list",
             "sub_type": content.get("list_type"),
