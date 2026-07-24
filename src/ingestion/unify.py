@@ -10,10 +10,81 @@ together without inventing new infra:
     ever needed)
 """
 
+import re
 from dataclasses import dataclass
+from html.parser import HTMLParser
 
 VISUAL_TYPES = {"image", "chart", "table", "diagram"}
 TEXT_FIELD_TYPES = {"text", "header", "footer", "aside_text"}
+
+# MinerU emits stray "<TAG>▪</TAG> " as a bullet marker on plain-text lines
+# (not inside a "list" item) — promote it to a real markdown bullet instead
+# of leaving the tag in place. Seen as <sup> so far, but written generically
+# in case other wrapper tags carry the same glyph.
+_ANY_BULLET_RE = re.compile(r"^<([a-zA-Z0-9]+)[^>]*>[▪•]</\1>\s*")
+# Any other inline tag (<sup>, <sub>, <b>, ...): drop the tag, keep the text.
+# <sup> specifically usually marks a genuine superscript (ordinals like
+# "2nd", arrows) so render it as a caret-superscript; everything else just
+# loses its markup.
+_ANY_TAG_RE = re.compile(r"<(sup|sub|b|i|em|strong|u|span)\b[^>]*>(.*?)</\1>", re.IGNORECASE | re.DOTALL)
+_LEFTOVER_TAG_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(\s[^>]*)?>")
+
+
+def _tag_replacement(match: re.Match) -> str:
+    tag, inner = match.group(1).lower(), match.group(2)
+    return f"^{inner}" if tag == "sup" else inner
+
+
+def _clean_inline_html(text: str) -> str:
+    text = _ANY_BULLET_RE.sub("- ", text)
+    text = _ANY_TAG_RE.sub(_tag_replacement, text)
+    text = _LEFTOVER_TAG_RE.sub("", text)  # safety net for any unhandled tag
+    return text
+
+
+class _TableToMarkdown(HTMLParser):
+    """Minimal <table>/<tr>/<td>/<th> -> GitHub-flavored markdown table
+    converter. MinerU table_body is always this simple shape (no nested
+    tags, no rowspan/colspan handling needed for the tables seen so far)."""
+
+    def __init__(self):
+        super().__init__()
+        self.rows: list[list[str]] = []
+        self._row: list[str] | None = None
+        self._cell: list[str] | None = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self._row = []
+        elif tag in ("td", "th"):
+            self._cell = []
+
+    def handle_endtag(self, tag):
+        if tag == "tr" and self._row is not None:
+            self.rows.append(self._row)
+            self._row = None
+        elif tag in ("td", "th") and self._cell is not None:
+            self._row.append(_clean_inline_html("".join(self._cell)).strip())
+            self._cell = None
+
+    def handle_data(self, data):
+        if self._cell is not None:
+            self._cell.append(data)
+
+
+def _html_table_to_markdown(table_body: str) -> str:
+    parser = _TableToMarkdown()
+    parser.feed(table_body)
+    rows = parser.rows
+    if not rows:
+        return ""
+
+    width = max(len(row) for row in rows)
+    rows = [row + [""] * (width - len(row)) for row in rows]
+
+    lines = ["| " + " | ".join(rows[0]) + " |", "| " + " | ".join(["---"] * width) + " |"]
+    lines += ["| " + " | ".join(row) + " |" for row in rows[1:]]
+    return "\n".join(lines)
 
 
 @dataclass
@@ -35,6 +106,17 @@ def _render_text_item(item: dict) -> str:
 
 def _render_list_item(item: dict) -> str:
     return "\n".join(f"- {li}" for li in item.get("list_items", []))
+
+
+def _clean_list_line(line: str) -> str:
+    # list_items already get their own "- " prefix from _render_list_item;
+    # strip a redundant leading bullet glyph tag instead of turning it into
+    # a second "- ".
+    prefix, rest = line[:2], line[2:]
+    rest = _ANY_BULLET_RE.sub("", rest)
+    rest = _ANY_TAG_RE.sub(_tag_replacement, rest)
+    rest = _LEFTOVER_TAG_RE.sub("", rest)
+    return prefix + rest
 
 
 def _render_table_item(item: dict) -> str:
@@ -93,11 +175,15 @@ def render_unified_text(items: list[UnifiedItem]) -> str:
 
 
 def _render_markdown_block(item: UnifiedItem) -> str:
+    if item.content_type == "table" and "<table>" in item.text:
+        return _html_table_to_markdown(item.text)
     if item.content_type in TEXT_FIELD_TYPES and item.text_level:
-        return f"{'#' * min(item.text_level, 6)} {item.text}"
+        return f"{'#' * min(item.text_level, 6)} {_clean_inline_html(item.text)}"
     if item.content_type in VISUAL_TYPES:
-        return f"> {item.text}"
-    return item.text
+        return f"> {_clean_inline_html(item.text)}"
+    if item.content_type == "list":
+        return "\n".join(_clean_list_line(line) for line in item.text.split("\n"))
+    return _clean_inline_html(item.text)
 
 
 def render_unified_markdown(items: list[UnifiedItem]) -> str:
