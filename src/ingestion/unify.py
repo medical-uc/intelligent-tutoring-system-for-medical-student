@@ -193,6 +193,53 @@ def render_unified_markdown(items: list[UnifiedItem]) -> str:
     return "\n\n".join(_render_markdown_block(item) for item in items)
 
 
+def build_unified_items_from_merged(
+    merged_document: dict[str, dict],
+    captions: dict[str, str],
+) -> list[UnifiedItem]:
+    """Same output shape as build_unified_items, but built from a
+    dual-pipeline merged document (page_idx -> {"text", "visuals"}, see
+    `merge_by_page.render_merged_document`) instead of a MinerU
+    content_list. Page text is Qwen-transcribed Markdown (already
+    heading-formatted), emitted as a single text item per page.
+
+    Visuals with relevance != "semantic" are dropped entirely (not just
+    left uncaptioned) — decorative images add no value to the unified
+    document and would otherwise appear as bare [FIGURE:...] markers
+    with no caption.
+
+    captions: item_id -> caption text, keyed by each visual's own
+    item_id (already stable from the original content_list, reused
+    as-is by `merge_by_page.visuals_by_page` — no regeneration needed).
+    """
+    items = []
+
+    for page_idx in sorted(merged_document, key=int):
+        page = merged_document[page_idx]
+
+        text = page.get("text", "")
+        if text:
+            items.append(UnifiedItem(
+                item_id=f"page{page_idx}#text",
+                page_idx=int(page_idx),
+                content_type="text",
+                text=text,
+            ))
+
+        for visual in page.get("visuals", []):
+            if visual.get("relevance") != "semantic":
+                continue
+            item_id = visual["item_id"]
+            items.append(UnifiedItem(
+                item_id=item_id,
+                page_idx=int(page_idx),
+                content_type=visual["type"],
+                text=_render_visual_item(item_id, captions.get(item_id)),
+            ))
+
+    return items
+
+
 def captions_by_item_id(
     content_list: list[dict],
     pdf_stem: str,
