@@ -46,6 +46,8 @@ PAGE_TRANSCRIPTION_PROMPT = (
     "and do not describe them, they are handled separately. Do not add "
     "commentary, explanation, or content that is not literally printed "
     "on the page."
+    "Stop immediately after the last visible text on the page. "
+    "Do not continue beyond what is printed."
 )
 
 
@@ -84,7 +86,7 @@ class QwenVLCaptioner:
         elif torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-    def caption(self, image_path: str, prompt: str = DEFAULT_PROMPT, labels: str | None = None) -> str:
+    def caption(self, image_path: str, prompt: str = DEFAULT_PROMPT, labels: str | None = None, max_new_tokens: int = 512) -> str:
         """labels: OCR'd text labels from MinerU2.5 (content_list "content"
         field), passed as grounding context for labeled diagrams so the
         model transcribes existing labels instead of re-reading the image
@@ -96,9 +98,9 @@ class QwenVLCaptioner:
                 f"not match visually, use the image to place each "
                 f"correctly):\n{labels}"
             )
-        return self._generate(image_path, prompt, max_new_tokens=512)
+        return self._generate(image_path, prompt, max_new_tokens=max_new_tokens)
 
-    def transcribe_page(self, image_path: str, prompt: str = PAGE_TRANSCRIPTION_PROMPT) -> str:
+    def transcribe_page(self, image_path: str, prompt: str = PAGE_TRANSCRIPTION_PROMPT, max_new_tokens: int = 2048) -> str:
         """Transcribes body text from a full rendered PDF page image
         (Thread B of the dual-pipeline architecture). Visuals on the page
         are deliberately skipped — they're captioned separately from
@@ -110,7 +112,7 @@ class QwenVLCaptioner:
         2667x1500 = ~4M px) burns thousands of vision tokens on prefill
         alone, which is what made this take hours across 68 pages on MPS
         (no flash-attention / optimized kernels there)."""
-        return self._generate(image_path, prompt, max_new_tokens=2048, max_pixels=1_280_000)
+        return self._generate(image_path, prompt, max_new_tokens=max_new_tokens, max_pixels=1_280_000)
 
     def _generate(
         self,
