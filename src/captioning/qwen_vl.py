@@ -49,6 +49,15 @@ PAGE_TRANSCRIPTION_PROMPT = (
     "Stop immediately after the last visible text on the page. "
     "Do not continue beyond what is printed."
 )
+IMAGE_RELEVANCE_PROMPT = (
+    "The following is the text content of a slide this image appears on:\n\n"
+    "{slide_text}\n\n"
+    "Does this image directly support or illustrate the slide's content "
+    "(e.g. a diagram, chart, photo, or figure relevant to the subject "
+    "matter), or is it purely decorative (e.g. a background, icon, logo, "
+    "or stylistic element unrelated to the content)?\n\n"
+    "Answer with exactly one word: SEMANTIC or DECORATIVE."
+)
 
 
 def get_device() -> str:
@@ -113,6 +122,15 @@ class QwenVLCaptioner:
         alone, which is what made this take hours across 68 pages on MPS
         (no flash-attention / optimized kernels there)."""
         return self._generate(image_path, prompt, max_new_tokens=max_new_tokens, max_pixels=1_280_000)
+
+    def classify_image_relevance(self, img_path: str, slide_text: str) -> str:
+        """Classifies whether an image is content-relevant or purely
+        decorative, using the slide's text as context. Forces a
+        single-word response (max_new_tokens=5) and a small max_pixels
+        since this is a coarse classification, not a transcription."""
+        prompt = IMAGE_RELEVANCE_PROMPT.format(slide_text=slide_text[:500])
+        result = self._generate(img_path, prompt, max_new_tokens=5, max_pixels=480_000)
+        return "decorative" if "DECORATIVE" in result.upper() else "semantic"
 
     def _generate(
         self,

@@ -21,6 +21,7 @@ class PageVisual:
     type: str
     sub_type: str | None
     img_path: str
+    relevance: str | None = None  # "semantic" | "decorative" | None (unclassified)
 
 
 def visuals_by_page(
