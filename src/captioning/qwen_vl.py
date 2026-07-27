@@ -35,14 +35,17 @@ DEFAULT_PROMPT = (
     "visible in the image itself."
 )
 PAGE_TRANSCRIPTION_PROMPT = (
-    "Transcribe all body text on this page — headings, paragraphs, bullet "
-    "points, and captions — as clean Markdown, in natural reading order "
-    "(top to bottom, left to right across columns). Use '#'/'##' etc. for "
-    "headings based on visual prominence, and '-' for bullet points. "
+    "Transcribe only the main body text on this page — headings, "
+    "paragraphs, and bullet points — as clean Markdown, in natural "
+    "reading order (top to bottom, left to right across columns). Use "
+    "'#'/'##' etc. for headings based on visual prominence, and '-' for "
+    "bullet points. "
     "Do not transcribe text that appears inside a photo, diagram, chart, "
-    "or table graphic — skip those regions entirely and do not describe "
-    "them, they are handled separately. Do not add commentary, "
-    "explanation, or content that is not literally printed on the page."
+    "or table graphic, and do not transcribe figure captions, legends, "
+    "or labels describing those visuals — skip those regions entirely "
+    "and do not describe them, they are handled separately. Do not add "
+    "commentary, explanation, or content that is not literally printed "
+    "on the page."
 )
 
 

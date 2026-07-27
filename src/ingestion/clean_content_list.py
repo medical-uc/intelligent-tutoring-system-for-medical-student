@@ -15,6 +15,10 @@ position in the outer per-page grouping):
                       label MinerU assigns to some legend/list regions
   image            -> image (img_path, image_caption, image_footnote,
                       content, sub_type)
+  chart            -> chart (img_path, image_caption, image_footnote,
+                      content) — same shape as image, MinerU just uses
+                      chart_caption/chart_footnote instead of
+                      image_caption/image_footnote
   table            -> table (img_path, table_caption, table_footnote,
                       table_body)
 """
@@ -83,6 +87,17 @@ def _convert_item(entry: dict, page_idx: int) -> dict:
             "image_footnote": content.get("image_footnote", []),
             "content": content.get("content", ""),
             "sub_type": entry.get("sub_type"),
+            "bbox": entry.get("bbox"),
+            "page_idx": page_idx,
+        }
+
+    if v2_type == "chart":
+        return {
+            "type": "chart",
+            "img_path": content.get("image_source", {}).get("path"),
+            "image_caption": content.get("chart_caption", []),
+            "image_footnote": content.get("chart_footnote", []),
+            "content": content.get("content", ""),
             "bbox": entry.get("bbox"),
             "page_idx": page_idx,
         }
