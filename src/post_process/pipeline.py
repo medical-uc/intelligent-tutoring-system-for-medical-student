@@ -42,10 +42,16 @@ def process_mineru_json(json_path: str, confidence_threshold: float = 0.7) -> Di
 
 def main():
     import json
+    from pathlib import Path
 
-    json_path = "output/Anatomy of Neck - Basic of DEMN.pdf_origin/auto/Anatomy of Neck - Basic of DEMN.pdf_origin_content_list_v2.json"
-    result = process_mineru_json(json_path)
-    print(json.dumps(result, indent=2, ensure_ascii=False))
+    json_path = Path("output/Anatomy of Neck - Basic of DEMN.pdf_origin/auto/Anatomy of Neck - Basic of DEMN.pdf_origin_middle.json")
+    result = process_mineru_json(str(json_path))
+
+    output_path = json_path.with_name(json_path.stem.replace("_middle", "") + "_post_processed.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+
+    print(f"Wrote {output_path}")
 
 
 if __name__ == "__main__":
