@@ -240,6 +240,54 @@ def build_unified_items_from_merged(
     return items
 
 
+def build_unified_items_from_postprocessed(
+    postprocessed_document: dict,
+    visuals_by_page_idx: dict[int, list],
+    captions: dict[str, str],
+) -> list[UnifiedItem]:
+    """Same output shape as build_unified_items, but built from
+    `post_process.pipeline.process_mineru_json` output (document_title,
+    total_pages, pages: [{page_num (1-indexed), section, title, text,
+    nodes}]) plus visuals extracted separately via
+    `middle_visuals.extract_visuals` (page_idx, 0-indexed) — post_process
+    drops image blocks by design, so visuals are joined back here by
+    page number instead of coming from the same tree.
+
+    visuals_by_page_idx: 0-indexed page_idx -> list[MiddleVisual].
+    Visuals with relevance != "semantic" are dropped entirely, same as
+    build_unified_items_from_merged.
+
+    captions: item_id -> caption text, keyed by each visual's own
+    item_id (see middle_visuals.extract_visuals).
+    """
+    items = []
+
+    for page in postprocessed_document.get("pages", []):
+        page_num = page["page_num"]
+        page_idx = page_num - 1
+
+        text = page.get("text", "")
+        if text:
+            items.append(UnifiedItem(
+                item_id=f"page{page_idx}#text",
+                page_idx=page_idx,
+                content_type="text",
+                text=text,
+            ))
+
+        for visual in visuals_by_page_idx.get(page_idx, []):
+            if visual.relevance != "semantic":
+                continue
+            items.append(UnifiedItem(
+                item_id=visual.item_id,
+                page_idx=page_idx,
+                content_type=visual.type,
+                text=_render_visual_item(visual.item_id, captions.get(visual.item_id)),
+            ))
+
+    return items
+
+
 def captions_by_item_id(
     content_list: list[dict],
     pdf_stem: str,
