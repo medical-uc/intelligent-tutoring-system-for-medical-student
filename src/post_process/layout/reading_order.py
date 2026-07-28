@@ -1,5 +1,5 @@
 from typing import List, Optional
-from post_process.models.block import Block
+from ..models.block import Block
 
 def _merge_paragraphs(blocks: List[Block]) -> List[Block]:
     if not blocks:

@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Dict, Any, Optional
-from post_process.models.feature import Feature
+from .feature import Feature
 
 @dataclass
 class Block:

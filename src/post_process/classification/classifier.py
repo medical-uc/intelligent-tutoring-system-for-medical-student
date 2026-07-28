@@ -1,7 +1,7 @@
 import re
 from typing import List, Set, Dict
-from post_process.models.block import Block
-from post_process.classification.rules import score_block
+from ..models.block import Block
+from .rules import score_block
 
 SECTION_NUM_REGEX = re.compile(r"^\s*0?\d\s*$", re.IGNORECASE)
 

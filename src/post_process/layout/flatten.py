@@ -1,6 +1,6 @@
 import re
 from typing import List, Dict, Any
-from post_process.models.block import Block
+from ..models.block import Block
 
 def _extract_spans_text_and_media(lines: List[Dict[str, Any]]):
     text_parts = []

@@ -1,6 +1,6 @@
 import re
 from typing import List, Dict, Set, Optional
-from post_process.models.block import Block
+from ..models.block import Block
 
 PAGE_NUM_REGEX = re.compile(r"^\s*(?:page\s*)?\d+(?:\s*/\s*\d+|\s+of\s+\d+)?\s*$", re.IGNORECASE)
 

@@ -1,13 +1,13 @@
 from typing import Dict, Any
 
-from post_process.parser import parse_json
-from post_process.layout.flatten import flatten_layout
-from post_process.layout.features import extract_features
-from post_process.layout.header_footer import remove_headers_footers
-from post_process.layout.reading_order import reconstruct_reading_order
-from post_process.classification.classifier import classify_blocks
-from post_process.tree.builder import build_semantic_tree
-from post_process.renderer.json_render import render_json
+from .parser import parse_json
+from .layout.flatten import flatten_layout
+from .layout.features import extract_features
+from .layout.header_footer import remove_headers_footers
+from .layout.reading_order import reconstruct_reading_order
+from .classification.classifier import classify_blocks
+from .tree.builder import build_semantic_tree
+from .renderer.json_render import render_json
 
 def process_mineru_json(json_path: str, confidence_threshold: float = 0.7) -> Dict[str, Any]:
     """

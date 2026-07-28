@@ -1,7 +1,7 @@
 import re
 from html.parser import HTMLParser
 from typing import List
-from post_process.models.node import Node, NodeType
+from ..models.node import Node, NodeType
 
 class TableHTMLParser(HTMLParser):
     def __init__(self):

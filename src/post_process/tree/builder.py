@@ -1,7 +1,7 @@
 from typing import List, Dict, Optional
-from post_process.models.block import Block
-from post_process.models.node import Node, NodeType
-from post_process.tree.list_builder import ListStackHandler, patch_missing_sequence_numbers
+from ..models.block import Block
+from ..models.node import Node, NodeType
+from .list_builder import ListStackHandler, patch_missing_sequence_numbers
 
 def build_semantic_tree(blocks: List[Block]) -> Node:
     """

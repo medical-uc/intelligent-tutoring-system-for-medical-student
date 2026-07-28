@@ -1,7 +1,7 @@
 import re
 from typing import List, Tuple, Optional
-from post_process.models.block import Block
-from post_process.models.node import Node, NodeType
+from ..models.block import Block
+from ..models.node import Node, NodeType
 
 BULLET_PREFIX_REGEX = re.compile(r"^\s*([-*•–—○▪■]|\d+[\.\)]|[a-zA-Z][\.\)])\s*")
 BULLET_CHAR_REGEX = re.compile(r"^\s*[-*•–—○▪■]\s+")

@@ -1,7 +1,7 @@
 import re
 from typing import Dict, Any, List, Optional
-from post_process.models.node import Node, NodeType
-from post_process.renderer.markdown_render import html_table_to_markdown
+from ..models.node import Node, NodeType
+from .markdown_render import html_table_to_markdown
 
 def _render_node_text(node: Node, indent_level: int = 0) -> str:
     """Helper to render text for a node within a page/slide."""

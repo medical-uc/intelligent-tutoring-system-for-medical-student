@@ -1,7 +1,7 @@
 import re
 from typing import List, Dict, Any
-from post_process.models.block import Block
-from post_process.models.feature import Feature
+from ..models.block import Block
+from ..models.feature import Feature
 
 BULLET_REGEX = re.compile(r"^\s*[-*•–—○▪■]\s+")
 NUMBER_REGEX = re.compile(r"^\s*(\d+|[a-zA-Z])[\.\)]\s+")

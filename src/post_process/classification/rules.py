@@ -1,6 +1,6 @@
 import re
 from typing import Dict
-from post_process.models.block import Block
+from ..models.block import Block
 
 BULLET_PREFIX_PATTERN = re.compile(r"^\s*([-*•–—○▪■]|\d+[\.\)]|[a-zA-Z][\.\)])\s+")
 SECTION_NUM_PATTERN = re.compile(r"^\s*(?:0?\d|section\s*\d+|part\s*[\d\w]+)\s*$", re.IGNORECASE)
