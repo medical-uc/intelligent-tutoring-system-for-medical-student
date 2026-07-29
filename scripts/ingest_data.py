@@ -6,19 +6,20 @@ for the interactive, cell-by-cell version of the same stages):
     unify text -> semantic chunk
 
 Usage (run with the project's main .venv — .venv-mineru is MinerU-only):
-    .venv/bin/python src/ingestion/run_pipeline.py --pdf path/to/file.pdf
-    .venv/bin/python src/ingestion/run_pipeline.py --dir path/to/pdf_dir
+    .venv/bin/python scripts/ingest_data.py --pdf path/to/file.pdf
+    .venv/bin/python scripts/ingest_data.py --dir path/to/pdf_dir
 """
 
 import argparse
 import json
 import logging
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
@@ -32,6 +33,8 @@ from captioning.qwen_vl import QwenVLCaptioner
 from ingestion.middle_visuals import extract_visuals
 from ingestion.semantic_chunk import SemanticChunker
 from ingestion.unify import build_unified_items_from_postprocessed, render_unified_markdown, render_unified_text
+from ingestion.upload_visuals import make_client as make_s3_client
+from ingestion.upload_visuals import upload_captions_file
 from post_process.pipeline import process_mineru_json
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
@@ -54,7 +57,7 @@ def run_mineru(pdf_path: Path) -> None:
         raise RuntimeError(f"MinerU extraction failed for {pdf_path}")
 
 
-def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner) -> Path:
+def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: str) -> Path:
     """Runs every stage for one PDF and writes all intermediate + final
     artifacts under output/{pdf_stem}/auto/. Returns the chunks JSON path."""
     pdf_stem = pdf_path.stem
@@ -97,8 +100,12 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner) -> Path:
             "caption": caption,
         })
 
-    with open(run_dir / f"{pdf_stem}_v1_captions.json", "w") as f:
+    captions_path = run_dir / f"{pdf_stem}_v1_captions.json"
+    with open(captions_path, "w") as f:
         json.dump(caption_results, f, indent=2)
+
+    log.info("[%s] Upload semantic visuals to MinIO", pdf_stem)
+    upload_captions_file(s3_client, bucket, captions_path)
 
     log.info("[%s] Unify text", pdf_stem)
     captions = {r["item_id"]: r["caption"] for r in caption_results}
@@ -172,6 +179,7 @@ def main() -> None:
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--pdf", type=Path, help="Path to a single PDF to process.")
     group.add_argument("--dir", type=Path, help="Directory of PDFs (non-recursive) to process.")
+    parser.add_argument("--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images"))
     args = parser.parse_args()
 
     if args.pdf:
@@ -184,10 +192,11 @@ def main() -> None:
 
     log.info("Processing %d PDF(s)", len(pdf_paths))
     captioner = QwenVLCaptioner()
+    s3_client = make_s3_client()
     results = []
     for pdf_path in tqdm(pdf_paths, desc="PDFs", unit="pdf"):
         try:
-            results.append(run_pipeline(pdf_path, captioner))
+            results.append(run_pipeline(pdf_path, captioner, s3_client, args.bucket))
         except Exception:
             log.exception("[%s] FAILED", pdf_path.stem)
     captioner.unload()

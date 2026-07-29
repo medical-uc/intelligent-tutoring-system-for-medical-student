@@ -1,6 +1,6 @@
 """Uploads filtered semantic-visual crops to the MinIO `semantic-images`
-bucket, reading `{pdf_stem}_v1_captions.json` written by run_pipeline.py
-(already filtered to relevance == "semantic" — see run_pipeline.py:86).
+bucket, reading `{pdf_stem}_v1_captions.json` written by ingest_data.py
+(already filtered to relevance == "semantic" — see ingest_data.py:86).
 
 Object key: {pdf_stem}/{item_id}{ext}
 Object metadata: content_type, caption (truncated to 2KB — S3 metadata
