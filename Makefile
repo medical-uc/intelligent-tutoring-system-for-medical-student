@@ -1,6 +1,6 @@
 COMPOSE = docker compose -f docker-compose.yml --env-file .env
 
-.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs neo4j-up neo4j-down neo4j-logs up down logs restart ps clean
+.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs neo4j-up neo4j-down neo4j-logs up down logs restart ps clean psql
 
 # Copy .env.example -> .env on first run (skipped if already present)
 setup:
@@ -57,3 +57,8 @@ ps:
 
 clean:
 	$(COMPOSE) down -v
+
+# Connect to postgres via psql inside the container. Override db, e.g. `make psql db=mlflow`
+db ?= app_db
+psql:
+	$(COMPOSE) exec postgres psql -U $${POSTGRES_USER:-mlflow} -d $(db)
