@@ -48,7 +48,7 @@ services:
 
   mlflow:
     build:
-      context: .
+      context: docker
       dockerfile: mlflow.Dockerfile
     restart: unless-stopped
     depends_on:
@@ -68,6 +68,26 @@ services:
     ports:
       - "5001:5000"
 
+  neo4j:
+    image: neo4j:5-community
+    restart: unless-stopped
+    environment:
+      NEO4J_AUTH: ${NEO4J_USER}/${NEO4J_PASSWORD}
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:7474 || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
 volumes:
   mlflow_postgres:
   mlflow_minio:
+  neo4j_data:
+  neo4j_logs:

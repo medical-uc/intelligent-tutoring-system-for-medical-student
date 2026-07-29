@@ -1,10 +1,10 @@
-COMPOSE = docker compose -f docker/docker-compose.yml --env-file docker/.env
+COMPOSE = docker compose -f docker-compose.yml --env-file .env
 
-.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs up down logs restart ps clean
+.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs neo4j-up neo4j-down neo4j-logs up down logs restart ps clean
 
 # Copy .env.example -> .env on first run (skipped if already present)
 setup:
-	test -f docker/.env || cp docker/.env.example docker/.env
+	test -f .env || cp .env.example .env
 
 # MLflow tracking server (postgres backend + s3/minio artifact store)
 mlflow-up: setup
@@ -28,6 +28,16 @@ minio-down:
 
 minio-logs:
 	$(COMPOSE) logs -f minio
+
+# Neo4j (student knowledge graph)
+neo4j-up: setup
+	$(COMPOSE) up -d neo4j
+
+neo4j-down:
+	$(COMPOSE) stop neo4j
+
+neo4j-logs:
+	$(COMPOSE) logs -f neo4j
 
 # Full stack
 up: setup
