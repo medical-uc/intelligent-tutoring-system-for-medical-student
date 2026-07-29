@@ -58,7 +58,7 @@ ps:
 clean:
 	$(COMPOSE) down -v
 
-# Connect to postgres via psql inside the container. Override db, e.g. `make psql db=mlflow`
-db ?= app_db
+# Connect to postgres via psql inside the container. Override db, e.g. `make psql db=other`
+db ?= mlflow
 psql:
 	$(COMPOSE) exec postgres psql -U $${POSTGRES_USER:-mlflow} -d $(db)
