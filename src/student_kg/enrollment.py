@@ -10,8 +10,8 @@ event chains onto the previous one via :NEXT, and :LATEST_EVENT always
 points at the newest event so appends don't have to walk the chain to
 find where to attach.
 
-Usage (needs the neo4j stack up: `make neo4j-up`):
-    .venv/bin/python src/student_kg/enrollment.py --student-id s123 --name "Jane Doe" --cohort 2026A
+Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root):
+    .venv/bin/python -m src.student_kg.enrollment --name "Jane Doe" --academic-year 3
 """
 
 import argparse
@@ -20,7 +20,7 @@ import uuid
 
 from neo4j import Driver
 
-from driver import ensure_constraints, make_driver
+from src.student_kg.driver import ensure_constraints, make_driver
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("enrollment")
@@ -29,7 +29,7 @@ _ENROLL_QUERY = """
 CREATE (s:Student {
     id: $student_id,
     name: $name,
-    cohort: $cohort,
+    academic_year: $academic_year,
     enrolled_at: datetime()
 })
 CREATE (e:InteractionEvent {
@@ -43,32 +43,33 @@ RETURN s.id AS student_id, e.id AS event_id
 """
 
 
-def enroll_student(driver: Driver, student_id: str, name: str, cohort: str) -> str:
+def enroll_student(driver: Driver, name: str, academic_year: int) -> tuple[str, str]:
+    assert 1 <= academic_year <= 6, f"academic_year must be 1-6, got {academic_year}"
+    student_id = str(uuid.uuid4())
     event_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
             _ENROLL_QUERY,
             student_id=student_id,
             name=name,
-            cohort=cohort,
+            academic_year=academic_year,
             event_id=event_id,
         ).single()
     assert record, f"enrollment failed for student_id={student_id}"
     log.info("enrolled student_id=%s genesis_event_id=%s", record["student_id"], record["event_id"])
-    return record["event_id"]
+    return record["student_id"], record["event_id"]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--student-id", required=True)
     parser.add_argument("--name", required=True)
-    parser.add_argument("--cohort", required=True)
+    parser.add_argument("--academic-year", type=int, required=True, choices=range(1, 7))
     args = parser.parse_args()
 
     driver = make_driver()
     try:
         ensure_constraints(driver)
-        enroll_student(driver, args.student_id, args.name, args.cohort)
+        enroll_student(driver, args.name, args.academic_year)
     finally:
         driver.close()
 
