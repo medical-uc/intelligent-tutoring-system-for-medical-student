@@ -57,8 +57,14 @@ def upload_captions_file(client, bucket: str, captions_path: Path) -> int:
     for entry in captions:
         image_path = Path(entry["image_path"])
         if not image_path.exists():
-            log.warning("[%s] missing image, skipping: %s", pdf_stem, image_path)
-            continue
+            # Stored path is often absolute from the machine that ran ingestion
+            # (e.g. a remote notebook host) and won't resolve locally. Images
+            # live alongside the captions file at auto/images/{filename}.
+            local_path = captions_path.parent / "images" / image_path.name
+            if not local_path.exists():
+                log.warning("[%s] missing image, skipping: %s", pdf_stem, image_path)
+                continue
+            image_path = local_path
 
         key = f"{pdf_stem}/{entry['item_id']}{image_path.suffix}"
         caption = entry.get("caption") or ""
