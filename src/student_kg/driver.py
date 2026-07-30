@@ -31,3 +31,7 @@ def ensure_constraints(driver: Driver) -> None:
             "CREATE CONSTRAINT event_id_unique IF NOT EXISTS "
             "FOR (e:InteractionEvent) REQUIRE e.id IS UNIQUE"
         )
+        session.run(
+            "CREATE CONSTRAINT session_token_hash_unique IF NOT EXISTS "
+            "FOR (sess:Session) REQUIRE sess.token_hash IS UNIQUE"
+        )

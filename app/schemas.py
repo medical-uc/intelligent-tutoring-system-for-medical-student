@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from pydantic import BaseModel, Field
 
 
@@ -10,3 +12,15 @@ class StudentRegisterRequest(BaseModel):
 class StudentRegisterResponse(BaseModel):
     student_id: str
     event_id: str
+    token: str
+    expires_at: datetime
+
+
+class StudentLoginRequest(BaseModel):
+    student_number: str = Field(min_length=1)
+
+
+class SessionResponse(BaseModel):
+    student_id: str
+    token: str
+    expires_at: datetime
