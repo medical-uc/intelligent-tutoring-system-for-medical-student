@@ -24,6 +24,10 @@ def ensure_constraints(driver: Driver) -> None:
             "FOR (s:Student) REQUIRE s.id IS UNIQUE"
         )
         session.run(
+            "CREATE CONSTRAINT student_number_unique IF NOT EXISTS "
+            "FOR (s:Student) REQUIRE s.student_number IS UNIQUE"
+        )
+        session.run(
             "CREATE CONSTRAINT event_id_unique IF NOT EXISTS "
             "FOR (e:InteractionEvent) REQUIRE e.id IS UNIQUE"
         )

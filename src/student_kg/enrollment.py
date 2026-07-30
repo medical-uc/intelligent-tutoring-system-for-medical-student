@@ -11,7 +11,7 @@ points at the newest event so appends don't have to walk the chain to
 find where to attach.
 
 Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root):
-    .venv/bin/python -m src.student_kg.enrollment --name "Jane Doe" --academic-year 3
+    .venv/bin/python -m src.student_kg.enrollment --full-name "Jane Doe" --student-number "21-2023-045" --academic-year 3
 """
 
 import argparse
@@ -28,7 +28,8 @@ log = logging.getLogger("enrollment")
 _ENROLL_QUERY = """
 CREATE (s:Student {
     id: $student_id,
-    name: $name,
+    full_name: $full_name,
+    student_number: $student_number,
     academic_year: $academic_year,
     enrolled_at: datetime()
 })
@@ -43,7 +44,7 @@ RETURN s.id AS student_id, e.id AS event_id
 """
 
 
-def enroll_student(driver: Driver, name: str, academic_year: int) -> tuple[str, str]:
+def enroll_student(driver: Driver, full_name: str, student_number: str, academic_year: int) -> tuple[str, str]:
     assert 1 <= academic_year <= 6, f"academic_year must be 1-6, got {academic_year}"
     student_id = str(uuid.uuid4())
     event_id = str(uuid.uuid4())
@@ -51,7 +52,8 @@ def enroll_student(driver: Driver, name: str, academic_year: int) -> tuple[str, 
         record = session.run(
             _ENROLL_QUERY,
             student_id=student_id,
-            name=name,
+            full_name=full_name,
+            student_number=student_number,
             academic_year=academic_year,
             event_id=event_id,
         ).single()
@@ -62,14 +64,15 @@ def enroll_student(driver: Driver, name: str, academic_year: int) -> tuple[str, 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--name", required=True)
+    parser.add_argument("--full-name", required=True)
+    parser.add_argument("--student-number", required=True)
     parser.add_argument("--academic-year", type=int, required=True, choices=range(1, 7))
     args = parser.parse_args()
 
     driver = make_driver()
     try:
         ensure_constraints(driver)
-        enroll_student(driver, args.name, args.academic_year)
+        enroll_student(driver, args.full_name, args.student_number, args.academic_year)
     finally:
         driver.close()
 
