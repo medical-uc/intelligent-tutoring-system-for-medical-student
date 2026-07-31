@@ -97,6 +97,7 @@ def log_attempt(
         selected_index=body.selected_index,
         correct=is_correct,
         confidence=body.confidence.value,
+        time_taken_seconds=body.time_taken_seconds,
     )
 
     return LogAttemptResponse(event_id=event_id, correct=is_correct)

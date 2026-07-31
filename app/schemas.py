@@ -64,6 +64,7 @@ class CheckAnswerResponse(BaseModel):
 class LogAttemptRequest(BaseModel):
     selected_index: int = Field(ge=0)
     confidence: ConfidenceLevel
+    time_taken_seconds: float = Field(ge=0)
 
 
 class LogAttemptResponse(BaseModel):
