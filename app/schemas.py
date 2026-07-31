@@ -62,6 +62,7 @@ class CheckAnswerResponse(BaseModel):
 
 
 class LogAttemptRequest(BaseModel):
+    session_id: str
     selected_index: int = Field(ge=0)
     confidence: ConfidenceLevel
     time_taken_seconds: float = Field(ge=0)
@@ -70,3 +71,29 @@ class LogAttemptRequest(BaseModel):
 class LogAttemptResponse(BaseModel):
     event_id: str
     correct: bool
+
+
+class StartSessionResponse(BaseModel):
+    session_id: str
+
+
+class EndSessionResponse(BaseModel):
+    session_id: str
+    question_count: int
+    correct_count: int
+    duration_seconds: int
+
+
+class HistoryItem(BaseModel):
+    session_id: str
+    topic_path: str
+    question_count: int
+    correct_count: int
+    score_percent: int
+    duration_seconds: int
+    started_at: datetime
+    ended_at: datetime
+
+
+class HistoryResponse(BaseModel):
+    items: list[HistoryItem]
