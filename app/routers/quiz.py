@@ -3,8 +3,10 @@ from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
-    AnswerSubmitRequest,
-    AnswerSubmitResponse,
+    CheckAnswerRequest,
+    CheckAnswerResponse,
+    LogAttemptRequest,
+    LogAttemptResponse,
     OptionOut,
     QuestionOut,
     TopicListResponse,
@@ -29,6 +31,18 @@ def _to_question_out(q: Question) -> QuestionOut:
     )
 
 
+def _get_question_or_404(bank: QuestionBank, uid: str) -> Question:
+    question = bank.get(uid)
+    if question is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such question")
+    return question
+
+
+def _validate_selected_index(question: Question, selected_index: int) -> None:
+    if selected_index < 0 or selected_index >= len(question.options):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="selected_index out of range")
+
+
 @router.get("/topics", response_model=TopicListResponse)
 def list_topics(bank: QuestionBank = Depends(_get_bank)) -> TopicListResponse:
     return TopicListResponse(topics=bank.topics())
@@ -45,29 +59,44 @@ def get_questions_for_topic(
     return [_to_question_out(q) for q in questions]
 
 
-@router.post("/questions/{uid}/answer", response_model=AnswerSubmitResponse)
-def submit_answer(
+@router.post("/questions/{uid}/check", response_model=CheckAnswerResponse)
+def check_answer(
     uid: str,
-    body: AnswerSubmitRequest,
+    body: CheckAnswerRequest,
+    bank: QuestionBank = Depends(_get_bank),
+) -> CheckAnswerResponse:
+    """Pure grading — no auth, no graph write. Lets the frontend show instant right/wrong
+    feedback before the student has picked a confidence level."""
+    question = _get_question_or_404(bank, uid)
+    _validate_selected_index(question, body.selected_index)
+
+    correct_index = question.correct_option_index()
+    return CheckAnswerResponse(correct=body.selected_index == correct_index, correct_index=correct_index)
+
+
+@router.post("/questions/{uid}/log", response_model=LogAttemptResponse)
+def log_attempt(
+    uid: str,
+    body: LogAttemptRequest,
     student_id: str = Depends(get_current_student_id),
     bank: QuestionBank = Depends(_get_bank),
     driver: Driver = Depends(get_driver),
-) -> AnswerSubmitResponse:
-    question = bank.get(uid)
-    if question is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such question")
-    if body.selected_index < 0 or body.selected_index >= len(question.options):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="selected_index out of range")
+) -> LogAttemptResponse:
+    """Single write for the whole attempt — called once both selected_index and confidence
+    are known, so exactly one InteractionEvent is created (never a partial one)."""
+    question = _get_question_or_404(bank, uid)
+    _validate_selected_index(question, body.selected_index)
 
     correct_index = question.correct_option_index()
     is_correct = body.selected_index == correct_index
 
-    record_attempt(
+    event_id = record_attempt(
         driver,
         student_id=student_id,
         question_uid=uid,
         selected_index=body.selected_index,
         correct=is_correct,
+        confidence=body.confidence.value,
     )
 
-    return AnswerSubmitResponse(correct=is_correct, correct_index=correct_index)
+    return LogAttemptResponse(event_id=event_id, correct=is_correct)

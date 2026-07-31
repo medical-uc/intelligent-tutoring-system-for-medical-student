@@ -6,9 +6,21 @@ InteractionEvent (type: QUIZ_ANSWER) linked to the student via :HAS_EVENT, and
 bank itself (src.quiz.bank) stays the source of truth for question content — only the
 grading result is persisted here.
 
+Confidence (guessing/unsure/confident) is captured on the same event as correctness,
+because a correct guess and a confident correct answer are not the same evidence of
+mastery, and a confident wrong answer is a stronger signal of a misconception than an
+unsure wrong answer.
+
+Grading itself is a separate, pure operation (see app/routers/quiz.py's /check endpoint,
+or Question.correct_option_index() in src/quiz/bank.py) — it does no graph write and needs
+no confidence, so the frontend can show instant right/wrong feedback. record_attempt() is
+the one write for the whole attempt, called only once both selected_index and confidence
+are known, so exactly one complete InteractionEvent is ever created — never a partial one.
+
 Usage:
     from src.quiz.attempts import record_attempt
-    record_attempt(driver, student_id, question_uid="...", selected_index=0, correct=True)
+    record_attempt(driver, student_id, question_uid="...", selected_index=0, correct=True,
+                   confidence="confident")
 """
 
 import uuid
@@ -24,6 +36,7 @@ CREATE (e:InteractionEvent {
     question_uid: $question_uid,
     selected_index: $selected_index,
     correct: $correct,
+    confidence: $confidence,
     ts: datetime()
 })
 CREATE (s)-[:HAS_EVENT]->(e)
@@ -40,9 +53,10 @@ def record_attempt(
     question_uid: str,
     selected_index: int,
     correct: bool,
+    confidence: str,
 ) -> str:
-    """Persists one graded attempt and returns the new event id. Raises if student_id
-    doesn't match a Student node."""
+    """Persists one fully-graded attempt (answer + confidence together) and returns the new
+    event id. Raises if student_id doesn't match a Student node."""
     event_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
@@ -52,6 +66,7 @@ def record_attempt(
             question_uid=question_uid,
             selected_index=selected_index,
             correct=correct,
+            confidence=confidence,
         ).single()
     assert record, f"attempt recording failed — no student with id={student_id}"
     return record["event_id"]
@@ -60,7 +75,7 @@ def record_attempt(
 _TOPIC_PROGRESS_QUERY = """
 MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
 WHERE e.question_uid IN $question_uids
-RETURN e.question_uid AS question_uid, e.correct AS correct, e.ts AS ts
+RETURN e.question_uid AS question_uid, e.correct AS correct, e.confidence AS confidence, e.ts AS ts
 ORDER BY e.ts ASC
 """
 

@@ -1,4 +1,5 @@
 from datetime import datetime
+from enum import Enum
 
 from pydantic import BaseModel, Field
 
@@ -45,10 +46,26 @@ class TopicListResponse(BaseModel):
     topics: list[str]
 
 
-class AnswerSubmitRequest(BaseModel):
+class ConfidenceLevel(str, Enum):
+    GUESSING = "guessing"
+    UNSURE = "unsure"
+    CONFIDENT = "confident"
+
+
+class CheckAnswerRequest(BaseModel):
     selected_index: int = Field(ge=0)
 
 
-class AnswerSubmitResponse(BaseModel):
+class CheckAnswerResponse(BaseModel):
     correct: bool
     correct_index: int
+
+
+class LogAttemptRequest(BaseModel):
+    selected_index: int = Field(ge=0)
+    confidence: ConfidenceLevel
+
+
+class LogAttemptResponse(BaseModel):
+    event_id: str
+    correct: bool
