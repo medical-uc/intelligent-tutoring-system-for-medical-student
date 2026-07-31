@@ -1,0 +1,76 @@
+"""Records quiz answer attempts as InteractionEvents on the student graph.
+
+Follows the same event-chain shape as enrollment's genesis event: every attempt is an
+InteractionEvent (type: QUIZ_ANSWER) linked to the student via :HAS_EVENT, and
+:LATEST_EVENT is repointed so the chain can be walked without a full scan. The question
+bank itself (src.quiz.bank) stays the source of truth for question content — only the
+grading result is persisted here.
+
+Usage:
+    from src.quiz.attempts import record_attempt
+    record_attempt(driver, student_id, question_uid="...", selected_index=0, correct=True)
+"""
+
+import uuid
+
+from neo4j import Driver
+
+_RECORD_ATTEMPT_QUERY = """
+MATCH (s:Student {id: $student_id})
+OPTIONAL MATCH (s)-[latest:LATEST_EVENT]->(prev:InteractionEvent)
+CREATE (e:InteractionEvent {
+    id: $event_id,
+    type: "QUIZ_ANSWER",
+    question_uid: $question_uid,
+    selected_index: $selected_index,
+    correct: $correct,
+    ts: datetime()
+})
+CREATE (s)-[:HAS_EVENT]->(e)
+FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(e))
+DELETE latest
+CREATE (s)-[:LATEST_EVENT]->(e)
+RETURN e.id AS event_id
+"""
+
+
+def record_attempt(
+    driver: Driver,
+    student_id: str,
+    question_uid: str,
+    selected_index: int,
+    correct: bool,
+) -> str:
+    """Persists one graded attempt and returns the new event id. Raises if student_id
+    doesn't match a Student node."""
+    event_id = str(uuid.uuid4())
+    with driver.session() as session:
+        record = session.run(
+            _RECORD_ATTEMPT_QUERY,
+            student_id=student_id,
+            event_id=event_id,
+            question_uid=question_uid,
+            selected_index=selected_index,
+            correct=correct,
+        ).single()
+    assert record, f"attempt recording failed — no student with id={student_id}"
+    return record["event_id"]
+
+
+_TOPIC_PROGRESS_QUERY = """
+MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
+WHERE e.question_uid IN $question_uids
+RETURN e.question_uid AS question_uid, e.correct AS correct, e.ts AS ts
+ORDER BY e.ts ASC
+"""
+
+
+def attempts_for_questions(driver: Driver, student_id: str, question_uids: list[str]) -> list[dict]:
+    """Returns every attempt this student made on the given question uids, oldest first."""
+    with driver.session() as session:
+        records = session.run(
+            _TOPIC_PROGRESS_QUERY,
+            student_id=student_id,
+            question_uids=question_uids,
+        )
+        return [dict(r) for r in records]

@@ -7,12 +7,13 @@ Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root):
 from dotenv import load_dotenv
 from fastapi import FastAPI
 
-from app.routers import students
+from app.routers import quiz, students
 
 load_dotenv()
 
 app = FastAPI(title="Student Knowledge Graph API")
 app.include_router(students.router)
+app.include_router(quiz.router)
 
 
 @app.get("/health")

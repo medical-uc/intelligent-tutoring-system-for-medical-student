@@ -24,3 +24,31 @@ class SessionResponse(BaseModel):
     student_id: str
     token: str
     expires_at: datetime
+
+
+class OptionOut(BaseModel):
+    """Client-facing option — no `correct` flag. Position doubles as the answer id."""
+
+    index: int
+    text: str
+
+
+class QuestionOut(BaseModel):
+    uid: str
+    stem: str
+    options: list[OptionOut]
+    topic_tag: list[str]
+    difficulty: int
+
+
+class TopicListResponse(BaseModel):
+    topics: list[str]
+
+
+class AnswerSubmitRequest(BaseModel):
+    selected_index: int = Field(ge=0)
+
+
+class AnswerSubmitResponse(BaseModel):
+    correct: bool
+    correct_index: int
