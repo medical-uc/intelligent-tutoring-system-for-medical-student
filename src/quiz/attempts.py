@@ -1,10 +1,12 @@
 """Records quiz answer attempts as InteractionEvents on the student graph.
 
-Follows the same event-chain shape as enrollment's genesis event: every attempt is an
-InteractionEvent (type: QUIZ_ANSWER) linked to the student via :HAS_EVENT, and
-:LATEST_EVENT is repointed so the chain can be walked without a full scan. The question
-bank itself (src.quiz.bank) stays the source of truth for question content — only the
-grading result is persisted here.
+Each attempt is an InteractionEvent (type: QUIZ_ANSWER) linked only to its QuizSession via
+:HAS_ANSWER — not to the student's top-level :HAS_EVENT/:NEXT timeline chain. Every
+attempt already belongs to exactly one session (session_id is required), so the session
+hop is never lossy, and skipping the direct Student edge avoids extending the chain-walk
+timeline (meant for session/enrollment-level events) down to every single question. The
+question bank itself (src.quiz.bank) stays the source of truth for question content — only
+the grading result is persisted here.
 
 Confidence (guessing/unsure/confident) and time_taken_seconds are captured on the same
 event as correctness, because a correct guess and a confident correct answer are not the
@@ -40,7 +42,6 @@ from neo4j import Driver
 _RECORD_ATTEMPT_QUERY = """
 MATCH (s:Student {id: $student_id})
 MATCH (s)-[:HAS_EVENT]->(sess:QuizSession {id: $session_id})
-OPTIONAL MATCH (s)-[latest:LATEST_EVENT]->(prev:InteractionEvent)
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "QUIZ_ANSWER",
@@ -51,25 +52,26 @@ CREATE (e:InteractionEvent {
     time_taken_seconds: $time_taken_seconds,
     ts: datetime()
 })
-CREATE (s)-[:HAS_EVENT]->(e)
 CREATE (sess)-[:HAS_ANSWER]->(e)
-FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(e))
-DELETE latest
-CREATE (s)-[:LATEST_EVENT]->(e)
 MERGE (q:Question {uid: $question_uid})
 CREATE (e)-[:FOR_QUESTION]->(q)
 WITH e, q
-CALL {
-    WITH q
+CALL (q) {
     UNWIND range(0, size($topic_tag) - 1) AS i
-    WITH i, reduce(p = "", j IN range(0, i) | p + CASE WHEN j = 0 THEN "" ELSE " > " END + $topic_tag[j]) AS topic_path
+    WITH q, i, reduce(p = "", j IN range(0, i) | p + CASE WHEN j = 0 THEN "" ELSE " > " END + $topic_tag[j]) AS topic_path
     MERGE (t:Topic {path: topic_path})
     ON CREATE SET t.name = $topic_tag[i]
     WITH q, i, t
     ORDER BY i DESC
     WITH q, collect(t) AS topics
-    FOREACH (_ IN CASE WHEN size(topics) > 0 THEN [1] ELSE [] END | MERGE (q)-[:BELONGS_TO]->(topics[0]))
-    FOREACH (i IN range(0, size(topics) - 2) | MERGE (topics[i])-[:SUB_TOPIC_OF]->(topics[i + 1]))
+    CALL (topics) {
+        UNWIND range(0, size(topics) - 2) AS j
+        WITH topics[j] AS child, topics[j + 1] AS parent
+        MERGE (child)-[:SUB_TOPIC_OF]->(parent)
+    }
+    WITH q, topics
+    UNWIND topics[0..1] AS leaf
+    MERGE (q)-[:BELONGS_TO]->(leaf)
 }
 RETURN e.id AS event_id
 """
@@ -115,7 +117,7 @@ def record_attempt(
 
 
 _TOPIC_PROGRESS_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
+MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(:QuizSession)-[:HAS_ANSWER]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
 WHERE e.question_uid IN $question_uids
 RETURN e.question_uid AS question_uid, e.correct AS correct, e.confidence AS confidence,
        e.time_taken_seconds AS time_taken_seconds, e.ts AS ts

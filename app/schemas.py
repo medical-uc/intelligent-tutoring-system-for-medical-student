@@ -12,7 +12,6 @@ class StudentRegisterRequest(BaseModel):
 
 class StudentRegisterResponse(BaseModel):
     student_id: str
-    event_id: str
     token: str
     expires_at: datetime
 

@@ -16,11 +16,10 @@ def register_student(
     body: StudentRegisterRequest,
     driver: Driver = Depends(get_driver),
 ) -> StudentRegisterResponse:
-    student_id, event_id = enroll_student(driver, body.full_name, body.student_number, body.academic_year)
+    student_id = enroll_student(driver, body.full_name, body.student_number, body.academic_year)
     session = create_session(driver, student_id)
     return StudentRegisterResponse(
         student_id=student_id,
-        event_id=event_id,
         token=session.token,
         expires_at=session.expires_at,
     )
