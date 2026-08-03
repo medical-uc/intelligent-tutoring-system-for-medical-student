@@ -29,7 +29,8 @@ of a flat list of individual answers.
 Usage:
     from src.quiz.attempts import record_attempt
     record_attempt(driver, student_id, session_id="...", question_uid="...", selected_index=0,
-                   correct=True, confidence="confident", time_taken_seconds=12.4)
+                   correct=True, confidence="confident", time_taken_seconds=12.4,
+                   topic_tag=["ENDOCRINOLOGY", "FUNCTIONS OF HORMONE"])
 """
 
 import uuid
@@ -55,6 +56,21 @@ CREATE (sess)-[:HAS_ANSWER]->(e)
 FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(e))
 DELETE latest
 CREATE (s)-[:LATEST_EVENT]->(e)
+MERGE (q:Question {uid: $question_uid})
+CREATE (e)-[:FOR_QUESTION]->(q)
+WITH e, q
+CALL {
+    WITH q
+    UNWIND range(0, size($topic_tag) - 1) AS i
+    WITH i, reduce(p = "", j IN range(0, i) | p + CASE WHEN j = 0 THEN "" ELSE " > " END + $topic_tag[j]) AS topic_path
+    MERGE (t:Topic {path: topic_path})
+    ON CREATE SET t.name = $topic_tag[i]
+    WITH q, i, t
+    ORDER BY i DESC
+    WITH q, collect(t) AS topics
+    FOREACH (_ IN CASE WHEN size(topics) > 0 THEN [1] ELSE [] END | MERGE (q)-[:BELONGS_TO]->(topics[0]))
+    FOREACH (i IN range(0, size(topics) - 2) | MERGE (topics[i])-[:SUB_TOPIC_OF]->(topics[i + 1]))
+}
 RETURN e.id AS event_id
 """
 
@@ -68,12 +84,19 @@ def record_attempt(
     correct: bool,
     confidence: str,
     time_taken_seconds: float,
+    topic_tag: list[str],
 ) -> str | None:
     """Persists one fully-graded attempt (answer + confidence + timing together), linked to
     its QuizSession, and returns the new event id. Returns None if session_id doesn't match
     a session belonging to this student — a client-reachable condition (stale/foreign
     session id), not a server precondition failure, so the caller should turn this into a
-    404 rather than treating it as an assertion violation."""
+    404 rather than treating it as an assertion violation.
+
+    Also merges a Question node (deduped by uid across every student/session that has ever
+    answered it) and a chain of nested Topic nodes from topic_tag (e.g.
+    ["ENDOCRINOLOGY", "FUNCTIONS OF HORMONE"] becomes two Topic nodes linked by
+    :SUB_TOPIC_OF), so mastery can be aggregated per-question or rolled up to any topic
+    level instead of living only as a flat string property on the attempt."""
     event_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
@@ -86,6 +109,7 @@ def record_attempt(
             correct=correct,
             confidence=confidence,
             time_taken_seconds=time_taken_seconds,
+            topic_tag=topic_tag,
         ).single()
     return record["event_id"] if record else None
 

@@ -35,3 +35,11 @@ def ensure_constraints(driver: Driver) -> None:
             "CREATE CONSTRAINT session_token_hash_unique IF NOT EXISTS "
             "FOR (sess:Session) REQUIRE sess.token_hash IS UNIQUE"
         )
+        session.run(
+            "CREATE CONSTRAINT question_uid_unique IF NOT EXISTS "
+            "FOR (q:Question) REQUIRE q.uid IS UNIQUE"
+        )
+        session.run(
+            "CREATE CONSTRAINT topic_path_unique IF NOT EXISTS "
+            "FOR (t:Topic) REQUIRE t.path IS UNIQUE"
+        )

@@ -158,6 +158,7 @@ def log_attempt(
         correct=is_correct,
         confidence=body.confidence.value,
         time_taken_seconds=body.time_taken_seconds,
+        topic_tag=question.topic_tag,
     )
     if event_id is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such session for this student")
