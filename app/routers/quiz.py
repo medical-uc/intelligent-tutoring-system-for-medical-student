@@ -5,6 +5,8 @@ from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
     CheckAnswerRequest,
     CheckAnswerResponse,
+    DueReviewItem,
+    DueReviewResponse,
     EndSessionResponse,
     HistoryItem,
     HistoryResponse,
@@ -15,7 +17,7 @@ from app.schemas import (
     StartSessionResponse,
     TopicListResponse,
 )
-from src.quiz.attempts import record_attempt
+from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
 from src.quiz.sessions import end_session, history_for_student, start_session
 
@@ -116,6 +118,30 @@ def get_history(
         for s in sessions
     ]
     return HistoryResponse(items=items)
+
+
+@router.get("/review/due", response_model=DueReviewResponse)
+def get_due_for_review(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> DueReviewResponse:
+    """Questions this student has answered before whose spaced-repetition schedule says
+    they're due again now, soonest-due first. A question the student has never answered
+    has no schedule yet and never appears here — pair with /topics/{path}/questions for
+    "answer this for the first time" flows."""
+    items = due_for_review(driver, student_id=student_id)
+    return DueReviewResponse(
+        items=[
+            DueReviewItem(
+                question_uid=r["question_uid"],
+                streak=r["streak"],
+                interval_days=r["interval_days"],
+                last_reviewed_at=r["last_reviewed_at"].to_native(),
+                next_review_at=r["next_review_at"].to_native(),
+            )
+            for r in items
+        ]
+    )
 
 
 @router.post("/questions/{uid}/check", response_model=CheckAnswerResponse)

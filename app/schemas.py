@@ -96,3 +96,15 @@ class HistoryItem(BaseModel):
 
 class HistoryResponse(BaseModel):
     items: list[HistoryItem]
+
+
+class DueReviewItem(BaseModel):
+    question_uid: str
+    streak: int
+    interval_days: int
+    last_reviewed_at: datetime
+    next_review_at: datetime
+
+
+class DueReviewResponse(BaseModel):
+    items: list[DueReviewItem]

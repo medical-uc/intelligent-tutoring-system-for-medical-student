@@ -22,6 +22,15 @@ record_attempt() is the one write for the whole attempt, called only once select
 confidence, and time_taken_seconds are all known, so exactly one complete InteractionEvent
 is ever created — never a partial one.
 
+record_attempt() also updates a :REVIEWING edge from Student straight to Question, holding
+simple spaced-repetition state (streak, interval_days, next_review_at). Only a correct AND
+confident answer counts as a "strong pass" that grows the streak and doubles the interval
+(1 -> 2 -> 4 -> 8... days, capped at 60) — a correct guess or an unsure-but-right answer is
+not real evidence of retention, so it resets the streak and schedules a review tomorrow
+same as a wrong answer would. This mirrors the confidence-aware mastery reasoning above:
+the same signal (confidence + correctness) that tells us how much to trust an answer also
+tells us when to ask it again. See due_for_review() for reading the schedule back out.
+
 Every attempt belongs to a QuizSession (see src/quiz/sessions.py) — the frontend starts a
 session before the first question in a topic run and passes its id to every
 record_attempt() call, which links the answer to that session via :HAS_ANSWER. This is
@@ -55,6 +64,17 @@ CREATE (e:InteractionEvent {
 CREATE (sess)-[:HAS_ANSWER]->(e)
 MERGE (q:Question {uid: $question_uid})
 CREATE (e)-[:FOR_QUESTION]->(q)
+WITH s, e, q
+MERGE (s)-[r:REVIEWING]->(q)
+ON CREATE SET r.streak = 0
+WITH s, e, q, r,
+     $correct AND $confidence = "confident" AS strong_pass
+SET r.streak = CASE WHEN strong_pass THEN coalesce(r.streak, 0) + 1 ELSE 0 END,
+    r.interval_days = CASE WHEN strong_pass THEN toInteger(2 ^ (coalesce(r.streak, 0) + 1)) ELSE 1 END,
+    r.last_reviewed_at = e.ts
+WITH s, e, q, r, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
+SET r.interval_days = capped_interval,
+    r.next_review_at = datetime() + duration({days: capped_interval})
 WITH e, q
 CALL (q) {
     UNWIND range(0, size($topic_tag) - 1) AS i
@@ -132,5 +152,29 @@ def attempts_for_questions(driver: Driver, student_id: str, question_uids: list[
             _TOPIC_PROGRESS_QUERY,
             student_id=student_id,
             question_uids=question_uids,
+        )
+        return [dict(r) for r in records]
+
+
+_DUE_FOR_REVIEW_QUERY = """
+MATCH (s:Student {id: $student_id})-[r:REVIEWING]->(q:Question)
+WHERE r.next_review_at <= datetime()
+RETURN q.uid AS question_uid, r.streak AS streak, r.interval_days AS interval_days,
+       r.last_reviewed_at AS last_reviewed_at, r.next_review_at AS next_review_at
+ORDER BY r.next_review_at ASC
+LIMIT $limit
+"""
+
+
+def due_for_review(driver: Driver, student_id: str, limit: int = 50) -> list[dict]:
+    """Returns this student's questions whose spaced-repetition schedule (see
+    record_attempt()'s :REVIEWING update) says they're due now, soonest-due first. A
+    question never answered yet has no :REVIEWING edge and so never appears here — this
+    is a "what to re-ask" queue, not a "what's left" queue."""
+    with driver.session() as session:
+        records = session.run(
+            _DUE_FOR_REVIEW_QUERY,
+            student_id=student_id,
+            limit=limit,
         )
         return [dict(r) for r in records]
