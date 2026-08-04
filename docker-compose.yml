@@ -73,10 +73,13 @@ services:
     restart: unless-stopped
     environment:
       NEO4J_AUTH: ${NEO4J_USER}/${NEO4J_PASSWORD}
-      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_PLUGINS: '["apoc", "n10s"]'
+      NEO4J_dbms_security_allow__csv__import__from__file__urls: "true"
+      NEO4J_server_directories_import: /import
     volumes:
       - neo4j_data:/data
       - neo4j_logs:/logs
+      - ./src/domain_kg:/import/domain_kg:ro
     ports:
       - "7474:7474"
       - "7687:7687"

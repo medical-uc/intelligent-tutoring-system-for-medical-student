@@ -15,6 +15,7 @@ dependencies = [
     "pymupdf>=1.28.0",
     "python-dotenv>=1.2.2",
     "qwen-vl-utils>=0.0.14",
+    "rdflib>=7.6.0",
     "sentence-transformers>=5.1.2",
     "sentencepiece>=0.2.2",
     "torch>=2.13.0",
