@@ -64,6 +64,39 @@ def import_ntriples(driver: Driver, url: str) -> dict:
         return dict(result.single())
 
 
+def apply_node_typing(driver: Driver) -> None:
+    """Collapse n10s' auto-minted rdf:type labels into the source's real
+    2-kind model: `inst:` URIs are post-coordinated Instances, `sct:`/`rxn:`
+    URIs are Concepts.
+
+    n10s mints one Neo4j label per distinct `rdf:type` object it sees (a
+    ClinicalAssertion, a FigureImage, a bare SNOMED/RXNORM id used as a type
+    for a post-coordinated instance, ...), each under an arbitrary `nsN__`
+    prefix. That is faithful to the RDF but not the mental model the graph
+    was authored against, so replace it: tag every node by its own URI
+    namespace and drop the auto-minted labels so the legend only ever shows
+    Resource / Instance / Concept.
+    """
+    with driver.session() as session:
+        session.run(
+            "MATCH (r:Resource) WHERE r.uri STARTS WITH $inst "
+            "SET r:Instance", inst="http://example.org/medkg/inst/",
+        )
+        session.run(
+            "MATCH (r:Resource) WHERE r.uri STARTS WITH $sct "
+            "OR r.uri STARTS WITH $rxn SET r:Concept",
+            sct="http://snomed.info/id/",
+            rxn="http://purl.bioontology.org/ontology/RXNORM/",
+        )
+        session.run(
+            "MATCH (r:Resource) "
+            "WITH r, [l IN labels(r) WHERE NOT l IN ['Resource', 'Instance', "
+            "'Concept']] AS extra "
+            "CALL apoc.create.removeLabels(r, extra) YIELD node "
+            "RETURN count(*)"
+        )
+
+
 def rename_label_property(driver: Driver) -> None:
     """rdfs__label -> label.
 
@@ -99,6 +132,7 @@ def main(argv=None) -> int:
         init_n10s(driver)
         stats = import_ntriples(driver, IMPORT_FILE)
         print(f"imported: {stats}")
+        apply_node_typing(driver)
         rename_label_property(driver)
     finally:
         driver.close()
