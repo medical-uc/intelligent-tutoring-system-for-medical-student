@@ -3,6 +3,7 @@ from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
+    CancelSessionResponse,
     CheckAnswerRequest,
     CheckAnswerResponse,
     DueReviewItem,
@@ -19,7 +20,7 @@ from app.schemas import (
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
-from src.quiz.sessions import end_session, history_for_student, start_session
+from src.quiz.sessions import cancel_session, end_session, history_for_student, start_session
 
 router = APIRouter(prefix="/quiz", tags=["quiz"])
 
@@ -95,6 +96,24 @@ def end_quiz_session(
     return EndSessionResponse(**summary)
 
 
+@router.post("/sessions/{session_id}/cancel", response_model=CancelSessionResponse)
+def cancel_quiz_session(
+    session_id: str,
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> CancelSessionResponse:
+    """Call instead of /end when the student abandons a run partway through (navigates away,
+    closes the app) — the frontend should fire this on unmount/beforeunload rather than
+    leaving the session stuck "in_progress" forever. Aggregates whatever answers were logged
+    before the cancel into question_count/correct_count/duration_seconds, same as /end, but
+    marks the session "cancelled" so it reads as partial rather than finished in /history.
+    Already-logged answers and their :REVIEWING mastery updates are not undone."""
+    summary = cancel_session(driver, student_id=student_id, session_id=session_id)
+    if summary is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such in-progress session for this student")
+    return CancelSessionResponse(**summary)
+
+
 @router.get("/history", response_model=HistoryResponse)
 def get_history(
     student_id: str = Depends(get_current_student_id),
@@ -108,6 +127,7 @@ def get_history(
         HistoryItem(
             session_id=s["session_id"],
             topic_path=s["topic_path"],
+            status=s["status"],
             question_count=s["question_count"],
             correct_count=s["correct_count"],
             score_percent=round(100 * s["correct_count"] / s["question_count"]) if s["question_count"] else 0,

@@ -83,9 +83,17 @@ class EndSessionResponse(BaseModel):
     duration_seconds: int
 
 
+class CancelSessionResponse(BaseModel):
+    session_id: str
+    question_count: int
+    correct_count: int
+    duration_seconds: int
+
+
 class HistoryItem(BaseModel):
     session_id: str
     topic_path: str
+    status: str
     question_count: int
     correct_count: int
     score_percent: int

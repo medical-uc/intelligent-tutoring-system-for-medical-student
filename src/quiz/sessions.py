@@ -90,11 +90,44 @@ def end_session(driver: Driver, student_id: str, session_id: str) -> dict | None
     return dict(record) if record else None
 
 
+_CANCEL_SESSION_QUERY = """
+MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession {id: $session_id, status: "in_progress"})
+OPTIONAL MATCH (sess)-[:HAS_ANSWER]->(a:InteractionEvent {type: "QUIZ_ANSWER"})
+WITH s, sess, count(a) AS question_count, sum(CASE WHEN a.correct THEN 1 ELSE 0 END) AS correct_count
+SET sess.status = "cancelled",
+    sess.ended_at = datetime(),
+    sess.question_count = question_count,
+    sess.correct_count = correct_count,
+    sess.duration_seconds = duration.inSeconds(sess.started_at, datetime()).seconds
+RETURN sess.id AS session_id, sess.question_count AS question_count,
+       sess.correct_count AS correct_count, sess.duration_seconds AS duration_seconds
+"""
+
+
+def cancel_session(driver: Driver, student_id: str, session_id: str) -> dict | None:
+    """Ends a session early, same aggregation as end_session but status "cancelled" instead
+    of "completed". Answers already logged via record_attempt() before the cancel stand as-is
+    — their :REVIEWING mastery updates already fired per-question and are not unwound; only
+    the session's own status/counts change. Returns the summary dict, or None if no such
+    in-progress session exists for this student — the match requires status "in_progress",
+    so cancelling an already-completed or already-cancelled session is a no-op (returns None)
+    rather than silently overwriting its real ended_at/duration_seconds."""
+    with driver.session() as session:
+        record = session.run(
+            _CANCEL_SESSION_QUERY,
+            student_id=student_id,
+            session_id=session_id,
+        ).single()
+    return dict(record) if record else None
+
+
 _HISTORY_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession {status: "completed"})
-RETURN sess.id AS session_id, sess.topic_path AS topic_path, sess.question_count AS question_count,
-       sess.correct_count AS correct_count, sess.duration_seconds AS duration_seconds,
-       sess.started_at AS started_at, sess.ended_at AS ended_at
+MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession)
+WHERE sess.status IN ["completed", "cancelled"]
+RETURN sess.id AS session_id, sess.topic_path AS topic_path, sess.status AS status,
+       sess.question_count AS question_count, sess.correct_count AS correct_count,
+       sess.duration_seconds AS duration_seconds, sess.started_at AS started_at,
+       sess.ended_at AS ended_at
 ORDER BY sess.started_at DESC
 LIMIT $limit
 """
