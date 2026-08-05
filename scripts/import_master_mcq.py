@@ -1,11 +1,17 @@
-"""Convert notebooks/master_mcq_with_explanations.json (flat, A-E keyed) into the nested
+"""Convert notebooks/master_mcq_with_topics.json (flat, A-E keyed) into the nested
 {doc_id: {topic_path: [question, ...]}} shape src/quiz/bank.py serves.
 
-master_mcq_with_explanations.json has no topic taxonomy (its `reference` field is a messy
-free-text citation, `filename` is just the exam-paket batch) -- everything
-lands under a single "Master MCQ" topic until a real taxonomy exists.
-`has_image` items (217/955) carry no image asset in the source data, so the
-flag is dropped rather than wired to a field the client can't render.
+`subject`/`topic` (see scripts/annotate_mcq_topics.py -- semantic-matched against the
+lecture-slide chunk files, since the exam-paket source PDFs carry no topic taxonomy of
+their own) become topic_tag = [subject, topic], e.g.
+["Anatomy of Endocrine Glands", "IgA secretion mechanism"], replacing the old flat
+"Master MCQ" placeholder bucket every question used to share. This is what makes
+bank.topics()/the /quiz/topics endpoint list real subjects instead of one bucket, and
+gives the Neo4j Topic/:SUB_TOPIC_OF tree (built per-attempt in src/quiz/attempts.py) an
+actual two-level hierarchy to work with.
+
+`has_image` items (217/955) carry no image asset in the source data, so the flag is
+dropped rather than wired to a field the client can't render.
 
 `explanation` is carried straight through -- shown to the student only after they answer
 (see app/routers/quiz.py's /check endpoint and src/flashcards/cards.py), never alongside
@@ -13,7 +19,7 @@ the question itself.
 
 Usage:
     .venv/bin/python scripts/import_master_mcq.py
-    .venv/bin/python scripts/import_master_mcq.py --input notebooks/master_mcq_with_explanations.json \\
+    .venv/bin/python scripts/import_master_mcq.py --input notebooks/master_mcq_with_topics.json \\
         --output notebooks/mcq_output/question_bank.json
 """
 
@@ -34,8 +40,7 @@ logging.basicConfig(
 log = logging.getLogger("import_master_mcq")
 
 DOC_ID = "master_mcq"
-TOPIC_TAG = ["Master MCQ"]
-TOPIC_PATH = " > ".join(TOPIC_TAG)
+FALLBACK_TOPIC_TAG = ["Master MCQ"]  # used only if subject/topic are missing on a question
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
 
@@ -45,7 +50,7 @@ def _slug(text: str) -> str:
 
 
 def convert(raw_questions: list[dict]) -> dict:
-    questions = []
+    by_topic_path: dict[str, list[dict]] = {}
     skipped = 0
     seen_uids: set[str] = set()
 
@@ -82,22 +87,27 @@ def convert(raw_questions: list[dict]) -> dict:
             continue
         seen_uids.add(uid)
 
-        questions.append(
-            {
-                "uid": uid,
-                "stem": "\n\n".join(stem_parts),
-                "options": [
-                    {"text": text, "correct": key == answer}
-                    for key, text in options.items()
-                ],
-                "topic_tag": TOPIC_TAG,
-                "difficulty": 1,
-                "explanation": explanation,
-            }
-        )
+        subject = (rq.get("subject") or "").strip()
+        topic = (rq.get("topic") or "").strip()
+        topic_tag = [subject, topic] if subject and topic else FALLBACK_TOPIC_TAG
+        topic_path = " > ".join(topic_tag)
 
-    log.info("converted %d questions (%d skipped)", len(questions), skipped)
-    return {DOC_ID: {TOPIC_PATH: questions}}
+        by_topic_path.setdefault(topic_path, []).append({
+            "uid": uid,
+            "stem": "\n\n".join(stem_parts),
+            "options": [
+                {"text": text, "correct": key == answer}
+                for key, text in options.items()
+            ],
+            "topic_tag": topic_tag,
+            "difficulty": 1,
+            "explanation": explanation,
+        })
+
+    n_questions = sum(len(qs) for qs in by_topic_path.values())
+    log.info("converted %d questions across %d topics (%d skipped)",
+              n_questions, len(by_topic_path), skipped)
+    return {DOC_ID: by_topic_path}
 
 
 def main(argv=None) -> int:
@@ -106,7 +116,7 @@ def main(argv=None) -> int:
     )
     ap.add_argument(
         "--input",
-        default=str(PROJECT_ROOT / "notebooks" / "master_mcq_with_explanations.json"),
+        default=str(PROJECT_ROOT / "notebooks" / "master_mcq_with_topics.json"),
     )
     ap.add_argument(
         "--output",
