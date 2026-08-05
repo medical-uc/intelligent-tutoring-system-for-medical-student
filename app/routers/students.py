@@ -7,10 +7,11 @@ from app.schemas import (
     SessionCheckResponse,
     SessionResponse,
     StudentLoginRequest,
+    StudentProfileResponse,
     StudentRegisterRequest,
     StudentRegisterResponse,
 )
-from src.student_kg.enrollment import enroll_student
+from src.student_kg.enrollment import enroll_student, get_student_by_id
 from src.student_kg.session import (
     create_session,
     find_student_id_by_number,
@@ -67,3 +68,22 @@ def check_session(
     student_id: str = Depends(get_current_student_id),
 ) -> SessionCheckResponse:
     return SessionCheckResponse(authenticated=True, student_id=student_id)
+
+
+@router.get("/me/profile", response_model=StudentProfileResponse)
+def get_my_profile(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> StudentProfileResponse:
+    profile = get_student_by_id(driver, student_id)
+    if profile is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="student not found"
+        )
+    return StudentProfileResponse(
+        student_id=profile.student_id,
+        full_name=profile.full_name,
+        student_number=profile.student_number,
+        academic_year=profile.academic_year,
+        enrolled_at=profile.enrolled_at,
+    )

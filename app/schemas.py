@@ -31,6 +31,14 @@ class SessionCheckResponse(BaseModel):
     student_id: str
 
 
+class StudentProfileResponse(BaseModel):
+    student_id: str
+    full_name: str
+    student_number: str
+    academic_year: int
+    enrolled_at: datetime
+
+
 class OptionOut(BaseModel):
     """Client-facing option — no `correct` flag. Position doubles as the answer id."""
 

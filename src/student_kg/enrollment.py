@@ -14,6 +14,8 @@ Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root):
 import argparse
 import logging
 import uuid
+from dataclasses import dataclass
+from datetime import datetime
 
 from neo4j import Driver
 
@@ -54,6 +56,39 @@ def enroll_student(
     assert record, f"enrollment failed for student_id={student_id}"
     log.info("enrolled student_id=%s", record["student_id"])
     return record["student_id"]
+
+
+@dataclass
+class StudentProfile:
+    student_id: str
+    full_name: str
+    student_number: str
+    academic_year: int
+    enrolled_at: datetime
+
+
+_GET_STUDENT_QUERY = """
+MATCH (s:Student {id: $student_id})
+RETURN s.id AS student_id,
+       s.full_name AS full_name,
+       s.student_number AS student_number,
+       s.academic_year AS academic_year,
+       s.enrolled_at AS enrolled_at
+"""
+
+
+def get_student_by_id(driver: Driver, student_id: str) -> StudentProfile | None:
+    with driver.session() as session:
+        record = session.run(_GET_STUDENT_QUERY, student_id=student_id).single()
+    if record is None:
+        return None
+    return StudentProfile(
+        student_id=record["student_id"],
+        full_name=record["full_name"],
+        student_number=record["student_number"],
+        academic_year=record["academic_year"],
+        enrolled_at=record["enrolled_at"].to_native(),
+    )
 
 
 def main() -> None:
