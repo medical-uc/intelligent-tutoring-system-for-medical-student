@@ -5,8 +5,9 @@ the app can show "Cardiology Quiz, 10 questions, 12m, 80%" as a single row inste
 individual question attempts. This mirrors the existing InteractionEvent chain pattern
 (see src/student_kg/enrollment.py) rather than inventing a new relationship style:
 QuizSession is itself an InteractionEvent (type: QUIZ_SESSION) linked to the student via
-:HAS_EVENT/:NEXT/:LATEST_EVENT, and individual answers link to their session via a
-separate :HAS_ANSWER edge.
+:ATTEMPTED (plus the shared :NEXT/:LATEST_EVENT timeline chain other InteractionEvent types
+use :HAS_EVENT for), and individual answers link to their session via a separate
+:HAS_ANSWER edge.
 
 Sessions are explicit (start/end calls), not inferred from time gaps between answers —
 the frontend starts a session before the first question and ends it after the last, so
@@ -40,7 +41,7 @@ CREATE (sess:InteractionEvent:QuizSession {
     duration_seconds: null,
     ts: datetime()
 })
-CREATE (s)-[:HAS_EVENT]->(sess)
+CREATE (s)-[:ATTEMPTED]->(sess)
 FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(sess))
 DELETE latest
 CREATE (s)-[:LATEST_EVENT]->(sess)
@@ -64,7 +65,7 @@ def start_session(driver: Driver, student_id: str, topic_path: str) -> str:
 
 
 _END_SESSION_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession {id: $session_id})
+MATCH (s:Student {id: $student_id})-[:ATTEMPTED]->(sess:QuizSession {id: $session_id})
 OPTIONAL MATCH (sess)-[:HAS_ANSWER]->(a:InteractionEvent {type: "QUIZ_ANSWER"})
 WITH s, sess, count(a) AS question_count, sum(CASE WHEN a.correct THEN 1 ELSE 0 END) AS correct_count
 SET sess.status = "completed",
@@ -91,7 +92,7 @@ def end_session(driver: Driver, student_id: str, session_id: str) -> dict | None
 
 
 _CANCEL_SESSION_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession {id: $session_id, status: "in_progress"})
+MATCH (s:Student {id: $student_id})-[:ATTEMPTED]->(sess:QuizSession {id: $session_id, status: "in_progress"})
 OPTIONAL MATCH (sess)-[:HAS_ANSWER]->(a:InteractionEvent {type: "QUIZ_ANSWER"})
 WITH s, sess, count(a) AS question_count, sum(CASE WHEN a.correct THEN 1 ELSE 0 END) AS correct_count
 SET sess.status = "cancelled",
@@ -122,7 +123,7 @@ def cancel_session(driver: Driver, student_id: str, session_id: str) -> dict | N
 
 
 _HISTORY_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(sess:QuizSession)
+MATCH (s:Student {id: $student_id})-[:ATTEMPTED]->(sess:QuizSession)
 WHERE sess.status IN ["completed", "cancelled"]
 RETURN sess.id AS session_id, sess.topic_path AS topic_path, sess.status AS status,
        sess.question_count AS question_count, sess.correct_count AS correct_count,

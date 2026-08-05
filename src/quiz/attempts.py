@@ -1,7 +1,7 @@
 """Records quiz answer attempts as InteractionEvents on the student graph.
 
 Each attempt is an InteractionEvent (type: QUIZ_ANSWER) linked only to its QuizSession via
-:HAS_ANSWER — not to the student's top-level :HAS_EVENT/:NEXT timeline chain. Every
+:HAS_ANSWER — not to the student's top-level :ATTEMPTED/:NEXT timeline chain. Every
 attempt already belongs to exactly one session (session_id is required), so the session
 hop is never lossy, and skipping the direct Student edge avoids extending the chain-walk
 timeline (meant for session/enrollment-level events) down to every single question. The
@@ -50,7 +50,7 @@ from neo4j import Driver
 
 _RECORD_ATTEMPT_QUERY = """
 MATCH (s:Student {id: $student_id})
-MATCH (s)-[:HAS_EVENT]->(sess:QuizSession {id: $session_id})
+MATCH (s)-[:ATTEMPTED]->(sess:QuizSession {id: $session_id})
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "QUIZ_ANSWER",
@@ -137,7 +137,7 @@ def record_attempt(
 
 
 _TOPIC_PROGRESS_QUERY = """
-MATCH (s:Student {id: $student_id})-[:HAS_EVENT]->(:QuizSession)-[:HAS_ANSWER]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
+MATCH (s:Student {id: $student_id})-[:ATTEMPTED]->(:QuizSession)-[:HAS_ANSWER]->(e:InteractionEvent {type: "QUIZ_ANSWER"})
 WHERE e.question_uid IN $question_uids
 RETURN e.question_uid AS question_uid, e.correct AS correct, e.confidence AS confidence,
        e.time_taken_seconds AS time_taken_seconds, e.ts AS ts
