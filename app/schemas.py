@@ -116,3 +116,48 @@ class DueReviewItem(BaseModel):
 
 class DueReviewResponse(BaseModel):
     items: list[DueReviewItem]
+
+
+class FlashcardOut(BaseModel):
+    """Front only carries the stem — back is withheld until the student flips the card,
+    same as options are withheld from quiz questions until /check."""
+
+    uid: str
+    front: str
+    topic_tag: list[str]
+    difficulty: int
+
+
+class FlashcardRevealResponse(BaseModel):
+    uid: str
+    back: str
+
+
+class FlashcardRating(str, Enum):
+    AGAIN = "again"
+    HARD = "hard"
+    GOOD = "good"
+    EASY = "easy"
+
+
+class LogFlashcardReviewRequest(BaseModel):
+    rating: FlashcardRating
+
+
+class LogFlashcardReviewResponse(BaseModel):
+    event_id: str
+    streak: int
+    interval_days: int
+    next_review_at: datetime
+
+
+class DueFlashcardItem(BaseModel):
+    question_uid: str
+    streak: int
+    interval_days: int
+    last_reviewed_at: datetime
+    next_review_at: datetime
+
+
+class DueFlashcardResponse(BaseModel):
+    items: list[DueFlashcardItem]
