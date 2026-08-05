@@ -1,10 +1,16 @@
 import re
-from typing import List, Dict, Set, Optional
+from typing import Dict, List, Optional, Set
+
 from ..models.block import Block
 
-PAGE_NUM_REGEX = re.compile(r"^\s*(?:page\s*)?\d+(?:\s*/\s*\d+|\s+of\s+\d+)?\s*$", re.IGNORECASE)
+PAGE_NUM_REGEX = re.compile(
+    r"^\s*(?:page\s*)?\d+(?:\s*/\s*\d+|\s+of\s+\d+)?\s*$", re.IGNORECASE
+)
 
-def remove_headers_footers(blocks: List[Block], min_repeats: Optional[int] = None) -> List[Block]:
+
+def remove_headers_footers(
+    blocks: List[Block], min_repeats: Optional[int] = None
+) -> List[Block]:
     """
     Stage 4 — Header/Footer Detection
     Identify true running headers/footers (page numbers, tiny template headers) across pages and remove them.
@@ -36,8 +42,12 @@ def remove_headers_footers(blocks: List[Block], min_repeats: Optional[int] = Non
         elif feat.top_ratio > 0.92:
             footer_texts.setdefault(text, set()).add(block.page)
 
-    repeated_headers = {text for text, pages in header_texts.items() if len(pages) >= min_repeats}
-    repeated_footers = {text for text, pages in footer_texts.items() if len(pages) >= min_repeats}
+    repeated_headers = {
+        text for text, pages in header_texts.items() if len(pages) >= min_repeats
+    }
+    repeated_footers = {
+        text for text, pages in footer_texts.items() if len(pages) >= min_repeats
+    }
 
     filtered_blocks: List[Block] = []
 
@@ -51,7 +61,9 @@ def remove_headers_footers(blocks: List[Block], min_repeats: Optional[int] = Non
             continue
 
         # Page number check at extreme edges
-        if (feat.top_ratio < 0.08 or feat.top_ratio > 0.90) and PAGE_NUM_REGEX.match(text_clean):
+        if (feat.top_ratio < 0.08 or feat.top_ratio > 0.90) and PAGE_NUM_REGEX.match(
+            text_clean
+        ):
             continue
 
         # Header check

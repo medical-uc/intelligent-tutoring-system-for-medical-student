@@ -85,7 +85,10 @@ def _parse_question(raw_question: dict) -> Question:
     return Question(
         uid=raw_question["uid"],
         stem=raw_question["stem"],
-        options=[Option(text=o["text"], correct=o["correct"]) for o in raw_question["options"]],
+        options=[
+            Option(text=o["text"], correct=o["correct"])
+            for o in raw_question["options"]
+        ],
         topic_tag=raw_question.get("topic_tag", []),
         difficulty=raw_question.get("difficulty", 1),
         explanation=raw_question.get("explanation", ""),
@@ -106,7 +109,12 @@ def _load_from_disk(path: str) -> QuestionBank:
                     continue
                 questions.append(_parse_question(rq))
 
-    log.info("loaded %d questions from %s (%d skipped as invalid)", len(questions), path, skipped)
+    log.info(
+        "loaded %d questions from %s (%d skipped as invalid)",
+        len(questions),
+        path,
+        skipped,
+    )
     return QuestionBank(questions)
 
 

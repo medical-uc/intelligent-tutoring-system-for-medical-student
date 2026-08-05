@@ -23,23 +23,25 @@ Usage:
 """
 
 import uuid
+from datetime import datetime
 
 from neo4j import Driver
 
 _START_SESSION_QUERY = """
 MATCH (s:Student {id: $student_id})
 OPTIONAL MATCH (s)-[latest:LATEST_EVENT]->(prev:InteractionEvent)
+WITH s, prev, latest, CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
 CREATE (sess:InteractionEvent:QuizSession {
     id: $session_id,
     type: "QUIZ_SESSION",
     topic_path: $topic_path,
     status: "in_progress",
-    started_at: datetime(),
+    started_at: effective_ts,
     ended_at: null,
     question_count: null,
     correct_count: null,
     duration_seconds: null,
-    ts: datetime()
+    ts: effective_ts
 })
 CREATE (s)-[:ATTEMPTED]->(sess)
 FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(sess))
@@ -49,9 +51,15 @@ RETURN sess.id AS session_id
 """
 
 
-def start_session(driver: Driver, student_id: str, topic_path: str) -> str:
+def start_session(
+    driver: Driver, student_id: str, topic_path: str, ts: datetime | None = None
+) -> str:
     """Creates a QuizSession event and returns its id. Raises if student_id doesn't match
-    a Student node."""
+    a Student node.
+
+    `ts` backdates started_at/ts for synthetic history generation (see
+    scripts/generate_dummy_interactions.py) — real callers omit it and get datetime().
+    """
     session_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
@@ -59,6 +67,7 @@ def start_session(driver: Driver, student_id: str, topic_path: str) -> str:
             student_id=student_id,
             session_id=session_id,
             topic_path=topic_path,
+            ts=ts.isoformat() if ts else None,
         ).single()
     assert record, f"session start failed — no student with id={student_id}"
     return record["session_id"]
@@ -67,26 +76,34 @@ def start_session(driver: Driver, student_id: str, topic_path: str) -> str:
 _END_SESSION_QUERY = """
 MATCH (s:Student {id: $student_id})-[:ATTEMPTED]->(sess:QuizSession {id: $session_id})
 OPTIONAL MATCH (sess)-[:HAS_ANSWER]->(a:InteractionEvent {type: "QUIZ_ANSWER"})
-WITH s, sess, count(a) AS question_count, sum(CASE WHEN a.correct THEN 1 ELSE 0 END) AS correct_count
+WITH s, sess, count(a) AS question_count, sum(CASE WHEN a.correct THEN 1 ELSE 0 END) AS correct_count,
+     CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
 SET sess.status = "completed",
-    sess.ended_at = datetime(),
+    sess.ended_at = effective_ts,
     sess.question_count = question_count,
     sess.correct_count = correct_count,
-    sess.duration_seconds = duration.inSeconds(sess.started_at, datetime()).seconds
+    sess.duration_seconds = duration.inSeconds(sess.started_at, effective_ts).seconds
 RETURN sess.id AS session_id, sess.question_count AS question_count,
        sess.correct_count AS correct_count, sess.duration_seconds AS duration_seconds
 """
 
 
-def end_session(driver: Driver, student_id: str, session_id: str) -> dict | None:
+def end_session(
+    driver: Driver, student_id: str, session_id: str, ts: datetime | None = None
+) -> dict | None:
     """Finalizes a session: aggregates its linked answers into question_count/correct_count/
     duration_seconds and marks it completed. Returns the summary dict, or None if no such
-    in-progress session exists for this student."""
+    in-progress session exists for this student.
+
+    `ts` backdates ended_at (and therefore duration_seconds, computed against the session's
+    real/backdated started_at) for synthetic history generation — real callers omit it.
+    """
     with driver.session() as session:
         record = session.run(
             _END_SESSION_QUERY,
             student_id=student_id,
             session_id=session_id,
+            ts=ts.isoformat() if ts else None,
         ).single()
     return dict(record) if record else None
 
@@ -134,9 +151,12 @@ LIMIT $limit
 """
 
 
-def history_for_student(driver: Driver, student_id: str, limit: int = 100) -> list[dict]:
+def history_for_student(
+    driver: Driver, student_id: str, limit: int = 100
+) -> list[dict]:
     """Returns completed quiz sessions for a student, most recent first. Score/duration/day
-    grouping is derived by the caller from these raw fields (see app/routers/quiz.py)."""
+    grouping is derived by the caller from these raw fields (see app/routers/quiz.py).
+    """
     with driver.session() as session:
         records = session.run(
             _HISTORY_QUERY,

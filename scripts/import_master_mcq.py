@@ -26,7 +26,11 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+)
 log = logging.getLogger("import_master_mcq")
 
 DOC_ID = "master_mcq"
@@ -53,10 +57,20 @@ def convert(raw_questions: list[dict]) -> dict:
         explanation = (rq.get("explanation") or "").strip()
         stem_parts = [p for p in (rq.get("background"), rq.get("question")) if p]
 
-        if number is None or not filename or not options or answer not in options or not stem_parts:
+        if (
+            number is None
+            or not filename
+            or not options
+            or answer not in options
+            or not stem_parts
+        ):
             skipped += 1
-            log.warning("skipping question number=%s filename=%r: missing "
-                        "number/filename/options/answer/stem", number, filename)
+            log.warning(
+                "skipping question number=%s filename=%r: missing "
+                "number/filename/options/answer/stem",
+                number,
+                filename,
+            )
             continue
 
         # `number` alone resets per exam-paket (only 12 distinct values across
@@ -68,26 +82,36 @@ def convert(raw_questions: list[dict]) -> dict:
             continue
         seen_uids.add(uid)
 
-        questions.append({
-            "uid": uid,
-            "stem": "\n\n".join(stem_parts),
-            "options": [
-                {"text": text, "correct": key == answer}
-                for key, text in options.items()
-            ],
-            "topic_tag": TOPIC_TAG,
-            "difficulty": 1,
-            "explanation": explanation,
-        })
+        questions.append(
+            {
+                "uid": uid,
+                "stem": "\n\n".join(stem_parts),
+                "options": [
+                    {"text": text, "correct": key == answer}
+                    for key, text in options.items()
+                ],
+                "topic_tag": TOPIC_TAG,
+                "difficulty": 1,
+                "explanation": explanation,
+            }
+        )
 
     log.info("converted %d questions (%d skipped)", len(questions), skipped)
     return {DOC_ID: {TOPIC_PATH: questions}}
 
 
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--input", default=str(PROJECT_ROOT / "notebooks" / "master_mcq_with_explanations.json"))
-    ap.add_argument("--output", default=str(PROJECT_ROOT / "notebooks" / "mcq_output" / "question_bank.json"))
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    ap.add_argument(
+        "--input",
+        default=str(PROJECT_ROOT / "notebooks" / "master_mcq_with_explanations.json"),
+    )
+    ap.add_argument(
+        "--output",
+        default=str(PROJECT_ROOT / "notebooks" / "mcq_output" / "question_bank.json"),
+    )
     args = ap.parse_args(argv)
 
     with open(args.input, encoding="utf-8") as f:

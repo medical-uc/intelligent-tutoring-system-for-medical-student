@@ -14,8 +14,13 @@ from app.schemas import (
     LogFlashcardReviewRequest,
     LogFlashcardReviewResponse,
 )
-from src.flashcards.cards import Flashcard, get_flashcard, flashcards_for_topic
-from src.flashcards.reviews import due_for_review, history_for_student, record_review, review_history
+from src.flashcards.cards import Flashcard, flashcards_for_topic, get_flashcard
+from src.flashcards.reviews import (
+    due_for_review,
+    history_for_student,
+    record_review,
+    review_history,
+)
 from src.quiz.bank import QuestionBank, load_question_bank
 
 router = APIRouter(prefix="/flashcards", tags=["flashcards"])
@@ -41,7 +46,9 @@ def get_cards_for_topic(
 ) -> list[FlashcardOut]:
     cards = flashcards_for_topic(topic_path, bank=bank)
     if not cards:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no cards for this topic")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no cards for this topic"
+        )
     return [_to_flashcard_out(c) for c in cards]
 
 
@@ -54,8 +61,12 @@ def reveal_card(
     after they've already self-assessed recall in their head."""
     card = get_flashcard(uid, bank=bank)
     if card is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such card")
-    return FlashcardRevealResponse(uid=card.uid, back=card.back, explanation=card.explanation)
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no such card"
+        )
+    return FlashcardRevealResponse(
+        uid=card.uid, back=card.back, explanation=card.explanation
+    )
 
 
 @router.post("/cards/{uid}/log", response_model=LogFlashcardReviewResponse)
@@ -67,14 +78,21 @@ def log_review(
     driver: Driver = Depends(get_driver),
 ) -> LogFlashcardReviewResponse:
     """Called once the student has flipped the card and rated their own recall. Updates
-    the card's Flashcard-node spaced-repetition schedule independently of any quiz mastery."""
+    the card's Flashcard-node spaced-repetition schedule independently of any quiz mastery.
+    """
     card = get_flashcard(uid, bank=bank)
     if card is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such card")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no such card"
+        )
 
-    result = record_review(driver, student_id=student_id, question_uid=uid, rating=body.rating.value)
+    result = record_review(
+        driver, student_id=student_id, question_uid=uid, rating=body.rating.value
+    )
     if result is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such student")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no such student"
+        )
 
     return LogFlashcardReviewResponse(
         event_id=result["event_id"],
@@ -95,7 +113,9 @@ def get_review_history(
     items = review_history(driver, student_id=student_id, question_uid=uid)
     return FlashcardReviewHistoryResponse(
         items=[
-            FlashcardReviewHistoryItem(event_id=r["event_id"], rating=r["rating"], ts=r["ts"].to_native())
+            FlashcardReviewHistoryItem(
+                event_id=r["event_id"], rating=r["rating"], ts=r["ts"].to_native()
+            )
             for r in items
         ]
     )

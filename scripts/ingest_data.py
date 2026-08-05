@@ -32,12 +32,20 @@ from tqdm import tqdm
 from captioning.qwen_vl import QwenVLCaptioner
 from ingestion.middle_visuals import extract_visuals
 from ingestion.semantic_chunk import SemanticChunker
-from ingestion.unify import build_unified_items_from_postprocessed, render_unified_markdown, render_unified_text
+from ingestion.unify import (
+    build_unified_items_from_postprocessed,
+    render_unified_markdown,
+    render_unified_text,
+)
 from ingestion.upload_visuals import make_client as make_s3_client
 from ingestion.upload_visuals import upload_captions_file
 from post_process.pipeline import process_mineru_json
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+)
 log = logging.getLogger("run_pipeline")
 
 HEADING_RE = re.compile(r"^#{1,6}\s+(.+)$", re.MULTILINE)
@@ -49,7 +57,17 @@ def _first_heading(text: str) -> str | None:
 
 
 def run_mineru(pdf_path: Path) -> None:
-    cmd = [str(MINERU_BIN), "-p", str(pdf_path), "-o", str(OUTPUT_ROOT), "-b", "pipeline", "-m", "auto"]
+    cmd = [
+        str(MINERU_BIN),
+        "-p",
+        str(pdf_path),
+        "-o",
+        str(OUTPUT_ROOT),
+        "-b",
+        "pipeline",
+        "-m",
+        "auto",
+    ]
     result = subprocess.run(cmd, cwd=PROJECT_ROOT, capture_output=True, text=True)
     if result.returncode != 0:
         log.error(result.stdout[-4000:])
@@ -57,7 +75,9 @@ def run_mineru(pdf_path: Path) -> None:
         raise RuntimeError(f"MinerU extraction failed for {pdf_path}")
 
 
-def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: str) -> Path:
+def run_pipeline(
+    pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: str
+) -> Path:
     """Runs every stage for one PDF and writes all intermediate + final
     artifacts under output/{pdf_stem}/auto/. Returns the chunks JSON path."""
     pdf_stem = pdf_path.stem
@@ -79,26 +99,39 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: 
     visuals_by_page_idx = extract_visuals(middle_document)
     page_text_by_idx = {p["page_num"] - 1: p["text"] for p in postprocessed["pages"]}
 
-    all_visuals = [(page_idx, v) for page_idx, visuals in visuals_by_page_idx.items() for v in visuals]
+    all_visuals = [
+        (page_idx, v)
+        for page_idx, visuals in visuals_by_page_idx.items()
+        for v in visuals
+    ]
     log.info("[%s] Classify visual relevance (%d visuals)", pdf_stem, len(all_visuals))
-    for page_idx, visual in tqdm(all_visuals, desc=f"[{pdf_stem}] classify", unit="img"):
+    for page_idx, visual in tqdm(
+        all_visuals, desc=f"[{pdf_stem}] classify", unit="img"
+    ):
         slide_text = page_text_by_idx.get(page_idx, "")
         img_path = run_dir / "images" / visual.img_path
         visual.relevance = captioner.classify_image_relevance(str(img_path), slide_text)
 
-    semantic_visuals = [v for visuals in visuals_by_page_idx.values() for v in visuals if v.relevance == "semantic"]
+    semantic_visuals = [
+        v
+        for visuals in visuals_by_page_idx.values()
+        for v in visuals
+        if v.relevance == "semantic"
+    ]
 
     log.info("[%s] Caption %d semantic visuals", pdf_stem, len(semantic_visuals))
     caption_results = []
     for visual in tqdm(semantic_visuals, desc=f"[{pdf_stem}] caption", unit="img"):
         img_path = run_dir / "images" / visual.img_path
         caption = captioner.caption(str(img_path))
-        caption_results.append({
-            "item_id": visual.item_id,
-            "image_path": str(img_path),
-            "content_type": visual.type,
-            "caption": caption,
-        })
+        caption_results.append(
+            {
+                "item_id": visual.item_id,
+                "image_path": str(img_path),
+                "content_type": visual.type,
+                "caption": caption,
+            }
+        )
 
     captions_path = run_dir / f"{pdf_stem}_v1_captions.json"
     with open(captions_path, "w") as f:
@@ -109,7 +142,9 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: 
 
     log.info("[%s] Unify text", pdf_stem)
     captions = {r["item_id"]: r["caption"] for r in caption_results}
-    unified_items = build_unified_items_from_postprocessed(postprocessed, visuals_by_page_idx, captions)
+    unified_items = build_unified_items_from_postprocessed(
+        postprocessed, visuals_by_page_idx, captions
+    )
     unified_text = render_unified_text(unified_items)
     unified_markdown = render_unified_markdown(unified_items)
 
@@ -138,13 +173,15 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: 
         char_end = char_start + len(chunk_text)
         char_cursor = char_end
 
-        stage1_chunks.append({
-            "chunk_id": chunk_id,
-            "section_path": section_path,
-            "char_start": char_start,
-            "char_end": char_end,
-            "text": chunk_text,
-        })
+        stage1_chunks.append(
+            {
+                "chunk_id": chunk_id,
+                "section_path": section_path,
+                "char_start": char_start,
+                "char_end": char_end,
+                "text": chunk_text,
+            }
+        )
 
         for item in chunk:
             if item.content_type not in ("image", "chart", "table", "diagram"):
@@ -152,12 +189,21 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: 
             caption = captions.get(item.item_id)
             if not caption:
                 continue
-            stage1_figures.append({
-                "fig_id": item.item_id,
-                "image_path": next((r["image_path"] for r in caption_results if r["item_id"] == item.item_id), None),
-                "caption": caption,
-                "referenced_from": chunk_id,
-            })
+            stage1_figures.append(
+                {
+                    "fig_id": item.item_id,
+                    "image_path": next(
+                        (
+                            r["image_path"]
+                            for r in caption_results
+                            if r["item_id"] == item.item_id
+                        ),
+                        None,
+                    ),
+                    "caption": caption,
+                    "referenced_from": chunk_id,
+                }
+            )
 
     stage1_output = {
         "doc_id": pdf_stem,
@@ -170,16 +216,28 @@ def run_pipeline(pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: 
     with open(chunks_path, "w") as f:
         json.dump(stage1_output, f, indent=2)
 
-    log.info("[%s] Done: %d chunks, %d figures -> %s", pdf_stem, len(stage1_chunks), len(stage1_figures), chunks_path)
+    log.info(
+        "[%s] Done: %d chunks, %d figures -> %s",
+        pdf_stem,
+        len(stage1_chunks),
+        len(stage1_figures),
+        chunks_path,
+    )
     return chunks_path
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--pdf", type=Path, help="Path to a single PDF to process.")
-    group.add_argument("--dir", type=Path, help="Directory of PDFs (non-recursive) to process.")
-    parser.add_argument("--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images"))
+    group.add_argument(
+        "--dir", type=Path, help="Directory of PDFs (non-recursive) to process."
+    )
+    parser.add_argument(
+        "--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images")
+    )
     args = parser.parse_args()
 
     if args.pdf:

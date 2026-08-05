@@ -27,5 +27,8 @@ def get_current_student_id(
 ) -> str:
     student_id = validate_session(driver, credentials.credentials)
     if student_id is None:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="invalid, expired, or revoked session")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="invalid, expired, or revoked session",
+        )
     return student_id

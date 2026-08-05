@@ -45,12 +45,14 @@ Usage:
 """
 
 import uuid
+from datetime import datetime
 
 from neo4j import Driver
 
 _RECORD_ATTEMPT_QUERY = """
 MATCH (s:Student {id: $student_id})
 MATCH (s)-[:ATTEMPTED]->(sess:QuizSession {id: $session_id})
+WITH s, sess, CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "QUIZ_ANSWER",
@@ -59,22 +61,22 @@ CREATE (e:InteractionEvent {
     correct: $correct,
     confidence: $confidence,
     time_taken_seconds: $time_taken_seconds,
-    ts: datetime()
+    ts: effective_ts
 })
 CREATE (sess)-[:HAS_ANSWER]->(e)
 MERGE (q:Question {uid: $question_uid})
 CREATE (e)-[:FOR_QUESTION]->(q)
-WITH s, e, q
+WITH s, e, q, effective_ts
 MERGE (s)-[r:REVIEWING]->(q)
 ON CREATE SET r.streak = 0
-WITH s, e, q, r,
+WITH s, e, q, r, effective_ts,
      $correct AND $confidence = "confident" AS strong_pass
 SET r.streak = CASE WHEN strong_pass THEN coalesce(r.streak, 0) + 1 ELSE 0 END,
     r.interval_days = CASE WHEN strong_pass THEN toInteger(2 ^ (coalesce(r.streak, 0) + 1)) ELSE 1 END,
-    r.last_reviewed_at = e.ts
-WITH s, e, q, r, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
+    r.last_reviewed_at = effective_ts
+WITH s, e, q, r, effective_ts, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
 SET r.interval_days = capped_interval,
-    r.next_review_at = datetime() + duration({days: capped_interval})
+    r.next_review_at = effective_ts + duration({days: capped_interval})
 WITH e, q
 CALL (q) {
     UNWIND range(0, size($topic_tag) - 1) AS i
@@ -107,6 +109,7 @@ def record_attempt(
     confidence: str,
     time_taken_seconds: float,
     topic_tag: list[str],
+    ts: datetime | None = None,
 ) -> str | None:
     """Persists one fully-graded attempt (answer + confidence + timing together), linked to
     its QuizSession, and returns the new event id. Returns None if session_id doesn't match
@@ -118,7 +121,13 @@ def record_attempt(
     answered it) and a chain of nested Topic nodes from topic_tag (e.g.
     ["ENDOCRINOLOGY", "FUNCTIONS OF HORMONE"] becomes two Topic nodes linked by
     :SUB_TOPIC_OF), so mastery can be aggregated per-question or rolled up to any topic
-    level instead of living only as a flat string property on the attempt."""
+    level instead of living only as a flat string property on the attempt.
+
+    `ts` backdates the event/REVIEWING timestamps (last_reviewed_at, next_review_at is
+    computed from it too) for synthetic history generation — real callers omit it and get
+    datetime(). Callers backdating a sequence of attempts on the same question must call
+    them in chronological order, since each call's streak/interval builds on the previous
+    one's stored value regardless of the ts passed."""
     event_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
@@ -132,6 +141,7 @@ def record_attempt(
             confidence=confidence,
             time_taken_seconds=time_taken_seconds,
             topic_tag=topic_tag,
+            ts=ts.isoformat() if ts else None,
         ).single()
     return record["event_id"] if record else None
 
@@ -145,7 +155,9 @@ ORDER BY e.ts ASC
 """
 
 
-def attempts_for_questions(driver: Driver, student_id: str, question_uids: list[str]) -> list[dict]:
+def attempts_for_questions(
+    driver: Driver, student_id: str, question_uids: list[str]
+) -> list[dict]:
     """Returns every attempt this student made on the given question uids, oldest first."""
     with driver.session() as session:
         records = session.run(

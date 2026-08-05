@@ -19,7 +19,11 @@ from neo4j import Driver
 
 from src.student_kg.driver import ensure_constraints, make_driver
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+)
 log = logging.getLogger("enrollment")
 
 _ENROLL_QUERY = """
@@ -34,7 +38,9 @@ RETURN s.id AS student_id
 """
 
 
-def enroll_student(driver: Driver, full_name: str, student_number: str, academic_year: int) -> str:
+def enroll_student(
+    driver: Driver, full_name: str, student_number: str, academic_year: int
+) -> str:
     assert 1 <= academic_year <= 6, f"academic_year must be 1-6, got {academic_year}"
     student_id = str(uuid.uuid4())
     with driver.session() as session:
@@ -51,7 +57,9 @@ def enroll_student(driver: Driver, full_name: str, student_number: str, academic
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("--full-name", required=True)
     parser.add_argument("--student-number", required=True)
     parser.add_argument("--academic-year", type=int, required=True, choices=range(1, 7))

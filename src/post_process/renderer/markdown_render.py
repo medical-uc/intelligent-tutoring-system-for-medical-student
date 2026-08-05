@@ -1,7 +1,9 @@
 import re
 from html.parser import HTMLParser
 from typing import List
+
 from ..models.node import Node, NodeType
+
 
 class TableHTMLParser(HTMLParser):
     def __init__(self):
@@ -56,7 +58,9 @@ def html_table_to_markdown(html_str: str) -> str:
 
         for r in rows[1:]:
             padded_row = r + [""] * (max_cols - len(r))
-            row_str = "| " + " | ".join(c.replace("|", "\\|") for c in padded_row) + " |"
+            row_str = (
+                "| " + " | ".join(c.replace("|", "\\|") for c in padded_row) + " |"
+            )
             md_lines.append(row_str)
 
         return "\n".join(md_lines)

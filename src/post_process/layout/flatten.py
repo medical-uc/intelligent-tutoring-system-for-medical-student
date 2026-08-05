@@ -1,6 +1,8 @@
 import re
-from typing import List, Dict, Any
+from typing import Any, Dict, List
+
 from ..models.block import Block
+
 
 def _extract_spans_text_and_media(lines: List[Dict[str, Any]]):
     text_parts = []
@@ -77,16 +79,18 @@ def flatten_layout(pages: List[Dict[str, Any]]) -> List[Block]:
                         html = sub.get("html")
 
                     block_id = f"p{page_idx}_b{block_counter}"
-                    flat_blocks.append(Block(
-                        id=block_id,
-                        page=page_idx,
-                        bbox=bbox,
-                        text=text,
-                        raw_type=effective_type,
-                        spans=spans,
-                        html=html,
-                        image_path=None
-                    ))
+                    flat_blocks.append(
+                        Block(
+                            id=block_id,
+                            page=page_idx,
+                            bbox=bbox,
+                            text=text,
+                            raw_type=effective_type,
+                            spans=spans,
+                            html=html,
+                            image_path=None,
+                        )
+                    )
             else:
                 block_counter += 1
                 bbox = top_block.get("bbox", [0, 0, 0, 0])
@@ -97,15 +101,17 @@ def flatten_layout(pages: List[Dict[str, Any]]) -> List[Block]:
                     html = top_block.get("html")
 
                 block_id = f"p{page_idx}_b{block_counter}"
-                flat_blocks.append(Block(
-                    id=block_id,
-                    page=page_idx,
-                    bbox=bbox,
-                    text=text,
-                    raw_type=top_type,
-                    spans=spans,
-                    html=html,
-                    image_path=None
-                ))
+                flat_blocks.append(
+                    Block(
+                        id=block_id,
+                        page=page_idx,
+                        bbox=bbox,
+                        text=text,
+                        raw_type=top_type,
+                        spans=spans,
+                        html=html,
+                        image_path=None,
+                    )
+                )
 
     return flat_blocks

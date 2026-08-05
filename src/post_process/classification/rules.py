@@ -1,15 +1,19 @@
 import re
 from typing import Dict
+
 from ..models.block import Block
 
 BULLET_PREFIX_PATTERN = re.compile(r"^\s*([-*•–—○▪■]|\d+[\.\)]|[a-zA-Z][\.\)])\s+")
-SECTION_NUM_PATTERN = re.compile(r"^\s*(?:0?\d|section\s*\d+|part\s*[\d\w]+)\s*$", re.IGNORECASE)
-CAPTION_REGEX = re.compile(r"^\s*(?:figure|fig\.|table|source|credit)s?\s*[\d\.\:]*", re.IGNORECASE)
+SECTION_NUM_PATTERN = re.compile(
+    r"^\s*(?:0?\d|section\s*\d+|part\s*[\d\w]+)\s*$", re.IGNORECASE
+)
+CAPTION_REGEX = re.compile(
+    r"^\s*(?:figure|fig\.|table|source|credit)s?\s*[\d\.\:]*", re.IGNORECASE
+)
+
 
 def score_block(
-    block: Block,
-    is_first_title_on_page: bool = False,
-    is_section_slide: bool = False
+    block: Block, is_first_title_on_page: bool = False, is_section_slide: bool = False
 ) -> Dict[str, float]:
     scores: Dict[str, float] = {
         "DOCUMENT_TITLE": 0.0,
@@ -45,7 +49,9 @@ def score_block(
         return scores
 
     # 3. List Item rule: any text starting with bullet/number or raw_type == 'list' IS a list item!
-    starts_with_bullet = bool(feat and (feat.starts_with_bullet or feat.starts_with_number)) or bool(BULLET_PREFIX_PATTERN.match(text))
+    starts_with_bullet = bool(
+        feat and (feat.starts_with_bullet or feat.starts_with_number)
+    ) or bool(BULLET_PREFIX_PATTERN.match(text))
     if starts_with_bullet or raw_type == "list":
         scores["LIST_ITEM"] = 1.0
         return scores
@@ -70,7 +76,11 @@ def score_block(
 
     # 6. Section Title (On section divider slides)
     if is_section_slide:
-        if raw_type == "title" or feat.font_size >= feat.average_font * 1.1 or SECTION_NUM_PATTERN.match(text):
+        if (
+            raw_type == "title"
+            or feat.font_size >= feat.average_font * 1.1
+            or SECTION_NUM_PATTERN.match(text)
+        ):
             scores["SECTION_TITLE"] = 0.95
             return scores
 

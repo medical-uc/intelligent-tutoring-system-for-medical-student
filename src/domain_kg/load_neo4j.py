@@ -15,6 +15,7 @@ view: it loads the SOURCE-asserted graph only (skips `urn:graph:inferred`)
 by re-serializing to plain N-Triples first. Run with --include-inferred to
 load everything, indistinguishably, if you want the derived triples too.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -28,7 +29,9 @@ INFERRED_GRAPH = "inferred"
 IMPORT_FILE = "file:///import/domain_kg/graph_v2.nt"
 
 
-def _default_graph_to_ntriples(nq_path: str, nt_path: str, include_inferred: bool) -> int:
+def _default_graph_to_ntriples(
+    nq_path: str, nt_path: str, include_inferred: bool
+) -> int:
     from rdflib import Dataset, Graph
 
     ds = Dataset()
@@ -58,9 +61,7 @@ def init_n10s(driver: Driver) -> None:
 
 def import_ntriples(driver: Driver, url: str) -> dict:
     with driver.session() as session:
-        result = session.run(
-            "CALL n10s.rdf.import.fetch($url, 'N-Triples')", url=url
-        )
+        result = session.run("CALL n10s.rdf.import.fetch($url, 'N-Triples')", url=url)
         return dict(result.single())
 
 
@@ -79,8 +80,8 @@ def apply_node_typing(driver: Driver) -> None:
     """
     with driver.session() as session:
         session.run(
-            "MATCH (r:Resource) WHERE r.uri STARTS WITH $inst "
-            "SET r:Instance", inst="http://example.org/medkg/inst/",
+            "MATCH (r:Resource) WHERE r.uri STARTS WITH $inst " "SET r:Instance",
+            inst="http://example.org/medkg/inst/",
         )
         session.run(
             "MATCH (r:Resource) WHERE r.uri STARTS WITH $sct "
@@ -117,11 +118,16 @@ def rename_label_property(driver: Driver) -> None:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--nq", default="src/domain_kg/graph_v2.nq")
-    ap.add_argument("--nt-out", default="src/domain_kg/graph_v2.nt",
-                     help="intermediate N-Triples file, written under the "
-                          "neo4j import mount")
-    ap.add_argument("--include-inferred", action="store_true",
-                     help="also load urn:graph:inferred (Stage 7 derived triples)")
+    ap.add_argument(
+        "--nt-out",
+        default="src/domain_kg/graph_v2.nt",
+        help="intermediate N-Triples file, written under the " "neo4j import mount",
+    )
+    ap.add_argument(
+        "--include-inferred",
+        action="store_true",
+        help="also load urn:graph:inferred (Stage 7 derived triples)",
+    )
     args = ap.parse_args(argv)
 
     n = _default_graph_to_ntriples(args.nq, args.nt_out, args.include_inferred)

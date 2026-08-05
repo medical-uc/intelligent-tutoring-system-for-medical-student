@@ -22,7 +22,11 @@ from botocore.client import Config
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+)
 log = logging.getLogger("upload_visuals")
 
 MAX_METADATA_CAPTION_CHARS = 2000
@@ -37,8 +41,12 @@ def _header_safe(text: str) -> str:
 
 def make_client():
     endpoint = os.environ.get("MLFLOW_S3_ENDPOINT_URL", "http://localhost:9000")
-    access_key = os.environ.get("AWS_ACCESS_KEY_ID") or os.environ.get("MINIO_ROOT_USER", "minioadmin")
-    secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY") or os.environ.get("MINIO_ROOT_PASSWORD", "minioadmin")
+    access_key = os.environ.get("AWS_ACCESS_KEY_ID") or os.environ.get(
+        "MINIO_ROOT_USER", "minioadmin"
+    )
+    secret_key = os.environ.get("AWS_SECRET_ACCESS_KEY") or os.environ.get(
+        "MINIO_ROOT_PASSWORD", "minioadmin"
+    )
     return boto3.client(
         "s3",
         endpoint_url=endpoint,
@@ -81,16 +89,33 @@ def upload_captions_file(client, bucket: str, captions_path: Path) -> int:
         )
         uploaded += 1
 
-    log.info("[%s] uploaded %d/%d semantic visuals -> s3://%s/%s/", pdf_stem, uploaded, len(captions), bucket, pdf_stem)
+    log.info(
+        "[%s] uploaded %d/%d semantic visuals -> s3://%s/%s/",
+        pdf_stem,
+        uploaded,
+        len(captions),
+        bucket,
+        pdf_stem,
+    )
     return uploaded
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--captions", type=Path, help="Path to a single {pdf_stem}_v1_captions.json.")
-    group.add_argument("--dir", type=Path, help="Root dir to search recursively for *_v1_captions.json.")
-    parser.add_argument("--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images"))
+    group.add_argument(
+        "--captions", type=Path, help="Path to a single {pdf_stem}_v1_captions.json."
+    )
+    group.add_argument(
+        "--dir",
+        type=Path,
+        help="Root dir to search recursively for *_v1_captions.json.",
+    )
+    parser.add_argument(
+        "--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images")
+    )
     args = parser.parse_args()
 
     if args.captions:
@@ -106,7 +131,9 @@ def main() -> None:
     for captions_path in captions_paths:
         total += upload_captions_file(client, args.bucket, captions_path)
 
-    log.info("Done: %d visuals uploaded across %d document(s)", total, len(captions_paths))
+    log.info(
+        "Done: %d visuals uploaded across %d document(s)", total, len(captions_paths)
+    )
 
 
 if __name__ == "__main__":

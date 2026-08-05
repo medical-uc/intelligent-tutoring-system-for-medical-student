@@ -31,11 +31,12 @@ Usage:
 
 import hashlib
 import uuid
+from datetime import datetime
 
 from neo4j import Driver
 
 _RATING_MULTIPLIERS = {
-    "again": 0.0,   # handled as a hard reset, not a multiply
+    "again": 0.0,  # handled as a hard reset, not a multiply
     "hard": 1.2,
     "good": 2.0,
     "easy": 2.5,
@@ -56,36 +57,48 @@ MERGE (q:Question {uid: $question_uid})
 MERGE (s)-[:HAS_FLASHCARD]->(f:Flashcard {uid: $flashcard_uid})
 ON CREATE SET f.question_uid = $question_uid, f.streak = 0, f.interval_days = 1
 MERGE (f)-[:FOR_QUESTION]->(q)
+WITH s, f, CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "FLASHCARD_REVIEW",
     question_uid: $question_uid,
     rating: $rating,
-    ts: datetime()
+    ts: effective_ts
 })
 CREATE (e)-[:FOR_FLASHCARD]->(f)
-WITH s, e, f, f.streak AS prev_streak, coalesce(f.interval_days, 1) AS prev_interval
+WITH s, e, f, effective_ts, f.streak AS prev_streak, coalesce(f.interval_days, 1) AS prev_interval
 SET f.streak = CASE WHEN $rating = "again" THEN 0 ELSE prev_streak + 1 END,
     f.interval_days = CASE
         WHEN $rating = "again" THEN 1
         ELSE toInteger(ceil(prev_interval * $multiplier))
     END,
-    f.last_reviewed_at = e.ts
-WITH e, f, CASE WHEN f.interval_days > $max_interval THEN $max_interval
+    f.last_reviewed_at = effective_ts
+WITH e, f, effective_ts, CASE WHEN f.interval_days > $max_interval THEN $max_interval
                 WHEN f.interval_days < 1 THEN 1
                 ELSE f.interval_days END AS capped_interval
 SET f.interval_days = capped_interval,
-    f.next_review_at = datetime() + duration({days: capped_interval})
+    f.next_review_at = effective_ts + duration({days: capped_interval})
 RETURN e.id AS event_id, f.streak AS streak, f.interval_days AS interval_days,
        f.next_review_at AS next_review_at
 """
 
 
-def record_review(driver: Driver, student_id: str, question_uid: str, rating: str) -> dict | None:
+def record_review(
+    driver: Driver,
+    student_id: str,
+    question_uid: str,
+    rating: str,
+    ts: datetime | None = None,
+) -> dict | None:
     """Persists one flashcard self-rating and updates that card's schedule.
 
     Returns the new event id, streak, interval_days, next_review_at — or None if
-    student_id doesn't match a Student node (client-reachable: stale/foreign id)."""
+    student_id doesn't match a Student node (client-reachable: stale/foreign id).
+
+    `ts` backdates the event/schedule timestamps for synthetic history generation (see
+    scripts/generate_dummy_interactions.py) — real callers omit it and get datetime().
+    Backdating a sequence of reviews for the same card must be called in chronological
+    order, since streak/interval build on the previously stored value."""
     if rating not in _RATING_MULTIPLIERS:
         raise ValueError(f"unknown rating: {rating!r}")
 
@@ -100,6 +113,7 @@ def record_review(driver: Driver, student_id: str, question_uid: str, rating: st
             rating=rating,
             multiplier=_RATING_MULTIPLIERS[rating],
             max_interval=_MAX_INTERVAL_DAYS,
+            ts=ts.isoformat() if ts else None,
         ).single()
     return dict(record) if record else None
 
@@ -137,7 +151,8 @@ ORDER BY e.ts ASC
 
 def review_history(driver: Driver, student_id: str, question_uid: str) -> list[dict]:
     """Every rating this student has ever given this card, oldest first — the raw
-    Again/Hard/Good/Easy trail behind the current streak/interval on the Flashcard node."""
+    Again/Hard/Good/Easy trail behind the current streak/interval on the Flashcard node.
+    """
     with driver.session() as session:
         records = session.run(
             _REVIEW_HISTORY_QUERY,
@@ -155,7 +170,9 @@ LIMIT $limit
 """
 
 
-def history_for_student(driver: Driver, student_id: str, limit: int = 100) -> list[dict]:
+def history_for_student(
+    driver: Driver, student_id: str, limit: int = 100
+) -> list[dict]:
     """Every flashcard review this student has ever logged, most recent first — a flat
     feed (one row per rating), unlike quiz history's session-grouped rows, since
     flashcard reviews have no session wrapper. The caller (app/routers/flashcards.py)

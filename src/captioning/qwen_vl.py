@@ -95,7 +95,13 @@ class QwenVLCaptioner:
         elif torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-    def caption(self, image_path: str, prompt: str = DEFAULT_PROMPT, labels: str | None = None, max_new_tokens: int = 512) -> str:
+    def caption(
+        self,
+        image_path: str,
+        prompt: str = DEFAULT_PROMPT,
+        labels: str | None = None,
+        max_new_tokens: int = 512,
+    ) -> str:
         """labels: OCR'd text labels from MinerU2.5 (content_list "content"
         field), passed as grounding context for labeled diagrams so the
         model transcribes existing labels instead of re-reading the image
@@ -109,7 +115,12 @@ class QwenVLCaptioner:
             )
         return self._generate(image_path, prompt, max_new_tokens=max_new_tokens)
 
-    def transcribe_page(self, image_path: str, prompt: str = PAGE_TRANSCRIPTION_PROMPT, max_new_tokens: int = 2048) -> str:
+    def transcribe_page(
+        self,
+        image_path: str,
+        prompt: str = PAGE_TRANSCRIPTION_PROMPT,
+        max_new_tokens: int = 2048,
+    ) -> str:
         """Transcribes body text from a full rendered PDF page image
         (Thread B of the dual-pipeline architecture). Visuals on the page
         are deliberately skipped — they're captioned separately from
@@ -121,7 +132,9 @@ class QwenVLCaptioner:
         2667x1500 = ~4M px) burns thousands of vision tokens on prefill
         alone, which is what made this take hours across 68 pages on MPS
         (no flash-attention / optimized kernels there)."""
-        return self._generate(image_path, prompt, max_new_tokens=max_new_tokens, max_pixels=1_280_000)
+        return self._generate(
+            image_path, prompt, max_new_tokens=max_new_tokens, max_pixels=1_280_000
+        )
 
     def classify_image_relevance(self, img_path: str, slide_text: str) -> str:
         """Classifies whether an image is content-relevant or purely
@@ -141,7 +154,10 @@ class QwenVLCaptioner:
     ) -> str:
         self.load()
 
-        image_content = {"type": "image", "image": Image.open(image_path).convert("RGB")}
+        image_content = {
+            "type": "image",
+            "image": Image.open(image_path).convert("RGB"),
+        }
         if max_pixels is not None:
             image_content["max_pixels"] = max_pixels
 
@@ -171,13 +187,17 @@ class QwenVLCaptioner:
             inputs["pixel_values"] = inputs["pixel_values"].to(torch.bfloat16)
 
         with torch.inference_mode():
-            generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+            generated_ids = self.model.generate(
+                **inputs, max_new_tokens=max_new_tokens, do_sample=False
+            )
 
         generated_ids_trimmed = [
-            out_ids[len(in_ids):]
+            out_ids[len(in_ids) :]
             for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
         ]
         caption = self.processor.batch_decode(
-            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            generated_ids_trimmed,
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
         )[0].strip()
         return caption

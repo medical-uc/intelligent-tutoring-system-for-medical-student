@@ -1,5 +1,6 @@
 import re
-from typing import List, Tuple, Optional
+from typing import List, Optional, Tuple
+
 from ..models.block import Block
 from ..models.node import Node, NodeType
 
@@ -8,9 +9,11 @@ BULLET_CHAR_REGEX = re.compile(r"^\s*[-*•–—○▪■]\s+")
 NUMBER_PREFIX_REGEX = re.compile(r"^\s*(\d+)[\.\)]\s*")
 INDENT_THRESHOLD = 8.0
 
+
 def clean_list_text(text: str) -> str:
     cleaned = BULLET_PREFIX_REGEX.sub("", text).strip()
     return cleaned if cleaned else text.strip()
+
 
 def extract_item_number(text: str) -> Optional[int]:
     m = NUMBER_PREFIX_REGEX.match(text)
@@ -18,8 +21,10 @@ def extract_item_number(text: str) -> Optional[int]:
         return int(m.group(1))
     return None
 
+
 def has_explicit_bullet_symbol(text: str) -> bool:
     return bool(BULLET_CHAR_REGEX.match(text))
+
 
 def patch_missing_sequence_numbers(blocks: List[Block]):
     """
@@ -60,6 +65,7 @@ class ListStackHandler:
     - Automatic sub-item nesting (Level 2) under Level 1 numbered items for non-numbered items.
     - Relative x0 horizontal indentation steps for multi-level nesting.
     """
+
     def __init__(self, container: Node):
         self.container = container
         # Stack entries: (item_node, x0_coord, indent_level, parent_list_node)
@@ -79,7 +85,12 @@ class ListStackHandler:
         x0 = block.bbox[0] if block.bbox and len(block.bbox) >= 1 else 0.0
 
         # Case 1: Numbered item continuation (e.g., 2. IJV, 3. CN X, 4. Adventitia)
-        if is_ordered and item_num is not None and item_num > 1 and self.root_ordered_list is not None:
+        if (
+            is_ordered
+            and item_num is not None
+            and item_num > 1
+            and self.root_ordered_list is not None
+        ):
             item_node = Node(
                 id=f"{block.id}_item",
                 type=NodeType.LIST_ITEM,
@@ -93,7 +104,12 @@ class ListStackHandler:
             return item_node
 
         # Case 2: Unordered item following Level 1 ordered item -> Nest as Level 2 under current ordered item!
-        if self.root_ordered_list is not None and not is_ordered and self.stack and self.stack[-1][2] == 1:
+        if (
+            self.root_ordered_list is not None
+            and not is_ordered
+            and self.stack
+            and self.stack[-1][2] == 1
+        ):
             top_item, top_x0, top_level, top_list = self.stack[-1]
             nested_list = Node(
                 id=f"{block.id}_list_l2",

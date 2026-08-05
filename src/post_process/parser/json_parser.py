@@ -1,6 +1,7 @@
 import json
 import os
-from typing import Dict, Any, List
+from typing import Any, Dict, List
+
 
 def parse_json(json_path: str) -> List[Dict[str, Any]]:
     """
@@ -14,7 +15,7 @@ def parse_json(json_path: str) -> List[Dict[str, Any]]:
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"File not found: {json_path}")
 
-    with open(json_path, 'r', encoding='utf-8') as f:
+    with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     if not isinstance(data, dict):

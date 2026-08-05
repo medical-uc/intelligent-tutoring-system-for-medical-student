@@ -26,7 +26,9 @@ _ANY_BULLET_RE = re.compile(r"^<([a-zA-Z0-9]+)[^>]*>[▪•]</\1>\s*")
 # <sup> specifically usually marks a genuine superscript (ordinals like
 # "2nd", arrows) so render it as a caret-superscript; everything else just
 # loses its markup.
-_ANY_TAG_RE = re.compile(r"<(sup|sub|b|i|em|strong|u|span)\b[^>]*>(.*?)</\1>", re.IGNORECASE | re.DOTALL)
+_ANY_TAG_RE = re.compile(
+    r"<(sup|sub|b|i|em|strong|u|span)\b[^>]*>(.*?)</\1>", re.IGNORECASE | re.DOTALL
+)
 _LEFTOVER_TAG_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(\s[^>]*)?>")
 
 
@@ -82,7 +84,10 @@ def _html_table_to_markdown(table_body: str) -> str:
     width = max(len(row) for row in rows)
     rows = [row + [""] * (width - len(row)) for row in rows]
 
-    lines = ["| " + " | ".join(rows[0]) + " |", "| " + " | ".join(["---"] * width) + " |"]
+    lines = [
+        "| " + " | ".join(rows[0]) + " |",
+        "| " + " | ".join(["---"] * width) + " |",
+    ]
     lines += ["| " + " | ".join(row) + " |" for row in rows[1:]]
     return "\n".join(lines)
 
@@ -150,7 +155,11 @@ def build_unified_items(
             text = _render_list_item(entry)
         elif content_type == "table":
             caption = captions.get(item_id)
-            text = _render_visual_item(item_id, caption) if caption else _render_table_item(entry)
+            text = (
+                _render_visual_item(item_id, caption)
+                if caption
+                else _render_table_item(entry)
+            )
         elif content_type in VISUAL_TYPES:
             text = _render_visual_item(item_id, captions.get(item_id))
         else:
@@ -159,13 +168,15 @@ def build_unified_items(
         if not text:
             continue
 
-        items.append(UnifiedItem(
-            item_id=item_id,
-            page_idx=page_idx,
-            content_type=content_type,
-            text=text,
-            text_level=text_level,
-        ))
+        items.append(
+            UnifiedItem(
+                item_id=item_id,
+                page_idx=page_idx,
+                content_type=content_type,
+                text=text,
+                text_level=text_level,
+            )
+        )
 
     return items
 
@@ -219,23 +230,27 @@ def build_unified_items_from_merged(
 
         text = page.get("text", "")
         if text:
-            items.append(UnifiedItem(
-                item_id=f"page{page_idx}#text",
-                page_idx=int(page_idx),
-                content_type="text",
-                text=text,
-            ))
+            items.append(
+                UnifiedItem(
+                    item_id=f"page{page_idx}#text",
+                    page_idx=int(page_idx),
+                    content_type="text",
+                    text=text,
+                )
+            )
 
         for visual in page.get("visuals", []):
             if visual.get("relevance") != "semantic":
                 continue
             item_id = visual["item_id"]
-            items.append(UnifiedItem(
-                item_id=item_id,
-                page_idx=int(page_idx),
-                content_type=visual["type"],
-                text=_render_visual_item(item_id, captions.get(item_id)),
-            ))
+            items.append(
+                UnifiedItem(
+                    item_id=item_id,
+                    page_idx=int(page_idx),
+                    content_type=visual["type"],
+                    text=_render_visual_item(item_id, captions.get(item_id)),
+                )
+            )
 
     return items
 
@@ -268,22 +283,28 @@ def build_unified_items_from_postprocessed(
 
         text = page.get("text", "")
         if text:
-            items.append(UnifiedItem(
-                item_id=f"page{page_idx}#text",
-                page_idx=page_idx,
-                content_type="text",
-                text=text,
-            ))
+            items.append(
+                UnifiedItem(
+                    item_id=f"page{page_idx}#text",
+                    page_idx=page_idx,
+                    content_type="text",
+                    text=text,
+                )
+            )
 
         for visual in visuals_by_page_idx.get(page_idx, []):
             if visual.relevance != "semantic":
                 continue
-            items.append(UnifiedItem(
-                item_id=visual.item_id,
-                page_idx=page_idx,
-                content_type=visual.type,
-                text=_render_visual_item(visual.item_id, captions.get(visual.item_id)),
-            ))
+            items.append(
+                UnifiedItem(
+                    item_id=visual.item_id,
+                    page_idx=page_idx,
+                    content_type=visual.type,
+                    text=_render_visual_item(
+                        visual.item_id, captions.get(visual.item_id)
+                    ),
+                )
+            )
 
     return items
 
@@ -301,7 +322,8 @@ def captions_by_item_id(
     one per visual item in content_list, in content_list order.
     """
     visual_indices = [
-        index for index, entry in enumerate(content_list)
+        index
+        for index, entry in enumerate(content_list)
         if entry.get("type") in VISUAL_TYPES and entry.get("img_path")
     ]
 

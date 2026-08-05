@@ -1,7 +1,9 @@
-from typing import List, Dict, Optional
+from typing import Dict, List, Optional
+
 from ..models.block import Block
 from ..models.node import Node, NodeType
 from .list_builder import ListStackHandler, patch_missing_sequence_numbers
+
 
 def build_semantic_tree(blocks: List[Block]) -> Node:
     """
@@ -72,7 +74,11 @@ def build_semantic_tree(blocks: List[Block]) -> Node:
             get_or_create_slide(block.page, title=text)
 
         elif stype == "SECTION_TITLE":
-            if current_section and current_section.page == block.page and current_section.title:
+            if (
+                current_section
+                and current_section.page == block.page
+                and current_section.title
+            ):
                 current_section.title = f"{current_section.title} {text}".strip()
             else:
                 current_section = get_or_create_section(title=text)

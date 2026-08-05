@@ -133,7 +133,9 @@ def score_document(middle_json_path: str) -> DocMetrics:
         n_low_conf_blocks=sum(p.n_low_conf_blocks for p in pages),
         mean_block_score=(sum(all_scores) / len(all_scores)) if all_scores else 1.0,
         min_block_score=min((p.min_block_score for p in pages), default=1.0),
-        mean_garbage_ratio=(sum(p.garbage_ratio for p in pages) / len(pages)) if pages else 0.0,
+        mean_garbage_ratio=(
+            (sum(p.garbage_ratio for p in pages) / len(pages)) if pages else 0.0
+        ),
         total_repeat_runs=sum(p.repeat_run_count for p in pages),
         worst_pages=worst_pages,
         pages=pages,
@@ -154,25 +156,37 @@ def _report_path_for(middle_json_path: str) -> str:
 
 def print_summary(doc: DocMetrics) -> None:
     print(f"\n{doc.source}")
-    print(f"  pages={doc.n_pages} blocks={doc.n_blocks} empty={doc.n_empty_blocks} "
-          f"low_conf={doc.n_low_conf_blocks} (thr={LOW_SCORE_THRESHOLD})")
-    print(f"  mean_block_score={doc.mean_block_score:.4f} min_block_score={doc.min_block_score:.4f}")
-    print(f"  mean_garbage_ratio={doc.mean_garbage_ratio:.4%} total_repeat_runs={doc.total_repeat_runs}")
+    print(
+        f"  pages={doc.n_pages} blocks={doc.n_blocks} empty={doc.n_empty_blocks} "
+        f"low_conf={doc.n_low_conf_blocks} (thr={LOW_SCORE_THRESHOLD})"
+    )
+    print(
+        f"  mean_block_score={doc.mean_block_score:.4f} min_block_score={doc.min_block_score:.4f}"
+    )
+    print(
+        f"  mean_garbage_ratio={doc.mean_garbage_ratio:.4%} total_repeat_runs={doc.total_repeat_runs}"
+    )
     print(f"  worst_pages(by score)={doc.worst_pages}")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("paths", nargs="+", help="_middle.json files, dirs, or globs")
-    ap.add_argument("--recursive", action="store_true", help="recurse into dirs for *_middle.json")
-    ap.add_argument("--no-report", action="store_true", help="skip writing *_quality_report.json")
+    ap.add_argument(
+        "--recursive", action="store_true", help="recurse into dirs for *_middle.json"
+    )
+    ap.add_argument(
+        "--no-report", action="store_true", help="skip writing *_quality_report.json"
+    )
     args = ap.parse_args()
 
     targets: List[str] = []
     for p in args.paths:
         if os.path.isdir(p):
             pattern = "**/*_middle.json" if args.recursive else "*_middle.json"
-            targets.extend(glob.glob(os.path.join(p, pattern), recursive=args.recursive))
+            targets.extend(
+                glob.glob(os.path.join(p, pattern), recursive=args.recursive)
+            )
         else:
             targets.extend(glob.glob(p, recursive=True))
 

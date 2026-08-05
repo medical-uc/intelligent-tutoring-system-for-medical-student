@@ -1,15 +1,18 @@
-from typing import Dict, Any
+from typing import Any, Dict
 
-from .parser import parse_json
-from .layout.flatten import flatten_layout
+from .classification.classifier import classify_blocks
 from .layout.features import extract_features
+from .layout.flatten import flatten_layout
 from .layout.header_footer import remove_headers_footers
 from .layout.reading_order import reconstruct_reading_order
-from .classification.classifier import classify_blocks
-from .tree.builder import build_semantic_tree
+from .parser import parse_json
 from .renderer.json_render import render_json
+from .tree.builder import build_semantic_tree
 
-def process_mineru_json(json_path: str, confidence_threshold: float = 0.7) -> Dict[str, Any]:
+
+def process_mineru_json(
+    json_path: str, confidence_threshold: float = 0.7
+) -> Dict[str, Any]:
     """
     Executes the full 8-stage pipeline converting MinerU JSON to a structured JSON object.
     """
@@ -26,7 +29,9 @@ def process_mineru_json(json_path: str, confidence_threshold: float = 0.7) -> Di
     content_blocks = remove_headers_footers(blocks_with_features)
 
     # Stage 5: Block Classification
-    classified_blocks = classify_blocks(content_blocks, confidence_threshold=confidence_threshold)
+    classified_blocks = classify_blocks(
+        content_blocks, confidence_threshold=confidence_threshold
+    )
 
     # Stage 6: Reading Order Reconstruction
     ordered_blocks = reconstruct_reading_order(classified_blocks)
@@ -44,10 +49,14 @@ def main():
     import json
     from pathlib import Path
 
-    json_path = Path("output/Anatomy of Neck - Basic of DEMN.pdf_origin/auto/Anatomy of Neck - Basic of DEMN.pdf_origin_middle.json")
+    json_path = Path(
+        "output/Anatomy of Neck - Basic of DEMN.pdf_origin/auto/Anatomy of Neck - Basic of DEMN.pdf_origin_middle.json"
+    )
     result = process_mineru_json(str(json_path))
 
-    output_path = json_path.with_name(json_path.stem.replace("_middle", "") + "_post_processed.json")
+    output_path = json_path.with_name(
+        json_path.stem.replace("_middle", "") + "_post_processed.json"
+    )
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
@@ -56,4 +65,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

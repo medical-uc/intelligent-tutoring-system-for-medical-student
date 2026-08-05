@@ -1,7 +1,9 @@
 import re
-from typing import Dict, Any, List, Optional
+from typing import Any, Dict, List, Optional
+
 from ..models.node import Node, NodeType
 from .markdown_render import html_table_to_markdown
+
 
 def _render_node_text(node: Node, indent_level: int = 0) -> str:
     """Helper to render text for a node within a page/slide."""
@@ -68,7 +70,7 @@ def node_to_dict(node: Node) -> Dict[str, Any]:
 def render_json(doc_root: Node, total_pages: Optional[int] = None) -> Dict[str, Any]:
     """
     Traverses the semantic tree and returns a structured JSON-serializable dictionary.
-    
+
     Structure:
     {
         "document_title": "...",
@@ -91,16 +93,15 @@ def render_json(doc_root: Node, total_pages: Optional[int] = None) -> Dict[str, 
     # Traverse sections and slides
     for sec_node in doc_root.children:
         sec_title = sec_node.title if sec_node.type == NodeType.SECTION else ""
-        
+
         slides = sec_node.children if sec_node.type == NodeType.SECTION else [sec_node]
         for slide in slides:
             if slide.type == NodeType.SLIDE:
                 p_num = (slide.page + 1) if slide.page is not None else 1
                 max_page_seen = max(max_page_seen, p_num)
 
-                
                 slide_title = slide.title or ""
-                
+
                 # Render content text for slide
                 text_parts = []
                 for child in slide.children:
@@ -113,7 +114,7 @@ def render_json(doc_root: Node, total_pages: Optional[int] = None) -> Dict[str, 
                     "section": sec_title,
                     "title": slide_title,
                     "text": cleaned_text,
-                    "nodes": [node_to_dict(child) for child in slide.children]
+                    "nodes": [node_to_dict(child) for child in slide.children],
                 }
 
     doc_total_pages = total_pages if total_pages is not None else max(max_page_seen, 1)
@@ -124,16 +125,12 @@ def render_json(doc_root: Node, total_pages: Optional[int] = None) -> Dict[str, 
         if p in page_map:
             pages_list.append(page_map[p])
         else:
-            pages_list.append({
-                "page_num": p,
-                "section": "",
-                "title": "",
-                "text": "",
-                "nodes": []
-            })
+            pages_list.append(
+                {"page_num": p, "section": "", "title": "", "text": "", "nodes": []}
+            )
 
     return {
         "document_title": doc_title,
         "total_pages": doc_total_pages,
-        "pages": pages_list
+        "pages": pages_list,
     }

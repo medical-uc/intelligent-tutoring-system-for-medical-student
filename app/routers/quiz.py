@@ -20,7 +20,12 @@ from app.schemas import (
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
-from src.quiz.sessions import cancel_session, end_session, history_for_student, start_session
+from src.quiz.sessions import (
+    cancel_session,
+    end_session,
+    history_for_student,
+    start_session,
+)
 
 router = APIRouter(prefix="/quiz", tags=["quiz"])
 
@@ -42,13 +47,18 @@ def _to_question_out(q: Question) -> QuestionOut:
 def _get_question_or_404(bank: QuestionBank, uid: str) -> Question:
     question = bank.get(uid)
     if question is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such question")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no such question"
+        )
     return question
 
 
 def _validate_selected_index(question: Question, selected_index: int) -> None:
     if selected_index < 0 or selected_index >= len(question.options):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="selected_index out of range")
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="selected_index out of range",
+        )
 
 
 @router.get("/topics", response_model=TopicListResponse)
@@ -63,7 +73,9 @@ def get_questions_for_topic(
 ) -> list[QuestionOut]:
     questions = bank.questions_for_topic(topic_path)
     if not questions:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic"
+        )
     return [_to_question_out(q) for q in questions]
 
 
@@ -75,9 +87,12 @@ def start_quiz_session(
     driver: Driver = Depends(get_driver),
 ) -> StartSessionResponse:
     """Call once, before the first question of a topic run. The returned session_id must be
-    passed to every /log call in this run, then to /sessions/{session_id}/end when done."""
+    passed to every /log call in this run, then to /sessions/{session_id}/end when done.
+    """
     if not bank.questions_for_topic(topic_path):
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic"
+        )
     session_id = start_session(driver, student_id=student_id, topic_path=topic_path)
     return StartSessionResponse(session_id=session_id)
 
@@ -92,7 +107,10 @@ def end_quiz_session(
     this session into question_count/correct_count/duration_seconds."""
     summary = end_session(driver, student_id=student_id, session_id=session_id)
     if summary is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such session for this student")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such session for this student",
+        )
     return EndSessionResponse(**summary)
 
 
@@ -110,7 +128,10 @@ def cancel_quiz_session(
     Already-logged answers and their :REVIEWING mastery updates are not undone."""
     summary = cancel_session(driver, student_id=student_id, session_id=session_id)
     if summary is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such in-progress session for this student")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such in-progress session for this student",
+        )
     return CancelSessionResponse(**summary)
 
 
@@ -130,7 +151,11 @@ def get_history(
             status=s["status"],
             question_count=s["question_count"],
             correct_count=s["correct_count"],
-            score_percent=round(100 * s["correct_count"] / s["question_count"]) if s["question_count"] else 0,
+            score_percent=(
+                round(100 * s["correct_count"] / s["question_count"])
+                if s["question_count"]
+                else 0
+            ),
             duration_seconds=s["duration_seconds"],
             started_at=s["started_at"].to_native(),
             ended_at=s["ended_at"].to_native(),
@@ -212,6 +237,9 @@ def log_attempt(
         topic_tag=question.topic_tag,
     )
     if event_id is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such session for this student")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such session for this student",
+        )
 
     return LogAttemptResponse(event_id=event_id, correct=is_correct)

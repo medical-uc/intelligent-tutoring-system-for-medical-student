@@ -47,7 +47,9 @@ RETURN sess.token_hash AS token_hash
 """
 
 
-def create_session(driver: Driver, student_id: str, ttl_hours: int = DEFAULT_TTL_HOURS) -> Session:
+def create_session(
+    driver: Driver, student_id: str, ttl_hours: int = DEFAULT_TTL_HOURS
+) -> Session:
     """Issues a new session for an already-existing student. Raises if student_id doesn't
     match a Student node — callers should enroll/look up the student first."""
     token = secrets.token_urlsafe(32)
@@ -65,7 +67,11 @@ def create_session(driver: Driver, student_id: str, ttl_hours: int = DEFAULT_TTL
         ).single()
     assert record, f"session creation failed — no student with id={student_id}"
 
-    log.info("issued session for student_id=%s expires_at=%s", student_id, expires_at.isoformat())
+    log.info(
+        "issued session for student_id=%s expires_at=%s",
+        student_id,
+        expires_at.isoformat(),
+    )
     return Session(token=token, student_id=student_id, expires_at=expires_at)
 
 
@@ -113,7 +119,9 @@ def revoke_all_sessions_for_student(driver: Driver, student_id: str) -> int:
     """Revokes every live session for a student — e.g. on password reset or 'log out
     everywhere'. Returns how many sessions were revoked."""
     with driver.session() as session:
-        record = session.run(_REVOKE_ALL_FOR_STUDENT_QUERY, student_id=student_id).single()
+        record = session.run(
+            _REVOKE_ALL_FOR_STUDENT_QUERY, student_id=student_id
+        ).single()
     assert record is not None
     return record["revoked_count"]
 
@@ -126,5 +134,7 @@ RETURN s.id AS student_id
 
 def find_student_id_by_number(driver: Driver, student_number: str) -> str | None:
     with driver.session() as session:
-        record = session.run(_FIND_STUDENT_BY_NUMBER_QUERY, student_number=student_number).single()
+        record = session.run(
+            _FIND_STUDENT_BY_NUMBER_QUERY, student_number=student_number
+        ).single()
     return record["student_id"] if record else None

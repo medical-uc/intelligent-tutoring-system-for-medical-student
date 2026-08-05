@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Feature:
     width: float
@@ -16,7 +17,7 @@ class Feature:
     ends_with_colon: bool
     top_ratio: float
     left_ratio: float
-    
+
     # Slide-level features
     largest_font: float = 0.0
     average_font: float = 0.0

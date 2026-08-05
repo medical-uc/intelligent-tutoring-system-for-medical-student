@@ -38,7 +38,9 @@ def _to_flashcard(q: Question) -> Flashcard:
     )
 
 
-def flashcards_for_topic(topic_path: str, bank: QuestionBank | None = None) -> list[Flashcard]:
+def flashcards_for_topic(
+    topic_path: str, bank: QuestionBank | None = None
+) -> list[Flashcard]:
     bank = bank or load_question_bank()
     return [_to_flashcard(q) for q in bank.questions_for_topic(topic_path)]
 

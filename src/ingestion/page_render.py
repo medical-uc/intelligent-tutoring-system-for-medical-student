@@ -9,7 +9,9 @@ import fitz  # PyMuPDF
 DEFAULT_DPI = 150
 
 
-def render_pages(pdf_path: Path, output_dir: Path, dpi: int = DEFAULT_DPI) -> list[Path]:
+def render_pages(
+    pdf_path: Path, output_dir: Path, dpi: int = DEFAULT_DPI
+) -> list[Path]:
     """Renders every page of `pdf_path` to a PNG in `output_dir`, named
     `page_{page_idx:04d}.png` (page_idx is 0-indexed, matching MinerU's
     `page_idx` field). Returns the list of image paths in page order."""

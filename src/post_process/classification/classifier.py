@@ -1,11 +1,15 @@
 import re
-from typing import List, Set, Dict
+from typing import Dict, List, Set
+
 from ..models.block import Block
 from .rules import score_block
 
 SECTION_NUM_REGEX = re.compile(r"^\s*0?\d\s*$", re.IGNORECASE)
 
-def classify_blocks(blocks: List[Block], confidence_threshold: float = 0.7) -> List[Block]:
+
+def classify_blocks(
+    blocks: List[Block], confidence_threshold: float = 0.7
+) -> List[Block]:
     """
     Stage 5 — Block Classification
     Detects section slides and assigns semantic types (DOCUMENT_TITLE, SECTION_TITLE, SLIDE_TITLE, SUBHEADING, LIST_ITEM, PARAGRAPH, TABLE).
@@ -33,8 +37,13 @@ def classify_blocks(blocks: List[Block], confidence_threshold: float = 0.7) -> L
             feat = block.features
             raw_type = (block.raw_type or "").lower()
 
-            starts_with_bullet = bool(feat and (feat.starts_with_bullet or feat.starts_with_number)) or raw_type == "list"
-            is_candidate_title = not starts_with_bullet and (raw_type == "title" or (feat and feat.top_ratio < 0.38))
+            starts_with_bullet = (
+                bool(feat and (feat.starts_with_bullet or feat.starts_with_number))
+                or raw_type == "list"
+            )
+            is_candidate_title = not starts_with_bullet and (
+                raw_type == "title" or (feat and feat.top_ratio < 0.38)
+            )
 
             is_first_title = False
             if is_candidate_title and not first_title_found and not is_sec_slide:
@@ -44,7 +53,7 @@ def classify_blocks(blocks: List[Block], confidence_threshold: float = 0.7) -> L
             scores = score_block(
                 block,
                 is_first_title_on_page=is_first_title,
-                is_section_slide=is_sec_slide
+                is_section_slide=is_sec_slide,
             )
 
             best_type = "PARAGRAPH"

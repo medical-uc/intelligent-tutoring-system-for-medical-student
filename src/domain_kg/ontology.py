@@ -17,6 +17,7 @@ extraction just returns little, and nothing says why. `validate` makes it loud.
 Adding a relation type is therefore a two-part change: the type here, and an
 NER model that can produce its endpoints.
 """
+
 from __future__ import annotations
 
 import json
@@ -79,12 +80,18 @@ def normalize(data: dict, path: str = "<memory>") -> dict:
             "aliases": list(spec.get("aliases") or ()),
             "inverseOf": list(spec.get("inverseOf") or ()),
         }
-    label_parents = {str(k): str(v) for k, v in (data.get("label_hierarchy") or {}).items()}
-    modifiers = {name: expand(spec["uri"])
-                 for name, spec in (data.get("modifiers") or {}).items()}
+    label_parents = {
+        str(k): str(v) for k, v in (data.get("label_hierarchy") or {}).items()
+    }
+    modifiers = {
+        name: expand(spec["uri"])
+        for name, spec in (data.get("modifiers") or {}).items()
+    }
     modifier_meta = {name: spec for name, spec in (data.get("modifiers") or {}).items()}
     values = {k: expand(v) for k, v in (data.get("modifier_values") or {}).items()}
-    ner_models = {m: dict(labels) for m, labels in (data.get("ner_models") or {}).items()}
+    ner_models = {
+        m: dict(labels) for m, labels in (data.get("ner_models") or {}).items()
+    }
     return {
         "version": data.get("version", "unversioned"),
         "path": path,
@@ -132,6 +139,7 @@ def label_satisfies(label, allowed, hierarchy: dict[str, str]) -> bool:
     if allowed is None:
         return True
     from . import config
+
     if allowed is config.ANY or allowed == config.ANY:
         return True
     if label is None:
@@ -164,8 +172,9 @@ def validate_labels(onto: dict) -> list[dict]:
         seen, cur = {child}, hier.get(child)
         while cur:
             if cur in seen:
-                problems.append({"label": child,
-                                 "reason": f"label_hierarchy cycles at {cur!r}"})
+                problems.append(
+                    {"label": child, "reason": f"label_hierarchy cycles at {cur!r}"}
+                )
                 break
             seen.add(cur)
             cur = hier.get(cur)
@@ -174,9 +183,11 @@ def validate_labels(onto: dict) -> list[dict]:
 
 def parent_map(onto: dict) -> dict[str, str]:
     """child relation type -> parent type, for the types that declare one."""
-    return {name: spec["subPropertyOf"]
-            for name, spec in onto["relations"].items()
-            if spec.get("subPropertyOf")}
+    return {
+        name: spec["subPropertyOf"]
+        for name, spec in onto["relations"].items()
+        if spec.get("subPropertyOf")
+    }
 
 
 def validate_hierarchy(onto: dict) -> list[dict]:
@@ -191,14 +202,22 @@ def validate_hierarchy(onto: dict) -> list[dict]:
         if not parent:
             continue
         if parent not in rels:
-            problems.append({"relation": name,
-                             "reason": f"subPropertyOf names an unknown type {parent!r}"})
+            problems.append(
+                {
+                    "relation": name,
+                    "reason": f"subPropertyOf names an unknown type {parent!r}",
+                }
+            )
             continue
         seen, cur = {name}, parent
         while cur:
             if cur in seen:
-                problems.append({"relation": name,
-                                 "reason": f"subPropertyOf chain cycles at {cur!r}"})
+                problems.append(
+                    {
+                        "relation": name,
+                        "reason": f"subPropertyOf chain cycles at {cur!r}",
+                    }
+                )
                 break
             seen.add(cur)
             cur = rels.get(cur, {}).get("subPropertyOf")
@@ -225,28 +244,41 @@ def validate(onto: dict, models=None) -> list[dict]:
         missing_head = spec["head"] and not (spec["head"] & available)
         missing_tail = spec["tail"] is not None and not (spec["tail"] & available)
         if missing_head or missing_tail:
-            problems.append({
-                "relation": name,
-                "reason": "no NER model emits its "
-                          + (" and ".join(x for x in (
-                              "head label" if missing_head else "",
-                              "tail label" if missing_tail else "") if x)),
-                "head": sorted(spec["head"] or []),
-                "tail": sorted(spec["tail"]) if spec["tail"] else None,
-                "available": sorted(available),
-            })
+            problems.append(
+                {
+                    "relation": name,
+                    "reason": "no NER model emits its "
+                    + (
+                        " and ".join(
+                            x
+                            for x in (
+                                "head label" if missing_head else "",
+                                "tail label" if missing_tail else "",
+                            )
+                            if x
+                        )
+                    ),
+                    "head": sorted(spec["head"] or []),
+                    "tail": sorted(spec["tail"]) if spec["tail"] else None,
+                    "available": sorted(available),
+                }
+            )
     return problems
 
 
 def summary(onto: dict, models=None) -> str:
     problems = validate(onto, models)
     usable = len(onto["relations"]) - len(problems)
-    lines = [f"ontology {onto['version']} ({onto['path']})",
-             f"  relations: {len(onto['relations'])} ({usable} usable with the "
-             f"configured NER)",
-             f"  modifiers: {len(onto['modifiers'])}",
-             f"  span labels available: {', '.join(sorted(emitted_labels(onto, models))) or '(none)'}"]
+    lines = [
+        f"ontology {onto['version']} ({onto['path']})",
+        f"  relations: {len(onto['relations'])} ({usable} usable with the "
+        f"configured NER)",
+        f"  modifiers: {len(onto['modifiers'])}",
+        f"  span labels available: {', '.join(sorted(emitted_labels(onto, models))) or '(none)'}",
+    ]
     for p in problems:
-        lines.append(f"  UNUSABLE {p['relation']}: {p['reason']} "
-                     f"(head={p['head']} tail={p['tail']})")
+        lines.append(
+            f"  UNUSABLE {p['relation']}: {p['reason']} "
+            f"(head={p['head']} tail={p['tail']})"
+        )
     return "\n".join(lines)

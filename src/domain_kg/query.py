@@ -24,6 +24,7 @@ are easy to get wrong:
 
 Needs rdflib. Everything else in this file is stdlib.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -68,8 +69,8 @@ SELECT ?subject ?predicate ?object ?confidence WHERE {{
   BIND(COALESCE(?sl, STR(?s)) AS ?subject)
   BIND(COALESCE(?ol, STR(?o)) AS ?object)
   BIND(REPLACE(STR(?p), "^.*[#/]", "") AS ?predicate)
-}} ORDER BY ?subject ?predicate"""),
-
+}} ORDER BY ?subject ?predicate""",
+        ),
         "flagged": (
             "Relations demoted to uncertain by the Stage-2 guards -- reversed "
             "causal direction, an endpoint that is only part of the phrase the "
@@ -88,8 +89,8 @@ SELECT ?polarity ?about ?target ?assertionType WHERE {
   BIND(COALESCE(?tl, STR(?t), "") AS ?target)
   BIND(REPLACE(STR(?pol), "^.*[#/]", "") AS ?polarity)
   BIND(REPLACE(STR(?at), "^.*[#/]", "") AS ?assertionType)
-}"""),
-
+}""",
+        ),
         "inferred": (
             "Relations Stage 7 DERIVED rather than read: subPropertyOf parents "
             "(complication_of -> caused_by), subclass and transitivity. These "
@@ -103,16 +104,16 @@ SELECT ?subject ?predicate ?object WHERE {{
   BIND(COALESCE(?sl, STR(?s)) AS ?subject)
   BIND(COALESCE(?ol, STR(?o)) AS ?object)
   BIND(REPLACE(STR(?p), "^.*[#/]", "") AS ?predicate)
-}} ORDER BY ?subject ?predicate"""),
-
+}} ORDER BY ?subject ?predicate""",
+        ),
         "concepts": (
             "Linked concepts, most-mentioned first. The reading list for the document.",
             PREFIXES + """
 SELECT ?label ?concept ?mentions WHERE {
   ?concept rdfs:label ?label .
   OPTIONAL { ?concept ont:mentionCount ?mentions }
-} ORDER BY DESC(?mentions) ?label"""),
-
+} ORDER BY DESC(?mentions) ?label""",
+        ),
         "negated": (
             "Negated/uncertain assertions. These are NOT facts in the graph -- "
             "the whole point is that they are unreachable by the queries above.",
@@ -128,8 +129,8 @@ SELECT ?polarity ?about ?assertionType ?target WHERE {
   BIND(COALESCE(?tl, STR(?t), "") AS ?target)
   BIND(REPLACE(STR(?pol), "^.*[#/]", "") AS ?polarity)
   BIND(REPLACE(STR(?at), "^.*[#/]", "") AS ?assertionType)
-}"""),
-
+}""",
+        ),
         "figures": (
             "Figures, their captions, and the concepts they depict.",
             PREFIXES + """
@@ -139,8 +140,8 @@ SELECT ?figure ?caption ?depicts WHERE {
   OPTIONAL { ?fig ont:depicts ?d . OPTIONAL { ?d rdfs:label ?dl } }
   BIND(REPLACE(STR(?fig), "^.*/", "") AS ?figure)
   BIND(COALESCE(?dl, STR(?d), "") AS ?depicts)
-} ORDER BY ?figure"""),
-
+} ORDER BY ?figure""",
+        ),
         "instances": (
             "Post-coordinated instance nodes (Stage 4) and their attributes.",
             PREFIXES + ("""
@@ -151,8 +152,8 @@ SELECT ?instance ?property ?value WHERE {
   FILTER(?prop != rdf:type)
   BIND(REPLACE(STR(?i), "^.*/", "") AS ?instance)
   BIND(REPLACE(STR(?prop), "^.*[#/]", "") AS ?property)
-} ORDER BY ?instance""").replace("{INST}", config.INST)),
-
+} ORDER BY ?instance""").replace("{INST}", config.INST),
+        ),
         "provenance": (
             "Where this graph came from -- and, critically, what wrote its prose.",
             PREFIXES + """
@@ -162,8 +163,8 @@ SELECT ?graph ?property ?value WHERE {
                  prov:wasDerivedFrom prov:generatedAtTime ont:snomedVersion }
   BIND(STR(?g) AS ?graph)
   BIND(REPLACE(STR(?prop), "^.*[#/]", "") AS ?property)
-}"""),
-
+}""",
+        ),
         "evidence": (
             "Relations with the text span they were extracted from.",
             PREFIXES + """
@@ -176,7 +177,8 @@ SELECT ?subject ?predicate ?object ?confidence ?extractedBy WHERE {
   BIND(COALESCE(?sl, STR(?s)) AS ?subject)
   BIND(COALESCE(?ol, STR(?o)) AS ?object)
   BIND(REPLACE(STR(?p), "^.*[#/]", "") AS ?predicate)
-} ORDER BY DESC(?confidence)"""),
+} ORDER BY DESC(?confidence)""",
+        ),
     }
 
 
@@ -202,7 +204,7 @@ SELECT ?concept WHERE {
 }"""
 
 
-INFERRED_GRAPH = "inferred"          # suffix of urn:graph:inferred
+INFERRED_GRAPH = "inferred"  # suffix of urn:graph:inferred
 
 
 def load_graph(path: str, only=None, skip=(), keep_labels: bool = False):
@@ -222,13 +224,15 @@ def load_graph(path: str, only=None, skip=(), keep_labels: bool = False):
     inferred graph can only print bare URIs.
     """
     from rdflib import Dataset, Graph
+
     ds = Dataset()
     ds.parse(path, format="nquads")
     g = Graph()
     for ctx in ds.contexts():
         cid = str(ctx.identifier)
-        selected = ((only is None or any(cid.endswith(x) for x in only))
-                    and not any(cid.endswith(x) for x in skip))
+        selected = (only is None or any(cid.endswith(x) for x in only)) and not any(
+            cid.endswith(x) for x in skip
+        )
         for triple in ctx:
             if selected or (keep_labels and str(triple[1]) == config.RDFS_LABEL):
                 g.add(triple)
@@ -243,8 +247,10 @@ def print_rows(rows, limit: int = 0) -> int:
     headers = [str(v) for v in rows[0].labels] if hasattr(rows[0], "labels") else []
     shown = rows[:limit] if limit else rows
     table = [[("" if v is None else str(v)) for v in r] for r in shown]
-    widths = [max(len(h), *(len(r[i]) for r in table)) if table else len(h)
-              for i, h in enumerate(headers)]
+    widths = [
+        max(len(h), *(len(r[i]) for r in table)) if table else len(h)
+        for i, h in enumerate(headers)
+    ]
     if headers:
         print("  " + "  ".join(h.ljust(w) for h, w in zip(headers, widths)))
         print("  " + "  ".join("-" * w for w in widths))
@@ -260,18 +266,25 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(
         description="Query a serialized medkg graph.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="built-in queries: " + ", ".join(sorted(queries)))
+        epilog="built-in queries: " + ", ".join(sorted(queries)),
+    )
     ap.add_argument("graph", nargs="?", default="graph.nq", help="N-Quads file")
     ap.add_argument("query", nargs="?", help="name of a built-in query")
     ap.add_argument("--list", action="store_true", help="list built-in queries")
-    ap.add_argument("--about", metavar="TERM",
-                    help="everything the graph says about a concept, by label or URI")
+    ap.add_argument(
+        "--about",
+        metavar="TERM",
+        help="everything the graph says about a concept, by label or URI",
+    )
     ap.add_argument("--sparql", help="run an ad-hoc SPARQL query")
     ap.add_argument("--file", help="run SPARQL from a file")
     ap.add_argument("--limit", type=int, default=50, help="rows to print (0 = all)")
-    ap.add_argument("--include-inferred", action="store_true",
-                    help="include Stage 7's derived triples in every query "
-                         "(default: only `inferred` and ad-hoc SPARQL see them)")
+    ap.add_argument(
+        "--include-inferred",
+        action="store_true",
+        help="include Stage 7's derived triples in every query "
+        "(default: only `inferred` and ad-hoc SPARQL see them)",
+    )
     args = ap.parse_args(argv)
 
     if args.list:
@@ -302,16 +315,20 @@ def main(argv=None) -> int:
     print(f"{args.graph}: {len(graph)} triples\n")
 
     if args.about:
-        from rdflib import URIRef, Literal
+        from rdflib import Literal, URIRef
+
         term = args.about
         if term.startswith(("http://", "https://", "urn:")):
             concept = URIRef(term)
         else:
-            hits = list(graph.query(RESOLVE_LABEL, initBindings={"term": Literal(term)}))
+            hits = list(
+                graph.query(RESOLVE_LABEL, initBindings={"term": Literal(term)})
+            )
             if not hits:
                 sys.stderr.write(
                     f"error: no concept labelled {term!r}.\n"
-                    "       Try `concepts` to see what the document actually linked.\n")
+                    "       Try `concepts` to see what the document actually linked.\n"
+                )
                 return 1
             concept = hits[0][0]
             print(f"resolved {term!r} -> {concept}\n")

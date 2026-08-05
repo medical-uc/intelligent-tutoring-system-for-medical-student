@@ -71,7 +71,9 @@ class SemanticChunker:
             return [items]
 
         self.load()
-        embeddings = self.model.encode([item.text for item in items], convert_to_numpy=True)
+        embeddings = self.model.encode(
+            [item.text for item in items], convert_to_numpy=True
+        )
 
         distances = 1.0 - _cosine_similarities(embeddings)
         threshold = np.percentile(distances, percentile)

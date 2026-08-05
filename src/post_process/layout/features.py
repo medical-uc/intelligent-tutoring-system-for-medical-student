@@ -1,10 +1,12 @@
 import re
-from typing import List, Dict, Any
+from typing import Any, Dict, List
+
 from ..models.block import Block
 from ..models.feature import Feature
 
 BULLET_REGEX = re.compile(r"^\s*[-*•–—○▪■]\s+")
 NUMBER_REGEX = re.compile(r"^\s*(\d+|[a-zA-Z])[\.\)]\s+")
+
 
 def _estimate_font_size(block: Block, height: float, num_lines: int) -> float:
     span_heights = []
@@ -14,11 +16,12 @@ def _estimate_font_size(block: Block, height: float, num_lines: int) -> float:
             sh = s_bbox[3] - s_bbox[1]
             if sh > 0:
                 span_heights.append(sh)
-    
+
     if span_heights:
         return sum(span_heights) / len(span_heights)
-    
+
     return max(1.0, height / max(1, num_lines))
+
 
 def extract_features(blocks: List[Block], pages: List[Dict[str, Any]]) -> List[Block]:
     """
@@ -54,7 +57,7 @@ def extract_features(blocks: List[Block], pages: List[Dict[str, Any]]) -> List[B
         num_words = len(text.split())
 
         font_size = _estimate_font_size(block, height, num_lines)
-        
+
         clean_text = text.strip()
         is_all_caps = bool(clean_text.isupper() and len(clean_text) > 1)
         starts_with_bullet = bool(BULLET_REGEX.match(text))
@@ -89,8 +92,12 @@ def extract_features(blocks: List[Block], pages: List[Dict[str, Any]]) -> List[B
         font_sizes = [b.features.font_size for b in p_blocks if b.features]
         largest_font = max(font_sizes) if font_sizes else 0.0
         average_font = (sum(font_sizes) / len(font_sizes)) if font_sizes else 0.0
-        
-        num_text = sum(1 for b in p_blocks if b.raw_type not in ("image", "table", "image_body", "table_body"))
+
+        num_text = sum(
+            1
+            for b in p_blocks
+            if b.raw_type not in ("image", "table", "image_body", "table_body")
+        )
         num_images = sum(1 for b in p_blocks if b.raw_type in ("image", "image_body"))
         num_tables = sum(1 for b in p_blocks if b.raw_type in ("table", "table_body"))
 

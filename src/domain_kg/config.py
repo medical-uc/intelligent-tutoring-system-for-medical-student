@@ -5,6 +5,7 @@ chosen to make the worked example concrete. Verify every code against your
 licensed UMLS/SNOMED release before production use — a wrong code silently
 corrupts the graph.
 """
+
 from __future__ import annotations
 
 import os
@@ -14,14 +15,14 @@ from . import ontology
 # --- Namespaces -------------------------------------------------------------
 SNOMED = "http://snomed.info/id/"
 RXNORM = "http://purl.bioontology.org/ontology/RXNORM/"
-UMLS   = "http://linkedlifedata.com/resource/umls/id/"
-ONT    = "http://example.org/medkg/ont#"
-INST   = "http://example.org/medkg/inst/"
-GRAPH  = "urn:graph:"
+UMLS = "http://linkedlifedata.com/resource/umls/id/"
+ONT = "http://example.org/medkg/ont#"
+INST = "http://example.org/medkg/inst/"
+GRAPH = "urn:graph:"
 DCTERMS = "http://purl.org/dc/terms/"
 RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 RDFS_SUBCLASS = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
-RDFS_LABEL    = "http://www.w3.org/2000/01/rdf-schema#label"
+RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 
 # --- Relation ontology ------------------------------------------------------
 # --- Relation & modifier ontology (DATA, not code) ---------------------------
@@ -33,7 +34,7 @@ RDFS_LABEL    = "http://www.w3.org/2000/01/rdf-schema#label"
 # those can never fire, and that is the usual reason yield looks broken.
 ONTOLOGY = ontology.load()
 
-ANY = "*ANY*"        # sentinel: any entity label is allowed
+ANY = "*ANY*"  # sentinel: any entity label is allowed
 # tail is None        # sentinel: UNARY relation (no tail), e.g. patient-level assertions
 RELATION_ONTOLOGY: dict[str, dict] = ONTOLOGY["relations"]
 
@@ -81,25 +82,26 @@ MODIFIER_VALUE_LEXICON: dict[str, str] = ONTOLOGY["modifier_values"]
 # some model here emits both of its endpoint labels.
 NER_LABEL_MAPS: dict[str, dict] = ONTOLOGY["ner_models"]
 NER_MODELS: tuple = tuple(
-    os.environ.get("MEDKG_NER_MODELS", "en_ner_bc5cdr_md").split(","))
+    os.environ.get("MEDKG_NER_MODELS", "en_ner_bc5cdr_md").split(",")
+)
 
 # Adjective lexicons used by the Stage 2 modifier heuristic.
 SEVERITY_WORDS = {"severe", "mild", "moderate", "marked", "slight"}
 ACUITY_WORDS = {"acute", "chronic", "subacute"}
 LOCATION_WORDS = {"substernal", "retrosternal", "epigastric", "precordial"}
 
-PROV               = "http://www.w3.org/ns/prov#"
-WAS_GENERATED_BY   = PROV + "wasGeneratedBy"
-WAS_DERIVED_FROM   = PROV + "wasDerivedFrom"
-SOFTWARE_AGENT     = PROV + "SoftwareAgent"
-GENERATED_AT       = PROV + "generatedAtTime"
+PROV = "http://www.w3.org/ns/prov#"
+WAS_GENERATED_BY = PROV + "wasGeneratedBy"
+WAS_DERIVED_FROM = PROV + "wasDerivedFrom"
+SOFTWARE_AGENT = PROV + "SoftwareAgent"
+GENERATED_AT = PROV + "generatedAtTime"
 
 # --- Stage 5: figure vocabulary ---------------------------------------------
-DEPICTS            = ONT + "depicts"
-CAPTION            = ONT + "caption"
+DEPICTS = ONT + "depicts"
+CAPTION = ONT + "caption"
 VISUAL_DESCRIPTION = ONT + "visualDescription"
-FIGURE_IMAGE       = ONT + "FigureImage"
-FIGURE_REF         = ONT + "figureRef"
+FIGURE_IMAGE = ONT + "FigureImage"
+FIGURE_REF = ONT + "figureRef"
 
 # --- Stage 1: markdown parsing ----------------------------------------------
 # Chunk kinds. Only EXTRACTABLE_CHUNK_KINDS reach Stage 2; captions and figure
@@ -123,15 +125,17 @@ EXTRACTABLE_CHUNK_KINDS = ("prose", "definition", "keypoint", "clinical", "summa
 # Stage 3 only pays for an LLM rerank when cosine is genuinely undecided: if the
 # top candidate beats the runner-up by more than this margin, the embedding has
 # already answered and a 72B call would just agree with it slowly.
-RERANK_MARGIN         = float(os.environ.get("MEDKG_RERANK_MARGIN", "0.05"))
+RERANK_MARGIN = float(os.environ.get("MEDKG_RERANK_MARGIN", "0.05"))
 LINK_CONFIDENCE_FLOOR = float(os.environ.get("MEDKG_LINK_FLOOR", "0.70"))
-RE_CONFIDENCE_FLOOR   = float(os.environ.get("MEDKG_RE_FLOOR", "0.50"))
+RE_CONFIDENCE_FLOOR = float(os.environ.get("MEDKG_RE_FLOOR", "0.50"))
 # Consecutive same-kind chunks in one section merge up to this size, so a
 # relation spanning two paragraphs stays inside one Stage-2 call.
-MAX_CHUNK_CHARS       = int(os.environ.get("MEDKG_MAX_CHUNK_CHARS", "1500"))
+MAX_CHUNK_CHARS = int(os.environ.get("MEDKG_MAX_CHUNK_CHARS", "1500"))
 
 # --- Models -----------------------------------------------------------------
-SAPBERT_MODEL = os.environ.get("MEDKG_SAPBERT", "cambridgeltl/SapBERT-from-PubMedBERT-fulltext")
+SAPBERT_MODEL = os.environ.get(
+    "MEDKG_SAPBERT", "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"
+)
 # Set to a model string you have access to; see https://docs.claude.com for current ids.
 LLM_MODEL = os.environ.get("MEDKG_LLM_MODEL", "claude-sonnet-4-5")
 
