@@ -145,3 +145,25 @@ def review_history(driver: Driver, student_id: str, question_uid: str) -> list[d
             question_uid=question_uid,
         )
         return [dict(r) for r in records]
+
+
+_HISTORY_QUERY = """
+MATCH (s:Student {id: $student_id})-[:HAS_FLASHCARD]->(f:Flashcard)<-[:FOR_FLASHCARD]-(e:InteractionEvent {type: "FLASHCARD_REVIEW"})
+RETURN e.id AS event_id, e.question_uid AS question_uid, e.rating AS rating, e.ts AS ts
+ORDER BY e.ts DESC
+LIMIT $limit
+"""
+
+
+def history_for_student(driver: Driver, student_id: str, limit: int = 100) -> list[dict]:
+    """Every flashcard review this student has ever logged, most recent first — a flat
+    feed (one row per rating), unlike quiz history's session-grouped rows, since
+    flashcard reviews have no session wrapper. The caller (app/routers/flashcards.py)
+    joins question_uid back to the bank for topic/stem display."""
+    with driver.session() as session:
+        records = session.run(
+            _HISTORY_QUERY,
+            student_id=student_id,
+            limit=limit,
+        )
+        return [dict(r) for r in records]

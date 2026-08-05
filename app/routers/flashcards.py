@@ -5,6 +5,8 @@ from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
     DueFlashcardItem,
     DueFlashcardResponse,
+    FlashcardHistoryItem,
+    FlashcardHistoryResponse,
     FlashcardOut,
     FlashcardRevealResponse,
     FlashcardReviewHistoryItem,
@@ -13,7 +15,7 @@ from app.schemas import (
     LogFlashcardReviewResponse,
 )
 from src.flashcards.cards import Flashcard, get_flashcard, flashcards_for_topic
-from src.flashcards.reviews import due_for_review, record_review, review_history
+from src.flashcards.reviews import due_for_review, history_for_student, record_review, review_history
 from src.quiz.bank import QuestionBank, load_question_bank
 
 router = APIRouter(prefix="/flashcards", tags=["flashcards"])
@@ -65,7 +67,7 @@ def log_review(
     driver: Driver = Depends(get_driver),
 ) -> LogFlashcardReviewResponse:
     """Called once the student has flipped the card and rated their own recall. Updates
-    the :CARD_REVIEWED spaced-repetition schedule independently of any quiz mastery."""
+    the card's Flashcard-node spaced-repetition schedule independently of any quiz mastery."""
     card = get_flashcard(uid, bank=bank)
     if card is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such card")
@@ -97,6 +99,36 @@ def get_review_history(
             for r in items
         ]
     )
+
+
+@router.get("/history", response_model=FlashcardHistoryResponse)
+def get_history(
+    student_id: str = Depends(get_current_student_id),
+    bank: QuestionBank = Depends(_get_bank),
+    driver: Driver = Depends(get_driver),
+) -> FlashcardHistoryResponse:
+    """Every flashcard review this student has ever logged, most recent first. A flat feed
+    (one row per rating) rather than session-grouped rows like quiz /history — flashcard
+    reviews have no session wrapper (see src.flashcards.reviews.history_for_student).
+    Rows whose question no longer exists in the bank are skipped rather than erroring,
+    since the bank can be regenerated independently of logged history."""
+    reviews = history_for_student(driver, student_id=student_id)
+    items = []
+    for r in reviews:
+        card = get_flashcard(r["question_uid"], bank=bank)
+        if card is None:
+            continue
+        items.append(
+            FlashcardHistoryItem(
+                event_id=r["event_id"],
+                question_uid=r["question_uid"],
+                front=card.front,
+                topic_path=" > ".join(card.topic_tag),
+                rating=r["rating"],
+                ts=r["ts"].to_native(),
+            )
+        )
+    return FlashcardHistoryResponse(items=items)
 
 
 @router.get("/review/due", response_model=DueFlashcardResponse)

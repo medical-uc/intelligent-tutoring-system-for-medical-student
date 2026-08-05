@@ -173,3 +173,16 @@ class FlashcardReviewHistoryItem(BaseModel):
 
 class FlashcardReviewHistoryResponse(BaseModel):
     items: list[FlashcardReviewHistoryItem]
+
+
+class FlashcardHistoryItem(BaseModel):
+    event_id: str
+    question_uid: str
+    front: str
+    topic_path: str
+    rating: FlashcardRating
+    ts: datetime
+
+
+class FlashcardHistoryResponse(BaseModel):
+    items: list[FlashcardHistoryItem]
