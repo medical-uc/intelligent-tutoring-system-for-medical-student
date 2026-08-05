@@ -5,13 +5,20 @@ The MCQ exam-paket PDFs (212 files, e.g. "Copy of Paket A31.pdf") and the chunk 
 lecture PDFs (16 files, e.g. "2025 04 29 THYROID.2025-dr. Imam.pdf") are completely
 disjoint documents — no filename overlap, so topic/subject can't be looked up directly.
 This does semantic matching instead: embed every chunk's text and every question's
-stem+explanation with the same sentence-transformer already used for chunking (see
-src/ingestion/semantic_chunk.py), and assign each question the nearest chunk's subject.
+stem+explanation with Qwen3-Embedding-8B (multilingual, handles the Bahasa Indonesia
+question text much better than the MiniLM model src/ingestion/semantic_chunk.py uses for
+chunking — that model is English-centric and this corpus isn't), and assign each question
+the nearest chunk's subject.
+
+Qwen3-Embedding is trained for asymmetric query/passage retrieval: questions are encoded
+with the model's built-in "query" instruction prompt (sentence-transformers applies it via
+prompt_name="query"), chunks are encoded as plain passages with no prefix — mixing this up
+(or embedding both sides identically) measurably hurts retrieval quality for this model.
 
   subject: derived from the chunk's source doc_id, cleaned up into a human label
            (e.g. "2025 04 29 THYROID.2025-dr. Imam.pdf_origin" -> "Thyroid").
   topic:   a short topic label for the matched chunk itself, generated once per unique
-           chunk (not per-question) via local Qwen2.5-VL text-only, since chunks carry
+           chunk (not per-question) via local Qwen3-8B text generation, since chunks carry
            no free-text topic label of their own — only section_path (mostly just the
            doc title, uninformative) and raw text.
 
@@ -42,8 +49,8 @@ DEFAULT_INPUT = PROJECT_ROOT / "notebooks" / "master_mcq_with_explanations.json"
 DEFAULT_OUTPUT = PROJECT_ROOT / "notebooks" / "master_mcq_with_topics.json"
 CHUNKS_GLOB = str(PROJECT_ROOT / "output" / "**" / "*_chunks.json")
 
-EMBED_MODEL_PATH = "all-MiniLM-L6-v2"   # same model as src/ingestion/semantic_chunk.py
-TOPIC_MODEL_PATH = "Qwen/Qwen2.5-VL-7B-Instruct"  # same model as src/captioning/qwen_vl.py, text-only here
+EMBED_MODEL_PATH = "Qwen/Qwen3-Embedding-8B"
+TOPIC_MODEL_PATH = "Qwen/Qwen3-8B"
 
 TOPIC_PROMPT = """Below is an excerpt from a medical school lecture on the subject "{subject}".
 
@@ -84,12 +91,18 @@ def load_chunks() -> list[dict]:
     return flattened
 
 
-def embed_texts(texts: list[str]) -> np.ndarray:
+def embed_texts(texts: list[str], is_query: bool = False) -> np.ndarray:
+    """is_query=True applies Qwen3-Embedding's built-in "query" instruction prompt (for the
+    MCQ questions being matched); chunks/passages are embedded with no prefix, per the
+    model's asymmetric retrieval training (see module docstring)."""
     from sentence_transformers import SentenceTransformer
 
     device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
     model = SentenceTransformer(EMBED_MODEL_PATH, device=device)
-    embeddings = model.encode(texts, convert_to_numpy=True, show_progress_bar=True, batch_size=32)
+    encode_kwargs = {"prompt_name": "query"} if is_query else {}
+    embeddings = model.encode(
+        texts, convert_to_numpy=True, show_progress_bar=True, batch_size=8, **encode_kwargs
+    )
     del model
     gc.collect()
     if torch.backends.mps.is_available():
@@ -107,29 +120,29 @@ def nearest_chunk_indices(question_embeddings: np.ndarray, chunk_embeddings: np.
 
 
 class TopicLabeler:
-    """Minimal text-only wrapper around Qwen2.5-VL — src/captioning/qwen_vl.py's
-    QwenVLCaptioner is image-only (caption()/_generate() both require an image), so this
-    is a separate, smaller loader for the text-only topic-naming step."""
+    """Text-only Qwen3-8B wrapper for per-chunk topic naming — a plain causal LM (no
+    vision tower), unlike src/captioning/qwen_vl.py's QwenVLCaptioner which wraps the
+    image-only Qwen2.5-VL classes."""
 
     def __init__(self, model_path: str = TOPIC_MODEL_PATH):
         self.model_path = model_path
         self.device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
         self.model = None
-        self.processor = None
+        self.tokenizer = None
 
     def load(self):
         if self.model is not None:
             return
-        from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+        from transformers import AutoModelForCausalLM, AutoTokenizer
 
-        self.processor = AutoProcessor.from_pretrained(self.model_path)
-        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(self.model_path, torch_dtype=torch.bfloat16)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_path, torch_dtype=torch.bfloat16)
         self.model.to(self.device)
         self.model.eval()
 
     def unload(self):
         self.model = None
-        self.processor = None
+        self.tokenizer = None
         gc.collect()
         if torch.backends.mps.is_available():
             torch.mps.empty_cache()
@@ -139,14 +152,16 @@ class TopicLabeler:
     def label(self, subject: str, text: str, max_new_tokens: int = 20) -> str:
         self.load()
         prompt = TOPIC_PROMPT.format(subject=subject, text=text[:2000])
-        messages = [{"role": "user", "content": [{"type": "text", "text": prompt}]}]
-        chat_text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-        inputs = self.processor(text=[chat_text], padding=True, return_tensors="pt").to(self.device)
+        messages = [{"role": "user", "content": prompt}]
+        chat_text = self.tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True, enable_thinking=False
+        )
+        inputs = self.tokenizer([chat_text], return_tensors="pt").to(self.device)
 
         with torch.inference_mode():
             generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
         trimmed = [out[len(inp):] for inp, out in zip(inputs.input_ids, generated_ids)]
-        result = self.processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+        result = self.tokenizer.batch_decode(trimmed, skip_special_tokens=True)[0]
         return result.strip().strip('"').strip(".")
 
 
@@ -164,15 +179,15 @@ def main() -> None:
         questions = json.load(f)
     log.info("loaded %d questions from %s", len(questions), args.input)
 
-    log.info("embedding chunks...")
-    chunk_embeddings = embed_texts([c["text"] for c in chunks])
+    log.info("embedding chunks (passages, no instruction prefix)...")
+    chunk_embeddings = embed_texts([c["text"] for c in chunks], is_query=False)
 
-    log.info("embedding questions...")
+    log.info("embedding questions (query-prefixed)...")
     question_texts = [
         "\n\n".join(p for p in (q.get("background"), q.get("question"), q.get("explanation")) if p)
         for q in questions
     ]
-    question_embeddings = embed_texts(question_texts)
+    question_embeddings = embed_texts(question_texts, is_query=True)
 
     log.info("matching each question to its nearest chunk...")
     nearest = nearest_chunk_indices(question_embeddings, chunk_embeddings)
