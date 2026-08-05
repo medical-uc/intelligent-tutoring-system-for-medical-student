@@ -132,6 +132,16 @@ class DueReviewResponse(BaseModel):
     items: list[DueReviewItem]
 
 
+class MasteryItem(BaseModel):
+    topic_path: str
+    p_know: float
+    updated_at: datetime
+
+
+class MasteryResponse(BaseModel):
+    items: list[MasteryItem]
+
+
 class FlashcardOut(BaseModel):
     """Front only carries the stem — back is withheld until the student flips the card,
     same as options are withheld from quiz questions until /check."""
