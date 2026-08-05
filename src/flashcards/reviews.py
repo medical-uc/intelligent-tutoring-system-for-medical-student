@@ -4,10 +4,18 @@ Flashcards test pure recall (no options, no correct/incorrect grading) — the s
 self-rates how well they recalled the back before it was revealed, using the classic
 Again/Hard/Good/Easy scale. This is intentionally a different signal from quiz mastery
 (src.quiz.attempts.record_attempt's :REVIEWING edge, which tracks correctness+confidence
-on graded MCQ answers), so reviews live on their own :CARD_REVIEWED edge from Student to
-Question rather than reusing :REVIEWING — a card drilled to "Easy" and a question answered
-"confident and correct" are different kinds of evidence and neither should silently update
-the other's schedule.
+on graded MCQ answers), so reviews are tracked on their own Flashcard node rather than
+reusing :REVIEWING — a card drilled to "Easy" and a question answered "confident and
+correct" are different kinds of evidence and neither should silently update the other's
+schedule.
+
+A Flashcard is its own node, not an edge-with-properties: (:Student)-[:HAS_FLASHCARD]->
+(:Flashcard {uid, question_uid, streak, interval_days, last_reviewed_at, next_review_at})
+-[:FOR_QUESTION]->(:Question). It is scoped to one student+question pair (uid is a
+deterministic hash of the two, so re-reviewing the same card MERGEs onto the same node
+rather than creating duplicates) — the content itself (front/back/explanation) still
+lives entirely on Question via src.flashcards.cards, so the Flashcard node here is purely
+this student's recall-schedule state, not a second copy of the card's text.
 
 Interval growth per rating (days, capped at 60 like quiz's REVIEWING schedule):
   again -> streak resets to 0, review again tomorrow (interval 1)
@@ -21,6 +29,7 @@ Usage:
     due_for_review(driver, student_id)
 """
 
+import hashlib
 import uuid
 
 from neo4j import Driver
@@ -34,9 +43,19 @@ _RATING_MULTIPLIERS = {
 
 _MAX_INTERVAL_DAYS = 60
 
+
+def _flashcard_uid(student_id: str, question_uid: str) -> str:
+    """Deterministic per student+question id, so repeated reviews of the same card MERGE
+    onto the same Flashcard node instead of minting a new one each time."""
+    return hashlib.sha1(f"{student_id}::{question_uid}".encode()).hexdigest()
+
+
 _RECORD_REVIEW_QUERY = """
 MATCH (s:Student {id: $student_id})
 MERGE (q:Question {uid: $question_uid})
+MERGE (s)-[:HAS_FLASHCARD]->(f:Flashcard {uid: $flashcard_uid})
+ON CREATE SET f.question_uid = $question_uid, f.streak = 0, f.interval_days = 1
+MERGE (f)-[:FOR_QUESTION]->(q)
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "FLASHCARD_REVIEW",
@@ -44,28 +63,26 @@ CREATE (e:InteractionEvent {
     rating: $rating,
     ts: datetime()
 })
-CREATE (e)-[:FOR_QUESTION]->(q)
-MERGE (s)-[r:CARD_REVIEWED]->(q)
-ON CREATE SET r.streak = 0, r.interval_days = 1
-WITH s, e, q, r, r.streak AS prev_streak, coalesce(r.interval_days, 1) AS prev_interval
-SET r.streak = CASE WHEN $rating = "again" THEN 0 ELSE prev_streak + 1 END,
-    r.interval_days = CASE
+CREATE (e)-[:FOR_FLASHCARD]->(f)
+WITH s, e, f, f.streak AS prev_streak, coalesce(f.interval_days, 1) AS prev_interval
+SET f.streak = CASE WHEN $rating = "again" THEN 0 ELSE prev_streak + 1 END,
+    f.interval_days = CASE
         WHEN $rating = "again" THEN 1
         ELSE toInteger(ceil(prev_interval * $multiplier))
     END,
-    r.last_reviewed_at = e.ts
-WITH e, r, CASE WHEN r.interval_days > $max_interval THEN $max_interval
-                WHEN r.interval_days < 1 THEN 1
-                ELSE r.interval_days END AS capped_interval
-SET r.interval_days = capped_interval,
-    r.next_review_at = datetime() + duration({days: capped_interval})
-RETURN e.id AS event_id, r.streak AS streak, r.interval_days AS interval_days,
-       r.next_review_at AS next_review_at
+    f.last_reviewed_at = e.ts
+WITH e, f, CASE WHEN f.interval_days > $max_interval THEN $max_interval
+                WHEN f.interval_days < 1 THEN 1
+                ELSE f.interval_days END AS capped_interval
+SET f.interval_days = capped_interval,
+    f.next_review_at = datetime() + duration({days: capped_interval})
+RETURN e.id AS event_id, f.streak AS streak, f.interval_days AS interval_days,
+       f.next_review_at AS next_review_at
 """
 
 
 def record_review(driver: Driver, student_id: str, question_uid: str, rating: str) -> dict | None:
-    """Persists one flashcard self-rating and updates the :CARD_REVIEWED schedule.
+    """Persists one flashcard self-rating and updates that card's schedule.
 
     Returns the new event id, streak, interval_days, next_review_at — or None if
     student_id doesn't match a Student node (client-reachable: stale/foreign id)."""
@@ -78,6 +95,7 @@ def record_review(driver: Driver, student_id: str, question_uid: str, rating: st
             _RECORD_REVIEW_QUERY,
             student_id=student_id,
             question_uid=question_uid,
+            flashcard_uid=_flashcard_uid(student_id, question_uid),
             event_id=event_id,
             rating=rating,
             multiplier=_RATING_MULTIPLIERS[rating],
@@ -87,23 +105,43 @@ def record_review(driver: Driver, student_id: str, question_uid: str, rating: st
 
 
 _DUE_FOR_REVIEW_QUERY = """
-MATCH (s:Student {id: $student_id})-[r:CARD_REVIEWED]->(q:Question)
-WHERE r.next_review_at <= datetime()
-RETURN q.uid AS question_uid, r.streak AS streak, r.interval_days AS interval_days,
-       r.last_reviewed_at AS last_reviewed_at, r.next_review_at AS next_review_at
-ORDER BY r.next_review_at ASC
+MATCH (s:Student {id: $student_id})-[:HAS_FLASHCARD]->(f:Flashcard)
+WHERE f.next_review_at <= datetime()
+RETURN f.question_uid AS question_uid, f.streak AS streak, f.interval_days AS interval_days,
+       f.last_reviewed_at AS last_reviewed_at, f.next_review_at AS next_review_at
+ORDER BY f.next_review_at ASC
 LIMIT $limit
 """
 
 
 def due_for_review(driver: Driver, student_id: str, limit: int = 50) -> list[dict]:
     """Cards due for re-drilling now, soonest-due first. A card never reviewed yet has no
-    :CARD_REVIEWED edge and so never appears here — pair with flashcards_for_topic() for
+    Flashcard node and so never appears here — pair with flashcards_for_topic() for
     "drill this topic fresh" flows."""
     with driver.session() as session:
         records = session.run(
             _DUE_FOR_REVIEW_QUERY,
             student_id=student_id,
             limit=limit,
+        )
+        return [dict(r) for r in records]
+
+
+_REVIEW_HISTORY_QUERY = """
+MATCH (s:Student {id: $student_id})-[:HAS_FLASHCARD]->(f:Flashcard {question_uid: $question_uid})
+MATCH (e:InteractionEvent {type: "FLASHCARD_REVIEW"})-[:FOR_FLASHCARD]->(f)
+RETURN e.id AS event_id, e.rating AS rating, e.ts AS ts
+ORDER BY e.ts ASC
+"""
+
+
+def review_history(driver: Driver, student_id: str, question_uid: str) -> list[dict]:
+    """Every rating this student has ever given this card, oldest first — the raw
+    Again/Hard/Good/Easy trail behind the current streak/interval on the Flashcard node."""
+    with driver.session() as session:
+        records = session.run(
+            _REVIEW_HISTORY_QUERY,
+            student_id=student_id,
+            question_uid=question_uid,
         )
         return [dict(r) for r in records]

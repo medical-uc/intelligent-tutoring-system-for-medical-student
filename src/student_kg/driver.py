@@ -43,3 +43,7 @@ def ensure_constraints(driver: Driver) -> None:
             "CREATE CONSTRAINT topic_path_unique IF NOT EXISTS "
             "FOR (t:Topic) REQUIRE t.path IS UNIQUE"
         )
+        session.run(
+            "CREATE CONSTRAINT flashcard_uid_unique IF NOT EXISTS "
+            "FOR (f:Flashcard) REQUIRE f.uid IS UNIQUE"
+        )

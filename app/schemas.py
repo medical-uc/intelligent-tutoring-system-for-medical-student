@@ -163,3 +163,13 @@ class DueFlashcardItem(BaseModel):
 
 class DueFlashcardResponse(BaseModel):
     items: list[DueFlashcardItem]
+
+
+class FlashcardReviewHistoryItem(BaseModel):
+    event_id: str
+    rating: FlashcardRating
+    ts: datetime
+
+
+class FlashcardReviewHistoryResponse(BaseModel):
+    items: list[FlashcardReviewHistoryItem]

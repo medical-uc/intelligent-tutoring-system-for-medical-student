@@ -7,11 +7,13 @@ from app.schemas import (
     DueFlashcardResponse,
     FlashcardOut,
     FlashcardRevealResponse,
+    FlashcardReviewHistoryItem,
+    FlashcardReviewHistoryResponse,
     LogFlashcardReviewRequest,
     LogFlashcardReviewResponse,
 )
 from src.flashcards.cards import Flashcard, get_flashcard, flashcards_for_topic
-from src.flashcards.reviews import due_for_review, record_review
+from src.flashcards.reviews import due_for_review, record_review, review_history
 from src.quiz.bank import QuestionBank, load_question_bank
 
 router = APIRouter(prefix="/flashcards", tags=["flashcards"])
@@ -77,6 +79,23 @@ def log_review(
         streak=result["streak"],
         interval_days=result["interval_days"],
         next_review_at=result["next_review_at"].to_native(),
+    )
+
+
+@router.get("/cards/{uid}/history", response_model=FlashcardReviewHistoryResponse)
+def get_review_history(
+    uid: str,
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> FlashcardReviewHistoryResponse:
+    """Every Again/Hard/Good/Easy rating this student has given this card, oldest first —
+    the raw trail behind the current streak/interval on its Flashcard node."""
+    items = review_history(driver, student_id=student_id, question_uid=uid)
+    return FlashcardReviewHistoryResponse(
+        items=[
+            FlashcardReviewHistoryItem(event_id=r["event_id"], rating=r["rating"], ts=r["ts"].to_native())
+            for r in items
+        ]
     )
 
 
