@@ -31,6 +31,13 @@ same as a wrong answer would. This mirrors the confidence-aware mastery reasonin
 the same signal (confidence + correctness) that tells us how much to trust an answer also
 tells us when to ask it again. See due_for_review() for reading the schedule back out.
 
+The same edge also holds attempt_count: a lifetime counter incremented on every
+record_attempt() call for that student/question pair, regardless of session or
+correctness — unlike streak (which resets on a weak/wrong answer), it never resets. A
+question with a high attempt_count but a still-low streak is a signal on its own: the
+student keeps coming back to it and still isn't landing a confident-correct answer,
+which plain correct/incorrect history doesn't surface as clearly.
+
 Every attempt belongs to a QuizSession (see src/quiz/sessions.py) — the frontend starts a
 session before the first question in a topic run and passes its id to every
 record_attempt() call, which links the answer to that session via :HAS_ANSWER. This is
@@ -68,11 +75,12 @@ MERGE (q:Question {uid: $question_uid})
 CREATE (e)-[:FOR_QUESTION]->(q)
 WITH s, e, q, effective_ts
 MERGE (s)-[r:REVIEWING]->(q)
-ON CREATE SET r.streak = 0
+ON CREATE SET r.streak = 0, r.attempt_count = 0
 WITH s, e, q, r, effective_ts,
      $correct AND $confidence = "confident" AS strong_pass
 SET r.streak = CASE WHEN strong_pass THEN coalesce(r.streak, 0) + 1 ELSE 0 END,
     r.interval_days = CASE WHEN strong_pass THEN toInteger(2 ^ (coalesce(r.streak, 0) + 1)) ELSE 1 END,
+    r.attempt_count = coalesce(r.attempt_count, 0) + 1,
     r.last_reviewed_at = effective_ts
 WITH s, e, q, r, effective_ts, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
 SET r.interval_days = capped_interval,
@@ -172,6 +180,7 @@ _DUE_FOR_REVIEW_QUERY = """
 MATCH (s:Student {id: $student_id})-[r:REVIEWING]->(q:Question)
 WHERE r.next_review_at <= datetime()
 RETURN q.uid AS question_uid, r.streak AS streak, r.interval_days AS interval_days,
+       r.attempt_count AS attempt_count,
        r.last_reviewed_at AS last_reviewed_at, r.next_review_at AS next_review_at
 ORDER BY r.next_review_at ASC
 LIMIT $limit
