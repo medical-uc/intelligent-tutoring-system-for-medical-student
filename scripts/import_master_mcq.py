@@ -1,15 +1,19 @@
-"""Convert notebooks/master_mcq.json (flat, A-E keyed) into the nested
+"""Convert notebooks/master_mcq_with_explanations.json (flat, A-E keyed) into the nested
 {doc_id: {topic_path: [question, ...]}} shape src/quiz/bank.py serves.
 
-master_mcq.json has no topic taxonomy (its `reference` field is a messy
+master_mcq_with_explanations.json has no topic taxonomy (its `reference` field is a messy
 free-text citation, `filename` is just the exam-paket batch) -- everything
 lands under a single "Master MCQ" topic until a real taxonomy exists.
 `has_image` items (217/955) carry no image asset in the source data, so the
 flag is dropped rather than wired to a field the client can't render.
 
+`explanation` is carried straight through -- shown to the student only after they answer
+(see app/routers/quiz.py's /check endpoint and src/flashcards/cards.py), never alongside
+the question itself.
+
 Usage:
     .venv/bin/python scripts/import_master_mcq.py
-    .venv/bin/python scripts/import_master_mcq.py --input notebooks/master_mcq.json \\
+    .venv/bin/python scripts/import_master_mcq.py --input notebooks/master_mcq_with_explanations.json \\
         --output notebooks/mcq_output/question_bank.json
 """
 
@@ -46,6 +50,7 @@ def convert(raw_questions: list[dict]) -> dict:
         filename = rq.get("filename")
         options = rq.get("options") or {}
         answer = rq.get("answer")
+        explanation = (rq.get("explanation") or "").strip()
         stem_parts = [p for p in (rq.get("background"), rq.get("question")) if p]
 
         if number is None or not filename or not options or answer not in options or not stem_parts:
@@ -72,6 +77,7 @@ def convert(raw_questions: list[dict]) -> dict:
             ],
             "topic_tag": TOPIC_TAG,
             "difficulty": 1,
+            "explanation": explanation,
         })
 
     log.info("converted %d questions (%d skipped)", len(questions), skipped)
@@ -80,7 +86,7 @@ def convert(raw_questions: list[dict]) -> dict:
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--input", default=str(PROJECT_ROOT / "notebooks" / "master_mcq.json"))
+    ap.add_argument("--input", default=str(PROJECT_ROOT / "notebooks" / "master_mcq_with_explanations.json"))
     ap.add_argument("--output", default=str(PROJECT_ROOT / "notebooks" / "mcq_output" / "question_bank.json"))
     args = ap.parse_args(argv)
 

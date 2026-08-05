@@ -171,12 +171,17 @@ def check_answer(
     bank: QuestionBank = Depends(_get_bank),
 ) -> CheckAnswerResponse:
     """Pure grading — no auth, no graph write. Lets the frontend show instant right/wrong
-    feedback before the student has picked a confidence level."""
+    feedback (plus the explanation, revealed only now that the student has answered)
+    before the student has picked a confidence level."""
     question = _get_question_or_404(bank, uid)
     _validate_selected_index(question, body.selected_index)
 
     correct_index = question.correct_option_index()
-    return CheckAnswerResponse(correct=body.selected_index == correct_index, correct_index=correct_index)
+    return CheckAnswerResponse(
+        correct=body.selected_index == correct_index,
+        correct_index=correct_index,
+        explanation=question.explanation,
+    )
 
 
 @router.post("/questions/{uid}/log", response_model=LogAttemptResponse)

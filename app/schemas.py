@@ -58,6 +58,7 @@ class CheckAnswerRequest(BaseModel):
 class CheckAnswerResponse(BaseModel):
     correct: bool
     correct_index: int
+    explanation: str
 
 
 class LogAttemptRequest(BaseModel):
@@ -131,6 +132,7 @@ class FlashcardOut(BaseModel):
 class FlashcardRevealResponse(BaseModel):
     uid: str
     back: str
+    explanation: str
 
 
 class FlashcardRating(str, Enum):

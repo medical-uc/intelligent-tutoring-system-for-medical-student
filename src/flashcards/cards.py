@@ -21,6 +21,7 @@ class Flashcard:
     uid: str
     front: str
     back: str
+    explanation: str
     topic_tag: list[str]
     difficulty: int
 
@@ -31,6 +32,7 @@ def _to_flashcard(q: Question) -> Flashcard:
         uid=q.uid,
         front=q.stem,
         back=q.options[correct_index].text,
+        explanation=q.explanation,
         topic_tag=q.topic_tag,
         difficulty=q.difficulty,
     )

@@ -51,7 +51,7 @@ def reveal_card(
     card = get_flashcard(uid, bank=bank)
     if card is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="no such card")
-    return FlashcardRevealResponse(uid=card.uid, back=card.back)
+    return FlashcardRevealResponse(uid=card.uid, back=card.back, explanation=card.explanation)
 
 
 @router.post("/cards/{uid}/log", response_model=LogFlashcardReviewResponse)

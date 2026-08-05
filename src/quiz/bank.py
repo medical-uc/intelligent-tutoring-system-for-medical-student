@@ -2,9 +2,11 @@
 
 question_bank.json is nested {doc_id: {topic_path: [question, ...]}} and each question
 embeds the answer key inline (options[].correct) plus internal-only fields (critique,
-triple, source, distractor_sources). None of that may reach the client — this module
-flattens the bank into quiz-ready questions and is the single place that knows both the
-raw shape and which fields are answer-bearing.
+triple, source, distractor_sources). None of that may reach the client before an answer
+is submitted — this module flattens the bank into quiz-ready questions and is the single
+place that knows both the raw shape and which fields are answer-bearing. `explanation` is
+answer-bearing too (it names the correct option's reasoning) but is fine to reveal once
+the attempt is graded — see app/routers/quiz.py's /check endpoint.
 
 Usage:
     from src.quiz.bank import load_question_bank
@@ -41,6 +43,7 @@ class Question:
     options: list[Option]
     topic_tag: list[str]
     difficulty: int
+    explanation: str = ""
 
     @property
     def topic_path(self) -> str:
@@ -85,6 +88,7 @@ def _parse_question(raw_question: dict) -> Question:
         options=[Option(text=o["text"], correct=o["correct"]) for o in raw_question["options"]],
         topic_tag=raw_question.get("topic_tag", []),
         difficulty=raw_question.get("difficulty", 1),
+        explanation=raw_question.get("explanation", ""),
     )
 
 
