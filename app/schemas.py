@@ -26,6 +26,11 @@ class SessionResponse(BaseModel):
     expires_at: datetime
 
 
+class SessionCheckResponse(BaseModel):
+    authenticated: bool
+    student_id: str
+
+
 class OptionOut(BaseModel):
     """Client-facing option — no `correct` flag. Position doubles as the answer id."""
 

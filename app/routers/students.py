@@ -2,8 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from neo4j import Driver
 
-from app.dependencies import get_driver
+from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
+    SessionCheckResponse,
     SessionResponse,
     StudentLoginRequest,
     StudentRegisterRequest,
@@ -59,3 +60,10 @@ def logout_student(
     driver: Driver = Depends(get_driver),
 ) -> None:
     revoke_session(driver, credentials.credentials)
+
+
+@router.get("/me", response_model=SessionCheckResponse)
+def check_session(
+    student_id: str = Depends(get_current_student_id),
+) -> SessionCheckResponse:
+    return SessionCheckResponse(authenticated=True, student_id=student_id)

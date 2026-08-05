@@ -7,11 +7,14 @@ Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root):
 from dotenv import load_dotenv
 from fastapi import FastAPI
 
+from app.auth_middleware import SessionAuthMiddleware
+from app.dependencies import get_driver
 from app.routers import flashcards, quiz, students
 
 load_dotenv()
 
 app = FastAPI(title="Student Knowledge Graph API")
+app.add_middleware(SessionAuthMiddleware, driver_factory=get_driver)
 app.include_router(students.router)
 app.include_router(quiz.router)
 app.include_router(flashcards.router)
