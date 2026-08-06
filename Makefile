@@ -58,6 +58,9 @@ ps:
 clean:
 	$(COMPOSE) down -v
 
+server:
+	uvicorn app.main:app --reload --reload-dir app --host 0.0.0.0 --port 8000
+
 # Connect to postgres via psql inside the container. Override db, e.g. `make psql db=other`
 db ?= mlflow
 psql:

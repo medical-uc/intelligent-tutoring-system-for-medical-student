@@ -62,7 +62,7 @@ import argparse
 import logging
 import math
 import random
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 from dotenv import load_dotenv
 
@@ -100,6 +100,11 @@ SESSIONS_PER_STUDENT = (8, 20)  # min/max *organic* sessions per student, on top
 # whatever required-coverage sessions build_required_assignments() assigns them
 INTERACTIONS_PER_SESSION = (3, 8)  # min/max questions/cards per session
 SESSION_GAP_DAYS = (1, 4)  # days between sessions (for forgetting decay)
+STREAK_DEMO_DAYS = 14  # consecutive real-calendar days of activity for the dedicated
+# streak-demo student (see generate_streak_demo_student) — ends today (UTC) so
+# src.student_kg.streak.current_streak(), which walks back from today, reads it as a
+# live streak rather than 0 the way every other synthetic student's frozen March 2026
+# history does.
 FLASHCARD_SESSION_RATE = (
     0.35  # fraction of *organic* sessions that are flashcard drills, not quizzes —
     # required-coverage sessions are always quiz sessions, since attempt-count floor is
@@ -447,6 +452,85 @@ def generate_and_write_student(
     }
 
 
+def generate_streak_demo_student(
+    driver,
+    student_id: str,
+    concepts: list[dict],
+    concept_questions: dict[str, list[Question]],
+    n_days: int = STREAK_DEMO_DAYS,
+) -> dict:
+    """Writes one activity (a short quiz session or a flashcard-review burst) on each of
+    the last `n_days` consecutive UTC calendar days, ending today — unlike
+    generate_and_write_student's SESSION_GAP_DAYS-spaced, March-2026-frozen history, this
+    guarantees src.student_kg.streak.current_streak() reads back a live, nonzero streak
+    for this student right now, so the frontend has something to display without waiting
+    on real student activity.
+
+    One session/day (not multiple) since day-streak only cares whether a day has *any*
+    activity — see src/student_kg/streak.py's day-level, not session-level, grouping."""
+    model = init_student_model(concepts)
+    root_topics = [c["topic_path"] for c in concepts if c["is_root"]]
+    other_topics = [c["topic_path"] for c in concepts if not c["is_root"]]
+    difficulty_by_topic = {c["topic_path"]: c["irt_difficulty"] for c in concepts}
+
+    today = datetime.now(UTC).replace(tzinfo=None).date()
+    n_quiz_answers = 0
+    n_flashcard_reviews = 0
+    n_sessions = 0
+
+    for days_ago in range(n_days - 1, -1, -1):
+        day = today - timedelta(days=days_ago)
+        current_time = datetime.combine(day, datetime.min.time()) + timedelta(
+            hours=random.uniform(8, 21)
+        )
+
+        session_topic = (
+            random.choice(root_topics)
+            if root_topics and random.random() < 0.6
+            else random.choice(other_topics if other_topics else root_topics)
+        )
+        candidates = concept_questions.get(session_topic) or []
+        if not candidates:
+            continue
+        difficulty = difficulty_by_topic[session_topic]
+        n_in_session = random.randint(*INTERACTIONS_PER_SESSION)
+
+        if random.random() < FLASHCARD_SESSION_RATE:
+            for _ in range(n_in_session):
+                question = random.choice(candidates)
+                current_time += timedelta(minutes=random.uniform(0.5, 4))
+                rating = simulate_flashcard_rating(
+                    model, session_topic, difficulty, current_time
+                )
+                record_review(
+                    driver,
+                    student_id,
+                    question_uid=question.uid,
+                    rating=rating,
+                    ts=current_time,
+                )
+                n_flashcard_reviews += 1
+        else:
+            _, written = _run_quiz_session(
+                driver,
+                student_id,
+                model,
+                session_topic,
+                difficulty,
+                candidates,
+                n_in_session,
+                current_time,
+            )
+            n_quiz_answers += written
+        n_sessions += 1
+
+    return {
+        "n_sessions": n_sessions,
+        "n_quiz_answers": n_quiz_answers,
+        "n_flashcard_reviews": n_flashcard_reviews,
+    }
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -469,8 +553,16 @@ def main() -> None:
     ap.add_argument(
         "--dry-run", action="store_true", help="print the plan without writing to Neo4j"
     )
+    ap.add_argument(
+        "--streak-demo-days",
+        type=int,
+        default=STREAK_DEMO_DAYS,
+        help="consecutive real days of activity to write for the dedicated "
+        "streak-demo student, ending today (0 to skip)",
+    )
     args = ap.parse_args()
 
+    load_dotenv()
     bank = load_question_bank()
     concepts = build_concepts(bank, args.min_questions_per_topic, N_ROOT_SUBJECTS)
     concept_questions = assign_questions_to_concepts(bank, concepts)
@@ -510,7 +602,6 @@ def main() -> None:
         )
         return
 
-    load_dotenv()
     driver = make_driver()
     ensure_constraints(driver)
     try:
@@ -550,6 +641,32 @@ def main() -> None:
                 summary["n_quiz_answers"],
                 summary["n_flashcard_reviews"],
             )
+
+        if args.streak_demo_days > 0:
+            streak_student_id = enroll_student(
+                driver,
+                full_name="Streak Demo Student",
+                student_number="SYNTH-STREAK",
+                academic_year=random.randint(1, 6),
+            )
+            streak_summary = generate_streak_demo_student(
+                driver,
+                streak_student_id,
+                concepts,
+                concept_questions,
+                n_days=args.streak_demo_days,
+            )
+            log.info(
+                "streak demo student %s (SYNTH-STREAK): %d-day streak, %d sessions, "
+                "%d quiz answers, %d flashcard reviews",
+                streak_student_id,
+                args.streak_demo_days,
+                streak_summary["n_sessions"],
+                streak_summary["n_quiz_answers"],
+                streak_summary["n_flashcard_reviews"],
+            )
+            for k in totals:
+                totals[k] += streak_summary[k]
 
         log.info(
             "done: %d students, %d sessions, %d quiz answers, %d flashcard reviews written to Neo4j",
