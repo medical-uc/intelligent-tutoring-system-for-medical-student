@@ -76,7 +76,11 @@ def run_mineru(pdf_path: Path) -> None:
 
 
 def run_pipeline(
-    pdf_path: Path, captioner: QwenVLCaptioner, s3_client, bucket: str
+    pdf_path: Path,
+    captioner: QwenVLCaptioner,
+    s3_client,
+    bucket: str,
+    diagram_runner: DiagramPipelineRunner | None = None,
 ) -> Path:
     """Runs every stage for one PDF and writes all intermediate + final
     artifacts under output/{pdf_stem}/auto/. Returns the chunks JSON path."""
@@ -137,6 +141,28 @@ def run_pipeline(
     with open(captions_path, "w") as f:
         json.dump(caption_results, f, indent=2)
 
+    diagram_results_by_item_id = {}
+    if diagram_runner is not None:
+        log.info(
+            "[%s] Process labeled diagrams (%d candidates)",
+            pdf_stem,
+            len(semantic_visuals),
+        )
+        for visual in tqdm(semantic_visuals, desc=f"[{pdf_stem}] diagram proc", unit="img"):
+            if visual.type not in ("image", "chart", "diagram", "table"):
+                continue
+            img_path = run_dir / "images" / visual.img_path
+            diag_out_dir = run_dir / "diagrams" / visual.item_id.replace("#", "_")
+            d_res = diagram_runner.process_image_crop(str(img_path), str(diag_out_dir))
+            if d_res.get("is_labeled_diagram"):
+                diagram_results_by_item_id[visual.item_id] = d_res
+                log.info(
+                    "[%s] Detected labeled diagram (%d labels): %s",
+                    pdf_stem,
+                    d_res.get("num_labels", 0),
+                    visual.item_id,
+                )
+
     log.info("[%s] Upload semantic visuals to MinIO", pdf_stem)
     upload_captions_file(s3_client, bucket, captions_path)
 
@@ -189,21 +215,31 @@ def run_pipeline(
             caption = captions.get(item.item_id)
             if not caption:
                 continue
-            stage1_figures.append(
-                {
-                    "fig_id": item.item_id,
-                    "image_path": next(
-                        (
-                            r["image_path"]
-                            for r in caption_results
-                            if r["item_id"] == item.item_id
-                        ),
-                        None,
+            fig_data = {
+                "fig_id": item.item_id,
+                "image_path": next(
+                    (
+                        r["image_path"]
+                        for r in caption_results
+                        if r["item_id"] == item.item_id
                     ),
-                    "caption": caption,
-                    "referenced_from": chunk_id,
-                }
-            )
+                    None,
+                ),
+                "caption": caption,
+                "referenced_from": chunk_id,
+            }
+            d_res = diagram_results_by_item_id.get(item.item_id)
+            if d_res:
+                fig_data["is_labeled_diagram"] = True
+                fig_data["label_mapping"] = d_res.get("label_mapping", [])
+                fig_data["renumbered_diagram_path"] = d_res.get("output_files", {}).get(
+                    "renumbered_diagram"
+                )
+                fig_data["label_mapping_json"] = d_res.get("output_files", {}).get(
+                    "label_mapping_json"
+                )
+
+            stage1_figures.append(fig_data)
 
     stage1_output = {
         "doc_id": pdf_stem,
@@ -238,6 +274,11 @@ def main() -> None:
     parser.add_argument(
         "--bucket", default=os.environ.get("SEMANTIC_IMAGES_BUCKET", "semantic-images")
     )
+    parser.add_argument(
+        "--disable-diagram-processing",
+        action="store_true",
+        help="Disable automatic MedGemma + U-Net diagram processing for visual crops.",
+    )
     args = parser.parse_args()
 
     if args.pdf:
@@ -251,10 +292,19 @@ def main() -> None:
     log.info("Processing %d PDF(s)", len(pdf_paths))
     captioner = QwenVLCaptioner()
     s3_client = make_s3_client()
+
+    diagram_runner = None
+    if not args.disable_diagram_processing:
+        diagram_runner = DiagramPipelineRunner()
+
     results = []
     for pdf_path in tqdm(pdf_paths, desc="PDFs", unit="pdf"):
         try:
-            results.append(run_pipeline(pdf_path, captioner, s3_client, args.bucket))
+            results.append(
+                run_pipeline(
+                    pdf_path, captioner, s3_client, args.bucket, diagram_runner=diagram_runner
+                )
+            )
         except Exception:
             log.exception("[%s] FAILED", pdf_path.stem)
     captioner.unload()

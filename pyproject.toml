@@ -10,8 +10,13 @@ dependencies = [
     "einops>=0.8.2",
     "fastapi>=0.118.0",
     "isort>=8.0.1",
+    "matplotlib>=3.11.1",
     "mlflow>=3.14.0",
+    "mlx-vlm>=0.6.8",
     "neo4j>=5.28.0",
+    "opencv-python>=5.0.0.93",
+    "paddleocr>=2.10.0",
+    "paddlepaddle>=3.3.1",
     "pillow>=12.3.0",
     "protobuf>=7.35.1",
     "psycopg[binary]>=3.3.4",
@@ -32,4 +37,10 @@ dev = [
     "ipykernel>=7.3.0",
     "nbconvert>=7.17.1",
     "nbformat>=5.10.4",
+    "pytest>=9.1.1",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
