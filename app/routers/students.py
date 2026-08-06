@@ -6,6 +6,7 @@ from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
     SessionCheckResponse,
     SessionResponse,
+    StreakResponse,
     StudentLoginRequest,
     StudentProfileResponse,
     StudentRegisterRequest,
@@ -17,6 +18,7 @@ from src.student_kg.session import (
     find_student_id_by_number,
     revoke_session,
 )
+from src.student_kg.streak import current_streak, week_activity
 
 router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
@@ -86,4 +88,18 @@ def get_my_profile(
         student_number=profile.student_number,
         academic_year=profile.academic_year,
         enrolled_at=profile.enrolled_at,
+    )
+
+
+@router.get("/me/streak", response_model=StreakResponse)
+def get_my_streak(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> StreakResponse:
+    """Consecutive UTC days with a quiz session or flashcard review, walking back from
+    today, plus this UTC calendar week's Monday-Sunday activity — see
+    src/student_kg/streak.py for exact semantics."""
+    return StreakResponse(
+        current_streak=current_streak(driver, student_id),
+        week_activity=week_activity(driver, student_id),
     )
