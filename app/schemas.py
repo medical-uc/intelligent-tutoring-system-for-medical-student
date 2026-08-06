@@ -44,6 +44,24 @@ class StreakResponse(BaseModel):
     week_activity: list[bool] = Field(min_length=7, max_length=7)
 
 
+class NudgeSource(str, Enum):
+    QUIZ = "quiz"
+    FLASHCARD = "flashcard"
+
+
+class NudgePreviewItem(BaseModel):
+    source: NudgeSource
+    question_uid: str
+    next_review_at: datetime
+
+
+class NudgeResponse(BaseModel):
+    quiz_due_count: int
+    flashcard_due_count: int
+    total_due_count: int
+    soonest_due: NudgePreviewItem | None = None
+
+
 class OptionOut(BaseModel):
     """Client-facing option — no `correct` flag. Position doubles as the answer id."""
 

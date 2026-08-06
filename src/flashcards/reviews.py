@@ -141,6 +141,22 @@ def due_for_review(driver: Driver, student_id: str, limit: int = 50) -> list[dic
         return [dict(r) for r in records]
 
 
+_COUNT_DUE_FOR_REVIEW_QUERY = """
+MATCH (s:Student {id: $student_id})-[:HAS_FLASHCARD]->(f:Flashcard)
+WHERE f.next_review_at <= datetime()
+RETURN count(f) AS due_count
+"""
+
+
+def count_due_for_review(driver: Driver, student_id: str) -> int:
+    """Cheap count of due cards, for dashboard badges that don't need the full queue."""
+    with driver.session() as session:
+        record = session.run(
+            _COUNT_DUE_FOR_REVIEW_QUERY, student_id=student_id
+        ).single()
+        return record["due_count"] if record else 0
+
+
 _REVIEW_HISTORY_QUERY = """
 MATCH (s:Student {id: $student_id})-[:HAS_FLASHCARD]->(f:Flashcard {question_uid: $question_uid})
 MATCH (e:InteractionEvent {type: "FLASHCARD_REVIEW"})-[:FOR_FLASHCARD]->(f)

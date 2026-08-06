@@ -4,6 +4,9 @@ from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
+    NudgePreviewItem,
+    NudgeResponse,
+    NudgeSource,
     SessionCheckResponse,
     SessionResponse,
     StreakResponse,
@@ -12,6 +15,10 @@ from app.schemas import (
     StudentRegisterRequest,
     StudentRegisterResponse,
 )
+from src.flashcards.reviews import count_due_for_review as count_due_flashcards
+from src.flashcards.reviews import due_for_review as due_flashcards
+from src.quiz.attempts import count_due_for_review as count_due_quiz
+from src.quiz.attempts import due_for_review as due_quiz
 from src.student_kg.enrollment import enroll_student, get_student_by_id
 from src.student_kg.session import (
     create_session,
@@ -102,4 +109,41 @@ def get_my_streak(
     return StreakResponse(
         current_streak=current_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
+    )
+
+
+@router.get("/me/nudge", response_model=NudgeResponse)
+def get_my_nudge(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> NudgeResponse:
+    """Dashboard due-for-review nudge: how many quiz questions and flashcards this
+    student's spaced-repetition schedule says are due right now, plus whichever single
+    item is due soonest across both. Counts only (no full queues) — pair with
+    /quiz/review/due or /flashcards/review/due once the student acts on the nudge."""
+    quiz_count = count_due_quiz(driver, student_id)
+    flashcard_count = count_due_flashcards(driver, student_id)
+
+    soonest: NudgePreviewItem | None = None
+    quiz_top = due_quiz(driver, student_id, limit=1)
+    flashcard_top = due_flashcards(driver, student_id, limit=1)
+
+    candidates = []
+    if quiz_top:
+        candidates.append((NudgeSource.QUIZ, quiz_top[0]))
+    if flashcard_top:
+        candidates.append((NudgeSource.FLASHCARD, flashcard_top[0]))
+    if candidates:
+        source, item = min(candidates, key=lambda c: c[1]["next_review_at"])
+        soonest = NudgePreviewItem(
+            source=source,
+            question_uid=item["question_uid"],
+            next_review_at=item["next_review_at"].to_native(),
+        )
+
+    return NudgeResponse(
+        quiz_due_count=quiz_count,
+        flashcard_due_count=flashcard_count,
+        total_due_count=quiz_count + flashcard_count,
+        soonest_due=soonest,
     )
