@@ -39,6 +39,11 @@ class StudentProfileResponse(BaseModel):
     enrolled_at: datetime
 
 
+class StreakResponse(BaseModel):
+    current_streak: int
+    week_activity: list[bool] = Field(min_length=7, max_length=7)
+
+
 class OptionOut(BaseModel):
     """Client-facing option — no `correct` flag. Position doubles as the answer id."""
 
