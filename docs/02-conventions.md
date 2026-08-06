@@ -99,9 +99,12 @@ the non-obvious reason over restating the function name in prose.
 **#11 — The gitignore split is deliberate, not an oversight.** `output/` and `data/` are
 both listed under `# Project-specific` in `.gitignore` — they're regenerate-on-demand
 scratch space. But [`notebooks/mcq_output/question_bank.json`](../notebooks/mcq_output/question_bank.json)
-and two smoke-test sample PDFs directly under `notebooks/` are committed on purpose,
-because `question_bank.json` is the one generated artifact the live FastAPI app actually
-depends on at runtime (`src/quiz/bank.py`'s `QUESTION_BANK_PATH` default). Don't "clean
-up" that file, and don't assume everything under `notebooks/` follows the same ignore
+and two smoke-test sample PDFs directly under `notebooks/` are committed on purpose, as
+the generation pipeline's reviewable deliverable — even though the live FastAPI app now
+serves quiz content from postgres (`mcq_questions`, populated from
+`notebooks/master_mcq_with_topics.json` via
+[`scripts/populate_mcq_postgres.py`](../scripts/populate_mcq_postgres.py)) rather than
+reading this file at runtime — see [05-serving-api.md](05-serving-api.md). Don't "clean
+up" either file, and don't assume everything under `notebooks/` follows the same ignore
 rule as `output/`/`data/` — check `.gitignore` before deleting anything that looks like
 generated output.

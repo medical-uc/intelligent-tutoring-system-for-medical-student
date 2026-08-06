@@ -18,8 +18,9 @@ Two Python environments:
 Environment variables: copy `.env.example` to `.env` (the `make setup` target does this
 automatically, and every other `make` target depends on `setup` first). Notable vars:
 `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD` (read by
-`src/student_kg/driver.py::make_driver`), `QUESTION_BANK_PATH` (read by
-`src/quiz/bank.py`, defaults to `notebooks/mcq_output/question_bank.json`),
+`src/student_kg/driver.py::make_driver`), `POSTGRES_USER`/`POSTGRES_PASSWORD`/
+`POSTGRES_DB`/`POSTGRES_HOST`/`POSTGRES_PORT` (read by `src/quiz/bank.py` to serve quiz
+questions from the `mcq_questions` table — same creds mlflow's backend store uses),
 `SEMANTIC_IMAGES_BUCKET` (read by `scripts/ingest_data.py`, defaults to
 `semantic-images`).
 
@@ -42,8 +43,10 @@ automatically, and every other `make` target depends on `setup` first). Notable 
 .venv/bin/uvicorn app.main:app --reload
 ```
 
-Requires `make neo4j-up` (or `make up`) running first — `app/dependencies.py` connects
-to Neo4j on first request and will fail if it's not reachable.
+Requires `make neo4j-up` and `make mlflow-up` (or `make up`) running first —
+`app/dependencies.py` connects to Neo4j on first request and `src/quiz/bank.py` connects
+to postgres, both failing if unreachable. Postgres also needs `mcq_questions` populated —
+see "Populating quiz questions" below.
 
 ## Running the ingestion pipeline
 
@@ -62,7 +65,23 @@ This is a **manual step, not a make target or script** — there is currently no
 way to trigger MCQ regeneration from the CLI. See
 [04-mcq-generation.md](04-mcq-generation.md) for what it does; output overwrites
 `notebooks/mcq_output/question_bank.json`, which is git-tracked (commit the update
-explicitly once you've reviewed it).
+explicitly once you've reviewed it). This file is not read by the live app (see below) —
+it's the generation pipeline's committed output artifact.
+
+## Populating quiz questions
+
+The live app serves quiz questions from the `mcq_questions` postgres table, not from
+`question_bank.json` directly. Load it with:
+
+```bash
+.venv/bin/python scripts/populate_mcq_postgres.py
+```
+
+This reads `notebooks/master_mcq_with_topics.json` and upserts into `mcq_questions`
+(creating the table if needed). Needs `make mlflow-up` (or `make up`) running first so
+postgres is reachable, and `.env` populated with `POSTGRES_*` vars. Re-run after updating
+the source JSON — `src/quiz/bank.py` caches the bank in-process
+(`@lru_cache(maxsize=1)`), so a running server also needs a restart to pick up changes.
 
 ## Known gaps
 

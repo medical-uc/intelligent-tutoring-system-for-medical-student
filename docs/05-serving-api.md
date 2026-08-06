@@ -1,8 +1,8 @@
 # Serving API
 
-FastAPI app that serves quiz content and records student answers. Depends on
-`question_bank.json` (content, see [04-mcq-generation.md](04-mcq-generation.md)) and
-Neo4j (state, see [06-student-graph.md](06-student-graph.md)) — no ML dependencies.
+FastAPI app that serves quiz content and records student answers. Depends on postgres
+(content, the `mcq_questions` table — see [04-mcq-generation.md](04-mcq-generation.md))
+and Neo4j (state, see [06-student-graph.md](06-student-graph.md)).
 
 ## App wiring
 
@@ -101,11 +101,11 @@ point of `/check` existing at all).
 
 ## `src/quiz/bank.py` internals
 
-[`src/quiz/bank.py::load_question_bank`](../src/quiz/bank.py) reads
-`question_bank.json` once at first call and caches it (`@lru_cache(maxsize=1)`) — the
-bank never changes while the server is running, so there's no reason to re-parse per
-request. `_is_usable()` filters out any question where
-`critique.valid_as_generated == false` (see [04-mcq-generation.md](04-mcq-generation.md)
-for what that field actually means and its current ~62% exclusion rate). The file path
-is overridable via the `QUESTION_BANK_PATH` env var, defaulting to
-`notebooks/mcq_output/question_bank.json`.
+[`src/quiz/bank.py::load_question_bank`](../src/quiz/bank.py) queries the `mcq_questions`
+postgres table once at first call and caches the result (`@lru_cache(maxsize=1)`) — the
+bank never changes while the server is running, so there's no reason to re-query per
+request. The table is populated offline by
+[`scripts/populate_mcq_postgres.py`](../scripts/populate_mcq_postgres.py) from
+`notebooks/master_mcq_with_topics.json`; connection params come from the same
+`POSTGRES_USER`/`POSTGRES_PASSWORD`/`POSTGRES_DB`/`POSTGRES_HOST`/`POSTGRES_PORT` env vars
+mlflow's backend store uses (see [07-operations.md](07-operations.md)).

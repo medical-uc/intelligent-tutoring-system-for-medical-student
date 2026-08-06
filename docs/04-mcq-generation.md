@@ -79,22 +79,25 @@ Each question object:
 **`critique.valid_as_generated` is `not was_corrected`** — it's `false` for any question
 that needed a Step 5 correction pass, not only for questions that were uncorrectable and
 dropped. In the current data, 116 of 188 total questions (~62%) have
-`valid_as_generated: false`. `src/quiz/bank.py`'s `_is_usable()` filter treats any
-`false` value as unusable and excludes it from what's served to students — meaning the
-serving layer is currently more conservative than it strictly needs to be (it discards
-corrected-and-now-valid questions along with genuinely dropped ones). If that 62%
-exclusion rate becomes a problem, revisit whether corrected-but-valid items should be
-distinguished from uncorrectable ones before filtering — that distinction isn't currently
-captured in the schema (`was_corrected` exists in the notebook's `ValidatedMCQItem` but
-isn't serialized separately from `valid_as_generated`).
+`valid_as_generated: false`. This field only exists in `question_bank.json`, produced by
+this notebook — it does not carry through to `notebooks/master_mcq_with_topics.json` (a
+separate, larger dataset, see below) which is what the live app actually serves, so this
+filtering does not currently apply to served questions. If that 62% exclusion rate becomes
+relevant again (e.g. if the served dataset is ever switched back to this notebook's
+output), revisit whether corrected-but-valid items should be distinguished from
+uncorrectable ones before filtering — that distinction isn't currently captured in the
+schema (`was_corrected` exists in the notebook's `ValidatedMCQItem` but isn't serialized
+separately from `valid_as_generated`).
 
 ## Why it's committed
 
-`question_bank.json` is the one generated artifact treated as a committed deliverable,
-unlike everything under `output/`/`data/` (both gitignored). This is because
-`src/quiz/bank.py`'s default `QUESTION_BANK_PATH` points directly at it — the live
-FastAPI app depends on this file existing in the repo, not on it being regenerated at
-deploy time. See [Conventions #11](02-conventions.md).
+`question_bank.json` is treated as a committed deliverable, unlike everything under
+`output/`/`data/` (both gitignored) — it's the generation pipeline's reviewable output.
+Note the live FastAPI app does **not** read this file at runtime: quiz questions are
+served from postgres (`mcq_questions` table, populated from a separate dataset,
+`notebooks/master_mcq_with_topics.json`, via
+[`scripts/populate_mcq_postgres.py`](../scripts/populate_mcq_postgres.py)) — see
+[05-serving-api.md](05-serving-api.md). See [Conventions #11](02-conventions.md).
 
 ## Stale artifact
 

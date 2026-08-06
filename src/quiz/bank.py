@@ -1,12 +1,12 @@
-"""Loads and sanitizes the generated MCQ bank for serving to students.
+"""Loads and sanitizes the MCQ bank for serving to students.
 
-question_bank.json is nested {doc_id: {topic_path: [question, ...]}} and each question
-embeds the answer key inline (options[].correct) plus internal-only fields (critique,
-triple, source, distractor_sources). None of that may reach the client before an answer
-is submitted — this module flattens the bank into quiz-ready questions and is the single
-place that knows both the raw shape and which fields are answer-bearing. `explanation` is
-answer-bearing too (it names the correct option's reasoning) but is fine to reveal once
-the attempt is graded — see app/routers/quiz.py's /check endpoint.
+Questions are served from the `mcq_questions` table in postgres (populated by
+scripts/populate_mcq_postgres.py from notebooks/master_mcq_with_topics.json). Each row
+embeds the answer key inline (options[].correct) — that may not reach the client before
+an answer is submitted, so this module is the single place that knows both the raw shape
+and which fields are answer-bearing. `explanation` is answer-bearing too (it names the
+correct option's reasoning) but is fine to reveal once the attempt is graded — see
+app/routers/quiz.py's /check endpoint.
 
 Usage:
     from src.quiz.bank import load_question_bank
@@ -16,18 +16,29 @@ Usage:
     bank.get(uid)                        # -> Question | None, for answer-checking
 """
 
-import json
 import logging
 import os
 from dataclasses import dataclass
 from functools import lru_cache
 
+import psycopg
+from psycopg.rows import dict_row
+
 log = logging.getLogger("quiz.bank")
 
-DEFAULT_BANK_PATH = os.environ.get(
-    "QUESTION_BANK_PATH",
-    "notebooks/mcq_output/question_bank.json",
-)
+SELECT_QUESTIONS = """
+SELECT uid, subject, topic, stem, options, difficulty, explanation
+FROM mcq_questions
+"""
+
+
+def _dsn_from_env() -> str:
+    user = os.environ["POSTGRES_USER"]
+    password = os.environ["POSTGRES_PASSWORD"]
+    db = os.environ["POSTGRES_DB"]
+    host = os.environ.get("POSTGRES_HOST", "localhost")
+    port = os.environ.get("POSTGRES_PORT", "5432")
+    return f"postgresql://{user}:{password}@{host}:{port}/{db}"
 
 
 @dataclass(frozen=True)
@@ -76,48 +87,29 @@ class QuestionBank:
         return len(self._by_uid)
 
 
-def _is_usable(raw_question: dict) -> bool:
-    critique = raw_question.get("critique") or {}
-    return critique.get("valid_as_generated", True) is not False
-
-
-def _parse_question(raw_question: dict) -> Question:
+def _parse_row(row: dict) -> Question:
+    topic_tag = [t for t in (row["subject"], row["topic"]) if t]
     return Question(
-        uid=raw_question["uid"],
-        stem=raw_question["stem"],
-        options=[
-            Option(text=o["text"], correct=o["correct"])
-            for o in raw_question["options"]
-        ],
-        topic_tag=raw_question.get("topic_tag", []),
-        difficulty=raw_question.get("difficulty", 1),
-        explanation=raw_question.get("explanation", ""),
+        uid=row["uid"],
+        stem=row["stem"],
+        options=[Option(text=o["text"], correct=o["correct"]) for o in row["options"]],
+        topic_tag=topic_tag,
+        difficulty=row["difficulty"],
+        explanation=row["explanation"],
     )
 
 
-def _load_from_disk(path: str) -> QuestionBank:
-    with open(path, encoding="utf-8") as f:
-        raw = json.load(f)
+def _load_from_postgres(dsn: str) -> QuestionBank:
+    with psycopg.connect(dsn, row_factory=dict_row) as conn:
+        with conn.cursor() as cur:
+            cur.execute(SELECT_QUESTIONS)
+            rows = cur.fetchall()
 
-    questions: list[Question] = []
-    skipped = 0
-    for _doc_id, topics in raw.items():
-        for _topic_path, raw_questions in topics.items():
-            for rq in raw_questions:
-                if not _is_usable(rq):
-                    skipped += 1
-                    continue
-                questions.append(_parse_question(rq))
-
-    log.info(
-        "loaded %d questions from %s (%d skipped as invalid)",
-        len(questions),
-        path,
-        skipped,
-    )
+    questions = [_parse_row(row) for row in rows]
+    log.info("loaded %d questions from postgres", len(questions))
     return QuestionBank(questions)
 
 
 @lru_cache(maxsize=1)
-def load_question_bank(path: str = DEFAULT_BANK_PATH) -> QuestionBank:
-    return _load_from_disk(path)
+def load_question_bank(dsn: str | None = None) -> QuestionBank:
+    return _load_from_postgres(dsn or _dsn_from_env())
