@@ -37,6 +37,21 @@ and a 1-question topic can't provide that. Every question/session write still us
 uids and real topic_tag/topic_path, so the resulting graph is fully readable by the real
 app and by src/quiz/attempts.py's Topic-node merge.
 
+Per-topic coverage is guaranteed by construction, not left to chance. Purely random
+topic selection per session (the old approach) concentrates traffic on a few popular
+topics and starves the rest — exactly the failure mode Slater & Baker (2018,
+Behaviormetrika, "Degree of Error in Bayesian Knowledge Tracing Estimates From
+Differences in Sample Sizes") measured: fitting BKT below ~25 students per skill doesn't
+converge to the true parameters at all, and below MIN_ATTEMPTS_PER_TOPIC_STUDENT
+attempts per student the estimates stay noisy regardless of student count. So each topic
+is pre-assigned a roster of at least MIN_STUDENTS_PER_TOPIC distinct students who are
+each guaranteed at least MIN_ATTEMPTS_PER_TOPIC_STUDENT attempts on it (see
+build_required_assignments()) — these required sessions are generated first, per
+student, before any organic/extra random-topic sessions top up the rest of a student's
+session budget. This keeps every topic eligible for a future per-topic EM fit, rather
+than reproducing the same sparse, uneven coverage the notebook's own diagnostics found
+before (median 6 attempts/pair, only 128/184 pairs >= 5, across just 20 students total).
+
 Usage (needs the neo4j stack up: `make neo4j-up`; run from repo root as a module, so
 `src.*` imports resolve):
     .venv/bin/python -m scripts.generate_dummy_interactions
@@ -67,14 +82,28 @@ log = logging.getLogger("generate_dummy_interactions")
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
 
-N_STUDENTS = 20  # number of synthetic students to enroll
+# MIN_STUDENTS_PER_TOPIC / MIN_ATTEMPTS_PER_TOPIC_STUDENT come from Slater & Baker
+# (2018): fitting BKT to fewer than 25 students per skill doesn't converge to the true
+# parameters at all (their ns=5/ns=10 conditions), and 25 students + >=3-6 attempts each
+# is their floor for mastery-prediction estimates to be usable (avoiding both parameter
+# divergence and the ~30-40% extreme/degenerate-parameter rate they saw below that).
+# 250+ students/topic is their bar for trusting the parameters as characterizing the
+# skill itself, not just predicting one student's mastery point — out of reach for a
+# local dummy-data generator, so this targets the mastery-prediction floor, not that one.
+MIN_STUDENTS_PER_TOPIC = 25
+MIN_ATTEMPTS_PER_TOPIC_STUDENT = 6
+
+N_STUDENTS = 40  # number of synthetic students to enroll
 MIN_QUESTIONS_PER_TOPIC = 5  # leaf topics below this are excluded from the simulation
 N_ROOT_SUBJECTS = 4  # first N subjects (by question count) get "root_weight" priority
-SESSIONS_PER_STUDENT = (8, 20)  # min/max sessions per student
+SESSIONS_PER_STUDENT = (8, 20)  # min/max *organic* sessions per student, on top of
+# whatever required-coverage sessions build_required_assignments() assigns them
 INTERACTIONS_PER_SESSION = (3, 8)  # min/max questions/cards per session
 SESSION_GAP_DAYS = (1, 4)  # days between sessions (for forgetting decay)
 FLASHCARD_SESSION_RATE = (
-    0.35  # fraction of sessions that are flashcard drills, not quizzes
+    0.35  # fraction of *organic* sessions that are flashcard drills, not quizzes —
+    # required-coverage sessions are always quiz sessions, since attempt-count floor is
+    # a BKT/quiz-history requirement, not a flashcard one
 )
 START_DATE = datetime(2026, 3, 1)
 
@@ -125,6 +154,34 @@ def assign_questions_to_concepts(
 ) -> dict[str, list[Question]]:
     """Maps each simulated concept to its real question pool for that topic_path."""
     return {c["topic_path"]: bank.questions_for_topic(c["topic_path"]) for c in concepts}
+
+
+def build_required_assignments(
+    concepts: list[dict],
+    student_ids: list[str],
+    min_students_per_topic: int = MIN_STUDENTS_PER_TOPIC,
+    min_attempts_per_topic_student: int = MIN_ATTEMPTS_PER_TOPIC_STUDENT,
+) -> dict[str, list[tuple[str, int]]]:
+    """For each student, the list of (topic_path, n_required_attempts) they must be given
+    a dedicated quiz session for, before any organic/random-topic sessions run — this is
+    what guarantees every topic clears MIN_STUDENTS_PER_TOPIC distinct students and
+    MIN_ATTEMPTS_PER_TOPIC_STUDENT attempts each by construction (see module docstring).
+
+    Each topic gets a shuffled roster of min(min_students_per_topic, len(student_ids))
+    students — if there are fewer synthetic students than the target, every student is
+    assigned instead, which is a visible under-coverage signal (the run's final summary
+    reports it) rather than a silent shortfall. Rosters are built with a round-robin
+    offset per topic (not independently re-shuffled) so required load spreads evenly
+    across students instead of piling onto whichever students happen to shuffle first."""
+    roster_size = min(min_students_per_topic, len(student_ids))
+    assignments: dict[str, list[tuple[str, int]]] = {sid: [] for sid in student_ids}
+    n_students = len(student_ids)
+    for i, concept in enumerate(concepts):
+        offset = (i * roster_size) % n_students
+        roster = [student_ids[(offset + j) % n_students] for j in range(roster_size)]
+        for sid in roster:
+            assignments[sid].append((concept["topic_path"], min_attempts_per_topic_student))
+    return assignments
 
 
 # ─── STUDENT MODEL ────────────────────────────────────────────────────────────
@@ -245,17 +302,67 @@ def simulate_flashcard_rating(
 # ─── SESSION / SEQUENCE GENERATION ────────────────────────────────────────────
 
 
+def _run_quiz_session(
+    driver,
+    student_id: str,
+    model: dict,
+    session_topic: str,
+    difficulty: float,
+    candidates: list[Question],
+    n_in_session: int,
+    current_time: datetime,
+) -> tuple[datetime, int]:
+    """Writes one full quiz session (start -> n_in_session graded attempts -> end) for
+    session_topic, advancing and returning current_time. Shared by both the required
+    (coverage-guarantee) and organic session-generation passes so a session looks
+    identical either way from the graph's perspective."""
+    session_id = start_session(
+        driver, student_id, topic_path=session_topic, ts=current_time
+    )
+    n_quiz_answers = 0
+    for _ in range(n_in_session):
+        question = random.choice(candidates)
+        current_time += timedelta(minutes=random.uniform(0.5, 4))
+        result = simulate_quiz_answer(
+            model, question, session_topic, difficulty, current_time
+        )
+        record_attempt(
+            driver,
+            student_id=student_id,
+            session_id=session_id,
+            question_uid=question.uid,
+            selected_index=result["selected_index"],
+            correct=result["correct"],
+            confidence=result["confidence"],
+            time_taken_seconds=result["time_taken_seconds"],
+            topic_tag=question.topic_tag,
+            ts=current_time,
+        )
+        n_quiz_answers += 1
+    end_session(driver, student_id, session_id, ts=current_time)
+    return current_time, n_quiz_answers
+
+
 def generate_and_write_student(
     driver,
     student_id: str,
     concepts: list[dict],
     concept_questions: dict[str, list[Question]],
+    required_topics: list[tuple[str, int]] | None = None,
 ) -> dict:
     """Generates and writes one student's full multi-session interaction history straight
     to Neo4j via the real quiz/flashcard write functions, backdated across sessions/days.
-    Returns a small summary dict for the run's final report."""
+    Returns a small summary dict for the run's final report.
+
+    required_topics (from build_required_assignments()) is a list of (topic_path,
+    n_required_attempts) this student must get a dedicated quiz session for, run BEFORE
+    the organic session loop below — this is what guarantees per-topic coverage rather
+    than leaving it to chance (see module docstring). Each required topic becomes exactly
+    one session with n_required_attempts questions in it, so a topic's
+    MIN_ATTEMPTS_PER_TOPIC_STUDENT floor is met even if that student never happens to
+    land on the topic again organically."""
     model = init_student_model(concepts)
-    n_sessions = random.randint(*SESSIONS_PER_STUDENT)
+    n_organic_sessions = random.randint(*SESSIONS_PER_STUDENT)
     current_time = START_DATE + timedelta(days=random.randint(0, 10))
 
     root_topics = [c["topic_path"] for c in concepts if c["is_root"]]
@@ -264,10 +371,29 @@ def generate_and_write_student(
 
     n_quiz_answers = 0
     n_flashcard_reviews = 0
+    n_required_sessions = 0
 
-    for session_idx in range(n_sessions):
+    for topic_path, n_required in required_topics or []:
+        candidates = concept_questions.get(topic_path) or []
+        if not candidates:
+            continue
+        current_time, written = _run_quiz_session(
+            driver,
+            student_id,
+            model,
+            topic_path,
+            difficulty_by_topic[topic_path],
+            candidates,
+            n_required,
+            current_time,
+        )
+        n_quiz_answers += written
+        n_required_sessions += 1
+        current_time += timedelta(days=random.uniform(*SESSION_GAP_DAYS))
+
+    for session_idx in range(n_organic_sessions):
         n_in_session = random.randint(*INTERACTIONS_PER_SESSION)
-        progress = session_idx / max(1, n_sessions - 1)
+        progress = session_idx / max(1, n_organic_sessions - 1)
         root_weight = max(0.15, 0.75 - progress * 0.6)
         is_flashcard_session = random.random() < FLASHCARD_SESSION_RATE
 
@@ -284,18 +410,10 @@ def generate_and_write_student(
             continue
         difficulty = difficulty_by_topic[session_topic]
 
-        session_id = None
-        if not is_flashcard_session:
-            session_id = start_session(
-                driver, student_id, topic_path=session_topic, ts=current_time
-            )
-
-        for _ in range(n_in_session):
-            question = random.choice(candidates)
-
-            current_time += timedelta(minutes=random.uniform(0.5, 4))
-
-            if is_flashcard_session:
+        if is_flashcard_session:
+            for _ in range(n_in_session):
+                question = random.choice(candidates)
+                current_time += timedelta(minutes=random.uniform(0.5, 4))
                 rating = simulate_flashcard_rating(
                     model, session_topic, difficulty, current_time
                 )
@@ -307,31 +425,23 @@ def generate_and_write_student(
                     ts=current_time,
                 )
                 n_flashcard_reviews += 1
-            else:
-                result = simulate_quiz_answer(
-                    model, question, session_topic, difficulty, current_time
-                )
-                record_attempt(
-                    driver,
-                    student_id=student_id,
-                    session_id=session_id,
-                    question_uid=question.uid,
-                    selected_index=result["selected_index"],
-                    correct=result["correct"],
-                    confidence=result["confidence"],
-                    time_taken_seconds=result["time_taken_seconds"],
-                    topic_tag=question.topic_tag,
-                    ts=current_time,
-                )
-                n_quiz_answers += 1
-
-        if session_id is not None:
-            end_session(driver, student_id, session_id, ts=current_time)
+        else:
+            current_time, written = _run_quiz_session(
+                driver,
+                student_id,
+                model,
+                session_topic,
+                difficulty,
+                candidates,
+                n_in_session,
+                current_time,
+            )
+            n_quiz_answers += written
 
         current_time += timedelta(days=random.uniform(*SESSION_GAP_DAYS))
 
     return {
-        "n_sessions": n_sessions,
+        "n_sessions": n_required_sessions + n_organic_sessions,
         "n_quiz_answers": n_quiz_answers,
         "n_flashcard_reviews": n_flashcard_reviews,
     }
@@ -344,6 +454,17 @@ def main() -> None:
     ap.add_argument("--n-students", type=int, default=N_STUDENTS)
     ap.add_argument(
         "--min-questions-per-topic", type=int, default=MIN_QUESTIONS_PER_TOPIC
+    )
+    ap.add_argument(
+        "--min-students-per-topic",
+        type=int,
+        default=MIN_STUDENTS_PER_TOPIC,
+        help="Slater & Baker (2018) floor for BKT parameter estimates to converge at all",
+    )
+    ap.add_argument(
+        "--min-attempts-per-topic-student",
+        type=int,
+        default=MIN_ATTEMPTS_PER_TOPIC_STUDENT,
     )
     ap.add_argument(
         "--dry-run", action="store_true", help="print the plan without writing to Neo4j"
@@ -361,6 +482,25 @@ def main() -> None:
         n_questions_in_sim,
     )
 
+    if args.n_students < args.min_students_per_topic:
+        log.warning(
+            "--n-students (%d) < --min-students-per-topic (%d): every topic will be "
+            "capped at %d students, below the Slater & Baker convergence floor",
+            args.n_students,
+            args.min_students_per_topic,
+            args.n_students,
+        )
+    required_attempts_per_student = (
+        len(concepts) * args.min_students_per_topic * args.min_attempts_per_topic_student
+    ) / max(1, args.n_students)
+    log.info(
+        "coverage target: >= %d students x >= %d attempts per topic "
+        "(~%.0f required attempts/student on average before organic sessions)",
+        args.min_students_per_topic,
+        args.min_attempts_per_topic_student,
+        required_attempts_per_student,
+    )
+
     if args.dry_run:
         log.info(
             "dry run: would enroll %d students across %d simulated topics, %d questions bucketed",
@@ -374,7 +514,7 @@ def main() -> None:
     driver = make_driver()
     ensure_constraints(driver)
     try:
-        totals = {"n_sessions": 0, "n_quiz_answers": 0, "n_flashcard_reviews": 0}
+        student_ids = []
         for i in range(args.n_students):
             student_id = enroll_student(
                 driver,
@@ -382,8 +522,23 @@ def main() -> None:
                 student_number=f"SYNTH-{i:04d}",
                 academic_year=random.randint(1, 6),
             )
+            student_ids.append(student_id)
+
+        required_assignments = build_required_assignments(
+            concepts,
+            student_ids,
+            min_students_per_topic=args.min_students_per_topic,
+            min_attempts_per_topic_student=args.min_attempts_per_topic_student,
+        )
+
+        totals = {"n_sessions": 0, "n_quiz_answers": 0, "n_flashcard_reviews": 0}
+        for i, student_id in enumerate(student_ids):
             summary = generate_and_write_student(
-                driver, student_id, concepts, concept_questions
+                driver,
+                student_id,
+                concepts,
+                concept_questions,
+                required_topics=required_assignments[student_id],
             )
             for k in totals:
                 totals[k] += summary[k]
