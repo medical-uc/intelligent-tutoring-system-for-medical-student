@@ -13,8 +13,6 @@ from app.schemas import (
     HistoryResponse,
     LogAttemptRequest,
     LogAttemptResponse,
-    MasteryItem,
-    MasteryResponse,
     OptionOut,
     QuestionOut,
     StartSessionResponse,
@@ -22,7 +20,6 @@ from app.schemas import (
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
-from src.quiz.mastery import mastery_for_student
 from src.quiz.sessions import (
     cancel_session,
     end_session,
@@ -186,29 +183,6 @@ def get_due_for_review(
                 interval_days=r["interval_days"],
                 last_reviewed_at=r["last_reviewed_at"].to_native(),
                 next_review_at=r["next_review_at"].to_native(),
-            )
-            for r in items
-        ]
-    )
-
-
-@router.get("/mastery", response_model=MasteryResponse)
-def get_mastery(
-    student_id: str = Depends(get_current_student_id),
-    driver: Driver = Depends(get_driver),
-) -> MasteryResponse:
-    """This student's current Bayesian Knowledge Tracing mastery estimate (p_know) per leaf
-    topic they've answered at least one question in, weakest topic first — see
-    src/quiz/mastery.py for the algorithm. A topic never attempted has no :MASTERS edge and
-    doesn't appear here; pair with /quiz/topics for the full topic list including
-    never-attempted ones."""
-    items = mastery_for_student(driver, student_id=student_id)
-    return MasteryResponse(
-        items=[
-            MasteryItem(
-                topic_path=r["topic_path"],
-                p_know=r["p_know"],
-                updated_at=r["updated_at"].to_native(),
             )
             for r in items
         ]

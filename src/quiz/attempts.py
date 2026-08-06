@@ -38,25 +38,6 @@ question with a high attempt_count but a still-low streak is a signal on its own
 student keeps coming back to it and still isn't landing a confident-correct answer,
 which plain correct/incorrect history doesn't surface as clearly.
 
-record_attempt() also updates a Student-[:MASTERS]->Topic edge on the same leaf topic
-:BELONGS_TO targets, holding a Bayesian Knowledge Tracing p_know estimate (see
-src/quiz/mastery.py for the algorithm and why it beats a raw accuracy average). Unlike
-streak/interval_days (pure Cypher, computed entirely from properties already in scope),
-the BKT update needs the *previous* p_know value before it can compute the new one, so
-it's read back with a small query before the main write, updated in Python via
-mastery.bkt_update(), and passed in as a parameter — Cypher owns graph shape here, Python
-owns the numeric algorithm, the same split src/quiz/bank.py's correct_option_index() uses
-for grading. A student's first attempt on a question in a given topic has no :MASTERS
-edge yet, so current p_know defaults to mastery.BKT_PARAMS["p_init"].
-
-This read-then-write is two separate Cypher statements rather than one, which opens a
-narrow window: two concurrent record_attempt() calls for the *same* student+topic could
-both read the same p_know and one update would be lost (last-write-wins on the final
-SET). This is accepted as a known limitation rather than closed with an explicit
-transaction — the intended usage pattern is one attempt in flight per student at a time
-(a student answering one question, then the next), so the race is theoretical rather
-than a realistic double-submit path.
-
 Every attempt belongs to a QuizSession (see src/quiz/sessions.py) — the frontend starts a
 session before the first question in a topic run and passes its id to every
 record_attempt() call, which links the answer to that session via :HAS_ANSWER. This is
@@ -74,14 +55,6 @@ import uuid
 from datetime import datetime
 
 from neo4j import Driver
-
-from src.quiz.mastery import BKT_PARAMS, bkt_update
-
-_CURRENT_MASTERY_QUERY = """
-MATCH (s:Student {id: $student_id})
-OPTIONAL MATCH (s)-[m:MASTERS]->(t:Topic {path: $topic_path})
-RETURN coalesce(m.p_know, $p_init) AS p_know
-"""
 
 _RECORD_ATTEMPT_QUERY = """
 MATCH (s:Student {id: $student_id})
@@ -129,9 +102,6 @@ CALL (q, s) {
     WITH q, s, topics
     UNWIND topics[0..1] AS leaf
     MERGE (q)-[:BELONGS_TO]->(leaf)
-    WITH s, leaf
-    MERGE (s)-[m:MASTERS]->(leaf)
-    SET m.p_know = $new_p_know, m.updated_at = datetime()
 }
 RETURN e.id AS event_id
 """
@@ -158,27 +128,16 @@ def record_attempt(
     Also merges a Question node (deduped by uid across every student/session that has ever
     answered it) and a chain of nested Topic nodes from topic_tag (e.g.
     ["ENDOCRINOLOGY", "FUNCTIONS OF HORMONE"] becomes two Topic nodes linked by
-    :SUB_TOPIC_OF), so mastery can be aggregated per-question or rolled up to any topic
+    :SUB_TOPIC_OF), so progress can be aggregated per-question or rolled up to any topic
     level instead of living only as a flat string property on the attempt.
 
     `ts` backdates the event/REVIEWING timestamps (last_reviewed_at, next_review_at is
     computed from it too) for synthetic history generation — real callers omit it and get
     datetime(). Callers backdating a sequence of attempts on the same question must call
     them in chronological order, since each call's streak/interval builds on the previous
-    one's stored value regardless of the ts passed. The same chronological-order
-    requirement applies to the MASTERS p_know update (see module docstring)."""
+    one's stored value regardless of the ts passed."""
     event_id = str(uuid.uuid4())
-    topic_path = " > ".join(topic_tag)
     with driver.session() as session:
-        current = session.run(
-            _CURRENT_MASTERY_QUERY,
-            student_id=student_id,
-            topic_path=topic_path,
-            p_init=BKT_PARAMS["p_init"],
-        ).single()
-        current_p_know = current["p_know"] if current else BKT_PARAMS["p_init"]
-        new_p_know = bkt_update(current_p_know, correct, BKT_PARAMS)
-
         record = session.run(
             _RECORD_ATTEMPT_QUERY,
             student_id=student_id,
@@ -190,7 +149,6 @@ def record_attempt(
             confidence=confidence,
             time_taken_seconds=time_taken_seconds,
             topic_tag=topic_tag,
-            new_p_know=new_p_know,
             ts=ts.isoformat() if ts else None,
         ).single()
     return record["event_id"] if record else None
