@@ -1,0 +1,2438 @@
+{
+  "doc_id": "anatomy_of_face_and_oral_cavity",
+  "source": {
+    "source_id": "anatomy_of_face_and_oral_cavity",
+    "title": "Anatomy and Physiology of the Digestive System and Facial Muscles",
+    "edition": "",
+    "section": "An exploration of the digestive system and the anatomy of facial muscles, including their functions and innervations.",
+    "page": null,
+    "origin": "anatomy_of_face_and_oral_cavity.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-05 22:59:10"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "The digestive system is a complex network of organs and tissues dedicated to breaking down the food we consume into molecules small enough to be absorbed by our body cells. The digestive system's primary functions include ingesting and processing proteins, fats, and carbohydrates, enabling their absorption into the bloodstream and lymph, and subsequently delivering these nutrients to cells for metabolism and conversion into ATP, the energy currency of the cell.\nAt the heart of this system is the gastrointestinal (GI) tract, also known as the alimentary canal, which is a continuous tube extending from the mouth to the anus. The gastrointestinal tract serves as the pathway for food as it undergoes various stages of digestion. The journey begins in the mouth, or oral cavity, where the process of mechanical breakdown starts through chewing, or mastication. The teeth and tongue play crucial roles here, increasing the surface area of the food to enhance the efficiency of enzymatic breakdown. Saliva, produced by the salivary glands—namely the parotid, sublingual, and submandibular glands—initiates the chemical digestion of carbohydrates.\nOnce chewed, the food is formed into a bolus, a small, rounded mass that is easier to swallow. The bolus then travels down the esophagus, a long tube that connects the pharynx to the stomach. The esophagus uses muscular contractions known as peristalsis to move the bolus towards the stomach, a large, sac-like organ where it is mixed with gastric juices containing hydrochloric acid and enzymes, turning it into a semi-liquid substance called chyme.\nFrom the stomach, chyme moves into the small intestine, where the majority of nutrient absorption occurs. The pancreas, liver, and gallbladder secrete digestive enzymes and bile, which cause emulsification of fats and further break down nutrients. The small intestine is divided into three sections: the duodenum, jejunum, and ileum, each playing a specific role in digestion and absorption.\nFollowing the small intestine, the large intestine, comprising the cecum, ascending colon, transverse colon, descending colon, and sigmoid colon, takes over. The large intestine's primary function is to absorb water and electrolytes, converting the remaining material into solid feces. The cecum, a pouch-like structure, marks the beginning of the large intestine, and attached to it is the vermiform appendix, a small, finger-like projection.\nFinally, the feces are expelled from the body through the anal canal, the last section of the digestive tract. Throughout this entire process, the digestive system relies on the coordinated action of various muscles, including those involved in mastication, such as the masseter, temporalis, lateral pterygoid, and medial pterygoid muscles. These muscles facilitate the movement and stabilization of the mandible, ensuring efficient chewing.\nIn summary, the digestive system is a sophisticated assembly line, each segment meticulously performing its role to transform food into energy and essential nutrients. The digestive system's seamless operation is vital for sustaining cellular metabolism and overall bodily function.",
+      "char_start": 457,
+      "char_end": 3617,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Introduction to the Digestive System"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s1"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "The digestive system transforms food into absorbable nutrients through a series of mechanical and chemical processes.\nThe gastrointestinal tract, starting from the mouth to the anus, facilitates the passage and digestion of food.\nChewing, or mastication, in the mouth increases the surface area of food, enhancing enzymatic breakdown.\nThe stomach mixes food with gastric juices, converting it into a semi-liquid substance called chyme.\nThe small intestine is where most nutrient absorption occurs, aided by digestive enzymes and bile.",
+      "char_start": 8823,
+      "char_end": 9357,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Introduction to the Digestive System"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s1"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Peristalsis is a series of wave-like muscular contractions that move food through the digestive tract.\nChyme is a semi-liquid substance resulting from the mixing of food with gastric juices in the stomach.\nBolus is a small, rounded mass of chewed food, easier to swallow, formed in the mouth.\nMastication is the process of chewing food to increase its surface area for better enzymatic action.\nEnzymatic breakdown is the process by which enzymes convert complex food molecules into simpler, absorbable forms.",
+      "char_start": 9359,
+      "char_end": 9867,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Introduction to the Digestive System"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s1"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Understanding the digestive process is crucial for diagnosing and treating digestive disorders such as malabsorption syndromes and gastrointestinal motility disorders.",
+      "char_start": 9869,
+      "char_end": 10036,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Introduction to the Digestive System"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s1"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The facial region is the front part of the head, positioned forward of the ears and above the neck. The facial region is characterized by a rich network of blood vessels, making the region highly vascular. The rich network of blood vessels causes phenomena such as blushing, where the face turns red due to increased blood flow, and blanching, where it becomes pale when blood flow decreases. The face's abundant blood supply also means that wounds in this area tend to bleed profusely but heal rapidly, an advantage due to the efficient delivery of nutrients and immune cells necessary for the healing process.\nThe facial skeleton comprises 14 bones, which are divided into single and paired categories. The single bones include the vomer and the mandible. The vomer is a flat bone located in the nasal cavity, forming part of the nasal septum, which divides the two nostrils. The mandible, or lower jaw, is the largest and strongest bone of the face and is the only movable bone, playing a crucial role in mastication.\nThe paired bones consist of the maxillary bones, which form the upper jaw and contain the sockets for the upper teeth; the palatine bones, which form the roof of the mouth; the zygomatic bones, which provide the prominence of the cheeks; the lacrimal bones, small bones located at the inner corner of the eyes, forming part of the orbit; the nasal bones, responsible for the bridge of the nose; and the inferior nasal conchae, curled bones within the nasal cavity that help warm and moisten inhaled air.\nThe bones collectively shape the face and provide attachment points for muscles, enabling facial expressions and the mechanics of chewing. The face is unique in that it lacks deep fascia, a type of connective tissue found in other body parts, allowing for greater flexibility in facial expressions.\nThe vascular supply of the face is primarily through branches of the external carotid artery, including the facial artery, which is significant in providing blood to facial structures. The rich blood supply not only aids in the rapid healing of facial wounds but also causes the face's ability to change color in response to emotions and environmental factors.\nIn summary, the face is a complex region defined by the bones and soft tissues, working together to facilitate expression and mastication. The face's high vascularity ensures efficient healing and supports the dynamic functions of the facial region.",
+      "char_start": 10062,
+      "char_end": 12496,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Face"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s2"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "The face's rich blood supply allows for rapid wound healing and color changes due to emotions or environmental factors. The facial skeleton consists of 14 bones, including the single vomer and mandible, and paired bones like the maxillary and zygomatic bones. The face lacks deep fascia, allowing for greater flexibility in facial expressions. The external carotid artery, particularly the facial artery, is the main source of blood supply to the face. The mandible, the only movable bone in the face, plays a crucial role in mastication.",
+      "char_start": 18681,
+      "char_end": 19219,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Face"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s2"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Vomer is a single flat bone located in the nasal cavity, forming part of the nasal septum. Mandible is the largest and strongest bone of the face, the only movable one, playing a crucial role in mastication. Maxillary bones are paired bones that form the upper jaw and contain the sockets for the upper teeth. Zygomatic bones are paired bones that provide the prominence of the cheeks. Facial artery is a branch of the external carotid artery that supplies blood to facial structures.",
+      "char_start": 19221,
+      "char_end": 19705,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Face"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s2"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "In facial trauma, the rich blood supply can lead to significant bleeding, but it also facilitates faster healing. Understanding the anatomy of the facial bones is crucial for surgical procedures, such as orthognathic surgery, which corrects abnormalities of the jaw bones. The role of the mandible in mastication highlights its importance in dental and orthodontic treatments.",
+      "char_start": 19707,
+      "char_end": 20083,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Face"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s2"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The muscles of facial expression are a unique group of muscles that play a crucial role in non-verbal communication by enabling the creation of various expressions. Unlike other muscles, these originate from either bone or fascia and insert into the skin, allowing them to move the skin to form expressions. All these muscles are innervated by the facial nerve, which is cranial nerve VII. The facial nerve is essential for our ability to smile, frown, and express emotions.\nThe facial nerve branches into five terminal branches: temporal, zygomatic, buccal, marginal mandibular, and cervical. Each of these branches supplies different areas of the face, facilitating the complex expressions we are capable of.\nOne of the key muscles is the frontalis muscle, located on the forehead. The frontalis muscle causes the raising of the eyebrows and wrinkling of the forehead. Unlike many other muscles, the frontalis does not have a bony insertion; instead, it inserts into the skin, allowing it to move the skin effectively.\nThe orbicularis oculi is another important muscle, situated around the eyes. The orbicularis oculi causes the closing of the eyelids and helps in squinting. This muscle is particularly active when we concentrate intensely or squint against bright light.\nThe orbicularis oris is the muscle that forms the shape of the lips. The orbicularis oris is involved in movements such as puckering and kissing, and works with other muscles around the mouth to create different expressions.\nThe buccinator muscle is located in the cheeks and keeps food between the teeth during chewing. It also assists in expressions like blowing out the cheeks or whistling.\nThe mentalis muscle, found in the chin area, creates a dimple in the chin or allows for pouting the lower lip. Despite the mentalis's small size, it plays a significant role in certain expressions.\nThese muscles work together to create the wide range of expressions we use daily. The muscles are interconnected and rely on the facial nerve for proper function. Damage to the facial nerve can lead to conditions like facial paralysis, affecting our ability to express emotions.\nIn summary, the muscles of facial expression are vital for non-verbal communication. All the muscles are innervated by the facial nerve, and each has a specific role in creating the expressions that help us connect with others. It is fascinating how such small muscles can have a significant impact on our daily interactions.",
+      "char_start": 20118,
+      "char_end": 22589,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Facial Expression"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s3"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The muscles of facial expression are unique because they originate from bone or fascia and insert into the skin, allowing for the creation of various expressions. All these muscles are innervated by the facial nerve, cranial nerve VII, which is essential for non-verbal communication. The frontalis muscle, located on the forehead, raises the eyebrows and wrinkles the forehead. The orbicularis oculi muscle closes the eyelids and aids in squinting. The buccinator muscle, situated in the cheeks, keeps food between the teeth during chewing and assists in expressions like blowing out the cheeks or whistling.",
+      "char_start": 29332,
+      "char_end": 29941,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Facial Expression"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s3"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Facial nerve is cranial nerve VII, responsible for innervating the muscles of facial expression. Frontalis muscle is located on the forehead and is responsible for raising the eyebrows and wrinkling the forehead. Orbicularis oculi is the muscle situated around the eyes that causes the closing of the eyelids and helps in squinting. Buccinator muscle is located in the cheeks and keeps food between the teeth during chewing while also assisting in expressions like blowing out the cheeks or whistling. Mentalis muscle is found in the chin area and creates a dimple in the chin or allows for pouting the lower lip.",
+      "char_start": 29943,
+      "char_end": 30556,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Facial Expression"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s3"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Damage to the facial nerve can lead to conditions like facial paralysis, affecting the ability to express emotions.",
+      "char_start": 30558,
+      "char_end": 30673,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Facial Expression"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s3"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "The muscles involved in mastication, or chewing, are divided into primary and secondary groups, each playing a distinct role in the process. The primary muscles are the masseter, temporalis, lateral pterygoid, and medial pterygoid. These muscles are the main drivers of the chewing process. The secondary muscles, including the digastric, mylohyoid, and geniohyoid, provide additional support by stabilizing the mandible and assisting in jaw movement.\nThe masseter muscle, located on the side of the face, is a powerful muscle responsible for elevating the mandible, which is crucial for closing the jaw. The masseter's position on the side of the face makes it highly efficient at this task. The temporalis muscle, situated on the sides of the skull, also aids in elevating the mandible. In addition to this, the temporalis muscle has the unique function of retracting the mandible, pulling it backward, which is useful for the initial bite and moving the jaw back.\nThe pterygoid muscles play a more complex role. The medial pterygoid muscle works in conjunction with the masseter to elevate the mandible. The medial pterygoid is located on the inside of the jaw and assists in moving the jaw forward and from side to side. The lateral pterygoid muscle, on the other hand, is unique because it is the only muscle that helps in opening the jaw. The lateral pterygoid does this by pulling the mandible forward, which is essential for the jaw's ability to open properly.\nInnervation of these muscles is critical for the function of the muscles of mastication, and all these muscles are innervated by the mandibular division of the trigeminal nerve, which is cranial nerve V3. The nerve provides the motor supply necessary for these muscles to function, acting as the conductor of this muscle orchestra.\nThe secondary muscles also play important roles in the chewing process. The digastric muscle, for instance, helps in opening the jaw by depressing the mandible. The mylohyoid muscle aids in elevating the floor of the mouth and supports the tongue, while the geniohyoid muscle assists in moving the tongue and hyoid bone. Together, these muscles ensure a smooth and coordinated chewing process.\nIn summary, the muscles of mastication work together seamlessly. The primary muscles like the masseter and temporalis are crucial for closing the jaw, while the pterygoid muscles help guide the mandible's movement. The secondary muscles provide additional support for opening the jaw and stabilizing it. The mandibular division of the trigeminal nerve is the key player in innervating all these muscles, ensuring they function properly. This intricate system allows for efficient chewing and is a fascinating example of how the body's muscles work in harmony.",
+      "char_start": 30702,
+      "char_end": 33456,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Mastication"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s4"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "The masseter muscle is a powerful muscle responsible for elevating the mandible, crucial for closing the jaw.\nThe temporalis muscle not only aids in elevating the mandible but also has the unique function of retracting it.\nThe medial pterygoid muscle works alongside the masseter to elevate the mandible and assists in moving the jaw forward and side to side.\nThe lateral pterygoid muscle is distinct as it helps in opening the jaw by pulling the mandible forward.\nInnervation of all these muscles is provided by the mandibular division of the trigeminal nerve, which is crucial for their function.",
+      "char_start": 39345,
+      "char_end": 39943,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Mastication"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s4"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Masseter muscle is a powerful muscle located on the side of the face that plays a key role in elevating the mandible.\nTemporalis muscle is situated on the sides of the skull and is responsible for both elevating and retracting the mandible.\nMedial pterygoid muscle is located on the inside of the jaw and works with the masseter to elevate the mandible while also assisting in forward and side-to-side jaw movement.\nLateral pterygoid muscle is the only muscle that helps in opening the jaw by pulling the mandible forward.\nMandibular division of the trigeminal nerve is the nerve responsible for providing motor supply to the muscles of mastication.",
+      "char_start": 39945,
+      "char_end": 40594,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Mastication"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s4"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Injury or dysfunction of the muscles of mastication can lead to temporomandibular joint disorders, affecting jaw movement and causing pain.",
+      "char_start": 40596,
+      "char_end": 40735,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Muscles of Mastication"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s4"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The nerve supply of the face is primarily governed by the trigeminal nerve (CN V), which is the fifth cranial nerve. The trigeminal nerve is crucial for facial sensation and is divided into three main branches: the ophthalmic nerve (V1), the maxillary nerve (V2), and the mandibular nerve (V3). Each branch provides sensory innervation to different regions of the face.\nThe ophthalmic nerve (V1) causes sensory innervation of the forehead and the area around the eyes. The ophthalmic nerve branches into several smaller nerves, including the supraorbital nerve, which supplies sensation to the forehead, and the supratrochlear nerve, which serves the forehead closer to the nose. Additionally, the lacrimal nerve connects to the lacrimal gland, aiding in tear production, while the nasociliary nerve provides sensation to the nose.\nThe maxillary nerve (V2) handles sensation in the upper cheek and nose area. The maxillary nerve's branches include the infraorbital nerve, which is vital for the upper cheek and upper lip region, and the zygomatic nerve, which extends to the cheekbone area. The superior alveolar nerves branch from the maxillary nerve to reach the upper teeth, ensuring comprehensive sensory coverage of the upper facial region.\nThe mandibular nerve (V3) is unique because it provides both sensory and motor functions. The mandibular nerve covers the lower face and plays a role in the mechanics of chewing. Branches of the mandibular nerve include the buccal nerve, which gives sensation to the cheek mucosa, and the inferior alveolar nerve, which reaches the lower teeth and chin. The lingual nerve is noteworthy as it provides general sensation to the tongue. The mental nerve, branching off the inferior alveolar nerve, supplies sensation to the chin and lower lip.\nIn addition to the trigeminal nerve, the great auricular nerve plays a supporting role in facial sensation. Originating from the C2 and C3 spinal nerves, the great auricular nerve provides sensation to the area behind the ear and the parotid region. The great auricular nerve acts as a supplementary sensory pathway, particularly in areas not fully covered by the trigeminal nerve's branches.\nOverall, the trigeminal nerve, through the trigeminal nerve's three branches, is the primary source of sensory innervation for the face, while the great auricular nerve offers additional sensory coverage, especially around the ear and parotid gland area. The arrangement ensures comprehensive sensory perception across the face.",
+      "char_start": 40766,
+      "char_end": 43274,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Nerve Supply of the Face"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s5"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The trigeminal nerve (CN V) is the primary source of sensory innervation for the face, divided into three branches: the ophthalmic nerve (V1), maxillary nerve (V2), and mandibular nerve (V3). The ophthalmic nerve (V1) provides sensory innervation to the forehead and around the eyes, including branches like the supraorbital and supratrochlear nerves. The maxillary nerve (V2) handles sensation in the upper cheek and nose area, with branches such as the infraorbital and zygomatic nerves. The mandibular nerve (V3) provides both sensory and motor functions, covering the lower face and playing a role in chewing. The great auricular nerve, originating from the C2 and C3 spinal nerves, provides additional sensory coverage to the area behind the ear and the parotid region.",
+      "char_start": 51584,
+      "char_end": 52358,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Nerve Supply of the Face"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s5"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Trigeminal nerve is the fifth cranial nerve responsible for facial sensation and is divided into three branches: the ophthalmic nerve, maxillary nerve, and mandibular nerve. Ophthalmic nerve is the first branch of the trigeminal nerve, providing sensory innervation to the forehead and the area around the eyes. Maxillary nerve is the second branch of the trigeminal nerve, responsible for sensation in the upper cheek and nose area. Mandibular nerve is the third branch of the trigeminal nerve, providing both sensory and motor functions to the lower face and playing a role in chewing. Great auricular nerve is a nerve originating from the C2 and C3 spinal nerves that provides additional sensory coverage to the area behind the ear and the parotid region.",
+      "char_start": 52360,
+      "char_end": 53118,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Nerve Supply of the Face"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s5"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Understanding the nerve supply of the face is crucial for diagnosing and treating conditions such as trigeminal neuralgia, facial pain syndromes, and injuries affecting facial sensation.",
+      "char_start": 53120,
+      "char_end": 53306,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Nerve Supply of the Face"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s5"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Mastication, or chewing, is the initial phase of digestion where food is broken down into smaller pieces in the mouth. Mastication is crucial because it increases the surface area of the food, allowing enzymes in saliva to begin breaking it down more effectively. By increasing the surface area of the food, mastication facilitates the enzymatic action that is essential for efficient digestion.\nThe process of mastication involves a repetitive sequence known as the chewing cycle, which is divided into three distinct phases: the opening phase, the closing phase, and the occlusal or intercuspal phase. During the opening phase, the mouth opens as the mandible, or lower jaw, is depressed, positioning the food between the teeth. The closing phase follows, where the mandible is raised towards the upper teeth. During the closing phase, the actual crushing and grinding of the food occurs. Finally, the occlusal phase takes place when the teeth from the upper and lower jaws come together. The occlusal phase involves the fine grinding of food and mixing it with saliva to form a bolus, a soft, rounded mass of chewed food ready for swallowing.\nThe muscles of mastication play a pivotal role in this process. The masseter and temporalis muscles are particularly important as they help elevate the mandible during the closing phase. The medial and lateral pterygoid muscles assist with the side-to-side movements necessary for grinding the food. Together, these muscles work in harmony to ensure that the food is properly broken down and mixed with saliva, setting the stage for the subsequent stages of digestion.\nIn summary, mastication is not merely the act of chewing; it is a critical step in preparing food for digestion by increasing the surface area of the food and facilitating enzymatic breakdown. The chewing cycle, with the chewing cycle's distinct phases, ensures that the food is efficiently processed in the mouth, forming a bolus ready for swallowing. The intricate process of mastication highlights the importance of the muscles involved and the precision of the chewing cycle in the digestive process.",
+      "char_start": 53339,
+      "char_end": 55458,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "The Process of Mastication"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s6"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Mastication increases the surface area of food, enhancing enzymatic breakdown.\nThe chewing cycle consists of three phases: opening, closing, and occlusal.\nMuscles like the masseter and temporalis elevate the mandible during the closing phase.\nThe medial and lateral pterygoid muscles facilitate side-to-side grinding motions.\nMastication prepares food into a bolus, a soft mass ready for swallowing.",
+      "char_start": 65137,
+      "char_end": 65536,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "The Process of Mastication"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s6"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Mastication is the process of chewing food to increase its surface area for better enzymatic action.\nThe chewing cycle is the repetitive sequence of movements during mastication, divided into three phases.\nThe opening phase is when the mouth opens and the mandible is depressed to position food between the teeth.\nThe closing phase is when the mandible is raised towards the upper teeth, crushing and grinding the food.\nThe occlusal phase is when the teeth from the upper and lower jaws come together to finely grind the food and mix it with saliva.",
+      "char_start": 65538,
+      "char_end": 66087,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "The Process of Mastication"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s6"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Proper mastication is essential for efficient digestion and can impact overall gastrointestinal health.",
+      "char_start": 66089,
+      "char_end": 66192,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "The Process of Mastication"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s6"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "The oral cavity, commonly known as the mouth, is a complex anatomical structure with distinct boundaries and subdivisions that play crucial roles in digestion and speech. The roof of the mouth is divided into two parts: the hard palate at the front, which is bony and formed by the palatine processes of the maxillae and the horizontal plates of the palatine bones, and the soft palate at the back, which is flexible and muscular. The hard palate is covered by mucoperiosteum and features transverse ridges, while the soft palate is covered by mucous membrane and includes structures like the uvula, a small, fleshy projection that hangs down.\nThe floor of the oral cavity is primarily formed by the mylohyoid muscle, with the anterior two-thirds of the tongue resting on it. The cheeks form the lateral walls of the oral cavity, while the teeth and lips form the anterior boundary, serving as the entrance. The posterior boundary of the oral cavity opens into the pharynx through the fauces, the pathway between the mouth and the throat.\nThe oral cavity can be subdivided into two main regions: the oral vestibule and the oral cavity proper. The oral vestibule is the space between the lips and the teeth, acting like a preliminary chamber. The oral cavity proper is the main area behind the teeth where key functions such as chewing, tasting, and beginning digestion occur.\nWithin the oral cavity, several important structures perform vital functions. The tongue, a muscular organ, is essential for tasting, manipulating food during chewing, and aiding in swallowing and speech. The teeth are critical for breaking down food, while the salivary glands produce saliva, which moistens food and begins the digestive process through enzymes like amylase.\nThe palatine tonsils, located in the back of the mouth near the palatoglossal arch, are part of the lymphoid tissue and play a role in the immune system by helping to trap pathogens. The palatoglossal arch itself forms a boundary between the oral cavity and the oropharynx.\nThe transition from the oral cavity to the pharynx is managed by the soft palate and the uvula. During swallowing, the soft palate elevates to close off the nasal passages, preventing food and liquid from entering the nose. The pharyngeal isthmus, located at the back of the mouth, is the passageway that connects the oral cavity to the pharynx, facilitating the movement of food and liquid into the digestive tract.\nIn summary, the oral cavity is a sophisticated structure where digestion begins and speech is facilitated. The components of the oral cavity work in harmony to ensure that food is properly prepared for digestion and that the transition to the pharynx is smooth and efficient.",
+      "char_start": 66225,
+      "char_end": 68944,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Oral Cavity"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s7"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "The oral cavity is divided into the oral vestibule and the oral cavity proper, each serving distinct functions in digestion and speech. The hard palate, formed by the palatine processes of the maxillae and the horizontal plates of the palatine bones, separates the nasal cavity from the oral cavity. The soft palate, including the uvula, plays a crucial role in swallowing by elevating to close off the nasal passages. The tongue, a muscular organ, is vital for tasting, manipulating food, and aiding in speech. The transition from the oral cavity to the pharynx is managed by the soft palate and the uvula, ensuring a smooth passage of food into the digestive tract.",
+      "char_start": 77962,
+      "char_end": 78629,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Oral Cavity"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s7"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "The oral cavity is the mouth, a complex anatomical structure crucial for digestion and speech. The hard palate is the bony front part of the roof of the mouth, formed by the palatine processes of the maxillae and the horizontal plates of the palatine bones. The soft palate is the flexible, muscular back part of the roof of the mouth, covered by mucous membrane and including the uvula. The uvula is a small, fleshy projection hanging from the soft palate, involved in swallowing and speech. The mylohyoid muscle forms the floor of the oral cavity, providing support for the tongue.",
+      "char_start": 78631,
+      "char_end": 79214,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Oral Cavity"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s7"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Understanding the anatomy of the oral cavity is crucial for diagnosing and treating conditions such as cleft palate, which affects the hard and soft palate, and can impact speech and feeding. Additionally, the role of the palatine tonsils in the immune system highlights their importance in trapping pathogens, making them a focus in conditions like recurrent tonsillitis.",
+      "char_start": 79216,
+      "char_end": 79588,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Anatomy of the Oral Cavity"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s7"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "The major salivary glands in the human body are the parotid, submandibular, and sublingual glands, each playing a crucial role in digestion and oral health. The parotid glands are the largest of the salivary glands and are located near the ears, specifically just below the external acoustic meatus. The parotid glands are situated between the mandible and the sternocleidomastoid muscle, with a slight forward projection over the surface of the masseter muscle. The strategic positioning of the parotid glands allows them to efficiently deliver saliva into the oral cavity through the parotid duct, which opens near the corner of the mouth.",
+      "char_start": 79630,
+      "char_end": 80271,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "The submandibular glands are positioned below the lower jaw, hence the submandibular glands' name. The submandibular glands are smaller than the parotid glands but remain significant in the digestive process. The submandibular gland's duct, known as Wharton's duct, opens on the floor of the mouth. The location of Wharton's duct is advantageous for initiating the digestive process as soon as food enters the oral cavity.",
+      "char_start": 80916,
+      "char_end": 81338,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "The sublingual glands are the smallest of the three major salivary glands and are located beneath the tongue. The sublingual glands are embedded in the mucosa of the oral floor and have multiple small ducts, known as Rivinus' ducts, which open close to the submandibular duct. The arrangement of the sublingual ducts allows for effective lubrication and moistening of food.\nEach of these glands has a distinct structural composition. The parotid gland is primarily serous, producing a watery secretion, while the submandibular gland is mixed, containing both serous and mucous cells. The sublingual gland is mainly mucous, which aids in lubricating food.\nSaliva is vital for digestion and oral health. Saliva contains enzymes like amylase, which begins breaking down carbohydrates in the mouth, marking the start of the digestive process before food reaches the stomach. Saliva facilitates the formation of the food bolus, making it easier to swallow.",
+      "char_start": 82264,
+      "char_end": 83215,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Innervation of these glands is critical for the function of these glands. The parotid gland is innervated by the glossopharyngeal nerve, while the submandibular and sublingual glands receive signals through the lingual nerve and the chorda tympani, a branch of the facial nerve. Sympathetic fibers also contribute, although the parasympathetic system primarily drives saliva production.\nSaliva maintains oral health by neutralizing acids from food and bacteria, thus protecting tooth enamel. The buffering capacity of saliva helps prevent tooth decay and supports the remineralization of teeth by supplying calcium and phosphate.\nDisorders affecting these glands, such as mumps, can lead to swelling and pain, particularly in the parotid glands. Understanding the anatomy and function of these glands is essential for diagnosing and treating such conditions.",
+      "char_start": 84102,
+      "char_end": 84960,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "In summary, the parotid, submandibular, and sublingual glands are essential for digestion and oral health. The structure, innervation, and functions of these glands reflect their critical roles in the body, ensuring efficient digestion and maintaining oral hygiene.",
+      "char_start": 85709,
+      "char_end": 85974,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "The parotid glands, being the largest, are located near the ears and deliver saliva through the parotid duct near the corner of the mouth. Submandibular glands sit below the lower jaw and release saliva through Wharton's duct on the floor of the mouth. Sublingual glands, the smallest, are positioned beneath the tongue and contribute to oral lubrication through multiple small ducts. Saliva plays a crucial role in digestion by breaking down carbohydrates with the enzyme amylase and facilitating the formation of the food bolus. The glossopharyngeal nerve innervates the parotid gland, while the submandibular and sublingual glands are innervated by the lingual nerve and chorda tympani.",
+      "char_start": 87740,
+      "char_end": 88429,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Parotid glands are the largest salivary glands located near the ears, responsible for producing a watery serous secretion. Submandibular glands are situated below the lower jaw and produce a mixed secretion containing both serous and mucous components. Sublingual glands are the smallest major salivary glands, located beneath the tongue, primarily producing a mucous secretion. Wharton's duct is the salivary duct of the submandibular gland that opens on the floor of the mouth. Rivinus' ducts are the multiple small ducts of the sublingual gland that aid in lubricating food.",
+      "char_start": 88431,
+      "char_end": 89008,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Disorders such as mumps can lead to swelling and pain in the parotid glands, highlighting the clinical importance of understanding these glands' anatomy and function in diagnosing and treating related conditions.",
+      "char_start": 89010,
+      "char_end": 89222,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Salivary Glands and Their Functions"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s8"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "When exploring the digestive system and facial muscles, it's important to understand the common disorders that can affect these areas and the clinical significance of these disorders. In the digestive system, conditions such as gastroesophageal reflux disease (GERD) are prevalent. GERD occurs when stomach acid frequently flows back into the esophagus, causing heartburn and potential damage to the esophageal lining. Another common disorder is irritable bowel syndrome (IBS), which can significantly disrupt bowel habits, leading to abdominal pain, bloating, and irregular bowel movements. More severe conditions, such as inflammatory bowel disease, which includes Crohn's disease and ulcerative colitis, involve chronic inflammation of the digestive tract, resulting in symptoms like abdominal pain and diarrhea.\nTurning our attention to the salivary glands, particularly in the context of mumps, we see a significant clinical issue. Mumps is a viral infection that primarily affects the parotid glands, the largest of the salivary glands. The swelling of these glands can be painful and is often accompanied by fever, headache, and general malaise. In males, mumps can lead to orchitis, or swelling of the testicles, which can be quite serious. Facial nerve palsy is another significant disorder, affecting the facial nerve, also known as cranial nerve VII. Damage or inflammation of this nerve can lead to facial paralysis, impacting the muscles of facial expression. This can result in an inability to perform expressions such as smiling or frowning, affecting social interactions and mental health. Moreover, if the muscles of mastication are involved, it can also impair the ability to chew properly, potentially leading to nutritional deficiencies.\nThe implications of these disorders extend beyond physical symptoms. For instance, difficulty in chewing can lead to nutritional deficiencies, and changes in facial expressions can impact social interactions, which are crucial for mental well-being. Additionally, complications from mumps, such as meningitis or deafness, highlight the importance of prompt and effective treatment.\nIn conclusion, understanding these disorders is essential for medical students and professionals. By connecting anatomical and physiological knowledge with real-world clinical scenarios, we can better diagnose, treat, and manage these conditions, ultimately improving patient outcomes.",
+      "char_start": 89303,
+      "char_end": 91728,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Clinical Correlation: Disorders of the Digestive System and Facial Muscles"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "section_id": "s9"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Gastroesophageal reflux disease causes heartburn and potential damage to the esophageal lining due to frequent backflow of stomach acid.\nIrritable bowel syndrome disrupts bowel habits, leading to abdominal pain, bloating, and irregular bowel movements.\nInflammatory bowel disease, which includes Crohn's disease and ulcerative colitis, causes chronic inflammation of the digestive tract, resulting in symptoms like abdominal pain and diarrhea.\nMumps, a viral infection, primarily affects the parotid glands, causing painful swelling often accompanied by fever, headache, and general malaise.\nFacial nerve palsy results from damage or inflammation of the facial nerve, leading to facial paralysis and affecting the muscles of facial expression.",
+      "char_start": 97585,
+      "char_end": 98328,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Clinical Correlation: Disorders of the Digestive System and Facial Muscles"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s9"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Gastroesophageal reflux disease is a condition where stomach acid frequently flows back into the esophagus, causing heartburn and potential damage to the esophageal lining.\nIrritable bowel syndrome is a disorder that significantly disrupts bowel habits, leading to abdominal pain, bloating, and irregular bowel movements.\nInflammatory bowel disease is a group of conditions, including Crohn's disease and ulcerative colitis, that involve chronic inflammation of the digestive tract, resulting in symptoms such as abdominal pain and diarrhea.\nMumps is a viral infection that primarily affects the parotid glands, causing painful swelling often accompanied by fever, headache, and general malaise.\nFacial nerve palsy is a condition resulting from damage or inflammation of the facial nerve, leading to facial paralysis and affecting the muscles of facial expression.",
+      "char_start": 98330,
+      "char_end": 99194,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Clinical Correlation: Disorders of the Digestive System and Facial Muscles"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s9"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Understanding these disorders is essential for medical students and professionals because connecting anatomical and physiological knowledge with real-world clinical scenarios can improve patient outcomes.",
+      "char_start": 99196,
+      "char_end": 99400,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Clinical Correlation: Disorders of the Digestive System and Facial Muscles"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s9"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "In this chapter, we have explored the intricate workings of the digestive system and the anatomy of facial muscles, highlighting the digestive system's critical role in overall health. The digestive system, a complex network of organs and processes, causes food to break down into molecules that can be absorbed by the body's cells. The digestive process begins in the mouth, where the teeth and tongue start the mechanical breakdown of food, and saliva begins the chemical digestion. The journey continues through the esophagus, stomach, and intestines, each contributing to the digestion and absorption of nutrients. Maintaining this system is crucial, as it not only fuels our bodies but also maintains overall health.\nFacial muscles are vital for both functional and expressive purposes. Facial muscles enable us to chew, speak, and convey emotions through facial expressions. The facial nerve, also known as the seventh cranial nerve, controls these muscles. The facial nerve branches out into several terminal branches, each responsible for innervating different muscles of facial expression. This innervation allows for the intricate movements necessary for communication and expression, underlining the importance of these muscles in social interactions and daily functions.\nThe chapter has also delved into the clinical applications related to these systems. Disorders of the digestive system, such as gastroesophageal reflux disease (GERD) and irritable bowel syndrome (IBS), can significantly impact an individual's quality of life. Understanding the mechanisms behind these conditions is crucial for effective diagnosis and treatment. Similarly, issues with the salivary glands, like Sjögren's syndrome, can lead to dry mouth, affecting both digestion and dental health. Facial nerve disorders, such as Bell's palsy, highlight the importance of facial muscles in daily life, as they can impair a person's ability to express emotions and perform essential functions like chewing.\nIn conclusion, the digestive system and facial muscles are integral to our health and well-being. The digestive system and facial muscles work in tandem to ensure that we can efficiently process nutrients and communicate effectively. By understanding the functions and potential malfunctions of these systems, we gain a deeper appreciation for the digestive system's and facial muscles' importance and the necessity of maintaining their health.",
+      "char_start": 99428,
+      "char_end": 101863,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Conclusion and Review"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "p29_b5",
+        "p30_b11",
+        "p44_b9",
+        "p54_b7",
+        "p66_b11",
+        "p9_b5"
+      ],
+      "section_id": "s10"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "The digestive system breaks down food into absorbable molecules, starting in the mouth with mechanical and chemical digestion. The esophagus, stomach, and intestines each play a role in digesting and absorbing nutrients. Facial muscles are essential for chewing, speaking, and expressing emotions, all controlled by the facial nerve. Disorders like GERD and IBS affect the digestive system, impacting quality of life. Facial nerve disorders, such as Bell's palsy, can impair functions like chewing and expressing emotions.",
+      "char_start": 106834,
+      "char_end": 107356,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Conclusion and Review"
+      ],
+      "kind": "keypoint",
+      "figure_refs": [],
+      "section_id": "s10"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "Facial nerve is the seventh cranial nerve that controls the muscles of facial expression.",
+      "char_start": 107358,
+      "char_end": 107447,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Conclusion and Review"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "section_id": "s10"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Understanding the mechanisms behind digestive disorders and facial nerve issues is crucial for effective diagnosis and treatment, highlighting the clinical relevance of these systems.",
+      "char_start": 107449,
+      "char_end": 107632,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles",
+        "Conclusion and Review"
+      ],
+      "kind": "clinical",
+      "figure_refs": [],
+      "section_id": "s10"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "The digestive system and facial muscles are intricately connected, each playing crucial roles in the body's overall function. The digestive system, starting from the mouth, breaks down food into absorbable molecules, ensuring nutrients are delivered to cells for energy production. The mouth's anatomy, including the teeth, tongue, and salivary glands, initiates this process through mechanical and chemical digestion. Meanwhile, facial muscles, innervated by the facial nerve, enable expressions and mastication. The trigeminal nerve supplies sensation to the face, integrating the sensory and motor functions necessary for chewing. Understanding these systems highlights their importance in digestion and communication. Students should grasp how the digestive process begins in the mouth and the role facial muscles play in expression and mastication, along with the neural control that coordinates these functions.",
+      "char_start": 107634,
+      "char_end": 108551,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "p2_b2",
+      "image_path": "",
+      "caption": "The figure is a labeled diagram of the human digestive system, showing a side view of a person with the internal organs visible.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p2_b2]",
+      "description": "The diagram presents a side view of a human figure with the internal organs of the digestive system visible. The mouth, labeled as the oral cavity, is positioned at the top left, with the tongue directly beneath it. The parotid gland is situated above the ear, while the sublingual gland is placed below the tongue, and the submandibular gland is further down, below the sublingual gland. The esophagus is depicted as a long tube extending from the pharynx, which is located above it, down into the abdomen. The stomach is shown as a large, sac-like organ situated below the esophagus. The pancreas is positioned behind the stomach, while the liver is a large organ on the right side of the abdomen, with the gallbladder, a small greenish organ, attached to it. The sigmoid colon and rectum are also labeled as sections of the large intestine, with the vermiform appendix, a small finger-like structure, attached to the cecum.",
+      "caption_span": [
+        3635,
+        3763
+      ],
+      "description_span": [
+        3765,
+        4691
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p11_b4",
+      "image_path": "",
+      "caption": "The figure shows a close-up cross-sectional view of a human nose, with the nasal cavity highlighted in orange and the external features in grayscale.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p11_b4]",
+      "description": "A close-up view of a human nose is presented, with the nasal cavity highlighted in orange. The internal nasal passages and the septum dividing the two nostrils are clearly visible. The external features, such as the bridge and the nostrils, are shown in grayscale, providing a contrast to the highlighted nasal cavity. The diagram is a cross-sectional view, with the nasal cavity occupying the central portion of the image, flanked by the external nose structures. There are no visible labels or text within the image.",
+      "caption_span": [
+        4710,
+        4859
+      ],
+      "description_span": [
+        4861,
+        5379
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p28_b8",
+      "image_path": "",
+      "caption": "The figure illustrates the oral cavity and surrounding structures, including both an external view of the mouth and a cross-sectional view.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p28_b8]",
+      "description": "The illustration presents a detailed view of the oral cavity, with an external depiction of the mouth alongside a cross-sectional view.",
+      "caption_span": [
+        5398,
+        5537
+      ],
+      "description_span": [
+        5539,
+        5674
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p32_b7",
+      "image_path": "",
+      "caption": "The figure illustrates the soft palate and related anatomical structures, including the nasal septum, middle conchae, and various muscles.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p32_b7]",
+      "description": "The illustration presents a detailed cross-sectional view of the palate and surrounding structures. At the top center, the nasal septum is shown as a vertical partition dividing the nasal cavity. Near the nasal septum, the middle conchae are depicted as curved structures on either side. On the left side, the levator veli palatini and tensor veli palatini muscles are illustrated, both appearing to be attached to the nasal septum. The auditory tube is labeled on the right side, pointing to a small tube-like structure. The hamulus is a small, hook-like structure located on the left side. The palatine aponeurosis is shown as a broad, flat structure extending across the palate on the right side. Near the bottom left, the musculus uvulae is a small muscle situated near the uvula. The uvula itself is the hanging structure in the back of the throat, labeled at the bottom center. Finally, the palatopharyngeus muscle is positioned at the bottom right, on the right side of the palate.",
+      "caption_span": [
+        5693,
+        5831
+      ],
+      "description_span": [
+        5833,
+        6821
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p33_b22",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles and structures related to the soft palate and pharynx, including the middle concha, levator veli palatini, tensor veli palatini, hamulus, musculus uvulae, uvula, palatopharyngeus, and auditory tube.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p33_b22]",
+      "description": "The illustration presents a cross-sectional view of the soft palate and pharynx, with muscles depicted in shades of pink and brown, and bones and other structures in blue and black. The middle concha is positioned at the top-center, pointing to a curved structure that seems part of the nasal cavity. The levator veli palatini and tensor veli palatini muscles are labeled on the left side, extending from the top-left corner down towards the center, both pointing to a triangular area near the middle concha. The hamulus, a small, hook-like structure, is labeled on the left, indicating a small protrusion on the soft palate. The musculus uvulae is labeled at the bottom-left, pointing to a small, rounded structure at the back of the soft palate, while the uvula is labeled at the bottom-center, pointing to the same structure. The palatopharyngeus muscle is labeled on the right side, extending from the top-right corner down towards the center, pointing to a triangular area near the uvula. The auditory tube is labeled on the right, indicating a tube-like structure that appears to connect the middle ear with the nasopharynx.",
+      "caption_span": [
+        6841,
+        7074
+      ],
+      "description_span": [
+        7076,
+        8206
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p34_b8",
+      "image_path": "",
+      "caption": "The figure illustrates the nasal and palatal regions, detailing both nerves and blood vessels.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p34_b8]",
+      "description": "The illustration is divided into two main sections: the left side displays the nasal cavity, while the right side focuses on the palate.",
+      "caption_span": [
+        8225,
+        8319
+      ],
+      "description_span": [
+        8321,
+        8457
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p47_b2",
+      "image_path": "",
+      "caption": "The figure displays an open mouth revealing the tongue and teeth, with the lips closed around the edges.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p47_b2]",
+      "description": "An open mouth is visible, with the tongue slightly raised and an indentation in the center. The teeth are shown at the bottom, along with some of the gums. The lips are closed around the mouth, and there are no labels or text in the image.",
+      "caption_span": [
+        8476,
+        8580
+      ],
+      "description_span": [
+        8582,
+        8821
+      ],
+      "depicts": [],
+      "section_id": "s1"
+    },
+    {
+      "fig_id": "p5_b4",
+      "image_path": "",
+      "caption": "The figure illustrates the human skull from the front, with various bones and structures labeled and color-coded for easy identification.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p5_b4]",
+      "description": "The skull is divided into several sections, each represented by a different color. Leader lines connect labels to their corresponding bones. The frontal bone is positioned at the top of the skull, forming the forehead. The maxilla and mandible are depicted with their teeth sockets. The superior orbital fissure and optic canal are marked above the eye socket. The vomer and nasal conchae are within the nasal cavity, and the alveolar margins are shown at the edges of the maxilla and mandible where the teeth are seated.",
+      "caption_span": [
+        12514,
+        12651
+      ],
+      "description_span": [
+        12653,
+        13174
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p5_b5",
+      "image_path": "",
+      "caption": "The figure presents a table listing single and paired bones, specifically identifying the Vomer and Mandible as single bones, and Maxillary, Palatine, Zygomatic, Lacrimal, Nasal, and Inferior nasal conchae as paired bones.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p5_b5]",
+      "description": "The image is a table with two columns and six rows. The first column is labeled \"Single bones,\" and the second column is labeled \"Paired bones.\" In the \"Single bones\" column, the first row contains the word \"Vomer,\" and the second row contains the word \"Mandible.\" The third to fifth rows in this column are empty. In the \"Paired bones\" column, the first row contains the word \"Maxillary,\" the second row has \"Palatine,\" the third row has \"Zygomatic,\" the fourth row has \"Lacrimal,\" the fifth row has \"Nasal,\" and the sixth row has \"Inferior nasal conchae.\" The table has a white background with black text and is neatly organized with clear separation between the columns and rows.",
+      "caption_span": [
+        13192,
+        13414
+      ],
+      "description_span": [
+        13416,
+        14098
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p61_b13",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical structures of the lower face and jaw, including the maxilla, zygomatic bone, submandibular gland, facial artery, and mylohyoid muscle.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p61_b13]",
+      "description": "The image presents a detailed cross-sectional view of the lower face and jaw area. At the top, the maxilla is labeled, indicating the upper jawbone. Above the maxilla, the zygomatic bone is labeled, pointing to the cheekbone. Below the mandible, near the angle of the jaw, the submandibular gland is labeled with an arrow. A red line represents the path of the facial artery, running from the submandibular gland towards the lower jaw. At the bottom, the mylohyoid muscle is labeled, showing a horizontal muscle beneath the mandible. The labels are placed directly next to the corresponding anatomical features, with arrows pointing to specific parts.",
+      "caption_span": [
+        14118,
+        14290
+      ],
+      "description_span": [
+        14292,
+        14943
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p42_b20",
+      "image_path": "",
+      "caption": "A close-up view of a person's mouth with their tongue extended, lips slightly parted, and teeth visible.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p42_b20]",
+      "description": "The image focuses on a person's mouth, where the tongue is extended and appears pink with a slight curl at the tip. The nose is partially visible at the top, suggesting the photo was taken from above. There are no texts, labels, or arrows present, and no additional objects or background elements are in the image.",
+      "caption_span": [
+        14963,
+        15067
+      ],
+      "description_span": [
+        15069,
+        15383
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p13_b7",
+      "image_path": "",
+      "caption": "A close-up view of a mouth from above, featuring the lips and teeth.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p13_b7]",
+      "description": "The image presents a close-up view of a mouth from above, with the lips outlined by a darker line to distinguish the upper and lower lip boundaries. The teeth are visible at the bottom, while the gums and the inside of the mouth are shaded in a lighter color. The drawing style is anatomical, intended for educational purposes, and there are no labels, text, or arrows present.",
+      "caption_span": [
+        15402,
+        15470
+      ],
+      "description_span": [
+        15472,
+        15849
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p62_b10",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical structures of the facial region, including the zygomatic and maxilla bones, the submandibular gland, facial artery, and mylohyoid muscle.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p62_b10]",
+      "description": "The image presents a cross-sectional view of the head, with the zygomatic bone positioned at the top left corner and the maxilla bone below it. The submandibular gland is located near the lower jaw, while the facial artery is shown as a red, curved line running upwards from the submandibular gland. The mylohyoid muscle appears as a white, horizontal band situated beneath the mandible.",
+      "caption_span": [
+        15869,
+        16044
+      ],
+      "description_span": [
+        16046,
+        16433
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p35_b2",
+      "image_path": "",
+      "caption": "The figure shows a detailed anatomical illustration of the palate, including its internal structures, nerves, and arteries.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p35_b2]",
+      "description": "The illustration presents a cross-sectional view of the palate, revealing the layout of nerves and arteries within it.",
+      "caption_span": [
+        16452,
+        16575
+      ],
+      "description_span": [
+        16577,
+        16695
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p55_b1",
+      "image_path": "",
+      "caption": "The figure illustrates the facial region with a focus on the parotid gland, presenting both a lateral view and a horizontal section.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p55_b1]",
+      "description": "The illustration presents a detailed view of the facial region, with the parotid gland as the central focus. The lateral view provides a side-oriented depiction, while the horizontal section offers a cross-sectional insight into the structures involved.",
+      "caption_span": [
+        16714,
+        16846
+      ],
+      "description_span": [
+        16848,
+        17101
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p4_b2",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed cross-sectional view of the human face, highlighting the muscles and structures of the head.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p4_b2]",
+      "description": "The illustration presents a cross-sectional view of the human face, with the facial muscles displayed in shades of pink and the bones in a lighter, more translucent color. The eyebrows are shown with the superior portions of the facial muscles, including the brow raising muscles and the frontalis muscle. The eyes are depicted with closed eyelids, revealing the orbital cavity around the eye sockets. The nasal cavity is visible, featuring the nasal septum and nasal cartilage forming the bridge of the nose. The mouth is portrayed with the lips in a relaxed position, showcasing the orbicularis oris muscle. The cheeks are illustrated with the zygomaticus major and minor muscles, which control smiling and frowning. The lower jaw, or mandible, is partially visible at the bottom, showing the attachment of the masseter muscle. The neck muscles, including the sternocleidomastoid, are visible at the base of the skull. The image lacks labels or text, providing a clear view of the facial anatomy from the front.",
+      "caption_span": [
+        17119,
+        17245
+      ],
+      "description_span": [
+        17247,
+        18260
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p21_b1",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical depiction of a muscle, its tendon, and associated bone and cartilage structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p21_b1]",
+      "description": "A large, pinkish-red muscle with a striated texture dominates the center of the image. To the left, a section of bone, likely the femoral condyle, is visible. At the bottom right, a white, fibrous structure extends from the muscle towards the bone, representing the tendon.",
+      "caption_span": [
+        18279,
+        18404
+      ],
+      "description_span": [
+        18406,
+        18679
+      ],
+      "depicts": [],
+      "section_id": "s2"
+    },
+    {
+      "fig_id": "p7_b2",
+      "image_path": "",
+      "caption": "The figure displays a detailed anatomical model of a human head and neck with the skin removed, revealing the underlying muscles and facial structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p7_b2]",
+      "description": "The image presents a human head and neck with the skin removed, exposing the muscles and facial structures. The eyes are closed, and the nose, mouth, and jawline are clearly visible. The background is dark, which highlights the details of the anatomical model.",
+      "caption_span": [
+        22607,
+        22758
+      ],
+      "description_span": [
+        22760,
+        23020
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p8_b2",
+      "image_path": "",
+      "caption": "The figure illustrates the side view of a human head with the skull partially removed, revealing the detailed structure and positioning of the facial muscles.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p8_b2]",
+      "description": "The illustration presents a side view of a human head, with the skull partially removed to expose the underlying muscle structures. The muscles are labeled with text and arrows pointing to specific areas. The frontalis muscle is positioned at the top of the head, above the eyebrows, while the corrugator is near the inner corners of the eyebrows. The risorius is positioned on either side of the mouth, near the corners, while the masseter is on the sides of the jaw, below the eye sockets. The depressor labii is below the lower lip, and the depressor anguli oris is near the corners of the mouth. The labels are written in various colors—green, blue, red, pink, and orange—and are connected to the corresponding muscle regions by lines or arrows. The overall layout highlights the muscles in a three-dimensional perspective, showing their arrangement and location within the face.",
+      "caption_span": [
+        23038,
+        23196
+      ],
+      "description_span": [
+        23198,
+        24081
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p10_b6",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical profile of the head, highlighting key facial muscles such as the frontalis, corrugator, nasalis, orbicularis oculi, and levator labii.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p10_b6]",
+      "description": "The illustration presents a profile view of the head, with labels pointing to specific facial muscles. The frontalis is situated at the top, indicating the forehead area. Near the eyebrows, the corrugator is marked, pointing to the region above the eyes. Below the corrugator, the nasalis is located, highlighting the area around the nose. The orbicularis oculi is shown around the eye, emphasizing the circular muscle in that region. Each label is connected by a leader line or arrow to the corresponding muscle on the head. The image is labeled \"anatomical head in profile\" in the top-left corner.",
+      "caption_span": [
+        24100,
+        24272
+      ],
+      "description_span": [
+        24274,
+        24873
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p11_b2",
+      "image_path": "",
+      "caption": "The figure presents a table detailing the origins, insertions, and actions of the Compressor nares, Dilator nares, and Procerus muscles, alongside a diagram highlighting the location of the Procerus muscle on a facial cross-section.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p11_b2]",
+      "description": "The image features a table with three columns and four rows, each column dedicated to a different muscle group: Compressor nares, Dilator nares, and Procerus. The header row labels these columns, and the subsequent rows provide information about the origin, insertion, and action of each muscle. At the bottom left corner, a small diagram illustrates a section of the face, with a label pointing to the Procerus muscle area above the nose, near the bridge, highlighting its location in a cross-section view of the facial muscles.",
+      "caption_span": [
+        24892,
+        25124
+      ],
+      "description_span": [
+        25126,
+        25655
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p11_b3",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles and cartilages of the nose, including the procerus, levator labii superior alaeque nasi, nasalis, alar cartilage, alar nasalis muscle, compressor narium minor, dilator naris anterior, and medial crus of alar cartilage.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p11_b3]",
+      "description": "The illustration features the muscles and cartilages of the nose rendered in red, with the rest of the face shaded in a light color. Black text labels are positioned next to lines that point to specific parts of the nose, providing a clear side view focusing on the muscular and cartilaginous structures.",
+      "caption_span": [
+        25674,
+        25927
+      ],
+      "description_span": [
+        25929,
+        26233
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p16_b1",
+      "image_path": "",
+      "caption": "A grid of 12 photographs showing a man with different facial expressions, arranged in three rows and four columns.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p16_b1]",
+      "description": "The image displays a grid of 12 photographs, organized into three rows and four columns. Each photograph captures a man making different facial expressions. The background of each photo is a uniform light gray color. The labels for the expressions are positioned at the bottom of each row.",
+      "caption_span": [
+        26252,
+        26366
+      ],
+      "description_span": [
+        26368,
+        26657
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p53_b3",
+      "image_path": "",
+      "caption": "The figure shows two anatomical illustrations side by side, each depicting the head and neck region with various muscles and structures labeled.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p53_b3]",
+      "description": "The image presents two anatomical illustrations placed side by side. Both illustrations focus on the head and neck region, with various muscles and structures clearly labeled. The first illustration is positioned on the left, while the second is on the right. Each depiction offers a detailed view of the anatomical features, allowing for comparison and detailed study of the labeled elements.",
+      "caption_span": [
+        26676,
+        26820
+      ],
+      "description_span": [
+        26822,
+        27215
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p64_b10",
+      "image_path": "",
+      "caption": "The figure illustrates the facial nerve pathway and associated structures in the head and neck region, including the geniculate ganglion, chorda tympani nerve, and various glands and ganglia.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p64_b10]",
+      "description": "The illustration focuses on the facial nerve pathway, with the facial nerve entering the skull through the stylomastoid foramen and traveling through the petrotympanic fissure into the middle ear cavity. The submandibular gland is shown beneath the mandible, and the sublingual gland is situated below it. Blue arrows point to the geniculate ganglion, stylomastoid foramen, and superior salivatory nucleus. Dashed lines indicate the parasympathetic pathway connecting the superior salivatory nucleus to the submandibular ganglion, while red dashed lines indicate the sympathetic pathway connecting the superior cervical ganglion to the submandibular ganglion. Various text labels are placed near the corresponding anatomical structures, including \"geniculate ganglion of Facial nerve,\" \"superior salivatory nucleus,\" \"stylomastoid foramen,\" \"petrotympanic fissure,\" \"sup. cervical ganglion,\" \"lingual/ facial a.,\" \"submandibular gland,\" and \"submandibular ganglion.\"",
+      "caption_span": [
+        27235,
+        27426
+      ],
+      "description_span": [
+        27428,
+        28394
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p65_b12",
+      "image_path": "",
+      "caption": "The figure illustrates the submandibular space and related structures in the human head and neck, including the tongue, sublingual gland, supramylohyoid and inframylohyoid portions of the submandibular space, mylohyoid muscle, submandibular gland, and digastric muscle (anterior belly).",
+      "referenced_from": "",
+      "marker": "[FIGURE:p65_b12]",
+      "description": "The illustration features a light beige background with a textured appearance. Muscles and glands are rendered in shades of pink, blue, and brown, with black lines delineating their boundaries and connections. The tongue is positioned at the top left, while the sublingual gland is situated near the bottom of the tongue. The supramylohyoid portion of the submandibular space is located above the mylohyoid muscle, and the inframylohyoid portion is below it. The submandibular gland is placed beneath the mylohyoid muscle, and the digastric muscle (anterior belly) is depicted as a V-shaped muscle below the submandibular gland.",
+      "caption_span": [
+        28414,
+        28700
+      ],
+      "description_span": [
+        28702,
+        29330
+      ],
+      "depicts": [],
+      "section_id": "s3"
+    },
+    {
+      "fig_id": "p13_b9",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles of the head, including the frontalis, temporalis, orbicularis oculi, occipitalis, orbicularis oris, masseter, and buccinator.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p13_b9]",
+      "description": "The diagram presents a side profile view of a human head with various muscles highlighted and labeled. The frontalis muscle is labeled on the forehead, the temporalis on the temple area, the orbicularis oculi around the eye, the occipitalis at the back of the head near the neck, the orbicularis oris around the mouth, the masseter in the jaw, and the buccinator inside the cheek. Each label is connected to its corresponding muscle by a black arrow, and the muscles are depicted in shades of red and pink, showing their location and structure in relation to the skull and facial features.",
+      "caption_span": [
+        33475,
+        33635
+      ],
+      "description_span": [
+        33637,
+        34226
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p14_b6",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles of the head and neck, with each muscle group distinctly labeled.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p14_b6]",
+      "description": "The illustration is a side profile view of the head and neck, with the head turned slightly to the right. Muscles are depicted in shades of red, with darker shades indicating depth and layering. Leader lines connect labels to their corresponding muscle groups. The epicranial aponeurosis is at the top of the head, the frontalis on the forehead, the occipitalis at the back of the head, the temporalis on the side near the temple, the orbicularis oculi around the eye, the zygomaticus near the corner of the mouth, the buccinator and orbicularis oris around the mouth, the masseter in the jaw area, the sternocleidomastoid along the side of the neck, and the platysma at the base of the neck.",
+      "caption_span": [
+        34245,
+        34344
+      ],
+      "description_span": [
+        34346,
+        35038
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p15_b5",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical cross-section of the shoulder and upper arm muscles, including the Deltoid, Pectoralis Major, Teres Major, and Latissimus Dorsi, along with the surrounding skin, subcutaneous tissue, and bones.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p15_b5]",
+      "description": "The image presents a detailed anatomical illustration of the shoulder and upper arm muscles, rendered in shades of red and orange. Some areas are highlighted in lighter colors, likely indicating different layers or depths. The muscles are shown in a cross-sectional view, revealing their arrangement and connections. Beneath the skin, the muscles are clearly defined, showing their texture and directionality. At the top of the image, parts of the skull and the clavicle are visible. There are faint lines and markings within the muscles, suggesting the presence of blood vessels and nerves, depicted in blue and white, respectively. The image is symmetrical, with the left and right sides mirroring each other.",
+      "caption_span": [
+        35057,
+        35295
+      ],
+      "description_span": [
+        35297,
+        36008
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p19_b1",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles involved in chewing and facial expression, with a side view of the skull and a close-up of the lower jaw area.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p19_b1]",
+      "description": "The illustration is divided into two sections. On the left, a side view of a human skull is shown with muscles colored in red and displayed in cross-section. The labels 'Temporalis,' 'Masseter,' and 'Buccinator' are positioned to indicate their respective muscles. On the right, a close-up of the lower jaw area is presented, also with muscles in red cross-section. The labels 'Lateral Pterygoid' and 'Medial Pterygoid' are directed to their corresponding muscles. The background is white, and the skull and jaw bones are light beige. Black text labels are connected to the muscles by straight arrows.",
+      "caption_span": [
+        36027,
+        36172
+      ],
+      "description_span": [
+        36174,
+        36775
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p22_b13",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical details of the human skull, focusing on the masseter muscle and its relationship with the temporal bone and mandible.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p22_b13]",
+      "description": "The image presents a detailed anatomical illustration of a section of the human skull, with the temporal bone visible at the upper part and the mandible at the lower part. A large, pinkish-red muscle, the masseter, is prominently displayed, extending from the temporal bone towards the mandible. The masseter muscle is centrally located within the image, and its attachment to the mandible at its lower edge is clearly shown. The eye socket is positioned above the masseter muscle, while the mandible and teeth are below it. The teeth, specifically the lower molars and premolars, are depicted on the right side of the mandible. The rest of the image uses a neutral beige tone for the bone structure, making the pinkish-red muscles stand out.",
+      "caption_span": [
+        36795,
+        36950
+      ],
+      "description_span": [
+        36952,
+        37694
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p23_b13",
+      "image_path": "",
+      "caption": "The figure illustrates the lower jaw and surrounding anatomical structures, including the mandible, temporal bone, zygomatic arch, and associated muscles.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p23_b13]",
+      "description": "The illustration presents a detailed view of the lower jaw and its surrounding structures. The mandible stands out as the main bone structure, while the temporal bone is visible at the top left, featuring the inner ear region with the semicircular canals and the cochlea. The zygomatic arch is positioned at the top right, forming the cheekbone. The teeth are displayed in the bottom right corner. Two muscles are highlighted in pink: the masseter muscle, located within the mandible, and another muscle below it, likely the medial pterygoid muscle, extending towards the chin area. The bones are rendered in a light beige color, while the muscles are shaded in a darker pink, providing a clear contrast. The image offers a cross-sectional view, focusing on the lower jaw and the muscles that control its movement.",
+      "caption_span": [
+        37714,
+        37868
+      ],
+      "description_span": [
+        37870,
+        38684
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p60_b12",
+      "image_path": "",
+      "caption": "The figure illustrates the submandibular salivary gland positioned below the mandible, connected by a duct.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p60_b12]",
+      "description": "The image has a beige background with the text \"SUBMANDIBULAR SALIVARY GLAND\" centered at the top. Beneath the text, a light beige mandible with a darker outline is drawn, featuring teeth in a lighter purple shade. The molars are on the left, and the incisors and canines are on the right. To the right of the mandible, a pinkish-purple submandibular salivary gland is depicted, connected to the mandible by a thin, white, curved structure representing the duct, which extends from the bottom of the mandible towards the top left.",
+      "caption_span": [
+        38704,
+        38811
+      ],
+      "description_span": [
+        38813,
+        39343
+      ],
+      "depicts": [],
+      "section_id": "s4"
+    },
+    {
+      "fig_id": "p17_b3",
+      "image_path": "",
+      "caption": "The figure illustrates the distribution of facial nerves and their branches in the head, with different colors representing various nerve distributions.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p17_b3]",
+      "description": "The illustration is divided into several color-coded areas representing different nerve distributions. Near the eye, the lacrimal nerve is labeled in the top-left region. Above the eye, the supratrochlear and supraorbital nerves are indicated in green. Below the eye, the infratrochlear nerve is labeled. In the nasal area, the nasal nerve is marked in pink, along with the afraoral nerve around the mouth and the buccal nerve in the cheek area. The mandibular area is highlighted in yellow, with the mental nerve labeled in the chin area. The temple area features the temporal branch of the temporo-malar nerve in blue, while the cheek area has the malar branch also in blue. The ear area shows the auriculo-temporal nerve in purple. Finally, the neck area indicates the superficial cervical plexus in light purple.",
+      "caption_span": [
+        43293,
+        43445
+      ],
+      "description_span": [
+        43447,
+        44263
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p17_b4",
+      "image_path": "",
+      "caption": "The diagram illustrates the distribution of the trigeminal nerve's branches (CN V1, CN V2, and CN V3) on the face.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p17_b4]",
+      "description": "The diagram is divided into three sections, each labeled with CN V1, CN V2, and CN V3, representing the different divisions of the trigeminal nerve.",
+      "caption_span": [
+        44282,
+        44396
+      ],
+      "description_span": [
+        44398,
+        44546
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p17_b5",
+      "image_path": "",
+      "caption": "The figure illustrates the trigeminal nerve and its branches, including the ophthalmic, maxillary, and mandibular branches, along with the superior and inferior alveolar nerves, in relation to the teeth and jawbone.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p17_b5]",
+      "description": "The trigeminal nerve is positioned at the top left of the image, with an arrow pointing to its main trunk. The ophthalmic branch extends from the top center, indicated by an arrow from the main trunk. The maxillary branch is located near the middle right, with an arrow pointing downward and curving to the right from the main trunk. The mandibular branch is at the bottom left, with an arrow extending downward and curving to the right from the main trunk. The superior alveolar nerve is situated near the middle right, below the maxillary branch, with an arrow pointing downward from it. The lingual nerve is near the bottom right, with an arrow pointing downward from the mandibular branch. The inferior alveolar nerve is at the bottom center, with an arrow pointing downward from the mandibular branch. The lower teeth are depicted in light blue across the bottom, while the upper teeth are in white above them. The jawbone is shown in pink with teeth embedded, and the skull structure is visible around the top and sides, providing context for the nerves.",
+      "caption_span": [
+        44565,
+        44780
+      ],
+      "description_span": [
+        44782,
+        45842
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p18_b2",
+      "image_path": "",
+      "caption": "A detailed anatomical illustration of the head and neck, focusing on the facial nerves and muscles.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p18_b2]",
+      "description": "The illustration presents a side view of the head with the left side facing forward. Different nerves are represented by colored lines: purple, orange, yellow, green, blue, and red. The purple nerve originates from the brainstem and branches into the forehead area. The orange nerve extends from the brainstem and branches into the cheek and jaw area. The yellow nerve starts near the ear and travels down to the lower jaw. The green nerve runs along the side of the face, branching into the cheek and mouth area. The blue nerve extends from the brainstem and branches into the lower jaw and neck area. The red nerve originates from the brainstem and branches into the neck area. The text \"Temp\" is located at the top right corner, pointing to the purple nerve, while \"From\" is written below it, indicating the origin of the purple nerve. At the bottom right, the text \"Cerv\" points to the red nerve, followed by \"Pla,\" likely standing for \"Plateau.\" The diagram also shows various muscles and structures of the head and neck, including the eye socket, cheekbones, and jaw.",
+      "caption_span": [
+        45861,
+        45960
+      ],
+      "description_span": [
+        45962,
+        47035
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p18_b10",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles and nerves in the head, highlighting their arrangement and interaction.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p18_b10]",
+      "description": "The illustration presents a side view of the head, showing the front and part of the side. Muscles are displayed in shades of pink and orange, with intricate patterns indicating their texture and layering. Nerves are represented by yellow lines branching out from a central point near the ear, extending towards various parts of the face and head. The ear is partially visible, with the outer ear and part of the inner ear structure shown. The overall layout emphasizes the relationship between the muscles and the nerves, illustrating their complex network within the head.",
+      "caption_span": [
+        47055,
+        47161
+      ],
+      "description_span": [
+        47163,
+        47737
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p33_b23",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical cross-section of the pharynx, highlighting various muscles and structures such as the tensor veli palatini, auditory tube, levator veli palatini, salpingopharyngeus, superior constrictor, soft palate, palatopharyngeus, middle constrictor, mucous membrane, epiglottis, palatoglossus, and vallecula.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p33_b23]",
+      "description": "The illustration presents a cross-sectional view of the pharynx, with labels pointing to different anatomical structures. At the top left, the tensor veli palatini is indicated near the auditory tube, which is shown just below it. The levator veli palatini is labeled on the right side, near the soft palate. The salpingopharyngeus muscle is positioned in the middle, running horizontally across the pharynx, followed by the superior constrictor below it. The soft palate is depicted below the superior constrictor, appearing as a fleshy, horizontal structure. The palatopharyngeus is shown below the soft palate, with the middle constrictor beneath it. The mucous membrane is indicated below the middle constrictor, representing the inner lining of the pharynx. The epiglottis is located at the bottom right, appearing as a leaf-shaped structure. The palatoglossus is labeled at the bottom left, and the vallecula is at the very bottom, shown as a small V-shaped depression between the epiglottis and the soft palate.",
+      "caption_span": [
+        47757,
+        48099
+      ],
+      "description_span": [
+        48101,
+        49119
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p43_b2",
+      "image_path": "",
+      "caption": "The diagram illustrates the nerve supply to the larynx, highlighting the internal laryngeal nerve, glossopharyngeal nerve, lingual nerve, and chorda tympani, each associated with specific cranial nerves and depicted in distinct colors.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p43_b2]",
+      "description": "The diagram is organized with the internal laryngeal nerve at the top, shown in light pink, directing attention to the upper part of the larynx. Below it, the glossopharyngeal nerve is positioned in yellow, pointing towards the middle section. An overlapping nerve supply area spans the lower part of the larynx, divided into pink and blue sections. On the left side of this overlap, the lingual nerve is colored pink, while on the right, the chorda tympani is in blue. Arrows and lines connect these labels to the corresponding regions of the larynx, which is presented in a cross-sectional view with different colors indicating the presence of various nerves.",
+      "caption_span": [
+        49138,
+        49373
+      ],
+      "description_span": [
+        49375,
+        50036
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p57_b2",
+      "image_path": "",
+      "caption": "The figure illustrates the pathway from the inferior salivatory nucleus to the parotid gland, detailing the sequence through the tympanic branch of the 9th cranial nerve, tympanic plexus, lesser petrosal nerve, otic ganglion, and auriculotemporal nerve.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p57_b2]",
+      "description": "The flowchart is organized with a series of rectangular boxes connected by straight arrows, each box containing black text on a white background. The first box, labeled \"Inferior salivatory nucleus,\" is positioned at the top-left of the image. Directly below it, centered horizontally, is the box labeled \"Tympanic branch of 9th cranial nerve.\" This pattern continues with each subsequent box: \"Tympanic plexus,\" \"Lesser petrosal nerve,\" \"Otic ganglion,\" \"Auriculotemporal nerve,\" and finally, \"Parotid gland,\" all aligned vertically in the center of the image.",
+      "caption_span": [
+        50055,
+        50308
+      ],
+      "description_span": [
+        50310,
+        50871
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p64_b6",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical view of the head and neck, highlighting muscles, blood vessels, and nerves.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p64_b6]",
+      "description": "The illustration presents a cross-sectional view of the head and neck region, with muscles displayed in shades of pink and red, blood vessels in red, and nerves as thin white lines. The external structure of the ear is prominently visible on the left side. The skin and underlying tissues are rendered in green and blue shades, contrasting with the warmer colors of the muscles and blood vessels. Each structure is labeled with a number, and leader lines or arrows connect these labels to the corresponding parts, indicating their spatial relationships and distribution.",
+      "caption_span": [
+        50890,
+        51010
+      ],
+      "description_span": [
+        51012,
+        51582
+      ],
+      "depicts": [],
+      "section_id": "s5"
+    },
+    {
+      "fig_id": "p6_b4",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles of the head and neck from a lateral view, with labels indicating specific anatomical structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p6_b4]",
+      "description": "The illustration presents a detailed view of the head and neck muscles, with labels strategically placed to identify each muscle. The epicranial aponeurosis is positioned at the top of the head, while the frontal belly of the occipitofrontalis is shown on the forehead. The corrugator supercilii is located above the eye, and the orbicularis oculi surrounds the eye. Near the nose, the procerus is depicted, and below the nose, the nasalis is visible. The levator labii superioris is situated above the upper lip, and the zygomaticus minor and major are shown below the eye. The orbicularis oris is around the mouth, and the mentalis is below the chin. The depressor labii inferioris is placed below the lower lip, and the depressor anguli oris is at the corner of the mouth. The temporoparietalis is shown cut and reflected on the side of the head, revealing underlying structures, and the temporalis is also on the side of the head.",
+      "caption_span": [
+        55476,
+        55607
+      ],
+      "description_span": [
+        55609,
+        56543
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p9_b2",
+      "image_path": "",
+      "caption": "A diagram of an anatomical structure, possibly related to the eye, with labeled parts resembling ocular features.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p9_b2]",
+      "description": "The image features a circular structure with concentric layers, suggesting a cross-section of an organ or biological structure. The layers are shaded with horizontal lines, indicating different tissue layers or compartments. A central area with a lighter color might represent a cavity or specific region within the structure. Near the center, a small, elongated shape extends towards the right side of the image, potentially representing a canal, duct, or another anatomical feature. The structure is surrounded by a darker outline, which may indicate the boundary of the organ or structure being depicted. The labels \"O\" are positioned at the top and bottom of the structure, while the label \"P\" is located in the middle, slightly below the center. The image also includes a label \"(A)\" in the bottom left corner, suggesting it is part of a series or set of images.",
+      "caption_span": [
+        56561,
+        56674
+      ],
+      "description_span": [
+        56676,
+        57543
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p9_b3",
+      "image_path": "",
+      "caption": "A close-up view of an eye with the eyelid partially closed, focusing on the palpebral part.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p9_b3]",
+      "description": "The image zooms in on the area just below the eyebrow and around the eye, with the eyelashes visible along the lower edge of the eyelid. The skin around the eye is light-colored, and the eyebrow is visible above the eye. The label \"Palpebral part\" is positioned in black text at the top of the image, centrally located but not directly connected to any specific part of the eye. The background has a textured appearance, suggesting a fabric or paper surface.",
+      "caption_span": [
+        57561,
+        57652
+      ],
+      "description_span": [
+        57654,
+        58112
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p24_b12",
+      "image_path": "",
+      "caption": "The figure illustrates a side view of a human skull with two distinct muscle groups highlighted in shades of pink and red.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p24_b12]",
+      "description": "A human skull is shown from the side, with muscles highlighted in shades of pink and red. The first muscle group is a large, fan-shaped muscle on the side of the head, extending from the lower part of the skull near the ear to the upper part, with a gradient from light pink at the base to darker pink at the top. Below this, a smaller muscle group is depicted in the jaw area, also in shades of pink and red, with a more compact shape. The muscles are shown with color gradients suggesting different layers or depths, and there are no labels, text, or arrows in the image.",
+      "caption_span": [
+        58132,
+        58254
+      ],
+      "description_span": [
+        58256,
+        58829
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p25_b10",
+      "image_path": "",
+      "caption": "A figure featuring three photographs of people eating different foods and a central circular diagram with interconnected sections.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p25_b10]",
+      "description": "The figure is composed of three photographs and a central circular diagram. The top-left photograph shows a close-up of a person biting into a slice of pizza against an outdoor green background. To the top-right, another photograph captures a person holding and biting a hamburger, set against a plain white background. At the bottom, a third photograph displays a person in a white shirt and dark tie holding a green apple, also with a plain white background. The central circular diagram is divided into three sections labeled 1, 2, and 3. Section 1 is on the left, Section 2 is on the right, and Section 3 is at the bottom. Arrows connect these sections, forming a continuous loop.",
+      "caption_span": [
+        58849,
+        58979
+      ],
+      "description_span": [
+        58981,
+        59665
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p36_b2",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical structures of the human mouth and throat, including the lips, gums, palate, tongue, and associated glands and arches.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p36_b2]",
+      "description": "The illustration presents a top-down view of the human mouth and throat, with the superior lip positioned at the top and the inferior lip at the bottom. The gingivae are shown along the inner edges of the upper and lower teeth, while the superior and inferior labial frenula are depicted between the lips and the gums. The tongue is prominently displayed in the center, with the lingual frenulum connecting it to the floor of the mouth. The sublingual gland is positioned beneath the tongue, and the duct of the submandibular gland is shown leading from it. The palatoglossal and palato-pharyngeal arches are illustrated on the sides of the tongue and throat, respectively, with the palatine tonsils situated near the back of the mouth. The posterior wall of the oropharynx is visible at the back. The vestibule, the space between the lips and teeth, is also depicted. The diagram uses color-coding, with the tongue in orange, the gums and lips in pink, and other tissues in shades of red and orange.",
+      "caption_span": [
+        59684,
+        59839
+      ],
+      "description_span": [
+        59841,
+        60841
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p39_b10",
+      "image_path": "",
+      "caption": "The figure illustrates the human tongue, highlighting various anatomical structures and papillae types.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p39_b10]",
+      "description": "The illustration presents the human tongue with the epiglottis at the top, pointing towards the upper center. Near the top-center, slightly to the left, are the lingual follicles. A red arrow marks the foramen cecum as a small, circular opening near the center of the tongue. Above the palatine tonsil, a red arrow indicates the palatopharyngeal arch, which appears as a fold or arch. The palatine tonsil is situated near the center of the tongue, slightly to the right. A red arrow points to the palatoglossus muscle on the side of the tongue, near the palatine tonsil. Another red arrow highlights the sulcus terminalis, a groove on the tongue's surface, located below the palatine tonsil. The sections labeled \"Papillae\" include vallate papillae in the center, forming a V-shape, foliate papillae along the sides, long filiform papillae distributed across the surface, conical papillae among the long filiform papillae, and fungiform papillae scattered across the surface, appearing rounded and mushroom-like. The tongue's overall shape is oval, with a slightly raised central area and a flatter outer edge, using shading and color to differentiate structures.",
+      "caption_span": [
+        60861,
+        60964
+      ],
+      "description_span": [
+        60966,
+        62129
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p41_b8",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles involved in tongue movement, highlighting their relationships with the bones and each other.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p41_b8]",
+      "description": "The image features a detailed anatomical illustration with the Styloloid Process labeled on the left side, pointing to an elongated structure extending from the skull. The Styloglossus muscle is shown in red, extending from the Styloloid Process to the base of the tongue. The Hyoglossus muscle, also in red, runs horizontally across the base of the tongue, connecting the hyoid bone to the tongue. The Genioglossus muscle is depicted in red, originating from the chin bone and extending to the base of the tongue. The Geniohyoideus muscle, shown in red, connects the chin bone to the hyoid bone. The Stylopharyngeus muscle is in red, extending from the Styloloid Process to the pharynx. The Hyoid Bone is labeled at the bottom center, pointing to a U-shaped bone below the larynx. The muscles are highlighted in red, while the rest of the image is in black and white, and the tongue is depicted semi-transparently, allowing the underlying muscles to be seen.",
+      "caption_span": [
+        62148,
+        62275
+      ],
+      "description_span": [
+        62277,
+        63236
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p43_b3",
+      "image_path": "",
+      "caption": "The figure illustrates the muscles and structures related to the tongue and throat, including the stylomandibular process, dorsum of the tongue, styloglossus, hyoglossus, genioglossus, symphysis, hyoid bone, great cornu, and stylopharyngeus.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p43_b3]",
+      "description": "The illustration features a detailed depiction of the muscles and structures associated with the tongue and throat. The stylomandibular process is positioned on the left side, near the ear, while the dorsum of the tongue is at the top. The styloglossus, hyoglossus, and genioglossus muscles are all shown in red, extending from their respective origins to the base of the tongue. The symphysis is located at the bottom right, indicating the lower jaw joint, and the hyoid bone is centered at the bottom, with the great cornu marked on its left side. The stylopharyngeus muscle is also depicted in red, extending from the stylomandibular process down to the pharynx. The background provides a simplified outline of the head and neck, with the tongue and other structures shaded in white, presenting a cross-sectional view that highlights the relationships between the muscles and bones involved in tongue movement.",
+      "caption_span": [
+        63255,
+        63496
+      ],
+      "description_span": [
+        63498,
+        64411
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p45_b2",
+      "image_path": "",
+      "caption": "A diagram of the tongue showing different regions colored to represent taste buds sensitive to bitter, sour, salty, and sweet tastes.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p45_b2]",
+      "description": "The tongue is shown in a side view, with the top part colored pink to represent the general surface area. Four distinct colored regions are mapped on the tongue: blue at the top for bitter, yellow below for sour, green further down for salty, and red at the bottom for sweet. A legend is positioned to the right of the tongue diagram, listing the tastes associated with each color: blue for bitter, yellow for sour, green for salty, and red for sweet. The colors are distributed across the tongue in a way that suggests a mapping of taste sensitivity from top to bottom.",
+      "caption_span": [
+        64430,
+        64563
+      ],
+      "description_span": [
+        64565,
+        65135
+      ],
+      "depicts": [],
+      "section_id": "s6"
+    },
+    {
+      "fig_id": "p27_b9",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical structures of the human throat and upper respiratory tract, including the uvula, soft palate, palatoglossal arch, palatine tonsils, hard palate, oral cavity, tongue, lingual tonsils, oropharynx, epiglottis, laryngopharynx, hyoid bone, esophagus, and trachea.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p27_b9]",
+      "description": "The illustration is a detailed cross-sectional view of the human throat and upper respiratory tract, with various anatomical structures labeled and connected by leader lines. The uvula is positioned at the top, hanging from the soft palate, which is just below it. The hard palate is above the oral cavity, with the tongue situated within the oral cavity. The epiglottis is at the top of the laryngopharynx, and the laryngopharynx connects the pharynx to the larynx. The hyoid bone is positioned below the laryngopharynx, and the esophagus is below the hyoid bone, while the trachea is situated below the esophagus. The diagram uses colors to differentiate tissues and organs, with reds for muscles and other structures in shades of yellow and orange.",
+      "caption_span": [
+        68963,
+        69259
+      ],
+      "description_span": [
+        69261,
+        70012
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p27_b10",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical view of the oral cavity, highlighting various structures such as the lips, gums, palate, tongue, and associated tissues.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p27_b10]",
+      "description": "The illustration presents a cross-sectional view of the mouth, with the superior lip positioned at the top, followed by the superior labial frenulum just below it. The gingivae are labeled on both sides, framing the teeth. Near the center-top, the palatine raphe is shown, while the hard palate is situated above the teeth. The soft palate is positioned below the hard palate, with the uvula hanging at the back. On either side of the uvula, the palatine tonsils are visible. Behind the soft palate, the posterior wall of the oropharynx is depicted. The tongue is centrally located, and the lingual frenulum is at the bottom-center. The duct of the submandibular gland is on the left side, while the vestibule is at the very bottom. The inferior labial frenulum is located at the bottom, completing the detailed layout of the oral cavity.",
+      "caption_span": [
+        70032,
+        70197
+      ],
+      "description_span": [
+        70199,
+        71037
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p29_b6",
+      "image_path": "",
+      "caption": "The diagram illustrates the anatomy of the human mouth and throat, showing a cross-sectional view of the head and neck area with various anatomical structures labeled.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p29_b6]",
+      "description": "The diagram presents a cross-sectional view of the human head and neck, with the nasal cavity positioned at the top left. An arrow points downward from the nasal cavity to the hard palate, which is situated above the oral cavity. Another arrow connects the hard palate to the oral cavity, and from there, an arrow leads downward to the soft palate. The lips are shown on the left side, while the tongue is centrally positioned within the oral cavity. The jaw is depicted on the lower left side, and the pharynx is to the right of the soft palate. Below the pharynx, an arrow points to the epiglottis, and at the bottom left, the mylohyoid muscle is indicated. The diagram uses arrows to connect labels to specific anatomical parts, clearly defining the relationships between these structures.",
+      "caption_span": [
+        71056,
+        71223
+      ],
+      "description_span": [
+        71225,
+        72017
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p30_b12",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical cross-section of the oral cavity, focusing on the palate and surrounding structures such as the incisive papilla, transverse folds, and palatine tonsils.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p30_b12]",
+      "description": "The illustration presents a cross-sectional view of the oral cavity, with the hard palate displayed in pink and the soft palate in a lighter shade. The incisive papilla is positioned at the front of the hard palate, near the central incisors, while transverse folds extend horizontally across the middle of the hard palate. The soft palate is shown in a lighter pink, and the palatoglossal arch is a fold of tissue separating the soft palate from the base of the tongue. The palatine tonsil, a darker pink lymphoid tissue mass, is located in the posterior part of the mouth. The mandible and parotid gland are both depicted in light yellow, with the parotid gland situated below the mandible. Leader lines with arrows point to specific anatomical parts, and labels are written in black text next to these lines.",
+      "caption_span": [
+        72037,
+        72235
+      ],
+      "description_span": [
+        72237,
+        73048
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p31_b11",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical cross-section of the oral cavity, focusing on the palate and related structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p31_b11]",
+      "description": "The illustration presents a cross-sectional view of the oral cavity, with the hard palate positioned at the upper right, featuring the incisive papilla near the central incisors and transverse folds running horizontally across it. Beneath the mucosa of the hard palate, palatine glands are depicted as small clusters, with mouths of ducts visible on the hard palate. The soft palate, located behind the hard palate, is shown as a flexible, muscular structure, with the uvula hanging down from its back. The mandible is illustrated on the left side, with the parotid gland situated below it, near the jaw's angle. The palatoglossus muscle extends from the soft palate to the tongue in the lower middle part of the image. All structures are labeled with lines or arrows pointing to their respective anatomical locations.",
+      "caption_span": [
+        73068,
+        73193
+      ],
+      "description_span": [
+        73195,
+        74013
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p38_b11",
+      "image_path": "",
+      "caption": "The figure illustrates a cross-sectional view of the human throat and mouth, highlighting the oral and pharyngeal parts along with the surrounding anatomical structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p38_b11]",
+      "description": "The illustration presents a detailed cross-section of the human throat and mouth, with the oral part situated at the top right, displaying the upper mouth area including teeth and gums. The teeth are depicted with white enamel, and the gums are pink, while the roof of the mouth is shown as a curved structure above the teeth. The tip of the tongue is labeled at the frontmost part within the oral section. Below this, the pharyngeal part extends into the throat, featuring the soft palate, uvula, and the back wall of the throat. The pharynx is portrayed as a tube-like structure connecting the oral cavity to the larynx and esophagus, with the base labeled at the lowermost part near the neck. The spinal column is partially visible on the left side, with vertebrae stacked vertically. Various tissues and muscles are differentiated by shading in different colors, including skin tones, pink for mucous membranes, and yellow for bone structures.",
+      "caption_span": [
+        74033,
+        74202
+      ],
+      "description_span": [
+        74204,
+        75151
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p41_b9",
+      "image_path": "",
+      "caption": "The figure illustrates a cross-sectional view of the tongue, highlighting the directions of different muscle fibers and the surrounding anatomical structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p41_b9]",
+      "description": "The illustration presents a detailed cross-section of the tongue, with various muscle fibers indicated by arrows. The longitudinal muscle fibers are shown at the top right, pointing towards the central part of the tongue. Transverse fibers are positioned near the top left, indicating the horizontal direction across the middle of the tongue. Vertical fibers are also near the top left, pointing towards the base of the tongue. The genioglossus muscle is located at the bottom left, while the geniohyoid is at the bottom right. The tongue's muscular structure is depicted with texture, and the surrounding areas, including the gums and inside of the cheeks, are shaded in yellow. Muscles are colored in shades of red and orange, emphasizing their fibrous nature, with the tongue centrally placed within the oral cavity.",
+      "caption_span": [
+        75170,
+        75328
+      ],
+      "description_span": [
+        75330,
+        76149
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p44_b8",
+      "image_path": "",
+      "caption": "The figure illustrates the lingual artery and vein, dorsal lingual artery and vein, hypoglossal nerve, and deep lingual vein within a cross-sectional view of the tongue and surrounding tissues.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p44_b8]",
+      "description": "The lingual artery and vein are positioned at the top-left, represented by intertwined red lines with a red arrow pointing downward from the label. Near the top-center, the dorsal lingual artery and vein are similarly depicted as intertwined red lines, also with a downward-pointing red arrow. At the bottom-left, the hypoglossal nerve is shown as a yellowish line running horizontally across the lower part of the image, with a red arrow pointing upward from the label. The deep lingual vein is located at the bottom-right, shown as a blue line extending from the bottom right towards the center, with a red arrow pointing upward from the label.",
+      "caption_span": [
+        76168,
+        76361
+      ],
+      "description_span": [
+        76363,
+        77009
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p47_b3",
+      "image_path": "",
+      "caption": "The figure shows an open mouth with the tongue extended and teeth visible, focusing on the mouth and tongue.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p47_b3]",
+      "description": "An open mouth is displayed with the tongue extended, showing a slightly pinkish-red color with darker areas. The teeth are visible at the top and bottom of the image. The focus is entirely on the mouth and tongue, with no labels, text, or additional markings present.",
+      "caption_span": [
+        77028,
+        77136
+      ],
+      "description_span": [
+        77138,
+        77405
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p51_b12",
+      "image_path": "",
+      "caption": "A cross-sectional diagram of the human mouth highlighting the locations of labial, palatine, and pharyngeal glands.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p51_b12]",
+      "description": "The diagram presents a cross-section of the mouth, with the teeth and gums clearly visible. The lips, palate, and pharynx are also depicted. Labial glands are positioned at the top of the image, near the upper lip, while palatine glands are in the middle, pointing towards the soft palate. Pharyngeal glands are at the bottom, directed towards the pharynx. All glands are highlighted in yellow and labeled accordingly.",
+      "caption_span": [
+        77425,
+        77540
+      ],
+      "description_span": [
+        77542,
+        77960
+      ],
+      "depicts": [],
+      "section_id": "s7"
+    },
+    {
+      "fig_id": "p51_b11",
+      "image_path": "",
+      "caption": "A side view of a human head and neck with labeled anatomical structures, including the facial nerve, parotid gland, submandibular gland, and sublingual gland.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p51_b11]",
+      "description": "The image presents a side profile of a human head and neck with a semi-transparent overlay highlighting the facial nerves and glands. The facial nerve is labeled near the ear, pointing to the area behind it. The parotid gland is labeled near the cheek, slightly below the ear. The submandibular gland is labeled near the lower jaw, and the sublingual gland is labeled near the chin. The background is white, providing a clear contrast for the anatomical features.",
+      "caption_span": [
+        80291,
+        80449
+      ],
+      "description_span": [
+        80451,
+        80914
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p52_b2",
+      "image_path": "",
+      "caption": "The figure illustrates the submandibular region of the human head and neck, highlighting the salivary glands and ducts.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p52_b2]",
+      "description": "The illustration features a detailed depiction of the submandibular region, with the parotid gland shown as a large, lobulated structure in light pink near the ear, positioned above the parotid duct. The submandibular gland appears as a smaller, compact structure in light pink below the mandible, while the sublingual gland is a small, rounded structure situated beneath the tongue, close to the submandibular gland. The opening of the submandibular (Wharton's) duct is a small depiction on the floor of the mouth, indicating where the duct exits into the mouth. The body of the mandible is a curved, bony structure forming the bottom boundary of the mouth. Leader lines connect labels to the corresponding anatomical structures, with labels placed around the periphery of the image.",
+      "caption_span": [
+        81357,
+        81476
+      ],
+      "description_span": [
+        81478,
+        82262
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p40_b6",
+      "image_path": "",
+      "caption": "The figure illustrates the detailed anatomy of the oral cavity, including various structures within the mouth and throat.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p40_b6]",
+      "description": "The illustration presents a detailed view of the oral cavity, with labels pointing to different anatomical structures. At the top, the superior lip is indicated, followed by the gingivae just below it. Near the center-top, the superior labial frenulum is marked, and slightly below that, the palatine raphe is shown. The hard palate is positioned above the teeth, while the soft palate is below it, with the uvula hanging at the back. On either side of the uvula, the palatine tonsils are labeled. At the bottom of the tongue, the sublingual gland is indicated, and near the bottom of the image, the duct of the submandibular gland is shown. Near the center-bottom, the plica fimbriata, deep lingual vein, and lingual frenulum are all labeled.",
+      "caption_span": [
+        83234,
+        83355
+      ],
+      "description_span": [
+        83357,
+        84100
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p53_b2",
+      "image_path": "",
+      "caption": "The figure illustrates a side view of a human head and neck, highlighting the salivary glands: the parotid, submandibular, and sublingual glands.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p53_b2]",
+      "description": "The parotid gland is shown as a large, pinkish, lobulated structure near the ear, positioned above the submandibular gland. The submandibular gland appears as a smaller, pinkish, lobulated structure located below the parotid gland and slightly behind the lower jaw. The sublingual gland is depicted as a small, pinkish, lobulated structure beneath the tongue. The image includes a skeletal outline of the skull and neck, providing context for the location of the glands. The glands are illustrated in a simplified, anatomical style, emphasizing their relative positions and shapes.",
+      "caption_span": [
+        84979,
+        85124
+      ],
+      "description_span": [
+        85126,
+        85707
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p58_b4",
+      "image_path": "",
+      "caption": "The diagram illustrates the drainage pathways of the salivary glands, including the parotid, lacrimal, and submandibular glands, with arrows indicating flow directions.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p58_b4]",
+      "description": "The diagram presents a side view of the head and neck, with the parotid gland situated at the top-left near the ear, the lacrimal gland positioned above the eye slightly to the right, and the submandibular gland located at the bottom-right below the chin. An arrow points to the parotid gland from the left, another to the lacrimal gland from the top-right, and a third to the submandibular gland from the right. The posterior sulcus label is on the left, indicating the area behind the ear and neck. Arrows in the diagram show the flow of fluid from the glands to various regions of the face and neck, delineating the drainage paths.",
+      "caption_span": [
+        85993,
+        86161
+      ],
+      "description_span": [
+        86163,
+        86797
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p65_b11",
+      "image_path": "",
+      "caption": "The figure illustrates the anatomical structures of the head and neck, focusing on the parotid, submandibular, and sublingual glands, along with associated muscles, ducts, and blood vessels.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p65_b11]",
+      "description": "The illustration presents a side view of the head and neck region, with the ear positioned on the left side and the nose and mouth at the top right. The parotid gland is placed behind the masseter muscle, with the submandibular gland below the tongue and the sublingual gland under the tongue. The anterior facial vein is depicted as a blue line running from the lower jaw towards the neck, while the lingual artery is shown as a red line extending from the neck towards the tongue. The zygomatic arch is positioned above the masseter muscle, and the accessory part of the parotid gland is near the main body of the parotid gland. Each structure is labeled with a leader line connecting it to the corresponding part in the image.",
+      "caption_span": [
+        86817,
+        87007
+      ],
+      "description_span": [
+        87009,
+        87738
+      ],
+      "depicts": [],
+      "section_id": "s8"
+    },
+    {
+      "fig_id": "p48_b1",
+      "image_path": "",
+      "caption": "The figure shows close-up views of a child's mouth and nose area across six panels, focusing on the lips and nostrils with slight variations in saliva and lip protrusion.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p48_b1]",
+      "description": "The image is composed of six panels arranged in two rows of three. Each panel provides a close-up view of a child's mouth and nose area, with the lips slightly parted. In the top row, the first two panels show the child's mouth with slightly parted lips, while the third panel also displays a small amount of saliva or moisture at the corner of the mouth. The bottom row mirrors this layout, with each panel showing a small protrusion or bump on the lower lip. The third panel in the bottom row also has some saliva or moisture visible near the corner of the mouth. There are no labels, text, or arrows present in the image, focusing solely on the visual details.",
+      "caption_span": [
+        91747,
+        91917
+      ],
+      "description_span": [
+        91919,
+        92582
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p48_b2",
+      "image_path": "",
+      "caption": "The figure shows a close-up of a baby's face with a cleft lip and a detailed view of the cleft palate inside the mouth.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p48_b2]",
+      "description": "The image is divided into two parts. On the left, there is a close-up view of a baby's face, showing a cleft lip, with the baby's eyes closed and smooth skin, and short, sparse hair. On the right, there is a magnified view of the inside of the baby's mouth, focusing on the palate, which reveals a cleft. The palate's cleft appears as a dark-colored split against the pinkish-red surrounding tissue. There are no texts, labels, or arrows in the image, and the two parts are presented side by side without any connecting lines or labels.",
+      "caption_span": [
+        92601,
+        92720
+      ],
+      "description_span": [
+        92722,
+        93258
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p49_b1",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed cross-section of the human ear, focusing on the middle ear and its surrounding structures.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p49_b1]",
+      "description": "The outer ear, or pinna, is positioned at the top left of the image, appearing as a pinkish-red, fleshy structure with a slightly curved shape. Extending from the outer ear is the external auditory canal, a narrow tube-like structure shown in a darker red color. At the end of this canal lies the tympanic membrane, or eardrum, a thin, circular membrane centrally positioned within the middle ear cavity. The middle ear cavity itself is a space behind the tympanic membrane, containing the ossicles—three small bones colored light yellowish: the malleus at the front, the incus in the middle, and the stapes at the back. On the right side of the image, near the bottom, the Eustachian tube is depicted as a small, curved tube extending from the middle ear cavity to the nasopharynx. Various muscles and soft tissues are illustrated around the ear and middle ear area in shades of pink and red, with some areas highlighted in lighter colors. The background is white, enhancing the visibility of the anatomical structures. Labels point to specific parts of the ear, such as the middle ear cavity and the ossicles, though no text is provided in the image itself.",
+      "caption_span": [
+        93277,
+        93401
+      ],
+      "description_span": [
+        93403,
+        94562
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p59_b11",
+      "image_path": "",
+      "caption": "The figure illustrates various symptoms associated with mumps, including fever, headache, swollen parotid salivary glands, loss of appetite, sore muscles, tiredness, and swelling and pain in the testicles.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p59_b11]",
+      "description": "The illustration features a central figure of a male, shown from the waist up, wearing a white T-shirt and black shorts. Dashed lines extend from different parts of his body and face, indicating specific symptoms. A line points to the forehead for fever, near the temples for headache, and near the jawline for swollen parotid salivary glands. Another line points to the bicep area for sore muscles, near the eyes for tiredness, and to the lower abdomen for swelling and pain in the testicles. The text \"Mumps symptoms\" is written at the bottom left corner of the image.",
+      "caption_span": [
+        94582,
+        94787
+      ],
+      "description_span": [
+        94789,
+        95359
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p61_b14",
+      "image_path": "",
+      "caption": "The figure illustrates the internal organs and structures of the human pelvic region, including the liver, muscles, blood vessels, nerves, bladder, and rectum.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p61_b14]",
+      "description": "A large, reddish-brown organ, likely the liver, is positioned at the top left of the image. Several muscles are visible in shades of red and pink, arranged in layers throughout the pelvis. Blue lines represent blood vessels, likely veins, distributed throughout the image and connecting to the tissues and organs. Green lines indicate nerves branching out from larger nerve trunks into the surrounding tissues. A light blue structure, probably the bladder, is located towards the bottom right. A darker blue structure, likely the rectum, is situated below the bladder. Other tissues, such as the sigmoid colon and possibly the uterus or ovaries, are also present but not clearly labeled. The image is oriented with the top representing the upper part of the body, the bottom the lower part, the left side the lateral aspect, and the right side the medial aspect of the pelvis.",
+      "caption_span": [
+        95379,
+        95538
+      ],
+      "description_span": [
+        95540,
+        96416
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p62_b11",
+      "image_path": "",
+      "caption": "The figure illustrates the abdominal cavity, featuring the liver, blood vessels, digestive organs, abdominal muscles, and a section of bone.",
+      "referenced_from": "",
+      "marker": "[FIGURE:p62_b11]",
+      "description": "A large, reddish-brown organ, likely the liver, is positioned in the upper left portion of the image with a smooth surface and visible folds. Blue lines, representing veins, run thickly and prominently through the lower part of the image, while green lines, possibly arteries, branch out from these blue lines and extend towards the lower right side. To the right of the liver, several lighter red structures, resembling parts of the digestive system like the stomach and intestines, are depicted with a more complex, convoluted appearance. Below the liver, layers of light brown muscle tissue, arranged in a grid-like pattern, suggest the abdominal wall. On the far left, a section of bone, possibly the ribcage or part of the spine, is shown in a light yellowish-brown color, partially visible and connected to the abdominal cavity. On the far right, two blue tubes, potentially the ureters or related ducts, are connected to the main organ, indicating a functional relationship with the urinary system.",
+      "caption_span": [
+        96436,
+        96576
+      ],
+      "description_span": [
+        96578,
+        97583
+      ],
+      "depicts": [],
+      "section_id": "s9"
+    },
+    {
+      "fig_id": "p9_b5",
+      "image_path": "",
+      "caption": "A close-up view of an eye with the text \"Orbital part\" positioned above it.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p9_b5]",
+      "description": "The image presents a close-up of an eye, with the text \"Orbital part\" situated at the top, slightly left of center. The eye is partially closed, and the eyelashes are clearly visible. Above the eye, the eyebrow is shown with individual hairs discernible. The skin surrounding the eye appears smooth, suggesting a light complexion. The background has a textured appearance, resembling fabric or paper with a subtle pattern.",
+      "caption_span": [
+        101881,
+        101956
+      ],
+      "description_span": [
+        101958,
+        102380
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    },
+    {
+      "fig_id": "p29_b5",
+      "image_path": "",
+      "caption": "The figure illustrates a detailed anatomical cross-section of the human mouth and throat, labeling the hard palate, soft palate, pharynx, uvula, and tongue.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p29_b5]",
+      "description": "The illustration presents a cross-sectional view of the mouth and throat, with labels for the hard palate, soft palate, pharynx, uvula, and tongue. The hard palate is positioned at the top of the mouth, forming the roof, while the soft palate extends behind it. The pharynx is shown as the area behind the soft palate and tongue, and the uvula is depicted hanging from the back of the soft palate. The tongue is situated at the bottom of the mouth. The labels are written in black text and are placed near their corresponding anatomical features, maintaining a symmetrical layout.",
+      "caption_span": [
+        102399,
+        102555
+      ],
+      "description_span": [
+        102557,
+        103137
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    },
+    {
+      "fig_id": "p30_b11",
+      "image_path": "",
+      "caption": "The figure illustrates the palatine process of the maxilla and the horizontal plate of the palatine bone in a cross-sectional view of the upper jaw.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p30_b11]",
+      "description": "The palatine process of the maxilla is highlighted by a red arrow pointing to the central region of the maxilla, forming part of the hard palate. Another red arrow indicates the horizontal plate of the palatine bone, situated at the lower part of the maxilla, contributing to the bony structure of the roof of the mouth. The teeth are depicted in a simplified manner, with some showing roots extending into the jawbone, and the maxilla is displayed symmetrically with clear markings for the palatine process and horizontal plate.",
+      "caption_span": [
+        103157,
+        103305
+      ],
+      "description_span": [
+        103307,
+        103836
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    },
+    {
+      "fig_id": "p44_b9",
+      "image_path": "",
+      "caption": "The figure illustrates the lymphatic drainage pathway in the neck region, including the digastric muscle, jugulodigastric node, deep cervical chain, submental nodes, and submandibular nodes.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p44_b9]",
+      "description": "The diagram features a pink, striped digastric muscle running vertically through the center. Near this muscle, a red line points to a yellow oval structure, the jugulodigastric node, situated within a blue area representing the carotid sheath. Below the jugulodigastric node, a series of interconnected yellow ovals signify the deep cervical chain. On the right side, small yellow ovals labeled as submental nodes are positioned above the larger submandibular nodes, which are located beneath the mandible. Arrows indicate lymph flow from the jugulodigastric node to the deep cervical chain and then to the submandibular and submental nodes. The background includes a simplified representation of the skull and surrounding soft tissues, with a color scheme of shades of blue, pink, and yellow.",
+      "caption_span": [
+        103855,
+        104045
+      ],
+      "description_span": [
+        104047,
+        104840
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    },
+    {
+      "fig_id": "p54_b7",
+      "image_path": "",
+      "caption": "A detailed anatomical illustration of the head and neck region, focusing on the parotid gland and surrounding structures.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p54_b7]",
+      "description": "The illustration presents a cross-sectional view of the head and neck, with the parotid gland prominently displayed. Facial muscles such as the orbicularis oris at the mouth and the buccinator near the cheek are included, alongside the masseter and medial pterygoid muscles flanking the mandible's ramus. The submandibular and sublingual glands are shown below the mandible and beneath the tongue, respectively. Cervical lymph nodes are labeled with deep and superficial groups. Red arrows point downward from the second maxillary molar tooth. Muscles are colored in shades of red and brown, glands and nerves in yellow and green, and blood vessels in blue.",
+      "caption_span": [
+        104859,
+        104980
+      ],
+      "description_span": [
+        104982,
+        105639
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    },
+    {
+      "fig_id": "p66_b11",
+      "image_path": "",
+      "caption": "The figure illustrates the lower jaw and surrounding structures, including the masseter, mucosa of the floor of the mouth, sublingual and submandibular ducts and glands, mylohyoid muscle, and submandibular gland.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:p66_b11]",
+      "description": "The illustration features a detailed cross-sectional view of the lower jaw area. The masseter muscle is positioned at the top, colored red and textured, indicating its location in the cheek and jaw region. On the right side, the mucosa of the floor of the mouth is labeled, pointing to the inner lining near the bottom teeth. The sublingual ducts are depicted as yellow tubes extending from the sublingual gland towards the mucosa. Similarly, the submandibular duct is shown as a single yellow tube leading from the submandibular gland to the mucosa. The sublingual gland appears as a cluster of small, white, rounded structures situated below the tongue and near the bottom teeth. Beneath the sublingual gland and above the submandibular gland lies the mylohyoid muscle, illustrated as a yellow, flat structure. Finally, the submandibular gland is another cluster of small, white, rounded structures located below the mylohyoid muscle and above the mandible.",
+      "caption_span": [
+        105659,
+        105871
+      ],
+      "description_span": [
+        105873,
+        106832
+      ],
+      "depicts": [],
+      "section_id": "s10"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Understand the structure and function of the digestive system, particularly the gastrointestinal tract.\nIdentify the bones and muscles of the face, and understand their roles in facial expressions and mastication.\nExplain the innervation and blood supply of the facial region.\nDescribe the process of mastication and its importance in digestion.",
+      "char_start": 69,
+      "char_end": 414,
+      "section_path": [
+        "Anatomy and Physiology of the Digestive System and Facial Muscles"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p2_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p11_b4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p28_b8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p32_b7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p33_b22",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p34_b8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p47_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p5_b4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p5_b5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p61_b13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p42_b20",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p13_b7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p62_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p35_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p55_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p4_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p21_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p7_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p8_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p10_b6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p11_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p11_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p16_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p53_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p64_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p65_b12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p13_b9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p14_b6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p15_b5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p19_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p22_b13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p23_b13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p60_b12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p17_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p17_b4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p17_b5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p18_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p18_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p33_b23",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p43_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p57_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p64_b6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p6_b4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p9_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p9_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p24_b12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p25_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p36_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p39_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p41_b8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p43_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p45_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p27_b9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p27_b10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p29_b6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p30_b12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p31_b11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p38_b11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p41_b9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p44_b8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p47_b3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p51_b12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p51_b11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p52_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p40_b6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p53_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p58_b4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p65_b11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p48_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p48_b2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p49_b1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p59_b11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p61_b14",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "p62_b11",
+      "reason": "figure never anchored in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/anatomy_of_face_and_oral_cavity.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/anatomy_of_face_and_oral_cavity/anatomy_of_face_and_oral_cavity.normalized.md"
+}

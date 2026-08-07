@@ -1,6 +1,6 @@
 COMPOSE = docker compose -f docker-compose.yml --env-file .env
 
-.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs neo4j-up neo4j-down neo4j-logs up down logs restart ps clean psql
+.PHONY: setup mlflow-up mlflow-down mlflow-logs mlflow-restart minio-up minio-down minio-logs neo4j-up neo4j-down neo4j-logs up down logs restart ps clean psql populate-postgres populate-neo4j populate
 
 # Copy .env.example -> .env on first run (skipped if already present)
 setup:
@@ -65,3 +65,20 @@ server:
 db ?= mlflow
 psql:
 	$(COMPOSE) exec postgres psql -U $${POSTGRES_USER:-mlflow} -d $(db)
+
+# Load the MCQ question bank into postgres (src/quiz/bank.py's source of truth)
+populate-postgres: mlflow-up
+	$(COMPOSE) up -d --wait postgres
+	uv run python -m scripts.populate_mcq_postgres
+
+# Load src/domain_kg/graph.nq into neo4j via n10s
+populate-neo4j: neo4j-up
+	$(COMPOSE) up -d --wait neo4j
+	uv run python -m src.domain_kg.load_neo4j
+
+populate-students: neo4j-up
+	$(COMPOSE) up -d --wait neo4j
+	uv run python -m scripts.generate_dummy_interactions
+
+# Populate both postgres (question bank) and neo4j (domain knowledge graph)
+populate: populate-postgres populate-neo4j
