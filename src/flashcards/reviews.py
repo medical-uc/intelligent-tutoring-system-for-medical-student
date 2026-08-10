@@ -23,9 +23,16 @@ Interval growth per rating (days, capped at 60 like quiz's REVIEWING schedule):
   good  -> streak+1, interval doubles (same curve as quiz's "strong pass")
   easy  -> streak+1, interval grows by 2.5x (rewards clearly-solid recall)
 
+Every review belongs to a FlashcardSession (see src.flashcards.sessions) — the frontend
+starts a session before the first card in a batch and passes its id to every
+record_review() call, which links the FLASHCARD_REVIEW event to that session via
+:HAS_ANSWER, same shape as quiz's QuizSession/:HAS_ANSWER. This lets a session's progress
+be read straight off its own linked events instead of cross-referencing the card_uids list
+against timestamps.
+
 Usage:
     from src.flashcards.reviews import record_review, due_for_review
-    record_review(driver, student_id, question_uid="...", rating="good")
+    record_review(driver, student_id, session_id="...", question_uid="...", rating="good")
     due_for_review(driver, student_id)
 """
 
@@ -55,11 +62,12 @@ def _flashcard_uid(student_id: str, question_uid: str) -> str:
 
 _RECORD_REVIEW_QUERY = """
 MATCH (s:Student {id: $student_id})
+MATCH (s)-[:ATTEMPTED]->(sess:FlashcardSession {id: $session_id})
 MERGE (q:Question {uid: $question_uid})
 MERGE (s)-[:HAS_FLASHCARD]->(f:Flashcard {uid: $flashcard_uid})
 ON CREATE SET f.question_uid = $question_uid, f.streak = 0, f.interval_days = 1
 MERGE (f)-[:FOR_QUESTION]->(q)
-WITH s, f, CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
+WITH s, sess, f, CASE WHEN $ts IS NULL THEN datetime() ELSE datetime($ts) END AS effective_ts
 CREATE (e:InteractionEvent {
     id: $event_id,
     type: "FLASHCARD_REVIEW",
@@ -68,6 +76,7 @@ CREATE (e:InteractionEvent {
     ts: effective_ts
 })
 CREATE (e)-[:FOR_FLASHCARD]->(f)
+CREATE (sess)-[:HAS_ANSWER]->(e)
 WITH s, e, f, effective_ts, f.streak AS prev_streak, coalesce(f.interval_days, 1) AS prev_interval
 SET f.streak = CASE WHEN $rating = "again" THEN 0 ELSE prev_streak + 1 END,
     f.interval_days = CASE
@@ -90,17 +99,19 @@ RETURN e.id AS event_id, f.streak AS streak, f.interval_days AS interval_days,
 def record_review(
     driver: Driver,
     student_id: str,
+    session_id: str,
     question_uid: str,
     rating: str,
     ts: datetime | None = None,
 ) -> dict | None:
-    """Persists one flashcard self-rating, updates that card's schedule, and awards
-    ENERGY_PER_FLASHCARD_REVIEW energy (see src.student_kg.energy) — flat, every rating
-    included ("again" still counts as showing up to review).
+    """Persists one flashcard self-rating, links it to its FlashcardSession via
+    :HAS_ANSWER (same shape as quiz's record_attempt/QuizSession), updates that card's
+    schedule, and awards ENERGY_PER_FLASHCARD_REVIEW energy (see src.student_kg.energy) —
+    flat, every rating included ("again" still counts as showing up to review).
 
     Returns the new event id, streak, interval_days, next_review_at, energy_awarded,
-    energy_balance — or None if student_id doesn't match a Student node (client-reachable:
-    stale/foreign id).
+    energy_balance — or None if session_id doesn't match a session belonging to this
+    student (client-reachable: stale/foreign id), same contract as quiz's record_attempt.
 
     `ts` backdates the event/schedule timestamps for synthetic history generation (see
     scripts/generate_dummy_interactions.py) — real callers omit it and get datetime().
@@ -114,6 +125,7 @@ def record_review(
         record = session.run(
             _RECORD_REVIEW_QUERY,
             student_id=student_id,
+            session_id=session_id,
             question_uid=question_uid,
             flashcard_uid=_flashcard_uid(student_id, question_uid),
             event_id=event_id,

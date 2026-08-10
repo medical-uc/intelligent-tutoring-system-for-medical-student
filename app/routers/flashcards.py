@@ -5,14 +5,19 @@ from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
     DueFlashcardItem,
     DueFlashcardResponse,
+    EndFlashcardSessionResponse,
     FlashcardHistoryItem,
     FlashcardHistoryResponse,
     FlashcardOut,
     FlashcardRevealResponse,
     FlashcardReviewHistoryItem,
     FlashcardReviewHistoryResponse,
+    FlashcardSessionHistoryItem,
+    FlashcardSessionHistoryResponse,
     LogFlashcardReviewRequest,
     LogFlashcardReviewResponse,
+    StartFlashcardSessionRequest,
+    StartFlashcardSessionResponse,
 )
 from src.flashcards.cards import (
     Flashcard,
@@ -26,6 +31,13 @@ from src.flashcards.reviews import (
     record_review,
     review_history,
 )
+from src.flashcards.sessions import (
+    DEFAULT_SESSION_SIZE,
+    cancel_session,
+    end_session,
+)
+from src.flashcards.sessions import history_for_student as session_history_for_student
+from src.flashcards.sessions import start_session
 from src.quiz.bank import QuestionBank, load_question_bank
 
 router = APIRouter(prefix="/flashcards", tags=["flashcards"])
@@ -64,6 +76,107 @@ def get_cards_for_topic(
     return [_to_flashcard_out(c) for c in cards]
 
 
+@router.post("/sessions", response_model=StartFlashcardSessionResponse)
+def start_flashcard_session(
+    body: StartFlashcardSessionRequest = StartFlashcardSessionRequest(),
+    student_id: str = Depends(get_current_student_id),
+    bank: QuestionBank = Depends(_get_bank),
+    driver: Driver = Depends(get_driver),
+) -> StartFlashcardSessionResponse:
+    """Starts an Anki-style batch of up to `size` cards (10 by default) drawn from the
+    whole deck: due-for-review cards first (soonest-due), then never-reviewed cards top up
+    the rest. The returned card_uids is the fixed batch for this session — walk it with
+    /cards/{uid}/reveal and /cards/{uid}/log same as before, then call /sessions/{id}/end."""
+    session = start_session(driver, student_id=student_id, bank=bank, size=body.size)
+    if session is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no cards available"
+        )
+    return StartFlashcardSessionResponse(**session)
+
+
+@router.post(
+    "/topics/{topic_path:path}/sessions", response_model=StartFlashcardSessionResponse
+)
+def start_flashcard_session_for_topic(
+    topic_path: str,
+    body: StartFlashcardSessionRequest = StartFlashcardSessionRequest(),
+    student_id: str = Depends(get_current_student_id),
+    bank: QuestionBank = Depends(_get_bank),
+    driver: Driver = Depends(get_driver),
+) -> StartFlashcardSessionResponse:
+    """Same as /sessions but scoped to one topic's cards."""
+    session = start_session(
+        driver, student_id=student_id, bank=bank, topic_path=topic_path, size=body.size
+    )
+    if session is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no cards for this topic"
+        )
+    return StartFlashcardSessionResponse(**session)
+
+
+@router.post("/sessions/{session_id}/end", response_model=EndFlashcardSessionResponse)
+def end_flashcard_session(
+    session_id: str,
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> EndFlashcardSessionResponse:
+    """Call once the student has walked through (or given up on) the batch. Counts how many
+    of the session's card_uids got a rating logged during the session window — ratings
+    themselves already happened via /cards/{uid}/log independently of the session."""
+    summary = end_session(driver, student_id=student_id, session_id=session_id)
+    if summary is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such session for this student",
+        )
+    return EndFlashcardSessionResponse(**summary)
+
+
+@router.post(
+    "/sessions/{session_id}/cancel", response_model=EndFlashcardSessionResponse
+)
+def cancel_flashcard_session(
+    session_id: str,
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> EndFlashcardSessionResponse:
+    """Call instead of /end when the student abandons the batch partway through. Same
+    aggregation as /end, but marks the session "cancelled" instead of "completed"."""
+    summary = cancel_session(driver, student_id=student_id, session_id=session_id)
+    if summary is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such in-progress session for this student",
+        )
+    return EndFlashcardSessionResponse(**summary)
+
+
+@router.get("/sessions/history", response_model=FlashcardSessionHistoryResponse)
+def get_session_history(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> FlashcardSessionHistoryResponse:
+    """Completed/cancelled flashcard sessions for the current student, most recent first."""
+    sessions = session_history_for_student(driver, student_id=student_id)
+    return FlashcardSessionHistoryResponse(
+        items=[
+            FlashcardSessionHistoryItem(
+                session_id=s["session_id"],
+                topic_path=s["topic_path"],
+                status=s["status"],
+                card_count=s["card_count"],
+                reviewed_count=s["reviewed_count"],
+                duration_seconds=s["duration_seconds"],
+                started_at=s["started_at"].to_native(),
+                ended_at=s["ended_at"].to_native(),
+            )
+            for s in sessions
+        ]
+    )
+
+
 @router.post("/cards/{uid}/reveal", response_model=FlashcardRevealResponse)
 def reveal_card(
     uid: str,
@@ -90,7 +203,8 @@ def log_review(
     driver: Driver = Depends(get_driver),
 ) -> LogFlashcardReviewResponse:
     """Called once the student has flipped the card and rated their own recall. Updates
-    the card's Flashcard-node spaced-repetition schedule independently of any quiz mastery.
+    the card's Flashcard-node spaced-repetition schedule independently of any quiz mastery,
+    and links the review to body.session_id via :HAS_ANSWER (see src.flashcards.sessions).
     """
     card = get_flashcard(uid, bank=bank)
     if card is None:
@@ -99,11 +213,16 @@ def log_review(
         )
 
     result = record_review(
-        driver, student_id=student_id, question_uid=uid, rating=body.rating.value
+        driver,
+        student_id=student_id,
+        session_id=body.session_id,
+        question_uid=uid,
+        rating=body.rating.value,
     )
     if result is None:
         raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, detail="no such student"
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="no such session for this student",
         )
 
     return LogFlashcardReviewResponse(
@@ -142,9 +261,10 @@ def get_history(
     driver: Driver = Depends(get_driver),
 ) -> FlashcardHistoryResponse:
     """Every flashcard review this student has ever logged, most recent first. A flat feed
-    (one row per rating) rather than session-grouped rows like quiz /history — flashcard
-    reviews have no session wrapper (see src.flashcards.reviews.history_for_student).
-    Rows whose question no longer exists in the bank are skipped rather than erroring,
+    (one row per rating) rather than session-grouped rows — ratings are recorded
+    independently of any FlashcardSession (see src.flashcards.reviews.history_for_student);
+    pair with GET /sessions/history for the batch-level view. Rows whose question no
+    longer exists in the bank are skipped rather than erroring,
     since the bank can be regenerated independently of logged history."""
     reviews = history_for_student(driver, student_id=student_id)
     items = []

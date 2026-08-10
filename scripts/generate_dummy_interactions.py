@@ -67,6 +67,8 @@ from datetime import UTC, datetime, timedelta
 from dotenv import load_dotenv
 
 from src.flashcards.reviews import record_review
+from src.flashcards.sessions import end_session as end_flashcard_session
+from src.flashcards.sessions import start_session as start_flashcard_session
 from src.quiz.attempts import record_attempt
 from src.quiz.bank import Question, load_question_bank
 from src.quiz.sessions import end_session, start_session
@@ -354,9 +356,54 @@ def _run_quiz_session(
     return current_time, n_quiz_answers
 
 
+def _run_flashcard_session(
+    driver,
+    student_id: str,
+    bank,
+    model: dict,
+    session_topic: str,
+    difficulty: float,
+    candidates: list[Question],
+    n_in_session: int,
+    current_time: datetime,
+) -> tuple[datetime, int]:
+    """Writes one full flashcard session (start -> n_in_session ratings -> end) for
+    session_topic, advancing and returning current_time. Mirrors _run_quiz_session's
+    shape now that record_review() requires a session_id (see src.flashcards.sessions).
+
+    The session's own due-first/new card_uids selection is unused here — this simulator
+    already knows which questions it wants to rate (candidates, drawn from the topic's
+    IRT-modeled pool), so the session is only used as the graph anchor record_review()
+    links each rating to via :HAS_ANSWER; it may rate uids outside the session's declared
+    card_uids, which end_session()'s edge-based count tolerates fine."""
+    session = start_flashcard_session(
+        driver, student_id, bank=bank, topic_path=session_topic, ts=current_time
+    )
+    session_id = session["session_id"]
+    n_flashcard_reviews = 0
+    for _ in range(n_in_session):
+        question = random.choice(candidates)
+        current_time += timedelta(minutes=random.uniform(0.5, 4))
+        rating = simulate_flashcard_rating(
+            model, session_topic, difficulty, current_time
+        )
+        record_review(
+            driver,
+            student_id,
+            session_id=session_id,
+            question_uid=question.uid,
+            rating=rating,
+            ts=current_time,
+        )
+        n_flashcard_reviews += 1
+    end_flashcard_session(driver, student_id, session_id, ts=current_time)
+    return current_time, n_flashcard_reviews
+
+
 def generate_and_write_student(
     driver,
     student_id: str,
+    bank,
     concepts: list[dict],
     concept_questions: dict[str, list[Question]],
     required_topics: list[tuple[str, int]] | None = None,
@@ -422,20 +469,18 @@ def generate_and_write_student(
         difficulty = difficulty_by_topic[session_topic]
 
         if is_flashcard_session:
-            for _ in range(n_in_session):
-                question = random.choice(candidates)
-                current_time += timedelta(minutes=random.uniform(0.5, 4))
-                rating = simulate_flashcard_rating(
-                    model, session_topic, difficulty, current_time
-                )
-                record_review(
-                    driver,
-                    student_id,
-                    question_uid=question.uid,
-                    rating=rating,
-                    ts=current_time,
-                )
-                n_flashcard_reviews += 1
+            current_time, written = _run_flashcard_session(
+                driver,
+                student_id,
+                bank,
+                model,
+                session_topic,
+                difficulty,
+                candidates,
+                n_in_session,
+                current_time,
+            )
+            n_flashcard_reviews += written
         else:
             current_time, written = _run_quiz_session(
                 driver,
@@ -461,6 +506,7 @@ def generate_and_write_student(
 def generate_streak_demo_student(
     driver,
     student_id: str,
+    bank,
     concepts: list[dict],
     concept_questions: dict[str, list[Question]],
     n_days: int = STREAK_DEMO_DAYS,
@@ -508,20 +554,18 @@ def generate_streak_demo_student(
         n_in_session = random.randint(*INTERACTIONS_PER_SESSION)
 
         if random.random() < FLASHCARD_SESSION_RATE:
-            for _ in range(n_in_session):
-                question = random.choice(candidates)
-                current_time += timedelta(minutes=random.uniform(0.5, 4))
-                rating = simulate_flashcard_rating(
-                    model, session_topic, difficulty, current_time
-                )
-                record_review(
-                    driver,
-                    student_id,
-                    question_uid=question.uid,
-                    rating=rating,
-                    ts=current_time,
-                )
-                n_flashcard_reviews += 1
+            current_time, written = _run_flashcard_session(
+                driver,
+                student_id,
+                bank,
+                model,
+                session_topic,
+                difficulty,
+                candidates,
+                n_in_session,
+                current_time,
+            )
+            n_flashcard_reviews += written
         else:
             _, written = _run_quiz_session(
                 driver,
@@ -655,6 +699,7 @@ def main() -> None:
             summary = generate_and_write_student(
                 driver,
                 student_id,
+                bank,
                 concepts,
                 concept_questions,
                 required_topics=required_assignments[student_id],
@@ -680,6 +725,7 @@ def main() -> None:
             streak_summary = generate_streak_demo_student(
                 driver,
                 streak_student_id,
+                bank,
                 concepts,
                 concept_questions,
                 n_days=args.streak_demo_days,
@@ -706,6 +752,7 @@ def main() -> None:
             broken_streak_summary = generate_streak_demo_student(
                 driver,
                 broken_streak_student_id,
+                bank,
                 concepts,
                 concept_questions,
                 n_days=args.broken_streak_demo_days,
@@ -734,6 +781,7 @@ def main() -> None:
             restorable_streak_summary = generate_streak_demo_student(
                 driver,
                 restorable_streak_student_id,
+                bank,
                 concepts,
                 concept_questions,
                 n_days=args.restorable_streak_demo_days,

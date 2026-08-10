@@ -209,6 +209,7 @@ class FlashcardRating(str, Enum):
 
 
 class LogFlashcardReviewRequest(BaseModel):
+    session_id: str
     rating: FlashcardRating
 
 
@@ -254,3 +255,34 @@ class FlashcardHistoryItem(BaseModel):
 
 class FlashcardHistoryResponse(BaseModel):
     items: list[FlashcardHistoryItem]
+
+
+class StartFlashcardSessionRequest(BaseModel):
+    size: int = Field(default=10, ge=1, le=50)
+
+
+class StartFlashcardSessionResponse(BaseModel):
+    session_id: str
+    card_uids: list[str]
+
+
+class EndFlashcardSessionResponse(BaseModel):
+    session_id: str
+    card_count: int
+    reviewed_count: int
+    duration_seconds: int
+
+
+class FlashcardSessionHistoryItem(BaseModel):
+    session_id: str
+    topic_path: str | None
+    status: str
+    card_count: int
+    reviewed_count: int
+    duration_seconds: int
+    started_at: datetime
+    ended_at: datetime
+
+
+class FlashcardSessionHistoryResponse(BaseModel):
+    items: list[FlashcardSessionHistoryItem]
