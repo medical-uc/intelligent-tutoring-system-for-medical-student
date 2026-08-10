@@ -108,6 +108,9 @@ STREAK_DEMO_DAYS = 14  # consecutive real-calendar days of activity for the dedi
 BROKEN_STREAK_GAP_DAYS = 3  # how many days ago the broken-streak-demo student's last
 # activity day is — must be >= 2 so current_streak()'s "yesterday still counts" grace
 # window doesn't accidentally read this back as a live streak.
+RESTORABLE_STREAK_GAP_DAYS = 2  # last activity exactly 2 days ago == exactly one missed
+# day (yesterday) — the only gap size src.student_kg.streak.restore_streak() will bridge.
+# Must stay exactly 2; BROKEN_STREAK_GAP_DAYS (3+) is deliberately too big to restore.
 FLASHCARD_SESSION_RATE = (
     0.35  # fraction of *organic* sessions that are flashcard drills, not quizzes —
     # required-coverage sessions are always quiz sessions, since attempt-count floor is
@@ -577,6 +580,14 @@ def main() -> None:
         "broken-streak-demo student, ending BROKEN_STREAK_GAP_DAYS ago so "
         "current_streak() reads back 0 (0 to skip)",
     )
+    ap.add_argument(
+        "--restorable-streak-demo-days",
+        type=int,
+        default=STREAK_DEMO_DAYS,
+        help="consecutive real days of activity to write for the dedicated "
+        "restorable-streak-demo student, ending RESTORABLE_STREAK_GAP_DAYS (2) days "
+        "ago so restore_streak() succeeds on it (0 to skip)",
+    )
     args = ap.parse_args()
 
     load_dotenv()
@@ -712,6 +723,34 @@ def main() -> None:
             )
             for k in totals:
                 totals[k] += broken_streak_summary[k]
+
+        if args.restorable_streak_demo_days > 0:
+            restorable_streak_student_id = enroll_student(
+                driver,
+                full_name="Restorable Streak Demo Student",
+                student_number="SYNTH-RESTORABLE-STREAK",
+                academic_year=random.randint(1, 6),
+            )
+            restorable_streak_summary = generate_streak_demo_student(
+                driver,
+                restorable_streak_student_id,
+                concepts,
+                concept_questions,
+                n_days=args.restorable_streak_demo_days,
+                end_days_ago=RESTORABLE_STREAK_GAP_DAYS,
+            )
+            log.info(
+                "restorable streak demo student %s (SYNTH-RESTORABLE-STREAK): %d-day "
+                "streak ended %d days ago, %d sessions, %d quiz answers, %d flashcard reviews",
+                restorable_streak_student_id,
+                args.restorable_streak_demo_days,
+                RESTORABLE_STREAK_GAP_DAYS,
+                restorable_streak_summary["n_sessions"],
+                restorable_streak_summary["n_quiz_answers"],
+                restorable_streak_summary["n_flashcard_reviews"],
+            )
+            for k in totals:
+                totals[k] += restorable_streak_summary[k]
 
         log.info(
             "done: %d students, %d sessions, %d quiz answers, %d flashcard reviews written to Neo4j",
