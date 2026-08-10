@@ -81,4 +81,4 @@ populate-students: neo4j-up
 	uv run python -m scripts.generate_dummy_interactions
 
 # Populate both postgres (question bank) and neo4j (domain knowledge graph)
-populate: populate-postgres populate-neo4j
+populate: populate-postgres populate-neo4j populate-students

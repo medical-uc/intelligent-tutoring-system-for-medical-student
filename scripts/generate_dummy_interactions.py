@@ -105,6 +105,9 @@ STREAK_DEMO_DAYS = 14  # consecutive real-calendar days of activity for the dedi
 # src.student_kg.streak.current_streak(), which walks back from today, reads it as a
 # live streak rather than 0 the way every other synthetic student's frozen March 2026
 # history does.
+BROKEN_STREAK_GAP_DAYS = 3  # how many days ago the broken-streak-demo student's last
+# activity day is — must be >= 2 so current_streak()'s "yesterday still counts" grace
+# window doesn't accidentally read this back as a live streak.
 FLASHCARD_SESSION_RATE = (
     0.35  # fraction of *organic* sessions that are flashcard drills, not quizzes —
     # required-coverage sessions are always quiz sessions, since attempt-count floor is
@@ -458,13 +461,19 @@ def generate_streak_demo_student(
     concepts: list[dict],
     concept_questions: dict[str, list[Question]],
     n_days: int = STREAK_DEMO_DAYS,
+    end_days_ago: int = 0,
 ) -> dict:
     """Writes one activity (a short quiz session or a flashcard-review burst) on each of
-    the last `n_days` consecutive UTC calendar days, ending today — unlike
-    generate_and_write_student's SESSION_GAP_DAYS-spaced, March-2026-frozen history, this
-    guarantees src.student_kg.streak.current_streak() reads back a live, nonzero streak
-    for this student right now, so the frontend has something to display without waiting
-    on real student activity.
+    `n_days` consecutive UTC calendar days, ending `end_days_ago` days before today —
+    unlike generate_and_write_student's SESSION_GAP_DAYS-spaced, March-2026-frozen
+    history, this guarantees src.student_kg.streak.current_streak() reads back a
+    deterministic streak for this student right now, so the frontend has something to
+    display without waiting on real student activity.
+
+    With the default end_days_ago=0 (today), current_streak() reads back a live,
+    nonzero streak. With end_days_ago >= 2, the run ends far enough in the past that
+    current_streak() reads back 0 (broken) while week_activity()/history still show the
+    student was active — for exercising the frontend's "streak broken" feedback state.
 
     One session/day (not multiple) since day-streak only cares whether a day has *any*
     activity — see src/student_kg/streak.py's day-level, not session-level, grouping."""
@@ -473,7 +482,7 @@ def generate_streak_demo_student(
     other_topics = [c["topic_path"] for c in concepts if not c["is_root"]]
     difficulty_by_topic = {c["topic_path"]: c["irt_difficulty"] for c in concepts}
 
-    today = datetime.now(UTC).replace(tzinfo=None).date()
+    today = datetime.now(UTC).replace(tzinfo=None).date() - timedelta(days=end_days_ago)
     n_quiz_answers = 0
     n_flashcard_reviews = 0
     n_sessions = 0
@@ -559,6 +568,14 @@ def main() -> None:
         default=STREAK_DEMO_DAYS,
         help="consecutive real days of activity to write for the dedicated "
         "streak-demo student, ending today (0 to skip)",
+    )
+    ap.add_argument(
+        "--broken-streak-demo-days",
+        type=int,
+        default=STREAK_DEMO_DAYS,
+        help="consecutive real days of activity to write for the dedicated "
+        "broken-streak-demo student, ending BROKEN_STREAK_GAP_DAYS ago so "
+        "current_streak() reads back 0 (0 to skip)",
     )
     args = ap.parse_args()
 
@@ -667,6 +684,34 @@ def main() -> None:
             )
             for k in totals:
                 totals[k] += streak_summary[k]
+
+        if args.broken_streak_demo_days > 0:
+            broken_streak_student_id = enroll_student(
+                driver,
+                full_name="Broken Streak Demo Student",
+                student_number="SYNTH-BROKEN-STREAK",
+                academic_year=random.randint(1, 6),
+            )
+            broken_streak_summary = generate_streak_demo_student(
+                driver,
+                broken_streak_student_id,
+                concepts,
+                concept_questions,
+                n_days=args.broken_streak_demo_days,
+                end_days_ago=BROKEN_STREAK_GAP_DAYS,
+            )
+            log.info(
+                "broken streak demo student %s (SYNTH-BROKEN-STREAK): %d-day streak "
+                "ended %d days ago, %d sessions, %d quiz answers, %d flashcard reviews",
+                broken_streak_student_id,
+                args.broken_streak_demo_days,
+                BROKEN_STREAK_GAP_DAYS,
+                broken_streak_summary["n_sessions"],
+                broken_streak_summary["n_quiz_answers"],
+                broken_streak_summary["n_flashcard_reviews"],
+            )
+            for k in totals:
+                totals[k] += broken_streak_summary[k]
 
         log.info(
             "done: %d students, %d sessions, %d quiz answers, %d flashcard reviews written to Neo4j",
