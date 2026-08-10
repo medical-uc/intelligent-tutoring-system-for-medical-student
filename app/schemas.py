@@ -130,11 +130,13 @@ class LogAttemptRequest(BaseModel):
     selected_index: int = Field(ge=0)
     confidence: ConfidenceLevel
     time_taken_seconds: float = Field(ge=0)
+    next_review_days: int | None = Field(default=None, ge=1)
 
 
 class LogAttemptResponse(BaseModel):
     event_id: str
     correct: bool
+    next_review_at: datetime
 
 
 class StartSessionResponse(BaseModel):

@@ -297,14 +297,18 @@ def log_attempt(
     driver: Driver = Depends(get_driver),
 ) -> LogAttemptResponse:
     """Single write for the whole attempt — called once both selected_index and confidence
-    are known, so exactly one InteractionEvent is created (never a partial one)."""
+    are known, so exactly one InteractionEvent is created (never a partial one).
+
+    next_review_days, if given, is the student's own choice of when to see this question
+    again (e.g. "in 3 days" picked on the answer screen) and overrides the streak-computed
+    schedule for this question — see src.quiz.attempts.record_attempt."""
     question = _get_question_or_404(bank, uid)
     _validate_selected_index(question, body.selected_index)
 
     correct_index = question.correct_option_index()
     is_correct = body.selected_index == correct_index
 
-    event_id = record_attempt(
+    result = record_attempt(
         driver,
         student_id=student_id,
         session_id=body.session_id,
@@ -314,11 +318,16 @@ def log_attempt(
         confidence=body.confidence.value,
         time_taken_seconds=body.time_taken_seconds,
         topic_tag=question.topic_tag,
+        next_review_days=body.next_review_days,
     )
-    if event_id is None:
+    if result is None:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="no such session for this student",
         )
 
-    return LogAttemptResponse(event_id=event_id, correct=is_correct)
+    return LogAttemptResponse(
+        event_id=result["event_id"],
+        correct=is_correct,
+        next_review_at=result["next_review_at"].to_native(),
+    )

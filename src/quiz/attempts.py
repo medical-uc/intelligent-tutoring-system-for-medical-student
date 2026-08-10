@@ -83,9 +83,12 @@ SET r.streak = CASE WHEN strong_pass THEN coalesce(r.streak, 0) + 1 ELSE 0 END,
     r.attempt_count = coalesce(r.attempt_count, 0) + 1,
     r.last_reviewed_at = effective_ts
 WITH s, e, q, r, effective_ts, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
-SET r.interval_days = capped_interval,
-    r.next_review_at = effective_ts + duration({days: capped_interval})
-WITH s, e, q
+SET r.interval_days = CASE WHEN $next_review_days IS NULL THEN capped_interval ELSE $next_review_days END,
+    r.next_review_at = CASE
+        WHEN $next_review_days IS NULL THEN effective_ts + duration({days: capped_interval})
+        ELSE effective_ts + duration({days: $next_review_days})
+    END
+WITH s, e, q, r
 CALL (q, s) {
     UNWIND range(0, size($topic_tag) - 1) AS i
     WITH q, i, reduce(p = "", j IN range(0, i) | p + CASE WHEN j = 0 THEN "" ELSE " > " END + $topic_tag[j]) AS topic_path
@@ -103,7 +106,7 @@ CALL (q, s) {
     UNWIND topics[0..1] AS leaf
     MERGE (q)-[:BELONGS_TO]->(leaf)
 }
-RETURN e.id AS event_id
+RETURN e.id AS event_id, r.next_review_at AS next_review_at
 """
 
 
@@ -117,13 +120,20 @@ def record_attempt(
     confidence: str,
     time_taken_seconds: float,
     topic_tag: list[str],
+    next_review_days: int | None = None,
     ts: datetime | None = None,
-) -> str | None:
+) -> dict | None:
     """Persists one fully-graded attempt (answer + confidence + timing together), linked to
-    its QuizSession, and returns the new event id. Returns None if session_id doesn't match
-    a session belonging to this student — a client-reachable condition (stale/foreign
+    its QuizSession. Returns {"event_id", "next_review_at"}, or None if session_id doesn't
+    match a session belonging to this student — a client-reachable condition (stale/foreign
     session id), not a server precondition failure, so the caller should turn this into a
     404 rather than treating it as an assertion violation.
+
+    streak/attempt_count always update from correctness+confidence as before. interval_days/
+    next_review_at normally follow from that same streak-based computation, but if the
+    student picked their own review timing (next_review_days, e.g. from a "review again
+    in..." choice on the answer screen), that choice overwrites both instead — the streak
+    still reflects real mastery signal, only the schedule date itself is student-chosen.
 
     Also merges a Question node (deduped by uid across every student/session that has ever
     answered it) and a chain of nested Topic nodes from topic_tag (e.g.
@@ -149,9 +159,15 @@ def record_attempt(
             confidence=confidence,
             time_taken_seconds=time_taken_seconds,
             topic_tag=topic_tag,
+            next_review_days=next_review_days,
             ts=ts.isoformat() if ts else None,
         ).single()
-    return record["event_id"] if record else None
+    if record is None:
+        return None
+    return {
+        "event_id": record["event_id"],
+        "next_review_at": record["next_review_at"],
+    }
 
 
 _TOPIC_PROGRESS_QUERY = """
