@@ -2,13 +2,13 @@
 Student-[:MASTERS]->Topic edge (properties: p_know, updated_at) on the same leaf Topic
 node :BELONGS_TO already targets (see src/quiz/attempts.py).
 
-Unlike the reverted src/quiz/mastery.py (see git history: f3574f2 / 2aef2a1), BKT is not
-computed server-side here — the frontend runs its own BKT update on-device after a quiz
-session and pushes the resulting p_know per topic. This module is a thin, deliberately
-dumb persistence layer: it MERGEs whatever p_know the client sends onto the :MASTERS edge,
-with no recomputation, no clamping, and no server-side knowledge of BKT params. The
-client is the single source of truth for the algorithm; the server just remembers the
-latest value per student+topic so it survives across devices/sessions.
+BKT runs on-device (see the iOS app's BKTStore.swift) — the client is the single source of
+truth for the algorithm and its personalization, so p_know here is never computed
+server-side. This module is a thin, deliberately dumb persistence layer: it MERGEs
+whatever p_know the client sends (via PUT /quiz/mastery, called after finishQuiz()) onto
+the :MASTERS edge, with no recomputation, no clamping, no server-side BKT params. The
+server just remembers the latest value per student+topic so it survives across
+devices/reinstalls.
 
 Usage:
     from src.quiz.mastery import upsert_mastery, mastery_for_student
