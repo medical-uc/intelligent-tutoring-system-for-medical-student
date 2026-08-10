@@ -16,6 +16,9 @@ from app.schemas import (
     OptionOut,
     QuestionOut,
     StartSessionResponse,
+    SubjectListResponse,
+    SubjectOut,
+    SubjectTopicOut,
     TopicListResponse,
 )
 from src.quiz.attempts import due_for_review, record_attempt
@@ -64,6 +67,32 @@ def _validate_selected_index(question: Question, selected_index: int) -> None:
 @router.get("/topics", response_model=TopicListResponse)
 def list_topics(bank: QuestionBank = Depends(_get_bank)) -> TopicListResponse:
     return TopicListResponse(topics=bank.topics())
+
+
+@router.get("/subjects", response_model=SubjectListResponse)
+def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListResponse:
+    """Subject -> topic catalog for the Subjects browse page. flashcard_count mirrors
+    question_count since every flashcard is 1:1-derived from a bank question (see
+    src/flashcards/cards.py) -- there is no separate flashcard content to count."""
+    return SubjectListResponse(
+        subjects=[
+            SubjectOut(
+                name=subject["name"],
+                question_count=sum(t["question_count"] for t in subject["topics"]),
+                flashcard_count=sum(t["question_count"] for t in subject["topics"]),
+                topics=[
+                    SubjectTopicOut(
+                        path=t["path"],
+                        name=t["name"],
+                        question_count=t["question_count"],
+                        flashcard_count=t["question_count"],
+                    )
+                    for t in subject["topics"]
+                ],
+            )
+            for subject in bank.subjects()
+        ]
+    )
 
 
 @router.get("/topics/{topic_path:path}/questions", response_model=list[QuestionOut])

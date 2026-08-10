@@ -86,6 +86,35 @@ class QuestionBank:
     def __len__(self) -> int:
         return len(self._by_uid)
 
+    def subjects(self) -> list[dict]:
+        """Groups topics() by their topic_tag[0] (subject) for the Subjects browse page.
+
+        Each entry: {"name": subject, "topics": [{"path", "name", "question_count"}, ...]}
+        sorted by subject name, topics sorted by name. A topic whose tag is just
+        [subject] (no leaf segment — some source rows repeat the subject as its own
+        topic, e.g. "Anatomy of Neck > Anatomy of Neck") keeps its full topic_path as
+        `name` same as any other topic, so it isn't silently merged into the subject
+        header."""
+        by_subject: dict[str, list[str]] = {}
+        for topic_path in self.topics():
+            subject = topic_path.split(" > ")[0]
+            by_subject.setdefault(subject, []).append(topic_path)
+
+        return [
+            {
+                "name": subject,
+                "topics": [
+                    {
+                        "path": topic_path,
+                        "name": topic_path.split(" > ")[-1],
+                        "question_count": len(self._by_topic[topic_path]),
+                    }
+                    for topic_path in sorted(topic_paths)
+                ],
+            }
+            for subject, topic_paths in sorted(by_subject.items())
+        ]
+
 
 def _parse_row(row: dict) -> Question:
     topic_tag = [t for t in (row["subject"], row["topic"]) if t]

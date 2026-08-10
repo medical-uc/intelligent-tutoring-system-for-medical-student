@@ -81,6 +81,24 @@ class TopicListResponse(BaseModel):
     topics: list[str]
 
 
+class SubjectTopicOut(BaseModel):
+    path: str
+    name: str
+    question_count: int
+    flashcard_count: int
+
+
+class SubjectOut(BaseModel):
+    name: str
+    question_count: int
+    flashcard_count: int
+    topics: list[SubjectTopicOut]
+
+
+class SubjectListResponse(BaseModel):
+    subjects: list[SubjectOut]
+
+
 class ConfidenceLevel(str, Enum):
     GUESSING = "guessing"
     UNSURE = "unsure"
