@@ -83,6 +83,9 @@ class QuestionBank:
     def get(self, uid: str) -> Question | None:
         return self._by_uid.get(uid)
 
+    def all(self) -> list[Question]:
+        return list(self._by_uid.values())
+
     def __len__(self) -> int:
         return len(self._by_uid)
 

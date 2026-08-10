@@ -45,6 +45,11 @@ def flashcards_for_topic(
     return [_to_flashcard(q) for q in bank.questions_for_topic(topic_path)]
 
 
+def all_flashcards(bank: QuestionBank | None = None) -> list[Flashcard]:
+    bank = bank or load_question_bank()
+    return [_to_flashcard(q) for q in bank.all()]
+
+
 def get_flashcard(uid: str, bank: QuestionBank | None = None) -> Flashcard | None:
     bank = bank or load_question_bank()
     question = bank.get(uid)

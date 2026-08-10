@@ -14,7 +14,12 @@ from app.schemas import (
     LogFlashcardReviewRequest,
     LogFlashcardReviewResponse,
 )
-from src.flashcards.cards import Flashcard, flashcards_for_topic, get_flashcard
+from src.flashcards.cards import (
+    Flashcard,
+    all_flashcards,
+    flashcards_for_topic,
+    get_flashcard,
+)
 from src.flashcards.reviews import (
     due_for_review,
     history_for_student,
@@ -37,6 +42,13 @@ def _to_flashcard_out(card: Flashcard) -> FlashcardOut:
         topic_tag=card.topic_tag,
         difficulty=card.difficulty,
     )
+
+
+@router.get("/cards", response_model=list[FlashcardOut])
+def get_all_cards(
+    bank: QuestionBank = Depends(_get_bank),
+) -> list[FlashcardOut]:
+    return [_to_flashcard_out(c) for c in all_flashcards(bank=bank)]
 
 
 @router.get("/topics/{topic_path:path}/cards", response_model=list[FlashcardOut])
