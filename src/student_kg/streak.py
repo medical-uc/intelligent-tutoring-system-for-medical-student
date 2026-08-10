@@ -47,6 +47,21 @@ def _active_days(driver: Driver, student_id: str) -> list[datetime]:
         return [r["day"].to_native() for r in records]
 
 
+def _run_length(days: list[datetime]) -> int:
+    """Length of the consecutive-day run starting at days[0] (the most recent day in the
+    list) and walking backward. `days` must be sorted descending, as _active_days()
+    returns it."""
+    streak = 0
+    expected = days[0]
+    for day in days:
+        if day == expected:
+            streak += 1
+            expected = expected - timedelta(days=1)
+        elif day < expected:
+            break
+    return streak
+
+
 def current_streak(driver: Driver, student_id: str) -> int:
     """Consecutive UTC days of quiz/flashcard activity, walking back from today.
 
@@ -58,19 +73,25 @@ def current_streak(driver: Driver, student_id: str) -> int:
         return 0
 
     today = datetime.now(UTC).date()
-    most_recent = days[0]
-    if most_recent < today - timedelta(days=1):
+    if days[0] < today - timedelta(days=1):
         return 0
+    return _run_length(days)
 
-    streak = 0
-    expected = most_recent
-    for day in days:
-        if day == expected:
-            streak += 1
-            expected = expected - timedelta(days=1)
-        elif day < expected:
-            break
-    return streak
+
+def previous_streak(driver: Driver, student_id: str) -> int:
+    """Length of the most recent consecutive-day run of activity, ending at the
+    student's last active day — regardless of whether that run still connects to today.
+
+    When the streak is live (current_streak() > 0) this is the same run and so equals
+    current_streak(). When the streak is broken (current_streak() == 0, i.e. the most
+    recent activity was before yesterday), this is the run that just ended — e.g. a
+    student who studied 5 days straight then stopped for a week still reads back 5 here,
+    for the frontend's "your 5-day streak ended" feedback. Returns 0 if the student has
+    never studied."""
+    days = _active_days(driver, student_id)
+    if not days:
+        return 0
+    return _run_length(days)
 
 
 def week_activity(driver: Driver, student_id: str) -> list[bool]:

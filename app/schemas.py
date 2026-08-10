@@ -41,6 +41,7 @@ class StudentProfileResponse(BaseModel):
 
 class StreakResponse(BaseModel):
     current_streak: int
+    previous_streak: int
     week_activity: list[bool] = Field(min_length=7, max_length=7)
 
 

@@ -27,7 +27,7 @@ from src.student_kg.session import (
     find_student_id_by_number,
     revoke_session,
 )
-from src.student_kg.streak import current_streak, week_activity
+from src.student_kg.streak import current_streak, previous_streak, week_activity
 
 router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
@@ -107,9 +107,16 @@ def get_my_streak(
 ) -> StreakResponse:
     """Consecutive UTC days with a quiz session or flashcard review, walking back from
     today, plus this UTC calendar week's Monday-Sunday activity — see
-    src/student_kg/streak.py for exact semantics."""
+    src/student_kg/streak.py for exact semantics.
+
+    previous_streak is the most recent consecutive-day run regardless of whether it's
+    still live — equal to current_streak while the streak is active, or the length of
+    the run that just ended when current_streak reads 0 (broken). Frontend: show
+    "streak broken" using previous_streak when current_streak == 0 and previous_streak
+    > 0."""
     return StreakResponse(
         current_streak=current_streak(driver, student_id),
+        previous_streak=previous_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
     )
 
