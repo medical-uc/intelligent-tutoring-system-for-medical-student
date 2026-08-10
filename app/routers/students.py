@@ -8,6 +8,7 @@ from app.schemas import (
     NudgePreviewItem,
     NudgeResponse,
     NudgeSource,
+    RestoreStreakResponse,
     SessionCheckResponse,
     SessionResponse,
     StreakResponse,
@@ -27,7 +28,12 @@ from src.student_kg.session import (
     find_student_id_by_number,
     revoke_session,
 )
-from src.student_kg.streak import current_streak, previous_streak, week_activity
+from src.student_kg.streak import (
+    current_streak,
+    previous_streak,
+    restore_streak,
+    week_activity,
+)
 
 router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
@@ -118,6 +124,28 @@ def get_my_streak(
         current_streak=current_streak(driver, student_id),
         previous_streak=previous_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
+    )
+
+
+@router.post("/me/streak/restore", response_model=RestoreStreakResponse)
+def restore_my_streak(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> RestoreStreakResponse:
+    """Spends RESTORE_STREAK_COST (10) energy to bridge exactly one missed day and
+    revive a just-broken streak — see src/student_kg/streak.py::restore_streak for
+    eligibility (only a single-day gap is bridgeable, not an arbitrary one). 409 if not
+    eligible right now: streak isn't broken by exactly one day, or balance is too low.
+    Call GET /me/streak first to check current_streak == 0 and previous_streak > 0
+    before offering this in the UI."""
+    result = restore_streak(driver, student_id)
+    if result is None:
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="streak not eligible for restore (not a one-day gap, or insufficient energy)",
+        )
+    return RestoreStreakResponse(
+        restored_date=result["restored_date"], energy_balance=result["energy_balance"]
     )
 
 

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -47,6 +47,11 @@ class StreakResponse(BaseModel):
 
 class EnergyResponse(BaseModel):
     energy: int
+
+
+class RestoreStreakResponse(BaseModel):
+    restored_date: date
+    energy_balance: int
 
 
 class NudgeSource(str, Enum):

@@ -12,27 +12,35 @@ and the consecutive-day walk is done in Python for clarity over a harder-to-read
 date-arithmetic query.
 
 A day counts if a quiz session was *started* that day (matches what the student
-experienced, not when a session happened to be finalized) or a flashcard review was
-logged that day.
+experienced, not when a session happened to be finalized), a flashcard review was
+logged that day, or the student spent energy to restore that day via restore_streak()
+(see below) — restored dates are stored directly on the Student node
+(streak_restored_dates: list[date-string]) rather than as a fake QuizSession/
+FlashcardReview, so real activity history stays an honest record of what the student
+actually studied while the streak calc still treats the day as covered.
 
 Streak counts backward from today (UTC): today missing activity does not break the
 streak (the day isn't over yet), but any earlier gap does. A student who has never done
 anything gets a streak of 0.
 
 Usage:
-    from src.student_kg.streak import current_streak
+    from src.student_kg.streak import current_streak, restore_streak
     current_streak(driver, student_id)  # -> int
+    restore_streak(driver, student_id)  # spend energy to bridge a 1-day gap
 """
 
 from datetime import UTC, datetime, timedelta
 
 from neo4j import Driver
 
+RESTORE_STREAK_COST = 10  # energy spent to bridge exactly one missed day
+
 _ACTIVITY_DAYS_QUERY = """
 MATCH (s:Student {id: $student_id})
 OPTIONAL MATCH (s)-[:ATTEMPTED]->(sess:QuizSession)
 OPTIONAL MATCH (s)-[:HAS_FLASHCARD]->(:Flashcard)<-[:FOR_FLASHCARD]-(rev:InteractionEvent {type: "FLASHCARD_REVIEW"})
-WITH collect(DISTINCT date(sess.started_at)) + collect(DISTINCT date(rev.ts)) AS days
+WITH s, collect(DISTINCT date(sess.started_at)) + collect(DISTINCT date(rev.ts))
+        + [d IN coalesce(s.streak_restored_dates, []) | date(d)] AS days
 UNWIND days AS day
 WITH DISTINCT day
 WHERE day IS NOT NULL
@@ -42,6 +50,7 @@ ORDER BY day DESC
 
 
 def _active_days(driver: Driver, student_id: str) -> list[datetime]:
+    """Real activity days unioned with any streak_restored_dates — see module docstring."""
     with driver.session() as session:
         records = session.run(_ACTIVITY_DAYS_QUERY, student_id=student_id)
         return [r["day"].to_native() for r in records]
@@ -92,6 +101,54 @@ def previous_streak(driver: Driver, student_id: str) -> int:
     if not days:
         return 0
     return _run_length(days)
+
+
+_RESTORE_STREAK_QUERY = """
+MATCH (s:Student {id: $student_id})
+WHERE coalesce(s.energy, 0) >= $cost
+  AND NOT $missed_day IN coalesce(s.streak_restored_dates, [])
+SET s.energy = s.energy - $cost,
+    s.streak_restored_dates = coalesce(s.streak_restored_dates, []) + $missed_day
+RETURN s.energy AS energy_balance
+"""
+
+
+def restore_streak(driver: Driver, student_id: str) -> dict | None:
+    """Spends RESTORE_STREAK_COST energy to bridge exactly one missed day, undoing a
+    just-broken streak — e.g. a student who studied every day through Tuesday, missed
+    Wednesday, and opens the app Thursday can restore Wednesday to keep their streak
+    alive instead of starting over. Classic Duolingo streak-freeze behavior: only a
+    single missed day is bridgeable, not an arbitrary gap.
+
+    Returns {"restored_date": date, "energy_balance": int} on success. Returns None if
+    restore isn't applicable right now — the streak isn't actually broken by exactly one
+    day (current_streak() > 0, or the gap is 2+ days, too far gone to restore), the
+    student doesn't have RESTORE_STREAK_COST energy, or that day was already restored
+    (also re-checked at write time, so a concurrent restore/spend racing this call
+    safely loses rather than double-spending)."""
+    days = _active_days(driver, student_id)
+    if not days:
+        return None
+
+    today = datetime.now(UTC).date()
+    yesterday = today - timedelta(days=1)
+    two_days_ago = today - timedelta(days=2)
+
+    # Streak must be broken (last activity wasn't today or yesterday) by exactly one day
+    # (last activity was exactly two_days_ago) for a single restore to bridge it.
+    if days[0] != two_days_ago:
+        return None
+
+    with driver.session() as session:
+        record = session.run(
+            _RESTORE_STREAK_QUERY,
+            student_id=student_id,
+            cost=RESTORE_STREAK_COST,
+            missed_day=yesterday.isoformat(),
+        ).single()
+    if record is None:
+        return None
+    return {"restored_date": yesterday, "energy_balance": record["energy_balance"]}
 
 
 def week_activity(driver: Driver, student_id: str) -> list[bool]:
