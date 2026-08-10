@@ -13,6 +13,8 @@ from app.schemas import (
     HistoryResponse,
     LogAttemptRequest,
     LogAttemptResponse,
+    MasteryItem,
+    MasteryResponse,
     OptionOut,
     QuestionOut,
     StartSessionResponse,
@@ -20,9 +22,12 @@ from app.schemas import (
     SubjectOut,
     SubjectTopicOut,
     TopicListResponse,
+    UpdateMasteryRequest,
+    UpdateMasteryResponse,
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
+from src.quiz.mastery import mastery_for_student, upsert_mastery
 from src.quiz.sessions import (
     cancel_session,
     end_session,
@@ -216,6 +221,51 @@ def get_due_for_review(
             for r in items
         ]
     )
+
+
+@router.get("/mastery", response_model=MasteryResponse)
+def get_mastery(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> MasteryResponse:
+    """This student's current per-topic mastery (p_know), weakest topic first — computed
+    on-device by the frontend's own BKT implementation and pushed here via PUT /mastery,
+    not computed server-side (see src/quiz/mastery.py). A topic never pushed by the client
+    has no :MASTERS edge and doesn't appear here."""
+    items = mastery_for_student(driver, student_id=student_id)
+    return MasteryResponse(
+        items=[
+            MasteryItem(
+                topic_path=r["topic_path"],
+                p_know=r["p_know"],
+                updated_at=r["updated_at"].to_native(),
+            )
+            for r in items
+        ]
+    )
+
+
+@router.put("/mastery", response_model=UpdateMasteryResponse)
+def update_mastery(
+    body: UpdateMasteryRequest,
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> UpdateMasteryResponse:
+    """Call after a quiz session (or whenever the frontend recomputes its on-device BKT
+    model) to persist the resulting p_know per topic — typically every leaf topic touched
+    during that session. Overwrites whatever p_know was previously stored for each
+    topic_path; the server does no BKT math of its own and applies no bounds/validation to
+    p_know, trusting the client's algorithm entirely."""
+    updated_count = upsert_mastery(
+        driver,
+        student_id=student_id,
+        items=[item.model_dump() for item in body.items],
+    )
+    if updated_count is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no such student"
+        )
+    return UpdateMasteryResponse(updated_count=updated_count)
 
 
 @router.post("/questions/{uid}/check", response_model=CheckAnswerResponse)
