@@ -99,6 +99,8 @@ def log_review(
         streak=result["streak"],
         interval_days=result["interval_days"],
         next_review_at=result["next_review_at"].to_native(),
+        energy_awarded=result["energy_awarded"],
+        energy_balance=result["energy_balance"],
     )
 
 

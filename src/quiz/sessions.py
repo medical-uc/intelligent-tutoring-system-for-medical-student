@@ -27,6 +27,8 @@ from datetime import datetime
 
 from neo4j import Driver
 
+from src.student_kg.energy import ENERGY_PER_QUIZ_SESSION
+
 _START_SESSION_QUERY = """
 MATCH (s:Student {id: $student_id})
 OPTIONAL MATCH (s)-[latest:LATEST_EVENT]->(prev:InteractionEvent)
@@ -82,9 +84,11 @@ SET sess.status = "completed",
     sess.ended_at = effective_ts,
     sess.question_count = question_count,
     sess.correct_count = correct_count,
-    sess.duration_seconds = duration.inSeconds(sess.started_at, effective_ts).seconds
+    sess.duration_seconds = duration.inSeconds(sess.started_at, effective_ts).seconds,
+    s.energy = coalesce(s.energy, 0) + $energy_award
 RETURN sess.id AS session_id, sess.question_count AS question_count,
-       sess.correct_count AS correct_count, sess.duration_seconds AS duration_seconds
+       sess.correct_count AS correct_count, sess.duration_seconds AS duration_seconds,
+       $energy_award AS energy_awarded, s.energy AS energy_balance
 """
 
 
@@ -92,8 +96,10 @@ def end_session(
     driver: Driver, student_id: str, session_id: str, ts: datetime | None = None
 ) -> dict | None:
     """Finalizes a session: aggregates its linked answers into question_count/correct_count/
-    duration_seconds and marks it completed. Returns the summary dict, or None if no such
-    in-progress session exists for this student.
+    duration_seconds, marks it completed, and awards ENERGY_PER_QUIZ_SESSION energy (see
+    src.student_kg.energy) — flat, not scaled to score. Returns the summary dict (including
+    energy_awarded/energy_balance), or None if no such in-progress session exists for this
+    student.
 
     `ts` backdates ended_at (and therefore duration_seconds, computed against the session's
     real/backdated started_at) for synthetic history generation — real callers omit it.
@@ -104,6 +110,7 @@ def end_session(
             student_id=student_id,
             session_id=session_id,
             ts=ts.isoformat() if ts else None,
+            energy_award=ENERGY_PER_QUIZ_SESSION,
         ).single()
     return dict(record) if record else None
 

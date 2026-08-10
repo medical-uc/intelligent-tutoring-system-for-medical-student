@@ -4,6 +4,7 @@ from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
 from app.schemas import (
+    EnergyResponse,
     NudgePreviewItem,
     NudgeResponse,
     NudgeSource,
@@ -19,6 +20,7 @@ from src.flashcards.reviews import count_due_for_review as count_due_flashcards
 from src.flashcards.reviews import due_for_review as due_flashcards
 from src.quiz.attempts import count_due_for_review as count_due_quiz
 from src.quiz.attempts import due_for_review as due_quiz
+from src.student_kg.energy import get_energy
 from src.student_kg.enrollment import enroll_student, get_student_by_id
 from src.student_kg.session import (
     create_session,
@@ -110,6 +112,24 @@ def get_my_streak(
         current_streak=current_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
     )
+
+
+@router.get("/me/energy", response_model=EnergyResponse)
+def get_my_energy(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> EnergyResponse:
+    """Current energy balance — the light-gamification currency awarded on finishing a
+    quiz session or logging a flashcard review (see src/student_kg/energy.py). Awards
+    themselves are returned inline from /quiz/sessions/{id}/end and
+    /flashcards/cards/{uid}/log; this endpoint is for re-syncing the displayed balance
+    (app open, another tab awarded energy, etc.) without waiting on the next award."""
+    balance = get_energy(driver, student_id)
+    if balance is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="student not found"
+        )
+    return EnergyResponse(energy=balance)
 
 
 @router.get("/me/nudge", response_model=NudgeResponse)

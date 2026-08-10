@@ -35,6 +35,8 @@ from datetime import datetime
 
 from neo4j import Driver
 
+from src.student_kg.energy import ENERGY_PER_FLASHCARD_REVIEW
+
 _RATING_MULTIPLIERS = {
     "again": 0.0,  # handled as a hard reset, not a multiply
     "hard": 1.2,
@@ -73,13 +75,15 @@ SET f.streak = CASE WHEN $rating = "again" THEN 0 ELSE prev_streak + 1 END,
         ELSE toInteger(ceil(prev_interval * $multiplier))
     END,
     f.last_reviewed_at = effective_ts
-WITH e, f, effective_ts, CASE WHEN f.interval_days > $max_interval THEN $max_interval
+WITH s, e, f, effective_ts, CASE WHEN f.interval_days > $max_interval THEN $max_interval
                 WHEN f.interval_days < 1 THEN 1
                 ELSE f.interval_days END AS capped_interval
 SET f.interval_days = capped_interval,
-    f.next_review_at = effective_ts + duration({days: capped_interval})
+    f.next_review_at = effective_ts + duration({days: capped_interval}),
+    s.energy = coalesce(s.energy, 0) + $energy_award
 RETURN e.id AS event_id, f.streak AS streak, f.interval_days AS interval_days,
-       f.next_review_at AS next_review_at
+       f.next_review_at AS next_review_at, $energy_award AS energy_awarded,
+       s.energy AS energy_balance
 """
 
 
@@ -90,10 +94,13 @@ def record_review(
     rating: str,
     ts: datetime | None = None,
 ) -> dict | None:
-    """Persists one flashcard self-rating and updates that card's schedule.
+    """Persists one flashcard self-rating, updates that card's schedule, and awards
+    ENERGY_PER_FLASHCARD_REVIEW energy (see src.student_kg.energy) — flat, every rating
+    included ("again" still counts as showing up to review).
 
-    Returns the new event id, streak, interval_days, next_review_at — or None if
-    student_id doesn't match a Student node (client-reachable: stale/foreign id).
+    Returns the new event id, streak, interval_days, next_review_at, energy_awarded,
+    energy_balance — or None if student_id doesn't match a Student node (client-reachable:
+    stale/foreign id).
 
     `ts` backdates the event/schedule timestamps for synthetic history generation (see
     scripts/generate_dummy_interactions.py) — real callers omit it and get datetime().
@@ -114,6 +121,7 @@ def record_review(
             multiplier=_RATING_MULTIPLIERS[rating],
             max_interval=_MAX_INTERVAL_DAYS,
             ts=ts.isoformat() if ts else None,
+            energy_award=ENERGY_PER_FLASHCARD_REVIEW,
         ).single()
     return dict(record) if record else None
 

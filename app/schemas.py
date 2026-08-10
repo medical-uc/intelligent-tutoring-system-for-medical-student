@@ -44,6 +44,10 @@ class StreakResponse(BaseModel):
     week_activity: list[bool] = Field(min_length=7, max_length=7)
 
 
+class EnergyResponse(BaseModel):
+    energy: int
+
+
 class NudgeSource(str, Enum):
     QUIZ = "quiz"
     FLASHCARD = "flashcard"
@@ -136,6 +140,8 @@ class EndSessionResponse(BaseModel):
     question_count: int
     correct_count: int
     duration_seconds: int
+    energy_awarded: int
+    energy_balance: int
 
 
 class CancelSessionResponse(BaseModel):
@@ -205,6 +211,8 @@ class LogFlashcardReviewResponse(BaseModel):
     streak: int
     interval_days: int
     next_review_at: datetime
+    energy_awarded: int
+    energy_balance: int
 
 
 class DueFlashcardItem(BaseModel):

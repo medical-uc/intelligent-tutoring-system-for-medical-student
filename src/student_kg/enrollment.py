@@ -34,7 +34,8 @@ CREATE (s:Student {
     full_name: $full_name,
     student_number: $student_number,
     academic_year: $academic_year,
-    enrolled_at: datetime()
+    enrolled_at: datetime(),
+    energy: 0
 })
 RETURN s.id AS student_id
 """
