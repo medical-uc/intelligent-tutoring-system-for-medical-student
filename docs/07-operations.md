@@ -24,6 +24,11 @@ questions from the `mcq_questions` table — same creds mlflow's backend store u
 `SEMANTIC_IMAGES_BUCKET` (read by `scripts/ingest_data.py`, defaults to
 `semantic-images`).
 
+**Not currently in `.env.example`, but read by the app:** `CORS_ALLOWED_ORIGINS`
+(comma-separated list, read by `app/main.py`, defaults to empty — no origins allowed —
+if unset). Anyone doing a fresh setup with a frontend will hit CORS errors with no clue
+why unless they know to set this; add it to `.env.example` when convenient.
+
 ## Running the stack
 
 `Makefile` wraps `docker compose -f docker-compose.yml --env-file .env`:
@@ -35,18 +40,25 @@ questions from the `mcq_questions` table — same creds mlflow's backend store u
 | `make minio-up` | Just `minio` + `minio-init` (bucket bootstrap) — needed if running the ingestion pipeline's visual upload step (`src/ingestion/upload_visuals.py`) standalone. |
 | `make up` | Everything. |
 | `make down` / `make clean` | Stop the stack / stop **and destroy volumes** (`clean` is destructive — confirm before running against anything with data you care about). |
-| `make psql db=<name>` | Shell into the postgres container (defaults to the `mlflow` database). |
+| `make psql db=<name>` | Shell into the postgres container (defaults to `db=mlflow`). |
+| `make server` | Runs the API itself — `uvicorn app.main:app --reload --reload-dir app --host 0.0.0.0 --port 8000` — as an alternative to the manual `uvicorn` command below. |
+| `make populate-postgres` | Brings up postgres, then runs `scripts/populate_mcq_postgres.py` — see "Populating quiz questions" below. |
+| `make populate-neo4j` | Brings up neo4j, then loads `src/domain_kg/graph.nq` via `src.domain_kg.load_neo4j` (the medical ontology graph, separate from the student graph — see [06-student-graph.md](06-student-graph.md)). |
+| `make populate-students` | Brings up neo4j, then runs `scripts/generate_dummy_interactions.py` — seeds synthetic demo students/activity (seeded `random.seed(42)`, reproducible). |
+| `make populate` | All three `populate-*` targets in sequence. |
 
 ## Running the API
 
 ```bash
 .venv/bin/uvicorn app.main:app --reload
+# or: make server
 ```
 
 Requires `make neo4j-up` and `make mlflow-up` (or `make up`) running first —
 `app/dependencies.py` connects to Neo4j on first request and `src/quiz/bank.py` connects
 to postgres, both failing if unreachable. Postgres also needs `mcq_questions` populated —
-see "Populating quiz questions" below.
+see "Populating quiz questions" below. `CORS_ALLOWED_ORIGINS` also needs to be set in
+`.env` if a frontend will call the API from a browser (see "Local setup" above).
 
 ## Running the ingestion pipeline
 
@@ -82,16 +94,31 @@ This reads `notebooks/master_mcq_with_topics.json` and upserts into `mcq_questio
 postgres is reachable, and `.env` populated with `POSTGRES_*` vars. Re-run after updating
 the source JSON — `src/quiz/bank.py` caches the bank in-process
 (`@lru_cache(maxsize=1)`), so a running server also needs a restart to pick up changes.
+This same cached bank backs both the quiz router and the flashcards router
+(`src/flashcards/cards.py`) — there's no separate flashcard content table to populate.
+
+## Running tests
+
+```bash
+.venv/bin/pytest
+```
+
+`pyproject.toml` sets `testpaths = ["tests"]`, `pythonpath = ["src", "."]`. Current
+coverage: `tests/conftest.py`, `test_students_api.py`, `test_quiz_api.py`,
+`test_flashcards_api.py`, `test_error_handling.py`, `test_diagram_processing.py`. No
+coverage tooling configured (no `pytest-cov`), and nothing runs this automatically — see
+"Known gaps" below re: CI.
 
 ## Known gaps
 
 Flagged here so nobody mistakes silence for "this is fine" — none of these block current
-functionality, but a new engineer should know about them before assuming test/CI coverage
+functionality, but a new engineer should know about them before assuming CI coverage
 exists or that every deployed service is load-bearing.
 
-- **Zero automated tests.** No `pytest`, no test directory, no `conftest.py`, and
-  `pyproject.toml`'s dev dependency group only lists notebook tooling
-  (`ipykernel`/`nbconvert`/`nbformat`) — no test framework at all.
+- **Tests exist, but nothing runs them automatically.** `tests/` has real coverage (see
+  "Running tests" above) — this is a change from an earlier version of this doc, which
+  claimed zero tests existed. What's still true: no CI wiring runs `pytest` on push or
+  PR, so a broken test doesn't block a merge.
 - **Zero CI.** No `.github/workflows/`. Nothing runs automatically on push or PR.
 - **MLflow: deployed, never called.** `docker-compose.yml` runs a full MLflow tracking
   server (postgres-backed, MinIO artifact store), and `mlflow` is a listed dependency in
