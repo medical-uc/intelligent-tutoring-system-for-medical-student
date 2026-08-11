@@ -4,6 +4,7 @@ from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
 from app.limiter import limiter
+from app.openapi import error_responses
 from app.schemas import (
     EnergyResponse,
     NudgePreviewItem,
@@ -40,7 +41,12 @@ router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
 
 
-@router.post("/register", response_model=StudentRegisterResponse, status_code=201)
+@router.post(
+    "/register",
+    response_model=StudentRegisterResponse,
+    status_code=201,
+    responses=error_responses(429),
+)
 @limiter.limit("5/minute")
 def register_student(
     request: Request,
@@ -58,7 +64,9 @@ def register_student(
     )
 
 
-@router.post("/login", response_model=SessionResponse)
+@router.post(
+    "/login", response_model=SessionResponse, responses=error_responses(404, 429)
+)
 @limiter.limit("10/minute")
 def login_student(
     request: Request,
@@ -77,7 +85,7 @@ def login_student(
     )
 
 
-@router.post("/logout", status_code=204)
+@router.post("/logout", status_code=204, responses=error_responses(401))
 def logout_student(
     credentials: HTTPAuthorizationCredentials = Depends(_bearer_scheme),
     driver: Driver = Depends(get_driver),
@@ -85,14 +93,18 @@ def logout_student(
     revoke_session(driver, credentials.credentials)
 
 
-@router.get("/me", response_model=SessionCheckResponse)
+@router.get("/me", response_model=SessionCheckResponse, responses=error_responses(401))
 def check_session(
     student_id: str = Depends(get_current_student_id),
 ) -> SessionCheckResponse:
     return SessionCheckResponse(authenticated=True, student_id=student_id)
 
 
-@router.get("/me/profile", response_model=StudentProfileResponse)
+@router.get(
+    "/me/profile",
+    response_model=StudentProfileResponse,
+    responses=error_responses(401, 404),
+)
 def get_my_profile(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -111,7 +123,9 @@ def get_my_profile(
     )
 
 
-@router.get("/me/streak", response_model=StreakResponse)
+@router.get(
+    "/me/streak", response_model=StreakResponse, responses=error_responses(401)
+)
 def get_my_streak(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -132,7 +146,11 @@ def get_my_streak(
     )
 
 
-@router.post("/me/streak/restore", response_model=RestoreStreakResponse)
+@router.post(
+    "/me/streak/restore",
+    response_model=RestoreStreakResponse,
+    responses=error_responses(401, 409),
+)
 def restore_my_streak(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -154,7 +172,9 @@ def restore_my_streak(
     )
 
 
-@router.get("/me/energy", response_model=EnergyResponse)
+@router.get(
+    "/me/energy", response_model=EnergyResponse, responses=error_responses(401, 404)
+)
 def get_my_energy(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -172,7 +192,9 @@ def get_my_energy(
     return EnergyResponse(energy=balance)
 
 
-@router.get("/me/nudge", response_model=NudgeResponse)
+@router.get(
+    "/me/nudge", response_model=NudgeResponse, responses=error_responses(401)
+)
 def get_my_nudge(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),

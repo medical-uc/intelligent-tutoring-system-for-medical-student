@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
+from app.openapi import error_responses
 from app.schemas import (
     CancelSessionResponse,
     CheckAnswerRequest,
@@ -69,12 +70,16 @@ def _validate_selected_index(question: Question, selected_index: int) -> None:
         )
 
 
-@router.get("/topics", response_model=TopicListResponse)
+@router.get(
+    "/topics", response_model=TopicListResponse, responses=error_responses(401)
+)
 def list_topics(bank: QuestionBank = Depends(_get_bank)) -> TopicListResponse:
     return TopicListResponse(topics=bank.topics())
 
 
-@router.get("/subjects", response_model=SubjectListResponse)
+@router.get(
+    "/subjects", response_model=SubjectListResponse, responses=error_responses(401)
+)
 def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListResponse:
     """Subject -> topic catalog for the Subjects browse page. flashcard_count mirrors
     question_count since every flashcard is 1:1-derived from a bank question (see
@@ -100,7 +105,11 @@ def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListRespons
     )
 
 
-@router.get("/topics/{topic_path:path}/questions", response_model=list[QuestionOut])
+@router.get(
+    "/topics/{topic_path:path}/questions",
+    response_model=list[QuestionOut],
+    responses=error_responses(401, 404),
+)
 def get_questions_for_topic(
     topic_path: str,
     bank: QuestionBank = Depends(_get_bank),
@@ -113,7 +122,11 @@ def get_questions_for_topic(
     return [_to_question_out(q) for q in questions]
 
 
-@router.post("/topics/{topic_path:path}/sessions", response_model=StartSessionResponse)
+@router.post(
+    "/topics/{topic_path:path}/sessions",
+    response_model=StartSessionResponse,
+    responses=error_responses(401, 404),
+)
 def start_quiz_session(
     topic_path: str,
     student_id: str = Depends(get_current_student_id),
@@ -131,7 +144,11 @@ def start_quiz_session(
     return StartSessionResponse(session_id=session_id)
 
 
-@router.post("/sessions/{session_id}/end", response_model=EndSessionResponse)
+@router.post(
+    "/sessions/{session_id}/end",
+    response_model=EndSessionResponse,
+    responses=error_responses(401, 404),
+)
 def end_quiz_session(
     session_id: str,
     student_id: str = Depends(get_current_student_id),
@@ -148,7 +165,11 @@ def end_quiz_session(
     return EndSessionResponse(**summary)
 
 
-@router.post("/sessions/{session_id}/cancel", response_model=CancelSessionResponse)
+@router.post(
+    "/sessions/{session_id}/cancel",
+    response_model=CancelSessionResponse,
+    responses=error_responses(401, 404),
+)
 def cancel_quiz_session(
     session_id: str,
     student_id: str = Depends(get_current_student_id),
@@ -169,7 +190,9 @@ def cancel_quiz_session(
     return CancelSessionResponse(**summary)
 
 
-@router.get("/history", response_model=HistoryResponse)
+@router.get(
+    "/history", response_model=HistoryResponse, responses=error_responses(401)
+)
 def get_history(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -199,7 +222,9 @@ def get_history(
     return HistoryResponse(items=items)
 
 
-@router.get("/review/due", response_model=DueReviewResponse)
+@router.get(
+    "/review/due", response_model=DueReviewResponse, responses=error_responses(401)
+)
 def get_due_for_review(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -223,7 +248,9 @@ def get_due_for_review(
     )
 
 
-@router.get("/mastery", response_model=MasteryResponse)
+@router.get(
+    "/mastery", response_model=MasteryResponse, responses=error_responses(401)
+)
 def get_mastery(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -245,7 +272,11 @@ def get_mastery(
     )
 
 
-@router.put("/mastery", response_model=UpdateMasteryResponse)
+@router.put(
+    "/mastery",
+    response_model=UpdateMasteryResponse,
+    responses=error_responses(401, 404),
+)
 def update_mastery(
     body: UpdateMasteryRequest,
     student_id: str = Depends(get_current_student_id),
@@ -268,7 +299,11 @@ def update_mastery(
     return UpdateMasteryResponse(updated_count=updated_count)
 
 
-@router.post("/questions/{uid}/check", response_model=CheckAnswerResponse)
+@router.post(
+    "/questions/{uid}/check",
+    response_model=CheckAnswerResponse,
+    responses=error_responses(400, 401, 404),
+)
 def check_answer(
     uid: str,
     body: CheckAnswerRequest,
@@ -288,7 +323,11 @@ def check_answer(
     )
 
 
-@router.post("/questions/{uid}/log", response_model=LogAttemptResponse)
+@router.post(
+    "/questions/{uid}/log",
+    response_model=LogAttemptResponse,
+    responses=error_responses(400, 401, 404),
+)
 def log_attempt(
     uid: str,
     body: LogAttemptRequest,

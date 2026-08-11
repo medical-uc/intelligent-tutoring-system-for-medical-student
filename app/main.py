@@ -16,12 +16,14 @@ from app.auth_middleware import SessionAuthMiddleware
 from app.dependencies import get_driver
 from app.errors import error_body, register_exception_handlers
 from app.limiter import limiter
+from app.openapi import install_openapi
 from app.routers import flashcards, quiz, students
 
 load_dotenv()
 
-app = FastAPI(title="Student Knowledge Graph API")
+app = FastAPI(title="Student Knowledge Graph API", version="0.1.0")
 app.state.limiter = limiter
+install_openapi(app)
 
 
 @app.exception_handler(RateLimitExceeded)
