@@ -5,8 +5,8 @@ from pydantic import BaseModel, Field
 
 
 class StudentRegisterRequest(BaseModel):
-    full_name: str = Field(min_length=1)
-    student_number: str = Field(min_length=1)
+    full_name: str = Field(min_length=1, max_length=200)
+    student_number: str = Field(min_length=1, max_length=50)
     academic_year: int = Field(ge=1, le=6)
 
 
@@ -17,7 +17,7 @@ class StudentRegisterResponse(BaseModel):
 
 
 class StudentLoginRequest(BaseModel):
-    student_number: str = Field(min_length=1)
+    student_number: str = Field(min_length=1, max_length=50)
 
 
 class SessionResponse(BaseModel):
@@ -116,7 +116,7 @@ class ConfidenceLevel(str, Enum):
 
 
 class CheckAnswerRequest(BaseModel):
-    selected_index: int = Field(ge=0)
+    selected_index: int = Field(ge=0, le=25)
 
 
 class CheckAnswerResponse(BaseModel):
@@ -126,11 +126,11 @@ class CheckAnswerResponse(BaseModel):
 
 
 class LogAttemptRequest(BaseModel):
-    session_id: str
-    selected_index: int = Field(ge=0)
+    session_id: str = Field(min_length=1)
+    selected_index: int = Field(ge=0, le=25)
     confidence: ConfidenceLevel
-    time_taken_seconds: float = Field(ge=0)
-    next_review_days: int | None = Field(default=None, ge=1)
+    time_taken_seconds: float = Field(ge=0, le=86400)
+    next_review_days: int | None = Field(default=None, ge=1, le=3650)
 
 
 class LogAttemptResponse(BaseModel):
@@ -198,8 +198,8 @@ class MasteryResponse(BaseModel):
 
 
 class MasteryUpdateItem(BaseModel):
-    topic_path: str
-    p_know: float
+    topic_path: str = Field(min_length=1)
+    p_know: float = Field(ge=0.0, le=1.0)
 
 
 class UpdateMasteryRequest(BaseModel):
@@ -234,7 +234,7 @@ class FlashcardRating(str, Enum):
 
 
 class LogFlashcardReviewRequest(BaseModel):
-    session_id: str
+    session_id: str = Field(min_length=1)
     rating: FlashcardRating
 
 

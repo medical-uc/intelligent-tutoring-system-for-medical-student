@@ -3,6 +3,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
+from app.errors import error_body
 from src.student_kg.session import validate_session
 
 # Paths reachable without a session token. Register/login issue the token in the
@@ -29,15 +30,13 @@ class SessionAuthMiddleware(BaseHTTPMiddleware):
         auth_header = request.headers.get("Authorization", "")
         scheme, _, token = auth_header.partition(" ")
         if scheme.lower() != "bearer" or not token:
-            return JSONResponse(
-                {"detail": "missing bearer token"}, status_code=401
-            )
+            return JSONResponse(error_body(401, "missing bearer token"), status_code=401)
 
         driver: Driver = self._driver_factory()
         student_id = validate_session(driver, token)
         if student_id is None:
             return JSONResponse(
-                {"detail": "invalid, expired, or revoked session"}, status_code=401
+                error_body(401, "invalid, expired, or revoked session"), status_code=401
             )
 
         request.state.student_id = student_id

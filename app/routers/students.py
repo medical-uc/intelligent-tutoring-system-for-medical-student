@@ -1,8 +1,9 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
+from app.limiter import limiter
 from app.schemas import (
     EnergyResponse,
     NudgePreviewItem,
@@ -40,7 +41,9 @@ _bearer_scheme = HTTPBearer()
 
 
 @router.post("/register", response_model=StudentRegisterResponse, status_code=201)
+@limiter.limit("5/minute")
 def register_student(
+    request: Request,
     body: StudentRegisterRequest,
     driver: Driver = Depends(get_driver),
 ) -> StudentRegisterResponse:
@@ -56,7 +59,9 @@ def register_student(
 
 
 @router.post("/login", response_model=SessionResponse)
+@limiter.limit("10/minute")
 def login_student(
+    request: Request,
     body: StudentLoginRequest,
     driver: Driver = Depends(get_driver),
 ) -> SessionResponse:
