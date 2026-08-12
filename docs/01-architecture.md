@@ -18,6 +18,13 @@ API never needs Torch, Transformers, or a vision-language model loaded. If you'r
 debugging "why is this question wrong," you're in half 1. If you're debugging "why did
 this HTTP request fail," you're in half 2.
 
+**A third, standalone piece as of 2026-08-12:** `src/domain_kg/` — a staged pipeline
+(textbook markdown → NER/relations → UMLS-linked RDF graph → MCQs) ported in from a
+separate `medkg` repo. It doesn't talk to either half above yet — no import of
+`domain_kg` exists outside itself. Treat it as a third, currently-disconnected system
+until an integration decision is made. Full detail:
+[08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
+
 ## System diagram
 
 ```mermaid
@@ -106,6 +113,12 @@ src/
   captioning/             vision-language captioning of extracted figures
   evaluation/             mineru_quality.py — diagnostic-only quality scorer, not
                           in the production data path
+  domain_kg/              STANDALONE, not called from app/ or scripts/ — staged
+                          KG pipeline (stages 1-8): textbook markdown -> UMLS-linked
+                          RDF graph -> MCQs. stages/, cli/, llm/ (Claude/meditron/
+                          huatuo backends), data/ (ontology + graph.nt/.nq + doc
+                          fixtures, git-tracked). See
+                          [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
 
 notebooks/                interactive pipeline stages + MCQ generation
   mcq_output/

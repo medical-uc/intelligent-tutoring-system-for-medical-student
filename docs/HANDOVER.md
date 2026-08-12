@@ -1,10 +1,18 @@
 # Project Handover — Intelligent Tutoring System for Medical Student
 
-Date: 2026-08-11
-Branch at handover: `feat/textbook-parser` (7 commits ahead of `main`, not yet merged, clean tree)
-Prior docs: [01-architecture.md](01-architecture.md) → [07-operations.md](07-operations.md) —
-detailed, but last updated **2026-08-06**. This handover layers on top and flags what's
+Date: 2026-08-12
+Branch at handover: `feat/textbook-parser` (8 commits ahead of `main`, not yet merged, clean tree)
+Prior docs: [01-architecture.md](01-architecture.md) → [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md) —
+detailed, kept in sync as of this handover. This handover layers on top and flags what's
 changed or missing since, rather than repeating them.
+
+**Since the 2026-08-11 revision of this handover:** commit `2892222` ported a standalone
+`domain_kg` staged knowledge-graph pipeline (stages 1-8: parse → NER/relation-extract →
+UMLS-link → post-coordinate → image-caption-link → RDF-assert → OWL-RL-reason → serve)
+into `src/domain_kg/`. Full detail: [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
+This is a **new, separate, not-yet-wired-in** subsystem — it does not replace anything
+described below, and none of the "not yet decided" items from the prior revision were
+resolved by it (if anything it adds one: see §9).
 
 ---
 
@@ -170,7 +178,9 @@ src/
   student_kg/        Neo4j student/session/streak/energy primitives
   quiz/               question bank loader + attempt recording
   flashcards/         card/review/session logic (Anki-style)
-  domain_kg/           ontology + graph.nt (medical knowledge graph)
+  domain_kg/           staged KG pipeline (stages 1-8): textbook markdown -> RDF graph
+                      + UMLS links + MCQs. Standalone, not called from app/ or scripts/
+                      yet. See [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
   evaluation/          mineru_quality.py — diagnostic-only, not production path
 scripts/
   ingest_data.py               PDF(s) → chunks — the production ingestion CLI
@@ -182,10 +192,14 @@ tests/               pytest suite (see §7)
 Full repo map with rationale: [01-architecture.md](01-architecture.md).
 
 **Environment setup:**
-- Two separate Python envs, both **required**: `.venv` (main, `uv`-managed,
-  `pyproject.toml`, Python ≥3.13 — everything except MinerU) and `.venv-mineru`
-  (isolated, MinerU only, created per MinerU's own install docs — **not** in
-  `pyproject.toml` by design, since MinerU's deps conflict with the main env).
+- Two separate Python envs, both **required** for the app + main ingestion path: `.venv`
+  (main, `uv`-managed, `pyproject.toml`, Python ≥3.13 — everything except MinerU) and
+  `.venv-mineru` (isolated, MinerU only, created per MinerU's own install docs — **not**
+  in `pyproject.toml` by design, since MinerU's deps conflict with the main env).
+- A **third, so-far-uncommitted** env is now needed for `domain_kg` Stage 2/3
+  (scispaCy + spaCy `<3.8` + faiss-cpu need Python 3.9–3.11, incompatible with the main
+  `.venv`'s `>=3.13` pin) — see [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md). No
+  recipe for it is checked in yet.
 - `cp .env.example .env` (or `make setup`, which every other `make` target depends on).
 - Infra via Docker Compose (`docker-compose.yml`): Postgres, MinIO, MLflow, Neo4j. `make
   neo4j-up` is the minimum to run the API; `make mlflow-up` additionally brings up
@@ -385,6 +399,10 @@ criteria referenced in §1.
 - Stale prototype file `data/mcq/mcqs.json`, nothing reads it — candidate for deletion.
 - `CORS_ALLOWED_ORIGINS` not documented in `.env.example` — silent footgun for fresh
   setup.
+- `domain_kg` Stage 2/3 need a separate Python 3.11 env (scispaCy/spaCy/faiss-cpu
+  conflict with the main `>=3.13` pin) with no committed setup recipe — next person to
+  run those stages has to reconstruct it from source imports. See
+  [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
 - **No database-enforced uniqueness on `Question.uid`, `Flashcard.uid`, or `Topic.path`.**
   `src/student_kg/driver.py::ensure_constraints` covers `Student`/`InteractionEvent`/
   `Session` but not these three — their dedup currently relies entirely on every write
@@ -405,6 +423,12 @@ criteria referenced in §1.
   the production `scripts/ingest_data.py` path. No documented decision on whether either
   is meant to replace or supplement MinerU. This is likely the actual in-flight work
   behind the `feat/textbook-parser` branch name — confirm scope/intent directly.
+- `src/domain_kg/` — full staged KG pipeline ported in but not called from anywhere in
+  `app/`/`scripts/` (§ new, see [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)). No
+  decision recorded on how it relates to the existing `notebooks/mcq_generation.ipynb`
+  MCQ pipeline — same underlying problem (textbook → questions), two independent
+  mechanisms now in-repo, no documented plan for which one wins or whether both stay for
+  different purposes.
 
 **Needs a judgment call, not just documentation:**
 
@@ -429,3 +453,6 @@ criteria referenced in §1.
 7. Get and record: original problem statement/success criteria, textbook licensing
    status, and where production credentials (if any) live — none of these are derivable
    from the repo itself.
+8. Decide how `src/domain_kg/` relates to `notebooks/mcq_generation.ipynb` — same
+   textbook-to-questions problem, two mechanisms, no documented plan for which persists.
+   See [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).

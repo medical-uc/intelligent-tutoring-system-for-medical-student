@@ -43,7 +43,7 @@ why unless they know to set this; add it to `.env.example` when convenient.
 | `make psql db=<name>` | Shell into the postgres container (defaults to `db=mlflow`). |
 | `make server` | Runs the API itself — `uvicorn app.main:app --reload --reload-dir app --host 0.0.0.0 --port 8000` — as an alternative to the manual `uvicorn` command below. |
 | `make populate-postgres` | Brings up postgres, then runs `scripts/populate_mcq_postgres.py` — see "Populating quiz questions" below. |
-| `make populate-neo4j` | Brings up neo4j, then loads `src/domain_kg/graph.nq` via `src.domain_kg.load_neo4j` (the medical ontology graph, separate from the student graph — see [06-student-graph.md](06-student-graph.md)). |
+| `make populate-neo4j` | Brings up neo4j, then loads `src/domain_kg/data/graph.nq` via `src.domain_kg.load_neo4j` (the medical ontology graph, separate from the student graph — see [06-student-graph.md](06-student-graph.md) and [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)). Note: the `Makefile`'s own comment above this target still says the pre-port path (`src/domain_kg/graph.nq`) — worth a one-line fix. |
 | `make populate-students` | Brings up neo4j, then runs `scripts/generate_dummy_interactions.py` — seeds synthetic demo students/activity (seeded `random.seed(42)`, reproducible). |
 | `make populate` | All three `populate-*` targets in sequence. |
 
