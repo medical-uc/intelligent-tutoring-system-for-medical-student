@@ -29,6 +29,8 @@ Makefile, and running the content pipeline.
 | [05-serving-api.md](docs/05-serving-api.md) | FastAPI app, auth, quiz endpoints |
 | [06-student-graph.md](docs/06-student-graph.md) | Neo4j schema: students, sessions, attempts |
 | [07-operations.md](docs/07-operations.md) | Running everything, known gaps |
+| [08-domain-kg-pipeline.md](docs/08-domain-kg-pipeline.md) | Standalone staged KG pipeline: textbook → UMLS-linked RDF graph → MCQs |
+| [HANDOVER.md](docs/HANDOVER.md) | Project handover — status, open decisions, ops runbook, next steps |
 
 ## License
 

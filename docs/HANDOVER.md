@@ -16,6 +16,63 @@ resolved by it (if anything it adds one: see §9).
 
 ---
 
+## 0. How to run the project
+
+Full detail (all `make` targets, env vars, test running): [07-operations.md](07-operations.md).
+This is the fast path.
+
+**Setup (once):**
+
+```bash
+cp .env.example .env        # or `make setup`, which every other make target depends on
+uv sync                     # main .venv — everything except MinerU and domain_kg Stage 2/3
+```
+
+`.venv-mineru` (MinerU only) needs its own separate install per MinerU's docs — not in
+`pyproject.toml` by design. See §4 below and [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)
+if you also need `domain_kg` Stage 2/3 (a third env, not yet documented as a recipe).
+
+**Run the live app (the thing that actually serves students):**
+
+```bash
+make neo4j-up                              # student graph — minimum to run the API
+.venv/bin/uvicorn app.main:app --reload    # or: make server
+```
+
+`GET /health` should respond once this is up.
+
+**Populate content the app reads from** (empty Neo4j/Postgres otherwise mean empty
+quiz/flashcard endpoints):
+
+```bash
+make mlflow-up          # brings up Postgres (despite the name — see §3/§9 re: MLflow itself unused)
+make populate-postgres  # question_bank -> mcq_questions table, what the API actually reads
+make populate-neo4j     # domain ontology graph -> Neo4j (separate from student graph)
+make populate-students  # optional: seeded synthetic demo students/activity
+# or just: make populate   (all three population targets in sequence)
+```
+
+**Regenerate content from scratch** (PDF → question bank, manual/human-in-the-loop by
+design, no single command does all three — see §2):
+
+```bash
+.venv/bin/python scripts/ingest_data.py --dir data/textbook   # PDFs -> chunks
+# then run notebooks/mcq_generation.ipynb end-to-end             # chunks -> question_bank.json
+.venv/bin/python scripts/populate_mcq_postgres.py                # -> live Postgres table
+```
+
+**Run tests:** `.venv/bin/pytest` (no CI runs this automatically yet — see §5/§9).
+
+**Tear down:** `make down` (stop stack, keep data) or `make clean` (stop stack **and
+destroy volumes** — Postgres + Neo4j + MinIO data gone; confirm before running).
+
+**Not part of "running the project" yet:** `src/domain_kg/` (§ new above,
+[08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)) has its own CLI entrypoints
+(`python -m src.domain_kg.cli.run`, etc.) but nothing in the run path above touches it —
+it's invoked standalone, if at all.
+
+---
+
 ## 1. Project overview
 
 **Problem statement / goal.** Tutoring system for medical students. Two loosely-coupled
