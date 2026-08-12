@@ -5,6 +5,7 @@ description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
     "accelerate>=1.14.0",
+    "anthropic>=0.40",
     "black>=26.5.1",
     "boto3>=1.35.99",
     "einops>=0.8.2",
@@ -15,6 +16,7 @@ dependencies = [
     "mlx-vlm>=0.6.8",
     "neo4j>=5.28.0",
     "opencv-python>=5.0.0.93",
+    "owlrl>=6.0",
     "paddleocr>=2.10.0",
     "paddlepaddle>=3.3.1",
     "pillow>=12.3.0",
@@ -32,6 +34,14 @@ dependencies = [
     "transformers>=5.14.1",
     "uvicorn[standard]>=0.38.0",
 ]
+
+# domain_kg (src/domain_kg, ported from the standalone medkg pipeline) also
+# uses scispaCy + spaCy<3.8 + faiss-cpu for Stage 2 NER and Stage 3 entity
+# linking. Those pin Python 3.9-3.11 (no scispaCy 0.5.4 wheels for 3.12+),
+# which conflicts with requires-python >=3.13 above, so they are NOT declared
+# here. Stages 1, 4, 5, 6, 7, 8, guards, corpus and mcq run fine without them;
+# Stage 2 NER and Stage 3 linking need a separate Python 3.11 environment
+# until that conflict is resolved.
 
 [dependency-groups]
 dev = [
