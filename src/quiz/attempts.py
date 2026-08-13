@@ -77,9 +77,12 @@ WITH s, e, q, effective_ts
 MERGE (s)-[r:REVIEWING]->(q)
 ON CREATE SET r.streak = 0, r.attempt_count = 0
 WITH s, e, q, r, effective_ts,
-     $correct AND $confidence = "confident" AS strong_pass
-SET r.streak = CASE WHEN strong_pass THEN coalesce(r.streak, 0) + 1 ELSE 0 END,
-    r.interval_days = CASE WHEN strong_pass THEN toInteger(2 ^ (coalesce(r.streak, 0) + 1)) ELSE 1 END,
+     $correct AND $confidence = "confident" AS strong_pass,
+     coalesce(r.streak, 0) AS prev_streak
+WITH s, e, q, r, effective_ts, strong_pass,
+     CASE WHEN strong_pass THEN prev_streak + 1 ELSE 0 END AS new_streak
+SET r.streak = new_streak,
+    r.interval_days = CASE WHEN strong_pass THEN toInteger(2 ^ new_streak) ELSE 1 END,
     r.attempt_count = coalesce(r.attempt_count, 0) + 1,
     r.last_reviewed_at = effective_ts
 WITH s, e, q, r, effective_ts, CASE WHEN r.interval_days > 60 THEN 60 ELSE r.interval_days END AS capped_interval
