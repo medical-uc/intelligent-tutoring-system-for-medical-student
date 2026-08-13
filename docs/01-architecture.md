@@ -25,6 +25,14 @@ separate `medkg` repo. It doesn't talk to either half above yet — no import of
 until an integration decision is made. Full detail:
 [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
 
+**A fourth, prototype piece:** `notebooks/knowledge_tracing.ipynb` — a server-side
+Bayesian Knowledge Tracing model fit over Neo4j interaction history, producing the
+per-student, per-topic `p_know` that drives personalization ("what is this student weak
+in"). Not called from `app/`, `src/`, or any script yet — today `p_know` is still
+computed client-side and pushed via `PUT /quiz/mastery` (see "Mastery" in
+[06-student-graph.md](06-student-graph.md#mastery--masters-not-event-sourced-by-design-trade-off)).
+Full detail: [09-knowledge-tracing.md](09-knowledge-tracing.md).
+
 ## System diagram
 
 ```mermaid

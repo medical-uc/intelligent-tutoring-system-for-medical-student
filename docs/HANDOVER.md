@@ -61,6 +61,15 @@ design, no single command does all three — see §2):
 .venv/bin/python scripts/populate_mcq_postgres.py                # -> live Postgres table
 ```
 
+**Run the knowledge-tracing prototype** (server-side BKT, personalization signal — not
+wired into the app, notebook-only; see [09-knowledge-tracing.md](09-knowledge-tracing.md)):
+
+```bash
+make neo4j-up            # if not already up
+make populate-students   # scripts/generate_dummy_interactions.py -> synthetic attempts
+# then run notebooks/knowledge_tracing.ipynb end-to-end
+```
+
 **Run tests:** `.venv/bin/pytest` (no CI runs this automatically yet — see §5/§9).
 
 **Tear down:** `make down` (stop stack, keep data) or `make clean` (stop stack **and
@@ -69,7 +78,9 @@ destroy volumes** — Postgres + Neo4j + MinIO data gone; confirm before running
 **Not part of "running the project" yet:** `src/domain_kg/` (§ new above,
 [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)) has its own CLI entrypoints
 (`python -m src.domain_kg.cli.run`, etc.) but nothing in the run path above touches it —
-it's invoked standalone, if at all.
+it's invoked standalone, if at all. Same for the knowledge-tracing notebook above — its
+`p_know` output isn't written back to Neo4j or read by any endpoint; the live app still
+gets mastery from client-pushed `PUT /quiz/mastery` (§6).
 
 ---
 

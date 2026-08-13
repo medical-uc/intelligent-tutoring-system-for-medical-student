@@ -169,6 +169,13 @@ number for sync/display" is a faithful extension of the original principle, or a
 walk-back of it, is a genuinely open question flagged for whoever owns the BKT client —
 not resolved either way in this doc.
 
+A prototype server-side answer to this question exists:
+[09-knowledge-tracing.md](09-knowledge-tracing.md) fits BKT over this same event history
+(`QUIZ_ANSWER` + `REVIEWING.attempt_count`) directly in a notebook, producing the same
+per-(student, topic) `p_know` shape `MASTERS` stores today. Not wired in — evaluated
+standalone (AUC 0.5658 next-step prediction on 10.4k dummy attempts), not yet plugged
+into `src/quiz/mastery.py` or any write path.
+
 ## Relationship types
 
 | Relationship | Direction | Notes |

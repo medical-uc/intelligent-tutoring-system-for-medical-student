@@ -145,6 +145,11 @@ zero mastery inference of its own. Whether that distinction fully satisfies the 
 design intent, or represents drift from it, is worth a direct conversation with whoever
 owns the BKT client implementation — flagged here rather than silently resolved either way.
 
+A prototype server-side BKT (`notebooks/knowledge_tracing.ipynb`,
+[09-knowledge-tracing.md](09-knowledge-tracing.md)) exists that could replace this
+client-push model with a genuinely derived `GET /quiz/mastery` and retire `PUT
+/quiz/mastery` entirely — not integrated yet, evaluation-only so far.
+
 ## Quiz router — check / log
 
 This is the part of the API with real design history behind it, worth reading in full.
