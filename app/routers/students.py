@@ -31,6 +31,7 @@ from src.student_kg.session import (
     revoke_session,
 )
 from src.student_kg.streak import (
+    activity_dates,
     current_streak,
     previous_streak,
     restore_streak,
@@ -138,11 +139,16 @@ def get_my_streak(
     still live — equal to current_streak while the streak is active, or the length of
     the run that just ended when current_streak reads 0 (broken). Frontend: show
     "streak broken" using previous_streak when current_streak == 0 and previous_streak
-    > 0."""
+    > 0.
+
+    activity_dates is the student's full activity history (every UTC day with a quiz
+    session or flashcard review), ascending — for a calendar/heatmap view beyond the
+    single-week_activity row."""
     return StreakResponse(
         current_streak=current_streak(driver, student_id),
         previous_streak=previous_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
+        activity_dates=activity_dates(driver, student_id),
     )
 
 
