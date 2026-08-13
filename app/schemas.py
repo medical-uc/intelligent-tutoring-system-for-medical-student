@@ -63,6 +63,7 @@ class NudgeSource(str, Enum):
 class NudgePreviewItem(BaseModel):
     source: NudgeSource
     question_uid: str
+    topic_path: str
     next_review_at: datetime
 
 
@@ -178,6 +179,7 @@ class HistoryResponse(BaseModel):
 
 class DueReviewItem(BaseModel):
     question_uid: str
+    topic_path: str
     streak: int
     interval_days: int
     last_reviewed_at: datetime
@@ -250,6 +252,7 @@ class LogFlashcardReviewResponse(BaseModel):
 
 class DueFlashcardItem(BaseModel):
     question_uid: str
+    topic_path: str
     streak: int
     interval_days: int
     last_reviewed_at: datetime

@@ -19,10 +19,12 @@ from app.schemas import (
     StudentRegisterRequest,
     StudentRegisterResponse,
 )
+from src.flashcards.cards import get_flashcard
 from src.flashcards.reviews import count_due_for_review as count_due_flashcards
 from src.flashcards.reviews import due_for_review as due_flashcards
 from src.quiz.attempts import count_due_for_review as count_due_quiz
 from src.quiz.attempts import due_for_review as due_quiz
+from src.quiz.bank import QuestionBank, load_question_bank
 from src.student_kg.energy import get_energy
 from src.student_kg.enrollment import enroll_student, get_student_by_id
 from src.student_kg.session import (
@@ -40,6 +42,10 @@ from src.student_kg.streak import (
 
 router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
+
+
+def _get_bank() -> QuestionBank:
+    return load_question_bank()
 
 
 @router.post(
@@ -204,6 +210,7 @@ def get_my_energy(
 def get_my_nudge(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
+    bank: QuestionBank = Depends(_get_bank),
 ) -> NudgeResponse:
     """Dashboard due-for-review nudge: how many quiz questions and flashcards this
     student's spaced-repetition schedule says are due right now, plus whichever single
@@ -223,9 +230,16 @@ def get_my_nudge(
         candidates.append((NudgeSource.FLASHCARD, flashcard_top[0]))
     if candidates:
         source, item = min(candidates, key=lambda c: c[1]["next_review_at"])
+        if source == NudgeSource.QUIZ:
+            question = bank.get(item["question_uid"])
+            topic_path = question.topic_path if question else ""
+        else:
+            card = get_flashcard(item["question_uid"], bank=bank)
+            topic_path = " > ".join(card.topic_tag) if card else ""
         soonest = NudgePreviewItem(
             source=source,
             question_uid=item["question_uid"],
+            topic_path=topic_path,
             next_review_at=item["next_review_at"].to_native(),
         )
 

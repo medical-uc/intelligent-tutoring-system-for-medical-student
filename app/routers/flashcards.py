@@ -332,20 +332,26 @@ def get_history(
 def get_due_for_review(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
+    bank: QuestionBank = Depends(_get_bank),
 ) -> DueFlashcardResponse:
     """Cards this student has reviewed before whose schedule says they're due again now,
     soonest-due first. A card never reviewed yet has no schedule and never appears here —
-    pair with /topics/{path}/cards for "drill this topic fresh" flows."""
+    pair with /topics/{path}/cards for "drill this topic fresh" flows. Rows whose question
+    no longer exists in the bank are skipped, same convention as GET /history."""
     items = due_for_review(driver, student_id=student_id)
-    return DueFlashcardResponse(
-        items=[
+    result = []
+    for r in items:
+        card = get_flashcard(r["question_uid"], bank=bank)
+        if card is None:
+            continue
+        result.append(
             DueFlashcardItem(
                 question_uid=r["question_uid"],
+                topic_path=" > ".join(card.topic_tag),
                 streak=r["streak"],
                 interval_days=r["interval_days"],
                 last_reviewed_at=r["last_reviewed_at"].to_native(),
                 next_review_at=r["next_review_at"].to_native(),
             )
-            for r in items
-        ]
-    )
+        )
+    return DueFlashcardResponse(items=result)
