@@ -173,7 +173,9 @@ A prototype server-side answer to this question exists:
 [09-knowledge-tracing.md](09-knowledge-tracing.md) fits BKT over this same event history
 (`QUIZ_ANSWER` + `REVIEWING.attempt_count`) directly in a notebook, producing the same
 per-(student, topic) `p_know` shape `MASTERS` stores today. Not wired in — evaluated
-standalone (AUC 0.5658 next-step prediction on 10.4k dummy attempts), not yet plugged
+standalone (AUC 0.6819 next-step prediction on 10.4k dummy attempts, after EM-fitting
+the BKT parameters — see [09-knowledge-tracing.md](09-knowledge-tracing.md) for the
+formula and the 0.5658 hand-picked-params baseline it improves on), not yet plugged
 into `src/quiz/mastery.py` or any write path.
 
 ## Relationship types
