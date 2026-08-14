@@ -30,6 +30,7 @@ _OPEN_PATTERNS = tuple(
     for p in (
         r"^/quiz/topics$",
         r"^/quiz/subjects$",
+        r"^/quiz/questions$",
         r"^/quiz/topics/.+/questions$",
         r"^/quiz/questions/[^/]+/check$",
         r"^/flashcards/cards$",

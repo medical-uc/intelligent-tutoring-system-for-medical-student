@@ -145,6 +145,15 @@ class StartSessionResponse(BaseModel):
     session_id: str
 
 
+class StartBatchQuizSessionRequest(BaseModel):
+    size: int = Field(default=10, ge=1, le=50)
+
+
+class StartBatchQuizSessionResponse(BaseModel):
+    session_id: str
+    question_uids: list[str]
+
+
 class EndSessionResponse(BaseModel):
     session_id: str
     question_count: int

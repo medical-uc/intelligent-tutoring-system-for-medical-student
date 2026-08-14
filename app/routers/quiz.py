@@ -18,6 +18,8 @@ from app.schemas import (
     MasteryResponse,
     OptionOut,
     QuestionOut,
+    StartBatchQuizSessionRequest,
+    StartBatchQuizSessionResponse,
     StartSessionResponse,
     SubjectListResponse,
     SubjectOut,
@@ -106,6 +108,17 @@ def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListRespons
 
 
 @router.get(
+    "/questions", response_model=list[QuestionOut], responses=error_responses(401)
+)
+def get_all_questions(bank: QuestionBank = Depends(_get_bank)) -> list[QuestionOut]:
+    """The whole question bank, unscoped — pairs with POST /sessions (the cross-topic
+    batch session), same way GET /flashcards/cards pairs with POST /flashcards/sessions:
+    the client fetches everything once, builds a uid -> question lookup, and filters
+    against a session's question_uids locally rather than fetching per-topic."""
+    return [_to_question_out(q) for q in bank.all()]
+
+
+@router.get(
     "/topics/{topic_path:path}/questions",
     response_model=list[QuestionOut],
     responses=error_responses(401, 404),
@@ -120,6 +133,30 @@ def get_questions_for_topic(
             status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic"
         )
     return [_to_question_out(q) for q in questions]
+
+
+@router.post(
+    "/sessions",
+    response_model=StartBatchQuizSessionResponse,
+    responses=error_responses(401, 404),
+)
+def start_batch_quiz_session(
+    body: StartBatchQuizSessionRequest = StartBatchQuizSessionRequest(),
+    student_id: str = Depends(get_current_student_id),
+    bank: QuestionBank = Depends(_get_bank),
+    driver: Driver = Depends(get_driver),
+) -> StartBatchQuizSessionResponse:
+    """Starts a due-first batch of up to `size` questions (10 by default) drawn from the
+    whole bank: due-for-review questions first (soonest-due), then never-answered
+    questions top up the rest. The returned question_uids is the fixed batch for this
+    session — walk it with /questions/{uid}/check and /questions/{uid}/log same as a
+    topic run, then call /sessions/{id}/end."""
+    session = start_session(driver, student_id=student_id, bank=bank, size=body.size)
+    if session is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no questions available"
+        )
+    return StartBatchQuizSessionResponse(**session)
 
 
 @router.post(
@@ -140,8 +177,8 @@ def start_quiz_session(
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic"
         )
-    session_id = start_session(driver, student_id=student_id, topic_path=topic_path)
-    return StartSessionResponse(session_id=session_id)
+    session = start_session(driver, student_id=student_id, topic_path=topic_path)
+    return StartSessionResponse(session_id=session["session_id"])
 
 
 @router.post(

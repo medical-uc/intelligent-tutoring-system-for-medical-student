@@ -18,6 +18,14 @@ def test_list_subjects(client):
     assert "topics" in subjects[0]
 
 
+def test_get_all_questions_no_auth_required(client):
+    resp = client.get("/quiz/questions")
+    assert resp.status_code == 200
+    questions = resp.json()
+    assert len(questions) > 0
+    assert "options" in questions[0]
+
+
 def test_get_questions_for_unknown_topic_is_404(client):
     resp = client.get("/quiz/topics/NO-SUCH-TOPIC-XYZ/questions")
     assert resp.status_code == 404
@@ -74,6 +82,57 @@ def test_check_answer_rejects_negative_index(client, sample_question):
         json={"selected_index": -1},
     )
     assert resp.status_code == 422
+
+
+def test_start_batch_session_requires_auth(client):
+    resp = client.post("/quiz/sessions")
+    assert resp.status_code == 401
+
+
+def test_start_batch_session_default_size(client, student):
+    resp = client.post("/quiz/sessions", headers=student["headers"])
+    assert resp.status_code == 200
+    body = resp.json()
+    assert 1 <= len(body["question_uids"]) <= 10
+
+
+def test_start_batch_session_custom_size(client, student):
+    resp = client.post("/quiz/sessions", headers=student["headers"], json={"size": 3})
+    assert resp.status_code == 200
+    assert len(resp.json()["question_uids"]) <= 3
+
+
+def test_start_batch_session_rejects_size_over_max(client, student):
+    resp = client.post("/quiz/sessions", headers=student["headers"], json={"size": 51})
+    assert resp.status_code == 422
+
+
+def test_start_batch_session_rejects_size_zero(client, student):
+    resp = client.post("/quiz/sessions", headers=student["headers"], json={"size": 0})
+    assert resp.status_code == 422
+
+
+def test_full_batch_quiz_session_flow(client, student, sample_question):
+    start = client.post("/quiz/sessions", headers=student["headers"], json={"size": 5})
+    assert start.status_code == 200
+    session_id = start.json()["session_id"]
+
+    correct_index = sample_question.correct_option_index()
+    log = client.post(
+        f"/quiz/questions/{sample_question.uid}/log",
+        headers=student["headers"],
+        json={
+            "session_id": session_id,
+            "selected_index": correct_index,
+            "confidence": "confident",
+            "time_taken_seconds": 12.5,
+        },
+    )
+    assert log.status_code == 200
+
+    end = client.post(f"/quiz/sessions/{session_id}/end", headers=student["headers"])
+    assert end.status_code == 200
+    assert end.json()["question_count"] == 1
 
 
 def test_start_session_requires_auth(client, sample_topic):
