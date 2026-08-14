@@ -169,14 +169,17 @@ number for sync/display" is a faithful extension of the original principle, or a
 walk-back of it, is a genuinely open question flagged for whoever owns the BKT client —
 not resolved either way in this doc.
 
-A prototype server-side answer to this question exists:
-[09-knowledge-tracing.md](09-knowledge-tracing.md) fits BKT over this same event history
-(`QUIZ_ANSWER` + `REVIEWING.attempt_count`) directly in a notebook, producing the same
-per-(student, topic) `p_know` shape `MASTERS` stores today. Not wired in — evaluated
-standalone (AUC 0.6819 next-step prediction on 10.4k dummy attempts, after EM-fitting
-the BKT parameters — see [09-knowledge-tracing.md](09-knowledge-tracing.md) for the
-formula and the 0.5658 hand-picked-params baseline it improves on), not yet plugged
-into `src/quiz/mastery.py` or any write path.
+A partial server-side answer to this question is now wired in, but it's narrower than
+"the server computes `p_know`": [09-knowledge-tracing.md](09-knowledge-tracing.md) fits
+BKT's shared *parameters* (`p_init`/`p_transit`/`p_slip`/`p_guess` — a population-level
+property, not per-student) over this same event history
+(`QUIZ_ANSWER` + `REVIEWING.attempt_count`), served via `GET /quiz/mastery/params`
+(`src/quiz/bkt_fit.py`) and fetched/cached by the client. AUC 0.6819 next-step
+prediction on 10.4k dummy attempts after EM-fitting, vs. 0.5658 for the original
+hand-picked params — see [09-knowledge-tracing.md](09-knowledge-tracing.md) for the
+formula. `p_know` itself is still entirely client-computed and pushed via `PUT
+/quiz/mastery` exactly as described above — the open question in this section is
+unresolved by that endpoint.
 
 ## Relationship types
 

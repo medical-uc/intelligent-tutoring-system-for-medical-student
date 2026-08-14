@@ -25,12 +25,16 @@ separate `medkg` repo. It doesn't talk to either half above yet — no import of
 until an integration decision is made. Full detail:
 [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
 
-**A fourth, prototype piece:** `notebooks/knowledge_tracing.ipynb` — a server-side
-Bayesian Knowledge Tracing model fit over Neo4j interaction history, producing the
-per-student, per-topic `p_know` that drives personalization ("what is this student weak
-in"). Not called from `app/`, `src/`, or any script yet — today `p_know` is still
-computed client-side and pushed via `PUT /quiz/mastery` (see "Mastery" in
+**A fourth piece:** Bayesian Knowledge Tracing, split deliberately across client and
+server. `p_know` — the per-student, per-topic mastery estimate that drives
+personalization ("what is this student weak in") — is computed **client-side only**
+and pushed via `PUT /quiz/mastery` (see "Mastery" in
 [06-student-graph.md](06-student-graph.md#mastery--masters-not-event-sourced-by-design-trade-off)).
+The shared BKT *parameters* that computation runs on (`p_init`/`p_transit`/`p_slip`/
+`p_guess`) are EM-fit server-side from every student's pooled interaction history
+(`src/quiz/bkt_fit.py`, developed in `notebooks/knowledge_tracing.ipynb`) and served via
+`GET /quiz/mastery/params` for the client to fetch/cache — a population-level fit, not
+a per-student computation, so this doesn't move `p_know` itself server-side.
 Full detail: [09-knowledge-tracing.md](09-knowledge-tracing.md).
 
 ## System diagram
@@ -110,7 +114,9 @@ src/
                           (gamification currency balance)
   quiz/                   question bank loader, attempt recording, sessions.py
                           (quiz-run start/end/cancel/history), mastery.py (stores
-                          client-computed BKT p_know per topic — see below)
+                          client-computed BKT p_know per topic — see below),
+                          bkt_fit.py (EM-fits shared BKT params from pooled
+                          interaction history, served via GET /quiz/mastery/params)
   flashcards/              cards.py (bank-derived flashcard view), reviews.py
                           (rating log + spaced-repetition due list), sessions.py
                           (batch start/end/cancel/history) — same event-sourced

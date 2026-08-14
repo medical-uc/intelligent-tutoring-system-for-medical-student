@@ -127,6 +127,7 @@ Session/history/due-review logic lives in `src/quiz/sessions.py` and
 | --- | --- | --- |
 | `GET /quiz/mastery` | bearer | This student's current per-topic mastery (`p_know`), weakest topic first. |
 | `PUT /quiz/mastery` | bearer | Persists client-computed `p_know` per topic, overwriting whatever was previously stored. |
+| `GET /quiz/mastery/params` | bearer | The shared BKT parameters (`p_init`/`p_transit`/`p_slip`/`p_guess`), EM-fit server-side from every student's pooled `QUIZ_ANSWER` history. Not per-student — see below. |
 
 **Important — where the mastery number comes from.** `p_know` is computed **on-device by
 the frontend's own Bayesian Knowledge Tracing (BKT) implementation**, then pushed here.
@@ -145,10 +146,15 @@ zero mastery inference of its own. Whether that distinction fully satisfies the 
 design intent, or represents drift from it, is worth a direct conversation with whoever
 owns the BKT client implementation — flagged here rather than silently resolved either way.
 
-A prototype server-side BKT (`notebooks/knowledge_tracing.ipynb`,
-[09-knowledge-tracing.md](09-knowledge-tracing.md)) exists that could replace this
-client-push model with a genuinely derived `GET /quiz/mastery` and retire `PUT
-/quiz/mastery` entirely — not integrated yet, evaluation-only so far.
+`GET /quiz/mastery/params` is a narrower, already-wired-in piece of the same BKT work
+(`notebooks/knowledge_tracing.ipynb` → `src/quiz/bkt_fit.py`,
+[09-knowledge-tracing.md](09-knowledge-tracing.md)): it serves the shared
+emission/transition *parameters* the client's on-device BKT runs on, EM-fit
+server-side from every student's pooled `QUIZ_ANSWER` history and refit periodically —
+not `p_know` itself, which stays entirely client-computed via the two endpoints above.
+It does not replace or retire `PUT /quiz/mastery`; a genuinely derived `GET
+/quiz/mastery` (computing `p_know` server-side) remains a separate, unresolved step —
+see [09-knowledge-tracing.md § Relationship to MASTERS](09-knowledge-tracing.md#relationship-to-masters-and-the-client-side-bkt-question).
 
 ## Quiz router — check / log
 

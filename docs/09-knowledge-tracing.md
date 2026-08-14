@@ -1,19 +1,31 @@
 # Knowledge Tracing — personalization engine
 
-Prototype, not wired in. [`notebooks/knowledge_tracing.ipynb`](../notebooks/knowledge_tracing.ipynb)
-fits a **server-side** Bayesian Knowledge Tracing (BKT) model over the student
-interaction graph to answer the actual product question: *for a given student, which
-topics are they weak in?* This is the personalization signal the rest of the system
-consumes — one `p_know` per (student, topic) pair, so "what should this student study
-next" reduces to "sort their topics by `p_know` ascending."
+[`notebooks/knowledge_tracing.ipynb`](../notebooks/knowledge_tracing.ipynb) fits a
+Bayesian Knowledge Tracing (BKT) model over the student interaction graph to answer the
+actual product question: *for a given student, which topics are they weak in?* This is
+the personalization signal the rest of the system consumes — one `p_know` per (student,
+topic) pair, so "what should this student study next" reduces to "sort their topics by
+`p_know` ascending."
 
-This is exploratory work, evaluated against real dummy-data scale, **not** yet a
-replacement for the client-side BKT described in
-[06-student-graph.md § Mastery](06-student-graph.md#mastery--masters-not-event-sourced-by-design-trade-off)
-and [05-serving-api.md § Quiz router — mastery](05-serving-api.md#quiz-router--mastery).
-Today, `p_know` is computed on-device by the frontend and pushed via `PUT /quiz/mastery`;
-`src/quiz/mastery.py` does no BKT math server-side. This notebook is a candidate for
-moving that computation server-side instead — see "Relationship to `MASTERS`" below.
+The split between what's server-side and what's client-side is deliberate, and narrower
+than "the notebook's model runs on the server":
+
+- **`p_know` itself** — the personalized, per-(student, topic) mastery estimate — is
+  computed **on-device only** (the iOS app's `BKTStore.swift`), same as described in
+  [06-student-graph.md § Mastery](06-student-graph.md#mastery--masters-not-event-sourced-by-design-trade-off)
+  and [05-serving-api.md § Quiz router — mastery](05-serving-api.md#quiz-router--mastery).
+  Computed once per graded attempt, pushed to the server via `PUT /quiz/mastery`, and
+  `src/quiz/mastery.py` still does no `p_know` math server-side — this notebook doesn't
+  change that.
+- **The shared BKT parameters** (`p_init`, `p_transit`, `p_slip`, `p_guess`) that
+  `p_know`'s update rule runs on — a population-level property ("how noisy is a
+  confident vs. a guessing answer," pooled across every student), not a per-student one
+  — **are** now fit server-side, from real data, and served to clients. This notebook is
+  where that fit was developed (see "Parameter fitting — EM (Baum-Welch)" below);
+  `src/quiz/bkt_fit.py` is the productionized version of the same code, exposed via
+  `GET /quiz/mastery/params` and fetched/cached by `BKTStore.swift`. See "Relationship
+  to `MASTERS`" below for why this split doesn't reintroduce server-side `p_know`
+  computation.
 
 ## Why BKT, not a sequence model (AKT/DKT)
 
@@ -161,44 +173,43 @@ confidence-conditional design intuition — that's a separate claim EM doesn't t
 
 ## Keeping params fresh
 
-`BKT_PARAMS_FITTED` is a **snapshot fit**, not a live-updating value — it's fit once
-against whatever attempts exist in Neo4j at notebook-run time, then frozen. Two
-different "update" concerns, don't conflate them:
+Two different "update" concerns here, don't conflate them:
 
-- **Per-attempt `p_know`.** Already fully online — no action needed. `bkt_update` takes
-  the current `p_know` plus one new `(correct, confidence)` observation and returns the
-  next `p_know`, O(1), no replay of history. This is the whole point of choosing BKT
-  (see "Why BKT" above) — every new interaction updates `p_know` for its
-  (student, topic) pair on its own, same as it does inside `run_bkt`'s per-attempt loop.
-- **`BKT_PARAMS_FITTED` (the EM fit itself).** Does **not** update per-attempt — it's a
-  batch fit over full sequences (forward-backward needs the whole sequence, not one new
-  point). As real interaction volume grows, the fitted params will drift from what a
-  refit against the larger dataset would produce, the same way any fixed model does
-  without a retrain.
+- **Per-attempt `p_know`.** Fully online, always was — no batch job involved.
+  `BKTStore.record` (iOS) / `bkt_update` (notebook) takes the current `p_know` plus one
+  new `(correct, confidence)` observation and returns the next `p_know`, O(1), no replay
+  of history. This is the whole point of choosing BKT (see "Why BKT" above) — every new
+  interaction updates `p_know` for its (student, topic) pair on its own.
+- **The fitted BKT parameters** (`p_init`/`p_transit`/`p_slip`/`p_guess`). These *do*
+  need periodic refitting as real interaction volume grows — a batch fit over full
+  sequences (forward-backward needs the whole sequence, not one new point), not
+  something that updates per-attempt.
 
-**Current process: manual re-run.** Matches this notebook's prototype/not-wired-in
-status (see "Not yet done" above) — no scheduler, no trigger, no automation yet.
-Re-run the notebook top-to-bottom (needs `make neo4j-up` + populated dummy/real data)
-and commit the resulting `notebooks/bkt_params_fitted.json` when:
+**Production path: live, server-side, self-throttled — no manual step.**
+`src/quiz/bkt_fit.py::get_fitted_params` refits directly from Neo4j on request, cached
+in-process for 6h (`_CACHE_TTL_SECONDS`) so concurrent app launches/syncs don't each
+trigger a fresh query + EM run. Served via `GET /quiz/mastery/params`. The iOS client
+(`BKTStore.refreshParamsIfNeeded`, called from the dashboard's load path) fetches at
+most once per 6h itself, caches the result in `UserDefaults`, and falls back to the
+original hand-picked constants if it has never successfully fetched (e.g. first launch
+while offline) — so a device is never blocked on this call, only ever running on
+possibly-stale-but-always-valid params.
 
-- Attempt volume has grown meaningfully since the last fit (same "order of magnitude"
-  bar used in "Why BKT" above — an incremental handful of new attempts won't move a fit
-  over 10k+ points enough to be worth the churn).
-- Before/after any change that could shift the underlying distribution — e.g. a new
-  cohort of students, a change to how `confidence` is elicited or labeled, or new topics
-  added to the question bank.
-- Before using the fitted params for anything decision-facing (a demo, a review, or a
-  future integration into `src/`), so the numbers reported reflect current data, not a
-  stale run.
+Below `MIN_SEQUENCES_TO_FIT` (100 (student, topic) sequences), `get_fitted_params`
+returns the hand-picked defaults unfit rather than risking the degenerate-parameter
+failure mode a too-small EM fit produces (`fitted_from_defaults: true` in the response)
+— same reasoning as the "Fit globally, not per-topic" call below, applied to the
+overall-too-little-data case.
 
-`notebooks/bkt_params_fitted.json` records `fitted_at`, `n_attempts`/`n_students`/
-`n_topics`, and the resulting AUC/log loss alongside the params themselves — enough to
-tell at a glance how stale the current file is relative to Neo4j's current attempt
-count, without re-running the notebook just to check.
-
-If/when this moves into `src/` (per "Relationship to `MASTERS`" below), manual re-run
-stops being sufficient and this section should be revisited — likely a scheduled or
-volume-triggered refit job instead of a notebook someone remembers to re-run.
+**This notebook's role now:** development/validation environment for the fitting
+code, not the only place it runs. `fit_bkt_em`/`_forward_backward` here and in
+`src/quiz/bkt_fit.py` are kept in lockstep by construction (the backend module was
+ported directly from this notebook's section 2b) — if the algorithm changes, change it
+here first, validate the AUC/log-loss impact (see "Evaluation" below), then port to
+`src/quiz/bkt_fit.py`. `notebooks/bkt_params_fitted.json` (written by the persist cell
+below) is a point-in-time snapshot for offline inspection/diffing, not something the
+running server reads — the server always fits fresh (subject to its own cache) rather
+than loading this file.
 
 ## Evaluation
 
@@ -254,19 +265,27 @@ independently confirmed by raw accuracy on the same underlying attempts:
 flags a genuinely open question: `p_know` today arrives pre-computed from the client and
 is persisted server-side with zero validation, recomputation, or history — a departure
 from this project's general principle that mastery-like state should be **derived**, not
-asserted. This notebook is the concrete first step toward resolving that in the
-"server derives it" direction: if adopted, `p_know` would be computed here (or in a
-`src/quiz/knowledge_tracing.py` module following this notebook's logic) directly from
-`QUIZ_ANSWER`/`REVIEWING` event history already in Neo4j, rather than trusted from the
-client. That would make `PUT /quiz/mastery` unnecessary and turn `GET /quiz/mastery`
-into a genuinely derived read, consistent with `REVIEWING` and `Flashcard`'s existing
-event-sourced pattern.
+asserted. **Still open** — the params-fitting endpoint below does not resolve it.
 
-Not resolved by this notebook alone — still a decision for whoever owns the BKT
-client/product surface, same as flagged in 06/HANDOVER. What this notebook adds to that
-decision: evidence that a server-side version is cheap to compute (per-attempt online
-update, no training loop) and cheap to serve (one HMM state per active (student, topic)
-pair), so "server can't feasibly do this" is not a reason to keep it client-side.
+It's tempting to read "the server now computes something BKT-related" as progress
+toward "server derives `p_know`," but it's a narrower move than that: `GET
+/quiz/mastery/params` serves the shared emission/transition *parameters*
+(population-level — pooled across every student, refit periodically), not `p_know`
+itself. `p_know` is still entirely client-computed and client-asserted via `PUT
+/quiz/mastery`, with the same zero server-side validation/recomputation 06-student-graph
+flags. A student's device could push any `p_know` it wants and the server would still
+accept it verbatim — that hasn't changed.
+
+If "server derives `p_know`" is adopted later, it would still need `p_know` computed
+directly from `QUIZ_ANSWER`/`REVIEWING` event history in Neo4j (the way
+`src/quiz/bkt_fit.py` already reads that same history for the params fit), and would
+make `PUT /quiz/mastery` unnecessary. What *is* now resolved: "server can't feasibly do
+BKT-shaped computation" is no longer a reason to keep `p_know` client-side either —
+`src/quiz/bkt_fit.py` demonstrates the full sequence pull + forward-backward + EM loop
+runs in about a second server-side (see "Keeping params fresh" above), and per-attempt
+`p_know` update is far cheaper than that (O(1), no batch step at all). The remaining
+question is still a product/ownership one — who owns the BKT client/product surface —
+not a technical feasibility one.
 
 ## Data source
 
@@ -282,9 +301,14 @@ left-joined to the `REVIEWING` edge's `attempt_count` for the stuck-topic signal
 
 ## Not yet done
 
-- **No integration.** Not called from `src/`, `app/`, or any script — the notebook is
-  the only place this logic exists. No `MASTERS`-write path, no API endpoint, and no
-  persistence of `BKT_PARAMS_FITTED` outside the notebook run that produced it.
+- **Per-process cache, not shared.** `src/quiz/bkt_fit.py`'s `get_fitted_params` cache
+  is an in-process module-level variable. If the API runs as multiple worker
+  processes, each worker fits and caches independently — not incorrect (every worker
+  eventually converges to the same fit from the same data), but wasteful (N workers = N
+  redundant EM runs on cache expiry instead of one shared fit) and means workers can
+  briefly disagree on params right after a restart. A shared cache (Redis, or a
+  `written-by-a-cron-job` row in Postgres/Neo4j) would fix both; not needed at current
+  scale/worker count.
 - **No per-topic parameter variation.** EM fitting is global (one shared parameter set
   across every topic) — see "Parameter fitting" above for why: current scale (43
   students / 56 topics) is under the ~25-students-per-skill floor a per-topic fit would

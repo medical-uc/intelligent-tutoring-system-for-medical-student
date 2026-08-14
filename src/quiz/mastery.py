@@ -2,13 +2,22 @@
 Student-[:MASTERS]->Topic edge (properties: p_know, updated_at) on the same leaf Topic
 node :BELONGS_TO already targets (see src/quiz/attempts.py).
 
-BKT runs on-device (see the iOS app's BKTStore.swift) — the client is the single source of
-truth for the algorithm and its personalization, so p_know here is never computed
-server-side. This module is a thin, deliberately dumb persistence layer: it MERGEs
-whatever p_know the client sends (via PUT /quiz/mastery, called after finishQuiz()) onto
-the :MASTERS edge, with no recomputation, no clamping, no server-side BKT params. The
-server just remembers the latest value per student+topic so it survives across
+BKT's p_know computation runs on-device (see the iOS app's BKTStore.swift) — the client
+is the single source of truth for that computation and the personalization it produces,
+so p_know here is never computed server-side. This module is a thin, deliberately dumb
+persistence layer: it MERGEs whatever p_know the client sends (via PUT /quiz/mastery,
+called after finishQuiz()) onto the :MASTERS edge, with no recomputation, no clamping.
+The server just remembers the latest value per student+topic so it survives across
 devices/reinstalls.
+
+The *parameters* that on-device BKT runs on (p_init/p_transit/p_slip/p_guess) are a
+separate, narrower exception: those are EM-fit server-side from every student's pooled
+QUIZ_ANSWER history (see src/quiz/bkt_fit.py, served via GET /quiz/mastery/params) and
+fetched/cached by the client, since fitting them needs data pooled across many students
+to converge (Slater & Baker 2018) — a single device's own history never gets there. This
+doesn't reintroduce server-side p_know computation: the server only ever describes the
+shared emission/transition model, p_know itself is still computed and owned by the
+client alone.
 
 Usage:
     from src.quiz.mastery import upsert_mastery, mastery_for_student

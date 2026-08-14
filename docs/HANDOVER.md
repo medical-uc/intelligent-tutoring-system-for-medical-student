@@ -61,8 +61,10 @@ design, no single command does all three — see §2):
 .venv/bin/python scripts/populate_mcq_postgres.py                # -> live Postgres table
 ```
 
-**Run the knowledge-tracing prototype** (server-side BKT, personalization signal — not
-wired into the app, notebook-only; see [09-knowledge-tracing.md](09-knowledge-tracing.md)):
+**Run the knowledge-tracing notebook** (BKT param EM-fitting — same fit the
+`GET /quiz/mastery/params` endpoint runs live in production; this notebook is the
+dev/validation environment for that code, not the only place it runs — see
+[09-knowledge-tracing.md](09-knowledge-tracing.md)):
 
 ```bash
 make neo4j-up            # if not already up
@@ -78,9 +80,13 @@ destroy volumes** — Postgres + Neo4j + MinIO data gone; confirm before running
 **Not part of "running the project" yet:** `src/domain_kg/` (§ new above,
 [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)) has its own CLI entrypoints
 (`python -m src.domain_kg.cli.run`, etc.) but nothing in the run path above touches it —
-it's invoked standalone, if at all. Same for the knowledge-tracing notebook above — its
-`p_know` output isn't written back to Neo4j or read by any endpoint; the live app still
-gets mastery from client-pushed `PUT /quiz/mastery` (§6).
+it's invoked standalone, if at all.
+
+The knowledge-tracing notebook above is different: its BKT param-fitting logic (not
+`p_know` itself) *is* wired into the live app — `src/quiz/bkt_fit.py` runs the same EM
+fit on request, served via `GET /quiz/mastery/params`. `p_know` still isn't written back
+to Neo4j server-side and the live app still gets mastery from client-pushed `PUT
+/quiz/mastery` (§6) — that part of the design is unchanged.
 
 ---
 
