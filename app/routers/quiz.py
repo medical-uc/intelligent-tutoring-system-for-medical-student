@@ -4,6 +4,7 @@ from neo4j import Driver
 from app.dependencies import get_current_student_id, get_driver
 from app.openapi import error_responses
 from app.schemas import (
+    BKTParamsResponse,
     CancelSessionResponse,
     CheckAnswerRequest,
     CheckAnswerResponse,
@@ -30,6 +31,7 @@ from app.schemas import (
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
+from src.quiz.bkt_fit import get_fitted_params
 from src.quiz.mastery import mastery_for_student, upsert_mastery
 from src.quiz.sessions import (
     cancel_session,
@@ -340,6 +342,34 @@ def update_mastery(
             status_code=status.HTTP_404_NOT_FOUND, detail="no such student"
         )
     return UpdateMasteryResponse(updated_count=updated_count)
+
+
+@router.get(
+    "/mastery/params", response_model=BKTParamsResponse, responses=error_responses(401)
+)
+def get_mastery_params(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> BKTParamsResponse:
+    """The global BKT emission/transition parameters (p_init, p_transit, p_slip,
+    p_guess), EM-fit from every student's QUIZ_ANSWER history pooled together (see
+    src/quiz/bkt_fit.py) — not this student's own data alone. The client's on-device BKT
+    (BKTStore.swift) fetches and caches these, replacing its own hard-coded defaults, so
+    the shared model of "how noisy is a confident vs. guessing answer" stays current as
+    real interaction volume grows, while p_know itself stays entirely client-computed.
+    fitted_from_defaults is true if there wasn't yet enough data to fit and the original
+    hand-picked defaults were returned as-is — the client should still cache and use
+    them the same way, just without expecting the improved accuracy a real fit gives."""
+    fitted = get_fitted_params(driver)
+    return BKTParamsResponse(
+        p_init=fitted.p_init,
+        p_transit=fitted.p_transit,
+        p_slip=fitted.p_slip,
+        p_guess=fitted.p_guess,
+        n_attempts=fitted.n_attempts,
+        n_sequences=fitted.n_sequences,
+        fitted_from_defaults=fitted.fitted_from_defaults,
+    )
 
 
 @router.post(

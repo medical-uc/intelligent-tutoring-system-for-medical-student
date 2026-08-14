@@ -222,6 +222,22 @@ class UpdateMasteryResponse(BaseModel):
     updated_count: int
 
 
+class BKTConfidenceParams(BaseModel):
+    confident: float
+    unsure: float
+    guessing: float
+
+
+class BKTParamsResponse(BaseModel):
+    p_init: float
+    p_transit: float
+    p_slip: BKTConfidenceParams
+    p_guess: BKTConfidenceParams
+    n_attempts: int
+    n_sequences: int
+    fitted_from_defaults: bool
+
+
 class FlashcardOut(BaseModel):
     """Front only carries the stem — back is withheld until the student flips the card,
     same as options are withheld from quiz questions until /check."""

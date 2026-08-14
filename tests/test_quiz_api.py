@@ -311,6 +311,25 @@ def test_quiz_endpoints_require_auth(client, sample_topic):
         ("GET", "/quiz/review/due"),
         ("GET", "/quiz/mastery"),
         ("PUT", "/quiz/mastery"),
+        ("GET", "/quiz/mastery/params"),
     ]:
         resp = client.request(method, path, json={"items": []} if method == "PUT" else None)
         assert resp.status_code == 401, f"{method} {path} should require auth"
+
+
+def test_get_mastery_params(client, student):
+    """Hits the real Neo4j instance (see conftest.py), which already has the dummy
+    dataset loaded — so this exercises the actual EM fit (or the cached result of an
+    earlier fit within this process), not the no-data fallback. Only asserts response
+    shape/bounds, not exact fitted values, since those shift as the dummy dataset or EM
+    implementation changes."""
+    resp = client.get("/quiz/mastery/params", headers=student["headers"])
+    assert resp.status_code == 200
+    body = resp.json()
+    assert 0.0 <= body["p_init"] <= 1.0
+    assert 0.0 <= body["p_transit"] <= 1.0
+    for bucket in ("confident", "unsure", "guessing"):
+        assert 0.0 <= body["p_slip"][bucket] <= 1.0
+        assert 0.0 <= body["p_guess"][bucket] <= 1.0
+    assert body["n_attempts"] >= 0
+    assert body["n_sequences"] >= 0

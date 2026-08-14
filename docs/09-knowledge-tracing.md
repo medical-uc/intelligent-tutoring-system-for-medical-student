@@ -159,6 +159,47 @@ pulls `p_guess[confident]` up. Treat the fitted `p_slip`/`p_guess` values as wha
 explains the observed correctness sequences, not as a re-confirmation of the original
 confidence-conditional design intuition — that's a separate claim EM doesn't test.
 
+## Keeping params fresh
+
+`BKT_PARAMS_FITTED` is a **snapshot fit**, not a live-updating value — it's fit once
+against whatever attempts exist in Neo4j at notebook-run time, then frozen. Two
+different "update" concerns, don't conflate them:
+
+- **Per-attempt `p_know`.** Already fully online — no action needed. `bkt_update` takes
+  the current `p_know` plus one new `(correct, confidence)` observation and returns the
+  next `p_know`, O(1), no replay of history. This is the whole point of choosing BKT
+  (see "Why BKT" above) — every new interaction updates `p_know` for its
+  (student, topic) pair on its own, same as it does inside `run_bkt`'s per-attempt loop.
+- **`BKT_PARAMS_FITTED` (the EM fit itself).** Does **not** update per-attempt — it's a
+  batch fit over full sequences (forward-backward needs the whole sequence, not one new
+  point). As real interaction volume grows, the fitted params will drift from what a
+  refit against the larger dataset would produce, the same way any fixed model does
+  without a retrain.
+
+**Current process: manual re-run.** Matches this notebook's prototype/not-wired-in
+status (see "Not yet done" above) — no scheduler, no trigger, no automation yet.
+Re-run the notebook top-to-bottom (needs `make neo4j-up` + populated dummy/real data)
+and commit the resulting `notebooks/bkt_params_fitted.json` when:
+
+- Attempt volume has grown meaningfully since the last fit (same "order of magnitude"
+  bar used in "Why BKT" above — an incremental handful of new attempts won't move a fit
+  over 10k+ points enough to be worth the churn).
+- Before/after any change that could shift the underlying distribution — e.g. a new
+  cohort of students, a change to how `confidence` is elicited or labeled, or new topics
+  added to the question bank.
+- Before using the fitted params for anything decision-facing (a demo, a review, or a
+  future integration into `src/`), so the numbers reported reflect current data, not a
+  stale run.
+
+`notebooks/bkt_params_fitted.json` records `fitted_at`, `n_attempts`/`n_students`/
+`n_topics`, and the resulting AUC/log loss alongside the params themselves — enough to
+tell at a glance how stale the current file is relative to Neo4j's current attempt
+count, without re-running the notebook just to check.
+
+If/when this moves into `src/` (per "Relationship to `MASTERS`" below), manual re-run
+stops being sufficient and this section should be revisited — likely a scheduled or
+volume-triggered refit job instead of a notebook someone remembers to re-run.
+
 ## Evaluation
 
 Next-step prediction (predict `P(correct)` **before** seeing the observation, then
