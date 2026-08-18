@@ -69,7 +69,7 @@ psql:
 # Load the MCQ question bank into postgres (src/quiz/bank.py's source of truth)
 populate-postgres: mlflow-up
 	$(COMPOSE) up -d --wait postgres
-	uv run python -m scripts.populate_mcq_postgres
+	uv run python -m scripts.populate_biochem_mcq_postgres
 
 # Load src/domain_kg/graph.nq into neo4j via n10s
 populate-neo4j: neo4j-up
