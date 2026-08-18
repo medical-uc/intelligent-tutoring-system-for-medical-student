@@ -1,0 +1,1237 @@
+{
+  "doc_id": "chapter_50_muscle_and_the_cytoskeleton",
+  "source": {
+    "source_id": "chapter_50_muscle_and_the_cytoskeleton",
+    "title": "Overview",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Muscle and the cytoskeleton, focusing on the structure and function of muscle tissue, including the role of actin, myosin, and calcium in muscle contraction.",
+    "page": null,
+    "origin": "chapter_50_muscle_and_the_cytoskeleton.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 17:26:02"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Chapter 50 focuses on Muscle and the Cytoskeleton.\n\nThe chapter is authored by January D. Haile and Peter J. Kennelly.",
+      "char_start": 1069,
+      "char_end": 1187,
+      "section_path": [
+        "Overview",
+        "Overview"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Highly specialized muscle cells, known as myocytes, utilize a contractile apparatus consisting of physically juxtaposed actin and myosin polymers, or fibrils. Muscle tissue is susceptible to a variety of pathologic conditions, including hereditary diseases, malignant hyperthermia, and heart failure. Hereditary diseases encompass Duchenne-type muscular sclerosis, which is often treated with glucocorticoids. Heart failure is a prevalent medical condition with numerous causes. An understanding of the biochemistry of heart muscle is essential for the diagnosis and therapeutic intervention of heart failure. Vasodilators, such as nitroglycerin used in treating angina pectoris, function by increasing the formation of nitrous oxide (NO).",
+      "char_start": 1214,
+      "char_end": 1953,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The cytoskeleton maintains the shape of all mammalian cells. The cytoskeleton maintains the integrity of all mammalian cells. The cytoskeleton maintains the internal organization of all mammalian cells. The cytoskeleton serves as a structural and mechanical network. The cytoskeleton mediates motional processes like cytokinesis, endocytosis, exocytosis, secretion, phagocytosis, and diapedesis. Yersinia exploits or manipulates the cytoskeleton of the infected host as part of its virulence mechanisms. Salmonella enterica exploits or manipulates the cytoskeleton of the infected host as part of its virulence mechanisms. Listeria monocytogenes exploits or manipulates the cytoskeleton of the infected host as part of its virulence mechanisms. Shigella exploits or manipulates the cytoskeleton of the infected host as part of its virulence mechanisms.",
+      "char_start": 1955,
+      "char_end": 2807,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Muscle is a highly specialized tissue configured to convert the chemical energy of ATP potential into mechanical energy on a mass, macroscopic scale.\n\nThree types of muscle are found in vertebrates: skeletal, cardiac, and smooth muscle.\n\nSkeletal and cardiac muscle display a striated appearance, a consequence of the parallel alignment of the fibrils of their contractile apparatus.\n\nSmooth muscle is devoid of striations, a consequence of the random orientation of its contractile fibrils.\n\nCardiac and skeletal muscle contract and exert force in only one dimension, like a coil spring.\n\nContracting smooth muscle exerts force and shortens in all directions, like the polymer skin of an inflated balloon.\n\nSkeletal muscle is under conscious or voluntary nervous control.\n\nCardiac and smooth muscle work in an unconscious, involuntary manner.",
+      "char_start": 2870,
+      "char_end": 3713,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Three Types of Muscle Exist: Skeletal, Cardiac, & Smooth"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "three-types-of-muscle-exist-skeletal-cardiac-smooth"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Striated muscle is composed of multinucleated muscle fiber cells. Muscle fiber cells may extend the entire length of the muscle. Each muscle fiber cell is surrounded by an electrically excitable plasma membrane called the sarcolemma. Within each muscle fiber cell, there are bundles of parallel myofibrils oriented longitudinally along the length of the cell. Myofibrils consist of interdigitated, overlapping thick and thin filaments embedded in intracellular fluid termed sarcoplasm. When a myofibril is examined by electron microscopy, alternating dark and light bands can be observed (Figure 50-1).",
+      "char_start": 3766,
+      "char_end": 4368,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "The Sarcomere Is the Functional Unit of Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-1"
+      ],
+      "table_refs": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "The dark and light bands are referred to as A and I bands, respectively. In the A band, the thin filaments are arranged around the thick filament, myosin, as a secondary hexagonal array. Each thin filament lies symmetrically between three thick filaments (Figure 50-2). Each thick filament is surrounded symmetrically by six thin filaments. The central region of the A band, known as the H band, consists entirely of thick filaments. The I band corresponds to a zone containing only thin filaments. The I band is bisected by the dense and narrow Z line, which consists of a complex network of polypeptides anchoring the thin filaments together (Figure 50-2).",
+      "char_start": 4611,
+      "char_end": 5269,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "The Sarcomere Is the Functional Unit of Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-2"
+      ],
+      "table_refs": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Cross sections through the M bands are shown. An area where myosin and actin filaments overlap is shown. An area with solely actin filaments is shown. In the contracted state, the actin filaments slip along the sides of the myosin fibers toward each other. The lengths of the thick filaments, indicated by the A bands, have not changed. The lengths of the thin filaments, measured by the distance between Z lines and the adjacent edges of the H bands, have not changed. The lengths of the sarcomeres have been reduced from 2300 to 1500 nm. The lengths of the H and I bands are reduced due to the overlap between the thick and thin filaments. These morphologic observations provided part of the basis for the sliding filament model of muscle contraction.",
+      "char_start": 5891,
+      "char_end": 6644,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "The Sarcomere Is the Functional Unit of Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The sarcomere is defined as the region between two Z lines (see Figures 50-1and 50-2). The sarcomere is repeated along the axis of a fibril at distances of 1500 to 2300 nm depending on the state of contraction. Most muscle fiber cells are aligned so that their sarcomeres are in parallel register (Figure 50-1).",
+      "char_start": 6663,
+      "char_end": 6974,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "The Sarcomere Is the Functional Unit of Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-1"
+      ],
+      "table_refs": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The sliding filament model was based on careful morphologic observations of resting, extended, and contracting muscle.\n\nWhen muscle contracts, the H zones and the I bands shorten.\n\nThe thin and thick filaments remain intact during muscle contraction.\n\nThe interdigitated filaments slide past one another during contraction.\n\nThe tension developed during muscle contraction is proportionate to the degree of filament overlap.\n\nContraction involves a dynamic interaction between the filaments.",
+      "char_start": 7044,
+      "char_end": 7535,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Thin & Thick Filaments Slide Past Each Other During Contraction"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "thin-thick-filaments-slide-past-each-other-during"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Actin and myosin contribute 20% and 55% of the protein mass in muscle, respectively.\n\nThe F-actin fiber, also known as the thin filament, is 6-to 7-nm thick and has a structure that repeats every 35.5 nm.\n\nMyosin-I, which exists in cells as a monomer, links cytoskeletal microfilaments to the plasma membrane.",
+      "char_start": 7602,
+      "char_end": 7911,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Actin & Myosin Account for 75% of the Protein Mass in Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "actin-myosin-account-for-75-of-the-protein-mass-in-muscle"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "G-actin forms F-actin.\nF-actin binds to troponin.\nTroponin is part of the assembled thin filament.\nThe assembled thin filament measures 38.5 nm.\nThe assembled thin filament measures 35.5 nm.\nThe diagram illustrates the configuration of actin, troponin, and tropomyosin in the thin filament.",
+      "char_start": 8076,
+      "char_end": 8366,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Actin & Myosin Account for 75% of the Protein Mass in Muscle"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "actin-myosin-account-for-75-of-the-protein-mass-in-muscle"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "The predominant form of myosin in contractile tissues is myosin II, hereafter referred to simply as myosin, an asymmetric hexamer.\n\nThe hexamer consists of one pair of heavy (H) chains, and two pairs of light (L) chains, referred to as essential and regulatory.\n\nThe two heavy chains are intertwined, forming an extended helical tail, each capped by a globular head domain to which the light chains associate.\n\nWhen skeletal muscle myosin is complexed to actin to form actomyosin complex, the complex exhibits ATPase activity.",
+      "char_start": 8368,
+      "char_end": 8894,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Actin & Myosin Account for 75% of the Protein Mass in Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "actin-myosin-account-for-75-of-the-protein-mass-in-muscle"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Tropomyosin is present in all muscle and muscle-like structures. The chains of tropomyosin attach to F-actin in the groove between its filaments. Troponin is unique to striated muscle. The troponin complex consists of three polypeptides. Troponin T (TpT) binds to tropomyosin. Troponin T (TpT) binds to the other two troponin components. Troponin I (Tpl) inhibits the F-actin–myosin interaction. Troponin I (Tpl) binds to the other components of troponin. Troponin C (TpC) is a calcium-binding polypeptide. Troponin C (TpC) is structurally and functionally analogous to calmodulin. Calmodulin is an important calcium-binding protein widely distributed in nature. Up to four calcium ions can bind per molecule of troponin C. Up to four calcium ions can bind per molecule of calmodulin.",
+      "char_start": 8988,
+      "char_end": 9772,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE",
+        "Tropomyosin & the Troponins Are Key Components of the Thin Filaments in Striated Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tropomyosin-the-troponins-are-key-components-of-the-thin"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Muscle contraction occurs when thick filaments translocate along adjacent thin filaments by a process analogous to climbing a rope hand over hand. The S-1 domains of the myosin head act as the hands in this process. The S-1 domains ascend via a repeated cycle of attachment, an ATP-powered conformational change or power stroke, and detachment.\n\nThe S-1 head binds to actin, forming a cross-bridge linking the thick and thin filaments.\n\nThe clusters of cross-bridges at the ends of a thick filament have opposite polarities. The two polar regions of the thick filament are separated by a 150-nm segment called the M band, which does not participate in cross-bridge formation.\n\nThe release of the bound ADP is followed by the release of the bound ADP, triggering a large conformational change in the head of myosin in relation to its tail, known as the power stroke. The power stroke pulls the actin about 10 nm toward the center of the sarcomere. The nucleotide-free actin-myosin complex represents its low-energy state.\n\nA molecule of ATP binds to the S-1 myosin head, drastically lowering the affinity of the myosin head for actin. Actin is thus released, or detached.",
+      "char_start": 9830,
+      "char_end": 11000,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The thermodynamic efficiency of muscle contraction is about 50%, which compares favorably to the 20% or less of an internal combustion engine. While hydrolysis of ATP ultimately powers the cycle, the release of ADP provides the immediate driver for the conformational change in S-1 that translates chemical energy into the mechanical power stroke.\n\nRigor mortis, the stiffening of the body that occurs postmortem, happens because the fall in intracellular ATP levels prevents the dissociation of the myosin S-1 head from actin.",
+      "char_start": 11002,
+      "char_end": 11529,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Figure 50-4illustrates that the hydrolysis of ATP drives the cyclic association and dissociation of actin and myosin in five reactions described in the text. Figure 50-5represents the active cross-bridges between thick and thin filaments. The force involved in muscular contraction originates in a tendency for the myosin head (S-1) to rotate relative to the thin filament. The S-2 portion of the myosin molecule acts as an inextensible link transmitting this force to the thick filament. Flexible points at each end of S-2 permit S-1 to rotate and allow for variations in the separation between filaments. The coils in the S-2 portion represent the elastic nature of this portion. The strengths of binding of the attached sites are higher in position 2 than in position 1 and higher in position 3 than position 2. The myosin head can be detached from position 3 with the utilization of a molecule of ATP. The myosin head varies in its position from about 90° to about 45°.",
+      "char_start": 11531,
+      "char_end": 12504,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-4",
+        "fig-50-5"
+      ],
+      "table_refs": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The myosin head releases inorganic phosphate (Pi) to bind ADP.\nADP is released from the myosin head to allow the myosin head to bind to the thin filament actin.\nThe binding of the myosin head to the thin filament actin facilitates the formation of a coarse bridge with ATP.\nThe coarse bridge formed with ATP undergoes a conformational change to maintain the coarse bridge state.\nThe coarse bridge state is maintained through further conformational changes in the coarse bridge.\nThe coarse bridge state persists through additional conformational changes in the coarse bridge.\nThe diagram illustrates the hydrolysis of ATP driving the cyclic association and dissociation of actin and myosin.",
+      "char_start": 12656,
+      "char_end": 13345,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Muscle contraction from all sources occurs by a general mechanism.\n\nStriated muscle relies on actin-based regulation.\n\nSmooth muscle regulation is myosin-based.",
+      "char_start": 14528,
+      "char_end": 14688,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "contraction-is-orchestrated-by-the-second-messenger-ca-2"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "The contractile apparatus in skeletal muscle is regulated by the troponin system. The troponin system is bound to tropomyosin and F-actin in the thin filament. In resting muscle, Tpl prevents the binding of the myosin head to its F-actin attachment site. Tpl alters the conformation of F-actin via the tropomyosin molecules. Tpl rolls tropomyosin into a position that blocks the sites on F-actin to which the myosin heads attach. Relief of inhibition by Tpl permits the power stroke cycle to proceed. Tpl reestablishes its inhibitory block on the binding of the myosin S-1 head to F-actin. The thick and thin filaments detach from one another. Detachment of the thick and thin filaments allows the muscle to relax.",
+      "char_start": 14743,
+      "char_end": 15457,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Actin-Based Regulation Occurs in Skeletal Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "actin-based-regulation-occurs-in-skeletal-muscle"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Smooth muscles contract along multiple axes. Smooth muscles have molecular structures similar to those in striated muscle. Smooth muscles lack striations because their sarcomeres are not aligned. Smooth muscles lack the troponin system. In smooth muscle, the light chains prevent the binding of the myosin head to F-actin in the resting state. The inhibitory block is released by the phosphorylation of the regulatory, or type 2, light chains in the myosin S-1 head. Myosin light-chain kinase phosphorylates the regulatory light chains. Myosin light-chain kinase is controlled by the binding of calmodulin. Calmodulin is a small, ubiquitous protein. Calmodulin contains four EF-hand motifs. Each EF-hand motif can bind one molecule of calcium. Binding of calcium to all four sites triggers a conformational change in calmodulin. The dephosphorylation of regulatory light chains leads to muscle relaxation. Rho kinase phosphorylates myosin's regulatory light chains. Rho kinase phosphorylates the phosphatase that dephosphorylates the light chains. Phosphorylation of the phosphatase inhibits its activity. Phosphorylation by the cAMP-dependent protein kinase may dampen smooth muscle contraction. Light chains of myosin are different in striated and smooth muscles. Caldeshmon is a regulatory protein ubiquitous in smooth muscle. Caldeshmon is also present in nonmuscle tissue. Actin is free to bind myosin when caldesmon is released. Caldeshmon is subject to covalent modification by phosphorylation-dephosphorylation. When phosphorylated, caldesmon cannot bind actin. When phosphorylated, actin is free to interact with myosin. (Table 50-1) summarizes and compares the regulation of actin-myosin interactions in striated and smooth muscles.",
+      "char_start": 15511,
+      "char_end": 17253,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Myosin-Based Regulation Occurs in Smooth Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-50-1"
+      ],
+      "section_id": "myosin-based-regulation-occurs-in-smooth-muscle"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Calmodulin 10⁻⁵ mol/L Ca²⁺ increases the formation of Ca²⁺ • calmodulin.\nCa²⁺ • calmodulin activates myosin kinase (inactive) to form Ca²⁺ • Calmodulin–myosin kinase (active).\nCa²⁺ • Calmodulin–myosin kinase (active) interacts with ATP.\nATP leads to the formation of L-myosin (inhibits myosin-actin interaction).\nL-myosin (inhibits myosin-actin interaction) converts to ADP.\nADP transforms into pL-myosin (does not inhibit myosin-actin interaction).\npL-myosin (does not inhibit myosin-actin interaction) produces H₂PO₄⁻.\nH₂PO₄⁻ returns to form L-myosin (inhibits myosin-actin interaction).\npL-myosin (does not inhibit myosin-actin interaction) is acted upon by Phosphatase.",
+      "char_start": 17433,
+      "char_end": 18106,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Myosin-Based Regulation Occurs in Smooth Muscle"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "myosin-based-regulation-occurs-in-smooth-muscle"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "In striated muscle, the proteins of muscle filaments include Actin, Myosin, Tropomyosin, and Troponin (Tpl, TpT, TpC).\nIn smooth muscle (and nonmuscle cells), the proteins of muscle filaments include Actin, Myosin, and Tropomyosin.\nStriated muscle allows spontaneous interaction of F-actin and myosin alone.\nSmooth muscle (and nonmuscle cells) does not allow spontaneous interaction of F-actin and myosin alone.\nIn striated muscle, the inhibitor of F-actin-myosin interaction is the Troponin system (Tpl).\nIn smooth muscle (and nonmuscle cells), the inhibitor of F-actin-myosin interaction is the unphosphorylated myosin light chain.\nThe phosphorylated p-light chain no longer inhibits F-actin-myosin interaction (allows F-actin activation of ATPase).",
+      "char_start": 18163,
+      "char_end": 18914,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Myosin-Based Regulation Occurs in Smooth Muscle"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "myosin-based-regulation-occurs-in-smooth-muscle"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "The SR is a network of fibrous sacks. The SR is linked to the sarcomeres by the transverse channels of the T-tubule system. The pump uses the energy of hydrolysis of ATP to move calcium ions from regions of low to high concentration.\n\nA dramatic fall in ATP concentration can occur by excessive usage during the cycle of contraction-relaxation or by diminished formation, such as might occur in ischemia. When ATP concentration falls, calcium ion levels will remain high.\n\nWhen the sarcolemma is excited by a nerve impulse, the excitable membranes of the T-tubule system become depolarized.\n\nThere are two isoforms of the ryanodine receptor, RYR1 and RYR2. RYR1 is present in skeletal muscle. RYR2 is present in heart muscle. RYR2 is also present in brain tissue. The RYR is in the proximity of the dihydropyridine receptor. (Figure 50-7) shows the relationships among the sarcolemma (plasma membrane), a T tubule, and two cisternae of the SR of skeletal muscle. The T tubule extends inward from the sarcolemma. A wave of depolarization, initiated by a nerve impulse, is transmitted from the sarcolemma down the T tubule.",
+      "char_start": 19005,
+      "char_end": 20126,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "The Sarcoplasmic Reticulum Regulates Intracellular Levels of Ca2+ in Skeletal Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-7"
+      ],
+      "table_refs": [],
+      "section_id": "the-sarcoplasmic-reticulum-regulates-intracellular-levels"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Exposure to certain anesthetics, such as halothane, and depolarizing skeletal muscle relaxants, such as succinylcholine, can cause malignant hyperthermia in some genetically predisposed patients. Symptoms of malignant hyperthermia include rigid skeletal muscles, hypermetabolism, and high fever. To prevent complications or death, anesthetic is stopped immediately and the drug dantrolene is administered.\n\nMutations in the RYR1 gene are associated with central core disease. Central core disease is a rare myopathy presenting in infancy with hypotonia and proximal muscle weakness. Electron microscopy reveals an absence of mitochondria in the center of many type I muscle fibers.",
+      "char_start": 20972,
+      "char_end": 21653,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Mutations in the Gene Encoding the Ca2+ Release Channel Are Cause of Human Malignant Hyperthermia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "mutations-in-the-gene-encoding-the-ca2-release-c"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Cardiac muscle is striated, like skeletal muscle. Cardiac muscle is regulated by an actin-myosin-tropomyosin-troponin system. Cardiac muscle exhibits intrinsic rhythmicity. Individual myocytes in cardiac muscle communicate with each other due to its syncytial nature. The T-tubular system is more developed in cardiac muscle. The sarcoplasmic reticulum (SR) is less extensive in cardiac muscle. Cyclic AMP (cAMP) plays a more prominent role in cardiac muscle than in skeletal muscle. Protein kinases phosphorylate various transport proteins in the sarcolemma and SR. Protein kinases target the troponin-tropomyosin regulatory complex. There is a rough correlation between the phosphorylation of Tpl and the increased contraction of cardiac muscle induced by catecholamines. Some differences among skeletal, cardiac, and smooth muscle are summarized in Table 50-2.",
+      "char_start": 21723,
+      "char_end": 22586,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Regulation of Contraction in Cardiac Muscle Is Also Actin-Based"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-50-2"
+      ],
+      "section_id": "regulation-of-contraction-in-cardiac-muscle-is-also-actin"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Skeletal muscle is striated.\nCardiac muscle is striated.\nSmooth muscle is nonstriated.\nSkeletal muscle does not form a syncytium.\nCardiac muscle is syncytial.\nSmooth muscle is syncytial.\nSkeletal muscle has small T tubules.\nCardiac muscle has large T tubules.\nSmooth muscle generally has rudimentary T tubules.\nSkeletal muscle has a well-developed sarcoplasmic reticulum and the Ca^{2+} pump acts rapidly.\nCardiac muscle has a sarcoplasmic reticulum present and the Ca^{2+} pump acts relatively rapidly.\nSmooth muscle often has a rudimentary sarcoplasmic reticulum and the Ca^{2+} pump acts slowly.\nSkeletal muscle plasmalemma contains few hormone receptors.\nSkeletal muscle contraction is initiated by a nerve impulse.\nCardiac muscle has intrinsic rhythmicity.\nSmooth muscle contraction is initiated by nerve impulses, hormones, etc.\nSkeletal muscle does not require extracellular fluid Ca^{2+} for contraction.\nCardiac muscle requires extracellular fluid Ca^{2+} for contraction.\nSmooth muscle requires extracellular fluid Ca^{2+} for contraction.\nSkeletal muscle has a troponin system present.\nCardiac muscle has a troponin system present.\nSmooth muscle lacks a troponin system and uses the regulatory head of myosin.\nSkeletal muscle does not involve caldesmon.\nCardiac muscle does not involve caldesmon.\nSmooth muscle involves caldesmon as an important regulatory protein.\nSkeletal muscle has very rapid cycling of the cross-bridges.\nCardiac muscle has relatively rapid cycling of the cross-bridges.\nSmooth muscle has slow cycling of the cross-bridges, which permits slow, prolonged contraction and less utilization of ATP.",
+      "char_start": 22647,
+      "char_end": 24274,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Regulation of Contraction in Cardiac Muscle Is Also Actin-Based"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulation-of-contraction-in-cardiac-muscle-is-also-actin"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "L-type channels are voltage-gated, opening during depolarization. L-type channels close when the action potential declines. The L-type channels are equivalent to the dihydropyridine receptors of skeletal muscle.",
+      "char_start": 24379,
+      "char_end": 24590,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Ca2+ Enters Cardiomyocytes via Ca2+ Channels & Leaves via the Na+-Ca2+ Exchanger & the Ca2+ ATPase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Digitalis inhibits the Na+K+ATPase, preventing it from pumping K+ out of the cardiac myocyte.\nDigitalis inhibits the Na+K+ATPase, leading to an increase in intracellular Na+ concentration.\nThe increase in intracellular Na+ concentration stimulates the Na+:Ca2+ exchanger.\nThe stimulation of the Na+:Ca2+ exchanger results in more Ca2+ entering the myocyte.\nThe increase in intracellular Ca2+ concentration increases the force of muscle contraction.\nThe increased force of muscle contraction further increases the intracellular Ca2+ concentration.\nThe diagram as a whole relates how the drug digitalis increases cardiac contraction by inhibiting the Na+K+ATPase and subsequently increasing intracellular Ca2+ concentration.",
+      "char_start": 25119,
+      "char_end": 25841,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Ca2+ Enters Cardiomyocytes via Ca2+ Channels & Leaves via the Na+-Ca2+ Exchanger & the Ca2+ ATPase"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Ion channels are important in skeletal muscle. Ion channels are important in cardiac muscle. Mutations in genes encoding ion channels are responsible for a number of relatively rare conditions affecting muscle. Mutations in genes encoding ion channels and other diseases due to mutations of ion channels have been termed channelopathies. Some channelopathies are listed in Table 50-3. Other channelopathies include the long QT syndrome; pseudoaldosteronism (Liddle syndrome); persistent hyperinsulinemic hypoglycemia of infancy; hereditary X-linked recessive type II nephrolithiasis of infancy (Dent syndrome); and generalized myotonia, recessive (Becker disease). The term 'myotonia' signifies any condition in which muscles do not relax after contraction.",
+      "char_start": 25843,
+      "char_end": 26600,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Ca2+ Enters Cardiomyocytes via Ca2+ Channels & Leaves via the Na+-Ca2+ Exchanger & the Ca2+ ATPase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-50-3"
+      ],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Central core disease involves the Ca^2+ release channel (RYR1) in skeletal muscle.\nHyperkalemic periodic paralysis involves the sodium channel in skeletal muscle.\nHypokalemic periodic paralysis involves the slow Ca^2+ voltage channel (DHPR) in skeletal muscle.\nMalignant hyperthermia involves the Ca^2+ release channel (RYR1) in skeletal muscle.\nMyotonia congenita involves the chloride channel in skeletal muscle.",
+      "char_start": 26712,
+      "char_end": 27126,
+      "section_path": [
+        "Overview",
+        "CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+",
+        "Ca2+ Enters Cardiomyocytes via Ca2+ Channels & Leaves via the Na+-Ca2+ Exchanger & the Ca2+ ATPase"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "The amount of ATP in skeletal muscle is only sufficient to provide energy for contraction for a few seconds.\n\nMuscle cells have developed multiple mechanisms to regenerate the ATP needed to sustain the contraction-relaxation cycle.\n\nOne mechanism is glycolysis, which uses blood glucose or muscle glycogen.\n\nAnother mechanism is oxidative phosphorylation.\n\nCreatine phosphate is a source of ATP regeneration in muscle cells.\n\nAdenylyl kinase catalyzes a reaction that regenerates ATP from two molecules of ADP (Figure 50--9).",
+      "char_start": 27183,
+      "char_end": 27708,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "muscle-contraction-requires-large-quantities-of-atp"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Muscle glycogen contributes to the formation of Glucose 6-P in muscle.\nMuscle phosphorylase facilitates the production of Glucose 6-P in muscle.\nCreatine phosphokinase participates in the generation of Glucose 6-P in muscle.\nCreatine contributes to the formation of Glucose 6-P in muscle.\nGlucose 6-P is involved in glycolysis in muscle.\nOxidative phosphorylation supports the production of Glucose 6-P in muscle.\nATP is essential for muscle contraction.\nMyosin ATPase is involved in muscle contraction.\nAdenylyl kinase contributes to muscle contraction.\nMuscle contraction results in the production of ADP + Pi.\nADP + Pi leads to the formation of ADP.\nADP is converted into AMP.\nThe diagram illustrates the various sources of ATP in muscle.",
+      "char_start": 27769,
+      "char_end": 28510,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "muscle-contraction-requires-large-quantities-of-atp"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Skeletal muscle contains large stores of glycogen in the sarcoplasm.\n\nGlycogen is located in granules close to the I bands.\n\nThe release of glucose from glycogen depends on muscle glycogen phosphorylase.\n\nPhosphorylase b kinase allows glucose mobilization to begin with the initiation of muscle contraction.",
+      "char_start": 28570,
+      "char_end": 28877,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP",
+        "Skeletal Muscle Contains Large Quantities of Glycogen"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "skeletal-muscle-contains-large-quantities-of-glycogen"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Glucose is derived from blood glucose or endogenous glycogen.\n\nFatty acids are derived from the triacylglycerols of adipose tissue.\n\nGlucose and fatty acids are the principal substrates used for aerobic metabolism in muscle.\n\nOxidative phosphorylation is the primary mechanism of ATP production in aerobic respiration.\n\nContracting muscles have a high demand for oxygen.\n\nSome muscles are distinguished by their red color.\n\nRed muscles contain the oxygen storage protein myoglobin.\n\nMyoglobin protects against oxygen shortfalls.",
+      "char_start": 28966,
+      "char_end": 29494,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP",
+        "Under Aerobic Conditions, Muscle Generates ATP Mainly by Oxidative Phosphorylation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "under-aerobic-conditions-muscle-generates-atp-mainly-by"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Creatine kinase is a muscle-specific enzyme with clinical utility in the detection of acute or chronic diseases of muscle. Creatine kinase catalyzes the synthesis of creatine phosphate from creatine and ATP. The equilibrium constant for this reaction is near 1. When ATP levels are high, formation of creatine phosphate is favored. When ATP levels drop, the equilibrium shifts in favor of ATP synthesis at the expense of stored creatine phosphate. Creatine phosphate provides a readily available source for a high-energy phosphate group. Creatine phosphate can be used to regenerate ATP from ADP.",
+      "char_start": 29564,
+      "char_end": 30160,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP",
+        "Creatine Phosphate Constitutes a Major Energy Reserve in Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "creatine-phosphate-constitutes-a-major-energy-reserve-in"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "ATP synthase is the primary vehicle for regenerating ATP in living cells. ATP synthase can only synthesize ATP from ADP. Adenylyl kinase catalyzes the phosphorylation of AMP to form ADP. ATP serves as the phosphodonor in the reaction catalyzed by adenylyl kinase. Adenylyl kinase generates two molecules of ADP from one molecule each of AMP and ATP. When other means for regenerating ATP are exhausted, the equilibrium shifts in favor of synthesizing ATP at the expense of ADP. The by-product of the reaction catalyzed by adenylyl kinase is AMP. The process of using adenylyl kinase to regenerate ATP is only a temporary expedient. The cell can only cannibalize its total adenine nucleotide pool for so long.",
+      "char_start": 30217,
+      "char_end": 30925,
+      "section_path": [
+        "Overview",
+        "MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP",
+        "Adenylyl Kinase Serves as a Reserve of Last Resort"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-kinase-serves-as-a-reserve-of-last-resort"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Skeletal muscle contains different types of fibers. One classification subdivides them into type I (slow twitch), type IIA (fast twitch-oxidative), and type IIB (fast twitch-glycolytic). For simplicity, we consider only two types: type I (slow twitch, oxidative) and type II (fast twitch, glycolytic).\n\nType I fibers contain myoglobin and mitochondria. Type I fibers metabolism is aerobic. Type I fibers maintain relatively sustained contractions. Type II fibers lack myoglobin and contain few mitochondria. Type II fibers derive their energy from anaerobic glycolysis. Type II fibers perform contractions of relatively short duration.\n\nThe proportion of these two types of fibers varies among the muscles of the body. The proportion of these two types of fibers depends on function and training. The number of type I fibers in certain leg muscles increases in athletes training for marathons. The number of type II fibers increases in sprinters.\n\nType I fibers rely heavily on aerobic metabolism to regenerate ATP. Type II fibers rely on oxygen-independent sources such as creatine phosphate. Endurance athletes engage in carbohydrate loading to increase the size of their glycogen stores. Sprinters attempt to increase the pool of creatine phosphate in their muscles by ingesting creatine as a dietary supplement.",
+      "char_start": 30995,
+      "char_end": 32310,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "skeletal-muscle-contains-slow-red-fast-white-twitch-fibers"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "A cardiomyopathy is any structural or functional abnormality of the ventricular myocardium. A cardiomyopathy can arise from a number of causes, many of them hereditary. The causes of inherited cardiomyopathies fall into two broad classes. The first class involves disorders of cardiac energy metabolism, mainly reflecting mutations in genes encoding enzymes or proteins involved in fatty acid oxidation and oxidative phosphorylation. The second class involves mutations in genes encoding proteins involved in or affecting myocardial contraction, such as myosin, tropomyosin, the troponins, and cardiac myosin-binding protein C. Mutations in the genes (nuclear or mitochondrial) encoding various proteins, enzymes, or tRNA molecules are the fundamental causes of the inherited cardiomyopathies. Some conditions are mild, whereas others are severe and may be part of a syndrome affecting other tissues. (Table 50-4)",
+      "char_start": 32429,
+      "char_end": 33342,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Inherited Cardiomyopathies Can Arise From Disorders of Cardiac Energy Metabolism or Abnormal Myocardial Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-50-4"
+      ],
+      "section_id": "inherited-cardiomyopathies-can-arise-from-disorders-of"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Inborn errors of fatty acid oxidation affect carnitine entry into cells and mitochondria.\nInborn errors of fatty acid oxidation affect certain enzymes of fatty acid oxidation.\nDisorders of mitochondrial oxidative phosphorylation affect proteins encoded by mitochondrial genes.\nDisorders of mitochondrial oxidative phosphorylation affect proteins encoded by nuclear genes.",
+      "char_start": 33396,
+      "char_end": 33767,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Inherited Cardiomyopathies Can Arise From Disorders of Cardiac Energy Metabolism or Abnormal Myocardial Proteins"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "inherited-cardiomyopathies-can-arise-from-disorders-of"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Familial hypertrophic cardiomyopathy is one of the most commonly encountered hereditary cardiac diseases. Most cases of familial hypertrophic cardiomyopathy are transmitted in an autosomal dominant manner. Some cases of familial hypertrophic cardiomyopathy are sporadic. The substitutions cluster in the head and head-rod regions of the myosin heavy chain. One hypothesis is that these heavy chain variants, known as 'poison polypeptides', cause the formation of abnormal myofibrils. Abnormal myofibrils eventually result in compensatory hypertrophy in familial hypertrophic cardiomyopathy. Patients with familial hypertrophic cardiomyopathy can show great variation in clinical picture. Variation in clinical picture reflects genetic heterogeneity in familial hypertrophic cardiomyopathy. Patients with mutations predicted to alter the charge character of the affected amino acid side chain exhibit a significantly shorter life expectancy. Patients with mutations that do not alter the charge character of the affected amino acid side chain have a longer life expectancy. Mutations in the genes encoding dystrophin, muscle LIM protein, the cyclic AMP response-element binding protein (CREB), desmin, and lamin have been implicated in the causation of dilated cardiomyopathy. Dystrophin and muscle LIM protein help organize the contractile apparatus of cardiac muscle cells. CREB regulates the expression of several genes within cardiac muscle cells.",
+      "char_start": 33878,
+      "char_end": 35328,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Mutations in the Cardiac β-Myosin Heavy-Chain Gene Are One Cause of Familial Hypertrophic Cardiomyopathy"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "mutations-in-the-cardiac-myosin-heavy-chain-gene-are-one"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Titin is the world's largest known protein, and its role is to anchor the ends of myofibrils. Dystrophin is of particular biomedical interest. Mutations in the gene that encodes dystrophin cause Duchenne muscular dystrophy. Mutations in the gene that encodes dystrophin cause Becker muscular dystrophy. Mutations in the gene that encodes dystrophin have been implicated in dilated cardiomyopathy. Dystrophin bridges the actin cytoskeleton to the extracellular matrix at the interior face of the plasma membrane. Formation of this link is necessary for assembly of the synaptic junction. Duchenne muscular dystrophy results from the inability of mutationally altered forms of dystrophin to support formation of functionally competent synaptic junctions. Mutations in genes encoding polypeptide components of the sarcoglycan complex are responsible for certain other congenital forms of muscular dystrophy such as limb-girdle. Syntrophin binds to the carboxyl terminal of dystrophin. The function of the sarcoglycan complex and the nature of the interactions within the complex and between it and the other complexes are not clear. The sarcoglycan complex is formed only in striated muscle. The subunits of the sarcoglycan complex preferentially associate with each other, suggesting that the complex may function as a single unit. Mutations in the genes encoding the various sarcoglycans are responsible for limb-girdle dystrophies. Mutations in genes encoding other muscle proteins cause other types of muscular dystrophy. (Figure 50-10)",
+      "char_start": 35410,
+      "char_end": 36947,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-10"
+      ],
+      "table_refs": [],
+      "section_id": "mutations-in-the-gene-encoding-dystrophin-cause-duchenne"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Acetylcholine triggers the relaxation of the smooth muscle of blood vessels. Acetylcholine binds to its cell surface receptors on the endothelial cells surrounding vascular smooth muscle cells. The binding of acetylcholine triggers the activation of associated phospholipases on the interior surface of the plasma membrane. Phospholipases hydrolyze and release the polyphosphorylated head groups, particularly 3,4,5-triphosphoinositol, from phosphatidylinositol. Phosphatidylinositol is a quantitatively minor but functionally important phospholipid component of the plasma membrane. EDRF diffuses into the adjacent smooth muscle where it causes subsequent relaxation. EDRF was identified as nitrous oxide (NO).\n\nNO synthase catalyzes the five-electron oxidation of a guanidino nitrogen in the side chain of arginine. The reaction yields citrulline and NO (Figure 50–11). The complex reaction utilizes NADPH and four redox-active prosthetic groups: FAD, FMN, heme, and tetrahydrobiopterin.",
+      "char_start": 38488,
+      "char_end": 39477,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Nitric Oxide Relaxes the Smooth Muscle of Blood Vessels"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-11"
+      ],
+      "table_refs": [],
+      "section_id": "nitric-oxide-relaxes-the-smooth-muscle-of-blood-vessels"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "NO binds to the heme moiety of a soluble guanylyl cyclase upon diffusing into the surrounding vascular smooth muscle cells. This binding activates the enzyme and elevates the intracellular levels of the second messenger 3',5'-cyclic GMP (cGMP). The elevated cGMP levels stimulate the activities of certain cGMP-dependent protein kinases. These protein kinases phosphorylate specific muscle proteins, causing relaxation.\n\nNO subsequently diffuses into adjacent smooth muscle, where it activates guanylyl cyclase. The activation of guanylyl cyclase leads to the formation of cGMP, stimulation of cGMP protein kinases, and subsequent relaxation. Nitroglycerin, a vasodilator, enters the smooth muscle cell, where its metabolism also leads to the formation of NO.",
+      "char_start": 39593,
+      "char_end": 40352,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Nitric Oxide Relaxes the Smooth Muscle of Blood Vessels"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nitric-oxide-relaxes-the-smooth-muscle-of-blood-vessels"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Glyceryl trinitrate stimulates endothelial cells, leading to NO production and cGMP-mediated relaxation.\nAcetylcholine stimulates endothelial cells, leading to NO production and cGMP-mediated relaxation.\nEndothelial cells use arginine in the process of NO production and cGMP-mediated relaxation.\nIncreased Ca²⁺ levels activate NO synthase in the process of NO production and cGMP-mediated relaxation.\nNO synthase produces NO and citrulline in the process of NO production and cGMP-mediated relaxation.\nNO and citrulline interact with GTP in the process of NO production and cGMP-mediated relaxation.\nGTP activates guanylyl cyclase in the process of NO production and cGMP-mediated relaxation.\nGuanylyl cyclase produces cGMP in the process of NO production and cGMP-mediated relaxation.\ncGMP causes relaxation in the process of NO production and cGMP-mediated relaxation.\nRelaxation involves cGMP protein kinases in the process of NO production and cGMP-mediated relaxation.\ncGMP protein kinases are involved in the conversion of nitrate to nitrite in the process of NO production and cGMP-mediated relaxation.\nNitrate is converted to nitrite in the process of NO production and cGMP-mediated relaxation.\nNitrite is converted to NO in the process of NO production and cGMP-mediated relaxation.\nNO interacts with GTP in the process of NO production and cGMP-mediated relaxation.\nThe diagram as a whole relates the process of NO production and cGMP-mediated relaxation initiated by glyceryl trinitrate and acetylcholine.",
+      "char_start": 40545,
+      "char_end": 42063,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+        "Nitric Oxide Relaxes the Smooth Muscle of Blood Vessels"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nitric-oxide-relaxes-the-smooth-muscle-of-blood-vessels"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "Skeletal muscle proteins are the major nonfat source of stored energy in humans.\n\nLarge losses of muscle mass accompany prolonged caloric undernutrition, particularly in adults.",
+      "char_start": 42137,
+      "char_end": 42314,
+      "section_path": [
+        "Overview",
+        "SKELETAL MUSCLE CONSTITUTES THE MAJOR RESERVE OF PROTEIN IN THE BODY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "skeletal-muscle-constitutes-the-major-reserve-of-protein-in"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "All cells perform mechanical work. Muscle cells perform mechanical work of higher physical magnitude than other cells. Cells perform self-propulsion. Cells perform cytokinesis. Cells perform endocytosis. Cells perform exocytosis. Cells perform phagocytosis. The cytoskeleton is the core machinery for these functions. The cytoskeleton comprises filamentous protein polymers. Actin filaments are part of the cytoskeleton. Actin filaments are also known as microfilaments. Microtubules are part of the cytoskeleton. Intermediate filaments are part of the cytoskeleton.",
+      "char_start": 42373,
+      "char_end": 42939,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-cytoskeleton-performs-multiple-cellular-functions"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "G-actin is present in most if not all cells of the body. G-actin monomers spontaneously polymerize to form double helical F-actin filaments under physiologic conditions. F-actin filaments have a diameter of 7-9.5 nm. Actin microfilaments in the cytoskeleton generally exist as bundles within a tangled-appearing meshwork. Stress fibers are prominent bundles that just underlie the plasma membranes of many cells. Stress fibers disappear as cell motility increases. Stress fibers also disappear on malignant transformation of cells.\n\nActin filaments in nonmuscle cells can interact with myosin to cause cellular movements. Although actin filaments in nonmuscle cells are not organized as in muscle, they can still interact with myosin.",
+      "char_start": 43003,
+      "char_end": 43737,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Nonmuscle Cells Contain Microfilaments Containing G-Actin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nonmuscle-cells-contain-microfilaments-containing-g-actin"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "Microtubules are an integral component of the cellular cytoskeleton. Microtubules consist of cytoplasmic tubes that are 25 nm in diameter. Cytoplasmic tubes are often of extreme length. Each cylindrical tube is comprised of 13 longitudinally arranged protofilaments. Assembly of microtubules starts with the formation of tubulin dimers. Tubulin dimers assemble into protofilaments. Protofilaments associate with one another in parallel to form sheets and eventually cylinders. GTP is required for assembly. A microtubule-organizing center, located around a pair of centrioles, nucleates the growth of new microtubules. Characteristic arrangements of microtubules are found in centrioles, basal bodies, cilia, and flagellae. Microtubules are necessary for mitotic spindle formation and function. The functions include chromosome segregation during cell division. Microtubules are involved in the intracellular movement of endocytic and exocytic vesicles. Microtubules are structural components of cilia and flagella. Microtubules maintain the structure of axons and dendrites. Microtubules participate in the axoplasmic flow of material along neuronal processes. A variety of microtubule-associated proteins [MAPs], including tau, play important roles in microtubule assembly and stabilization. Microtubules exist in a state of dynamic instability, constantly assembling and disassembling. Microtubules exhibit polarity, with plus and minus ends. Polarity is important for growth from centrioles and directing intracellular movement. In axonal transport, the protein kinesin uses ATP hydrolysis to move vesicles down the axon toward the positive end of the microtubular formation. Cytosolic dynein powers the flow of materials in the opposite direction, toward the negative end. Axonemal dyneins power ciliary and flagellar movement. Dynamin, which uses GTP instead of ATP, is involved in endocytosis. Kinesins, dyneins, dynamin, and myosins are referred to as molecular motors. An absence of dynein in cilia and flagella results in immotile cilia and flagella. Absence of dynein leads to Kartagener syndrome, which can cause male sterility, situs inversus, and chronic respiratory infections. Mutations in genes affecting the synthesis of dynein have been detected in individuals with this syndrome. Pharmaceuticals such as colchicine, vinblastine, paclitaxel (Taxol), and griseofulvin disrupt microtubule assembly or disassembly. Colchicine is used for treatment of acute gouty arthritis. Vinblastine is a vinca alkaloid used for treating certain types of cancer. Paclitaxel (Taxol) is effective against ovarian cancer. Griseofulvin is an antifungal agent. (Figure 50-12) shows a schematic of microtubules with electron microscope images, revealing 13 subunits of dimers in a spiral arrangement. The length of microtubules changes by addition or loss of subunits.",
+      "char_start": 43780,
+      "char_end": 46644,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Microtubules Contain α- & β-Tubulins"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-50-12"
+      ],
+      "table_refs": [],
+      "section_id": "microtubules-contain-tubulins"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "Intermediate filaments have an axial periodicity of 21 nm. Intermediate filaments have a diameter of 8 to 10 nm, intermediate between that of microfilaments (6 nm) and microtubules (23 nm). Intermediate filaments are composed of elongated, fibrous molecules with a central rod domain, an amino-terminal head, and a carboxyl-terminal tail. Intermediate filaments assemble in a helical manner to form repeating tetrameric units, creating rope-like fibrils. Intermediate filaments are important structural components of cells, serving as relatively stable components of the cytoskeleton. Intermediate filaments do not undergo rapid assembly and disassembly. Intermediate filaments do not disappear during mitosis. Lamins are an exception, as they disassemble at mitosis after phosphorylation and reappear when mitosis ends. Lamins form a meshwork positioned in apposition to the inner nuclear membrane. Lamin A is an important component of the structural scaffolding that maintains the integrity of the cell nucleus.",
+      "char_start": 47100,
+      "char_end": 48113,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Intermediate Filaments Differ From Microfilaments & Microtubules"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "intermediate-filaments-differ-from-microfilaments"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "LaminsA, B, and C have a molecular mass of 65-75 kDa.\nLaminsA, B, and C are distributed in the nuclear lamina.\nKeratinsType I (acidic) have a molecular mass of 40-60 kDa.\nKeratinsType II (basic) have a molecular mass of 50-70 kDa.\nKeratinsType I (acidic) are distributed in epithelial cells, hair, and nails.\nKeratinsType II (basic) are distributed as for type I (acidic).\nVimentin-like proteins have a molecular mass of 54 kDa.\nVimentin has a molecular mass of 53 kDa.\nDesmin has a molecular mass of 50 kDa.\nGlial fibrillary acid protein has a molecular mass of 66 kDa.\nVimentin-like proteins are distributed in various mesenchymal cells.\nVimentin is distributed in muscle.\nDesmin is distributed in muscle.\nGlial fibrillary acid protein is distributed in glial cells.\nPeripherin is distributed in neurons.\nNeurofilaments have a molecular mass of 60-130 kDa.\nNeurofilaments are distributed in neurons.",
+      "char_start": 48192,
+      "char_end": 49093,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Intermediate Filaments Differ From Microfilaments & Microtubules"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "intermediate-filaments-differ-from-microfilaments"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "Hutchinson-Gilford progeria syndrome (HGPS, progeria) is caused by mutations in the LMNA gene. The LMNA gene encodes lamin A and lamin C. In progeria, a farnesylated form of prelamin A accumulates. A mutation alters the site where the farnesylated portion is normally cleaved by proteases. The accumulation of farnesylated prelamin A destabilizes nuclei. The destabilization of nuclei alters their shape. The altered shape of nuclei predisposes individuals to signs of premature aging. Children affected by progeria often die in their teens from atherosclerosis. A farnesyltransferase inhibitor, lonafarnib, can moderately increase a patient's lifespan. Lonafarnib improves cardiac function. Prelamin A can still accumulate in the presence of farnesyltransferase inhibitors due to additional modifications. Investigations of combination therapies are being conducted in mice and HGPS human cells.",
+      "char_start": 49095,
+      "char_end": 49991,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Intermediate Filaments Differ From Microfilaments & Microtubules"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "intermediate-filaments-differ-from-microfilaments"
+    },
+    {
+      "chunk_id": "c052",
+      "text": "Keratins form a large family consisting of about 30 members. Two major types of keratins assemble into heterodimers made up of one member of each class. Vimentins are widely distributed in mesodermal cells. Desmin, glial fibrillary acidic protein, and peripherin are related to vimentins. All members of the vimentin-like family can copolymerize with each other. Intermediate filaments in nerve cells, called neurofilaments, are classified as low, medium, and high based on their molecular masses. The distribution of intermediate filaments in normal and abnormal cells, such as cancer cells, can be studied using immunofluorescent techniques. Pathologists use antibodies against specific intermediate filaments to determine the origin of certain dedifferentiated malignant tumors.\n\nA number of skin diseases, mainly characterized by blistering, are due to mutations in genes encoding various keratins. Two such disorders are epidermolysis bullosa simplex and epidermolytic palmoplantar keratoderma. The blistering in these disorders likely reflects a diminished capacity of skin layers to resist mechanical stresses. The diminished capacity of skin layers to resist mechanical stresses is due to abnormalities in the keratin structure.",
+      "char_start": 49993,
+      "char_end": 51229,
+      "section_path": [
+        "Overview",
+        "THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS",
+        "Intermediate Filaments Differ From Microfilaments & Microtubules"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "intermediate-filaments-differ-from-microfilaments"
+    },
+    {
+      "chunk_id": "c053",
+      "text": "\\- The myofibrils of skeletal muscle consist of thick, myosin-based and thin, actin-based filaments.\nDuring contraction, these interdigitating filaments slide past one another with cross-bridges between myosin and actin generating and sustaining tension.\nMuscle contraction is driven by the cyclic attachment, conformational shift, and detachment of massive numbers of myosin head domains to adjacent actin fibrils.\nThe hydrolysis of ATP is used to drive movement of the filaments.\nIn smooth muscle, the contractile apparatus is held in check by the regulatory light chains in myosin.\nMutations in genes encoding a number of other proteins have also been detected.\nNO synthase catalyzes the formation of NO, a regulator of vascular smooth muscle.\nDuchenne-type muscular dystrophy is a hereditary disease with mutations in the gene encoding the protein dystrophin.\nTwo major types of muscle fibers are found in humans: white (anaerobic) and red (aerobic).\nNonmuscle cells contain an internal network of fibers called the cytoskeleton that provides the mechanical apparatus needed to maintain and change cell shape, provide cell motility, phagocytosis, etc.\nMutations in the gene encoding lamin A cause progeria, a condition characterized by symptoms resembling premature aging.\nMutations in genes for certain keratins cause a number of skin diseases.\nThe cytoskeleton provides a scaffold for a variety of molecular motors, such as kinesin and dynein, that participate in vesicle transport, axonal flow, flagellar motion, and morphologic changes in cell shape.",
+      "char_start": 51231,
+      "char_end": 52789,
+      "section_path": [
+        "Overview"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-50-1",
+      "image_path": "images/6e90eda473472070a6a4255a598dcf6c7582a5c5bb3e2a82f09d9f7c4af8f0d0.jpg",
+      "caption": "The structure of voluntary muscle. The sarcomere is the region between the Z lines. (Reproduced with permission from Bloom W, Fawcett DW: A Textbook of Histology, 11th ed. Saunders; 1986. Drawing by Sylvia Colard Keene.)",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-50-1]",
+      "description": "",
+      "label": "Figure 50-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4389,
+        4609
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "fig_id": "fig-50-2",
+      "image_path": "",
+      "caption": "Arrangement of filaments in striated muscle. (A) Extended. The positions of the I, A, and H bands in the extended state are shown. The thin filaments partly overlap the ends of the thick filaments, and the thin filaments are shown anchored in the Z lines (often called Z disks). In the lower part of Figure 50–2A, “arrowheads,” pointing in opposite directions, are shown emanating from the myosin (thick) filaments. Four actin (thin) filaments are shown attached to two Z lines via α -actinin. The central region of the three myosin filaments, free of arrowheads, is called the M band (not labeled).",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-50-2]",
+      "description": "",
+      "label": "Figure 50-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5290,
+        5889
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "fig_id": "fig-x3",
+      "image_path": "images/e91f3f25971838e9c12a269853353963f6a51bd87eef00f5c078ad98c3af3bdd.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x3]",
+      "description": "",
+      "label": "",
+      "panel": "Source:",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-sarcomere-is-the-functional-unit-of-muscle"
+    },
+    {
+      "fig_id": "fig-50-3",
+      "image_path": "images/af61b4cda41fbb7ef3e2f3c69b51ac94df7c1bc029af5899a835cdc356877c12.jpg",
+      "caption": "Schematic of the thin filament showing actin, troponin, and tropomyosin configuration, with G-actin, F-actin, and the three troponin subunits.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-50-3]",
+      "description": "G-actin forms F-actin.\nF-actin binds to troponin.\nTroponin is part of the assembled thin filament.\nThe assembled thin filament measures 38.5 nm.\nThe assembled thin filament measures 35.5 nm.\nThe diagram illustrates the configuration of actin, troponin, and tropomyosin in the thin filament.",
+      "label": "Figure 50-3",
+      "panel": "",
+      "content_chunk": "c011",
+      "caption_span": [
+        7932,
+        8074
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "actin-myosin-account-for-75-of-the-protein-mass-in-muscle"
+    },
+    {
+      "fig_id": "fig-50-4",
+      "image_path": "images/68fba292efee6c893540f3398ad32014c299c6781cb06b9d72a1f9c7287ea4bc.jpg",
+      "caption": "The hydrolysis of ATP drives the cyclic association and dissociation of actin and myosin in five reactions described in the text.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-50-4]",
+      "description": "The myosin head releases inorganic phosphate (Pi) to bind ADP.\nADP is released from the myosin head to allow the myosin head to bind to the thin filament actin.\nThe binding of the myosin head to the thin filament actin facilitates the formation of a coarse bridge with ATP.\nThe coarse bridge formed with ATP undergoes a conformational change to maintain the coarse bridge state.\nThe coarse bridge state is maintained through further conformational changes in the coarse bridge.\nThe coarse bridge state persists through additional conformational changes in the coarse bridge.\nThe diagram illustrates the hydrolysis of ATP driving the cyclic association and dissociation of actin and myosin.",
+      "label": "Figure 50-4",
+      "panel": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        12525,
+        12654
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "fig_id": "fig-50-5",
+      "image_path": "images/a5c66741c840f4d03be56d53c122723d5789ec0f1bd44d49a2480f09250f2409.jpg",
+      "caption": "Representation of the active cross-bridges between thick and thin filaments. The force involved in muscular contraction originates in a tendency for the myosin head (S-1) to rotate relative to the thin filament and is transmitted to the thick filament by the S-2 portion of the myosin molecule acting as an inextensible link. Flexible points at each end of S-2 permit S-1 to rotate and allow for variations in the separation between filaments. The coils in the S-2 portion represent the elastic nature of this portion. The four sites of interaction between the S-1 portion and the thin filament illustrate the stepwise shortening elements. The strengths of binding of the attached sites are higher in position 2 than in position 1 and higher in position 3 than position 2. The myosin head can be detached from position 3 with the utilization of a molecule of ATP; this is the predominant process during shortening. The myosin head is seen to vary in its position from about 90° to about 45°. (S-1, myosin head; S-2, portion of the myosin molecule; LMM, light meromyosin) (see legend to Figure 49–4).",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-50-5]",
+      "description": "",
+      "label": "Figure 50-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13366,
+        14465
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "muscle-converts-chemical-energy-to-mechanical-energy"
+    },
+    {
+      "fig_id": "fig-50-6",
+      "image_path": "images/860ffd5472eba0a2f7f64070a35fd2d481c6620737504d9a915d959748198eb9.jpg",
+      "caption": "Regulation of smooth muscle contraction by Ca2+ . The pL-myosin is the phosphorylated light chain of myosin and L-myosin is the dephosphorylated light chain.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-50-6]",
+      "description": "Calmodulin 10⁻⁵ mol/L Ca²⁺ increases the formation of Ca²⁺ • calmodulin.\nCa²⁺ • calmodulin activates myosin kinase (inactive) to form Ca²⁺ • Calmodulin–myosin kinase (active).\nCa²⁺ • Calmodulin–myosin kinase (active) interacts with ATP.\nATP leads to the formation of L-myosin (inhibits myosin-actin interaction).\nL-myosin (inhibits myosin-actin interaction) converts to ADP.\nADP transforms into pL-myosin (does not inhibit myosin-actin interaction).\npL-myosin (does not inhibit myosin-actin interaction) produces H₂PO₄⁻.\nH₂PO₄⁻ returns to form L-myosin (inhibits myosin-actin interaction).\npL-myosin (does not inhibit myosin-actin interaction) is acted upon by Phosphatase.",
+      "label": "Figure 50-6",
+      "panel": "",
+      "content_chunk": "c021",
+      "caption_span": [
+        17274,
+        17431
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "myosin-based-regulation-occurs-in-smooth-muscle"
+    },
+    {
+      "fig_id": "fig-50-7",
+      "image_path": "images/6a40732b88ac8eac5835072f12806faffb4241a118cc50d3616833de6a6b81c0.jpg",
+      "caption": "Diagram of the relationships among the sarcolemma (plasma membrane), a T tubule, and two cisternae of the SR of skeletal muscle (not to scale). The T tubule extends inward from the sarcolemma. A wave of depolarization, initiated by a nerve impulse, is transmitted from the sarcolemma down the T tubule. It is then conveyed to the Ca2+ release channel (RYR), perhaps by interaction between it and the dihydropyridine receptor (slow Ca2+ voltage channel), which lie in proximity to one other. Release of Ca2+ from the Ca2+ release channel into the cytosol initiates contraction. Subsequently, Ca2+ is pumped back into the cisternae of the SR by the Ca2+ ATPase ( Ca2+ pump) and stored there, in part bound to calsequestrin.",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-50-7]",
+      "description": "",
+      "label": "Figure 50-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        20147,
+        20868
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-sarcoplasmic-reticulum-regulates-intracellular-levels"
+    },
+    {
+      "fig_id": "fig-50-8",
+      "image_path": "images/05a71bc079803f699bede551451d36bcc59ee5f547e40c9cb5839a18435479ae.jpg",
+      "caption": "Scheme of how the drug digitalis (used in the treatment of certain cases of heart failure) increases cardiac contraction. Digitalis inhibits the Na+-K+ ATPase (see Chapter 40). This results in less Na+ being pumped out of the cardiac myocyte and leads to an increase of the intracellular [Na+] . In turn, this stimulates the Na+-Ca2+ exchanger so that more Na+ is exchanged outward, and more Ca2+ enters the myocyte. The resulting increased intracellular [Ca2+] increases the force of muscular contraction.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-50-8]",
+      "description": "Digitalis inhibits the Na+K+ATPase, preventing it from pumping K+ out of the cardiac myocyte.\nDigitalis inhibits the Na+K+ATPase, leading to an increase in intracellular Na+ concentration.\nThe increase in intracellular Na+ concentration stimulates the Na+:Ca2+ exchanger.\nThe stimulation of the Na+:Ca2+ exchanger results in more Ca2+ entering the myocyte.\nThe increase in intracellular Ca2+ concentration increases the force of muscle contraction.\nThe increased force of muscle contraction further increases the intracellular Ca2+ concentration.\nThe diagram as a whole relates how the drug digitalis increases cardiac contraction by inhibiting the Na+K+ATPase and subsequently increasing intracellular Ca2+ concentration.",
+      "label": "Figure 50-8",
+      "panel": "",
+      "content_chunk": "c028",
+      "caption_span": [
+        24611,
+        25117
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "fig_id": "fig-50-9",
+      "image_path": "images/5097a0fa62e1ac8b4dd37bb8e436bda9ca329f5b5c8e4d6528fd8220653d51bc.jpg",
+      "caption": "The multiple sources of ATP in muscle.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-50-9]",
+      "description": "Muscle glycogen contributes to the formation of Glucose 6-P in muscle.\nMuscle phosphorylase facilitates the production of Glucose 6-P in muscle.\nCreatine phosphokinase participates in the generation of Glucose 6-P in muscle.\nCreatine contributes to the formation of Glucose 6-P in muscle.\nGlucose 6-P is involved in glycolysis in muscle.\nOxidative phosphorylation supports the production of Glucose 6-P in muscle.\nATP is essential for muscle contraction.\nMyosin ATPase is involved in muscle contraction.\nAdenylyl kinase contributes to muscle contraction.\nMuscle contraction results in the production of ADP + Pi.\nADP + Pi leads to the formation of ADP.\nADP is converted into AMP.\nThe diagram illustrates the various sources of ATP in muscle.",
+      "label": "Figure 50-9",
+      "panel": "",
+      "content_chunk": "c032",
+      "caption_span": [
+        27729,
+        27767
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "muscle-contraction-requires-large-quantities-of-atp"
+    },
+    {
+      "fig_id": "fig-50-10",
+      "image_path": "images/8e4c4a72080158b7e275128f2bc08018f7d7cf9d852ddc224174b076d535340f.jpg",
+      "caption": "Organization of dystrophin and other proteins in relation to the plasma membrane of muscle cells. Dystrophin is part of a large oligomeric complex associated with several other protein complexes. The dystroglycan complex consists of α -dystroglycan, which associates with the basal lamina protein merosin (also named laminin-2, see Chapter 50), and β -dystroglycan, which binds α -dystroglycan and dystrophin. Syntrophin binds to the carboxyl terminal of dystrophin. The sarcoglycan complex consists of four transmembrane proteins: α -, β -, γ -, and δ -sarcoglycan. The function of the sarcoglycan complex and the nature of the interactions within the complex and between it and the other complexes are not clear. The sarcoglycan complex is formed only in striated muscle, and its subunits preferentially associate with each other, suggesting that the complex may function as a single unit. Mutations in the gene encoding dystrophin cause Duchenne and Becker muscular dystrophies. Mutations in the genes encoding the various sarcoglycans have been shown to be responsible for limb-girdle dystrophies and mutations in genes encoding other muscle proteins cause other types of muscular dystrophy. Mutations in genes encoding certain glycosyltransferases involved in the synthesis of the glycan chains of α -dystroglycan are responsible for certain congenital muscular dystrophies. (© 2003 by The American Society for Biochemistry and Molecular Biology, Inc.)",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:fig-50-10]",
+      "description": "",
+      "label": "Figure 50-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        36969,
+        38426
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "mutations-in-the-gene-encoding-dystrophin-cause-duchenne"
+    },
+    {
+      "fig_id": "fig-50-11",
+      "image_path": "",
+      "caption": "Formation of nitric oxide (NO) from arginine in endothelial cells, catalyzed by NO synthase.",
+      "referenced_from": "c042",
+      "marker": "[FIGURE:fig-50-11]",
+      "description": "",
+      "label": "Figure 50-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        39499,
+        39591
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nitric-oxide-relaxes-the-smooth-muscle-of-blood-vessels"
+    },
+    {
+      "fig_id": "fig-x13",
+      "image_path": "images/572d319f4de7ccd3d7ac9475ec4d803c5d4293bd69e41d26bec6a78d484dffe1.jpg",
+      "caption": "Glyceryl trinitrate and acetylcholine stimulate endothelial cells, leading to NO production and cGMP-mediated relaxation, with nitrates converting to nitrites and then NO.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x13]",
+      "description": "Glyceryl trinitrate stimulates endothelial cells, leading to NO production and cGMP-mediated relaxation.\nAcetylcholine stimulates endothelial cells, leading to NO production and cGMP-mediated relaxation.\nEndothelial cells use arginine in the process of NO production and cGMP-mediated relaxation.\nIncreased Ca²⁺ levels activate NO synthase in the process of NO production and cGMP-mediated relaxation.\nNO synthase produces NO and citrulline in the process of NO production and cGMP-mediated relaxation.\nNO and citrulline interact with GTP in the process of NO production and cGMP-mediated relaxation.\nGTP activates guanylyl cyclase in the process of NO production and cGMP-mediated relaxation.\nGuanylyl cyclase produces cGMP in the process of NO production and cGMP-mediated relaxation.\ncGMP causes relaxation in the process of NO production and cGMP-mediated relaxation.\nRelaxation involves cGMP protein kinases in the process of NO production and cGMP-mediated relaxation.\ncGMP protein kinases are involved in the conversion of nitrate to nitrite in the process of NO production and cGMP-mediated relaxation.\nNitrate is converted to nitrite in the process of NO production and cGMP-mediated relaxation.\nNitrite is converted to NO in the process of NO production and cGMP-mediated relaxation.\nNO interacts with GTP in the process of NO production and cGMP-mediated relaxation.\nThe diagram as a whole relates the process of NO production and cGMP-mediated relaxation initiated by glyceryl trinitrate and acetylcholine.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c044",
+      "caption_span": [
+        40372,
+        40543
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nitric-oxide-relaxes-the-smooth-muscle-of-blood-vessels"
+    },
+    {
+      "fig_id": "fig-50-12",
+      "image_path": "",
+      "caption": "Schematic of microtubules showing electron microscope images with tannic acid fixation, revealing 13 subunits of dimers in a spiral arrangement; length changes by addition or loss of subunits.",
+      "referenced_from": "c048",
+      "marker": "[FIGURE:fig-50-12]",
+      "description": "",
+      "label": "Figure 50-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        46666,
+        46858
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "microtubules-contain-tubulins"
+    },
+    {
+      "fig_id": "fig-x15",
+      "image_path": "images/1fa0cd57d4548bdf684e860eaaac2be4d9ec94c060e9bb1ec2674e05c316fef5.jpg",
+      "caption": "Diagram showing cross and longitudinal sections of a tubulin structure, highlighting α and β tubulin, tubulin dimers, and dimensions of 24 nm and 5 nm.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x15]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        46878,
+        47029
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "microtubules-contain-tubulins"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-50-1",
+      "label": "Table 50-1",
+      "caption": "Actin-Myosin Interactions in Striated & Smooth Muscle",
+      "referenced_from": "c020",
+      "content_chunk": "c022",
+      "caption_span": [
+        18108,
+        18161
+      ],
+      "section_id": "myosin-based-regulation-occurs-in-smooth-muscle"
+    },
+    {
+      "table_id": "tbl-50-2",
+      "label": "Table 50-2",
+      "caption": "Some Differences Among Skeletal, Cardiac, & Smooth Muscle",
+      "referenced_from": "c025",
+      "content_chunk": "c026",
+      "caption_span": [
+        22588,
+        22645
+      ],
+      "section_id": "regulation-of-contraction-in-cardiac-muscle-is-also-actin"
+    },
+    {
+      "table_id": "tbl-50-3",
+      "label": "Table 50-3",
+      "caption": "Some Disorders (Channelopathies) Due to Mutations in Genes Encoding Polypeptide Constituents of Ion Channels",
+      "referenced_from": "c029",
+      "content_chunk": "c030",
+      "caption_span": [
+        26602,
+        26710
+      ],
+      "section_id": "ca2-enters-cardiomyocytes-via-ca2-channels-leave"
+    },
+    {
+      "table_id": "tbl-50-4",
+      "label": "Table 50-4",
+      "caption": "Biochemical Causes of Inherited Cardiomyopathies a",
+      "referenced_from": "c038",
+      "content_chunk": "c039",
+      "caption_span": [
+        33344,
+        33394
+      ],
+      "section_id": "inherited-cardiomyopathies-can-arise-from-disorders-of"
+    },
+    {
+      "table_id": "tbl-50-5",
+      "label": "Table 50-5",
+      "caption": "Classes of Intermediate Filaments of Eukaryotic Cells & Their Distributions",
+      "referenced_from": "",
+      "content_chunk": "c050",
+      "caption_span": [
+        48115,
+        48190
+      ],
+      "section_id": "intermediate-filaments-differ-from-microfilaments"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the differences between actin-based and myosin-based regulation of muscle contraction.\nOutline the composition and organization of the thick and thin filaments in striated muscle tissues.\nDescribe the pivotal role of Ca2+ in the initiation of both contraction and relaxation in muscle.\nList the various channels, pumps, and exchangers involved in regulating intracellular Ca2+ levels in various types of muscle.\nList the major energy sources for regenerating ATP in muscle tissue.\nIdentify the preferred energy sources for fast and slow twitch fibers.\nUnderstand the molecular bases of malignant hyperthermia, Duchenne and Becker muscular dystrophies, and inherited cardiomyopathies.\nExplain how nitric oxide (NO) induces relaxation of vascular smooth muscle.\nKnow the general structures and functions of the major components of the cytoskeleton, namely microfilaments, microtubules, and intermediate filaments.\nExplain the role of mutations in the gene encoding lamin A and lamin C in Hutchinson-Gilford progeria syndrome (progeria).",
+      "char_start": 12,
+      "char_end": 1055,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Blanchoin L, Bouiemaa-Paterski R, Sykes C, Plastino J: Actin dynamics, architecture, and mechanics in cell motility. Physiol Rev 2014;94:235.\n[PubMed: 24382887]\nGoldman RD, Pollard TD (eds.): The Cytoskeleton. Cold Spring Harbor Lab Press, 2017.\nLamis A, Siddiqui S W, Ashok T, et al. Hutchinson-Gilford progeria syndrome: a literature review. Cureus 2022;14(8):e28629 [PubMed: 36196312]\nKhalil RA (ed.): Vascular Pharmacology: Cytoskeleton and Extracellular Matrix. Academic Press, 2018.\nKull FJ, Endow SA: Force generation by kinesin and myosin cytoskeleton proteins. J Cell Sci 2013;126:9. [PubMed: 23487037]\nRall JA: Mechanism of Muscle Contraction. Springer, 2014.\nSequeira V, Nijenkamp LL, Regan JA, van der Velden J: The physiological role of cardiac cytoskeleton and its alterations in heart failure. Biochim Biophys Acta 2014;1838:700. [PubMed: 23860255]\nSmith DA: The Sliding Filament Theory of Muscle Contraction. Springer, 2018.\nSzent-Gyorgyi AG: The early history of the biochemistry of muscle contraction. J Gen Physiol 2004;123:631. [PubMed: 15173217]",
+      "char_start": 52791,
+      "char_end": 53857,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x15",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-50-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-50-5",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_50_muscle_and_the_cytoskeleton.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_50_muscle_and_the_cytoskeleton/chapter_50_muscle_and_the_cytoskeleton.normalized.md"
+}

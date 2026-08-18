@@ -3,7 +3,9 @@
 Neo4j schema backing the serving layer: students, sessions, and quiz/flashcard activity.
 Core answer/review history is an append-only event chain; layered on top of it are
 per-question spaced-repetition edges, a topic hierarchy, and (newest, and worth reading
-closely) a non-event-sourced mastery edge.
+closely) a non-event-sourced mastery edge. For the client-side call sequence that
+produces these writes (the iOS app), see
+[10-frontend-integration.md](10-frontend-integration.md).
 
 ## Schema diagram
 
@@ -168,6 +170,10 @@ Whether "client derives it from real event history, server only persists the lat
 number for sync/display" is a faithful extension of the original principle, or a
 walk-back of it, is a genuinely open question flagged for whoever owns the BKT client —
 not resolved either way in this doc.
+
+See [10-frontend-integration.md § 4](10-frontend-integration.md#4-quiz-flow--setup--answer-loop--finish)
+for exactly where in the client's answer loop `p_know` gets computed and pushed —
+including the per-answer + session-end double-push and why both exist.
 
 A partial server-side answer to this question is now wired in, but it's narrower than
 "the server computes `p_know`": [09-knowledge-tracing.md](09-knowledge-tracing.md) fits

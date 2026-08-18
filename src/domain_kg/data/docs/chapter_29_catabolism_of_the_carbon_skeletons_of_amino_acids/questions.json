@@ -1,0 +1,899 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Transaminase acts on which substrate?",
+    "options": [
+      "amino acids",
+      "glutamine",
+      "glycine accumulates",
+      "n-formylkynurenine",
+      "threonine"
+    ],
+    "answer": "amino acids",
+    "rationale": "Transamination, catalyzed by a transaminase, is the first catabolic reaction of most protein amino acids.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substrate does glutaminase act on in the reaction that forms glutamate and ammonium?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamine",
+      "glycine accumulates",
+      "threonine"
+    ],
+    "answer": "glutamine",
+    "rationale": "Glutaminase (EC 3.5.1.2) catalyzes the reaction of glutamine and water to form glutamate and ammonium.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Glutamine & Glutamate Form α-Ketoglutarate",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of metabolic block?",
+    "options": [
+      "4-hydroxyproline hyperhydroxyprolinemia",
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "proline hyperprolinemia",
+      "tyrosine"
+    ],
+    "answer": "proline hyperprolinemia",
+    "rationale": "The metabolic block in type I hyperprolinemia is at proline dehydrogenase. There is no associated impairment of hydroxyproline catabolism in type I hyperprolinemia.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Proline",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Formimino is converted into which substance?",
+    "options": [
+      "acetate",
+      "amphibolic intermediates",
+      "crotonyl-CoA",
+      "fumarate",
+      "tetrahydrofolate"
+    ],
+    "answer": "tetrahydrofolate",
+    "rationale": "The formimino group is transferred to tetrahydrofolate, forming glutamate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Urolithiasis can develop as a complication of which condition related to glyoxylate metabolism?",
+    "options": [
+      "brain damage",
+      "cystinosis",
+      "metabolic defect",
+      "metabolic disorders",
+      "primary hyperoxaluria"
+    ],
+    "answer": "primary hyperoxaluria",
+    "rationale": "The oxidation of glyoxylate to oxalate leads to urolithiasis, nephrocalcinosis, and early mortality from renal failure or hypertension in primary hyperoxaluria.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Nephrocalcinosis can develop as a complication of which condition related to glyoxylate metabolism?",
+    "options": [
+      "brain damage",
+      "cystinosis",
+      "metabolic defect",
+      "metabolic disorders",
+      "primary hyperoxaluria"
+    ],
+    "answer": "primary hyperoxaluria",
+    "rationale": "The oxidation of glyoxylate to oxalate leads to urolithiasis, nephrocalcinosis, and early mortality from renal failure or hypertension in primary hyperoxaluria.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Renal failure can develop as a complication of which condition related to glyoxylate metabolism?",
+    "options": [
+      "brain damage",
+      "cystinosis",
+      "metabolic defect",
+      "metabolic disorders",
+      "primary hyperoxaluria"
+    ],
+    "answer": "primary hyperoxaluria",
+    "rationale": "The oxidation of glyoxylate to oxalate leads to urolithiasis, nephrocalcinosis, and early mortality from renal failure or hypertension in primary hyperoxaluria.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Hypertension can develop as a complication of which condition related to glyoxylate metabolism?",
+    "options": [
+      "brain damage",
+      "cystinosis",
+      "metabolic defect",
+      "metabolic disorders",
+      "primary hyperoxaluria"
+    ],
+    "answer": "primary hyperoxaluria",
+    "rationale": "The oxidation of glyoxylate to oxalate leads to urolithiasis, nephrocalcinosis, and early mortality from renal failure or hypertension in primary hyperoxaluria.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Ammonia-forming aminomethyltransferase acts on which substrate?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamate",
+      "glutamine",
+      "glycine accumulates"
+    ],
+    "answer": "glycine accumulates",
+    "rationale": "The three enzymes in the glycine cleavage complex are glycine dehydrogenase (decarboxylating), an ammonia-forming aminomethyltransferase, and dihydrolipoamide dehydrogenase.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Dihydrolipoamide dehydrogenase acts on which substrate?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamate",
+      "glutamine",
+      "glycine accumulates"
+    ],
+    "answer": "glycine accumulates",
+    "rationale": "The three enzymes in the glycine cleavage complex are glycine dehydrogenase (decarboxylating), an ammonia-forming aminomethyltransferase, and dihydrolipoamide dehydrogenase.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Histidine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Serine is converted into which substance?",
+    "options": [
+      "amino acids",
+      "glutamate",
+      "glycine",
+      "tryptophan",
+      "tyrosine"
+    ],
+    "answer": "glycine",
+    "rationale": "Serine catabolism merges with that of glycine after serine is converted to glycine.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Serine",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Tetrahydrofolate requires which substance?",
+    "options": [
+      "amino acids",
+      "glycine",
+      "proline",
+      "transaminase",
+      "tryptophan limited"
+    ],
+    "answer": "glycine",
+    "rationale": "Tetrahydrofolate acts as a cofactor in the interconversion of serine and glycine (Figure 29--6).",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Serine",
+    "relation": "requires",
+    "confidence": 1.0,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Cysteine is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "figlu",
+      "homogentisate",
+      "pyruvate",
+      "urocanate"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Two pathways convert cysteine to pyruvate (Figure 29-8).",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Cystine & Cysteine",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Acute renal failure can develop as a complication of which condition?",
+    "options": [
+      "brain damage",
+      "cystinosis",
+      "metabolic defect",
+      "metabolic disorders",
+      "primary hyperoxaluria"
+    ],
+    "answer": "cystinosis",
+    "rationale": "Early mortality from acute renal failure is associated with cystinosis.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > (Cysteine) (Homocysteine)",
+    "relation": "complication_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Tyrosine is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "figlu",
+      "homogentisate",
+      "p-hydroxyphenylpyruvate",
+      "urocanate"
+    ],
+    "answer": "p-hydroxyphenylpyruvate",
+    "rationale": "Tyrosine is transaminated to p-hydroxyphenylpyruvate. P-hydroxyphenylpyruvate is converted to homogentisate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "P-hydroxyphenylpyruvate is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "figlu",
+      "homogentisate",
+      "pyruvate",
+      "urocanate"
+    ],
+    "answer": "homogentisate",
+    "rationale": "P-hydroxyphenylpyruvate is converted to homogentisate. Homogentisate is transformed into maleylacetoacetate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Fumarylacetoacetate is converted into which substance?",
+    "options": [
+      "acetate",
+      "amphibolic intermediates",
+      "crotonyl-CoA",
+      "fumarate",
+      "tetrahydrofolate"
+    ],
+    "answer": "fumarate",
+    "rationale": "Fumarylacetoacetate is broken down into fumarate and acetoacetate. Fumarate and acetoacetate are ultimately converted into acetyl-CoA and acetate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Fumarate is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "acetyl-CoA",
+      "figlu",
+      "pyruvate",
+      "urocanate"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Fumarate and acetoacetate are ultimately converted into acetyl-CoA and acetate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Acetoacetate is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "acetyl-CoA",
+      "figlu",
+      "pyruvate",
+      "urocanate"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Fumarate and acetoacetate are ultimately converted into acetyl-CoA and acetate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognised cause of tyrosinosis?",
+    "options": [
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "phenylalanine hydroxylase",
+      "proline hyperprolinemia"
+    ],
+    "answer": "fumarylacetoacetate hydrolase",
+    "rationale": "Type I tyrosinemia, also known as tyrosinosis, is caused by a defect in fumarylacetoacetate hydrolase. Therapy for type I tyrosinemia involves a diet low in tyrosine and phenylalanine.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of type II tyrosinemia?",
+    "options": [
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "proline hyperprolinemia",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Type II tyrosinemia, or Richner-Hanhart syndrome, results from a defect in tyrosine aminotransferase. Neonatal tyrosinemia is due to lowered activity of p-hydroxyphenylpyruvate hydroxylase.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which of the following is a recognised cause of death in untreated type I tyrosinemia?",
+    "options": [
+      "brain damage",
+      "hartnup disease",
+      "impaired intestinal and renal transport",
+      "liver failure",
+      "metabolic disorders"
+    ],
+    "answer": "liver failure",
+    "rationale": "Untreated type I tyrosinemia can lead to death from liver failure. Type II tyrosinemia, or Richner-Hanhart syndrome, results from a defect in tyrosine aminotransferase.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which agent is used in the management of type II tyrosinemia?",
+    "options": [
+      "amino acids",
+      "hydroxyproline",
+      "proline",
+      "transaminase",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Therapy for type II tyrosinemia and neonatal tyrosinemia involves a diet low in protein.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which agent is used in the management of tyrosinemia?",
+    "options": [
+      "amino acids",
+      "hydroxyproline",
+      "proline",
+      "transaminase",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Therapy for type II tyrosinemia and neonatal tyrosinemia involves a diet low in protein.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which of the following is a recognised cause of ochronosis?",
+    "options": [
+      "amphibolic intermediates",
+      "benzoquinone acetate",
+      "carbon",
+      "fat",
+      "water"
+    ],
+    "answer": "benzoquinone acetate",
+    "rationale": "Ochronosis results from the oxidation of homogentisate to benzoquinone acetate, which polymerizes and binds to connective tissue.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tyrosine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Phenylalanine is converted into which substance?",
+    "options": [
+      "amino acids",
+      "glutamate",
+      "glycine",
+      "tryptophan",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Phenylalanine is first converted to tyrosine (see Figure 27--11).",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Phenylalanine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of hyperphenylalaninemias?",
+    "options": [
+      "dihydrobiopterin",
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "proline hyperprolinemia"
+    ],
+    "answer": "dihydrobiopterin",
+    "rationale": "Hyperphenylalaninemias arise from defects in dihydrobiopterin biosynthesis.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Phenylalanine",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Glutaryl-CoA is converted into which substance?",
+    "options": [
+      "acetate",
+      "amphibolic intermediates",
+      "crotonyl-CoA",
+      "fumarate",
+      "tetrahydrofolate"
+    ],
+    "answer": "crotonyl-CoA",
+    "rationale": "Decarboxylation of glutaryl-CoA to crotonyl-CoA is reaction 6. Defects involving the second activity are accompanied by elevated levels of blood saccharopine.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Lysine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Tryptophan is converted into which substance?",
+    "options": [
+      "acetate",
+      "amphibolic intermediates",
+      "crotonyl-CoA",
+      "fumarate",
+      "tetrahydrofolate"
+    ],
+    "answer": "amphibolic intermediates",
+    "rationale": "Tryptophan is degraded to amphibolic intermediates via the kynurenine-anthranilate pathway (Figure 29--15).",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "EC 1.13.11.11 acts on which substrate?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamate",
+      "glutamine",
+      "n-formylkynurenine"
+    ],
+    "answer": "n-formylkynurenine",
+    "rationale": "Tryptophan 2,3-dioxygenase, EC 1.13.11.11 (tryptophan pyrrolase) opens the indole ring, incorporates molecular oxygen, and forms N-formylkynurenine.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which substrate does kynurenine formylase act on?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamate",
+      "glutamine",
+      "n-formylkynurenine"
+    ],
+    "answer": "n-formylkynurenine",
+    "rationale": "Hydrolytic removal of the formyl group of N-formylkynurenine, catalyzed by kynurenine formylase (EC 3.5.1.9), produces kynurenine.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "What substance is required by EC 3.7.1.3?",
+    "options": [
+      "amphibolic intermediates",
+      "carbon",
+      "fat",
+      "pyridoxal phosphate",
+      "water"
+    ],
+    "answer": "pyridoxal phosphate",
+    "rationale": "Kynureninase (EC 3.7.1.3) requires pyridoxal phosphate.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "What is a recognized cause of Hartnup disease?",
+    "options": [
+      "brain damage",
+      "impaired intestinal and renal transport",
+      "liver failure",
+      "metabolic defect",
+      "metabolic disorders"
+    ],
+    "answer": "impaired intestinal and renal transport",
+    "rationale": "Hartnup disease reflects impaired intestinal and renal transport of tryptophan and other neutral amino acids.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Indole is converted into which substance?",
+    "options": [
+      "amino acids",
+      "glutamate",
+      "glycine",
+      "tryptophan",
+      "tyrosine"
+    ],
+    "answer": "tryptophan",
+    "rationale": "Indole derivatives of unabsorbed tryptophan formed by intestinal bacteria are excreted.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Propionyl-CoA is converted into which substance?",
+    "options": [
+      "acetaldehyde",
+      "figlu",
+      "pyruvate",
+      "succinyl-CoA",
+      "urocanate"
+    ],
+    "answer": "succinyl-CoA",
+    "rationale": "Propionyl-CoA is converted to succinyl-CoA through reactions 2, 3, and 4 (Figure 19-2).",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM > Methionine",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "What is a recognized cause of histidinemia?",
+    "options": [
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "histidase",
+      "hydroxyproline hyperprolinemia",
+      "proline hyperprolinemia"
+    ],
+    "answer": "histidase",
+    "rationale": "Histidine ammonia lyase (histidase) deficiency leads to histidinemia and urocanic acidemia.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids > METABOLIC DISORDERS OF BRANCHED-CHAIN AMINO ACID CATABOLISM",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "What is a recognized cause of phenylketonuria?",
+    "options": [
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "phenylalanine",
+      "proline hyperprolinemia"
+    ],
+    "answer": "phenylalanine",
+    "rationale": "Metabolic disorders of phenylalanine catabolism include PKU and several hyperphenylalaninemias.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "What is a recognized cause of hyperlysinemia-ammonemia?",
+    "options": [
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "lysine",
+      "proline hyperprolinemia"
+    ],
+    "answer": "lysine",
+    "rationale": "Metabolic diseases of lysine catabolism include periodic and persistent forms of hyperlysinemia-ammonemia.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "What is a recognized cause of hypervalinemia?",
+    "options": [
+      "branched-chain amino acid",
+      "fumarylacetoacetate hydrolase",
+      "glycine accumulates",
+      "hydroxyproline hyperprolinemia",
+      "proline hyperprolinemia"
+    ],
+    "answer": "branched-chain amino acid",
+    "rationale": "Metabolic disorders of branched-chain amino acid catabolism include hypervalinemia, maple syrup urine disease, intermittent branched-chain ketonuria, isovaleric acidemia, and methylmalonic aciduria.",
+    "citation": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids — Catabolism of the Carbon Skeletons of Amino Acids",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

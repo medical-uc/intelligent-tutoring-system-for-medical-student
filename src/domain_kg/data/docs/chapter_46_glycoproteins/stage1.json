@@ -1,0 +1,846 @@
+{
+  "doc_id": "chapter_46_glycoproteins",
+  "source": {
+    "source_id": "chapter_46_glycoproteins",
+    "title": "Glycoproteins",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "Glycoproteins are proteins with oligosaccharide chains that influence their properties and functions, including folding, stability, and interactions in biological systems.",
+    "page": null,
+    "origin": "chapter_46_glycoproteins.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 13:58:39"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Glycoproteins are proteins that contain oligosaccharide chains (glycans) covalently bound to amino acids. Glycosylation is the enzymic attachment of sugars and is the most frequent posttranslational modification of proteins. Glycosylation can affect a protein’s folding, intracellular trafficking, stability, and pharmacokinetics. Glycosylation can also influence adhesion, cell differentiation, development, and host pathogen interaction. Many proteins undergo reversible glycosylation with a single sugar, N-acetylglucosamine, bound to a serine or threonine residue. Reversible glycosylation is also a site for reversible phosphorylation. Reversible glycosylation is an important mechanism of metabolic regulation. Nonenzymic attachment of sugars to proteins is referred to as glycation. Glycation can have serious pathologic consequences, such as in poorly controlled diabetes mellitus.",
+      "char_start": 436,
+      "char_end": 1325,
+      "section_path": [
+        "Glycoproteins",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Glycoproteins are one class of glycoconjugate or complex carbohydrate molecules. Glycoconjugates contain one or more carbohydrate chains covalently linked to protein or lipid. Almost all plasma proteins are glycoproteins. Many peptide hormones are glycoproteins. Several blood group substances are glycoproteins, while others are glycosphingolipids. Many cell membrane proteins contain substantial amounts of carbohydrate. Many cell membrane proteins are anchored to the lipid bilayer by a glycan chain. Alterations in the structures of glycoproteins and other glycoconjugates on the surface of cancer cells are important in metastasis. The focus of this chapter is on glycoproteins, but glycoconjugates also include glycolipids, chondroitin and heparin sulfate chains, and glycosaminoglycans. The carbohydrate-rich zone on the plasma membrane is hydrophilic and anionic, known as the glycocalyx.\n\nThe entire genome has about 20,000 genes. The entire genome can be transcribed to more than four single messenger RNA (mRNA) transcripts. The approximately 80,000 mRNA transcripts can result in up to 1 million different proteins after posttranslational modification. Posttranslational modification of proteins greatly expands the diversity of gene-derived products. Posttranslational modification allows for a large variation in the functions proteins can perform.",
+      "char_start": 1327,
+      "char_end": 2689,
+      "section_path": [
+        "Glycoproteins",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Glycoproteins occur in most organisms, from bacteria to human beings. Many viruses also contain glycoproteins. Some viral glycoproteins play key roles in viral attachment to host cells. During the pandemic of coronavirus disease in 2019, the spike glycoproteins on the surface of the coronavirus became the main target for the development of effective vaccines. Glycoproteins have a wide range of functions (Table 46--1).\n\nThe carbohydrate content of glycoproteins ranges from 1 to over 85% by weight. The glycan structures of glycoproteins change in response to signals involved in cell differentiation, normal physiology, and neoplastic transformation. Different expression patterns of glycosyltransferases result in these changes. Table 46--2 lists some of the major functions of the glycan chains of glycoproteins.",
+      "char_start": 2750,
+      "char_end": 3568,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS OCCUR WIDELY & PERFORM NUMEROUS FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-occur-widely-perform-numerous-functions"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Collagens are glycoproteins that serve as structural molecules.\nMucins are glycoproteins that serve as lubricants and protective agents.\nTransferrin and ceruloplasmin are glycoproteins that serve as transport molecules.\nImmunoglobulins and histocompatibility antigens are glycoproteins that serve as immunologic molecules.\nChorionic gonadotropin and thyroid-stimulating hormone (TSH) are glycoproteins that serve as hormones.\nAlkaline phosphatase is an example of an enzyme glycoprotein.\nVarious proteins involved in cell-cell, virus-cell, bacterium-cell, and hormone-cell interactions are glycoproteins that serve as cell attachment-recognition sites.\nPlasma proteins of cold-water fish are glycoproteins that serve as antifreeze.\nLectins and selectins are glycoproteins that interact with specific carbohydrates.\nCell surface proteins involved in hormone and drug action are glycoproteins that serve as receptors.\nCalnexin and calreticulin are glycoproteins that regulate the folding of proteins exported from the cell.\nNotch and its analogs are glycoproteins that regulate differentiation and development.\nSpecific glycoproteins on the surface membranes of platelets are involved in hemostasis and thrombosis.",
+      "char_start": 3610,
+      "char_end": 4822,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS OCCUR WIDELY & PERFORM NUMEROUS FUNCTIONS"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-occur-widely-perform-numerous-functions"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Oligosaccharide chains of glycoproteins change the physicochemical properties of proteins, including solubility, viscosity, charge, conformation, and denaturation.\n\nOligosaccharide chains of glycoproteins provide binding sites for various molecules, bacteria, viruses, and some parasites.\n\nOligosaccharide chains of glycoproteins provide cell surface recognition signals.\n\nOligosaccharide chains of glycoproteins protect against proteolysis.\n\nOligosaccharide chains of glycoproteins ensure the correct folding of proteins that are exported from the cell.\n\nOligosaccharide chains of glycoproteins target incorrectly folded proteins for transport from the endoplasmic reticulum back to the cytosol for catabolism.\n\nOligosaccharide chains of glycoproteins protect peptide hormones and other plasma proteins against clearance by the liver.\n\nOligosaccharide chains of glycoproteins permit the anchoring of extracellular proteins in the cell membrane and intracellular proteins inside subcellular organelles such as the endoplasmic reticulum and Golgi.\n\nOligosaccharide chains of glycoproteins direct intracellular migration, sorting, and secretion of proteins.\n\nOligosaccharide chains of glycoproteins affect embryonic development and cell and tissue differentiation.\n\nOligosaccharide chains of glycoproteins may affect the sites of metastases selected by cancer cells.",
+      "char_start": 4890,
+      "char_end": 6254,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS OCCUR WIDELY & PERFORM NUMEROUS FUNCTIONS",
+        "Some Functions of the Oligosaccharide Chains of Glycoproteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-functions-of-the-oligosaccharide-chains-of"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "The specific carbohydrates in glycans modify the tertiary structure of the protein that encodes secondary information that modifies its function. The linkages of sugars in glycans modify the tertiary structure of the protein that encodes secondary information that modifies its function. The patterns and extent of protein glycosylation in a cell depend on the expression of the various glycosyltransferases involved in glycoprotein synthesis. The affinity of the different glycosyltransferases for their carbohydrate substrates influences the patterns and extent of protein glycosylation in a cell. The relative availability of the different carbohydrate substrates influences the patterns and extent of protein glycosylation in a cell. All the glycan chains in a given glycoprotein in a cell are not complete; some are truncated. Some amino acids that could be glycosylated are not glycosylated. Most glycoproteins in a population of cells display both macro and micro heterogeneity. Macroheterogeneity is the degree to which a specific amino acid in a specific protein is glycosylated. Microheterogeneity refers to the variation in the complexity of the glycosylation at a given amino acid residue in a protein.",
+      "char_start": 6312,
+      "char_end": 7526,
+      "section_path": [
+        "Glycoproteins",
+        "OLIGOSACCHARIDE CHAINS ENCODE BIOLOGICaL INFORMATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oligosaccharide-chains-encode-biological-information"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Glycosylation heterogeneity is important. Glycosylation heterogeneity can affect protein and cellular function. The information from the sugars can modulate cellular activity. Cellular activity modulation occurs via interactions between the glycans and other proteins such as lectins. Lectins are carbohydrate-binding proteins. Lectins monitor the heterogenous glycosylation signatures. Lectins transduce the signals to impact cellular responses. In the manufacture of biological medications made using a living cellular system, the glycosylation status of the synthesized medications may not be structurally identical across manufacturers. Such medications are considered 'biosimilar'. Biosimilar medications are the same protein. Biosimilar medications may or may not have the identical biological efficacy due to the potential for varied glycosylation status between manufacturers.",
+      "char_start": 7528,
+      "char_end": 8412,
+      "section_path": [
+        "Glycoproteins",
+        "OLIGOSACCHARIDE CHAINS ENCODE BIOLOGICaL INFORMATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oligosaccharide-chains-encode-biological-information"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "N-acetylneuraminic acid (NeuNAc) is usually found at the termini of oligosaccharide chains. NeuNAc is attached to subterminal galactose (Gal) or N-acetylgalactosamine (GalNAc) residues. The other sugars are usually found in more internal positions. Sulfate is often found in glycoproteins. Sulfate is usually attached to galactose, N-acetylglucosamine, or N-acetylgalactosamine. Only eight monosaccharides are commonly found in glycoproteins (Table 46-3; see Chapter 15). The structures of these sugars are illustrated in Chapter 15 (Chapter 15).",
+      "char_start": 8465,
+      "char_end": 9011,
+      "section_path": [
+        "Glycoproteins",
+        "EIGHT SUGARS PREDOMINATE IN HUMAN GLYCOPROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-46-3"
+      ],
+      "section_id": "eight-sugars-predominate-in-human-glycoproteins"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Galactose is a hexose.\nGalactose is abbreviated as Gal.\nGalactose is associated with the sugar nucleotide UDP-Gal.\nGalactose is often found subterminal to NeuAc in N-linked glycoproteins and in the core trisaccharide of proteoglycans.\nGlucose is a hexose.\nGlucose is abbreviated as Glc.\nGlucose is associated with the sugar nucleotide UDP-Glc.\nGlucose is present during the biosynthesis of N-linked glycoproteins but not usually in mature glycoproteins, and it is present in some clotting factors.\nMannose is a hexose.\nMannose is abbreviated as Man.\nMannose is associated with the sugar nucleotide GDP-Man.\nMannose is a common sugar in N-linked glycoproteins.\nN-Acetylneuraminic acid is a sialic acid with nine carbon atoms.\nN-Acetylneuraminic acid is abbreviated as NeuNAc or Neu5Ac.\nN-Acetylneuraminic acid is associated with the sugar nucleotide CMP-NeuNAc.\nN-Acetylneuraminic acid is often the terminal sugar in both N- and O-linked glycoproteins, and other types of sialic acid are also found, but NeuNAc is the major species in humans. Acetyl groups may also occur as O-acetyl species as well as N-acetyl.\nFucose is a deoxyhexose.\nFucose is abbreviated as Fuc.\nFucose is associated with the sugar nucleotide GDP-Fuc.\nFucose may be external in both N- and O-linked glycoproteins or internal, linked to the GlcNAc residue attached to Asn in N-linked species, and it can also occur internally attached to the OH of Ser in t-PA and certain clotting factors.\nN-Acetylgalactosamine is an aminohexose.\nN-Acetylgalactosamine is abbreviated as GalNAc.\nN-Acetylgalactosamine is associated with the sugar nucleotide UDP-GalNAc.\nN-Acetylgalactosamine is present in both N- and O-linked glycoproteins.\nN-Acetylglucosamine is an aminohexose.\nN-Acetylglucosamine is abbreviated as GlcNAc.\nN-Acetylglucosamine is associated with the sugar nucleotide UDP-GlcNAc.\nN-Acetylglucosamine is the sugar attached to the polypeptide chain via Asn in N-linked glycoproteins and is also found at other sites in the oligosaccharides of these proteins. Many nuclear proteins have GlcNAc attached to the OH of Ser or Thr as a single sugar.\nXylose is a pentose.\nXylose is abbreviated as Xyl.\nXylose is associated with the sugar nucleotide UDP-Xyl.\nXylose is attached to the OH of Ser in many proteoglycans, forming a link trisaccharide with two Gal residues, and it is also found in t-PA and certain clotting factors.",
+      "char_start": 9065,
+      "char_end": 11456,
+      "section_path": [
+        "Glycoproteins",
+        "EIGHT SUGARS PREDOMINATE IN HUMAN GLYCOPROTEINS"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eight-sugars-predominate-in-human-glycoproteins"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "In glycoprotein synthesis, it is not the free or phosphorylated sugar that is the substrate, but the corresponding sugar nucleotide. Some sugar nucleotides contain UDP, others contain guanosine diphosphate (GDP) or cytidine monophosphate (CMP) (see Figure 18-2).",
+      "char_start": 11458,
+      "char_end": 11720,
+      "section_path": [
+        "Glycoproteins",
+        "EIGHT SUGARS PREDOMINATE IN HUMAN GLYCOPROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eight-sugars-predominate-in-human-glycoproteins"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Glycoproteins can be divided into three main groups based on the nature of the linkage between the polypeptide and oligosaccharide chains. O-linked glycoproteins involve an O-glycosidic linkage with the hydroxyl side chain of serine or threonine and sometimes tyrosine, linked to sugars such as N-acetylgalactosamine (GalNAc-Ser[Thr]). N-linked glycoproteins involve an N-glycosidic linkage with the amide nitrogen of asparagine and N-acetylglucosamine (GlcNAc-Asn). GPI-anchored glycoproteins are linked to the carboxyl-terminal amino acid of a protein via a phosphorylethanolamine moiety joined to an oligosaccharide, which in turn is linked via glucosamine to phosphatidylinositol (PI).\n\nThe number of oligosaccharide chains attached to one protein can vary from 1 to 30 or more. The sugar chains can range from one or two residues in length to much larger structures. The glycan chain may be linear or branched. Many proteins contain more than one type of sugar chain. For example, glycophorin, an important red cell membrane glycoprotein, contains both O- and N-linked oligosaccharides (see Chapter 52).",
+      "char_start": 11772,
+      "char_end": 12880,
+      "section_path": [
+        "Glycoproteins",
+        "THERE ARE THREE MAJOR CLASSES OF GLYCOPROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-are-three-major-classes-of-glycoproteins"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Figure 46-1illustrates the three main types of glycoprotein: (A) an O-linkage (N-acetylgalactosamine to serine), (B) an N-linkage (N-acetylglucosamine to asparagine), and (C) a glycosylphosphatidylinositol (GPI) linkage. The GPI structure shown links acetylcholinesterase to the plasma membrane of the human red blood cell. PI-phospholipase C (PI-PLC) releases the enzyme from membrane binding. This particular GPI contains an extra fatty acid attached to inositol and an extra phosphorylethanolamine moiety attached to the center of the mannose residue. Variations among different GPI structures include the identity of the carboxyl-terminal amino acid, the molecules attached to the mannose residues, and the precise nature of the lipid moiety.",
+      "char_start": 12882,
+      "char_end": 13628,
+      "section_path": [
+        "Glycoproteins",
+        "THERE ARE THREE MAJOR CLASSES OF GLYCOPROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-46-1"
+      ],
+      "table_refs": [],
+      "section_id": "there-are-three-major-classes-of-glycoproteins"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "At least four subclasses of O-glycosidic linkages are found in human glycoproteins.\n\nThe N-acetylgalactosamine-Ser(Thr) linkage is the predominant O-glycosidic linkage in human glycoproteins.\n\nA galactose or an N-acetylneuraminic acid residue is usually attached to the N-acetylgalactosamine in this linkage.\n\nThe N-acetylgalactosamine-Ser(Thr) linkage is found in mucins.\n\nProteoglycans contain a galactose-galactose-xylose trisaccharide attached to serine.\n\nCollagens contain a galactose-hydroxylysine linkage.\n\nMany nuclear and cytosolic proteins contain side chains consisting of a single N-acetylglucosamine attached to a serine or threonine residue.",
+      "char_start": 14503,
+      "char_end": 15158,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS CONTAIN SEVERAL TYPES OF O-GLYCOSIDIC LINKAGES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-contain-several-types-of-o-glycosidic-linkages"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Mucins are glycoproteins that are highly resistant to proteolysis because the density of oligosaccharide chains makes it difficult for proteases to access the polypeptide chain. Mucins help to lubricate and form a protective physical barrier on epithelial surfaces. Mucins have a high content of O-linked oligosaccharides. The carbohydrate content in mucins is generally > 50%. Mucins have the presence of variable numbers of tandem repeats (VNTRs) of peptide sequence in the center of the polypeptide chain. The O-glycan chains are attached in clusters to these tandem repeat sequences. Tandem repeat sequences are rich in serine, threonine, and proline. Up to 60% of the dietary requirement for threonine can be accounted for by the synthesis of mucins. Although O-glycans predominate, mucins often also contain a number of N-glycan chains. Both secretory and membrane-bound mucins occur. Mucus secreted by the gastrointestinal, respiratory, and reproductive tracts is a solution containing about 5% mucins. Secretory mucins generally have an oligomeric structure, with monomers linked by disulfide bonds, and hence a very high molecular mass. Mucus has a high viscosity and often forms a gel because of its content of mucins. The high content of O-glycans confers an extended structure. Steric interactions between the N-acetylgalactosamine moieties and adjacent amino acids result in a chain-stiffening effect. The conformation of mucins often becomes rigid rods. Intermolecular noncovalent interactions between sugars on neighboring glycan chains contribute to gel formation. The high content of N-acetylneuraminic acid and sulfate residues found in many mucins gives them a negative charge. Membrane-bound mucins participate in cell-cell interactions. Membrane-bound mucins may also mask cell surface antigens. Many cancer cells form large amounts of mucins that mask surface antigens and protect the cancer cells from immune surveillance. Mucins carry cancer-specific peptide and carbohydrate epitopes. Some of these epitopes have been used to stimulate an immune response against cancer cells.",
+      "char_start": 15261,
+      "char_end": 17362,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS CONTAIN SEVERAL TYPES OF O-GLYCOSIDIC LINKAGES",
+        "Mucins Have a High Content of O-Linked Oligosaccharides & Exhibit Repeating Amino Acid Sequences"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "mucins-have-a-high-content-of-o-linked-oligosaccharides"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Most glycoproteins are membrane-bound or secreted. The mRNA of most glycoproteins is usually translated on membrane-bound polyribosomes.\n\nGlycan chains are built up by the sequential donation of sugars from sugar nucleotides. Glycoprotein glycosyltransferases catalyze the addition of sugars from sugar nucleotides to glycan chains.\n\nMany glycosylation reactions occur within the lumen of the Golgi apparatus. Carrier systems are required to transport sugar nucleotides across the Golgi membrane.\n\nThese carrier systems are antiporter systems. The influx of one molecule of sugar nucleotide is balanced by the efflux of one molecule of the corresponding nucleotide.\n\nHumans possess 41 different types of glycoprotein glycosyltransferases.\n\nFamilies of glycosyltransferases are named for the sugar nucleotide donor. Subfamilies of glycosyltransferases are based on the linkage formed between the sugar and the acceptor substrate.\n\nThe binding of the sugar nucleotide to the enzyme causes a conformational change in the enzyme. The conformational change in the enzyme permits binding of the acceptor substrate.\n\nGlycosyltransferases show a high degree of specificity for the acceptor substrate. Glycosyltransferases typically act only on the product of the preceding reaction.\n\nDifferent stages in glycan formation are located in different regions of the Golgi. Different regions of the Golgi provide spatial separation of the steps in glycan formation.",
+      "char_start": 17462,
+      "char_end": 18913,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS CONTAIN SEVERAL TYPES OF O-GLYCOSIDIC LINKAGES",
+        "-Linked Glycoproteins Are Synthesized by Sequential Addition of Sugars From Sugar Nucleotides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "linked-glycoproteins-are-synthesized-by-sequential-addition"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Not all glycan chains of a given glycoprotein are complete. Some glycan chains of a given glycoprotein are truncated. Truncated glycan chains lead to microheterogeneity.\n\nNo consensus sequence is known to determine which serine and threonine residues are glycosylated. The first sugar moiety incorporated is usually N-acetylgalactosamine.",
+      "char_start": 18915,
+      "char_end": 19253,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS CONTAIN SEVERAL TYPES OF O-GLYCOSIDIC LINKAGES",
+        "-Linked Glycoproteins Are Synthesized by Sequential Addition of Sugars From Sugar Nucleotides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "linked-glycoproteins-are-synthesized-by-sequential-addition"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "-Linked glycoproteins are the most common class of glycoproteins. Some glycoproteins are membrane-bound, and others are circulating. In N-glycosylation, sugars are attached to nitrogen atoms. -Linked glycoproteins are distinguished by the presence of the asparagine—N-acetylglucosamine linkage. There are three major classes of N-linked oligosaccharides: complex, high-mannose, and hybrid. All three classes have the same core pentasaccharide, Man GlcNAc, bound to asparagine. The three classes differ in their outer branches (Figure 46–2).",
+      "char_start": 19330,
+      "char_end": 19870,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-46-2"
+      ],
+      "table_refs": [],
+      "section_id": "linked-glycoproteins-contain-an-asparagine"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Complex oligosaccharides contain two, three, four, or five outer branches. The oligosaccharide branches are often referred to as antennae, so that bi-, tri-, tetra-, and penta-antennary structures may all be found. Complex oligosaccharides generally contain terminal N-acetylneuraminic acid residues. Complex oligosaccharides generally contain underlying galactose and N-acetylglucosamine residues. The latter often constitute the disaccharide N-acetyllactosamine. Repeating N-acetyllactosamine units—[Galβ1–3/4GlcNAcβ1–3]n (poly-N-acetyllactosaminoglycans)—are often found on N-linked glycan chains. I/i blood group substances belong to this class. A bewildering number of chains of the complex type exist, and that indicated in Figure 46–2is only one of many. Other complex chains may terminate in galactose or fucose.\n\nHigh-mannose oligosaccharides typically have two to six additional mannose residues linked to the pentasaccharide core. Hybrid molecules contain features of both complex and high-mannose classes. This section contains the following figures and tables: Figure 46-2: Structures of the major types of asparagine-linked oligosaccharides. The boxed area encloses the pentasaccharide core common to all Nlinked glycoproteins.",
+      "char_start": 20046,
+      "char_end": 21287,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-46-2"
+      ],
+      "table_refs": [],
+      "section_id": "linked-glycoproteins-contain-an-asparagine"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "The synthesis of all N-linked glycoproteins begins with the synthesis of a branched oligosaccharide attached to dolichol pyrophosphate on the cytosolic side of the endoplasmic reticulum membrane. The oligosaccharide is then translocated to the lumen of the endoplasmic reticulum, where it undergoes further glycosylation. The oligosaccharide chain is transferred by an oligosaccharyltransferase onto an asparagine residue of the acceptor apoglycoprotein as it enters the endoplasmic reticulum during synthesis on membrane-bound polyribosomes. This transfer is a cotranslational modification. Many N-linked glycoproteins have a consensus sequence of Asn-X-Ser/Thr for glycosylation, where X is any amino acid other than proline. Some N-linked glycoproteins lack a clear consensus sequence for glycosylation.",
+      "char_start": 21374,
+      "char_end": 22180,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE",
+        "The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-biosynthesis-of-n-linked-glycoproteins-involves"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "The first step in the synthesis of the oligosaccharide is a reaction between UDP-N-acetylglucosamine and dolichol phosphate, forming N-acetylglucosamine dolichol pyrophosphate. A second N-acetylglucosamine is added from UDP-N-acetylglucosamine. Five molecules of mannose are then added from GDP-mannose. The dolichol pyrophosphate oligosaccharide is translocated into the lumen of the endoplasmic reticulum. Further mannose and glucose molecules are added to form the final dolichol pyrophosphate oligosaccharide, using dolichol phosphate mannose and dolichol phosphate glucose as donors. The oligosaccharide is then transferred onto the acceptor asparagine residue of the nascent protein chain.\n\nTo form high-mannose chains, glucose and some peripheral mannose residues are removed by glycosidases. For complex type oligosaccharide chains, glucose residues and four mannose residues are removed by glycosidases in the endoplasmic reticulum and Golgi. N-acetylglucosamine, galactose, and N-acetylneuraminic acid are then added by glycosyltransferases in the Golgi apparatus. Hybrid chains are formed by partial processing, resulting in complex chains on one arm and mannose units on the other arm.",
+      "char_start": 22182,
+      "char_end": 23379,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE",
+        "The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-biosynthesis-of-n-linked-glycoproteins-involves"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Dolichol consists of a group within brackets that is an isoprene unit, with n = 17-20 isoprenoid units (Figure 46-3). The first five internal mannose residues in the pathway of biosynthesis of dolichol pyrophosphate oligosaccharide are donated by GDP mannose, while the more external mannose residues and glucose residues are donated by dolichol-P-mannose and dolichol-P-glucose (Figure 46-4).",
+      "char_start": 23381,
+      "char_end": 23774,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE",
+        "The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-46-3",
+        "fig-46-4"
+      ],
+      "table_refs": [],
+      "section_id": "the-biosynthesis-of-n-linked-glycoproteins-involves"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Calnexin is a chaperone protein located in the endoplasmic reticulum membrane. Calnexin prevents glycoproteins from aggregating by binding to them. Calnexin is a lectin that recognizes specific carbohydrate sequences in the glycan chain of glycoproteins. Calnexin binds to glycoproteins that have a monoglycosylated core with only the innermost glucose attached. Calnexin forms a complex with ERp57, a homolog of protein disulfide isomerase. ERp57 catalyzes disulfide bond interchange to facilitate correct folding. The glycoprotein is released from the calnexin-ERp57 complex when the sole remaining glucose is hydrolyzed by a glucosidase. If the glycoprotein is correctly folded, it becomes available for secretion. If the glycoprotein is not correctly folded, a glucosyltransferase reglucosylates the misfolded glycoprotein. The reglucosylated glycoprotein rebinds to the calnexin-ERp57 complex. If the glycoprotein folds correctly, it is deglucosylated and secreted. If the glycoprotein cannot fold correctly, it is translocated out of the endoplasmic reticulum into the cytosol for catabolism. The glucosyltransferase senses the folding of the glycoprotein and only reglucosylates misfolded proteins. Calreticulin, a soluble endoplasmic reticulum protein, performs a similar function to that of calnexin. Incorrectly folded glycoproteins undergo partial deglycosylation and are targeted for transport from the endoplasmic reticulum back to the cytosol for catabolism.",
+      "char_start": 24399,
+      "char_end": 25871,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE",
+        "Glycoproteins & Calnexin Ensure Correct Folding of Proteins in the Endoplasmic Reticulum"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-calnexin-ensure-correct-folding-of-proteins"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "The glycosylation of glycoproteins involves a large number of enzymes. About 1% of the human genome codes for genes that are involved with protein glycosylation. These enzymes include at least 10 distinct N-acetylglucosamine transferases. There are multiple isoenzymes of the other glycosyltransferases. Controlling factors in the first stage of N-linked glycoprotein biosynthesis include the availability of sugar nucleotides. The presence of suitable acceptor sites in proteins is a controlling factor in the first stage of N-linked glycoprotein biosynthesis. The tissue concentration of dolichol phosphate is a controlling factor in the first stage of N-linked glycoprotein biosynthesis. The activity of the relevant oligosaccharide: protein transferase is a controlling factor in the first stage of N-linked glycoprotein biosynthesis.\n\nCancer cells synthesize different oligosaccharide chains from those made in normal cells. Cancer cells express different patterns of glycosyltransferases compared to normal cells. The differences in oligosaccharide chains are due to specific gene activation or repression in cancer cells. The differences in oligosaccharide chains could affect adhesive interactions between cancer cells and the normal parent tissue cells. The differences in oligosaccharide chains contribute to metastasis.",
+      "char_start": 25937,
+      "char_end": 27267,
+      "section_path": [
+        "Glycoproteins",
+        "-LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE",
+        "Several Factors Regulate the Glycosylation of Glycoproteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-factors-regulate-the-glycosylation-of-glycoproteins"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Membrane-bound proteins that are anchored to the lipid bilayer by a glycophosphatidylinositol (GPI) tail constitute the third major class of glycoproteins. The GPI linkage is the most common way by which various proteins are anchored to cell membranes. The proteins are anchored to the outer leaflet of the plasma membrane by the fatty acids of phosphatidylinositol. The proteins are anchored to the inner (luminal) leaflet of the membrane in secretory vesicles by the fatty acids of phosphatidylinositol. Phosphatidylinositol is linked via N-acetylglucosamine to a glycan chain containing a variety of sugars, including mannose and glucosamine. The oligosaccharide chain is linked via phosphorylethanolamine in an amide linkage to the carboxyl-terminal amino acid of the protein. Additional constituents are found in many GPI structures. The GPI structure shown in Figure 46--1 contains an extra phosphorylethanolamine attached to the middle of the three mannose moieties of the glycan. The GPI structure shown in Figure 46--1 contains an extra fatty acid attached to glucosamine.",
+      "char_start": 27363,
+      "char_end": 28444,
+      "section_path": [
+        "Glycoproteins",
+        "SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-proteins-are-anchored-to-the-plasma-membrane-by"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "The GPI anchor allows greatly enhanced mobility of a protein in the plasma membrane compared with that of a protein that employs transmembrane domains. The GPI anchor is attached only to the outer leaflet of the lipid bilayer. The GPI anchor is freer to diffuse than a protein anchored through both layers of the membrane. Enhanced mobility may be important in facilitating rapid responses to stimuli. Some GPI anchors may connect with signal transduction pathways. GPI anchors enable proteins that lack a transmembrane domain to serve as receptors for hormones and other cell surface signals. GPI structures can target proteins to apical or basolateral domains of the plasma membrane of polarized epithelial cells.",
+      "char_start": 28446,
+      "char_end": 29161,
+      "section_path": [
+        "Glycoproteins",
+        "SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-proteins-are-anchored-to-the-plasma-membrane-by"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "The GPI anchor is preformed in the endoplasmic reticulum. The GPI anchor is attached to the protein after ribosomal synthesis is complete. The primary translation products of GPI-anchored proteins have an amino-terminal signal sequence that directs them into the endoplasmic reticulum during synthesis. The primary translation products of GPI-anchored proteins have a carboxy-terminal hydrophobic domain that acts as the signal for attachment of the GPI anchor. The first stage in synthesis of the GPI anchor is insertion of the fatty acids of phosphatidylinositol into the luminal face of the endoplasmic reticulum membrane. The first stage in synthesis of the GPI anchor is followed by glycosylation, starting with esterification of N-acetyl-glucosamine to the phosphate group of phosphatidylinositol. A terminal phosphoethanolamine moiety is added to the completed glycan chain. The hydrophobic carboxy-terminal domain of the protein is displaced by the amino group of ethanolamine in the transamidation reaction. The transamidation reaction forms the amide linkage between the GPI anchor and an aspartate residue in the protein.",
+      "char_start": 29163,
+      "char_end": 30295,
+      "section_path": [
+        "Glycoproteins",
+        "SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-proteins-are-anchored-to-the-plasma-membrane-by"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Nuclear pore proteins undergo rapidly reversible O-glycosylation with N-acetylglucosamine. Cytoskeleton proteins undergo rapidly reversible O-glycosylation with N-acetylglucosamine. Transcription factors undergo rapidly reversible O-glycosylation with N-acetylglucosamine. Chromatin-associated proteins undergo rapidly reversible O-glycosylation with N-acetylglucosamine. Nuclear oncogene proteins undergo rapidly reversible O-glycosylation with N-acetylglucosamine. Tumor suppressor proteins undergo rapidly reversible O-glycosylation with N-acetylglucosamine.\n\nSerine and threonine are the sites of glycosylation for these proteins. Glycosylation and phosphorylation occur reciprocally in response to cellular signaling. O-linked N-acetylglucosamine transferase catalyzes this glycosylation. UDP-N-acetylglucosamine is the sugar donor for O-linked N-acetylglucosamine transferase. O-linked N-acetylglucosamine transferase has phosphatase activity. O-linked N-acetylglucosamine transferase can replace a serine or threonine phosphate with N-acetylglucosamine. There is no absolute consensus sequence for O-linked N-acetylglucosamine transferase. About half the sites subject to reciprocal glycosylation and phosphorylation are Pro-Val-Ser.",
+      "char_start": 30355,
+      "char_end": 31595,
+      "section_path": [
+        "Glycoproteins",
+        "SOME PROTEINS UNDERGO RAPIDLY REVERSIBLE GLYCOSYLATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-proteins-undergo-rapidly-reversible-glycosylation"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "O-linked N-acetylglucosamine transferase is activated by phosphorylation in response to insulin. N-acetylglucosaminidase removes N-acetylglucosamine, leaving the site available for phosphorylation. The activity of O-linked N-acetylglucosamine transferase depends on the concentration of UDP-N-acetylglucosamine. The peptide specificity of O-linked N-acetylglucosamine transferase depends on the concentration of UDP-N-acetylglucosamine. Depending on cell type, 2 to 5% of glucose metabolism flows by way of the hexosamine pathway leading to N-acetylglucosamine formation. O-linked N-acetylglucosamine transferase has a role in nutrient sensing in the cell.\n\nExcessive O-glycosylation with N-acetylglucosamine is implicated in insulin resistance. Excessive O-glycosylation with N-acetylglucosamine is implicated in glucose toxicity in diabetes mellitus. Excessive O-glycosylation with N-acetylglucosamine is implicated in neurodegenerative diseases. Reduced phosphorylation accompanies excessive O-glycosylation with N-acetylglucosamine.",
+      "char_start": 31597,
+      "char_end": 32633,
+      "section_path": [
+        "Glycoproteins",
+        "SOME PROTEINS UNDERGO RAPIDLY REVERSIBLE GLYCOSYLATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-proteins-undergo-rapidly-reversible-glycosylation"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Glycation is the nonenzymic attachment of sugars, mainly glucose, to amino groups of proteins and other molecules like DNA and lipids. Glycosylation is an enzyme-catalyzed process. Initially, glucose forms a Schiff base with the amino terminal of a protein, typically lysine. The Schiff base then undergoes the Amadori rearrangement to yield ketoamines. The initial step is reversible if glucose concentration decreases. However, if hyperglycemia persists, further oxidative or reductive reactions produce intermediate glycation products. These intermediate glycation products react with secondary proteins to form stable, irreversible adducts and cross-links known as advanced glycation end-products (AGEs). The series of reactions involved is known as the Maillard reaction. The Maillard reaction is also responsible for the browning of certain foodstuffs during storage or heating and contributes to their flavor.",
+      "char_start": 32737,
+      "char_end": 33653,
+      "section_path": [
+        "Glycoproteins",
+        "ADVANCED GLYCATION END-PRODUCTS (AGEs) ARE IMPORTANT IN CAUSING TISSUE DAMAGE IN DIABETES MELLITUS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "advanced-glycation-end-products-ages-are-important-in"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Advanced glycation end-products (AGEs) induce tissue damage in poorly controlled diabetes mellitus. When blood glucose concentration is consistently elevated, there is increased glycation of proteins. Glycation of collagen and other proteins in the extracellular matrix alters their properties. The alteration of protein properties increases the cross-linking of collagen. Cross-linking can lead to the accumulation of plasma proteins in the walls of blood vessels. Low-density lipoprotein (LDL) is a plasma protein that accumulates in the walls of blood vessels due to cross-linking. The accumulation of plasma proteins contributes to atherogenesis. AGEs are involved in both microvascular and macrovascular damage in diabetes mellitus. Endothelial cells have AGE receptors (RAGE) on their surfaces. Kidney glomerular cells have AGE receptors (RAGE) on their surfaces. Kidney tubular cells have AGE receptors (RAGE) on their surfaces. Macrophages have AGE receptors (RAGE) on their surfaces. These receptors interact with AGEs to activate downstream signals, including the JAK/STAT and MAPK pathways and the transcription factor NF-kB. The activation generates a variety of cytokines and proinflammatory and vascular adhesion molecules. These molecules contribute to the high incidence of kidney disease, diabetic retinopathy, and peripheral neuropathy in individuals with poorly controlled diabetes.\n\nNonenzymic glycation of hemoglobin A occurs normally to a small extent.",
+      "char_start": 33734,
+      "char_end": 35208,
+      "section_path": [
+        "Glycoproteins",
+        "ADVANCED GLYCATION END-PRODUCTS (AGEs) ARE IMPORTANT IN CAUSING TISSUE DAMAGE IN DIABETES MELLITUS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "advanced-glycation-end-products-ages-are-important-in"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Glycoproteins have many different functions, including transport molecules, immunologic molecules, and hormones.\n\nGlycoproteins are important in fertilization and inflammation.\n\nA number of diseases are due to defects in the synthesis and catabolism of glycoproteins.",
+      "char_start": 35288,
+      "char_end": 35555,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS ARE INVOLVED IN MANY BIOLOGICal PROCESSES & IN MANY DISEASES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-are-involved-in-many-biological-processes-in"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "To reach the plasma membrane of an oocyte, a sperm has to traverse the zona pellucida (ZP).\n\nThe zona pellucida is a thick, transparent envelope that surrounds the oocyte.\n\nThe zona pellucida is composed of four glycoproteins (ZP1 to ZP4).\n\nThe zona pellucida glycoproteins have a mixture of N- and O-linked glycans.\n\nProteins on the sperm surface interact with the oligosaccharide chains of the ZPs.\n\nProteins on the sperm surface interact with the oligosaccharide chains of the ZPs. This interaction induces the acrosomal reaction by transmembrane signaling.\n\nThe acrosomal reaction involves the release of enzymes such as proteases and hyaluronidase, along with other contents of the acrosome of the sperm.\n\nLiberation of these enzymes permits the sperm to pass through the zona pellucida.\n\nLiberation of these enzymes allows the sperm to reach the plasma membrane of the oocyte.",
+      "char_start": 35606,
+      "char_end": 36488,
+      "section_path": [
+        "Glycoproteins",
+        "GLYCOPROTEINS ARE INVOLVED IN MANY BIOLOGICal PROCESSES & IN MANY DISEASES",
+        "Glycoproteins Are Important in Fertilization"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycoproteins-are-important-in-fertilization"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Lectins are carbohydrate-binding proteins. Lectins were recognized initially based on their ability to agglutinate cells or precipitate glycoconjugates. Lectins can perform functions beyond agglutination. Lectins are distributed widely in plants, viruses, animals, and microorganisms. Animal lectins are classified based on the carbohydrate recognition domain (CRD) they bind. Galectins are Gal-binding proteins. Siglecs are sialic acid-binding proteins. Mannose-binding proteins are a class of lectins. Selectins include E-, L-, and P-selectins. Each animal lectin possesses its own unique CRD. The CRD motif consists of 130 amino acid residues and four cysteines. The CRD motif is highly conserved. In mammals, lectins play a major role in cell-to-cell interactions. In mammals, lectins are involved in host defense. In mammals, lectins participate in immune responses. The mannose-specific receptor on the surface of macrophages is a C-type lectin. Infectious organisms can have an exposed mannose-containing glycan on their surface. Macrophages recognize, ingest, and kill foreign organisms with exposed mannose-containing glycans.",
+      "char_start": 36542,
+      "char_end": 37677,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "lectins-a-class-of-carbohydrate-binding-proteins"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Plant lectins were formerly called phytohemagglutinins. Plant lectins agglutinate red blood cells by reacting with cell surface glycoproteins. Undenatured lectins in undercooked legumes can lead to stripping of the intestinal mucosa. Undenatured lectins agglutinate mucosal cells. Lectins are used to purify glycoproteins. Lectins are tools for probing the glycoprotein profiles of cell surfaces. Lectins are reagents for generating mutant cells deficient in certain enzymes involved in the biosynthesis of oligosaccharide chains.",
+      "char_start": 37679,
+      "char_end": 38209,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "lectins-a-class-of-carbohydrate-binding-proteins"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Leukocytes play important roles in many inflammatory and immunologic processes. The first steps in these processes are interactions between circulating leukocytes and endothelial cells. Interactions between circulating leukocytes and endothelial cells occur prior to the passage of leukocytes out of the circulation. Leukocytes and endothelial cells contain cell surface lectins called selectins. Selectins participate in intercellular adhesion. The amino terminals of selectins contain the lectin domain, also known as CRD.\n\nSelectins on the neutrophil cell surface interact with glycoproteins on the endothelial cell. Selectins temporarily trap the neutrophils, causing them to roll over the endothelial surface. During this rolling, the neutrophils are activated. Activated neutrophils undergo a change in shape. The change in shape allows neutrophils to adhere firmly to the endothelium. Firm adhesion results from interactions between integrins on the neutrophils and immunoglobulin-related proteins on the endothelial cells. After adhering firmly, the neutrophils insert pseudopodia into the junctions between endothelial cells. The neutrophils squeeze through these junctions. Once through, the neutrophils cross the basement membrane. After crossing the basement membrane, neutrophils are free to migrate in the extravascular space.",
+      "char_start": 38279,
+      "char_end": 39619,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Selectins Play Key Roles in Inflammation & in Lymphocyte Homing"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "selectins-play-key-roles-in-inflammation-in-lymphocyte"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Selectins bind to sialylated and fucosylated oligosaccharides. Sulfated lipids may also serve as ligands for selectins. Administration of compounds or monoclonal antibodies that block selectin-ligand interactions may be therapeutically useful. Compounds or monoclonal antibodies that block selectin-ligand interactions aim to inhibit inflammatory responses. Cancer cells often have selectin ligands on their surfaces. Selectin ligands on cancer cells may play a role in the invasion and metastasis of cancer cells.",
+      "char_start": 39621,
+      "char_end": 40135,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Selectins Play Key Roles in Inflammation & in Lymphocyte Homing"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "selectins-play-key-roles-in-inflammation-in-lymphocyte"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Leukocyte adhesion deficiency II is a rare condition caused by mutations affecting the activity of a Golgi-located GDP-fucose transporter. The absence of fucosylated ligands for selectins leads to a marked decrease in neutrophil rolling. Patients with leukocyte adhesion deficiency II suffer life-threatening recurrent soft tissue bacterial infections. Some forms of leukocyte adhesion deficiency II cause psychomotor and mental retardation. Treatment for leukocyte adhesion deficiency II is stem cell transplantation.\n\nParoxysmal nocturnal hemoglobinuria is an acquired mild anemia characterized by the presence of hemoglobin in urine due to hemolysis of red cells, particularly during sleep. The condition is due to the acquisition by hematopoietic cells of somatic mutations in the gene coding for the enzyme that links glucosamine to phosphatidylinositol in the GPI structure. Acquisition by hematopoietic cells of somatic mutations in the gene coding for the enzyme that links glucosamine to phosphatidylinositol in the GPI structure leads to a deficiency of proteins that are anchored to the red cell membrane by GPI linkages. Decay accelerating factor normally interacts with components of the complement system to prevent hemolysis. CD59 normally interacts with components of the complement system to prevent hemolysis. When decay accelerating factor and CD59 are deficient, the complement system acts on the red cell membrane to cause hemolysis.",
+      "char_start": 40215,
+      "char_end": 41669,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Abnormalities in the Synthesis of Glycoproteins Underlie Certain Diseases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "abnormalities-in-the-synthesis-of-glycoproteins-underlie"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Some of the congenital muscular dystrophies are the result of defects in the synthesis of glycans in the protein α-dystroglycan. The protein α-dystroglycan protrudes from the surface membrane of muscle cells. α-dystroglycan interacts with laminin-2 in the basal lamina. If the glycans of α-dystroglycan are not correctly formed, this results in defective interaction of α-DG with laminin. Mutations in genes encoding some glycosyltransferases can cause defective glycans in α-dystroglycan.\n\nRheumatoid arthritis is associated with an alteration in the glycosylation of circulating immunoglobulin G (IgG) molecules. Circulating immunoglobulin G (IgG) molecules lack galactose in their Fc regions. Circulating immunoglobulin G (IgG) molecules terminate in N-acetylglucosamine. Mannose-binding protein binds mannose, N-acetylglucosamine, and some other sugars. Mannose-binding protein can bind agalactosyl IgG molecules. The binding of agalactosyl IgG molecules by mannose-binding protein activates the complement system. The activation of the complement system contributes to chronic inflammation in the synovial membranes of joints. Clinical trials are testing whether giving exogenous N-acetylglucosamine, the substrate for N-glycation, will rescue the impaired N-glycation in IgG and ameliorate disease.",
+      "char_start": 41671,
+      "char_end": 42975,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Abnormalities in the Synthesis of Glycoproteins Underlie Certain Diseases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "abnormalities-in-the-synthesis-of-glycoproteins-underlie"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Mannose-binding protein can bind sugars when they are present on the surfaces of bacteria, fungi, and viruses. Mannose-binding protein prepares these pathogens for opsonization or for destruction by the complement system. The preparation of pathogens for opsonization or destruction by the complement system is an example of innate immunity, which does not involve immunoglobulins or T lymphocytes. Deficiency of mannose-binding protein in young infants as a result of mutation renders them susceptible to recurrent infections.",
+      "char_start": 42977,
+      "char_end": 43504,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Abnormalities in the Synthesis of Glycoproteins Underlie Certain Diseases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "abnormalities-in-the-synthesis-of-glycoproteins-underlie"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Turnover of glycoproteins involves the catabolism of the oligosaccharide chains by a number of lysosomal hydrolases. α-neuraminidase is a lysosomal hydrolase involved in glycoprotein turnover. β-galactosidase is a lysosomal hydrolase involved in glycoprotein turnover. β-hexosaminidase is a lysosomal hydrolase involved in glycoprotein turnover. α-mannosidase is a lysosomal hydrolase involved in glycoprotein turnover. β-mannosidase is a lysosomal hydrolase involved in glycoprotein turnover. α-N-acetylgalactosaminidase is a lysosomal hydrolase involved in glycoprotein turnover. α-fucosidase is a lysosomal hydrolase involved in glycoprotein turnover. endo-β-N-acetylglucosaminidase is a lysosomal hydrolase involved in glycoprotein turnover. aspartylglucosaminidase is a lysosomal hydrolase involved in glycoprotein turnover.\n\nGenetic defects of these enzymes result in abnormal degradation of glycoproteins. The accumulation in tissues of partially degraded glycoproteins leads to various diseases.\n\nMannosidosis is caused by a deficiency of α-mannosidase. Fucosidosis is caused by a deficiency of α-fucosidase. Sialidosis is caused by a deficiency of α-neuraminidase. Aspartylglucosaminuria is caused by a deficiency of aspartylglucosaminidase. Schindler disease is caused by a deficiency of α-N-acetylgalactosaminidase.",
+      "char_start": 43606,
+      "char_end": 44932,
+      "section_path": [
+        "Glycoproteins",
+        "LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS",
+        "Genetic Deficiencies of Glycoprotein Lysosomal Hydrolases Cause Diseases Such as α-Mannosidosis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "genetic-deficiencies-of-glycoprotein-lysosomal-hydrolases"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Glycans bind specifically to proteins. Glycans bind specifically to other glycans. Glycans can bind some viruses. Glycans can bind some bacteria. Glycans can bind some parasites.\n\nInfluenza virus A binds to cell surface glycoprotein receptor molecules containing N-acetylneuraminic acid via a hemagglutinin protein. Influenza virus A has a neuraminidase that plays a key role in allowing elution of newly synthesized progeny from infected cells. Inhibitors of neuraminidase, such as zanamivir and oseltamivir, are available for treating patients with influenza. Influenza viruses are classified according to the type of hemagglutinin (H) and neuraminidase (N) they possess. There are at least 16 types of hemagglutinin. There are 9 types of neuraminidase. Avian influenza virus is classified as H5N1.\n\nHuman immunodeficiency virus type 1 (HIV-1) attaches to cells via the surface glycoprotein gp 120. HIV-1 uses another surface glycoprotein, gp 41, to fuse with the host cell membrane. Antibodies to gp 120 develop during infection by HIV-1. There has been interest in using the isolated protein gp 120 as a vaccine. The structure of gp 120 can change relatively rapidly due to mutations. The structure of gp 120 allows the virus to escape from the neutralizing activity of antibodies directed against it.",
+      "char_start": 44949,
+      "char_end": 46254,
+      "section_path": [
+        "Glycoproteins",
+        "HUMAN CELLS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "human-cells"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Helicobacter pylori is the major cause of peptic ulcers. Helicobacter pylori binds to at least two different glycans present on the surfaces of epithelial cells in the stomach. Helicobacter pylori binding allows Helicobacter pylori to establish a stable attachment site to the stomach lining. Many bacteria that cause diarrhea attach to surface cells of the intestinal mucosa via glycans present in glycoproteins or glycolipids. The attachment of the malarial parasite Plasmodium falciparum to human cells is mediated by a GPI present on the surface of the parasite.",
+      "char_start": 46256,
+      "char_end": 46822,
+      "section_path": [
+        "Glycoproteins",
+        "HUMAN CELLS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "human-cells"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "Glycoproteins are widely distributed proteins with diverse functions that contain one or more covalently linked carbohydrate chains.\nThe carbohydrate content of glycoproteins ranges from 1 to more than 85% by weight. They may be simple or very complex in structure. Eight sugars are mainly found in the sugar chains of human glycoproteins: xylose, fucose, galactose, glucose, mannose, N-acetylgalactosamine, Nacetylglucosamine, and N-acetylneuraminic acid.\nSome of the oligosaccharide chains of glycoproteins encode biological information; they are also important in modulating the solubility and viscosity of glycoproteins, in protecting them against proteolysis, and in their biological actions.\nGlycosidases hydrolyze specific linkages in oligosaccharides.\nLectins are carbohydrate-binding proteins involved in cell adhesion and many other processes.\nThe major classes of glycoproteins are O-linked (involving serine or threonine), N-linked (involving the amide group of asparagine), and GPI-linked\nMucins are a class of O-linked glycoproteins that are distributed on the surfaces of epithelial cells of the respiratory, gastrointestinal, and reproductive tracts.\nThe endoplasmic reticulum and Golgi apparatus play a major role in glycosylation reactions involved in the biosynthesis of glycoproteins.\nThe oligosaccharide chains of O-linked glycoproteins are synthesized by the stepwise addition of sugars donated by sugar nucleotides in reactions catalyzed by glycoprotein glycosyltransferases.\nThe synthesis of N-linked glycoproteins involves a dolichol-P-P-oligosaccharide and various glycotransferases and glycosidases. Depending on the enzymes and precursor proteins in a tissue, the resulting N-linked oligosaccharides may be simple, complex, or of the high-mannose type.\nGlycoproteins are implicated in many biological processes, including fertilization and inflammation.\nThere are several diseases involving abnormalities in the synthesis and degradation of glycoproteins. Glycoproteins are also involved in many other diseases, including influenza, AIDS, rheumatoid arthritis, cystic fibrosis, and peptic ulcer.",
+      "char_start": 46824,
+      "char_end": 48947,
+      "section_path": [
+        "Glycoproteins"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-46-1",
+      "image_path": "",
+      "caption": "The three main types of glycoprotein: (A) an O-linkage (N-acetylgalactosamine to serine), (B) an N-linkage (N -acetylglucosamine to asparagine), and (C) a glycosylphosphatidylinositol (GPI) linkage. The GPI structure shown is that linking acetylcholinesterase to the plasma membrane of the human red blood cell. The site of action of PI-phospholipase C (PI-PLC), which releases the enzyme from membrane binding is indicated. This particular GPI contains an extra fatty acid attached to inositol and also an extra phosphoryl-ethanolamine moiety attached to the centra of the mannose residue. Variations found among different GPI structures include the identity of the carboxyl-terminal amino acid, the molecules attached to the mannose residues, and the precise nature of the lipid moiety.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-46-1]",
+      "description": "",
+      "label": "Figure 46-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13649,
+        14437
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "there-are-three-major-classes-of-glycoproteins"
+    },
+    {
+      "fig_id": "fig-46-2",
+      "image_path": "",
+      "caption": "Structures of the major types of asparagine-linked oligosaccharides. The boxed area encloses the pentasaccharide core common to all Nlinked glycoproteins",
+      "referenced_from": "c017",
+      "marker": "[FIGURE:fig-46-2]",
+      "description": "",
+      "label": "Figure 46-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19891,
+        20044
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "linked-glycoproteins-contain-an-asparagine"
+    },
+    {
+      "fig_id": "fig-46-3",
+      "image_path": "",
+      "caption": "The structure of dolichol. The group within the brackets is an isoprene unit (n = 17-20 isoprenoid units).",
+      "referenced_from": "c021",
+      "marker": "[FIGURE:fig-46-3]",
+      "description": "",
+      "label": "Figure 46-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23795,
+        23901
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-biosynthesis-of-n-linked-glycoproteins-involves"
+    },
+    {
+      "fig_id": "fig-46-4",
+      "image_path": "",
+      "caption": "Pathway of biosynthesis of dolichol pyrophosphate oligosaccharide. Note that the first five internal mannose residues are donated by GDP mannose, whereas the more external mannose residues and the glucose residues are donated by dolichol-P-mannose and dolichol-P-glucose. Dol, dolichol; GDP, guanosine diphosphate; P, phosphate; UDP, uridine diphosphate; UMP, uridine monophosphate.",
+      "referenced_from": "c021",
+      "marker": "[FIGURE:fig-46-4]",
+      "description": "",
+      "label": "Figure 46-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23922,
+        24304
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-biosynthesis-of-n-linked-glycoproteins-involves"
+    },
+    {
+      "fig_id": "fig-46-5",
+      "image_path": "",
+      "caption": "Formation of advanced glycation end-products from glucose.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-46-5]",
+      "description": "",
+      "label": "Figure 46-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        33674,
+        33732
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "advanced-glycation-end-products-ages-are-important-in"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-46-1",
+      "label": "Table 46-1",
+      "caption": "Some Functions Served by Glycoproteins",
+      "referenced_from": "",
+      "content_chunk": "c004",
+      "caption_span": [
+        3570,
+        3608
+      ],
+      "section_id": "glycoproteins-occur-widely-perform-numerous-functions"
+    },
+    {
+      "table_id": "tbl-46-2",
+      "label": "Table 46-2",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "glycoproteins-occur-widely-perform-numerous-functions"
+    },
+    {
+      "table_id": "tbl-46-3",
+      "label": "Table 46-3",
+      "caption": "The Principal Sugars Found in Human Glycoproteinsa",
+      "referenced_from": "c008",
+      "content_chunk": "c009",
+      "caption_span": [
+        9013,
+        9063
+      ],
+      "section_id": "eight-sugars-predominate-in-human-glycoproteins"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain the importance of glycoproteins in health and disease.\nDescribe the principal sugars found in glycoproteins.\nDescribe the major classes of glycoproteins (N-linked, O-linked, and GPI-linked).\nDescribe the major features of the pathways of biosynthesis and degradation of glycoproteins.\nExplain how many microorganisms, such as influenza virus, attach to cell surfaces via sugar chains.",
+      "char_start": 17,
+      "char_end": 409,
+      "section_path": [
+        "Glycoproteins"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Tan Z, Wang L-X. Chemical Biology of Glycoproteins. Tan Z, Wang L-X, editors: The Royal Society of Chemistry; 2017 20 Mar 2017.\nBhavanandan VP, Gowda DC. Introduction to the Complexity of Cell Surface and Tissue Matrix Glycoconjugates. Adv Neurobiol. 2023;29:1–39. Epub 2022/10/19. doi: 10.1007/978-3-031-12390-0\\_1.",
+      "char_start": 48949,
+      "char_end": 49265,
+      "section_path": [
+        "Glycoproteins"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-46-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-46-1",
+      "reason": "table never cited in prose"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-46-2",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-46-2",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_46_glycoproteins.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_46_glycoproteins/chapter_46_glycoproteins.normalized.md"
+}

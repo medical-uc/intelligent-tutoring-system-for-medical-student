@@ -1,0 +1,820 @@
+{
+  "doc_id": "chapter_3_amino_acids_and_peptides",
+  "source": {
+    "source_id": "chapter_3_amino_acids_and_peptides",
+    "title": "Amino Acids & Peptides",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "Amino acids and peptides are essential for protein synthesis and various metabolic functions, including their roles as building blocks and in neuroendocrine signaling.",
+    "page": null,
+    "origin": "chapter_3_amino_acids_and_peptides.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 08:16:23"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "L-α-Amino acids provide the monomer units of the long polypeptide chains of proteins. L-α-Amino acids and their derivatives participate in nerve transmission. L-α-Amino acids and their derivatives participate in the biosynthesis of porphyrins. L-α-Amino acids and their derivatives participate in the biosynthesis of purines. L-α-Amino acids and their derivatives participate in the biosynthesis of pyrimidines. L-α-Amino acids and their derivatives participate in the biosynthesis of urea. The neuroendocrine system employs peptides as hormones. The neuroendocrine system employs peptides as hormone-releasing factors. The neuroendocrine system employs peptides as neuromodulators. The neuroendocrine system employs peptides as neurotransmitters. Humans cannot synthesize 10 of the L-α-amino acids present in proteins in amounts adequate to support infant growth. Humans cannot synthesize 10 of the L-α-amino acids present in proteins in amounts adequate to maintain adult health. The human diet must contain adequate quantities of these nutritionally essential amino acids. Each day the kidneys filter over 50 g of free amino acids from the arterial renal blood. Free amino acids are efficiently reabsorbed in the proximal tubule. Efficient reabsorption of free amino acids conserves them for protein synthesis. Efficient reabsorption of free amino acids conserves them for other vital functions. Certain microorganisms secrete free D-amino acids. Certain microorganisms secrete peptides that may contain both D- and L-α-amino acids. Bacitracin is a bacterial peptide of therapeutic value. Gramicidin A is a bacterial peptide of therapeutic value. Bleomycin is an antitumor agent. Microcystin is a cyanobacterial peptide. Nodularin is a cyanobacterial peptide. Large doses of microcystin are lethal. Large doses of nodularin are lethal. Small quantities of microcystin promote the formation of hepatic tumors. Small quantities of nodularin promote the formation of hepatic tumors. The ingestion of certain amino acids present in the seeds of legumes of the genus Lathyrus can result in lathyrism. Lathyrism is a tragic irreversible disease. Individuals with lathyrism lose control of their limbs. Certain amino acids in plant seeds have been implicated in a neurodegenerative disease afflicting natives of Guam.",
+      "char_start": 1105,
+      "char_end": 3418,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Natural proteins are synthesized almost exclusively from the set of 20 L-α-amino acids. 20 L-α-amino acids are genetically encoded by nucleotide triplets called codons. The genetic code is redundant, meaning several amino acids are specified by more than one codon. Scientists use one- and three-letter abbreviations to represent the sequences of peptides and proteins (Table 3–1).",
+      "char_start": 3470,
+      "char_end": 3851,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "The Genetic Code Specifies 20 L-α-Amino Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-3-1"
+      ],
+      "section_id": "the-genetic-code-specifies-20-l-amino-acids"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Glycine has the symbol Gly[G].\nGlycine has a structural formula represented by an image.\nGlycine has an R-group of ζ.\nAlanine has the symbol Ala[A].\nAlanine has a structural formula represented by an image.\nAlanine has an R-group of φ.\nValine has the symbol Val[V].\nValine has a structural formula represented by an image.\nValine has an R-group of φ.\nLeucine has the symbol Leu[L].\nLeucine has a structural formula represented by an image.\nLeucine has an R-group of φ.\nIsoleucine has the symbol Ile[T].\nIsoleucine has a structural formula represented by an image.\nIsoleucine has an R-group of φ.\nSerine has the symbol Ser[S].\nSerine has a structural formula represented by an image.\nSerine has an R-group of ζ.\nThreonine has the symbol Thr[T].\nThreonine has a structural formula represented by an image.\nThreonine has an R-group of ζ.\nTyrosine has the symbol Tyr[Y].\nTyrosine has a structural formula that is not provided in the table.\nTyrosine has an R-group of φ.\nCysteine has the symbol Cys[C].\nCysteine has a structural formula represented by an image.\nCysteine has an R-group of ζ.\nMethionine has the symbol Met[M].\nMethionine has a structural formula represented by an image.\nMethionine has an R-group of φ.\nAspartic acid has the symbol Asp[D].\nAspartic acid has a structural formula represented by an image.\nAspartic acid has an R-group of ζ.\nAsparagine has the symbol Asn[N].\nAsparagine has a structural formula represented by an image.\nAsparagine has an R-group of ζ.\nGlutamic acid has the symbol Glu[E].\nGlutamic acid has a structural formula represented by an image.\nGlutamic acid has an R-group of ζ.\nGlutamine has the symbol Gin[Q].\nGlutamine has a structural formula represented by an image.\nGlutamine has an R-group of ζ.\nArginine has the symbol Arg[R].\nArginine has a structural formula represented by an image.\nArginine has an R-group of ζ.\nLysine has the symbol Lys[K].\nLysine has a structural formula represented by an image.\nLysine has an R-group of ζ.\nHistidine has the symbol His[H].\nHistidine has a structural formula represented by an image.\nHistidine has an R-group of ζ.\nHistidine has the symbol His[H].\nHistidine has a structural formula that is not provided in the table.\nPhenylalanine has the symbol Phe[F].\nPhenylalanine has a structural formula represented by an image.\nPhenylalanine has an R-group of φ.\nTyrosine has the symbol Try[Y].\nTyrosine has a structural formula represented by an image.\nTyrosine has an R-group of φ.\nTryptophan has the symbol Trp[W].\nTryptophan has a structural formula represented by an image.\nTryptophan has an R-group of φ.\nProline has the symbol Pro[P].\nProline does not have a structural formula provided in the table.",
+      "char_start": 3890,
+      "char_end": 6570,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "The Genetic Code Specifies 20 L-α-Amino Acids"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-genetic-code-specifies-20-l-amino-acids"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "The R groups of amino acids can be either hydrophilic or hydrophobic. The properties influence the location of amino acids in a protein’s mature folded conformation. Hydrophobic R-groups are indicated by the symbol ф (Phi, uppercase), while hydrophilic R-groups are indicated by the symbol ζ (zeta, lowercase).\n\nSome proteins contain additional amino acids that arise through posttranslational modification. Examples of such modifications include the conversion of peptidyl proline and peptidyl lysine to 4-hydroxyproline and 5-hydroxylysine, the conversion of peptidyl glutamate to γ-carboxyglutamate, and the methylation, formylation, acetylation, prenylation, and phosphorylation of certain aminoacyl residues. Posttranslational modifications increase the diversity of chemical functional groups in proteins and often alter their solubility, stability, catalytic activity, and interaction with other biomolecules.",
+      "char_start": 6572,
+      "char_end": 7488,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "The Genetic Code Specifies 20 L-α-Amino Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-genetic-code-specifies-20-l-amino-acids"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Selenocysteine is an L-α-amino acid present in proteins from every domain of life. Humans contain approximately two dozen selenoproteins. Selenoproteins include certain peroxidases and reductases. Selenoprotein P circulates in the plasma. The iodothyronine deiodinases are responsible for converting the prohormone thyroxine (T) to the thyroid hormone 3,3′,5-triiodothyronine (T). Peptidy selenocysteine is inserted directly into a growing polypeptide during translation. Peptidy selenocysteine is commonly termed the '21st amino acid'. Unlike the other 20 protein amino acids, the incorporation of selenocysteine is specified by a large and complex genetic element. The genetic element is for the unusual transfer RNA (tRNA) called tRNASec. The tRNASec utilizes the UGA anticodon that normally signals STOP. The protein synthetic apparatus recognizes a UGA codon as coding for selenocysteine when accompanied by a stem-loop structure. The stem-loop structure is the selenocysteine insertion element in the untranslated region of the mRNA.\n\nCysteine and selenocysteine are compared in Figure 3-1. The pK for the selenyl proton of selenocysteine is 5.2. The pK for the selenyl proton of selenocysteine is 3 pH units lower than that of cysteine. Selenocysteine represents a better nucleophile at or below pH 7.4.",
+      "char_start": 7542,
+      "char_end": 8852,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Selenocysteine, the 21st Protein L-α-Amino Acid"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-1"
+      ],
+      "table_refs": [],
+      "section_id": "selenocysteine-the-21st-protein-l-amino-acid"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "With the sole exception of glycine, the α-carbon of every amino acid is chiral. All protein amino acids share the absolute configuration of L-glyceraldehyde and are defined as L-α-amino acids. Some protein amino acids are dextrorotatory and some are levorotatory. Almost all protein amino acids are (S). L-Cysteine is (R) because the atomic mass of the sulfur atom on C3 exceeds that of the amino group on C2. The failure to use (R) or (S) to express absolute stereochemistry is not a mere historical aberration. In mammals, the biochemical reactions of L-α-amino acids, their precursors, and their catabolites are catalyzed by enzymes that act exclusively on L-isomers, irrespective of their absolute configuration.",
+      "char_start": 9140,
+      "char_end": 9856,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Stereochemistry of the Protein Amino Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "stereochemistry-of-the-protein-amino-acids"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Some prokaryotes incorporate pyrrolysine into proteins, and plants can incorporate azetidine-2-carboxylic acid, an analogue of proline. A set of just 21 L-α-amino acids suffices for the formation of most proteins. Posttranslational modifications can generate novel R groups that impart further properties. In collagen, protein-bound proline and lysine residues are converted to 4-hydroxyproline and 5-hydroxylysine (Figure 3–2).",
+      "char_start": 9923,
+      "char_end": 10351,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Posttranslational Modifications Confer Additional Properties"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-2"
+      ],
+      "table_refs": [],
+      "section_id": "posttranslational-modifications-confer-additional-properties"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The carboxylation of glutamyl residues of proteins of the blood coagulation cascade to γ-carboxyglutamyl residues (Figure 3–3) completes a site for chelating the calcium ion essential for blood coagulation. The amino acid side chains of histones are subject to numerous modifications, including acetylation and methylation of lysine and methylation and deimination of arginine (see Chapters 35 and 38).",
+      "char_start": 10410,
+      "char_end": 10812,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Posttranslational Modifications Confer Additional Properties"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-3"
+      ],
+      "table_refs": [],
+      "section_id": "posttranslational-modifications-confer-additional-properties"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "In the laboratory, scientists have been genetically engineering microorganisms to synthesize recombinant proteins containing many different unnatural amino acids. Genetically engineering microorganisms to synthesize recombinant proteins containing many different unnatural amino acids is done to explore structure–function relationships and to engineer artificial proteins possessing novel functions of commercial or medical value.",
+      "char_start": 10857,
+      "char_end": 11288,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Posttranslational Modifications Confer Additional Properties"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "posttranslational-modifications-confer-additional-properties"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "L-α-Amino acids fulfill vital metabolic roles in addition to serving as the “building blocks” of proteins. Ornithine is a key intermediate in the urea cycle. Citrulline is a key intermediate in the urea cycle. S-adenosyl-methionine serves as a methyl-group donor for many enzyme-catalyzed reactions. Tyrosine is a precursor of thyroid hormone. Tyrosine is metabolized to produce epinephrine. Tyrosine is metabolized to produce norepinephrine. Tyrosine is metabolized to produce dihydroxyphenylalanine (DOPA). Phenylalanine is metabolized to produce epinephrine. Phenylalanine is metabolized to produce norepinephrine. Phenylalanine is metabolized to produce dihydroxyphenylalanine (DOPA). Glutamate is a neurotransmitter. Glutamate is a precursor of γ-aminobutyric acid (GABA).",
+      "char_start": 11343,
+      "char_end": 12120,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "L-α-Amino Acids Serve Additional Metabolic Roles"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "l-amino-acids-serve-additional-metabolic-roles"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "The consumption of plants that contain certain nonprotein amino acids can adversely impact human health. Neurolathyrism, a profound neurologic disorder characterized by progressive and irreversible spastic paralysis of the legs, is caused by dietary intake of the seeds and seed products of the legume Lathyrus. Lathyrism occurs widely during famines, when Lathyrus seeds may become a major part of the diet. L-α-amino acids serve as important precursors of the toxins responsible, which include β-N-oxalyl-L-α,β-diaminopropionic acid (β-ODAP Table 3–2) and β-N-oxalyl L-alanine (BOAA) in “grass pea,” that is, Lathyrus sativus. The osteolathyrogen γ-glutamyl-β-aminopropionitrile (BAPN) is present in “sweet pea.” The seeds of some species also contain α,γ-diaminobutyric acid, an analogue of ornithine that inhibits the hepatic urea cycle enzyme ornithine transcarbamylase, leading to ammonia toxicity. L-β-methylaminoalanine, a neurotoxic amino acid present in Cycad seeds, has been implicated as a risk factor for neurodegenerative diseases including amyotrophic lateral sclerosis-Parkinson dementia complex in natives of Guam who consume fruit bats that feed on cycad fruit or flour made from cycad seeds.",
+      "char_start": 12190,
+      "char_end": 13400,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Certain Plant L-α-Amino Acids Can Adversely Impact Human Health"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-3-2"
+      ],
+      "section_id": "certain-plant-l-amino-acids-can-adversely-impact-human"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "The nonprotein L-α-amino acid cleaved by arginase to L-lysine and urea is implicated in human neurolathyrism.\nA neurotoxin is implicated in human neurolathyrism.\nAn osteolathyrogen is associated with causing bone deformities.\nThe inhibitor of ornithine transcarbamylase results in ammonia toxicity.\nA possible risk factor for neurodegenerative diseases is identified in the table.",
+      "char_start": 13437,
+      "char_end": 13817,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Certain Plant L-α-Amino Acids Can Adversely Impact Human Health"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "certain-plant-l-amino-acids-can-adversely-impact-human"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "D-Amino acids occur naturally throughout the biosphere. Free D-serine and D-aspartate are found in human brain tissue. D-alanine and D-glutamate are present in the cell walls of gram-positive bacteria. D-amino acids are found in certain peptides and antibiotics produced by bacteria, fungi, reptiles, and amphibians. Bacillus excretes D-methionine, D-tyrosine, D-leucine, and D-tryptophan to trigger biofilm disassembly. Bacillus incorporates D-leucine and D-methionine into the peptide component of its peptidoglycan layer.",
+      "char_start": 13819,
+      "char_end": 14343,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Certain Plant L-α-Amino Acids Can Adversely Impact Human Health"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "certain-plant-l-amino-acids-can-adversely-impact-human"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Other ionizable groups include the sulfhydryl group of cysteine, the imidazole ring of histidine, and the guanidino group of arginine. The protonated R groups of histidine and arginine are stabilized by electronic resonance (Figure 3–4).",
+      "char_start": 14409,
+      "char_end": 14646,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Amino Acids May Have Positive, Negative, or Zero Net Charge"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-4"
+      ],
+      "table_refs": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Amino acids in blood and most tissues are represented as zwitterions. Zwitterions are ionized yet net neutral molecules due to equal numbers of positively and negatively charged groups. Structure B cannot exist in aqueous solution because at any pH low enough to protonate the carboxyl group, the amino group would also be protonated. At any pH sufficiently high for an uncharged amino group to predominate, a carboxyl group will be present as R—COO−. The uncharged representation B is often used when diagramming reactions that do not involve protonic equilibria. Figure 3–5illustrates the effect that the pH of the aqueous environment has on the charged state of aspartic acid.",
+      "char_start": 14772,
+      "char_end": 15451,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "Amino Acids May Have Positive, Negative, or Zero Net Charge"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-5"
+      ],
+      "table_refs": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "The use of a single, continuous scale enables the relative strengths of all groups capable of dissociably binding protons to be compared.\n\nThe terms “weak acid” and “weak base” constitute arbitrary labels since in any protonic equilibrium both acidic and basic forms must participate.\n\nIn the laboratory, altering the charge on amino acids and their derivatives by varying the pH facilitates the physical separation of amino acids, peptides, and proteins.",
+      "char_start": 15604,
+      "char_end": 16059,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "p Ka Values Express the Strengths of Weak Acids & Bases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "p-ka-values-express-the-strengths-of-weak-acids"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Zwitterions are an example of an isoelectric species. An isoelectric species is a molecule with an equal number of positive and negative charges. A molecule with an equal number of positive and negative charges is electrically neutral.\n\nThe isoelectric pH (pI) of alanine is calculated as (2.35 + 9.69) / 2. The isoelectric pH (pI) of alanine equals 6.02.\n\nFor polyprotic acids, identifying the isoionic species is necessary. Identifying the isoionic species is necessary to calculate the pI.\n\nFor aspartic acid, the pI is calculated as (2.09 + 3.96) / 2. The pI calculation for aspartic acid equals 3.02.\n\nIn clinical laboratories, knowledge of the pI guides the selection of conditions. The conditions for electrophoretic separations are selected based on the pI.\n\nAt pH 7.0, electrophoresis will separate two molecules with pI values of 6.0 and 8.0, because the molecule with a pI of 6.0 will have a net negative charge, and the molecule with a pI of 8.0 will have a net positive charge.\n\nChromatographic separations on ionic supports consider these principles. Diethylaminoethyl (DEAE) cellulose is an example of an ionic support used in chromatographic separations.",
+      "char_start": 16127,
+      "char_end": 17297,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "At Its Isoelectric pH (pI), an Amino Acid Bears No Net Charge"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "at-its-isoelectric-ph-pi-an-amino-acid-bears-no-net-charge"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The environment of a dissociable group affects its pK. An adjacent oppositely charged group can stabilize a developing charge. An adjacent similarly charged group can destabilize a developing charge.",
+      "char_start": 17341,
+      "char_end": 17540,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "p Ka Values Vary With the Environment"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "p-ka-values-vary-with-the-environment"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Amino acids are readily soluble in polar solvents such as water and ethanol due to the charges from their dissociable functional groups. Amino acids are insoluble in nonpolar solvents like benzene, hexane, or ether. Amino acids do not absorb visible light, making them colorless. Tyrosine, phenylalanine, and tryptophan absorb ultraviolet light at high wavelengths, specifically between 250-290 nm. Tryptophan absorbs ultraviolet light about 10 times more efficiently than phenylalanine or tyrosine. Tryptophan is the major contributor to the ability of most proteins to absorb light at around 280 nm (Figure 3-6).",
+      "char_start": 17607,
+      "char_end": 18221,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "BIOMEDICAL IMPORTANCE",
+        "The Solubility of Amino Acids Reflects Their Ionic Character"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-6"
+      ],
+      "table_refs": [],
+      "section_id": "the-solubility-of-amino-acids-reflects-their-ionic-character"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Each functional group of an amino acid exhibits all of its characteristic chemical reactions. Carboxylic acid groups form esters, amides, and acid anhydrides. Amino groups undergo acylation, amidation, and esterification. —OH and —SH groups undergo oxidation and esterification. Glycine, the smallest amino acid, often occurs where peptides bend sharply because it can be accommodated in places inaccessible to other amino acids. Alanine, valine, leucine, and isoleucine have hydrophobic R groups and occur primarily in the interior of cytosolic proteins. Phenylalanine, tyrosine, and tryptophan have aromatic R groups and occur primarily in the interior of cytosolic proteins. Charged R groups of basic and acidic amino acids stabilize specific protein conformations via ionic interactions, or salt bridges. Ionic interactions stabilize specific protein conformations via ionic interactions, or salt bridges. These interactions function in 'charge relay' systems during enzymatic catalysis and electron transport in respiring mitochondria. Histidine plays unique roles in enzymatic catalysis. At a distinctly acidic pH, selenocysteine should be the better nucleophile. Serine's primary alcohol functions as the active site nucleophile in trypsin and other serine proteases. Threonine's secondary alcohol group is not known to serve this role in catalysis. The —OH groups of serine, tyrosine, and threonine frequently serve as the points of covalent attachment for phosphoryl groups that regulate protein function.",
+      "char_start": 18375,
+      "char_end": 19889,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-r-groups-determine-the-properties-of-amino-acids"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Amino acids are linked together by peptide bonds. The number and order of the amino acid residues in a polypeptide constitute its primary structure. Peptides are named as derivatives of the carboxy terminal aminoacyl residue. The 'ine' ending on the carboxy-terminal residue indicates that its α-carboxyl group is not involved in a peptide bond. Three-letter abbreviations linked by straight lines represent an unambiguous primary structure. Lines are omitted when using single-letter abbreviations. Peptides are written with the residue that bears the free α-amino group at the left. Prefixes like tri- or octa- denote peptides with three or eight residues, respectively. Amino acids present in peptides, called aminoacy, are referred to by replacing the 'ine' or 'ic' suffixes of free amino acids with 'yl' (eg, alanyl, aspartyl, tyrosyl). For example, Lys-Leu-Tyr-Gln is called lysyl-leucyl-tyrosyl-glutamine.",
+      "char_start": 19944,
+      "char_end": 20856,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Amino Acid Sequence Determines Primary Structure"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "amino-acid-sequence-determines-primary-structure"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "To draw a peptide, use a zigzag to represent the main chain or backbone.\n\nAdd the main chain atoms, which occur in the repeating order: α-nitrogen, α-carbon, carbonyl carbon.\n\nAdd a hydrogen atom to each α-carbon and to each peptide nitrogen.\n\nAdd an oxygen to the carbonyl carbon.\n\nFinally, add the appropriate R groups (shaded) to each α-carbon atom.",
+      "char_start": 21019,
+      "char_end": 21371,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Peptide Structures Are Easy to Draw"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "peptide-structures-are-easy-to-draw"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "In mammals, peptide hormones typically contain only the 20 codon-specified α-amino acids linked by standard peptide bonds. Other peptides may contain nonprotein amino acids, derivatives of the protein amino acids, or amino acids linked by an atypical peptide bond. The amino terminal glutamate of glutathione is linked to cysteine by a non-α peptide bond that utilizes the side chain, rather than the α-carboxylic acid group (Figure 3–7).",
+      "char_start": 21524,
+      "char_end": 21962,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Some Peptides Contain Unusual Amino Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-7"
+      ],
+      "table_refs": [],
+      "section_id": "some-peptides-contain-unusual-amino-acids"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "The amino terminal glutamate of thyrotropin-releasing hormone (TRH) is cyclized to pyroglutamic acid. The carboxyl group of the carboxyl terminal proly residue in TRH is amidated.\n\nThe nonprotein amino acids D-phenylalanine and ornithine are present in the cyclic peptide antibiotics tyrocidine and gramicidin S. The heptapeptide opioids dermorphin and deltorphin in the skin of South American tree frogs contain D-tyrosine and D-alanine.",
+      "char_start": 22077,
+      "char_end": 22515,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Some Peptides Contain Unusual Amino Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-peptides-contain-unusual-amino-acids"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "The peptide bond connecting a carbonyl carbon to the α-nitrogen has partial double-bond character. The partial double-bond character prevents rotation about this bond. The O, C, N, and H atoms of a peptide bond are coplanar. The semirigidity of the peptide bond influences the folding of peptides and proteins into their mature 3D structures. Free rotation can occur about the bonds connecting the α-carbon with the α-nitrogen and with the α-carbonyl carbon (Figure 3-8).",
+      "char_start": 22572,
+      "char_end": 23043,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "The Peptide Bond Has Partial Double-Bond Character"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-8"
+      ],
+      "table_refs": [],
+      "section_id": "the-peptide-bond-has-partial-double-bond-character"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "In a fully extended polypeptide chain, the distance between adjacent α-carbon atoms is 0.36 nm (3.6 Å). The interatomic distances and bond angles in the polypeptide backbone are not equivalent (Figure 3-8).",
+      "char_start": 23928,
+      "char_end": 24134,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "The Peptide Bond Has Partial Double-Bond Character"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-3-8"
+      ],
+      "table_refs": [],
+      "section_id": "the-peptide-bond-has-partial-double-bond-character"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Folding of a peptide probably begins coincident with its biosynthesis. The mature, physiologically active conformation reflects the collective contributions of noncovalent interactions. Hydrogen bonding is an example of a noncovalent interaction. Hydrophobic interactions are another example of noncovalent interactions. The minimization of steric hindrance between residues contributes to the peptide's conformation. Common repeating conformations include α-helices. Common repeating conformations include β-pleated sheets.",
+      "char_start": 24191,
+      "char_end": 24715,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Noncovalent Forces Constrain Peptide Conformations"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "noncovalent-forces-constrain-peptide-conformations"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "The peptide bond is uncharged at any pH of physiologic interest.\n\nFormation of peptides from amino acids is accompanied by a net loss of one positive and one negative charge per peptide bond formed.\n\nPeptides' terminal carboxyl and amino groups and, where present, their acidic or basic R groups render peptides in water charged.\n\nThe net charge on a peptide depends on the pH of its environment and on the pK values of its dissociating groups.",
+      "char_start": 24751,
+      "char_end": 25195,
+      "section_path": [
+        "Amino Acids & Peptides",
+        "THE α-R GROUPS DETERMINE THE PROPERTIES OF AMINO ACIDS",
+        "Peptides Are Polyelectrolytes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "peptides-are-polyelectrolytes"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Both D-amino acids and non–α-amino acids occur in nature, but proteins are synthesized using only L-α-amino acids. D-Amino acids do, however, serve metabolic roles, not only in bacteria but also in humans.\nMetabolic functions of the L-α-Amino acids include the biosynthesis of urea, heme, nucleic acids, hormones such as epinephrine, and neurotransmitters such as DOPA.\nCertain of the L-α-amino acids present in plants and plant seeds can have deleterious effects on human health, for example, in lathyrism.\nAmino acids are classified as basic, acidic, aromatic, aliphatic, or sulfur-containing based on the composition and properties of their R groups.\nThe partial double-bond character of the bond that links the carbonyl carbon and the nitrogen of a peptide renders the four atoms of the peptide bond coplanar, which restricts the number of possible peptide conformations.\nPeptides are often named as derivatives of the carboxyl terminal residue. The primary structure of a peptide is its amino acid sequence, starting from the amino-terminal residue, the direction in which peptides actually are synthesized in vivo.\nAll amino acids possess at least two weakly acidic functional groups, R—NH + and R—COOH. Many also possess additional weakly acidic functional groups such as the phenolic —OH of tyrosine or the —SH, guanidino, or imidazole moieties of cysteine, histidine, and arginine, respectively.\nThe pK values of all functional groups of an amino acid or of a peptide dictate its net charge at a given pH.\npI, the isoelectric pH, is the pH at which a molecule bears no net charge.\nThe pK values of amino acids in proteins can be influenced by their surroundings, and hence may from those of the corresponding free amino acids.",
+      "char_start": 25197,
+      "char_end": 26932,
+      "section_path": [
+        "Amino Acids & Peptides"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-3-1",
+      "image_path": "",
+      "caption": "Cysteine (left) and selenocysteine (right). pK , for the selenyl proton of selenocysteine, is 5.2. Since this is 3 pH units lower than that of cysteine, selenocysteine represents a better nucleophile at or below pH 7.4.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-3-1]",
+      "description": "",
+      "label": "Figure 3-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8872,
+        9091
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "selenocysteine-the-21st-protein-l-amino-acid"
+    },
+    {
+      "fig_id": "fig-3-2",
+      "image_path": "",
+      "caption": "4-Hydroxyproline and 5-hydroxylysine.",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-3-2]",
+      "description": "",
+      "label": "Figure 3-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10371,
+        10408
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "posttranslational-modifications-confer-additional-properties"
+    },
+    {
+      "fig_id": "fig-3-3",
+      "image_path": "",
+      "caption": "γ-Carboxyglutamic acid.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-3-3]",
+      "description": "",
+      "label": "Figure 3-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10832,
+        10855
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "posttranslational-modifications-confer-additional-properties"
+    },
+    {
+      "fig_id": "fig-3-4",
+      "image_path": "",
+      "caption": "The protonated R groups of histidine (top) and arginine (bottom) are stabilized by electronic resonance.",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-3-4]",
+      "description": "",
+      "label": "Figure 3-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14666,
+        14770
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "fig_id": "fig-3-5",
+      "image_path": "",
+      "caption": "Protonic equilibria of aspartic acid.",
+      "referenced_from": "c015",
+      "marker": "[FIGURE:fig-3-5]",
+      "description": "",
+      "label": "Figure 3-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15471,
+        15508
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "fig_id": "fig-x6",
+      "image_path": "images/6f0a734b083510ec39aa0ff0930055ceb0209fea7ab52fb8fd8f0c49bc360747.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x6]",
+      "description": "",
+      "label": "",
+      "panel": "A",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/444187f58628a2473401b8f9f2497d50bf0c767e7d8881fbe5584a6c3ccce2b6.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "B",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acids-may-have-positive-negative-or-zero-net-charge"
+    },
+    {
+      "fig_id": "fig-3-6",
+      "image_path": "",
+      "caption": "Ultraviolet absorption spectra of tryptophan, tyrosine, and phenylalanine.",
+      "referenced_from": "c019",
+      "marker": "[FIGURE:fig-3-6]",
+      "description": "",
+      "label": "Figure 3-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        18241,
+        18315
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-solubility-of-amino-acids-reflects-their-ionic-character"
+    },
+    {
+      "fig_id": "fig-x9",
+      "image_path": "images/2863b532f488c6fa231dde72f81c076c2fc7b42ca0f1deac883ca85de19ff53f.jpg",
+      "caption": "Diagram of chemical structures for Alanyl, Cysteinyl, and Valine, each with labeled functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x9]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        20875,
+        20977
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acid-sequence-determines-primary-structure"
+    },
+    {
+      "fig_id": "fig-x10",
+      "image_path": "images/943c8cc9406384d2d77e4eed341cada012521f2828577f8adc3d103fae382c3c.jpg",
+      "caption": "Chemical structure of a polyamide featuring labeled amide, ester, and ester linkages.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x10]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21391,
+        21476
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "peptide-structures-are-easy-to-draw"
+    },
+    {
+      "fig_id": "fig-3-7",
+      "image_path": "",
+      "caption": "Glutathione (γ-glutamyl-cysteinyl-glycine). Note the non–α peptide bond that links Glu to Cys",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-3-7]",
+      "description": "",
+      "label": "Figure 3-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21982,
+        22075
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "some-peptides-contain-unusual-amino-acids"
+    },
+    {
+      "fig_id": "fig-x12",
+      "image_path": "images/0b69404c9ef90f8bb22ef0d8ef05e89c9543c973779c44028beac902a1ebb449.jpg",
+      "caption": "Diagram illustrating the protonation of a nitrogen-containing heterocycle in a chemical reaction.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x12]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23063,
+        23160
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-peptide-bond-has-partial-double-bond-character"
+    },
+    {
+      "fig_id": "fig-3-8",
+      "image_path": "",
+      "caption": "Dimensions of a fully extended polypeptide chain. The four atoms of the peptide bond are coplanar. Free rotation can occur about the bonds that connect the α-carbon with the α-nitrogen and with the α-carbonyl carbon (brown arrows). The extended polypeptide chain is thus a semirigid structure with two-thirds of the atoms of the backbone held in a fixed planar relationship to one another. The distance between adjacent α-carbon atoms is 0.36 nm (3.6 Å). The interatomic distances and bond angles, which are not equivalent, are also shown. (Reproduced with permission from Pauling L, Corey LP, Branson HR: The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain. Proc Natl Acad Sci USA 1951;37(4):205- 211.)",
+      "referenced_from": "c025",
+      "marker": "[FIGURE:fig-3-8]",
+      "description": "",
+      "label": "Figure 3-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23180,
+        23926
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-peptide-bond-has-partial-double-bond-character"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-3-1",
+      "label": "Table 3-1",
+      "caption": "L-α-Amino Acids Present in Proteins",
+      "referenced_from": "c002",
+      "content_chunk": "c003",
+      "caption_span": [
+        3853,
+        3888
+      ],
+      "section_id": "the-genetic-code-specifies-20-l-amino-acids"
+    },
+    {
+      "table_id": "tbl-3-2",
+      "label": "Table 3-2",
+      "caption": "Potentially Toxic L-α-Amino Acids",
+      "referenced_from": "c011",
+      "content_chunk": "c012",
+      "caption_span": [
+        13402,
+        13435
+      ],
+      "section_id": "certain-plant-l-amino-acids-can-adversely-impact-human"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the core features of the DNA-encoded amino acids.\nProvide examples of how each type of R group of the protein amino acids contributes to their chemical properties.\nList additional important functions of amino acids and explain how certain amino acids in plant seeds can severely impact human health.\nName the ionizable groups of the protein amino acids and list their approximate pKa values as free amino acids in aqueous solution.\nCalculate the pH of an unbuffered aqueous solution of a polyfunctional amino acid and the change in pH that occurs following the addition of a given quantity of strong acid or base.\nDefine pI and explain its relationship to the net charge on a polyfunctional electrolyte.\nExplain how pKa and pI can be used to predict the mobility of a polyelectrolyte, such as an amino acid, in a direct-current electrical field at various pH values.\nDescribe the directionality, nomenclature, and primary structure of peptides.\nDescribe the conformational consequences of the partial double-bond character of the peptide bond.",
+      "char_start": 26,
+      "char_end": 1078,
+      "section_path": [
+        "Amino Acids & Peptides"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Diaz-Parga P, Goto JJ, Krishnan VV: Chemistry and chemical equilibrium dynamics of BMAA and its carbamate adducts. Neurotox Res 2018;33:76. [PubMed: 28921378]\nLemke EA, ed.: NoncanonicalAmino Acids Methods and Protocols. Humana Press, 2019.\nMartin A, ed.: Amino Acid: A Comprehensive Overview and Applications. Murphy & Moore, 2022.\nRyadnov M, Matsura K, eds.: Amino Acids Peptides and Proteins, 45th ed. Royal Soc Chem, 2024.\nSeckler JM, Lewis SJ: Advances in D-amino acids in neurological research. Int J Mol Sci 2020;21:7325. [PubMed: 33023061]\nWu G: Amino Acids. Biochemistry and Nutrition and Health, 2nd ed. CRC Press, 2021.\nYoshimura T, Nishikawa T, Homma H eds.: D-Amino Acids: Physiology, Metabolism, and Application. Springer, 2016.",
+      "char_start": 26934,
+      "char_end": 27676,
+      "section_path": [
+        "Amino Acids & Peptides"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-3-8",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_3_amino_acids_and_peptides.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_3_amino_acids_and_peptides/chapter_3_amino_acids_and_peptides.normalized.md"
+}

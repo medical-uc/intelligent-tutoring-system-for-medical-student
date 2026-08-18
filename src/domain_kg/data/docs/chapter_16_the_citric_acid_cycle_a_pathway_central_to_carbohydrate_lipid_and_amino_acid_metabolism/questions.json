@@ -1,0 +1,416 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is required by coenzymes in the process described?",
+    "options": [
+      "ATP",
+      "citrate",
+      "citric acid",
+      "glucose",
+      "oxygen"
+    ],
+    "answer": "oxygen",
+    "rationale": "The process is aerobic and requires oxygen as the final oxidant of the reduced coenzymes. The enzymes of the citric acid cycle are located in the mitochondrial matrix.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PROVIDES SUBSTRATES FOR THE RESPIRATORY CHAIN",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substrate does citrate synthase act on?",
+    "options": [
+      "cis-aconitate",
+      "isocitrate",
+      "oxaloacetate",
+      "succinate",
+      "succinyl-CoA"
+    ],
+    "answer": "oxaloacetate",
+    "rationale": "The initial reaction between acetyl-CoA and oxaloacetate to form citrate is catalyzed by citrate synthase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "What substance is citryl-CoA converted into?",
+    "options": [
+      "ATP",
+      "citrate",
+      "citric acid",
+      "glucose",
+      "NAD"
+    ],
+    "answer": "citrate",
+    "rationale": "The thioester bond of the resultant citryl-CoA is hydrolyzed, releasing citrate and CoASH.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substrate does aconitase act on?",
+    "options": [
+      "ATP",
+      "citrate",
+      "citric acid",
+      "fumarate",
+      "ubiquinone"
+    ],
+    "answer": "citrate",
+    "rationale": "Citrate is isomerized to isocitrate by the enzyme aconitase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is required by citrate in the described process?",
+    "options": [
+      "\\u03b1-ketoglutarate dehydrogenase",
+      "aconitase",
+      "amino acids",
+      "isocitrate dehydrogenase",
+      "pyruvate dehydrogenase"
+    ],
+    "answer": "aconitase",
+    "rationale": "Channeling ensures that citrate is only available in free solution when aconitase is inhibited by isocitrate accumulation.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What substance is succinyl-CoA converted into?",
+    "options": [
+      "acetoacetate",
+      "coenzymes",
+      "glycogen",
+      "malate",
+      "pyruvate"
+    ],
+    "answer": "acetoacetate",
+    "rationale": "The reaction involves the transfer of CoA from succinyl-CoA to acetoacetate. The transfer of CoA results in the formation of acetoacetyl-CoA and succinate.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substrate does succinate thiokinase act on?",
+    "options": [
+      "acetyl-CoA",
+      "cis-aconitate",
+      "isocitrate",
+      "oxaloacetate",
+      "succinyl-CoA"
+    ],
+    "answer": "succinyl-CoA",
+    "rationale": "Succinyl-CoA is converted to succinate by the enzyme succinate thiokinase (succinyl-CoA synthetase). Succinyl-CoA is the only example of substrate-level phosphorylation in the citric acid cycle.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substrate does succinate dehydrogenase act on?",
+    "options": [
+      "ATP",
+      "citrate",
+      "citric acid",
+      "fumarate",
+      "glucose"
+    ],
+    "answer": "fumarate",
+    "rationale": "The first dehydrogenation reaction, forming fumarate, is catalyzed by succinate dehydrogenase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What substance is NADH converted into?",
+    "options": [
+      "citrate",
+      "citric acid",
+      "CoASH",
+      "glucose",
+      "NAD"
+    ],
+    "answer": "NAD",
+    "rationale": "NADH is reoxidized to NAD by the respiratory chain.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What substance is oxaloacetate converted into?",
+    "options": [
+      "acetoacetate",
+      "coenzymes",
+      "glycogen",
+      "malate",
+      "succinate"
+    ],
+    "answer": "glycogen",
+    "rationale": "During gluconeogenesis, some of the label in oxaloacetate is incorporated into glucose and glycogen.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In the citric acid cycle, FAD acts on which substrate?",
+    "options": [
+      "aconitase",
+      "amino acids",
+      "citrate synthase",
+      "pyruvate dehydrogenase",
+      "succinate dehydrogenase"
+    ],
+    "answer": "succinate dehydrogenase",
+    "rationale": "Riboflavin is essential in the citric acid cycle as FAD, the cofactor for succinate dehydrogenase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > VITAMINS PLAY KEY ROLES IN THE CITRIC ACID CYCLE",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Pantothenic acid is converted into which substance?",
+    "options": [
+      "acetoacetate",
+      "coenzymes",
+      "glycogen",
+      "malate",
+      "succinate"
+    ],
+    "answer": "coenzymes",
+    "rationale": "Pantothenic acid is part of coenzyme A, which is esterified to carboxylic acids to form acetyl-CoA and succinyl-CoA.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > VITAMINS PLAY KEY ROLES IN THE CITRIC ACID CYCLE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substance is synthesized by succinate thiokinase?",
+    "options": [
+      "acetyl-CoA",
+      "carboxylated",
+      "coenzymes",
+      "electron",
+      "GTP"
+    ],
+    "answer": "GTP",
+    "rationale": "The GTP required for this reaction is provided by the GDP-dependent isoenzyme of succinate thiokinase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Oxaloacetate is found within which structure?",
+    "options": [
+      "brain",
+      "connective tissue",
+      "liver",
+      "muscle",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "Oxaloacetate leads to the production of glucose in the liver and kidney.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Pyruvate is converted into which substance?",
+    "options": [
+      "acetoacetate",
+      "acetyl-CoA",
+      "glycogen",
+      "succinate",
+      "succinyl-CoA"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Pyruvate can then undergo oxidative decarboxylation to acetyl-CoA by pyruvate dehydrogenase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Propionyl CoA is converted into which substance?",
+    "options": [
+      "acetoacetate",
+      "glycogen",
+      "malate",
+      "succinate",
+      "succinyl-CoA"
+    ],
+    "answer": "succinyl-CoA",
+    "rationale": "Various compounds can yield propionyl CoA, which can be carboxylated and isomerized to succinyl CoA, making them important anaplerotic substrates.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Phosphoenolpyruvate is converted into which substance?",
+    "options": [
+      "acetoacetate",
+      "glycogen",
+      "malate",
+      "pyruvate",
+      "succinate"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Phosphoenolpyruvate is then dephosphorylated to form pyruvate by pyruvate kinase.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Propionate is converted into which substance?",
+    "options": [
+      "citrate",
+      "citric acid",
+      "CoASH",
+      "glucose",
+      "NAD"
+    ],
+    "answer": "glucose",
+    "rationale": "Propionate forms glucose through gluconeogenesis.",
+    "citation": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism — Overview > THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM > The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  }
+]

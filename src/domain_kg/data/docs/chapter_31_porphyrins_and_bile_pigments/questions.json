@@ -1,0 +1,853 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognised cause of porphyrias?",
+    "options": [
+      "bilirubin excess",
+      "conjugated",
+      "lead",
+      "porphyrins",
+      "UDP-glucuronate reduced"
+    ],
+    "answer": "porphyrins",
+    "rationale": "The porphyrias are a group of diseases caused by abnormalities in the pathway of porphyrin biosynthesis.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is transported by hemoproteins?",
+    "options": [
+      "cytochrome c",
+      "cytochrome P450",
+      "glycine",
+      "hemoglobin",
+      "myoglobin"
+    ],
+    "answer": "myoglobin",
+    "rationale": "Heme proteins are ubiquitous in biology and serve diverse functions including, but not limited to, oxygen transport and storage (eg, hemoglobin and myoglobin) and electron transport (eg, cytochrome c and cytochrome P450).",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > PORPHYRINS",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "ALAS2 is converted into which substance?",
+    "options": [
+      "ALA",
+      "ALA synthase",
+      "amino acids",
+      "hemoglobin",
+      "hemoproteins"
+    ],
+    "answer": "ALA synthase",
+    "rationale": "Humans express two isozymes of ALA synthase: ALAS1 and ALAS2. ALAS1 is ubiquitously expressed throughout the body.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "ALA dehydratase acts on which substrate?",
+    "options": [
+      "coproporphyrinogen III",
+      "porphobilinogen",
+      "tetrapyrrole hydroxymethylbilane",
+      "uroporphyrinogen I",
+      "uroporphyrins"
+    ],
+    "answer": "porphobilinogen",
+    "rationale": "Following the formation of δ-aminolevulinate, it exits into the cytosol where ALA dehydratase catalyzes the condensation of two molecules of ALA to form porphobilinogen (Figure 31–4).",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "ALA dehydratase requires which substance for optimal activity?",
+    "options": [
+      "bile",
+      "bilirubin excess",
+      "Fe-S",
+      "heme",
+      "porphyrins"
+    ],
+    "answer": "Fe-S",
+    "rationale": "ALA dehydratase requires an Fe-S cofactor for optimal activity.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Hydroxymethylbilane is converted into which substance?",
+    "options": [
+      "bile",
+      "bilirubin",
+      "glucuronic acid",
+      "porphobilinogen",
+      "urobilins"
+    ],
+    "answer": "porphobilinogen",
+    "rationale": "Hydroxymethylbilane is formed from the condensation of four molecules of porphobilinogen.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Uroporphyrinogen decarboxylase acts on which substrate?",
+    "options": [
+      "coproporphyrinogen III",
+      "heme",
+      "porphobilinogen",
+      "protoporphyrin III",
+      "tetrapyrrole hydroxymethylbilane"
+    ],
+    "answer": "coproporphyrinogen III",
+    "rationale": "Uroporphyrinogen decarboxylase catalyzes the decarboxylation of all four acetate moieties of uroporphyrinogen III to form coproporphyrinogen III (Figure 31–6).",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Ferrochelatase acts on which substrate?",
+    "options": [
+      "coproporphyrinogen III",
+      "porphobilinogen",
+      "protoporphyrin III",
+      "tetrapyrrole hydroxymethylbilane",
+      "uroporphyrins"
+    ],
+    "answer": "protoporphyrin III",
+    "rationale": "Ferrochelatase (heme synthase) catalyzes the incorporation of ferrous iron into protoporphyrin III. The incorporation of ferrous iron into protoporphyrin III is illustrated in Figure 31-7.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which of the following is a recognised cause of X-linked sideroblastic anemia?",
+    "options": [
+      "ALA",
+      "bilirubin UDP-glucuronosyltransferase absent enzyme activity",
+      "hemoglobin",
+      "hemoproteins",
+      "myoglobin"
+    ],
+    "answer": "ALA",
+    "rationale": "Mutations in the gene encoding ALA synthase cause X-linked sideroblastic anemia. X-linked sideroblastic anemia is not a porphyria.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which of the following is a recognised cause of poisoning?",
+    "options": [
+      "bilirubin excess",
+      "conjugated",
+      "lead",
+      "porphyrins",
+      "uroporphyrins"
+    ],
+    "answer": "lead",
+    "rationale": "Lead poisoning causes elevated urinary levels of coproporphyrin.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > DISORDERS OF HEME BIOSYNTHESIS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of photosensitivity?",
+    "options": [
+      "bilirubin excess",
+      "conjugated",
+      "lead",
+      "porphyrins",
+      "UDP-glucuronate reduced"
+    ],
+    "answer": "porphyrins",
+    "rationale": "The oxidation of these porphyrinogens results in photosensitivity to visible light of about 400-nm wavelength.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > DISORDERS OF HEME BIOSYNTHESIS > Subsequent Metabolic Blocks",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substance is synthesised by ALAS1?",
+    "options": [
+      "bile",
+      "bilirubin excess",
+      "heme deficiency",
+      "nitrogen",
+      "porphyrins"
+    ],
+    "answer": "heme deficiency",
+    "rationale": "Derepression of synthesis of ALAS1 results in increased levels of potentially harmful heme precursors.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CLASSIFICATION OF THE PORPHYRIAS > Drug-Induced Porphyria",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Globin is converted into which substance?",
+    "options": [
+      "ALA",
+      "ALA synthase",
+      "amino acids",
+      "hemoglobin",
+      "hemoproteins"
+    ],
+    "answer": "amino acids",
+    "rationale": "The globin is degraded to its constituent amino acids. The released iron enters the iron pool.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Reticuloendothelial cells are found within which structure?",
+    "options": [
+      "bile canaliculi",
+      "bone marrow",
+      "colon",
+      "ileum",
+      "liver"
+    ],
+    "answer": "liver",
+    "rationale": "The iron-free porphyrin portion of heme is also degraded, mainly in the reticuloendothelial cells of the liver, spleen, and bone marrow.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Hemoglobin is converted into which substance?",
+    "options": [
+      "bile",
+      "bilirubin",
+      "glucuronic acid",
+      "porphobilinogen",
+      "urobilins"
+    ],
+    "answer": "bilirubin",
+    "rationale": "Bilirubin is derived principally from hemoglobin. Bilirubin is derived with contributions from ineffective erythropoiesis and the catabolism of other heme proteins.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which substance is transported by serum albumin?",
+    "options": [
+      "bile",
+      "bilirubin",
+      "heme",
+      "nitrogen",
+      "porphyrins"
+    ],
+    "answer": "bilirubin",
+    "rationale": "Bilirubin is bound by serum albumin for transport to the liver.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Bilirubin Is Transported to the Liver Bound to Serum Albumin",
+    "relation": "transports",
+    "confidence": 0.95,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Bilirubin is converted into which substance?",
+    "options": [
+      "bile",
+      "nitrogen",
+      "porphobilinogen",
+      "porphyrins",
+      "urobilins"
+    ],
+    "answer": "bile",
+    "rationale": "Most of the bilirubin excreted in the bile of mammals is bilirubin diglucuronide.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Secretion of Bilirubin Into the Bile",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which substance is transported by hepatocytes?",
+    "options": [
+      "bile",
+      "bilirubin",
+      "heme",
+      "nitrogen",
+      "porphyrins"
+    ],
+    "answer": "bilirubin",
+    "rationale": "Bilirubin dissociates from albumin and is taken up at the sinusoidal surface of hepatocytes by a large capacity facilitated transport system.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Uptake of Bilirubin by Liver Parenchymal Cells",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which substance is transported by conjugated bilirubin?",
+    "options": [
+      "bile",
+      "electron",
+      "heme",
+      "nitrogen",
+      "porphyrins"
+    ],
+    "answer": "bile",
+    "rationale": "Conjugated bilirubin is secreted into the bile by an active transport mechanism.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Secretion of Bilirubin Into the Bile",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Plasma membrane is found within which structure?",
+    "options": [
+      "bile canaliculi",
+      "bone marrow",
+      "colon",
+      "ileum",
+      "liver"
+    ],
+    "answer": "bile canaliculi",
+    "rationale": "The protein involved in this transport is a multispecific organic anion transporter (MOAT), located in the plasma membrane of the bile canaliculi.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Secretion of Bilirubin Into the Bile",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which condition is a recognized cause of obstructive jaundice?",
+    "options": [
+      "bilirubin",
+      "conjugated",
+      "lead",
+      "porphyrins",
+      "uroporphyrins"
+    ],
+    "answer": "bilirubin",
+    "rationale": "When bilirubin conjugates exist abnormally in human plasma, such as in obstructive jaundice, they are predominantly monoglucuronides.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Secretion of Bilirubin Into the Bile",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "In which structure are urobilinogens primarily found?",
+    "options": [
+      "bile canaliculi",
+      "bone marrow",
+      "colon",
+      "ileum",
+      "liver"
+    ],
+    "answer": "colon",
+    "rationale": "Most of the colorless urobilinogens formed in the colon are oxidized to colored urobilins.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Intestinal Bacteria Reduce Conjugated Bilirubin to Urobilinogen",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Urobilinogens are converted into which substance?",
+    "options": [
+      "bile",
+      "glucuronic acid",
+      "heme",
+      "porphobilinogen",
+      "urobilins"
+    ],
+    "answer": "urobilins",
+    "rationale": "The feces are darkened by the oxidation of residual urobilinogens to urobilins upon standing in air.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > CATABOLISM OF HEME PRODUCES BILIRUBIN > Intestinal Bacteria Reduce Conjugated Bilirubin to Urobilinogen",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which condition is a recognized cause of hyperbilirubinemia?",
+    "options": [
+      "cancer",
+      "Crigler-Najjar syndrome",
+      "hemolysis",
+      "infectious hepatitis",
+      "kernicterus"
+    ],
+    "answer": "Crigler-Najjar syndrome",
+    "rationale": "Crigler-Najjar syndrome types I and II are causes of unconjugated hyperbilirubinemia.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Occurrence of Unconjugated Bilirubin in Blood",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which condition is a recognized cause of encephalopathy?",
+    "options": [
+      "cancer",
+      "hemolytic anemias",
+      "kernicterus",
+      "obstruction of the bile duct",
+      "obstruction of the biliary tree"
+    ],
+    "answer": "kernicterus",
+    "rationale": "Hyperbilirubinemic toxic encephalopathy, or kernicterus, can result in mental retardation if left untreated.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Neonatal “Physiologic Jaundice”",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which condition is a recognized cause of obstruction of the biliary tree?",
+    "options": [
+      "cancer",
+      "Crigler-Najjar syndrome",
+      "Dubin-Johnson syndrome",
+      "gilbert syndrome",
+      "hemolytic anemias"
+    ],
+    "answer": "cancer",
+    "rationale": "Cancer of the head of the pancreas is a common cause of obstruction of the biliary tree.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Occurrence of Unconjugated Bilirubin in Blood",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Phototherapy is converted into which substance?",
+    "options": [
+      "bile",
+      "bilirubin unconjugated",
+      "glucuronic acid",
+      "porphobilinogen",
+      "urobilins"
+    ],
+    "answer": "bilirubin unconjugated",
+    "rationale": "Phototherapy converts a portion of unconjugated bilirubin to derivatives that are excreted in the bile.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Neonatal “Physiologic Jaundice”",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which condition is a recognized cause of congenital jaundice?",
+    "options": [
+      "cancer",
+      "hemolytic anemias",
+      "hyperbilirubinemia",
+      "obstruction of the bile duct",
+      "type I Crigler-Najjar syndrome"
+    ],
+    "answer": "type I Crigler-Najjar syndrome",
+    "rationale": "Type I Crigler-Najjar syndrome causes severe congenital jaundice with bilirubin levels exceeding 20 mg/dL in serum.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Type I Crigler-Najjar Syndrome",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which condition is a recognized cause of brain damage?",
+    "options": [
+      "jaundice",
+      "liver dysfunction",
+      "obstruction of the common bile duct",
+      "plasma bilirubin",
+      "wild-type"
+    ],
+    "answer": "jaundice",
+    "rationale": "The brain damage associated with type I Crigler-Najjar syndrome is a consequence of the severe jaundice.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Type I Crigler-Najjar Syndrome",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which condition is a recognized cause of elevated plasma bilirubin levels?",
+    "options": [
+      "cancer",
+      "hemolytic anemias",
+      "hyperbilirubinemia",
+      "obstruction of the bile duct",
+      "type I Crigler-Najjar syndrome"
+    ],
+    "answer": "type I Crigler-Najjar syndrome",
+    "rationale": "Phototherapy is used to reduce plasma bilirubin levels in type I Crigler-Najjar syndrome.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Type I Crigler-Najjar Syndrome",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which of the following is a recognised cause of liver dysfunction?",
+    "options": [
+      "bilirubin excess",
+      "chloroform",
+      "lead",
+      "porphyrins",
+      "uroporphyrins"
+    ],
+    "answer": "chloroform",
+    "rationale": "Chloroform can cause toxin-induced liver dysfunction.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Toxic Hyperbilirubinemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which of the following is a recognised cause of conjugated hyperbilirubinemia?",
+    "options": [
+      "bile duct",
+      "body tissues",
+      "bone marrow",
+      "intrahepatic biliary ductules",
+      "liver"
+    ],
+    "answer": "bile duct",
+    "rationale": "Conjugated hyperbilirubinemia commonly results from blockage of the hepatic or common bile ducts.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Obstruction in the Biliary Tree Is the Most Common Cause of Conjugated Hyperbilirubinemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which of the following is a recognised cause of micro obstruction of?",
+    "options": [
+      "bile duct",
+      "body tissues",
+      "bone marrow",
+      "intrahepatic biliary ductules",
+      "liver"
+    ],
+    "answer": "intrahepatic biliary ductules",
+    "rationale": "Micro obstruction of intrahepatic biliary ductules can occur in infectious hepatitis.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Obstruction in the Biliary Tree Is the Most Common Cause of Conjugated Hyperbilirubinemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which of the following is a recognised cause of micro obstruction of intrahepatic biliary ductules?",
+    "options": [
+      "cancer",
+      "Dubin-Johnson syndrome",
+      "hemolytic anemias",
+      "hyperbilirubinemia",
+      "infectious hepatitis"
+    ],
+    "answer": "infectious hepatitis",
+    "rationale": "Micro obstruction of intrahepatic biliary ductules can occur in infectious hepatitis.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Obstruction in the Biliary Tree Is the Most Common Cause of Conjugated Hyperbilirubinemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Which of the following is a recognised cause of hemolytic jaundice?",
+    "options": [
+      "bilirubin excess",
+      "lead",
+      "porphyrins",
+      "urobilinogen increased",
+      "uroporphyrins"
+    ],
+    "answer": "urobilinogen increased",
+    "rationale": "The combination of increased urobilinogen and absence of bilirubin is suggestive of hemolytic jaundice. Increased blood destruction from any cause brings about an increase in urine urobilinogen.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Urinary Urobilinogen & Bilirubin Are Clinical Indicators",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "Which of the following is a recognised cause of hepatitis?",
+    "options": [
+      "intestinal microbiota",
+      "jaundice",
+      "obstruction of the common bile duct",
+      "plasma bilirubin",
+      "wild-type"
+    ],
+    "answer": "obstruction of the common bile duct",
+    "rationale": "Hepatitis and obstruction of the common bile duct cause choluric jaundice. The jaundice of hemolytic anemia is referred to as acholuric.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments > HYPERBILIRUBINEMIA CAUSES JAUNDICE > Urinary Urobilinogen & Bilirubin Are Clinical Indicators",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Succinyl-CoA is converted into which substance?",
+    "options": [
+      "ALA",
+      "amino acids",
+      "hemoglobin",
+      "hemoproteins",
+      "myoglobin"
+    ],
+    "answer": "ALA",
+    "rationale": "Synthesis of heme commences with the condensation of succinyl-CoA and glycine to form ALA. This reaction is catalyzed by ALAS1, the regulatory enzyme of heme biosynthesis.",
+    "citation": "chapter_31_porphyrins_and_bile_pigments — Porphyrins & Bile Pigments",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

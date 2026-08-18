@@ -1,0 +1,1456 @@
+{
+  "doc_id": "chapter_38_regulation_of_gene_expression",
+  "source": {
+    "source_id": "chapter_38_regulation_of_gene_expression",
+    "title": "Regulation of Gene Expression",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Regulation of gene expression in organisms, focusing on transcription control and the influence of various factors on gene expression patterns.",
+    "page": null,
+    "origin": "chapter_38_regulation_of_gene_expression.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 07:38:41"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Organisms alter the expression of genes in response to genetic developmental cues or programs. Organisms alter the expression of genes in response to environmental challenges. Organisms alter the expression of genes in response to disease. Gene expression alteration involves modulating the amount of gene expression. Gene expression alteration involves modulating the spatial patterns of gene expression. Gene expression alteration involves modulating the temporal patterns of gene expression.\n\nThe mechanisms controlling gene expression often involve changes in gene transcription. Control of transcription results from changes in the mode of interaction of specific regulatory molecules with various regions of DNA in the regulated gene. Regulatory molecules are usually proteins. Interactions of regulatory molecules with DNA can have a positive effect on transcription. Interactions of regulatory molecules with DNA can have a negative effect on transcription. Transcription control can result in tissue-specific gene expression. Gene regulation can be influenced by a range of physiologic agents. Gene regulation can be influenced by a range of biologic agents. Gene regulation can be influenced by a range of environmental agents. Gene regulation can be influenced by a range of pharmacologic agents.",
+      "char_start": 1717,
+      "char_end": 3024,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Gene expression can be modulated by gene amplification. Gene expression can be modulated by gene rearrangement. Gene expression can be modulated by posttranscriptional modifications. Gene expression can be modulated by RNA stabilization. Gene expression can be modulated by translational control. Gene expression can be modulated by protein modification. Gene expression can be modulated by protein compartmentalization. Gene expression can be modulated by protein stabilization. Gene expression can be modulated by protein degradation. Many mechanisms that control gene expression are utilized to respond to developmental cues. Many mechanisms that control gene expression are utilized to respond to growth factors. Many mechanisms that control gene expression are utilized to respond to hormones. Many mechanisms that control gene expression are utilized to respond to environmental agents. Many mechanisms that control gene expression are utilized to respond to therapeutic drugs. Dysregulation of gene expression can lead to human disease. A molecular understanding of gene expression processes is leading to the development of therapeutics. Therapeutics can alter pathophysiologic mechanisms. Therapeutics can inhibit the function of pathogenic organisms. Therapeutics can arrest the growth of pathogenic organisms.",
+      "char_start": 3026,
+      "char_end": 4346,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The genetic information in each normal somatic cell of a metazoan organism is practically identical. Specialized cellular functions in a few cells involve amplified or rearranged genes. In disease states, chromosome integrity can be altered, such as in cancer and other diseases. Sometimes, chromosome integrity is altered at the whole chromosome level, like trisomy 21 causing Down syndrome. The expression of genetic information must be regulated during the ontogeny and differentiation of the organism and its cellular components. The organism must adapt to its environment and conserve energy and nutrients by responding to extrinsic signals only when necessary. As organisms have evolved, more sophisticated regulatory mechanisms have appeared, providing the organism and its cells with the responsiveness necessary for survival in a complex environment. Mammalian cells possess about 1000 times more genetic information than the bacterium Escherichia coli. Much of this additional genetic information is likely involved in the regulation of gene expression during the differentiation of tissues and biologic processes in the multicellular organism. This genetic information also ensures that the organism can respond to complex environmental challenges.",
+      "char_start": 4440,
+      "char_end": 5699,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "REGULATED EXPRESSION OF GENES IS REQUIRED FOR DEVELOPMENT, DIFFERENTIATION, & ADAPTATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulated-expression-of-genes-is-required-for-development"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "There are two types of gene regulation: positive regulation and negative regulation. Positive regulation occurs when the expression of genetic information is quantitatively increased by the presence of a specific regulatory element. Negative regulation occurs when the expression of genetic information is diminished by the presence of a specific regulatory element. The element or molecule mediating negative regulation is called a negative regulator. The element or molecule mediating negative regulation is called a silencer. The element or molecule mediating negative regulation is called a repressor. The element mediating positive regulation is called a positive regulator. The element mediating positive regulation is called an enhancer. The element mediating positive regulation is called an activator. A double negative can act as a positive. An effector that inhibits the function of a negative regulator will appear to bring about positive regulation. Many regulated systems that appear to be induced are in fact derepressed at the molecular level. (See Chapter 9 for additional discussion of these terms.)",
+      "char_start": 5701,
+      "char_end": 6818,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "REGULATED EXPRESSION OF GENES IS REQUIRED FOR DEVELOPMENT, DIFFERENTIATION, & ADAPTATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulated-expression-of-genes-is-required-for-development"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "In the presence of a regulator, negative regulation decreases the rate of gene expression.\nIn the presence of a regulator, positive regulation increases the rate of gene expression.\nIn the absence of a regulator, negative regulation increases the rate of gene expression.\nIn the absence of a regulator, positive regulation decreases the rate of gene expression.",
+      "char_start": 6882,
+      "char_end": 7243,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "REGULATED EXPRESSION OF GENES IS REQUIRED FOR DEVELOPMENT, DIFFERENTIATION, & ADAPTATION"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulated-expression-of-genes-is-required-for-development"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "A type A response is characterized by an increased extent of gene expression that is dependent on the continued presence of the inducing signal. When the inducing signal is removed, the amount of gene expression diminishes to its basal level. The amount of gene expression repeatedly increases in response to the reappearance of the specific signal. A type A response is commonly observed in prokaryotes in response to sudden changes of the intracellular concentration of a nutrient. A type A response is also observed in many higher organisms after exposure to inducers such as hormones, nutrients, or growth factors (see Chapter 42).\n\nA type B response exhibits an increased amount of gene expression that is transient even in the continued presence of the regulatory signal. After the regulatory signal has terminated and the cell has been allowed to recover, a second transient response to a subsequent regulatory signal may be observed. Response-desensitization recovery characterizes the action of many pharmacologic agents. Response-desensitization recovery is also a feature of many naturally occurring processes. A type B response commonly occurs during development of an organism, when only the transient appearance of a specific gene product is required, although the signal persists.",
+      "char_start": 7329,
+      "char_end": 8624,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biologic-systems-exhibit-three-types-of-temporal-responses"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "The type C response pattern exhibits an increased extent of gene expression in response to the regulatory signal. The increased gene expression persists indefinitely even after termination of the signal. The signal acts as a trigger in the type C response pattern. Once expression of the gene is initiated in the cell, it cannot be terminated even in the daughter cells. The type C response pattern is an irreversible and inherited alteration. The type C response pattern typically occurs during the development of differentiated function in a tissue or organ.\n\nFigure 38-1depicts the responses of the extent of expression of a gene to specific regulatory signals as a function of time (Figure 38-1).",
+      "char_start": 8626,
+      "char_end": 9326,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-1"
+      ],
+      "table_refs": [],
+      "section_id": "biologic-systems-exhibit-three-types-of-temporal-responses"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Prokaryotic cells helped establish the principle that information flows from the gene to a messenger RNA to a specific protein molecule. Advanced genetic analyses could be performed in prokaryotes. Simpler model eukaryotic organisms such as baker's yeast (Saccharomyces cerevisiae), the nematode (Caenorhabditis elegans), and the fruit fly (Drosophila melanogaster) aided these studies. The principles established in these studies have led to remarkable progress in the analysis of gene regulation in higher eukaryotic organisms, including humans. Advancements in physical optical, biochemical, informatic, and molecular biological techniques have contributed to this progress. The initial discussion in this chapter will center on prokaryotic systems. The physiology of gene expression will be discussed in this chapter. Nearly all conclusions about this physiology have been derived from genetic studies. Conclusions about the physiology of gene expression have been confirmed by molecular biological and biochemical experiments.",
+      "char_start": 9608,
+      "char_end": 10639,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "Simple Unicellular & Multicellular Organisms Serve as Valuable Models for the Study of Gene Expression in Human Cells"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "simple-unicellular-multicellular-organisms-serve-as"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "In prokaryotes, genes involved in a single metabolic pathway are often present in a linear array called an operon. An operon can be regulated by a single promoter or regulatory region. The cistron is the smallest unit of genetic expression. A single mRNA that encodes more than one separately translated protein is referred to as a polycistronic mRNA. The polycistronic lac operon mRNA is translated into three separate proteins. Operons are common in bacteria but not in eukaryotes. Polycistronic mRNAs are common in bacteria but not in eukaryotes.\n\nAn inducible gene is one whose expression increases in response to an inducer or activator. Inducible genes have relatively low basal rates of transcription. Genes with high basal rates of transcription are often subject to downregulation by repressors.\n\nThe expression of some genes is constitutive, meaning that they are expressed at a reasonably constant rate. Constitutive genes are often referred to as housekeeping genes. As a result of mutation, some inducible gene products become constitutively expressed. A mutation resulting in constitutive expression of what was formerly a regulated gene is called a constitutive mutation.",
+      "char_start": 10701,
+      "char_end": 11887,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "Some Features of Prokaryotic Gene Expression Are Unique"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-features-of-prokaryotic-gene-expression-are-unique"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Jacob and Monod described their operon model in a classic paper published in 1961. The operon model was largely based on observations of the regulation of lactose metabolism by the intestinal bacterium E. coli. The molecular mechanisms responsible for the regulation of the genes involved in lactose metabolism are among the best-understood in any organism.\n\nβ-Galactosidase hydrolyzes the β-galactoside lactose to galactose and glucose. The gene encoding β-galactosidase is called lacZ. The lacZ gene is clustered with the genes encoding lactose permease and thiogalactoside transacetylase. Lactose permease is encoded by lacY. Thiogalactoside transacetylase is encoded by lacA. The genes lacZ, lacY, and lacA are physically linked and constitute the lac operon. The lac operon includes the lac promoter and lac operator, which is a regulatory region. The lac operon also includes the lacI gene, which encodes the LacI repressor. The genetic arrangement of the lac operon allows for coordinate expression of the three enzymes concerned with lactose metabolism.",
+      "char_start": 12026,
+      "char_end": 13087,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "Analysis of Lactose Metabolism in E. coli Led to the Discovery of the Basic Principles of Gene Transcription Activation & Repression"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "analysis-of-lactose-metabolism-in-e-coli-led-to-the"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Each of the linked operon genes is transcribed into one large polycistronic mRNA molecule. Each of the linked operon genes contains multiple independent translation start (AUG) and stop (UAA) codons for each of the three cistrons. Each protein is translated separately and they are not processed from a single large precursor protein. The transcription start site for lac operon transcription is shown in Figure 38-2. The binding site for the LacI protein, the lac operator, overlaps the lac promoter. Immediately upstream of the lac operon promoter is the binding site for the cAMP-binding protein, CAP, which is the positive regulator of lac operon transcription. See Figure 38–3for more details.",
+      "char_start": 13089,
+      "char_end": 13787,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "Analysis of Lactose Metabolism in E. coli Led to the Discovery of the Basic Principles of Gene Transcription Activation & Repression"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-2",
+        "fig-38-3"
+      ],
+      "table_refs": [],
+      "section_id": "analysis-of-lactose-metabolism-in-e-coli-led-to-the"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "A gene includes regulatory sequences as well as the region that encodes the primary transcript. A gene is generally italicized in lower case, and the encoded protein, when abbreviated, is expressed in roman type with the first letter capitalized. The gene lacI encodes the repressor protein LacI. When E. coli is presented with lactose or specific lactose analogs under appropriate nonrepressing conditions, the expression of β-galactosidase, galactoside permease, and thiogalactoside transacetylase increases 100 to 1000 times. This is a type A response, as depicted in Figure 38–1. The kinetics of induction can be quite rapid; lac-specific mRNAs are fully induced within ~5 minutes after addition of lactose to a culture, and β-galactosidase protein is maximal within 10 minutes. Under fully induced conditions, there can be up to 5000 β-galactosidase molecules per cell, an amount about 1000 times greater than the basal, uninduced level. Upon removal of the inducer, the synthesis of these three enzymes declines. When E. coli is exposed to both lactose and glucose, the cells first metabolize glucose before temporarily stopping growth until the lac operon becomes induced to metabolize lactose. Although lactose is present from the beginning of the bacterial growth phase, the cell does not induce the enzymes necessary for catabolism of lactose until glucose has been exhausted. This phenomenon was first thought to be attributable to repression of the lac operon by some catabolite of glucose, termed catabolite repression. Catabolite repression is in fact mediated by a catabolite activator protein (CAP) in conjunction with 3',5' cyclic Adenosine monophosphate (cAMP). The expression of many inducible enzyme systems or operons in E. coli and other prokaryotes is sensitive to catabolite repression. The physiology of induction of the lac operon is well understood at the molecular level. Expression of the normal lacI gene of the lac operon is constitutive, resulting in formation of the subunits of the lac repressor. Four identical subunits with molecular weights of 38,000 assemble into a tetrameric Lac repressor molecule. The LacI repressor protein molecule has a very high affinity for the operator locus, with a dissociation constant of about 10^-13 mol/L. The operator locus is a region of double-stranded DNA that exhibits a twofold rotational symmetry and an inverted palindrome in a region that is 21-bp long. At any one time, only two of the four subunits of the repressor tetramer appear to bind to the operator. Within the 21-base-pair operator region, nearly every base of each base pair is involved in LacI recognition and binding. Binding occurs mostly in the major groove without interrupting the basepaired, double-helical nature of the operator DNA. The operator locus is between the promoter and the transcription initiation site of the lacZ gene. When bound to the operator locus, the LacI repressor molecule prevents transcription of the distal structural genes, lacZ, lacY, and lacA by interfering with the binding of RNA polymerase to the promoter. RNA polymerase and LacI repressor cannot be effectively bound to the lac operon at the same time. The LacI repressor molecule is a negative regulator, and in its presence, expression from the lacZ, lacY, and lacA genes is very, very low. There are normally about 30 repressor tetramer molecules in the cell, a concentration sufficient to effect more than 95% occupancy of the one lac operator element in a bacterium, thus ensuring low basal lac operon gene transcription in the absence of inducing signals. A lactose analog that can induce the lac operon while not itself serving as a substrate for β-galactosidase is an example of a gratuitous inducer. An example is isopropylthiogalactoside (IPTG). The addition of lactose or a gratuitous inducer such as IPTG to bacteria growing on a poorly utilized carbon source results in prompt induction of the lac operon enzymes. Small amounts of the gratuitous inducer or lactose are able to enter the cell even in the absence of permease. The LacI repressor molecules have a high affinity for the inducer. Binding of the inducer to the repressor molecule induces a conformational change in the structure of the repressor that causes a decrease in operator DNA occupancy because its affinity for the operator is now 10^4 times lower, with a dissociation constant of about 10^-9 mol/L. DNA-dependent RNA polymerase can now more efficiently compete with LacI and bind to the promoter, and transcription will begin. An inducer derepresses the lac operon and allows transcription of the genes encoding β-galactosidase, galactoside permease, and thiogalactoside transacetylase. Translation of the polycistronic mRNA can occur even before transcription is completed. Derepression of the lac operon allows the cell to synthesize the enzymes necessary to catabolize lactose as an energy source. IPTG-induced expression of transfected plasmids bearing the lac operator-promoter ligated to appropriate bioengineered constructs is commonly used to express mammalian recombinant proteins in E. coli. In order for RNA polymerase to form a PIC at the promoter site most efficiently, the cAMP-CAP complex must also be present in the cell. The bacterium accumulates cAMP only when it is starved for a source of carbon. In the presence of glucose or glycerol in concentrations sufficient for growth, the bacteria will lack sufficient cAMP to bind to CAP because glucose inhibits adenylyl cyclase, the enzyme that converts ATP to cAMP. In the presence of glucose or glycerol, cAMP-saturated CAP is lacking, so that the DNA-dependent RNA polymerase cannot initiate transcription of the lac operon at the maximal rate. In the presence of the CAP-cAMP complex, which binds to CAP Response Element (CRE) DNA just upstream of the promoter site, transcription occurs at maximal levels. Studies indicate that a region of CAP directly contacts the RNA polymerase α subunit, and these protein-protein interactions facilitate the binding of RNAP to the promoter. The CAP-cAMP regulator acts as a positive regulator because its presence is required for optimal gene expression. The lac operon is therefore controlled by two distinct, ligand-modulated DNA-binding trans-factors; one that acts positively (cAMP-CRP complex) to facilitate productive binding of RNA polymerase to the promoter and one that acts negatively (LacI repressor) that antagonizes RNA polymerase promoter binding. Maximal activity of the lac operon occurs when glucose levels are low and lactose is present. When the lacI gene has been mutated so that its product, LacI, is not capable of binding to operator DNA, the organism will exhibit constitutive expression of the lac operon. An organism with a lacI gene mutation that produces a LacI protein which prevents the binding of lactose to the repressor will remain repressed, even in the presence of the inducer molecule. Bacteria harboring mutations in their lac operator locus such that the operator sequence will not bind the normal repressor will constitutively express the lac operon genes. Mechanisms of positive and negative regulation comparable to those described for the lac system have been observed in eukaryotic cells. The genetic switch of bacteriophage lambda (λ) provides another paradigm for understanding the role of conditional regulatory protein-DNA interactions in transcriptional control in eukaryotic cells. Like some eukaryotic viruses, certain bacterial viruses can either reside in a dormant state within the host chromosomes or can replicate within the bacterium and eventually lead to lysis and killing of the bacterial host. Some E. coli harbor such a “temperate” virus, bacteriophage lambda (λ). When lambda infects an organism of that species, it injects its 48,490-bp, double-stranded, linear DNA genome into the cell. Depending on the nutritional state of the cell, the lambda DNA will either integrate into the host genome and remain dormant until activated, or it will commence replicating until it has made about 100 copies of complete, protein-packaged virus, at which point it causes lysis of its host. Poor growth conditions favor lysogeny while good growth conditions promote the lytic pathway of lambda growth. When integrated into the host genome in its dormant state, lambda will remain in that state until activated by exposure of its bacterial host to DNA-damaging agents. In response to such a noxious stimulus, the dormant bacteriophage becomes 'induced' and begins to transcribe and subsequently translate those genes of its own genome that are necessary for its excision from the host chromosome, its DNA replication, and the synthesis of its protein coat and lysis enzymes. This event acts like a trigger or type C response; once dormant lambda has committed itself to induction, there is no turning back until the cell is lysed and the replicated bacteriophage released. The lytic/lysogenic genetic switching event in lambda is centered around an 80-bp region in its double-stranded DNA genome referred to as the 'right operator' (OR). The right operator is flanked on its left side by the gene for the lambda repressor protein, cI, and on its right side by the gene encoding another regulatory protein, the cro gene. When lambda is in its prophage state, integrated into the host genome, the cI repressor gene is the only lambda gene that is expressed. When the bacteriophage is undergoing lytic growth, the cI repressor gene is not expressed, but the cro gene—as well as many other lambda genes—is expressed. Thus, when the cI repressor gene is on, the cro gene is off, and when the cro gene is on the cI repressor gene is off. These two genes regulate each other's expression and thus, ultimately, the decision between lytic and lysogenic growth of lambda. The 80-bp lambda right operator, OR, can be subdivided into three discrete, evenly spaced, 17-bp cis-active DNA elements that represent the binding sites for either of two bacteriophage lambda regulatory proteins. The nucleotide sequences of these three tandemly arranged sites are similar but not identical. The three related cis-elements, termed operators OR1, OR2, and OR3, can be bound by either cI or cro proteins. However, the relative affinities of cI and cro for each of the sites vary, and this differential binding affinity is central to the appropriate operation of the lambda phage lytic or lysogenic 'molecular switch.' The DNA region between the cro and repressor genes also contains two promoter sequences that direct the binding of RNA polymerase in a specified orientation, where it commences transcribing adjacent genes. One promoter directs RNA polymerase to transcribe in the rightward direction and, thus, to transcribe cro and other distal genes, while the other promoter directs the transcription of the cI repressor gene in the leftward direction. The product of the cI repressor gene, the 236-amino-acid λ cI repressor protein, is a two-domain molecule with an amino terminal DNA-binding domain and a carboxyl-terminal dimerization domain. Association of one repressor protein with another forms a dimer. cI repressor dimers bind to operator DNA much more tightly than do monomers. The product of the cro gene, the 66-amino-acid, 9-kDa cro protein, has a single domain but also binds the operator DNA more tightly as a dimer. The cro protein's single domain mediates both operator binding and dimerization. In a lysogenic bacterium, the lambda repressor dimer binds preferentially to OR1 but in so doing, by a cooperative interaction, enhances the binding of another repressor dimer to OR2. The affinity of repressor for OR3 is the least of the three operator subregions. The binding of repressor to OR1 has two major effects. First, occupancy of OR1 by repressor blocks the binding of RNA polymerase to the rightward promoter and in that way prevents expression of cro. Second, repressor dimer bound to OR1 enhances the binding of RNA polymerase to the leftward promoter that overlaps OR3 and thereby enhances transcription and subsequent expression of the repressor gene. This enhancement of transcription is mediated through direct protein-protein interactions between promoter-bound RNA polymerase and OR2-bound repressor. Thus, the λ cI protein is both a negative regulator, by preventing transcription of cro, and a positive regulator, by enhancing transcription of its own gene, cI. This dual effect of the repressor is responsible for the stable state of the dormant lambda bacteriophage. If intracellular repressor protein concentration becomes very high, the excess repressor will bind to OR3 and by so doing diminish transcription of the repressor gene from the leftward promoter by blocking RNAP binding to the cI promoter until the repressor concentration drops and repressor dissociates from OR3. Similar examples of repressor proteins also having the ability to activate transcription have been observed in eukaryotes. The mechanism of repression, derepression, and activation of the lac operon is shown in Figure 38-3. When no inducer is present, the constitutively synthesized lacI gene products form a repressor tetramer that binds to the operator. Repressor-operator binding prevents the binding of RNA polymerase and consequently prevents transcription of the lacZ, lacY, and lacA genes into a polycistronic mRNA. When inducer is present, but glucose is also present in the culture medium, the tetrameric repressor molecules are conformationally altered by inducer, and cannot efficiently bind to the operator locus. However, RNA polymerase will not efficiently bind the promoter and initiate transcription because positive protein-protein interactions between CRE-bound CAP protein and RNA polymerase fail to occur; thus, the lac operon is not efficiently transcribed. When inducer is present, and glucose is depleted from the medium, adenylyl cyclase is activated and cAMP is produced. This cAMP binds with high affinity to its binding protein, the cyclic AMP activator protein, or CAP. The CAP-cAMP complex binds to its recognition sequence (CRE) at lac operon nucleotide coordinate -50. Direct protein-protein contacts between the CRE-bound CAP and the RNA polymerase increases promoter binding more than 20-fold; hence RNAP will efficiently transcribe the lac operon and the polycistronic lacZ-lacY-lacA mRNA molecule formed can be translated into the corresponding protein molecules β-galactosidase, permease, and transacetylase. This protein production enables cellular catabolism of lactose as the sole carbon source for growth. The alternate lytic and lysogenic lifestyles of bacteriophage lambda are shown in Figure 38-4. Infection of the bacterium E. coli by phage lambda begins when a virus particle attaches itself to specific receptors (maltose transporters) on the bacterial cell surface and injects its DNA into the cell, where the phage genome then circularizes. Infection can take either of two courses depending on which two sets of viral genes is turned on. In the lysogenic pathway, the viral DNA becomes integrated into the bacterial chromosome, where it is replicated passively as part of the bacterial DNA during E. coli cell division. This dormant, bacterial genome-integrated virus is called a prophage, and the cell that harbors it is called a lysogen. In the alternative, lytic mode of infection, the viral DNA excises from the E. coli chromosome and replicates itself in order to direct the synthesis of viral proteins. About 100 new virus particles are formed. The proliferating viruses induce lysis of the cell. A prophage can be 'induced' by a DNA damaging agent such as ultraviolet radiation. The inducing agent throws a switch, so that a different set of viral genes is turned on. Viral DNA loops out and is excised from the E. coli chromosome and replicates; the virus then proceeds along the lytic pathway. The genetic organization of the lambda lifestyle 'molecular switch' is shown in Figure 38-5. Right operator (OR) is shown in increasing detail in this series of drawings. The operator is a region of the viral DNA some 80-bp long. To its left lies the gene encoding lambda repressor (cI), to its right the gene (cro) encoding the regulator protein Cro. When the operator region is enlarged, it is seen to include three subregions termed operators: OR1, OR2, and OR3, each 17-bp long. These three DNA elements are recognition sites to which both λ cI repressor and Cro proteins can bind. The recognition sites overlap two divergent promoters—sequences of bases to which RNA polymerase binds in order to transcribe these genes into mRNA. Site OR1 is enlarged to show its base sequence. The schematic molecular structures of lambda regulatory proteins cI and Cro are shown in Figure 38-6. The lambda repressor protein is a 236-amino-acid polypeptide. The chain folds itself into a dumbbell shape with two substructures: an amino terminal (NH₂) domain and a carboxyl-terminal (COOH) domain. The two domains are linked by a region of the chain that is less structured and susceptible to cleavage by proteases. Single repressor molecules (monomers) tend to reversibly associate to form dimers. A dimer is held together mainly by contact between the carboxyl-terminal domains. cI repressor dimers bind to the recognition sites in the operator region; they display differential affinities for the three operator sites, OR1 > OR2 > OR3. The DNA-binding domains (DBD) of the repressor molecule make contact with DNA. Cro is a single globular protein that contains both a DNA binding domain and a cro-cro dimerization domain, which promotes binding of cro-cro dimers to target operator DNA. It is important that cro exhibits the highest affinity for OR3, opposite the sequence binding preference of the cI protein. The configuration of the lytic/lysogenic switch is shown at four stages of the lambda phage 'life' cycle in Figure 38-7. The lysogenic pathway is selected when a repressor dimer binds to OR1, thereby making it likely that OR2 will be bound immediately by another dimer due to the cooperative nature of cI-OR DNA binding. In the prophage, the repressor dimers bound at OR1 and OR2 prevent RNA polymerase from binding to the rightward cro promoter and so block the synthesis of cro (negative control). Simultaneously, these DNA-bound cI proteins enhance the binding of polymerase to the leftward promoter (positive control), with the result that the repressor gene is transcribed into RNA and more repressor is synthesized, maintaining the lysogenic state. The prophage is induced when ultraviolet radiation activates the protease recA, which cleaves cI repressor monomers. The equilibrium of free monomers, free cI dimers, and bound dimers is thereby shifted by mass action, and cI dimers thus dissociate from the operator sites. RNA polymerase is no longer stimulated to bind to the leftward promoter, so that repressor is no longer synthesized. As induction proceeds, all the operator sites become vacant, thus polymerase can bind to the rightward promoter and cro is synthesized. During early lytic growth, a single cro dimer binds to OR3, the site for which it has the highest affinity, thereby occluding the cI promoter. Consequently, RNA polymerase cannot bind to the leftward promoter, but the rightward promoter remains accessible. Polymerase continues to bind there, transcribing cro and other early lytic genes. Lytic growth ensues.",
+      "char_start": 14495,
+      "char_end": 33961,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "A diagram shows the structure of the lac operon."
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-1",
+        "fig-38-3",
+        "fig-38-4",
+        "fig-38-5",
+        "fig-38-6",
+        "fig-38-7"
+      ],
+      "table_refs": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "A DNA-damaging signal, such as ultraviolet light, can strike a lysogenic host bacterium. Ultraviolet light generates fragments of single-stranded DNA. Ultraviolet light activates a specific co-protease called recA. Activated recA hydrolyzes the linker portion of the repressor protein. The repressor protein has amino-terminal and carboxyl-terminal domains. Hydrolysis causes repressor dimers to dissociate. Removal of repressor from these sites allows RNA polymerase access to the rightward promoter. RNA polymerase commences transcribing the cro gene. The effect of the repressor on leftward transcription is lost.\n\nThe newly synthesized cro protein binds to the operator region as a dimer. The molecular switch is thrown in the lytic direction. The cro gene is expressed, and the repressor gene is fully turned off. Expression of the cro gene is irreversible. Expression of other lambda genes begins as part of the lytic cycle. High concentrations of cro repressor reduce the expression of its own gene. Reduced expression of the cro gene is necessary to drive transcription of the genes needed for the final stages of the lytic cycle.",
+      "char_start": 41557,
+      "char_end": 42695,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "An illustration shows the prophage induction."
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "an-illustration-shows-the-prophage-induction"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "The three-dimensional structures of cro and the λ cl repressor protein have been determined by x-ray crystallography. Both proteins bind DNA using helix-turn-helix DBD motifs. The λ molecular switch provides a good understanding of the molecular events involved in gene transcription activation and repression. The λ repressor led to the concept that transcription regulatory proteins have several functional domains. Lambda repressor binds to DNA with high affinity. Repressor monomers form dimers that cooperatively interact with each other. These proteins can interact with RNA polymerase to enhance or block promoter binding or RNAP open complex formation. The protein-DNA interface and the three protein-protein interfaces involve separate and distinct domains of the molecules. This characteristic is typical of most molecules that regulate transcription.",
+      "char_start": 42697,
+      "char_end": 43558,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "BIOLOGIC SYSTEMS EXHIBIT THREE TYPES OF TEMPORAL RESPONSES TO A REGULATORYSIGNAL",
+        "An illustration shows the prophage induction."
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "an-illustration-shows-the-prophage-induction"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Most of the DNA in prokaryotic cells is organized into genes. Prokaryotic DNA is not compacted with nucleosomal histones. Bacterial genomes have the potential to be transcribed if appropriate positive and negative trans-factors are present in an active form. In human cells, relatively little of the total DNA is organized into mRNA-encoding genes and their associated regulatory regions. The function of the extra DNA in human cells is being actively investigated. The ENCODE Projects are investigating the function of the extra DNA. The DNA in eukaryotic cells is extensively folded and packed into the protein-DNA complex called chromatin. Histones are an important part of the chromatin complex. Histones form the structures known as nucleosomes. Histones factor significantly into gene regulatory mechanisms at both promoter-local and promoter-distal levels.",
+      "char_start": 43642,
+      "char_end": 44505,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "additional-features-are-involved-in-regulation-of"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Chromatin structure provides an additional level of control of gene transcription. Large regions of chromatin are transcriptionally inactive while others are either active or potentially active. Each cell contains the same complement of genes, and the development of specialized organs, tissues, and cells depends on the differential expression of genes. Differential expression is achieved by having different regions of chromatin available for transcription in cells from various tissues. The DNA containing the β-globin gene cluster is in “active” chromatin in the reticulocyte but in 'inactive' chromatin in muscle cells. The presence of nucleosomes and complexes of histones and DNA provides a barrier against the ready association of most transcription factors with specific DNA regions. The dynamics of the formation, disruption, and physical state of nucleosome structure are an important part of eukaryotic gene regulation. Histone covalent modification, known as the histone code, is a key determinant of gene activity. Histones are subjected to a wide range of specific posttranslational modifications. These modifications are dynamic and reversible. Histone acetylation and deacetylation are the best understood. Histone acetylation occurs on lysine residues in the amino terminal tails of histone molecules and has been correlated with either active transcription or transcriptional potential. Histone acetylation reduces the positive charge of these tails and likely decreases the binding affinity of histones for the negatively charged DNA. Covalent modification of histones creates new binding sites for additional proteins such as ATP-dependent chromatin remodeling complexes. These complexes increase accessibility of adjacent DNA sequences by removing or altering nucleosomal histones. Coregulators, including chromatin modifiers and chromatin remodelers, can 'open up' gene promoters and regulatory regions, facilitating binding of transcriptional activator proteins, RNA polymerase II, and the GTFs. Histone deacetylation, catalyzed by transcriptional corepressors, has the opposite effect. Different proteins with specific acetylase and deacetylase activities are associated with various components of the transcription apparatus. Proteins that catalyze histone PTMs are sometimes referred to as 'code writers', while proteins that recognize and bind these PTMs are termed 'code readers', and enzymes that remove PTMs are called 'code erasers'. Histone PTMs represent a dynamic, potentially information-rich source of regulatory information. The exact rules and mechanisms defining the specificity of these processes are under investigation. Methylation of deoxycytidine residues, 5meC, in the sequence 5'-meCpG-3' in DNA has important effects on chromatin, often leading to a decrease in gene transcription. In mouse liver, only the unmethylated ribosomal RNA encoding genes can be expressed. Many animal viruses are not transcribed when their DNA is methylated. Acute demethylation of 5meC residues in specific regions of steroid hormone inducible genes has been associated with an increased rate of transcription. However, it is not possible to generalize that methylated DNA is transcriptionally inactive, that all inactive chromatin is methylated, or that active DNA is not methylated. The binding of specific transcription factors to cognate DNA elements may result in disruption of nucleosomal structure. Most eukaryotic genes have multiple protein-binding DNA elements. The serial binding of transcription factors to these elements may either directly disrupt the structure of the nucleosome, prevent its reformation, or recruit multiprotein coregulator complexes that can covalently modify and/or remodel nucleosomes. These reactions result in chromatin-level structural changes that increase or decrease DNA accessibility to other factors and the transcription machinery. Eukaryotic DNA that is in an 'active' region of chromatin can be transcribed. In mammalian cells, a promoter dictates where the RNA polymerase will initiate transcription. Additional complexity is added by elements or factors that enhance or repress transcription, define tissue-specific expression, and modulate the actions of many effector molecules. Gene activation and repression might occur when particular genes move into or out of different subnuclear compartments or locations, affecting biomolecular condensate formation that can stimulate or inhibit transcription. The source of this information is Chan JC, Maze I: Nothing is yet set in (hi)stone: novel post-translational modifications regulating chromatin function. Trends Biochem Sci 2020:45(10):829-844. A variety of commercial enterprises are working to develop drugs that specifically alter the activity of the proteins that orchestrate the presence and composition of the histone code. The relevant PTMs continue to grow at a rapid pace (compare Table 38-2with Table 35-1).",
+      "char_start": 44599,
+      "char_end": 49544,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "The Chromatin Template Contributes Importantly to Eukaryotic Gene Transcription Control"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-38-2"
+      ],
+      "section_id": "the-chromatin-template-contributes-importantly-to"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Glutarylation is an acylation reaction.\nGlutarylation uses glutarate as a donor precursor.\nGlutarylation is catalyzed by Kat2a and intramolecular catalysis as writers.\nGlutarylation is erased by Sirt7.\nGlutarylation leads to nucleosome destabilization and permissive transcription.\nGlutarylation is physiologically relevant in glutaric acidemia.\nLactylation is an acylation reaction.\nLactylation uses lactate as a donor precursor.\nLactylation is catalyzed by p300 as a writer.\nLactylation leads to permissive transcription.\nLactylation is physiologically relevant in macrophage response and hypoxia.\nBenzoylation is an acylation reaction.\nBenzoylation uses benzoate as a donor precursor.\nBenzoylation is erased by Sirt2.\nBenzoylation leads to permissive transcription.\nBenzoylation is physiologically relevant in sodium benzoate treatment.\nS-palmitoylation is an S-acylation reaction.\nS-palmitoylation uses palmitic acid as a donor precursor.\nS-palmitoylation is physiologically relevant in cell signaling.\nO-palmitoylation is an O-acylation reaction.\nO-palmitoylation uses palmitic acid as a donor precursor.\nO-palmitoylation is catalyzed by Lpcat1 as a writer.\nO-palmitoylation leads to reduced transcription.\nO-palmitoylation is physiologically relevant in cell signaling.\nSerotonylation is a transamidation reaction.\nSerotonylation uses serotonin as a donor precursor.\nSerotonylation is catalyzed by Tgm2 as a writer.\nSerotonylation leads to permissive transcription.\nSerotonylation is physiologically relevant in neuronal differentiation.\nDopaminylation is a transmidation reaction.\nDopaminylation uses dopamine as a donor precursor.\nDopaminylation is catalyzed by Tgm2 as a writer.\nDopaminylation leads to altered transcription.\nDopaminylation is physiologically relevant in drug-seeking behaviors.\n5-Hydroxylysine is a hydroxylation reaction.\n5-Hydroxylysine uses 2-oxoglutarate as a donor precursor.\n5-Hydroxylysine is catalyzed by Jmjd6 as a writer.\n5-Hydroxylysine is physiologically relevant in testes and development.\nGlycation is a Maillard reaction.\nGlycation uses methylglyoxal and monosaccharides as donor precursors.\nGlycation is catalyzed nonenzymatically.\nGlycation is erased by DJ-1.\nGlycation leads to altered nucleosome stability.\nGlycation is physiologically relevant in breast cancer and hyperglycemia.\n4-Oxononanoylation is a ketoamide adduction reaction.\n4-Oxononanoylation uses 4-oxo-2-nonenal as a donor precursor.\n4-Oxononanoylation is catalyzed nonenzymatically.\n4-Oxononanoylation is erased by Sirt2.\n4-Oxononanoylation leads to nucleosome destabilization.\n4-Oxononanoylation is physiologically relevant in lipid peroxidation.\nAcrolein adduct is a Michael addition reaction.\nAcrolein adduct uses acrolein as a donor precursor.\nAcrolein adduct is catalyzed nonenzymatically.\nAcrolein adduct leads to nucleosome destabilization.\nAcrolein adduct is physiologically relevant in cigarette smoke and lipid peroxidation.\nS-glutathionylation is a disulfide formation reaction.\nS-glutathionylation uses glutathione as a donor precursor.\nS-glutathionylation is catalyzed nonenzymatically.\nS-glutathionylation leads to nucleosome destabilization.\nS-glutathionylation is physiologically relevant in aging.\nHomocysteinylation is a thiolation reaction.\nHomocysteinylation uses homocysteine as a donor precursor.\nHomocysteinylation is catalyzed nonenzymatically.\nHomocysteinylation leads to reduced transcription.\nHomocysteinylation is physiologically relevant in hyperhomocysteinemia.",
+      "char_start": 49583,
+      "char_end": 53084,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "The Chromatin Template Contributes Importantly to Eukaryotic Gene Transcription Control"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-chromatin-template-contributes-importantly-to"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Epigenetics refers to the study of how chemical modifications can alter gene expression patterns without changing the underlying DNA sequence. Epigenetic mechanisms do not alter the DNA sequence itself. Epigenetic mechanisms modify the expression patterns or function of the DNA. Epigenetic mechanisms are crucial in the establishment of transcriptional states. Epigenetic mechanisms are crucial in the maintenance of transcriptional states. Epigenetic mechanisms are crucial in the reversibility of transcriptional states. Transcriptional states can be preserved through multiple rounds of cell division. Transcriptional states indicate robust biochemical mechanisms for maintaining and propagating epigenetic states. The histone code is a part of these mechanisms. The histone code involves post-translational modifications of histones.",
+      "char_start": 53172,
+      "char_end": 54010,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Epigenetic Mechanisms Contribute Importantly to the Control of Gene Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "epigenetic-mechanisms-contribute-importantly-to-the-control"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Epigenetic signals can be classified into cis- and trans-epigenetic signals. Cis-epigenetic signals are specific marks, such as DNA methylation. Cis-epigenetic signals can be stably propagated to daughter cells during cell division. Trans-epigenetic signals involve diffusible molecules like transcription factors. Trans-epigenetic signals can be equally partitioned between mother and daughter cells. Both types of signals can lead to stable and heritable expression states. Stable and heritable expression states represent type C gene expression responses. Stable and heritable expression states can be reversed by removing the signals. Transcription factor extinction can reverse these states. DNA demethylation can reverse these states.\n\nEnzymes exist that can remove protein PTMs. Enzymes exist that can remove 5meC modifications. The removal of protein PTMs and 5meC modifications allows for the reversal of epigenetic signals. Further research is needed to fully understand the molecular details of epigenetic processes. Further research is needed to understand the ubiquity of epigenetic processes. Further research is needed to understand the molecules involved in epigenetic processes. Further research is needed to understand the genes controlled by epigenetic processes. Mutations of molecules involved in epigenetic control can lead to human diseases. Overexpression of molecules involved in epigenetic control can lead to human diseases.",
+      "char_start": 54012,
+      "char_end": 55463,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Epigenetic Mechanisms Contribute Importantly to the Control of Gene Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "epigenetic-mechanisms-contribute-importantly-to-the-control"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Figure 38-8illustrates the pathways of cis- and trans-epigenetic signals. In Figure 38-8A, a trans-epigenetic signal is shown where a diffusible transactivator protein maintains stable expression in daughter cells through positive feedback. In Figure 38-8B, a cis-epigenetic signal, such as DNA methylation, is depicted as being stably propagated to daughter cells during replication.",
+      "char_start": 55465,
+      "char_end": 55849,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Epigenetic Mechanisms Contribute Importantly to the Control of Gene Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-8"
+      ],
+      "table_refs": [],
+      "section_id": "epigenetic-mechanisms-contribute-importantly-to-the-control"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Enhancer elements facilitate initiation at the promoter in eukaryotic genes. Enhancer elements enhance initiation at the promoter in eukaryotic genes. Enhancer elements contain multiple binding sites for transactivator proteins. Enhancers can influence transcription even when separated by tens of thousands of base pairs from a promoter. Enhancers work when oriented in either direction. Enhancers can work upstream (5') from the promoter. Enhancers can work downstream (3') from the promoter. Enhancers can work when embedded within the transcription unit of a gene. Enhancers can stimulate transcription of any promoter in their vicinity. Enhancers may act on more than one promoter. The viral SV40 enhancer can increase the transcription of β-globin by 200-fold in cells containing both the SV40 enhancer and the β-globin gene on the same plasmid (Figure 38-9). The enhancer element does not produce a product that acts on the promoter. The enhancer element is active only when it exists within the same DNA molecule as the promoter (ie, in cis, or physically linked to). Enhancer-binding proteins are responsible for the effect of enhancers. The exact mechanism by which these transcription activators work is subject to intensive investigation. Enhancer-binding trans-factors interact with a plethora of other transcription proteins. Enhancer-binding trans-factors interact with chromatinmodifying coactivators. Enhancer-binding trans-factors interact with mediator. Enhancer-binding trans-factors interact with the individual components of the basal RNA polymerase II transcription machinery. Transfactor-enhancer DNA-binding events result in an increase in the binding and/or activity of the basal transcription machinery on the linked promoter. Enhancer elements and associated binding proteins often convey nuclease hypersensitivity to those regions where they reside. Large tandem clusters of various enhancer elements in tandem arrays have been termed super-enhancers. Cis-linked genes modulated by super-enhancers are highly expressed. Super-enhancers likely contribute importantly to the formation of biomolecular condensates. A summary of the properties of enhancers is presented in Table 38-3.",
+      "char_start": 57379,
+      "char_end": 59588,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Certain DNA Elements Enhance or Repress Transcription of Eukaryotic Genes"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-9"
+      ],
+      "table_refs": [
+        "tbl-38-3"
+      ],
+      "section_id": "certain-dna-elements-enhance-or-repress-transcription-of"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Enhancers can function when located both short and long distances from the target promoter. Enhancers can function when located upstream or downstream from the promoter. Enhancers can function when oriented in either direction. Enhancers can function when embedded within the target promoter. Enhancers can work with homologous or heterologous promoters. Enhancers work by binding one or more proteins. Enhancers can be composed of one to a few binding elements or many multiples of activation elements, known as super enhancers. Enhancers work by recruiting chromatin-modifying coregulatory complexes. Enhancers work by facilitating the binding and/or function of the basal transcription complex at the cis-linked promoter.",
+      "char_start": 59854,
+      "char_end": 60578,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Summary of the Properties of Enhancers"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "summary-of-the-properties-of-enhancers"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "The β-interferon gene enhancer is well understood in mammalian systems. The β-interferon gene enhancer is activated upon viral infection of mammalian cells. The β-interferon gene is induced to help the organism mount an antiviral response. Interferon proteins are secreted by virally infected cells to inhibit viral replication in neighboring cells. The β-interferon gene enhancer is located between nucleotides -110 and -45 relative to the transcription start site (+1). The β-interferon gene enhancer consists of four distinct clustered cis-elements. Each cis-element is bound by unique trans-factors. One cis-element is bound by the transacting factor NF-κB. Another cis-element is bound by a member of the interferon regulatory factor (IRF) family. A third cis-element is bound by the heterodimeric leucine zipper factor ATF-2/c-Jun. The fourth factor is the ubiquitous transcription factor HMG I(Y). HMG I(Y) induces a significant bend in the DNA upon binding to its A + T-rich binding sites. There are four HMG I(Y) binding sites within the enhancer. These sites are believed to facilitate the formation of a unique 3D structure with the other trans-factors. The structure formed by these factors is termed the β-interferon enhanceosome. The enhanceosome induces a large increase in β-interferon gene transcription upon virus infection. The enhanceosome provides surfaces and three-dimensional organization for the efficient recruitment of coactivators, leading to transcription activation.",
+      "char_start": 60580,
+      "char_end": 62076,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Summary of the Properties of Enhancers"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "summary-of-the-properties-of-enhancers"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Silencers are cis-acting DNA elements that decrease the expression of specific genes. Silencers have been identified in a number of eukaryotic genes. Fewer silencers have been intensively studied, making it difficult to generalize about their mechanism of action. Silencers likely involve chromatin level covalent modifications of histones and other proteins by recruited repressors and corepressors. Chromatin level covalent modifications of histones and other proteins by recruited repressors and corepressors play central roles in gene regulation. The enhanceosome formed on the human β-interferon gene enhancer is diagrammatically represented in Figure 38-10. The enhanceosome is composed of multiple cis-elements, including HMG, PRDIV, PRDI-III, PRDII, and NRDI. The enhancer mediates over 100-fold transcriptional induction of the β-interferon gene upon virus infection. The cis-elements represent binding sites for the trans-factors HMG I(Y), cJun-ATF-2, IRF3-IRF7, and NF-κB. The factors bind to these DNA elements in an obligatory, ordered, and highly cooperative fashion. Initial binding of HMG I(Y) proteins induces sharp DNA bends, causing the enhancer region to assume a high level of curvature. High level of curvature enables the DNA-bound factors to make critical protein-protein interactions, contributing to enhanceosome formation and stability. The enhanceosome recruits chromatin-modifying coregulators and the general transcription machinery. All five cis-elements are required for appropriate enhanceosome architecture and efficient trans-activation. Similar enhanceosomes are proposed to form on many other mammalian genes.",
+      "char_start": 62078,
+      "char_end": 63724,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Summary of the Properties of Enhancers"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-10"
+      ],
+      "table_refs": [],
+      "section_id": "summary-of-the-properties-of-enhancers"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Most genes contain enhancer elements in various locations relative to their coding regions. Some enhancer elements enhance gene transcription in a tissue-specific manner. Enhancer elements can be fused to reporter genes to study their effects. Chimeric enhancer-reporter constructs are introduced into single-cell embryos via microinjection. The process of introducing these constructs into embryos creates a transgenic animal, allowing researchers to test whether a given enhancer or silencer modulates expression in a cell- or tissue-specific manner. The transgenic animal approach has proven useful in studying tissue-specific gene expression.",
+      "char_start": 65953,
+      "char_end": 66599,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Tissue-Specific Expression May Result From Either the Action of Enhancers or Repressors, or a Combination of Both Types of cis-Acting Regulatory Elements"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tissue-specific-expression-may-result-from-either-the"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Reporter genes are used to identify regulatory sequences in DNA by ligating suspected regions to reporter genes (Figure 38-11). DNA fragments thought to contain regulatory elements are ligated to a reporter gene and introduced into a host cell. If the DNA contains an enhancer, the expression of the reporter gene increases. Hormone addition can increase reporter gene expression if the DNA contains a hormone response element (HRE) (Figure 38-12).",
+      "char_start": 66707,
+      "char_end": 67155,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Reporter Genes Are Used to Define Enhancers & Other Regulatory Elements That Modulate Gene Expression"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-11",
+        "fig-38-12"
+      ],
+      "table_refs": [],
+      "section_id": "reporter-genes-are-used-to-define-enhancers-other"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "The use of reporter genes in transfected cells has identified numerous enhancers, silencers, and response elements for hormones, heavy metals, and drugs. Gene activity reflects the interaction of cis-acting DNA elements with trans-acting factors. Transcriptional output is determined by the balance of positive and negative signals to the transcription machinery. The challenge is to understand this regulation at the molecular level for therapeutic modulation.\n\nIn experiments, a DNA fragment with regulatory elements is ligated into a plasmid vector containing a reporter gene like firefly luciferase (Figure 38-11). The reporter gene must not be present endogenously in the cells transfected. An increase in firefly luciferase activity indicates functional hormone response elements in the inserted DNA. Shorter DNA pieces, deletions, or point mutations help pinpoint the response element (Figure 38-12).\n\nReporter gene-transfection is used to map distinct hormone response elements (HREs) (Figure 38-12). Reporter genes are transfected into cells individually. By analyzing when hormone responses are lost, specific hormone-response enhancer elements can be located with nucleotide-level precision. A caveat is that the transfected plasmid DNAs likely do not form classical chromatin structures.",
+      "char_start": 69231,
+      "char_end": 70530,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Reporter Genes Are Used to Define Enhancers & Other Regulatory Elements That Modulate Gene Expression"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-11",
+        "fig-38-12"
+      ],
+      "table_refs": [],
+      "section_id": "reporter-genes-are-used-to-define-enhancers-other"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Prokaryotic genes are often regulated in an on-off manner in response to simple environmental cues. Some eukaryotic genes are regulated in the simple on-off manner, but the process in most genes, especially in mammals, is much more complicated. Signals representing a number of complex environmental stimuli may converge on a single gene. The response of the gene to these signals can have several physiologic characteristics. First, the response may extend over a considerable range. The response may extend over a considerable range by having additive and synergistic positive responses counterbalanced by negative or repressing effects. In some cases, either the positive or the negative response can be dominant. Also required is a mechanism whereby an effector, such as a hormone, can activate some genes in a cell while repressing others and leaving still others unaffected. When all of these processes are coupled with tissue-specific element factors, considerable flexibility is afforded. These physiologic characteristics obviously require an arrangement much more complicated than an on-off switch. The collection and organization of DNA elements in a promoter specifies—via associated factors—how a given gene will respond, and how long a particular response is maintained. Some simple examples are illustrated in Figure 38-13.",
+      "char_start": 70618,
+      "char_end": 71956,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Combinations of DNA Elements & Associated Proteins Provide Diversity in Responses"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-13"
+      ],
+      "table_refs": [],
+      "section_id": "combinations-of-dna-elements-associated-proteins-provide"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Gene A is activated by the combination of transcriptional activator proteins 1, 2, and 3 (with coactivators, as shown in Figures 36–9 and 38–10). Gene B is activated, in this case more effectively, by the combination of factors 1, 3, and 4; note that transcription factor 4 does not contact DNA directly in this example. The activators could form a linear bridge that links the basal machinery to the promoter, or alternatively, this could be accomplished by DNA looping, or 3D structure formation (ie, Figure 38–10). Regardless, the purpose is to direct the basal transcription machinery to the promoter. Gene C is inactivated by the combination of transcription factors 1, 5, and 3; in this case, factor 5 is shown to preclude the essential binding of factor 2 to DNA, as occurs in example A. If activator 1 promotes cooperative binding of repressor protein 5, and if activator 1 binding requires a ligand (solid dot), it can be seen how the ligand could activate one gene in a cell (gene A) and repress another (gene C) in the same cell. (Figure 38-13)",
+      "char_start": 73161,
+      "char_end": 74216,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Combinations of DNA Elements & Associated Proteins Provide Diversity in Responses"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-10",
+        "fig-38-13"
+      ],
+      "table_refs": [],
+      "section_id": "combinations-of-dna-elements-associated-proteins-provide"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Eukaryotic cells contain a large number of genes. Eukaryotic cells contain complex arrays of transcription regulatory factors. Eukaryotic cells present an organizational challenge.\n\nSome genes are available for transcription in a given cell. Other genes are not available for transcription in a given cell.\n\nEnhancers can regulate several genes from tens of kilobase distances. Enhancers are not position- or orientation-dependent.\n\nEnhancers are prevented from triggering transcription of all cis-linked genes in the vicinity. Chromatin is arranged in functional units that prevent enhancers from triggering transcription of all cis-linked genes in the vicinity.\n\nFunctional units restrict patterns of gene expression by forming structures with the nuclear matrix. Functional units restrict patterns of gene expression by forming structures with other physical entities within the nucleus.\n\nThe 4D Nucleome Project is an international consortium of scientists. The 4D Nucleome Project studies nuclear function.\n\nThe 4D Nucleome Project aims to analyze nuclear genome structure and dynamics. The 4D Nucleome Project aims to gain insights into transcriptional activity.\n\nInsulators are DNA elements that prevent an enhancer from acting on a promoter on the other side of an insulator. Insulators define transcription domains by preventing enhancers from acting across them.\n\nInsulators serve as transcriptional boundary elements.",
+      "char_start": 74304,
+      "char_end": 75732,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Transcription Domains Can Be Defined by Variable 3-D Localization Within the Cell"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transcription-domains-can-be-defined-by-variable-3-d"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "In the globin gene cluster, enhancer and promoter sequences are brought into physical contact via specific DNA looping events. DNA looping events in the globin gene cluster often involve boundary elements. In many other genes, enhancer and promoter sequences are brought into physical contact via specific DNA looping events. DNA looping events in many other genes often involve boundary elements.\n\nThe rules controlling chromosome looping are currently under intense study.",
+      "char_start": 75734,
+      "char_end": 76208,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+        "Transcription Domains Can Be Defined by Variable 3-D Localization Within the Cell"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transcription-domains-can-be-defined-by-variable-3-d"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "The specificity in the control of transcription requires regulatory proteins to bind with high affinity and specificity to the correct region of DNA. Three unique motifs—the helix-turn-helix (HTH), the zinc finger (ZF), and the leucine zipper (LZ)—account for many specific protein-DNA interactions. Three unique motifs—the helix-turn-helix (HTH), the zinc finger (ZF), and the leucine zipper (LZ)—occur in organisms from essentially all kingdoms of life.",
+      "char_start": 76315,
+      "char_end": 76770,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-structural-motifs-compose-the-dna-binding-domains"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The helix-turn-helix binding motif is found in Escherichia coli, Phage, and Mammals.\nThe helix-turn-helix binding motif includes regulatory proteins such as lac repressor, CAP, λcl, cro, and 434 repressors, as well as Homeobox proteins Pit-1, Oct1, and Oct2.\nThe zinc finger binding motif is found in E. coli, Yeast, Drosophila, Xenopus, and Mammals.\nThe zinc finger binding motif includes regulatory proteins such as Gene 32 protein, Gal4, Serendipity, hunchback, TFIIIA, the Steroid receptor family, and Sp1.\nThe leucine zipper binding motif is found in Yeast and Mammals.\nThe leucine zipper binding motif includes regulatory proteins such as GCN4, C/EBP, fos, Jun, Fra-1, CRE binding protein (CREB), c-myc, n-myc, and l-myc.",
+      "char_start": 76847,
+      "char_end": 77574,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-structural-motifs-compose-the-dna-binding-domains"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Binding must be of high affinity to the specific site. Binding must be of low affinity to all other DNA. Small regions of the protein make direct contact with DNA. The rest of the protein provides the trans-activation domains. The rest of the protein may be involved in the dimerization of monomers of the binding protein. The protein may provide a contact surface for the formation of heterodimers. The protein may provide one or more ligand-binding sites. The protein may provide surfaces for interaction with coactivators, corepressors, or the transcription machinery.\n\nThe protein-DNA interactions made by these proteins are maintained by hydrogen bonds. The protein-DNA interactions made by these proteins are maintained by ionic interactions. The protein-DNA interactions made by these proteins are maintained by van der Waals forces. The motifs found in these proteins are class-specific. The motifs found in these proteins are class-specific. Their presence in a protein of unknown function suggests that the protein may bind to DNA.",
+      "char_start": 77576,
+      "char_end": 78617,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-structural-motifs-compose-the-dna-binding-domains"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Proteins with the helix-turn-helix motif form dimers. Proteins with the leucine zipper motif form dimers. The DNA-binding sites for proteins with the helix-turn-helix motif are symmetric palindromes. The DNA-binding sites for proteins with the leucine zipper motif are symmetric palindromes. In proteins with the zinc finger motif, the binding site is repeated two to nine times. The binding site repetition and symmetric palindromes allow for cooperative interactions between binding sites. The binding site repetition and symmetric palindromes enhance the degree and affinity of binding.",
+      "char_start": 78619,
+      "char_end": 79208,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-structural-motifs-compose-the-dna-binding-domains"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "The helix-turn-helix motif was the first described. The lambda cro transcription regulator consists of three antiparallel β sheets and three α helices in each monomer. The rest of the molecule stabilizes these structures. The average diameter of an α helix is 1.2 nm, matching the width of the major groove in the B form of DNA.\n\nThe DNA recognition domain of each cro monomer interacts with 5 base pairs. The dimer-binding sites span 3.4 nm, allowing the protein to fit into successive half turns of the major groove on the same DNA surface (Figure 38-14).",
+      "char_start": 79241,
+      "char_end": 79798,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS",
+        "The Helix-Turn-Helix Motif"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-14"
+      ],
+      "table_refs": [],
+      "section_id": "the-helix-turn-helix-motif"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "X-ray analyses show that the λ cl repressor, CAP (the cAMP receptor protein of E. coli), tryptophan repressor, and phage 434 repressor all have the dimeric helix-turn-helix structure. This structure is also present in many eukaryotic DNA-binding proteins (see Table 38–4).",
+      "char_start": 79962,
+      "char_end": 80234,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS",
+        "The Helix-Turn-Helix Motif"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-38-4"
+      ],
+      "section_id": "the-helix-turn-helix-motif"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "The zinc finger was the second DNA-binding motif whose atomic structure was elucidated. The eukaryotic protein TElIIA, a positive regulator of 5S RNA gene transcription, required zinc for activity. Structural and biophysical analyses revealed that each TEIIIA molecule contains nine zinc ions in a repeating coordination complex formed by closely spaced cysteine-cysteine residues followed 12 to 13 amino acids later by a histidine-histidine pair (Figure 38-15). In some zinc finger proteins, notably the steroid-thyroid nuclear hormone receptor family, the His-His doublet is replaced by a second Cys-Cys pair. The zinc finger motifs of the protein lie on one face of the DNA helix, with successive fingers positioned in one turn in the major groove. Each TElllA zinc finger contacts about 5 bp of DNA.",
+      "char_start": 80262,
+      "char_end": 81065,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS",
+        "The Zinc Finger Motif"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-15"
+      ],
+      "table_refs": [],
+      "section_id": "the-zinc-finger-motif"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "A 30-amino-acid sequence in the carboxyl-terminal region of the mammalian enhancer-binding protein C/EBP revealed a novel structure known as the leucine zipper motif. The leucine zipper motif forms an α helix with a periodic repeat of leucine residues at every seventh position. This repeat occurs for eight helical turns and includes four leucine repeats. Similar structures have been identified in other proteins involved in the regulation of transcription in all tested eukaryotes. The leucine zipper structure enables two identical or nonidentical monomers, such as Jun-Jun or Fos-Jun, to form a tight dimeric complex by 'zipping together' in a coiled coil. This protein-protein interaction enhances the association of the separate DNA-binding domains (DBDs) with their target DNA sites.\n\nA helical wheel analysis of the carboxyl-terminal portion of the DNA-binding protein C/EBP shows the amino acid sequence displayed down the axis of a schematic α helix. The helical wheel consists of seven spokes corresponding to the seven amino acids that make up every two turns of the α helix. Leucine residues occur at every seventh position in this schematic, specifically at amino acid residues 1, 8, 15, and 22. Other proteins with 'leucine zippers' exhibit a similar helical wheel pattern. (Figure 38-16)",
+      "char_start": 81646,
+      "char_end": 82950,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS",
+        "The Leucine Zipper Motif"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-16"
+      ],
+      "table_refs": [],
+      "section_id": "the-leucine-zipper-motif"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "A schematic model of the DNA-binding domain of C/EBP illustrates that two identical C/EBP polypeptide chains are held in dimer formation by the leucine zipper domain of each polypeptide. The leucine zipper domains are denoted by white rectangles with attached orange-shaded ovals. The association of the leucine zipper domains is necessary to hold the DNA-binding domains of each polypeptide, represented by green-shaded rectangles, in the proper conformation and register for DNA binding. (Figure 38-16)",
+      "char_start": 84018,
+      "char_end": 84522,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "SEVERAL STRUCTURAL MOTIFS COMPOSE THE DNA-BINDING DOMAINS OF REGULATORY TRANSCRIPTION FACTOR PROTEINS",
+        "The Leucine Zipper Motif"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-16"
+      ],
+      "table_refs": [],
+      "section_id": "the-leucine-zipper-motif"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "The DNA binding and transcription activation functions in regulatory proteins are typically served by separate domains. Domain swap experiments in the yeast Saccharomyces cerevisiae provided critical tests for this concept. The GAL1 gene in yeast is part of the galactose metabolism pathway. Transcription of GAL1 is regulated by the Gal4 protein. The Gal4 protein binds to a 17bp enhancer element known as the upstream activator sequence (UAS). The upstream activator sequence (UAS) is located upstream of the GAL1 promoter. The Gal4 protein has an N-terminal DNA binding domain (DBD) consisting of amino acids 1-73. Gal4 activates GAL1 transcription through a C-terminal 34 amino acid activation domain (AD).",
+      "char_start": 84610,
+      "char_end": 85320,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "THE DNA BINDING & TRANSACTIVATION DOMAINS OF MOST REGULATORY PROTEINS ARE SEPARATE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-dna-binding-transactivation-domains-of-most-regulatory"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "To test the contributions of the Gal4 AD and DBD to GAL1 transcription activation, domain swap experiments were conducted. The N-terminal 73-amino-acid DBD of Gal4 was replaced with the DBD of LexA, an E. coli DNA-binding protein. The resulting chimeric molecule (lexA DBD-Gal4 AD) did not bind to the GAL1 UAS. The resulting chimeric molecule (lexA DBD-Gal4 AD) failed to activate GAL1 transcription. When the lexA operator, the DNA sequence normally bound by the LexA DBD, was inserted upstream of the GAL1 promoter to replace the GAL1 enhancer, the hybrid LexA-Gal4 AD fusion protein bound to the substituted lexA operator. When the lexA operator was inserted upstream of the GAL1 promoter, the hybrid LexA-Gal4 AD fusion protein activated GAL1 transcription. This experiment has been replicated with various DBDs and ADs across different cell types and organisms. The replication of this experiment demonstrated that the DBDs and ADs of many transcription factors can function independently (Figure 38-17).",
+      "char_start": 85322,
+      "char_end": 86332,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "THE DNA BINDING & TRANSACTIVATION DOMAINS OF MOST REGULATORY PROTEINS ARE SEPARATE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-17"
+      ],
+      "table_refs": [],
+      "section_id": "the-dna-binding-transactivation-domains-of-most-regulatory"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "The hierarchy involved in assembling gene transcription-activating complexes includes proteins that bind DNA and transactivate. The hierarchy also includes proteins that form protein-protein complexes, bridging DNA-binding proteins to transactivating proteins. Additionally, it includes proteins that form complexes with components of coregulators or the basal transcription apparatus. A given protein may have several modular surfaces or domains that serve different functions (Figure 38-18). The primary purpose of these molecules is to facilitate the assembly and/or activity of the basal transcription apparatus on the cis-linked promoter. Many DNA-binding repressor proteins are organized similarly, with separable DNA-binding domains and silencing domains.",
+      "char_start": 87776,
+      "char_end": 88538,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "THE DNA BINDING & TRANSACTIVATION DOMAINS OF MOST REGULATORY PROTEINS ARE SEPARATE",
+        "Eight diagrams depict the domains related to the G A L 1 gene activation."
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-18"
+      ],
+      "table_refs": [],
+      "section_id": "eight-diagrams-depict-the-domains-related-to-the-g-a-l-1"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Proteins that regulate transcription have several domains. A hypothetical transcription factor has a DNA-binding domain (DBD) distinct from a ligand-binding domain (LBD) and several activation domains (ADs) (1-4) (Figure 38-18). Other proteins may lack the DBD or LBD. All proteins may have variable numbers of domains that contact other proteins, including coregulators and those of the basal transcription complex (see also Chapters 41 and 42).",
+      "char_start": 88977,
+      "char_end": 89423,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "THE DNA BINDING & TRANSACTIVATION DOMAINS OF MOST REGULATORY PROTEINS ARE SEPARATE",
+        "Eight diagrams depict the domains related to the G A L 1 gene activation."
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-18"
+      ],
+      "table_refs": [],
+      "section_id": "eight-diagrams-depict-the-domains-related-to-the-g-a-l-1"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "Eukaryotic cells regulate gene expression through a variety of mechanisms beyond transcription. Eukaryotic gene expression involves more steps than prokaryotic gene expression. Eukaryotic gene expression involves RNA processing steps that do not exist in prokaryotes. Eukaryotic RNA processing steps include capping the 5' ends of primary transcripts. Eukaryotic RNA processing steps include adding a polyadenylate tail to the 3' ends of transcripts. Eukaryotic RNA processing steps include making internal base modifications to mRNA. Eukaryotic RNA processing steps include excising intron regions to generate spliced exons in mature mRNA. Regulation of eukaryotic gene expression occurs at the level of transcription. Regulation of eukaryotic gene expression occurs at the level of nuclear RNA processing. Regulation of eukaryotic gene expression occurs at the level of nuclear transport. Regulation of eukaryotic gene expression occurs at the level of mRNA stability. Regulation of eukaryotic gene expression occurs at the level of translation. Gene amplification influences gene expression in eukaryotic cells. Gene rearrangement influences gene expression in eukaryotic cells. Alternate mRNA splicing is part of the regulatory mechanisms in eukaryotic cells. Transport of mRNA from the nucleus to the cytoplasm is part of the regulatory mechanisms in eukaryotic cells. Regulation of mRNA stability is an additional regulatory aspect in eukaryotic cells. Translational control is an additional regulatory aspect in eukaryotic cells. ncRNA silencing plays a role in gene regulation in eukaryotic cells. ncRNA activation plays a role in gene regulation in eukaryotic cells. Recombinant DNA technology has advanced our understanding of eukaryotic gene expression. High throughput sequencing methods have advanced our understanding of eukaryotic gene expression. The molecular aspects of eukaryotic gene regulation are less well understood than prokaryotic gene regulation. The greater amount of genetic information contributes to the difficulty in understanding eukaryotic gene regulation. The difficulty in manipulating eukaryotic genes contributes to the difficulty in understanding eukaryotic gene regulation.",
+      "char_start": 89508,
+      "char_end": 91721,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "gene-regulation-in-prokaryotes-eukaryotes-differs-in-other"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "Non-protein-coding RNAs (ncRNAs) contribute importantly to the control of gene expression in eukaryotes. Long non-coding RNAs (lncRNAs) have a broad range of functions. LncRNAs can serve as scaffolds for the formation of ribonucleoprotein complexes. LncRNAs are involved in the formation of ribosomes. LncRNAs are involved in the formation of P-bodies. LncRNAs are involved in the formation of telomerase. LncRNAs are involved in X-chromosome inactivation through Xist. The molecular mechanisms of lncRNA biology are still not fully understood. Future research will likely reveal more about how lncRNAs modulate human biology.\n\nSmall miRNAs and siRNAs are better understood in terms of their mechanism of action. MiRNAs and siRNAs are approximately 22 nucleotides in length. MiRNAs and siRNAs regulate the function and expression of specific mRNAs. MiRNAs and siRNAs can inhibit translation or induce mRNA degradation. In some cases, miRNAs can stimulate mRNA function. MiRNA action can lead to significant changes in protein production and gene expression. Small ncRNAs have been implicated in human diseases such as heart disease, cancer, muscle wasting, viral infection, and diabetes.",
+      "char_start": 91759,
+      "char_end": 92946,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "ncRNAs Modulate Gene Expression"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ncrnas-modulate-gene-expression"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "MiRNAs are transactive molecules. SiRNAs are transactive molecules. Once synthesized and processed, miRNAs interact with specific proteins and bind to target mRNAs. Once synthesized and processed, siRNAs interact with specific proteins and bind to target mRNAs. The binding of miRNAs to mRNA targets is guided by basepairing rules. If miRNA-mRNA base pairing has mismatches, translation of the target mRNA is inhibited. If miRNA-mRNA base pairing is perfect, the corresponding mRNA is degraded. Many scientists and biotechnology companies are studying miRNA biogenesis, transport, and function to potentially cure human diseases. The importance of miRNAs is growing. The role of miRNAs in gene regulation is being actively investigated.",
+      "char_start": 92948,
+      "char_end": 93684,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "ncRNAs Modulate Gene Expression"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ncrnas-modulate-gene-expression"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "During early development of metazoans, there is an abrupt increase in the need for specific molecules such as ribosomal RNA and messenger RNA molecules for proteins that make up specific cell or tissue types. One way to increase the rate at which such molecules can be formed is to increase the number of genes available for transcription of these specific molecules. Among the repetitive DNA sequences within the genome are hundreds of copies of ribosomal RNA-encoding genes. Ribosomal RNA-encoding genes preexist repetitively in the DNA of the gametes and thus are transmitted in high copy numbers from generation to generation. In some specific organisms such as the fruit fly (Drosophila), there occurs during oogenesis an amplification of a few preexisting genes such as those for the chorion (eggshell) proteins. Subsequently, these amplified genes provide multiple sites for gene transcription. Amplified genes are presumably generated by a process of repeated initiations during DNA synthesis. See Figures 36-4 and 38-19.",
+      "char_start": 93781,
+      "char_end": 94810,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Eukaryotic Genes Can Be Amplified or Rearranged During Development or in Response to Drugs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eukaryotic-genes-can-be-amplified-or-rearranged-during"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "The dark side of specific gene amplification is the fact that in human cancer cells drug resistance can develop upon extended therapeutic treatment. Drug resistance in human cancer cells can develop due to the amplification of genes that encode proteins that either degrade, or pump drugs from target cells. Increased expression of genes that encode proteins that either degrade, or pump drugs from target cells contributes to drug resistance in human cancer cells.\n\nAs noted in Chapter 36, the coding sequences responsible for the generation of specific protein molecules are frequently not contiguous in the mammalian genome. In the case of antibody encoding genes, this is particularly true. As described in detail in Chapter 51, immunoglobulins are composed of two polypeptides, the so-called heavy (about 50 kDa) and light (about 25 kDa) chains. The mRNAs encoding these two protein subunits are encoded by gene sequences that are subjected to extensive DNA sequence-coding changes. The mRNAs encoding these two protein subunits are integral to generating the requisite recognition diversity central to appropriate immune function.",
+      "char_start": 94895,
+      "char_end": 96031,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Eukaryotic Genes Can Be Amplified or Rearranged During Development or in Response to Drugs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eukaryotic-genes-can-be-amplified-or-rearranged-during"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "IgG heavy- and light-chain mRNAs are encoded by several different segments that are tandemly repeated in the germline. However, a given functional IgG light-chain transcription unit—like all other 'normal' mammalian transcription units—contains only the coding sequences for a single protein. The newly recombined sequences thus form a single transcription unit that is competent for RNA polymerase Il-mediated transcription into a single monocistronic IgG light chain-encoding mRNA. Multiple IgG-gene recombination and mutation events are generated in a single clonal population of B-cells. Although the IgG genes represent one of the best-studied instances of directed DNA rearrangement modulating gene expression, other cases of gene regulatory DNA rearrangement have been described.",
+      "char_start": 96033,
+      "char_end": 96819,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Eukaryotic Genes Can Be Amplified or Rearranged During Development or in Response to Drugs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eukaryotic-genes-can-be-amplified-or-rearranged-during"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "Eukaryotic cells use alternative RNA processing to control gene expression. Alternative RNA processing can involve alternative promoters, intron-exon splice sites, or polyadenylation sites. Different tissues often process the same primary transcript differently.\n\nAlternative transcription start sites lead to different 5' exons in mRNAs for mouse amylase and myosin light chain, rat glucokinase, and Drosophila alcohol dehydrogenase and actin.\n\nAlternative polyadenylation sites in the μ immunoglobulin heavy-chain primary transcript result in different carboxyl-terminal regions of the encoded proteins.\n\nAlternative splicing and processing create seven unique α-tropomyosin mRNAs in seven different tissues. The mechanisms for these processing-splicing decisions are not yet fully understood.",
+      "char_start": 96881,
+      "char_end": 97676,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Alternative RNA Processing Is Another Control Mechanism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "alternative-rna-processing-is-another-control-mechanism"
+    },
+    {
+      "chunk_id": "c052",
+      "text": "Most mRNAs in mammalian cells are very stable, with half-lives measured in hours. Some mRNAs turn over very rapidly, with half-lives of 10-30 minutes. The stability of mRNA can be regulated in certain instances. Changes in mRNA stability can have major effects on biologic processes. There is usually a direct relationship between mRNA amount and the translation of that mRNA into its cognate protein.\n\nMessenger RNAs exist in the cytoplasm as ribonucleoprotein particles (RNPs). Some proteins protect mRNA from digestion by nucleases. Some proteins may promote nuclease attack under certain conditions. mRNAs are stabilized by the interaction of proteins with various structures or sequences. mRNAs are destabilized by the interaction of proteins with various structures or sequences. Hormones may regulate mRNA stability by increasing the amount of mRNA-binding proteins. Hormones may regulate mRNA stability by decreasing the amount of mRNA-binding proteins.\n\nThe ends of mRNA molecules are involved in mRNA stability. The 5'-cap structure in eukaryotic mRNA prevents attack by 5' exonucleases. The poly(A) tail minimizes the action of 3' exonucleases. In mRNA molecules with these structures, a single endonucleolytic cut allows exonucleases to attack and digest the entire molecule. Structures in the 5' untranslated region (5' UTR), the coding region, and the 3' UTR are thought to promote or prevent this initial endonucleolytic action.",
+      "char_start": 97755,
+      "char_end": 99198,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Regulation of Messenger RNA Stability Provides Another Control Mechanism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulation-of-messenger-rna-stability-provides-another"
+    },
+    {
+      "chunk_id": "c053",
+      "text": "A number of mechanisms are used to regulate mRNA stability and hence function. Mechanisms used to regulate mRNA stability are similar to those used to regulate the synthesis of mRNA and mRNA translation. Coordinate regulation of these processes confers on the cell remarkable adaptability. The typical eukaryotic mRNA has a 5' noncoding sequence (NCS), or untranslated exonic region (5' UTR), a coding region, and a 3' exonic untranslated NCS region (3' UTR). Essentially all mRNAs are capped at the 5' end, and most have a 100 to 200 nucleotide polyadenylate sequence at their 3' end. The 5' cap and 3' poly(A) tail protect the mRNA against exonuclease attack and are bound by specific proteins that interact to facilitate translation (Figure 38-20). Stem-loop structures in the 5' and 3' NCS, and the AU-rich region in the 3' NCS represent the binding sites for specific proteins that modulate mRNA stability (Figure 38-20).",
+      "char_start": 99200,
+      "char_end": 100126,
+      "section_path": [
+        "Regulation of Gene Expression",
+        "GENE REGULATION IN PROKARYOTES & EUKARYOTES DIFFERS IN OTHER IMPORTANT RESPECTS",
+        "Regulation of Messenger RNA Stability Provides Another Control Mechanism"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-38-20"
+      ],
+      "table_refs": [],
+      "section_id": "regulation-of-messenger-rna-stability-provides-another"
+    },
+    {
+      "chunk_id": "c054",
+      "text": "The genetic constitution of metazoan somatic cells are nearly all identical.\nPhenotype (tissue or cell specificity) is dictated by differences in gene expression of the cellular complement of genes.\nAlterations in gene expression allow a cell to adapt to environmental changes, developmental cues, and physiologic signals.\nGene expression can be controlled at multiple levels by changes in transcription, mRNA processing, localization, and stability or translation. Gene amplification and rearrangements also influence gene expression.\n•Transcription controls operate at the level of protein-DNA and protein-protein interactions. These interactions display protein domain modularity and high specificity.\nMany different structural classes of DBDs have been identified in transcription factors.\nChromatin and DNA modifications contribute importantly in eukaryotic transcription control by modulating DNA accessibility and specifying recruitment of specific coactivators and corepressors to target genes\nSeveral epigenetic mechanisms for gene control have been described and the molecular mechanisms through which these processes operate are being elucidated at the molecular level.\nncRNAs modulate gene expression. The short miRNAs and siRNAs modulate mRNA translation and stability.",
+      "char_start": 100870,
+      "char_end": 102152,
+      "section_path": [
+        "Regulation of Gene Expression"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-38-1",
+      "image_path": "",
+      "caption": "Diagrammatic representations of the responses of the extent of expression of a gene to specific regulatory signals as a function of time.",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-38-1]",
+      "description": "",
+      "label": "Figure 38-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9347,
+        9484
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biologic-systems-exhibit-three-types-of-temporal-responses"
+    },
+    {
+      "fig_id": "fig-38-2",
+      "image_path": "",
+      "caption": "The positional relationships of the protein coding and regulatory elements of the \\~6kbp lac operon. lacZencodes β-galactosidase, lacy encodes a permease, and lacA encodes a transacetylase. lac/ encodes the lac operon repressor protein. Also shown is the transcription start site for lac operon transcription (TSS). Note that the binding site for the Lacl protein (ie, lac repressor)—the lac operator (Operator)—overlaps the lac promoter. Immediately upstream of the lac operon promoter is the binding site (CRE) for the cAMP-binding protein, CAP, the positive regulator of lac operon transcription. See Figure 38–3for more details.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-38-2]",
+      "description": "",
+      "label": "Figure 38-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13808,
+        14440
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "analysis-of-lactose-metabolism-in-e-coli-led-to-the"
+    },
+    {
+      "fig_id": "fig-x3",
+      "image_path": "images/348ac1b665dadaef777481d439fdef0d8bbce0546f5f4632751cb9c650e19f23.jpg",
+      "caption": "DNA sequence showing complementary base pairing between two strands: 5' - AATTGT GAG C GATAACAATT and 3' - TTAACACTCG C CTAT TGTTAA.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x3]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        33980,
+        34112
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-3",
+      "image_path": "",
+      "caption": "The mechanism of repression, derepression, and activation of the lac operon. When no inducer is present (A), the constitutively synthesized lac/ gene products form a repressor tetramer that binds to the operator. Repressor-operator binding prevents the binding of RNA polymerase and consequently prevents transcription of the lacZ, lacY, and lacA genes into a polycistronic mRNA [see: rsch.org; Protein Data Base (PDB) structures 1L1M and 1EFA]. When inducer is present, but glucose is also present in the culture medium (B), the tetrameric repressor molecules are conformationally altered by inducer, and cannot efficiently bind to the operator locus (affinity of binding reduced >1000-fold). However, RNA polymerase will not efficiently bind the promoter and initiate transcription because positive protein-protein interactions between CRE-bound CAP protein and RNA polymerase fail to occur; thus, the lac operon is not efficiently transcribed. However, when inducer is present, and glucose is depleted from the medium (C), adenylyl cyclase is activated and cAMP is produced. This cAMP binds with high affinity to its binding protein the cyclic AMP activator protein, or CAP. The CAP-cAMP complex binds to its recognition sequence (CRE, the cAMP response element) at lac operon nucleotide coordinate -50. Direct proteinprotein contacts between the CRE-bound CAP and the RNA polymerase increases promoter binding more than 20-fold; hence RNAP will efficiently transcribe the lac operon and the polycistronic lacZ-lacY-lacA mRNA molecule formed can be translated into the corresponding protein molecules β- galactosidase, permease, and transacetylase as shown. This protein production enables cellular catabolism of lactose as the sole carbon source for growth.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-38-3]",
+      "description": "",
+      "label": "Figure 38-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        34133,
+        35894
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-4",
+      "image_path": "",
+      "caption": "Alternate lytic and lysogenic lifestyles of bacteriophage lambda. Infection of the bacterium E. coli by phage lambda begins when a virus particle attaches itself to specific receptors (maltose transporters) on the bacterial cell surface (1) and iniects its DNA (dark green line) into the cell (2), where the phage genome then circularizes (3). Infection can take either of two courses depending on which two sets of viral genes is turned on. In the lysogenic pathway, the viral DNA becomes integrated into the bacterial chromosome (red) (4, 5), where it is replicated passively as part of the bacterial DNA during E. coli cell division. This dormant, bacterial genome-integrated virus is called a prophage, and the cell that harbors is called a lysogen. In the alternative, lytic mode of infection, the viral DNA excises from the E. coli chromosome and replicates itself (6) in order to direct the synthesis of viral proteins; black lines (7). About 100 new virus particles (green hexagons) are formed. The proliferating viruses induce lysis of the cell (8). A prophage can be “induced\" by a DNA damaging agent such as ultraviolet radiation (9). The inducing agent throws a switch (see text and Figure 38–5; the λ \"molecular switch.\"), so that a different set of viral genes is turned on. Viral DNA loops out and is excised from the E. coli chromosome (10) and replicates; the virus then proceeds along the lytic pathway.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-38-4]",
+      "description": "",
+      "label": "Figure 38-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        35915,
+        37336
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-5",
+      "image_path": "",
+      "caption": "Genetic organization of the lambda lifestyle \"molecular switch.\" Right operator (0R) is shown in increasing detail in this series of drawings. The operator is a region of the viral DNA some 80-bp long (A). To its left lies the gene encoding lambda repressor (cl), to its right the gene (cro) encoding the regulator protein Cro. When the operator region is enlarged (B), it is seen to include three subregions termed operators: 0R1,0R2 and OR3 , each 17-bp long. These three DNA elements are recognition sites to which both λ cl repressor and Cro proteins can bind. The recognition sites overlap two divergent promoters—seguences of bases to which RNA polymerase binds in order to transcribe these genes into mRNA (wavy lines) that are translated into protein. Site 0R1 is enlarged (C) to show its base sequence. (Reproduced with permission from Alan D. Iselin, artist.)",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-38-5]",
+      "description": "",
+      "label": "Figure 38-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        37357,
+        38226
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-6",
+      "image_path": "",
+      "caption": "Schematic molecular structures of lambda regulatory proteins cl and Cro. (A)The lambda repressor protein is a 236-amino-acid polypeptide The chain folds itself into a dumbbell shape with two substructures: an amino terminal (NH₂) domain and a carboxyl-terminal (COOH) domain. The two domains are linked by a region of the chain that is less structured and susceptible to cleavage by proteases (indicated by the two arrows). (B) Single repressor molecules (monomers) tend to reversibly associate to form dimers. A dimer is held together mainly by contact between the carboxyl-terminal domains (green hatching). (C) cl repressor dimers bind to (and can dissociate from) the recognition sites in the operator region; they display differential affinities for the three operator sites, 0R1>0R2>0R3 . The DNA-binding domains (DBD) of the repressor molecule that makes contact with DNA (blue hatching). (D) Cro is a single globular protein that contains both a DNA binding domain (blue hatching) and a cro-cro dimerization domain, which promotes binding of cro-cro dimers to target operator DNA. It is important that cro exhibits the highest affinity for array r0R3, array , opposite the sequence binding preference of the cl protein. [See: lambda repressor-operator 3-D crystal structure PDB entry 3BDB]. (Reproduced with permission from Alan D. Iselin, artist.)",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-38-6]",
+      "description": "",
+      "label": "Figure 38-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        38247,
+        39603
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-7",
+      "image_path": "",
+      "caption": "Configuration of the lytic/lysogenic switch is shown at four stages of the lambda phage \"life” cycle. The lysogenic pathway (in which the virus remains dormant as a prophage) is selected when a repressor dimer binds to 0R1 , thereby making it likely that 0R2 will be bound immediately by another dimer due to the cooperative nature of cl-OR DNA binding. In the prophage (top), the repressor dimers bound at 0R1 and 0R2 prevent RNA polymerase from binding to the rightward cro promoter and so block the synthesis of cro (negative control). Simultaneously, these DNA-bound cl proteins enhance the binding of polymerase to the leftward promoter (positive control), with the result that the repressor gene is transcribed into RNA (initiation at c/ gene transcription start site; TSS) and more repressor is synthesized, maintaining the lysogenic state. The prophage is induced (middle) when ultraviolet radiation activates the protease recA, which cleaves cl repressor monomers. Induction (1) The equilibrium of free monomers, free cl dimers, and bound dimers is thereby shifted by mass action, and cl dimers thus dissociate from the operator sites. RNA polymerase is no longer stimulated to bind to the leftward promoter, so that repressor is no longer synthesized. As induction proceeds. Induction (2) all the operator sites become vacant, thus polymerase can bind to the rightward promoter and cro is synthesized (cro TSS shown). During early lytic growth, a single cro dimer binds to 0R3 (light blue shaded circles), the site for which it has the highest affinity thereby occluding the c/ promoter. Consequently, RNA polymerase cannot bind to the leftward promoter, but the rightward promoter remains accessible. Polymerase continues to bind there, transcribing cro and other early lytic genes. Lytic growth ensues (bottom). (Reproduced with permission from Alan D. Iselin, artist.)",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-38-7]",
+      "description": "",
+      "label": "Figure 38-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        39624,
+        41505
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-diagram-shows-the-structure-of-the-lac-operon"
+    },
+    {
+      "fig_id": "fig-38-8",
+      "image_path": "",
+      "caption": "cis- and trans-epigenetic signals. (A) An example of an epigenetic signal that acts in trans. A DNA-binding transactivator protein (yellow circle) is transcribed from its cognate gene (yellow bar) located on a particular chromosome (blue). The expressed protein is freely diffusible between nuclear and cytoplasmic compartments. Note that excess transactivator reenters the nucleus following cell division, binds to its own gene, and activates transcription in both daughter cells. This cycle re-establishes the positive feedback loop that was in effect prior to cell division, and thereby enforces stable expression of this transcriptional activator protein in both cells. (B) A cis-epigenetic signal; a gene (pink) located on a particular chromosome (blue) carries a cis-epigenetic signal (small yellow flag) within the regulatory region upstream of the pink gene transcription unit. In this case, the epigenetic signal is associated with active gene transcription and subsequent gene product production (pink circles). During DNA replication, the newly replicated chromatid serves as a template that both elicits, and templates, the introduction of the same epigenetic signal, or mark, on the newly synthesized, unmarked chromatid. Consequently, both daughter cells contain the pink gene in a similarly cis-epigenetically marked state, which ensures expression in an identical fashion in both cells. See text for more details.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-38-8]",
+      "description": "",
+      "label": "Figure 38-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        55870,
+        57299
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "epigenetic-mechanisms-contribute-importantly-to-the-control"
+    },
+    {
+      "fig_id": "fig-38-9",
+      "image_path": "",
+      "caption": "Schematic of methods for studying enhancers and cis-acting elements using chimeric genes with reporter genes, promoters, and enhancers to demonstrate orientation independence and promoter versatility.",
+      "referenced_from": "c021",
+      "marker": "[FIGURE:fig-38-9]",
+      "description": "",
+      "label": "Figure 38-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        59609,
+        59809
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "certain-dna-elements-enhance-or-repress-transcription-of"
+    },
+    {
+      "fig_id": "fig-38-10",
+      "image_path": "",
+      "caption": "Formation and putative structure of the enhanceosome formed on the human β-interferon gene enhancer. Diagrammatically represented at the top is the distribution of the multiple cis-elements (HMG, PRDIV, PRDI-III, PRDII, NRDI) composing the β-interferon gene enhancer. The intact enhancer mediates transcriptional induction of the β-interferon gene (/FNB1) over 100-fold upon virus infection of human cells. The cis-elements of this modular enhancer represent the binding sites for the trans-factors HMG I(Y), cJun-ATF-2, IRF3-IRF7, and NF-κB, respectively. The factors interact with these DNA elements in an obligatory, ordered, and highly cooperative fashion as indicated by the arrow. Initial binding of four HMG I(Y) proteins induces sharp DNA bends in the enhancer, causing the entire 70- to 80-bp region to assume a high level of curvature. This curvature is integral to the subsequent highly cooperative binding of the other trans-factors since bending enables the DNA-bound factors to make critical direct protein-protein interactions that both contribute to the formation and stability of the enhanceosome and generate a unique 3D surface that serves to recruit chromatinmodifying coregulators that carry enzymatic activities (eg, Swi/Snf: ATPase, chromatin remodeler and P/CAF: histone acetyltransferase) as well as the general transcription machinery (RNA polymerase II and GTFs). Although four of the five cis-elements (PRDIV, PRDI-III, PRDII, NRDI) independently can modestly stimulate (\\~10-fold) transcription of a reporter gene in transfected cells (see Figures 38-9and 38-11), all five cis-elements, in appropriate order, are required to form an enhancer that can appropriately stimulate transcription of /FNB1 (ie, ≥100-fold) in response to viral infection of a human cell. This distinction indicates a strict requirement for appropriate enhanceosome architecture for efficient trans-activation. Similar enhanceosomes, involving distinct cis- and trans-factors and coregulators, are proposed to form on many other mammalian genes.",
+      "referenced_from": "c024",
+      "marker": "[FIGURE:fig-38-10]",
+      "description": "",
+      "label": "Figure 38-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        63746,
+        65793
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "summary-of-the-properties-of-enhancers"
+    },
+    {
+      "fig_id": "fig-38-11",
+      "image_path": "",
+      "caption": "The use of reporter genes to define DNA regulatory elements. A DNA fragment bearing regulatory cis-elements (triangles, square, circles in diagram) from the gene in question—in this example, approximately 2 kb of 5'-flanking DNA and cognate promoter—is ligated into a plasmid vector that contains a suitable reporter gene—in this case, the enzyme firefly luciferase, abbreviated LUC. As noted in Figure 38–9in such experiments, the reporter cannot be present endogenously in the cells transfected. Consequently, any detection of these activities in a cell extract means that the cell was successfully transfected by the plasmid. Not shown here, but typically one cotransfects an additional reporter such as Renilla luciferase to serve as a transfection efficiency control. Assay conditions for the firefly and Renilla luciferases are different, hence the two activities can be independently sequentially assayed using the same cell extract. An increase of firefly luciferase activity over the basal level, for example, after addition of one or more hormones to the transfected cell cultures, means that the region of DNA inserted into the reporter gene plasmid contains functional hormone response elements (HRE). Progressively shorter pieces of DNA, regions with internal deletions, or regions with point mutations can be constructed and inserted upstream of the same reporter gene to pinpoint the response element (Figure 38-12). One caveat of this approach is that the transfected plasmid DNAs likely do not form \"classical”chromatin structures.",
+      "referenced_from": "c026",
+      "marker": "[FIGURE:fig-38-11]",
+      "description": "",
+      "label": "Figure 38-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        67177,
+        68725
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reporter-genes-are-used-to-define-enhancers-other"
+    },
+    {
+      "fig_id": "fig-38-12",
+      "image_path": "",
+      "caption": "Mapping distinct hormone response elements (HREs) (A), (B), and (C) using the reporter gene-transfection approach. A family of reporter genes, constructed as described in Figures 38–9and 38–11, can be transfected individually into recipient cells. By analyzing when certain hormone responses are lost in comparison to the 5' deletion end point, specific hormone-response enhancer elements can be located and defined, ultimately with nucleotide-level precision (see summary, bottom).",
+      "referenced_from": "c026",
+      "marker": "[FIGURE:fig-38-12]",
+      "description": "",
+      "label": "Figure 38-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        68747,
+        69229
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reporter-genes-are-used-to-define-enhancers-other"
+    },
+    {
+      "fig_id": "fig-38-13",
+      "image_path": "",
+      "caption": "Combinations of DNA elements and proteins provide diversity in the response of a gene. Gene A is activated (the width of the arrow, right, indicates the extent) by the combination of transcriptional activator proteins 1, 2, and 3 (with coactivators, as shown in Figures 36–9 and 38–10). Gene B is activated, in this case more effectively, by the combination of factors 1, 3, and 4; note that transcription factor 4 does not contact DNA directly in this example. The activators could form a linear bridge that links the basal machinery to the promoter, or alternatively, this could be accomplished by DNA looping, or 3D structure formation (ie, Figure 38–10). Regardless, the purpose is to direct the basal transcription machinery to the promoter. Gene C is inactivated by the combination of transcription factors 1, 5, and 3; in this case, factor 5 is shown to preclude the essential binding of factor 2 to DNA, as occurs in example A. If activator 1 promotes cooperative binding of repressor protein 5, and if activator 1 binding requires a ligand (solid dot), it can be seen how the ligand could activate one gene in a cell (gene A) and repress another (gene C) in the same cell.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-38-13]",
+      "description": "",
+      "label": "Figure 38-13",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        71978,
+        73159
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "combinations-of-dna-elements-associated-proteins-provide"
+    },
+    {
+      "fig_id": "fig-38-14",
+      "image_path": "",
+      "caption": "Schematic of Cro protein's 3D structure and its DNA binding via the helix-turn-helix motif, showing monomer composition and dimer formation.",
+      "referenced_from": "c036",
+      "marker": "[FIGURE:fig-38-14]",
+      "description": "",
+      "label": "Figure 38-14",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        79820,
+        79960
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-helix-turn-helix-motif"
+    },
+    {
+      "fig_id": "fig-38-15",
+      "image_path": "",
+      "caption": "Zinc fingers are a series of repeated domains (two to nine) in which each is centered on a tetrahedral coordination with zinc. In the case of the DNA-binding transcription factor TFIllA, the coordination is provided by a pair of cysteine residues (C) separated by 12 to 13 amino acids from a pair of histidine (H) residues. In other zinc finger proteins, the second pair also consists of C residues. Zinc fingers bind in the major groove, where adiacent Zn-fingers make contact with 5 bp of DNA along the same face of the helix.",
+      "referenced_from": "c038",
+      "marker": "[FIGURE:fig-38-15]",
+      "description": "",
+      "label": "Figure 38-15",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        81087,
+        81615
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-zinc-finger-motif"
+    },
+    {
+      "fig_id": "fig-38-16",
+      "image_path": "",
+      "caption": "The leucine zipper motif. (A) Shown is a helical wheel analysis of a carboxyl-terminal portion of the DNA-binding protein C/EBP (see Table 36–3). The amino acid sequence is displayed end-to-end down the axis of a schematic α helix (see Figure 5-2). The helical wheel consists of seven spokes that correspond to the seven amino acids that comprise every two turns of the α helix. Note that leucine residues (L) occur at every seventh position (in this schematic C/EBP amino acid residues 1, 8, 15, 22; see arrow). Other proteins with \"leucine zippers” have a similar helical wheel pattern. (B) A schematic model of the DNA-binding domain of C/EBP. Two identical C/EBP polypeptide chains are held in dimer formation by the leucine zipper domain of each polypeptide (denoted by the white rectangles and attached orange-shaded ovals). This association is required to hold the DNA-binding domains of each polypeptide (the green-shaded rectangles) in the proper conformation and register for DNA binding. (Reproduced with permission from S McKnight.)",
+      "referenced_from": "c039",
+      "marker": "[FIGURE:fig-38-16]",
+      "description": "",
+      "label": "Figure 38-16",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        82972,
+        84016
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-leucine-zipper-motif"
+    },
+    {
+      "fig_id": "fig-38-17",
+      "image_path": "",
+      "caption": "Domain-swap experiments demonstrate the independent nature of DNA-binding and transcription activation domains. The yeast GAL1 gene contains an upstream activating sequence/enhancer (UASGAL /Enhancer) that is bound by the multi-domain DNA binding regulatory transcriptional activator protein Gal4. Gal4, like the lambda cl protein, is modular (Figure 38–6) and contains an N-terminal DNA binding domain (DBD) and a C-terminal activation domain (AD). When the intact Gal4 transcription factor binds the GALUASGAL enhancer, activation of GAL1 gene transcription ensues [(A); Active]. Control experiments demonstrate that all three GAL1-gene specific components [ie, cis- and trans-active components: UASGAL DNA enhancer, Gal4 DBD, and Gal4 AD] are required for active transcription of the natural GAL1 gene, as expected [(B), (C), (D), (E), (F)-all Inactive]. A chimeric protein, in which the DBD of Gal4 is replaced with the DBD of the E coli-specific operator DNA binding protein LexA fails to stimulate GAL1 transcription because the LexA DBD cannot bind to the UASGAL /Enhancer [(G); Inactive]. By contrast, the LexA DBD-Gal4 AD fusion protein does activate GAL1 transcription when the LexA operator (the natural target for the LexA DBD) is inserted upstream of the GAL1 promoter region, replacing the normal UASGAL /Enhancer [(H); Active].",
+      "referenced_from": "c042",
+      "marker": "[FIGURE:fig-38-17]",
+      "description": "",
+      "label": "Figure 38-17",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        86354,
+        87696
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-dna-binding-transactivation-domains-of-most-regulatory"
+    },
+    {
+      "fig_id": "fig-38-18",
+      "image_path": "",
+      "caption": "Proteins that regulate transcription have several domains. This hypothetical transcription factor has a DBD that is distinct from a ligand-binding domain (LBD) and several activation domains (ADs) (1-4). Other proteins may lack the DBD or LBD and all may have variable numbers of domains that contact other proteins, including coregulators and those of the basal transcription complex (see also Chapters 41 and 42).",
+      "referenced_from": "c043",
+      "marker": "[FIGURE:fig-38-18]",
+      "description": "",
+      "label": "Figure 38-18",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        88560,
+        88975
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "eight-diagrams-depict-the-domains-related-to-the-g-a-l-1"
+    },
+    {
+      "fig_id": "fig-38-19",
+      "image_path": "",
+      "caption": "Schematic of chorion protein gene amplification: s36 and s38.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-38-19]",
+      "description": "",
+      "label": "Figure 38-19",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        94832,
+        94893
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "eukaryotic-genes-can-be-amplified-or-rearranged-during"
+    },
+    {
+      "fig_id": "fig-38-20",
+      "image_path": "",
+      "caption": "Structure of a typical eukarvotic mRNA showing elements that are involved in regulating mRNA stability, The typical eukaryotic mRNA has a 5'-noncoding sequence (NCS), or untranslated exonic region (5' UTR), a coding region, and a 3'-exonic untranslated NCS region (3' UTR). Essentially all mRNAs are capped at the 5' end, and most have a 100 to 200 nt polyadenylate sequence at their 3' end. The 5' cap and 3' poly(A) tail protect the mRNA against exonuclease attack and are bound by specific proteins that interact to facilitate translation (see Figure 37–7). Stem-loop structures in the 5' and 3' NCS, and the AU-rich region in the 3' NCS represent the binding sites for specific proteins that modulate mRNA stability.",
+      "referenced_from": "c053",
+      "marker": "[FIGURE:fig-38-20]",
+      "description": "",
+      "label": "Figure 38-20",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        100148,
+        100868
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "regulation-of-messenger-rna-stability-provides-another"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-38-1",
+      "label": "Table 38-1",
+      "caption": "Effects of Positive & Negative Regulation on Gene Expression",
+      "referenced_from": "",
+      "content_chunk": "c005",
+      "caption_span": [
+        6820,
+        6880
+      ],
+      "section_id": "regulated-expression-of-genes-is-required-for-development"
+    },
+    {
+      "table_id": "tbl-38-2",
+      "label": "Table 38-2",
+      "caption": "Summary of Histone PTMs (2011-2023)",
+      "referenced_from": "c016",
+      "content_chunk": "c017",
+      "caption_span": [
+        49546,
+        49581
+      ],
+      "section_id": "the-chromatin-template-contributes-importantly-to"
+    },
+    {
+      "table_id": "tbl-38-3",
+      "label": "Table 38-3",
+      "caption": "",
+      "referenced_from": "c021",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "certain-dna-elements-enhance-or-repress-transcription-of"
+    },
+    {
+      "table_id": "tbl-38-4",
+      "label": "Table 38-4",
+      "caption": "Examples of Transcription Factors That Contain Various DNA-Binding Motifs",
+      "referenced_from": "c037",
+      "content_chunk": "c033",
+      "caption_span": [
+        76772,
+        76845
+      ],
+      "section_id": "several-structural-motifs-compose-the-dna-binding-domains"
+    },
+    {
+      "table_id": "tbl-38-5",
+      "label": "Table 38-5",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "gene-regulation-in-prokaryotes-eukaryotes-differs-in-other"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain the many steps involved in the vectorial processes of gene expression: targeted modulation of gene copy number, gene rearrangement, transcription, mRNA processing and transport from the nucleus, translation, protein subcellular compartmentalization, posttranslational modification, and degradation are all subject to regulatory control, both positive and negative. Changes in any, or multiple of these processes, can increase or decrease the amount and/or activity of the cognate gene product.\nAppreciate that DNA-binding transcription factors, proteins that bind to specific DNA sequences that are physically linked to their target transcriptional promoter elements, can either activate or repress gene transcription.\nRecognize that DNA-binding transcription factors are often modular proteins composed of structurally and functionally distinct domains. These transcription factors can directly or indirectly control messenger RNA (mRNA) gene transcription, either through contacts with RNA polymerase and its cofactors, or through interactions with coregulators that modulate nucleosome occupancy, position, structure, composition, and histone covalent modifications.\nUnderstand that nucleosome-directed regulatory events typically increase or decrease the accessibility of the underlying DNA such as enhancer or promoter sequences, although some nucleosome modifications can also create new binding sites for other coregulators.\nDescribe how the processes of gene transcription, RNA processing, and nuclear export of RNA are all coupled.\n● Describe the phenomenon of epigenetic gene regulation and how such processes occur at the molecular level.",
+      "char_start": 33,
+      "char_end": 1690,
+      "section_path": [
+        "Regulation of Gene Expression"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Archuleta SR, Goodrich JA, Kugel JF: Mechanisms and functions of the RNA polymerase Il general transcription machinery during the transcriptior cycle. Biomolecules 2024;14:176. [PubMed: 38397413]\nBrandao HB, Gabriele M, Hansen AS: Tracking and interpreting long-range chromatin interactions with super-resolution live-cell imaging. Curr Opin Cell Biol 2021;70:18-26. [PubMed: 33310227]\nBrowningDF, Busby SJ: Local and global regulation of transcription initiation in bacteria. Nat Rev Microbiol 2016;14:638-650. [PubMed: 27498839]\nChan JC, Maze I: Nothing is yet set in (Hi)stone: novel post-transcription modifications regulating chromatin function. Trends Biochem Sci 2020;45:829- 844. [PubMed: 32498971]\nChen H, Pugh BF: What do transcription factors interact with? J Mol Biol 2021;433:166883. [PubMed: 33621520]\nDekker J, Belmont AS, Guttman M, et al: The 4D nucleome project. Nature 2017;549:219-278. [PubMed: 28905911]\nDou DR, Zhao Y, Belk JA, Zhao Y, Casey KM, et al: Xist ribonucleoproteins promote female sex-biased autoimmunity. Cell 2024;187:733-749. [PubMed: 38306984]\nFerrer J, Dimitrova N: Transcription regulation by long non-coding RNAs: mechanisms and disease relevance. Nat Rev Mol Cell Biol 2024.\nGhanim GE, Sekne Z, Balch S, van Roon AM, Nguyen THD: 2.7Å cryo-EM structure of human telomerase H/ACA ribonucleoprotein. Nat Commun 2024;15:746. [PubMed: 38272871\nHwang DW, Maekiniemi A, Singer RH, Sato H: Real-time single-molecule imaging of transcriptional regulatory networks in living cells. Nat Rev Genet 2024.\nJacob F, Monod J: Genetic regulatory mechanisms in protein synthesis. J Mol Biol 1961;3:318-356. [PubMed: 13718526]\nJaeger MG, Winter GE: Fast-acting chemical tools to delineate causality in transcriptional control. Mol Cell 2021;81:1617-1630. [PubMed: 33689749]\nKilgore HR, Mikhael PG, Overholt KJ, Boija A, et al: Distinct chemical environments in biomolecular condensates. Nat Chem Biol 2024;20:291-301 [PubMed: 37770698]\nKim KL, Rahme GJ, Goel VY, El Farran CA, et al: Dissection of a CTCF topological boundary uncovers principles of enhancer-oncogene regulation. Mol Cell 2024; 84:P1365-1376.\nLando D, Ma X, Cao Y, Jartseva A, et al: Enhancer-promoter interactions are reconfigured through the formation of long-range multiway hubs as mouse ES cells exit pluripotency. Mol Cell 2024;84:1406-1421.e8[PubMed: 38490199]\nMa Q, Yang L, Tolentino K, Wang G, et al: Inducible IncRNA transgenic mice reveal continual role of HOTAIR in promoting breast cancer metastasis. Elife 2022 Dec 29;11:e79126. [PubMed: 36579891]\nMalik S, Roeder RG: Regulation of the RNA polymerase Il pre-initiation complex by its associated coactivators. Nat Rev Genet 2023;24:767-782. [PubMed 37532915]\nMattick JS, Amaral PP, Carninci P, Carpenter S, et al: Long non-coding RNAs: definitions, functions, challenges and recommendations. Nat Rev Mol Cell Biol 2023;24:430-447. [PubMed: 36596869]\nMeeussen JVW, Lenstra TL: Time will tell: comparing timescales to gain insight into transcriptional bursting. Trends Genet 2024;40(2):160-174. [PubMed: 38216391\nMuthukumar S, Li CT, Liu RJ, Bellodi C: Roles and regulation of tRNA-derived small RNAs in animals. Nat Rev Mol Cell Biol 2024;25:359-378. [PubMed: 38182846]\nOksuz O, Henninger JE, Warneford-Thomson R, Zheng MM, et al: Transcription factors interact with RNA to regulate genes. Mol Cell 2023;83:2449- 2463. [PubMed: 37402367]\nPomp W, Meeussen JVW, Lenstra TL: Transcription factor exchange enables prolonged transcriptional bursts. Mol Cell 2024;84:1-13. [PubMed: 38181753]\nPtashne M: A Genetic Switch, 2nd ed. Cell Press and Blackwell Scientific Publications, 1992.\nRoeder RG: 50+ years of eukaryotic transcription: an expanding universe of factors and mechanisms. Nat Struc Mol Biol 2019;26:783-791.\nRossi M, Kuntala PK, Lai WKM, et al: A high-resolution protein architecture of the budding yeast genome. Nature 2021;592:309-315. [PubMed: 33692541]\nScotti MM, Swanson MS: RNA mis-splicing in disease. Nat Rev Genet 2016;17:19-32. [PubMed: 26593421]\nShao Q, Trinh JT, Zeng L: High-resolution studies of lysis-lysogeny decision-making in bacteriophage lambda. J Biol Chem 2019;294:3343-3349. [PubMed: 30242122]\nTian B, Manley JL: Alternative polyadenylation of mRNA precursors. Nat Rev Mol Cell Biol 2017;18:18-30. [PubMed: 27677860]\nWang G, Lee-Yow Y, Chang HY: Approaches to probe and perturb long noncoding RNA functions in diseases. Curr Opin Genet Dev 2024;85:102158. [PubMed: 38412563]\nYang JH, Hansen AS: Enhancer selectivity in space and time: from enhancer-promoter interactions to promoter activation. Nat Rev Mol Cell Biol. 2024.",
+      "char_start": 102154,
+      "char_end": 106755,
+      "section_path": [
+        "Regulation of Gene Expression"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-19",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-8",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-9",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-13",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-14",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-15",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-16",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-17",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-18",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-19",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-38-20",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-38-1",
+      "reason": "table never cited in prose"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-38-3",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-38-5",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-38-5",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_38_regulation_of_gene_expression.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_38_regulation_of_gene_expression/chapter_38_regulation_of_gene_expression.normalized.md"
+}

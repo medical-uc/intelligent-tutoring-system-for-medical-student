@@ -1,0 +1,577 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is stored in adipose tissue?",
+    "options": [
+      "alcohol",
+      "ether",
+      "fats",
+      "glycerol",
+      "steroids"
+    ],
+    "answer": "fats",
+    "rationale": "Fat is stored in adipose tissue. Adipose tissue serves as a thermal insulator in the subcutaneous tissues.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > BIOMEDICAL IMPORTANCE",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is transported by lipids?",
+    "options": [
+      "blood",
+      "chloroform",
+      "fatty acids",
+      "lipid-soluble vitamins",
+      "waxes"
+    ],
+    "answer": "blood",
+    "rationale": "Lipids are transported in the blood combined with proteins in lipoprotein particles. Lipids have essential roles in nutrition and health.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > BIOMEDICAL IMPORTANCE",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is required for the synthesis of prostaglandins?",
+    "options": [
+      "carbon",
+      "ether",
+      "fats",
+      "glycerol",
+      "steroids"
+    ],
+    "answer": "carbon",
+    "rationale": "Prostaglandins are synthesized in vivo by cyclizing the center of the carbon chain of 20-carbon polyunsaturated fatty acids. Arachidonic acid is a 20-carbon polyunsaturated fatty acid.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > FATTY ACIDS ARE ALIPHATIC CARBOXYLIC ACIDS > Unsaturated Fatty Acids Contain One or More Double Bonds",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance are leukotrienes converted into?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "polyunsaturated fatty acids",
+      "sphingosine"
+    ],
+    "answer": "eicosanoids",
+    "rationale": "Leukotrienes are eicosanoid derivatives formed via the lipoxygenase pathway (Figure 23–12).",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > FATTY ACIDS ARE ALIPHATIC CARBOXYLIC ACIDS > Unsaturated Fatty Acids Contain One or More Double Bonds",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance are lipoxins converted into?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "polyunsaturated fatty acids",
+      "sphingosine"
+    ],
+    "answer": "eicosanoids",
+    "rationale": "Lipoxins are eicosanoid derivatives formed via the lipoxygenase pathway (Figure 23–12).",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > FATTY ACIDS ARE ALIPHATIC CARBOXYLIC ACIDS > Unsaturated Fatty Acids Contain One or More Double Bonds",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substrate does lipoxygenase act on?",
+    "options": [
+      "chloroform",
+      "leukotrienes",
+      "lipids",
+      "ROOH",
+      "waxes"
+    ],
+    "answer": "leukotrienes",
+    "rationale": "Leukotrienes are eicosanoid derivatives formed via the lipoxygenase pathway (Figure 23–12).",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > FATTY ACIDS ARE ALIPHATIC CARBOXYLIC ACIDS > Unsaturated Fatty Acids Contain One or More Double Bonds",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance are phosphatidylcholines converted into?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "polyunsaturated fatty acids",
+      "sphingosine"
+    ],
+    "answer": "phospholipids",
+    "rationale": "Glycerophospholipids containing choline, known as phosphatidylcholines or lecithins, are the most abundant phospholipids in cell membranes. Phosphatidylcholines represent a large proportion of the body's store of choline.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > PHOSPHOLIPIDS ARE THE MAIN LIPID CONSTITUENTS OF MEMBRANES > Phosphatidylcholines (Lecithins) & Sphingomyelins Are Abundant in Cell Membranes",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is phosphatidic acid converted into?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phosphatidylglycerol",
+      "phospholipids",
+      "polyunsaturated fatty acids"
+    ],
+    "answer": "phosphatidylglycerol",
+    "rationale": "Phosphatidic acid is a precursor of phosphatidylglycerol.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > PHOSPHOLIPIDS ARE THE MAIN LIPID CONSTITUENTS OF MEMBRANES > Cardiolipin Is a Major Lipid of Mitochondrial Membranes",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which of the following is a recognised cause of mitochondrial dysfunction?",
+    "options": [
+      "cardiolipin",
+      "chloroform",
+      "lipids",
+      "lysophosphatidylcholine",
+      "waxes"
+    ],
+    "answer": "cardiolipin",
+    "rationale": "Alterations in cardiolipin structure cause mitochondrial dysfunction.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > PHOSPHOLIPIDS ARE THE MAIN LIPID CONSTITUENTS OF MEMBRANES > Cardiolipin Is a Major Lipid of Mitochondrial Membranes",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which of the following is a recognised cause of atherosclerosis?",
+    "options": [
+      "cardiolipin",
+      "chloroform",
+      "fatty acids",
+      "lysophosphatidylcholine",
+      "waxes"
+    ],
+    "answer": "lysophosphatidylcholine",
+    "rationale": "Lysophosphatidylcholine has been implicated in the effects of oxidized lipoproteins in promoting atherosclerosis.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > PHOSPHOLIPIDS ARE THE MAIN LIPID CONSTITUENTS OF MEMBRANES > Lysophospholipids Are Intermediates in the Metabolism of Phosphoglycerols",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Galactosylceramide is converted into which substance?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "polyunsaturated fatty acids",
+      "sulfogalactosylceramide"
+    ],
+    "answer": "sulfogalactosylceramide",
+    "rationale": "Galactosylceramide can be converted to sulfogalactosylceramide (sulfatide).",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Glucosylceramide is predominantly found within which structure?",
+    "options": [
+      "cardiac",
+      "extraneural tissues",
+      "human tissues",
+      "nervous tissue",
+      "subcutaneous tissues"
+    ],
+    "answer": "extraneural tissues",
+    "rationale": "Glucosylceramide is the predominant simple glycosphingolipid of extraneural tissues.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Glucosylceramide is converted into which substance?",
+    "options": [
+      "choline",
+      "fats",
+      "ganglioside",
+      "glycerol-3-phosphate",
+      "phosphoric acid"
+    ],
+    "answer": "ganglioside",
+    "rationale": "Gangliosides are complex glycosphingolipids derived from glucosylceramide. Gangliosides contain one or more molecules of sialic acid.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Neuraminic acid is found within which structure?",
+    "options": [
+      "brain",
+      "cardiac",
+      "extraneural tissues",
+      "human tissues",
+      "subcutaneous tissues"
+    ],
+    "answer": "human tissues",
+    "rationale": "Neuraminic acid (NeuAc) is the principal sialic acid found in human tissues. Gangliosides are present in nervous tissues in high concentration.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Ganglioside is predominantly found within which structure?",
+    "options": [
+      "brain",
+      "cardiac",
+      "extraneural tissues",
+      "nervous tissue",
+      "subcutaneous tissues"
+    ],
+    "answer": "nervous tissue",
+    "rationale": "Gangliosides are present in nervous tissues in high concentration. Gangliosides function in cell-cell recognition and communication.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Monosialoganglioside is found within which structure?",
+    "options": [
+      "brain",
+      "cardiac",
+      "extraneural tissues",
+      "human intestine",
+      "subcutaneous tissues"
+    ],
+    "answer": "human intestine",
+    "rationale": "GM1 is of considerable biologic interest as it is known to be the receptor in human intestine for cholera toxin. Other gangliosides can contain anywhere from one to five molecules of sialic acid, giving rise to di-, trisialogangliosides, etc.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > GLYCOLIPIDS (GLYCOSPHINGOLIPIDS) ARE IMPORTANT IN NERVE TISSUES & IN THE CELL MEMBRANE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Bile acids are converted into which substance?",
+    "options": [
+      "cholesterol",
+      "eicosanoids",
+      "phosphatidylglycerol",
+      "phospholipids",
+      "sphingosine"
+    ],
+    "answer": "cholesterol",
+    "rationale": "Cholesterol is the precursor of a large number of important steroids including bile acids, adrenocortical hormones, sex hormones, vitamin D, and cardiac glycosides.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > STEROIDS PLAY MANY PHYSIOLOGICALLY IMPORTANT ROLES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Cholesterol is predominantly found within which structure?",
+    "options": [
+      "brain",
+      "cardiac",
+      "extraneural tissues",
+      "nervous tissue",
+      "subcutaneous tissues"
+    ],
+    "answer": "nervous tissue",
+    "rationale": "Cholesterol is particularly abundant in nervous tissue.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > STEROIDS PLAY MANY PHYSIOLOGICALLY IMPORTANT ROLES > Cholesterol Is a Significant Constituent of Many Tissues",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Cholesterol is converted into which substance?",
+    "options": [
+      "cholesteryl ester",
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "sphingosine"
+    ],
+    "answer": "cholesteryl ester",
+    "rationale": "Cholesterol is often found as cholesteryl ester.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > STEROIDS PLAY MANY PHYSIOLOGICALLY IMPORTANT ROLES > Cholesterol Is a Significant Constituent of Many Tissues",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Five-carbon isoprene is converted into which substance?",
+    "options": [
+      "cholesterol",
+      "eicosanoids",
+      "fatty acids",
+      "phospholipids",
+      "polyunsaturated fatty acids"
+    ],
+    "answer": "cholesterol",
+    "rationale": "Polyprenoids are not steroids but are related to them because they are synthesized from five-carbon isoprene units, like cholesterol (see Figure 26–2).",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > STEROIDS PLAY MANY PHYSIOLOGICALLY IMPORTANT ROLES > Polyprenoids Share the Same Parent Compound as Cholesterol",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognized cause of cancer?",
+    "options": [
+      "cardiolipin",
+      "chloroform",
+      "lipids",
+      "lysophosphatidylcholine",
+      "waxes"
+    ],
+    "answer": "lipids",
+    "rationale": "Lipid peroxidation damage includes cancer, inflammatory diseases, atherosclerosis, and aging. Free radicals are molecules with unpaired valence electrons.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > LIPID PEROXIDATION IS A SOURCE OF FREE RADICALS",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Catalase acts on which substrate?",
+    "options": [
+      "chloroform",
+      "leukotrienes",
+      "lipids",
+      "ROOH",
+      "waxes"
+    ],
+    "answer": "ROOH",
+    "rationale": "Preventive antioxidants include catalase and peroxidases like glutathione peroxidase, which react with ROOH.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > LIPID PEROXIDATION IS A SOURCE OF FREE RADICALS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Peroxidases act on which substrate?",
+    "options": [
+      "chloroform",
+      "leukotrienes",
+      "lipids",
+      "ROOH",
+      "waxes"
+    ],
+    "answer": "ROOH",
+    "rationale": "Preventive antioxidants include catalase and peroxidases like glutathione peroxidase, which react with ROOH.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > LIPID PEROXIDATION IS A SOURCE OF FREE RADICALS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Selenium is an essential component of which substance?",
+    "options": [
+      "glutathione peroxidase",
+      "glycerol kinase",
+      "lipoproteins",
+      "lipoxygenase",
+      "serine"
+    ],
+    "answer": "glutathione peroxidase",
+    "rationale": "Selenium is an essential component of glutathione peroxidase.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > LIPID PEROXIDATION IS A SOURCE OF FREE RADICALS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Malondialdehyde is converted into which substance?",
+    "options": [
+      "eicosanoids",
+      "fatty acids",
+      "phosphatidylglycerol",
+      "phospholipids",
+      "sphingosine"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Malondialdehyde is formed by fatty acids with three or more double bonds.",
+    "citation": "chapter_21_lipids_of_physiologic_significance — Lipids of Physiologic Significance > LIPID PEROXIDATION IS A SOURCE OF FREE RADICALS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

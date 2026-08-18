@@ -2,7 +2,9 @@
 
 FastAPI app that serves quiz content and records student answers. Depends on postgres
 (content, the `mcq_questions` table — see [04-mcq-generation.md](04-mcq-generation.md))
-and Neo4j (state, see [06-student-graph.md](06-student-graph.md)).
+and Neo4j (state, see [06-student-graph.md](06-student-graph.md)). For full request
+sequences as the actual iOS client drives this API (not just endpoint-by-endpoint
+shape), see [10-frontend-integration.md](10-frontend-integration.md).
 
 ## App wiring
 
@@ -155,10 +157,16 @@ not `p_know` itself, which stays entirely client-computed via the two endpoints 
 It does not replace or retire `PUT /quiz/mastery`; a genuinely derived `GET
 /quiz/mastery` (computing `p_know` server-side) remains a separate, unresolved step —
 see [09-knowledge-tracing.md § Relationship to MASTERS](09-knowledge-tracing.md#relationship-to-masters-and-the-client-side-bkt-question).
+Full client-side call sequence (on-device BKT update → per-answer push → session-end
+safety-net push): [10-frontend-integration.md § 4](10-frontend-integration.md#4-quiz-flow--setup--answer-loop--finish).
 
 ## Quiz router — check / log
 
 This is the part of the API with real design history behind it, worth reading in full.
+The diagram below shows the **server-facing minimum shape**; the real iOS client
+interleaves on-device BKT updates and a `PUT /quiz/mastery` push between grading and
+logging — see [10-frontend-integration.md § 4](10-frontend-integration.md#4-quiz-flow--setup--answer-loop--finish)
+for the full client-side sequence.
 
 ```mermaid
 sequenceDiagram

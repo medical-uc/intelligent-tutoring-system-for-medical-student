@@ -1,0 +1,1497 @@
+{
+  "doc_id": "chapter_44_micronutrients_vitamins_and_minerals",
+  "source": {
+    "source_id": "chapter_44_micronutrients_vitamins_and_minerals",
+    "title": "Micronutrients: Vitamins & Minerals",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the biomedical importance of vitamins and minerals, focusing on determining micronutrient requirements and the functions of vitamin A in vision and gene expression.",
+    "page": null,
+    "origin": "chapter_44_micronutrients_vitamins_and_minerals.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 12:53:27"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Vitamins are organic nutrients required in small quantities for various biochemical functions. The body generally cannot synthesize vitamins, so they must be supplied through the diet. Lipid-soluble vitamins are hydrophobic compounds that are absorbed efficiently only when fat absorption is normal. Lipid-soluble vitamins are transported in the blood in lipoproteins or attached to specific binding proteins. Vitamin A is involved in vision and cell differentiation. Vitamin D regulates calcium and phosphate metabolism and also aids in cell differentiation. Vitamin E functions as an antioxidant. Vitamin K is crucial for blood clotting. Deficiency syndromes can arise from conditions affecting the digestion and absorption of lipid-soluble vitamins. A very-low-fat diet can lead to deficiency syndromes. Steatorrhea can lead to deficiency syndromes. Disorders of the biliary system can lead to deficiency syndromes. Night blindness is a deficiency syndrome associated with vitamin A. Xerophthalmia is a deficiency syndrome associated with vitamin A. Rickets is a deficiency syndrome associated with vitamin D in young children. Osteomalacia is a deficiency syndrome associated with vitamin D in adults. Neurologic disorders can result from vitamin E deficiency. Hemolytic anemia of the newborn can result from vitamin E deficiency. Hemorrhagic disease of the newborn can result from vitamin K deficiency. Toxicity can occur from excessive intake of vitamins A and D. Vitamin A and carotenes are precursors of vitamin A. Vitamin A, carotenes, and vitamin E are antioxidants. Antioxidants have possible roles in preventing atherosclerosis and cancer. In excess, vitamins A and E may act as pro-oxidants.",
+      "char_start": 541,
+      "char_end": 2245,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Water-soluble vitamins include vitamins B and C, folic acid, biotin, and pantothenic acid. Water-soluble vitamins mainly function as enzyme cofactors. Folic acid acts as a carrier of one-carbon units. Deficiency of a single vitamin of the B complex is rare. Poor diets are most often associated with multiple deficiency states. Beriberi is a deficiency syndrome associated with thiamin. Cheilosis, glossitis, and seborrhea are deficiency syndromes associated with riboflavin. Pellagra is a deficiency syndrome associated with niacin. Megaloblastic anemia, methylmalonic aciduria, and pernicious anemia are deficiency syndromes associated with vitamin B12. Megaloblastic anemia is a deficiency syndrome associated with folic acid. Scurvy is a deficiency syndrome associated with vitamin C.\n\nInorganic mineral elements must be provided in the diet to function in the body. Insufficient intake of these minerals can lead to deficiency signs. Anemia is a deficiency sign associated with iron. Cretinism and goiter are deficiency signs associated with iodine. Excessive intake of these minerals may be toxic.",
+      "char_start": 2247,
+      "char_end": 3350,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "For any nutrient, there is a range of intakes between that which is clearly inadequate, leading to clinical deficiency disease, and that which is so much in excess of the body's metabolic capacity that there may be signs of toxicity. Between these two extremes is a level of intake that is adequate for normal health and the maintenance of metabolic integrity. Requirements are determined in depletion/repletion studies, in which people are deprived of the nutrient until there is a metabolic change, then repleted with the nutrient until the abnormality is normalized. Individuals do not all have the same requirement for nutrients, even when calculated on the basis of body size or energy expenditure. There is a range of individual requirements of up to 25% around the mean. Therefore, in order to assess the adequacy of diets, it is necessary to set a reference level of intake high enough to ensure that no one either suffers from deficiency or is at risk of toxicity. Reference and recommended intakes of vitamins and minerals published by different national and international authorities differ because of different interpretations of the available data, and the availability of new experimental data in more recent publications.",
+      "char_start": 3447,
+      "char_end": 4683,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "BIOMEDICAL IMPORTANCE",
+        "The Determination of Micronutrient Requirements Depends on the Criteria of Adequacy Chosen"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-determination-of-micronutrient-requirements-depends-on"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "A vitamin is an organic compound required in the diet in small amounts for maintaining normal physiologic and metabolic integrity. Deficiency of a vitamin causes a specific disease, which is cured or prevented only by restoring the vitamin to the diet. Vitamin D is formed in the skin from 7-dehydrocholesterol on exposure to sunlight. Niacin can be formed from the essential amino acid tryptophan. Vitamin D and niacin do not strictly comply with the definition of a vitamin.\n\nVitamin A, known as retinol or β-carotene, functions in the formation of visual pigments in the retina and regulates gene expression and cell differentiation. β-carotene acts as an antioxidant. Deficiency of Vitamin A causes night blindness, xerophthalmia, and keratinization of the skin.\n\nDeficiency of Vitamin D leads to rickets, which is poor mineralization of bone in children, and osteomalacia, which is bone demineralization in adults.\n\nVitamin E, which includes tocopherols and tocotrienols, acts as an antioxidant, especially in cell membranes, and plays roles in cell signaling. Deficiency of Vitamin E is extremely rare but can cause serious neurologic dysfunction.\n\nVitamin K, known as phylloquinone or menaquinones, functions as a coenzyme in the formation of γ-carboxyglutamate in enzymes of blood clotting and bone matrix. Deficiency of Vitamin K results in impaired blood clotting and hemorrhagic disease.",
+      "char_start": 4770,
+      "char_end": 6168,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamins-are-a-disparate-group-of-compounds-with-a-variety"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Niacin, known as nicotinic acid or nicotinamide, serves as a coenzyme in oxidation and reduction reactions, is a functional part of NAD and NADP, and plays a role in intracellular calcium regulation and cell signaling. Deficiency of niacin causes pellagra, characterized by photosensitive dermatitis and depressive psychosis.\n\nFolic acid functions as a coenzyme in the transfer of one-carbon fragments. Deficiency of folic acid causes megaloblastic anemia.\n\nPantothenic acid is a functional part of CoA and acyl carrier protein, involved in fatty acid synthesis and metabolism. Deficiency of pantothenic acid causes peripheral nerve damage, known as nutritional melalgia or 'burning foot syndrome'.\n\nVitamin H, known as biotin, functions as a coenzyme in carboxylation reactions in gluconeogenesis and fatty acid synthesis and plays a role in the regulation of the cell cycle. Deficiency of Vitamin H causes impaired fat and carbohydrate metabolism and dermatitis.\n\nVitamin C, known as ascorbic acid, functions as a coenzyme in the hydroxylation of proline and lysine in collagen synthesis, acts as an antioxidant, and enhances the absorption of iron. Deficiency of Vitamin C causes scurvy, characterized by impaired wound healing, loss of dental cement, and subcutaneous hemorrhage.",
+      "char_start": 6170,
+      "char_end": 7453,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamins-are-a-disparate-group-of-compounds-with-a-variety"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Retinoids include retinol, retinaldehyde, and retinoic acid. Carotenoids are found in plants and include a variety of carotenes and related compounds. Many carotenoids are precursors of vitamin A, as they can be cleaved to yield retinaldehyde. The alpha-, beta-, and gamma-carotenes and cryptoxanthin are the most important provitamin A carotenoids. Beta-carotene and other provitamin A carotenoids are cleaved in the intestinal mucosa by carotene dioxygenase, producing retinaldehyde. Retinaldehyde is reduced to retinol, esterified, and secreted in chylomicrons along with esters from dietary retinol. Carotene dioxygenase exists in two isoenzyme forms. One isoenzyme cleaves the central bond of beta-carotene. The other isoenzyme performs asymmetric cleavage, forming 8'-, 10'-, and 12'-apo-carotenals, which are oxidized to retinoic acid but cannot be used to form retinol or retinaldehyde. The intestinal activity of carotene dioxygenase is low, so a significant portion of ingested beta-carotene may remain unchanged in the circulation. Although theoretically one molecule of beta-carotene should yield two molecules of retinol, in practice, 6 micrograms of beta-carotene is equivalent to 1 microgram of preformed retinol. The vitamin A content in foods is expressed as micrograms of retinol equivalents, calculated as micrograms of preformed vitamin A plus 1/6 times micrograms of beta-carotene plus 1/12 times micrograms of other provitamin A carotenoids. Before pure vitamin A was available for chemical analysis, the vitamin A content of foods was measured by biological assay and expressed in international units (IU). 1 IU equals 0.3 micrograms of retinol, and 1 microgram of retinol equals 3.33 IU. Although obsolete, IU is sometimes still used in food labeling. The term retinol activity equivalent accounts for the incomplete absorption and metabolism of carotenoids. 1 RAE equals 1 microgram of all-trans-retinol, 12 micrograms of beta-carotene, or 24 micrograms of alpha-carotene or beta-cryptoxanthin. On this basis, 1 IU of vitamin A activity is equal to 3.6 micrograms of beta-carotene or 7.2 micrograms of other provitamin A carotenoids. Beta-carotene is cleaved symmetrically by carotene dioxygenase to yield retinaldehyde (Figure 44-1).",
+      "char_start": 7506,
+      "char_end": 9765,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-1"
+      ],
+      "table_refs": [],
+      "section_id": "two-groups-of-compounds-have-vitamin-a-activity"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "In the retina, retinaldehyde functions as the prosthetic group of the light-sensitive opsin proteins. Retinaldehyde forms rhodopsin in rods. Retinaldehyde forms iodopsin in cones. Each cone cell contains only one type of opsin. Each cone cell is sensitive to only one color. In the pigment epithelium of the retina, all-trans-retinol is isomerized to 11-cis-retinol. In the pigment epithelium of the retina, 11-cis-retinol is oxidized to 11-cis-retinaldehyde. 11-cis-retinaldehyde reacts with a lysine residue in opsin to form the holoprotein rhodopsin. Absorption of light by rhodopsin causes isomerization of retinaldehyde from 11-cis to all-trans. Absorption of light by rhodopsin causes a conformational change in opsin. Absorption of light by rhodopsin results in the release of retinaldehyde from the protein. Absorption of light by rhodopsin initiates a nerve impulse. The formation of the initial excited form of rhodopsin, bathorhodopsin, occurs within picoseconds of illumination. There is a series of conformational changes leading to the formation of metarhodopsin II. Metarhodopsin II initiates a guanine nucleotide amplification cascade. Metarhodopsin II initiates a nerve impulse. The final step is hydrolysis to release all-trans-retinaldehyde and opsin. The key to initiation of the visual cycle is the availability of 11-cis-retinaldehyde, and hence vitamin A. In deficiency, both the time taken to adapt to darkness and the ability to see in poor light are impaired (Figure 44-2).",
+      "char_start": 9982,
+      "char_end": 11481,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+        "Vitamin A Has a Function in Vision"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-2"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-a-has-a-function-in-vision"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "All-trans-retinol is converted to 11-cis-Retinol in the visual cycle.\n11-cis-Retinol is converted to 11-cis-Retinaldehyde in the visual cycle.\n11-cis-Retinaldehyde binds to the lysine residue in opsin in the visual cycle.\nThe lysine residue in opsin forms rhodopsin (visual purple) in the visual cycle.\nRhodopsin (visual purple) is activated by light in the visual cycle.\nActivated rhodopsin (visual purple) transforms into photorhodopsin in the visual cycle.\nPhotorhodopsin changes to bathorhodopsin in the visual cycle.\nBathorhodopsin converts to lumirhodopsin in the visual cycle.\nLumirhodopsin changes to metarhodopsin I in the visual cycle.\nMetarhodopsin I transforms into metarhodopsin II in the visual cycle.\nMetarhodopsin II persists for minutes in the visual cycle.\nMetarhodopsin II changes to metarhodopsin III in the visual cycle.\nMetarhodopsin III breaks down into all-trans-retinaldehyde and opsin in the visual cycle.\nAll-trans-retinaldehyde and opsin lead to the production of 5'GMP in the visual cycle.\n5'GMP causes the Na+ channel to close in the visual cycle.\nThe active phosphodiesterase converts cGMP to inactive in the visual cycle.\nInactive phosphodiesterase is activated by GTP in the visual cycle.\nGTP activates transducin to form transducin-GTP in the visual cycle.\nTransducin-GTP reverts to transducin-GDP in the visual cycle.\nTransducin-GDP releases a Pi in the visual cycle.\nThe diagram as a whole relates the role of retinaldehyde in the visual cycle.",
+      "char_start": 11631,
+      "char_end": 13111,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+        "Vitamin A Has a Function in Vision"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-a-has-a-function-in-vision"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "A major role of vitamin A is the control of cell differentiation and turnover. All-trans-retinoic acid and 9-cis-retinoic acid regulate growth, development, and tissue differentiation. All-trans-retinoic acid and 9-cis-retinoic acid have different actions in different tissues. Like thyroid and steroid hormones and vitamin D, retinoic acid binds to nuclear receptors that bind to response elements of DNA and regulate the transcription of specific genes. There are two families of nuclear retinoid receptors: the retinoic acid receptors (RARs) bind all-trans-retinoic acid or 9-cis-retinoic acid, and the retinoid X receptors (RXR) bind 9-cis-retinoic acid. RXRs also form heterodimers with vitamin D, thyroid, and other nuclear acting hormone receptors. Deficiency of vitamin A impairs vitamin D and thyroid hormone function because of lack of 9-cis-retinoic acid to form active receptor dimers. Unoccupied RXRs form dimers with occupied vitamin D and thyroid hormone receptors. Unoccupied RXRs are unable to activate gene expression and may repress it. Consequently, vitamin A deficiency has a more severe effect on vitamin D and thyroid hormone function than simply interfering with gene expression. Excessive vitamin A also impairs vitamin D and thyroid hormone function, because of formation of RXR homodimers. There are not enough RXR available to form heterodimers with the vitamin D and thyroid hormone receptors due to excessive vitamin A.",
+      "char_start": 13206,
+      "char_end": 14655,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+        "Retinoic Acid Has a Role in the Regulation of Gene Expression and Tissue Differentiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "retinoic-acid-has-a-role-in-the-regulation-of-gene"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Vitamin A deficiency is the most important preventable cause of blindness.\n\nVitamin A deficiency leads to a loss of sensitivity to green light.\n\nVitamin A deficiency causes impairment in adapting to dim light.\n\nVitamin A deficiency results in night blindness, an inability to see in the dark.\n\nProlonged Vitamin A deficiency leads to xerophthalmia.\n\nXerophthalmia involves keratinization of the cornea.\n\nXerophthalmia can lead to blindness.\n\nVitamin A plays a crucial role in the differentiation of immune system cells.\n\nMild Vitamin A deficiency increases susceptibility to infectious diseases.\n\nThe synthesis of retinol-binding protein is reduced in response to infection.\n\nRetinol-binding protein is required to transport Vitamin A in the bloodstream.\n\nRetinol-binding protein is a negative acute phase protein.\n\nReduced synthesis of retinol-binding protein decreases the circulating concentration of Vitamin A.\n\nDecreased circulating Vitamin A concentration further impairs immune responses.",
+      "char_start": 14725,
+      "char_end": 15720,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+        "Vitamin A Deficiency Is a Major Public Health Problem Worldwide"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-a-deficiency-is-a-major-public-health-problem"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Humans have a limited capacity to metabolize vitamin A.\n\nExcessive intakes of vitamin A lead to accumulation beyond the capacity of intracellular binding proteins.\n\nUnbound vitamin A causes membrane lysis and tissue damage.\n\nSymptoms of vitamin A toxicity affect the central nervous system, including headache, nausea, ataxia, and anorexia, all associated with increased cerebrospinal fluid pressure.\n\nVitamin A toxicity affects the liver, causing hepatomegaly with histological changes and hyperlipidemia.\n\nVitamin A toxicity disrupts calcium homeostasis, leading to thickening of the long bones, hypercalcemia, and calcification of soft tissues.\n\nVitamin A toxicity affects the skin, causing excessive dryness, desquamation, and alopecia.",
+      "char_start": 15755,
+      "char_end": 16495,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+        "Vitamin A Is Toxic in Excess"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-a-is-toxic-in-excess"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Vitamin D is not strictly a vitamin since it can be synthesized in the skin.\n\nUnder most conditions, the skin is the major source of vitamin D.\n\nA dietary source of vitamin D is required only when sunlight exposure is inadequate.\n\nVitamin D's main function is to regulate calcium absorption and homeostasis.\n\nMost of vitamin D's actions are mediated by nuclear receptors that regulate gene expression.\n\nVitamin D has a role in regulating cell proliferation and differentiation.\n\nIntakes of vitamin D higher than those required to maintain calcium homeostasis reduce the risk of insulin resistance, obesity, and metabolic syndrome.\n\nHigh intakes of vitamin D also reduce the risk of various cancers.\n\nDeficiency in vitamin D leads to rickets in children and osteomalacia in adults.\n\nDeficiency in vitamin D continues to be a problem in northern latitudes, where sunlight exposure is inadequate.",
+      "char_start": 16530,
+      "char_end": 17423,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-really-a-hormone"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "7-Dehydrocholesterol undergoes a nonenzymic reaction when exposed to ultraviolet light, yielding previtamin D (Figure 44-3).",
+      "char_start": 17466,
+      "char_end": 17590,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Synthesized in the Skin"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-3"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-synthesized-in-the-skin"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Previtamin D undergoes a further reaction over a period of hours to form cholecalciferol.\n\nCholecalciferol is absorbed into the bloodstream.\n\nIn temperate climates, the plasma concentration of vitamin D is highest at the end of summer and lowest at the end of winter.",
+      "char_start": 17652,
+      "char_end": 17919,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Synthesized in the Skin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-synthesized-in-the-skin"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Cholecalciferol, either synthesized in the skin or obtained from food, undergoes two hydroxylations to become the active metabolite, 1,25-dihydroxyvitamin D or calcitriol (Figure 44–4). Ergocalciferol from fortified foods undergoes similar hydroxylation to yield ercalcitriol.",
+      "char_start": 18006,
+      "char_end": 18282,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Metabolized to the Active Metabolite, Calcitriol, in Liver & Kidney"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-4"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-metabolized-to-the-active-metabolite"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Cholecalciferol (calciol; vitamin D3) is converted to Calcidiol (25-hydroxycholecalciferol) by the enzyme Calciciol-25-hydroxylase.\nCalcidiol (25-hydroxycholecalciferol) is converted to Calcitriol (1,25-hydroxycholecalciferol) by the enzyme Calcidiol-1-hydroxylase.\nCalcitriol (1,25-hydroxycholecalciferol) is converted to 24-hydroxycalcidiol by the enzyme Calcidiol-24-hydroxylase.\n24-hydroxycalcidiol is converted to Calcitetrol by the enzyme Calcidiol-1-hydroxylase.\nThe diagram illustrates the metabolism of vitamin D.",
+      "char_start": 18410,
+      "char_end": 18932,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Metabolized to the Active Metabolite, Calcitriol, in Liver & Kidney"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-metabolized-to-the-active-metabolite"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "In the liver, cholecalciferol is hydroxylated to form the 25-hydroxy derivative, calcidiol. Calcidiol is released into the circulation bound to a vitamin D–binding globulin, which is the main storage form of the vitamin.\n\nIn the kidney, calcidiol undergoes either 1-hydroxylation to yield the active metabolite 1,25-dihydroxyvitamin D (calcitriol), or 24-hydroxylation to yield a probably inactive metabolite, 24,25-dihydroxyvitamin D (24-hydroxycalcidiol).\n\nSome tissues, other than those involved in calcium homeostasis, take up calcidiol from the circulation and synthesize calcitriol that acts within that cell.",
+      "char_start": 18934,
+      "char_end": 19549,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Metabolized to the Active Metabolite, Calcitriol, in Liver & Kidney"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-metabolized-to-the-active-metabolite"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The main function of vitamin D is to control calcium homeostasis. Vitamin D metabolism is regulated by factors that respond to plasma concentrations of calcium and phosphate. Calcitriol reduces its own synthesis by inducing the 24-hydroxylase and repressing the 1-hydroxylase in the kidney. The principal function of vitamin D is to maintain the plasma calcium concentration. Calcitriol increases intestinal absorption of calcium. Calcitriol reduces excretion of calcium by stimulating reabsorption in the distal renal tubules. Calcitriol mobilizes bone mineral. Calcitriol is involved in insulin secretion. Calcitriol is involved in the synthesis and secretion of parathyroid and thyroid hormones. Calcitriol inhibits the production of interleukin by activated T-lymphocytes. Calcitriol inhibits the production of immunoglobulin by activated B-lymphocytes. Calcitriol is involved in the differentiation of monocyte precursor cells. Calcitriol modulates cell proliferation. In most of these actions, calcitriol acts like a steroid hormone. Calcitriol binds to nuclear receptors. Calcitriol enhances gene expression. Calcitriol has a rapid effect to mobilize calcium transporters in the intestinal mucosa.",
+      "char_start": 19631,
+      "char_end": 20835,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Metabolism Is Both Regulated by and Regulates Calcium Homeostasis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-metabolism-is-both-regulated-by-and-regulates"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Higher vitamin D status is protective against various cancers, including prostate and colorectal cancer.\n\nHigher vitamin D status is protective against prediabetes and metabolic syndrome.\n\nRandomized clinical trial data suggest no benefit with vitamin D supplementation.\n\nLow vitamin D status is common and increases risk.\n\nSupplementing with vitamin D if status is low may be an option.\n\nIncreased sunlight exposure would meet the need for vitamin D.\n\nIncreased sunlight exposure carries the risk of developing skin cancer.",
+      "char_start": 20898,
+      "char_end": 21422,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Higher Intakes of Vitamin D May or May Not Be Beneficial"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "higher-intakes-of-vitamin-d-may-or-may-not-be-beneficial"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "In the vitamin D deficiency disease rickets, the bones of children are undermineralized. Poor absorption of calcium causes the bones of children to be undermineralized in rickets. Vitamin D deficiency during the adolescent growth spurt causes similar problems to rickets. Osteomalacia in adults results from the demineralization of bone. Osteomalacia particularly affects women who have little exposure to sunlight. Osteomalacia especially affects women after several pregnancies. Vitamin D is essential for the prevention and treatment of osteomalacia in the elderly. There is less evidence that vitamin D is beneficial in treating osteoporosis.",
+      "char_start": 21475,
+      "char_end": 22121,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Deficiency Affects Children & Adults"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-deficiency-affects-children-adults"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Some infants are sensitive to intakes of vitamin D as low as 50 µ g/day. An elevated plasma concentration of calcium can result from such sensitivity. An elevated plasma concentration of calcium can lead to contraction of blood vessels. An elevated plasma concentration of calcium can lead to high blood pressure. An elevated plasma concentration of calcium can lead to calcinosis, the calcification of soft tissues. Hypercalcemia in response to low intakes of vitamin D is due to genetic defects of calcidiol 24-hydroxylase in at least a few cases. Calcidiol 24-hydroxylase is the enzyme that leads to inactivation of vitamin D. Excess dietary vitamin D is toxic. Excessive exposure to sunlight does not lead to vitamin D poisoning. There is a limited capacity to form the precursor, 7-dehydrocholesterol. Prolonged exposure of previtamin D to sunlight leads to formation of inactive compounds.",
+      "char_start": 22156,
+      "char_end": 23051,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN D IS REALLY A HORMONE",
+        "Vitamin D Is Toxic in Excess"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-d-is-toxic-in-excess"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "No unequivocal unique function for vitamin E has been defined. Vitamin E acts as a lipid-soluble antioxidant in cell membranes. Vitamin E maintains the fluidity of cell membranes. Vitamin E has a role in cell signaling, although this role is relatively poorly defined. Vitamin E is the generic descriptor for two families of compounds: the tocopherols and the tocotrienols (Figure 44-5). The different vitamers of vitamin E have different biologic potencies. D-α-tocopherol is the most active vitamer. Vitamin E intake is usually expressed in terms of milligrams D-α-tocopherol equivalents. Synthetic DL-α-tocopherol does not have the same biologic potency as the naturally occurring D-α-tocopherol. In α-tocopherol and tocotrienol, R1, R2, and R3 are all -CH3 groups. In the β-vitamers, R2 is H. In the γ-vitamers, R1 is H. In the δ-vitamers, R1 and R2 are both H (Figure 44-5).",
+      "char_start": 23119,
+      "char_end": 23998,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN E DOES NOT HAVE A PRECISELY DEFINED METABOLIC FUNCTION"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-5"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-e-does-not-have-a-precisely-defined-metabolic"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "The main function of vitamin E is to act as a chain-breaking, free radical–trapping antioxidant in cell membranes and plasma lipoproteins.\n\nVitamin E reacts with lipid peroxide radicals formed by peroxidation of polyunsaturated fatty acids.\n\nThe tocopheroxyl radical is relatively unreactive and ultimately forms nonradical compounds.\n\nThe tocopheroxyl radical is commonly reduced back to tocopherol by reaction with vitamin C from plasma.\n\nThe resultant, stable, monodehydroascorbate radical undergoes enzymic or nonenzymic reaction to yield ascorbate and dehydroascorbate.\n\nNeither ascorbate nor dehydroascorbate is a radical.",
+      "char_start": 24305,
+      "char_end": 24933,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN E DOES NOT HAVE A PRECISELY DEFINED METABOLIC FUNCTION",
+        "Vitamin E Is the Major Lipid-Soluble Antioxidant in Cell Membranes & Plasma Lipoproteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-e-is-the-major-lipid-soluble-antioxidant-in-cell"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "In experimental animals, vitamin E deficiency results in resorption of fetuses. In experimental animals, vitamin E deficiency causes testicular atrophy.\n\nDietary deficiency of vitamin E in human beings is unknown. Patients with severe fat malabsorption suffer vitamin E deficiency. Patients with cystic fibrosis suffer vitamin E deficiency. Patients with some forms of chronic liver disease suffer vitamin E deficiency. Patients with severe fat malabsorption, cystic fibrosis, or some forms of chronic liver disease are unable to absorb or transport vitamin E. This inability leads to nerve and muscle membrane damage.\n\nPremature infants are born with inadequate reserves of vitamin E. Erythrocyte membranes become abnormally fragile due to lipid peroxidation. Erythrocyte membrane fragility leads to hemolytic anemia.",
+      "char_start": 24960,
+      "char_end": 25778,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN E DOES NOT HAVE A PRECISELY DEFINED METABOLIC FUNCTION",
+        "Vitamin E Deficiency"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-e-deficiency"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Vitamin K was discovered as a result of investigations into the cause of a bleeding disorder known as hemorrhagic disease of cattle and chickens fed on a fat-free diet. The missing factor in the diet of the chickens was vitamin K. The cattle feed contained dicumarol, an antagonist of the vitamin. Antagonists of vitamin K are used to reduce blood coagulation in patients at risk of thrombosis. The most widely used antagonist of vitamin K is warfarin.\n\nThree compounds have the biological activity of vitamin K: phylloquinone, the normal dietary source, found in green vegetables; menaquinones, synthesized by intestinal bacteria, with differing lengths of side chain; and menadione and menadiol diacetate, synthetic compounds that can be metabolized to phylloquinone. Phylloquinone is the normal dietary source of vitamin K and is found in green vegetables. Menaquinones are synthesized by intestinal bacteria and have differing lengths of side chain. Menadione and menadiol diacetate are synthetic compounds that can be metabolized to phylloquinone. Menaquinones are absorbed to some extent. It is not clear to what extent menaquinones are biologically active. It is possible to induce signs of vitamin K deficiency simply by feeding a phylloquinone-deficient diet, without inhibiting intestinal bacterial action.",
+      "char_start": 25846,
+      "char_end": 27162,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Vitamin K hydroquinone is oxidized to the epoxide, which activates a glutamate residue in the protein substrate to a carbanion. The carbanion reacts nonenzymically with carbon dioxide to form GLA. Vitamin K epoxide is reduced to the quinone by a warfarin-sensitive reductase. The quinone is reduced to the active hydroquinone by either the same warfarin-sensitive reductase or a warfarin-insensitive quinone reductase. Warfarin prevents recycling of vitamin K. In the presence of warfarin, vitamin K epoxide cannot be reduced. Vitamin K epoxide accumulates and is excreted in the presence of warfarin. A high dose of vitamin K can be reduced to the active hydroquinone by the warfarin-insensitive enzyme. Carboxylation can continue with stoichiometric utilization of vitamin K and excretion of the epoxide in the presence of a high dose of vitamin K. A high dose of vitamin K is the antidote to an overdose of warfarin.",
+      "char_start": 27164,
+      "char_end": 28083,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Glutamate residue is converted to Vitamin K epoxidase in the presence of O2.\nVitamin K epoxidase is transformed into Glutamate carbanion.\nGlutamate carbanion is converted to Vitamin K epoxide.\nVitamin K epoxide is transformed into Vitamin K quinone.\nVitamin K quinone is converted to Vitamin K quinone reductase.\nVitamin K quinone reductase is transformed into Vitamin K quinone reductase through a disulfide bond.\nVitamin K quinone reductase is converted to Quinone reductase with the help of NADPH.\nQuinone reductase is transformed into NADP+.\nNADP+ is converted to Vitamin K hydroquinone.\nVitamin K hydroquinone is transformed into Vitamin K quinone through a disulfide bond.\nVitamin K quinone is converted to Vitamin K quinone through a sulphydryl bond.\nVitamin K quinone is transformed into Vitamin K epoxide reductase through a sulphydryl bond.\nVitamin K epoxide reductase is converted to Vitamin K epoxide through a disulfide bond.\nVitamin K epoxide is transformed into Vitamin K epoxide through a sulphydryl bond.\nVitamin K epoxide is converted to Carboxyglutamate residue non-enzymically.\nCarboxyglutamate residue is transformed into CO2 non-enzymically.",
+      "char_start": 28249,
+      "char_end": 29412,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Menadiol is a synthetic compound that is converted to menaquinone in the liver (Figure 44-6). Menadiol diacetate is a synthetic compound that is converted to menaquinone in the liver (Figure 44-6).",
+      "char_start": 29414,
+      "char_end": 29611,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-6"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Vitamin K is important in the synthesis of bone and other calcium-binding proteins. Osteocalcin undergoes vitamin K-dependent carboxylation of glutamate to GLA. The matrix Gla protein in bone also undergoes this carboxylation. Nephrocalcin in the kidney undergoes vitamin K-dependent carboxylation. The product of the growth arrest specific gene Gas6 undergoes vitamin K-dependent carboxylation. Gas6 is involved in the regulation of differentiation and development in the nervous system. Gas6 controls apoptosis in other tissues. All these GLA-containing proteins bind calcium. Calcium binding causes a conformational change in these proteins. The conformational change allows these proteins to interact with membrane phospholipids. A low carboxylation state of osteocalcin in plasma is a biomarker of low Vitamin K status. A low carboxylation state of osteocalcin indicates inadequate bone health.",
+      "char_start": 29862,
+      "char_end": 30761,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS",
+        "Vitamin K Is Also Important in Synthesis of Bone & Other Calcium-Binding Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-k-is-also-important-in-synthesis-of-bone-other"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Thiamin has a central role in energy-yielding metabolism. Thiamin has a central role in the metabolism of carbohydrates (Figure 44--8).\n\nThiamin is transported across the plasma membrane by specific transporters. The specific transporters belong to the SLC19A transporter family.\n\nThiamin is rapidly phosphorylated to thiamin diphosphate by thiamine pyrophosphokinase once inside the cell.",
+      "char_start": 30829,
+      "char_end": 31218,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-thiamin-has-a-key-role-in-carbohydrate-metabolism"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "In some cells, thiamin diphosphate can be directly transported.\n\nIn the enterocyte, phosphatases rapidly dephosphorylate thiamin diphosphate. The absorbed thiamine is delivered to the blood.\n\nThiamine is delivered to all cells. Thiamine is delivered to red blood cells. Thiamine is delivered to leukocytes. Thiamine is delivered to platelets.\n\nIn target cells, thiamine is taken up. In target cells, thiamine is phosphorylated in the cytosol to thiamin diphosphate.\n\nThiamin diphosphate is the coenzyme for pyruvate dehydrogenase in carbohydrate metabolism. Thiamin diphosphate is the coenzyme for the branched-chain keto acid dehydrogenase involved in the metabolism of leucine, isoleucine, and valine.\n\nThiamin diphosphate provides a reactive carbon on the thiazole moiety. A carbanion forms on the reactive carbon provided by thiamin diphosphate. The carbanion adds to the carbonyl group, for example, pyruvate.\n\nThe addition compound is then decarboxylated.\n\nFor mitochondrial-associated enzymes, thiamin diphosphate is transported into the mitochondria. Pyruvate dehydrogenase is a mitochondrial-associated enzyme.\n\nThiamin diphosphate is the coenzyme for transketolase. Transketolase is involved in the pentose phosphate pathway.\n\nThiamin triphosphate has a role in nerve conduction. Thiamin triphosphate phosphorylates, and so activates, a chloride channel in the nerve membrane.",
+      "char_start": 31249,
+      "char_end": 32635,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-thiamin-has-a-key-role-in-carbohydrate-metabolism"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Thiamin deficiency can result in three distinct syndromes: a chronic peripheral neuritis, beriberi, and Wernicke encephalopathy with Korsakoff psychosis.\n\nBeriberi may or may not be associated with heart failure and edema.\n\nAcute pernicious (fulminating) beriberi, also known as Shoshin beriberi, is characterized by heart failure and metabolic abnormalities, without peripheral neuritis.\n\nWernicke encephalopathy with Korsakoff psychosis is associated especially with alcohol and narcotic abuse.\n\nThiamin diphosphate plays a role in pyruvate dehydrogenase, and in thiamin deficiency, there is impaired conversion of pyruvate to acetyl-CoA.\n\nIn subjects on a relatively high-carbohydrate diet, thiamin deficiency results in increased plasma concentrations of lactate and pyruvate.\n\nIncreased plasma concentrations of lactate and pyruvate due to thiamin deficiency may cause life-threatening lactic acidosis.",
+      "char_start": 32699,
+      "char_end": 33606,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM",
+        "Thiamin Deficiency Affects the Nervous System & the Heart"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "thiamin-deficiency-affects-the-nervous-system-the-heart"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The activation of apotransketolase in erythrocyte lysate by thiamin diphosphate added in vitro has become the accepted index of thiamin nutritional status.\n\nA greater than 25% increase in activity in response to thiamin diphosphate is considered abnormal.",
+      "char_start": 33695,
+      "char_end": 33950,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM",
+        "Thiamin Nutritional Status Can Be Assessed by Erythrocyte Transketolase Activation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "thiamin-nutritional-status-can-be-assessed-by-erythrocyte"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Riboflavin provides the reactive moieties of the coenzymes flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD).\n\nFMN is formed by ATP-dependent phosphorylation of riboflavin.\n\nFAD is synthesized by further reaction with ATP in which the AMP moiety is transferred onto FMN.\n\nThe main dietary sources of riboflavin are milk and dairy products.\n\nRiboflavin is widely used as a food additive because of its intense yellow color.",
+      "char_start": 34028,
+      "char_end": 34466,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-riboflavin-has-a-central-role-in-energy-yielding"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Flavin coenzymes are electron carriers in oxidoreduction reactions. The mitochondrial respiratory chain involves flavin coenzymes. Key enzymes in fatty acid oxidation involve flavin coenzymes. Key enzymes in amino acid oxidation involve flavin coenzymes. The citric acid cycle involves flavin coenzymes.\n\nReoxidation of the reduced flavin in oxygenases and mixed-function oxidases proceeds by the formation of the flavin radical. Reoxidation of the reduced flavin in oxygenases and mixed-function oxidases proceeds by the formation of flavin hydroperoxide. Intermediate generation of superoxide occurs during reoxidation. Intermediate generation of perhydroxyl radicals occurs during reoxidation. Intermediate generation of hydrogen peroxide occurs during reoxidation.\n\nFlavin oxidases contribute significantly to the total physiologic oxidant stress in the body. Glutathione reductase is an FAD-dependent enzyme. Glutathione reductase helps in the recycling of glutathione. Glutathione is an essential player in protection from physiologic oxidative stress. Glutathione is an essential player in protection from pathophysiologic oxidative stress.",
+      "char_start": 34539,
+      "char_end": 35686,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM",
+        "Flavin Coenzymes Are Electron Carriers in Oxidoreduction Reactions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "flavin-coenzymes-are-electron-carriers-in-oxidoreduction"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Riboflavin is centrally involved in lipid and carbohydrate metabolism.\n\nRiboflavin deficiency occurs in many countries.\n\nRiboflavin deficiency is not fatal because there is very efficient conservation of tissue riboflavin.\n\nThe gold standard test for measuring riboflavin status is the measurement of erythrocyte glutathione reductase activity in red blood cells.\n\nErythrocyte glutathione reductase is an FAD-dependent enzyme.\n\nRiboflavin deficiency can be caused by inadequate intake or endocrine abnormalities.\n\nAlcohol interferes with both the digestion and absorption of riboflavin.\n\nRiboflavin released by the catabolism of enzymes is rapidly incorporated into newly synthesized enzymes.\n\nRiboflavin deficiency is characterized by cheilosis, desquamation and inflammation of the tongue, and seborrheic dermatitis.\n\nRiboflavin nutritional status is assessed by measurement of the activation of erythrocyte glutathione reductase by FAD added in vitro.",
+      "char_start": 35742,
+      "char_end": 36696,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM",
+        "Riboflavin Deficiency Is Widespread but Not Fatal"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "riboflavin-deficiency-is-widespread-but-not-fatal"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Niacin was discovered as a nutrient during studies of pellagra. Niacin is not strictly a vitamin. Niacin can be synthesized in the body from the essential amino acid tryptophan. Two compounds, nicotinic acid and nicotinamide, have the biological activity of niacin. The metabolic function of niacin is as the nicotinamide ring of the coenzymes NAD and NADP in oxidation/reduction reactions. Some 60 mg of tryptophan is equivalent to 1 mg of dietary niacin. The niacin content of foods is expressed as mg niacin equivalents = mg preformed niacin + 1/60 × mg tryptophan. Since most of the niacin in cereals is biologically unavailable, this is discounted.",
+      "char_start": 36734,
+      "char_end": 37387,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "NIACIN IS NOT STRICTLY A VITAMIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "niacin-is-not-strictly-a-vitamin"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "NAD is the source of ADP-ribose for the ADP-ribosylation of proteins.\n\nNAD is the source of ADP-ribose for the poly-ADP-ribosylation of nucleoproteins involved in the DNA repair mechanism.\n\nCyclic ADP-ribose is formed from NAD.\n\nCyclic ADP-ribose acts to increase intracellular calcium in response to neurotransmitters and hormones.\n\nNicotinic acid adenine dinucleotide is formed from NAD.\n\nNicotinic acid adenine dinucleotide acts to increase intracellular calcium in response to neurotransmitters and hormones.",
+      "char_start": 37425,
+      "char_end": 37937,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "NIACIN IS NOT STRICTLY A VITAMIN",
+        "NAD Is the Source of ADP-Ribose"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nad-is-the-source-of-adp-ribose"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Pellagra is characterized by photosensitive dermatitis. Pellagra leads to depressive psychosis as it progresses. Pellagra may cause diarrhea. Untreated pellagra is fatal. Pellagra is caused by a deficiency of tryptophan or niacin. Tryptophan prevents pellagra. Niacin prevents pellagra. Riboflavin deficiency may be important in pellagra. In outbreaks of pellagra, twice as many women as men are affected. Estrogen metabolites inhibit tryptophan metabolism, affecting the prevalence of pellagra in women.",
+      "char_start": 37999,
+      "char_end": 38503,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "NIACIN IS NOT STRICTLY A VITAMIN",
+        "Pellagra Is Caused by Deficiency of Tryptophan & Niacin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pellagra-is-caused-by-deficiency-of-tryptophan-niacin"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Hartnup disease is a rare genetic condition that affects tryptophan metabolism. Hartnup disease causes a defect in the membrane transport mechanism for tryptophan. Hartnup disease leads to large losses of tryptophan due to intestinal malabsorption. Hartnup disease also results in the failure of renal reabsorption of tryptophan. Pellagra can develop in Hartnup disease despite an adequate intake of tryptophan and niacin.\n\nCarcinoid syndrome involves the metastasis of a primary liver tumor originating from enterochromaffin cells. Carcinoid syndrome leads to the overproduction of 5-hydroxytryptamine. Carcinoid syndrome can divert up to 60% of the body's tryptophan metabolism towards 5-hydroxytryptamine production. Carcinoid syndrome can cause pellagra by reducing NAD synthesis.",
+      "char_start": 38592,
+      "char_end": 39376,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "NIACIN IS NOT STRICTLY A VITAMIN",
+        "Pellagra Can Result from Disease Despite an Adequate Intake of Tryptophan & Niacin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pellagra-can-result-from-disease-despite-an-adequate-intake"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Nicotinic acid is used to treat hyperlipidemia at doses ranging from 1 to 6 g/day.\n\nNicotinic acid causes dilation of blood vessels and flushing at these doses.\n\nNicotinic acid causes skin irritation at these doses.\n\nIntakes of nicotinic acid in excess of 500 mg/day cause liver damage.\n\nIntakes of nicotinamide in excess of 500 mg/day cause liver damage.\n\nNiacin at high doses can harm an unborn fetus.\n\nNiacin can pass into breast milk.\n\nNursing mothers should avoid taking niacin.",
+      "char_start": 39408,
+      "char_end": 39891,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "NIACIN IS NOT STRICTLY A VITAMIN",
+        "Niacin Is Toxic in Excess"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "niacin-is-toxic-in-excess"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "The active coenzyme is pyridoxal 5'-phosphate. Pyridoxal phosphate is mostly associated with glycogen phosphorylase in muscle. In starvation, pyridoxal phosphate is released when glycogen reserves become depleted. Pyridoxal phosphate becomes available to the liver and kidney in starvation. Pyridoxal phosphate meets increased requirement for gluconeogenesis from amino acids in starvation. (Figure 44-9)",
+      "char_start": 39984,
+      "char_end": 40388,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-9"
+      ],
+      "table_refs": [],
+      "section_id": "vitamin-b6-is-important-in-amino-acid-glycogen-m"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "Pyridoxine is converted to Pyridoxine phosphate by Kinase.\nPyridoxine phosphate is converted back to Pyridoxine by Phosphatase.\nPyridoxine is converted to Pyridoxal phosphate by Kinase.\nPyridoxal phosphate is converted back to Pyridoxine phosphate by Phosphatase.\nPyridoxal phosphate is converted to Pyridoxal phosphate by Kinase.\nPyridoxal phosphate is converted to Pyridoxine phosphate by Oxidase.\nPyridoxal phosphate is converted to Pyridoxamine phosphate by Aminotransferases.\nPyridoxamine phosphate is converted back to Pyridoxal phosphate by Phosphatase.\nPyridoxamine phosphate is converted to Pyridoxamine phosphate by Kinase.",
+      "char_start": 40454,
+      "char_end": 41087,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b6-is-important-in-amino-acid-glycogen-m"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Pyridoxal phosphate is a coenzyme for many enzymes involved in amino acid metabolism. Pyridoxal phosphate is a cofactor for transamination reactions. Pyridoxal phosphate is a cofactor for decarboxylation reactions. Pyridoxal phosphate is a cofactor for glycogen phosphorylase. The phosphate group in pyridoxal phosphate is catalytically important in glycogen phosphorylase. Pyridoxal phosphate is important in steroid hormone action. Pyridoxal phosphate removes the hormone-receptor complex from DNA binding. Pyridoxal phosphate terminates the action of hormones by removing the hormone-receptor complex from DNA binding.",
+      "char_start": 41137,
+      "char_end": 41758,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+        "Vitamin B 6 Has Several Roles in Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-6-has-several-roles-in-metabolism"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "Increased sensitivity to steroid hormone action may be important in the development of hormone-dependent cancer of the breast.\n\nIncreased sensitivity to steroid hormone action may be important in the development of hormone-dependent cancer of the uterus.\n\nIncreased sensitivity to steroid hormone action may be important in the development of hormone-dependent cancer of the prostate.",
+      "char_start": 41795,
+      "char_end": 42179,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+        "Vitamin B 6 Deficiency Is Rare"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-6-deficiency-is-rare"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "The most widely used method of assessing vitamin B_{6} status is not always readily available.\n\nAn alternative method that can be used in critical care settings is the activation of erythrocyte transaminases by pyridoxal phosphate added in vitro.\n\nThe activation is expressed as the activation coefficient.",
+      "char_start": 42255,
+      "char_end": 42561,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+        "Vitamin B 6 Status Is Assessed by Assaying Plasma Pyridoxal Phosphate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-6-status-is-assessed-by-assaying-plasma-pyridoxal"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "Vitamin C, or ascorbic acid, is another water-soluble vitamin.\n\nNiacin can be toxic at excessive doses.\n\nAscorbic acid can be toxic at excessive doses.\n\nSensory neuropathy has been reported in patients taking 2 to 7 g of pyridoxine per day.\n\nResidual damage can occur after withdrawal of high doses of pyridoxine.\n\nIntakes in excess of 100 to 200 mg/day of pyridoxine are associated with neurological damage.",
+      "char_start": 42616,
+      "char_end": 43024,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+        "In Excess, Vitamin B 6 Causes Sensory Neuropathy"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "in-excess-vitamin-b-6-causes-sensory-neuropathy"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "There are no plant sources of this vitamin. Small amounts of the vitamin formed by bacteria on the surface of fruits may be adequate to meet requirements.\n\nOne site is chelated by the nitrogen of the dimethylbenzimidazole nucleotide.",
+      "char_start": 43082,
+      "char_end": 43315,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-12-is-found-only-in-foods-of-animal-origin"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "Intrinsic factor is a glycoprotein secreted by the parietal cells of the gastric mucosa. Cobalophilin, also known as hepatocorin, is a binding protein secreted in the saliva. In the duodenum, pancreatic enzymes and bicarbonate allow for the alkalization of the gastric chyme. Alkalization in the duodenum leads to the enzymatic digestion of cobalophilin. IF is resistant to degradation by pancreatic enzymes.",
+      "char_start": 43799,
+      "char_end": 44207,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN",
+        "Vitamin B12 Absorption Requires Two Binding Proteins and Normal Intestinal Secretions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b12-absorption-requires-two-binding-prot"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "Methylmalonyl-CoA is an intermediate in the catabolism of valine. Methylmalonyl-CoA is also formed by the carboxylation of propionyl-CoA. Propionyl-CoA arises from the catabolism of isoleucine, cholesterol, and fatty acids with an odd number of carbon atoms. Propionyl-CoA also comes from microbial fermentation in ruminants. The block in the reaction leads to a failure to have enough methionine to make S-adenosyl-methionine. S-adenosyl-methionine is the universal methyl donor. The block also leads to a lack of tetrahydrofolate. Lack of tetrahydrofolate disrupts pathways used to make thymidine for DNA synthesis.",
+      "char_start": 44259,
+      "char_end": 44876,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN",
+        "There Are Two Vitamin B 12 -Dependent Enzymes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-are-two-vitamin-b-12-dependent-enzymes"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "Functional folate deficiency disturbs one carbon metabolism and DNA synthesis. Functional folate deficiency is most clinically evident in rapidly dividing cells, such as those involved in erythropoiesis. Immature precursors of erythrocytes are released into the circulation due to this disturbance, causing megaloblastic anemia. The erythrocytes released have a shortened half-life, leading to exaggerated hemolysis.\n\nFailure of intrinsic factor (IF) secretion can be caused by autoimmune disease affecting parietal cells. Production of anti-IF antibodies can also lead to failure of IF secretion. Bariatric surgery can impair gastric acid and IF secretion. Bariatric surgery can lead to secondary bacterial overgrowth in the intestine, impairing vitamin absorption.\n\nIrreversible degeneration of the spinal cord in pernicious anemia results from the failure of methylation of one arginine residue in myelin basic protein. The failure of methylation of one arginine residue in myelin basic protein is due to methionine deficiency in the central nervous system. Methionine deficiency, rather than secondary folate deficiency, is responsible for the neurologic damage in pernicious anemia. Exogenous folic acid can be metabolized to tetrahydrofolate, thereby limiting the anemia.",
+      "char_start": 45142,
+      "char_end": 46419,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN",
+        "Vitamin B 12 Deficiency Causes Pernicious Anemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-12-deficiency-causes-pernicious-anemia"
+    },
+    {
+      "chunk_id": "c052",
+      "text": "The active form of folic acid is tetrahydrofolate (Figure 44--12).\n\nAll of the one-carbon substituted folates in Figure 44--12 may also be present in foods.\n\nThe absorption of different forms of folate varies.",
+      "char_start": 46471,
+      "char_end": 46680,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-are-multiple-forms-of-folate-in-the-diet"
+    },
+    {
+      "chunk_id": "c053",
+      "text": "Tetrahydrofolate can carry one-carbon fragments attached to N-5 (formyl, formimino, or methyl groups), N-10 (formyl) or bridging N-5–N-10 (methylene or methenyl groups).\n\n5-Formyl-tetrahydrofolate, known as folinic acid, is more stable than folate and is therefore used pharmaceutically.\n\nThe synthetic (racemic) form of 5-Formyl-tetrahydrofolate is called leucovorin.\n\nThe major point of entry for one-carbon fragments into substituted folates is methylenetetrahydrofolate (Figure 44–13).",
+      "char_start": 46899,
+      "char_end": 47388,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Tetrahydrofolate Is a Carrier of One-Carbon Units"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-13"
+      ],
+      "table_refs": [],
+      "section_id": "tetrahydrofolate-is-a-carrier-of-one-carbon-units"
+    },
+    {
+      "chunk_id": "c054",
+      "text": "Sources of one-carbon units include Serine.\nSources of one-carbon units include Glycine.\nSources of one-carbon units include Choline.\nSerine contributes to the formation of Methylene-THF.\nGlycine contributes to the formation of Methylene-THF.\nCholine contributes to the formation of Methylene-THF.\nMethylene-THF can be converted back into Serine.\nMethylene-THF can be converted into Methyl-THF.\nMethylene-THF can be converted into TMP + dihydrofolate.\nMethyl-THF is used in the synthesis of Methionine.\nTMP + dihydrofolate is involved in the synthesis of DNA.\nMethylene-THF can be converted into Methenyl-THF.\nMethenyl-THF is used in the synthesis of Histidine.\nMethenyl-THF can be converted into Formimino-THF.\nMethenyl-THF can be converted into Formate.\nHistidine synthesis involves Formyl-THF.\nFormimino-THF can be converted into Formate.\nFormate is used in the synthesis of Formyl-methionine.\nFormate is used in the synthesis of Purines.\nFormate can be converted into CO2.\nThe diagram illustrates the sources and utilization of one-carbon substituted folates.",
+      "char_start": 47470,
+      "char_end": 48533,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Tetrahydrofolate Is a Carrier of One-Carbon Units"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tetrahydrofolate-is-a-carrier-of-one-carbon-units"
+    },
+    {
+      "chunk_id": "c055",
+      "text": "Methylenetetrahydrofolate is formed by the reaction of glycine, serine, and choline with tetrahydrofolate.\n\nSerine is the most important source of substituted folates for biosynthetic reactions.\n\nThe activity of serine hydroxymethyltransferase is regulated by the state of folate substitution and the availability of folate.\n\nThe reaction involving serine hydroxymethyltransferase is reversible.\n\nIn the liver, the reaction can form serine from glycine as a substrate for gluconeogenesis.\n\nMethylene-, methenyl-, and 10-formyltetrahydrofolates are interconvertible.\n\nWhen one-carbon folates are not required, the oxidation of formyltetrahydrofolate to yield carbon dioxide provides a means of maintaining a pool of free folate.",
+      "char_start": 48535,
+      "char_end": 49262,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Tetrahydrofolate Is a Carrier of One-Carbon Units"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tetrahydrofolate-is-a-carrier-of-one-carbon-units"
+    },
+    {
+      "chunk_id": "c056",
+      "text": "The methylation of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP) is essential for the synthesis of DNA. Thymidylate synthase catalyzes the methylation of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP). The one-carbon fragment of methylene-tetrahydrofolate is reduced to a methyl group during the methylation process. Dihydrofolate is released as a byproduct of the methylation process. Dihydrofolate reductase reduces dihydrofolate back to tetrahydrofolate. Thymidylate synthase and dihydrofolate reductase are especially active in tissues with a high rate of cell division. Methotrexate is an analog of 10-methyltetrahydrofolate. Methotrexate inhibits dihydrofolate reductase. Methotrexate is used in cancer chemotherapy. The dihydrofolate reductases of some bacteria and parasites differ from the human enzyme. Inhibitors of bacterial and parasitic dihydrofolate reductases can be used as antibacterial drugs. Trimethoprim is an example of an antibacterial drug that inhibits bacterial dihydrofolate reductase. Inhibitors of parasitic dihydrofolate reductases can be used as antimalarial drugs. Pyrimethamine is an example of an antimalarial drug that inhibits parasitic dihydrofolate reductase.",
+      "char_start": 49365,
+      "char_end": 50603,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "inhibitors-of-folate-metabolism-provide-cancer-chemotherapy"
+    },
+    {
+      "chunk_id": "c057",
+      "text": "S-adenosyl methionine acts as a methyl donor and forms homocysteine. Methionine synthase remethylates homocysteine using methyltetrahydrofolate to form methionine. The reduction of methylenetetrahydrofolate to methyltetrahydrofolate is irreversible. Methyltetrahydrofolate is the major source of tetrahydrofolate for tissues.\n\nThe accumulation of methyltetrahydrofolate creates a 'folate trap'.",
+      "char_start": 50687,
+      "char_end": 51081,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Vitamin B 12 Deficiency Causes Functional Folate Deficiency—the “Folate Trap”"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-b-12-deficiency-causes-functional-folate-deficiency"
+    },
+    {
+      "chunk_id": "c058",
+      "text": "Folate deficiency causes megaloblastic anemia. Rapidly dividing cells are affected by folic acid deficiency. Rapidly dividing cells require a large amount of thymidine for DNA synthesis. The bone marrow is clinically affected by this deficiency. The bone marrow being affected by this deficiency leads to megaloblastic anemia.\n\nSupplements of 400 µg/day of folic acid reduce the incidence of spina bifida and other neural tube defects if begun before conception. Many countries have mandatory enrichment of flour with folic acid due to its role in reducing neural tube defects. Elevated blood homocysteine is a significant risk factor for atherosclerosis, thrombosis, and hypertension. Impaired ability to form methyltetrahydrofolate by methylenetetrahydrofolate reductase causes functional folate deficiency. Impaired ability to form methyltetrahydrofolate by methylenetetrahydrofolate reductase results in the failure to remethylate homocysteine to methionine. People with an abnormal variant of methylenetetrahydrofolate reductase, occurring in 5 to 10% of the population, do not develop hyperhomocysteinemia if they have a relatively high intake of folate. Placebo-controlled trials of folate supplements, often combined with vitamins B_{6} and B_{12}, have shown a lowering of plasma homocysteine. Apart from a reduced incidence of stroke, there has been no effect on death from cardiovascular disease in these trials.",
+      "char_start": 51133,
+      "char_end": 52556,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Folate Deficiency Causes Megaloblastic Anemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "folate-deficiency-causes-megaloblastic-anemia"
+    },
+    {
+      "chunk_id": "c059",
+      "text": "Low folate status results in impaired methylation of CpG islands in DNA. Impaired methylation of CpG islands in DNA is a factor in the development of colorectal and other cancers. Studies suggest that folic acid supplementation or food enrichment may reduce the risk of developing some cancers. Evidence also suggests that folate supplements increase the rate of transformation of preneoplastic colorectal polyps into cancers. People with such polyps may be at increased risk of developing colorectal cancer if they have a high folate intake.",
+      "char_start": 52558,
+      "char_end": 53100,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Folate Deficiency Causes Megaloblastic Anemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "folate-deficiency-causes-megaloblastic-anemia"
+    },
+    {
+      "chunk_id": "c060",
+      "text": "Elderly people are at risk due to atrophic gastritis, which leads to failure of gastric acid secretion.\n\nMandatory enrichment of flour with folic acid is adopted by many countries to prevent neural tube defects.\n\nThere is antagonism between folic acid and some anticonvulsants used in the treatment of epilepsy.\n\nFolate supplements may increase the risk of developing colorectal cancer among people with preneoplastic colorectal polyps.",
+      "char_start": 53165,
+      "char_end": 53601,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET",
+        "Folic Acid Enrichment of Foods May Put Some People at Risk"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "folic-acid-enrichment-of-foods-may-put-some-people-at-risk"
+    },
+    {
+      "chunk_id": "c061",
+      "text": "Biotin is widely distributed in many foods as biocytin, which is released on proteolysis and subsequent metabolism by biotinidase to release free biotin. Biotin is synthesized by intestinal flora in excess of requirements. Deficiency can occur among people maintained for many months on total parenteral nutrition. Deficiency can also occur in a very small number who eat abnormally large amounts of uncooked egg white, which contains avidin, a protein that binds biotin and renders it unavailable for absorption. Biotin has to be absorbed and recycled. Biotinidase is critical for both absorption and recycling. Biotinidase deficiency due to a rare pathogenic genetic variant impairs this cycle, resulting in biotin deficiency. Biotinidase deficiency is part of a genetic newborn screening. Individuals with biotinidase deficiency are effectively treated with the free form of biotin. The structures of biotin, biocytin, and carboxybiotin (the active metabolic intermediate) are shown in Figure 44–14.",
+      "char_start": 53632,
+      "char_end": 54634,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "BIOTIN DEFICIENCY IS RARE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-14"
+      ],
+      "table_refs": [],
+      "section_id": "biotin-deficiency-is-rare"
+    },
+    {
+      "chunk_id": "c062",
+      "text": "Biotin functions as a coenzyme in the transfer of carbon dioxide in several enzymes: acetyl-CoA carboxylase, pyruvate carboxylase, propionyl-CoA carboxylase, and methylcrotonyl-CoA carboxylase.\n\nA holocarboxylase synthetase catalyzes the transfer of biotin onto a lysine residue of the apoenzyme to form the biocytin residue of the holoenzyme.\n\nThe reactive intermediate in this process is 1-N-carboxybiocytin, which is formed from bicarbonate in an ATP-dependent reaction.\n\nThe carboxyl group is then transferred to the substrate for carboxylation.\n\nBiotin also plays a role in the regulation of the cell cycle by biotinylation of key nuclear proteins.",
+      "char_start": 54744,
+      "char_end": 55397,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "BIOTIN DEFICIENCY IS RARE",
+        "Biotin Is a Coenzyme of Carboxylase Enzymes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biotin-is-a-coenzyme-of-carboxylase-enzymes"
+    },
+    {
+      "chunk_id": "c063",
+      "text": "Pantothenic acid acts as the pantetheine functional moiety of coenzyme A (CoA) or acyl carrier protein (ACP). The pantetheine moiety is formed when pantothenate combines with cysteine, which provides the—SH prosthetic group for CoA and ACP. CoA participates in the reactions of the citric acid cycle. CoA is involved in fatty acid oxidation. CoA takes part in acetylation reactions. CoA is necessary for cholesterol synthesis. ACP participates in fatty acid synthesis. The vitamin is widely distributed in all foodstuffs. Deficiency of pantothenic acid has not been unequivocally reported in humans except in specific depletion studies. The figure 44-15 illustrates pantothenic acid and coenzyme A, with an asterisk indicating the site of acylation by fatty acids (Figure 44–15).",
+      "char_start": 55481,
+      "char_end": 56260,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "AS PART OF COENZYME A & ACP, PANTOTHENIC ACID ACTS AS A CARRIER OF ACYL GROUPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-15"
+      ],
+      "table_refs": [],
+      "section_id": "as-part-of-coenzyme-a-acp-pantothenic-acid-acts-as-a"
+    },
+    {
+      "chunk_id": "c064",
+      "text": "Vitamin C is a vitamin for human beings and other primates, the guinea pig, bats, passeriform birds, and most fishes and invertebrates. Other animals synthesize Vitamin C as an intermediate in the uronic acid pathway of glucose metabolism. In species for which Vitamin C is a vitamin, gulonolactone oxidase is absent. Both ascorbic acid and dehydroascorbic acid have vitamin activity. Ascorbate is a form of Vitamin C. Monodehydroascorbate, also known as semidehydroascorbate, is an oxidized form of Vitamin C. Dehydroascorbate is another oxidized form of Vitamin C. This information is supported by Figure 44-16: Vitamin C and its oxidized forms. The source of this information is P. J. Kennelly, K. M. Botham, O. P. McGuinness, P. A. Weil: Harper's Illustrated Biochemistry, 33rd Edition, Copyright © McGraw Hill. All rights reserved.",
+      "char_start": 56417,
+      "char_end": 57253,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-44-16"
+      ],
+      "table_refs": [],
+      "section_id": "ascorbic-acid-is-a-vitamin-for-only-some-species"
+    },
+    {
+      "chunk_id": "c065",
+      "text": "Ascorbic acid has specific roles in the copper-containing hydroxylases. Ascorbic acid increases the activity of a number of other enzymes in vitro. The increase in activity is due to a nonspecific reducing action. Ascorbic acid has a number of nonenzymic effects. The nonenzymic effects are a result of its action as a reducing agent and oxygen radical quencher.\n\nCatecholamines are synthesized from tyrosine in the adrenal medulla and central nervous system.\n\nA number of peptide hormones have a carboxy-terminal amide that is derived from a terminal glycine residue.\n\nA number of iron-containing, ascorbate-requiring hydroxylases share a common reaction mechanism. Many of these enzymes are involved in the modification of precursor proteins. Proline and lysine hydroxylases are required for the postsynthetic modification of procollagen to collagen. Proline hydroxylase is also required in the formation of osteocalcin. Proline hydroxylase is required in the formation of the C1q component of complement. In these enzymes, ascorbate is required to reduce the iron prosthetic group after accidental oxidation during reaction. Ascorbate is neither consumed stoichiometrically with the substrates nor does it have a simple catalytic role.",
+      "char_start": 57603,
+      "char_end": 58841,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES",
+        "Vitamin C Is the Coenzyme for Two Groups of Hydroxylases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-c-is-the-coenzyme-for-two-groups-of-hydroxylases"
+    },
+    {
+      "chunk_id": "c066",
+      "text": "Vitamin C deficiency causes scurvy. Vitamin C deficiency leads to skin changes. Vitamin C deficiency causes fragility of blood capillaries. Vitamin C deficiency results in gum decay. Vitamin C deficiency leads to tooth loss. Vitamin C deficiency causes bone fracture. Vitamin C deficiency impairs collagen synthesis. Vitamin C deficiency causes psychological changes. Vitamin C deficiency impairs catecholamine synthesis.",
+      "char_start": 58882,
+      "char_end": 59303,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES",
+        "Vitamin C Deficiency Causes Scurvy"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamin-c-deficiency-causes-scurvy"
+    },
+    {
+      "chunk_id": "c067",
+      "text": "Vitamin C naturally occurs in fruits and vegetables. At intakes above about 100 mg/day, the body's capacity to metabolize vitamin C is saturated. Any further intake of vitamin C is excreted in the urine. Vitamin C enhances the absorption of inorganic iron. The enhancement depends on the presence of vitamin C in the gut. Increased intake of vitamin C may be beneficial in some circumstances. Increased intake of vitamin C is frequently prescribed together with iron supplements to treat iron deficiency anemia. There is very little good evidence that high doses of vitamin C prevent the common cold. There is very little good evidence that high doses of vitamin C prevent chronic disorders like heart disease, stroke, diabetes, or cancer. Vitamin C has antioxidant functions. Additional intake of vitamin C has limited benefits.",
+      "char_start": 59367,
+      "char_end": 60196,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES",
+        "There is limited Benefits From Higher Intake of Vitamin C"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-limited-benefits-from-higher-intake-of-vitamin-c"
+    },
+    {
+      "chunk_id": "c068",
+      "text": "Many essential minerals are widely distributed in foods, and most people eating a mixed diet are likely to receive adequate intakes. The amounts required for minerals vary from grams per day for sodium and calcium, through milligrams per day for iron and zinc, to micrograms per day for the trace elements. Mineral deficiencies occur when foods come from one region where the soil may be deficient in some minerals, such as iodine and selenium. When foods come from a variety of regions, mineral deficiency is less likely to occur. Iron deficiency is an important problem worldwide because if iron losses from the body are relatively high, such as from heavy menstrual blood loss or intestinal parasites, it is difficult to achieve an adequate intake to replace losses. However, 10% of the population, and more in some areas, are genetically at risk of iron overload. Iron overload leads to the formation of free radicals as a result of nonenzymic reactions of iron ions in free solution when the capacity of iron-binding proteins has been exceeded. Foods grown on soil containing high levels of selenium cause toxicity. Excessive intakes of sodium cause hypertension in susceptible people. Essential minerals are classified according to their function (Table 44-2).",
+      "char_start": 60268,
+      "char_end": 61534,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "MINERALS ARE REQUIRED FOR BOTH PHYSIOLOGIC & BIOCHEMICAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-44-2"
+      ],
+      "section_id": "minerals-are-required-for-both-physiologic-biochemical"
+    },
+    {
+      "chunk_id": "c069",
+      "text": "Calcium, magnesium, and phosphate are minerals with a structural function.\nSodium and potassium are involved in membrane electrical and transport function.\nCobalt, copper, iron, molybdenum, selenium, and zinc function as prosthetic groups in enzymes.\nCalcium, chromium, iodine, magnesium, manganese, sodium, and potassium have a regulatory role or role in hormone action.\nSilicon, vanadium, nickel, and tin are known to be essential, but their function is unknown.\nFluoride and lithium have effects in the body, but their essentiality is not established.\nAluminum, arsenic, antimony, boron, bromine, cadmium, cesium, germanium, lead, mercury, silver, and strontium may occur in foods and are known to be toxic in excess.",
+      "char_start": 61592,
+      "char_end": 62312,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals",
+        "MINERALS ARE REQUIRED FOR BOTH PHYSIOLOGIC & BIOCHEMICAL FUNCTIONS"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "minerals-are-required-for-both-physiologic-biochemical"
+    },
+    {
+      "chunk_id": "c070",
+      "text": "Vitamins are organic nutrients with essential metabolic functions that are required in small amounts in the diet because they cannot be synthesized by the body. The lipid-soluble vitamins (A, D, E, and K) are hydrophobic molecules requiring normal fat absorption for their absorption.\nVitamin D is a steroid prohormone yielding the active hormone calcitriol, which regulates calcium and phosphate metabolism; deficiency leads to rickets and osteomalacia. It has a role in controlling cell differentiation and insulin secretion.\nVitamin E (tocopherol) is the most important lipid-soluble antioxidant in the body, acting in the lipid phase of membranes protecting against the effects of free radicals.\nVitamin K functions as the cofactor of a carboxylase that acts on glutamate residues in the protein precursors of clotting factors and as well as osteocalcin and matrix 1a protein in bone, enabling them to chelate calcium.\nThe water-soluble vitamins act as enzyme cofactors. Riboflavin and niacin are important cofactors in oxidoreduction reactions, present in flavoprotein enzymes and in NAD and NADP, respectively.\nPantothenic acid is present in coenzyme A and ACP, which act as carriers of acyl groups in metabolic reactions.\nBiotin is the coenzyme for several carboxylase enzymes.\nVitamin C is a water-soluble antioxidant that maintains vitamin E and many metal cofactors in the reduced state.\nInorganic mineral elements that have a function in the body must be provided in the diet. When intake is insufficient, deficiency may develop, and excessive intakes may be toxic.",
+      "char_start": 62314,
+      "char_end": 63890,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-44-1",
+      "image_path": "images/0e1242adae3962287fdb25ebcd0cbf72fe8baa383b1144b06573d4abf975d4a2.jpg",
+      "caption": "β-Carotene and the major vitamin A vitamers. Asterisk shows the site of symmetrical cleavage of β-carotene by carotene dioxygenase, to yield retinaldehyde.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-44-1]",
+      "description": "",
+      "label": "Figure 44-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9786,
+        9941
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "two-groups-of-compounds-have-vitamin-a-activity"
+    },
+    {
+      "fig_id": "fig-44-2",
+      "image_path": "",
+      "caption": "The role of retinaldehyde in the visual cycle. ![](images/ab395887e9aba7d276b729ee758cb44d1eec4cbd14f7cc4c7923fb422c5e1424.jpg)",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-44-2]",
+      "description": "All-trans-retinol is converted to 11-cis-Retinol in the visual cycle.\n11-cis-Retinol is converted to 11-cis-Retinaldehyde in the visual cycle.\n11-cis-Retinaldehyde binds to the lysine residue in opsin in the visual cycle.\nThe lysine residue in opsin forms rhodopsin (visual purple) in the visual cycle.\nRhodopsin (visual purple) is activated by light in the visual cycle.\nActivated rhodopsin (visual purple) transforms into photorhodopsin in the visual cycle.\nPhotorhodopsin changes to bathorhodopsin in the visual cycle.\nBathorhodopsin converts to lumirhodopsin in the visual cycle.\nLumirhodopsin changes to metarhodopsin I in the visual cycle.\nMetarhodopsin I transforms into metarhodopsin II in the visual cycle.\nMetarhodopsin II persists for minutes in the visual cycle.\nMetarhodopsin II changes to metarhodopsin III in the visual cycle.\nMetarhodopsin III breaks down into all-trans-retinaldehyde and opsin in the visual cycle.\nAll-trans-retinaldehyde and opsin lead to the production of 5'GMP in the visual cycle.\n5'GMP causes the Na+ channel to close in the visual cycle.\nThe active phosphodiesterase converts cGMP to inactive in the visual cycle.\nInactive phosphodiesterase is activated by GTP in the visual cycle.\nGTP activates transducin to form transducin-GTP in the visual cycle.\nTransducin-GTP reverts to transducin-GDP in the visual cycle.\nTransducin-GDP releases a Pi in the visual cycle.\nThe diagram as a whole relates the role of retinaldehyde in the visual cycle.",
+      "label": "Figure 44-2",
+      "panel": "",
+      "content_chunk": "c008",
+      "caption_span": [
+        11502,
+        11629
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-a-has-a-function-in-vision"
+    },
+    {
+      "fig_id": "fig-44-3",
+      "image_path": "images/ae65409d780e23eee62ca0349e4b073eec6e14ca5ba763500e4e2f024390b130.jpg",
+      "caption": "The synthesis of vitamin D in the skin.",
+      "referenced_from": "c013",
+      "marker": "[FIGURE:fig-44-3]",
+      "description": "",
+      "label": "Figure 44-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        17611,
+        17650
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-d-is-synthesized-in-the-skin"
+    },
+    {
+      "fig_id": "fig-44-4",
+      "image_path": "",
+      "caption": "Metabolism of vitamin D. ![](images/6a15faa27ea15af1a4444d6f9620d19610626bd88f86db5c00196b4cc7e11a0e.jpg)",
+      "referenced_from": "c015",
+      "marker": "[FIGURE:fig-44-4]",
+      "description": "Cholecalciferol (calciol; vitamin D3) is converted to Calcidiol (25-hydroxycholecalciferol) by the enzyme Calciciol-25-hydroxylase.\nCalcidiol (25-hydroxycholecalciferol) is converted to Calcitriol (1,25-hydroxycholecalciferol) by the enzyme Calcidiol-1-hydroxylase.\nCalcitriol (1,25-hydroxycholecalciferol) is converted to 24-hydroxycalcidiol by the enzyme Calcidiol-24-hydroxylase.\n24-hydroxycalcidiol is converted to Calcitetrol by the enzyme Calcidiol-1-hydroxylase.\nThe diagram illustrates the metabolism of vitamin D.",
+      "label": "Figure 44-4",
+      "panel": "",
+      "content_chunk": "c016",
+      "caption_span": [
+        18303,
+        18408
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-d-is-metabolized-to-the-active-metabolite"
+    },
+    {
+      "fig_id": "fig-44-5",
+      "image_path": "images/550b0d7d5f271070f2a89e131ec9cc458926fee257ede08768e8f671ecc28b02.jpg",
+      "caption": "Vitamin E vitamers. In α -tocopherol and tocotrienol R1 , R2 , and R3 are all -CH3 groups. In the β -vitamers R2 is H, in the γ -vitamers R1 is H, and in the δ -vitamers R1 and R2 are both H.",
+      "referenced_from": "c022",
+      "marker": "[FIGURE:fig-44-5]",
+      "description": "",
+      "label": "Figure 44-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        24019,
+        24210
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-e-does-not-have-a-precisely-defined-metabolic"
+    },
+    {
+      "fig_id": "fig-44-7",
+      "image_path": "",
+      "caption": "The role of vitamin K in the synthesis of γ -carboxyglutamate. ![](images/a8376d2d0d22811764935e898412927bbcc29bc0225740ee80d7aba6a9384ca6.jpg)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-44-7]",
+      "description": "Glutamate residue is converted to Vitamin K epoxidase in the presence of O2.\nVitamin K epoxidase is transformed into Glutamate carbanion.\nGlutamate carbanion is converted to Vitamin K epoxide.\nVitamin K epoxide is transformed into Vitamin K quinone.\nVitamin K quinone is converted to Vitamin K quinone reductase.\nVitamin K quinone reductase is transformed into Vitamin K quinone reductase through a disulfide bond.\nVitamin K quinone reductase is converted to Quinone reductase with the help of NADPH.\nQuinone reductase is transformed into NADP+.\nNADP+ is converted to Vitamin K hydroquinone.\nVitamin K hydroquinone is transformed into Vitamin K quinone through a disulfide bond.\nVitamin K quinone is converted to Vitamin K quinone through a sulphydryl bond.\nVitamin K quinone is transformed into Vitamin K epoxide reductase through a sulphydryl bond.\nVitamin K epoxide reductase is converted to Vitamin K epoxide through a disulfide bond.\nVitamin K epoxide is transformed into Vitamin K epoxide through a sulphydryl bond.\nVitamin K epoxide is converted to Carboxyglutamate residue non-enzymically.\nCarboxyglutamate residue is transformed into CO2 non-enzymically.",
+      "label": "Figure 44-7",
+      "panel": "",
+      "content_chunk": "c027",
+      "caption_span": [
+        28104,
+        28247
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "fig_id": "fig-44-6",
+      "image_path": "images/707df616caeb707248f73ca1c5fb0bcf1f4267aa52d451a500c6ebbe0a165c41.jpg",
+      "caption": "The vitamin K vitamers. Menadiol (or menadione) and menadiol diacetate are synthetic compounds that are converted to menaquinone in the liver.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-44-6]",
+      "description": "",
+      "label": "Figure 44-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        29632,
+        29774
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-k-is-required-for-synthesis-of-blood-clotting"
+    },
+    {
+      "fig_id": "fig-44-8",
+      "image_path": "images/c89bbc3029c68d8ac3942221eb8387b0da1d646f7ab326e8b725a40b9f62f206.jpg",
+      "caption": "Thiamin.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-44-8]",
+      "description": "",
+      "label": "Figure 44-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        31239,
+        31247
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-b-thiamin-has-a-key-role-in-carbohydrate-metabolism"
+    },
+    {
+      "fig_id": "fig-44-9",
+      "image_path": "images/cd652625c1bd8ba0f1ec32c64e5f70d5024d7c0d25f2d23130f6398f8c3ac36c.jpg",
+      "caption": "Interconversion of the vitamin B6 vitamers.",
+      "referenced_from": "c042",
+      "marker": "[FIGURE:fig-44-9]",
+      "description": "Pyridoxine is converted to Pyridoxine phosphate by Kinase.\nPyridoxine phosphate is converted back to Pyridoxine by Phosphatase.\nPyridoxine is converted to Pyridoxal phosphate by Kinase.\nPyridoxal phosphate is converted back to Pyridoxine phosphate by Phosphatase.\nPyridoxal phosphate is converted to Pyridoxal phosphate by Kinase.\nPyridoxal phosphate is converted to Pyridoxine phosphate by Oxidase.\nPyridoxal phosphate is converted to Pyridoxamine phosphate by Aminotransferases.\nPyridoxamine phosphate is converted back to Pyridoxal phosphate by Phosphatase.\nPyridoxamine phosphate is converted to Pyridoxamine phosphate by Kinase.",
+      "label": "Figure 44-9",
+      "panel": "",
+      "content_chunk": "c043",
+      "caption_span": [
+        40409,
+        40452
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-b6-is-important-in-amino-acid-glycogen-m"
+    },
+    {
+      "fig_id": "fig-44-10",
+      "image_path": "images/bcc4a436613bc68f92e60d96f072bbd80e97f5a5caea376664850e87ef1e0719.jpg",
+      "caption": "Vitamin B 12 . Four coordination sites on the central cobalt atom are chelated by the nitrogen atoms of the corrin ring, and one by the nitrogen of the dimethylbenzimidazole nucleotide. The sixth coordination site may be occupied by CN - (cyanocobalamin), OH - (hydroxocobalamin), H 2 O (aquocobalamin, —CH 3 (methyl cobalamin), or 5'-deoxyadenosine (adenosylcobalamin).",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-44-10]",
+      "description": "",
+      "label": "Figure 44-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        43337,
+        43707
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "vitamin-b-12-is-found-only-in-foods-of-animal-origin"
+    },
+    {
+      "fig_id": "fig-44-11",
+      "image_path": "images/80290094a4fbc7e0516dfe83fef0455bbaeffb55c24a57d7e276e6cd2524f4f3.jpg",
+      "caption": "Homocysteine and the folate trap. Vitamin B12 deficiency leads to impairment of methionine synthase, resulting in accumulation of homocysteine and trapping folate as methyltetrahydrofolate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-44-11]",
+      "description": "",
+      "label": "Figure 44-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        44898,
+        45087
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "there-are-two-vitamin-b-12-dependent-enzymes"
+    },
+    {
+      "fig_id": "fig-44-12",
+      "image_path": "",
+      "caption": "Tetrahydrofolic acid and the one-carbon substituted folates. ![](images/bed9ae704bc1a3aeda61e6706615c74a1a5d5208b5bff58140999643842c5593.jpg)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-44-12]",
+      "description": "",
+      "label": "Figure 44-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        46702,
+        46843
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "there-are-multiple-forms-of-folate-in-the-diet"
+    },
+    {
+      "fig_id": "fig-44-13",
+      "image_path": "images/92994458f99501099401a47ff170dae52ccb6faf07be9a013526aa614a59a1df.jpg",
+      "caption": "Sources and utilization of one-carbon substituted folates.",
+      "referenced_from": "c053",
+      "marker": "[FIGURE:fig-44-13]",
+      "description": "Sources of one-carbon units include Serine.\nSources of one-carbon units include Glycine.\nSources of one-carbon units include Choline.\nSerine contributes to the formation of Methylene-THF.\nGlycine contributes to the formation of Methylene-THF.\nCholine contributes to the formation of Methylene-THF.\nMethylene-THF can be converted back into Serine.\nMethylene-THF can be converted into Methyl-THF.\nMethylene-THF can be converted into TMP + dihydrofolate.\nMethyl-THF is used in the synthesis of Methionine.\nTMP + dihydrofolate is involved in the synthesis of DNA.\nMethylene-THF can be converted into Methenyl-THF.\nMethenyl-THF is used in the synthesis of Histidine.\nMethenyl-THF can be converted into Formimino-THF.\nMethenyl-THF can be converted into Formate.\nHistidine synthesis involves Formyl-THF.\nFormimino-THF can be converted into Formate.\nFormate is used in the synthesis of Formyl-methionine.\nFormate is used in the synthesis of Purines.\nFormate can be converted into CO2.\nThe diagram illustrates the sources and utilization of one-carbon substituted folates.",
+      "label": "Figure 44-13",
+      "panel": "",
+      "content_chunk": "c054",
+      "caption_span": [
+        47410,
+        47468
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tetrahydrofolate-is-a-carrier-of-one-carbon-units"
+    },
+    {
+      "fig_id": "fig-44-14",
+      "image_path": "images/5910ff84ddbc09e81059dabfb02941e80348b571b1793de1cda72eac34c0e6a4.jpg",
+      "caption": "Biotin, biocytin, and carboxybiocytin.",
+      "referenced_from": "c061",
+      "marker": "[FIGURE:fig-44-14]",
+      "description": "",
+      "label": "Figure 44-14",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        54656,
+        54694
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biotin-deficiency-is-rare"
+    },
+    {
+      "fig_id": "fig-44-15",
+      "image_path": "images/81a01eb8e73d028aebe3b838bad20fab3a0c1e43eaba0efe1c9a00836a14f241.jpg",
+      "caption": "Pantothenic acid and coenzyme A. Asterisk shows site of acylation by fatty acids.",
+      "referenced_from": "c063",
+      "marker": "[FIGURE:fig-44-15]",
+      "description": "",
+      "label": "Figure 44-15",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        56282,
+        56363
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "as-part-of-coenzyme-a-acp-pantothenic-acid-acts-as-a"
+    },
+    {
+      "fig_id": "fig-44-16",
+      "image_path": "images/f5b236810140eed509e0479448fd2fdd39d7dceba203c66623c3c02e88551b8d.jpg",
+      "caption": "Vitamin C and its oxidized forms.",
+      "referenced_from": "c064",
+      "marker": "[FIGURE:fig-44-16]",
+      "description": "",
+      "label": "Figure 44-16",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        57275,
+        57308
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ascorbic-acid-is-a-vitamin-for-only-some-species"
+    },
+    {
+      "fig_id": "fig-x17",
+      "image_path": "images/706c67dfb40daa6552617b75b52efc72dc53b9680cdefab52b97e2a1c9cb1627.jpg",
+      "caption": "Chemical structure of a glucose derivative featuring hydroxyl and carboxylic acid functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x17]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        57328,
+        57428
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ascorbic-acid-is-a-vitamin-for-only-some-species"
+    },
+    {
+      "fig_id": "fig-x18",
+      "image_path": "images/4202705d7f5e9fe931fc250904a0dcec57415eb8c203003f2e36666fd0238121.jpg",
+      "caption": "Chemical structure of a cyclic sugar molecule featuring hydroxyl and carboxylic acid groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x18]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        57448,
+        57540
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ascorbic-acid-is-a-vitamin-for-only-some-species"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-44-1",
+      "label": "Table 44-1",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "vitamins-are-a-disparate-group-of-compounds-with-a-variety"
+    },
+    {
+      "table_id": "tbl-44-2",
+      "label": "Table 44-2",
+      "caption": "Classification of Minerals According to Their Function",
+      "referenced_from": "c068",
+      "content_chunk": "c069",
+      "caption_span": [
+        61536,
+        61590
+      ],
+      "section_id": "minerals-are-required-for-both-physiologic-biochemical"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe how reference intakes for vitamins and minerals are determined and explain why reference intakes published by different national and international authorities differ.\nDefine a vitamin and describe the metabolism, principal functions, deficiency diseases associated with inadequate intake, and the toxicity of excessive intakes of the vitamins.\nExplain why mineral salts are required in the diet.\nThis was adapted from chapter in 30th edition by David A. Bender, PhD.",
+      "char_start": 39,
+      "char_end": 514,
+      "section_path": [
+        "Micronutrients: Vitamins & Minerals"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x17",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x18",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-44-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-44-1",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-44-1",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_44_micronutrients_vitamins_and_minerals.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_44_micronutrients_vitamins_and_minerals/chapter_44_micronutrients_vitamins_and_minerals.normalized.md"
+}

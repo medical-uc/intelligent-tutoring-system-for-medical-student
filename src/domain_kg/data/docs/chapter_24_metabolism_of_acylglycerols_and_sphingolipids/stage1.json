@@ -1,0 +1,541 @@
+{
+  "doc_id": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids",
+  "source": {
+    "source_id": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids",
+    "title": "Metabolism of Acylglycerols & Sphingolipids",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "The chapter discusses the metabolism of acylglycerols and sphingolipids, including their biosynthesis, degradation, and roles in cellular functions.",
+    "page": null,
+    "origin": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 01:15:37"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Acylglycerols constitute the majority of lipids in the body. Triacylglycerols are the major lipids in fat deposits and in food. Triacylglycerols play roles in lipid transport and storage. Triacylglycerols are involved in diseases such as obesity, diabetes, and hyperlipoproteinemia. The amphipathic nature of phospholipids and sphingolipids makes them suitable as the main lipid component of cell membranes. Phospholipids participate in the metabolism of many other lipids. Dipalmitoyl lecithin is a major component of lung surfactant. Dipalmitoyl lecithin is lacking in respiratory distress syndrome of the newborn. Inositol phospholipids in the cell membrane act as precursors of hormone second messengers. Platelet-activating factor (PAF) is an alkylphospholipid. PAF functions in the mediation of inflammation. Glycosphingolipids contain sphingosine and sugar residues as well as a fatty acid. Glycosphingolipids are found in the outer leaflet of the plasma membrane. The oligosaccharide chains of glycosphingolipids face outward. Glycosphingolipids form part of the glycocalyx of the cell surface. Glycosphingolipids are important in cell adhesion and cell recognition. Glycosphingolipids act as receptors for bacterial toxins, such as cholera toxin. Glycosphingolipids are ABO blood group substances. Glycolipid storage diseases are known, such as Gaucher disease and Tay-Sachs disease. Genetic defects in the pathway for glycolipid degradation in the lysosomes cause glycolipid storage diseases.",
+      "char_start": 1068,
+      "char_end": 2570,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Triacylglycerols must be hydrolyzed by a lipase to their constituent fatty acids and glycerol before further catabolism can proceed.\n\nHydrolysis of triacylglycerols is often referred to as lipolysis.\n\nLipolysis primarily occurs in adipose tissue.\n\nFree fatty acids are released into the plasma during lipolysis.\n\nIn the plasma, free fatty acids are combined with serum albumin.\n\nFree fatty acids are taken up by tissues including liver, heart, kidney, muscle, lung, testis, and adipose tissue.\n\nBrain tissue does not readily take up free fatty acids.\n\nFree fatty acids are oxidized in tissues to obtain energy.\n\nFree fatty acids can be reesterified in tissues.\n\nGlycerol can be used to reform acylglycerols.\n\nGlycerol can be metabolized via the glycolysis pathway in tissues that have glycerol kinase.\n\nGlycerol kinase is found in significant amounts in liver, kidney, intestine, brown adipose tissue, and the lactating mammary gland.",
+      "char_start": 2627,
+      "char_end": 3561,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "HYDROLYSIS INITIATES CATABOLISM OF TRIACYLGLYCEROLS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hydrolysis-initiates-catabolism-of-triacylglycerols"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Glycerol-3-phosphate is a precursor for the formation of triacylglycerols. Glycerol-3-phosphate is a precursor for the formation of phosphatidylcholine. Glycerol-3-phosphate is a precursor for the formation of phosphatidylethanolamine. Glycerol-3-phosphate is a precursor for the formation of phosphatidylinositol. Glycerol-3-phosphate is a precursor for the formation of cardiolipin. Phosphatidate is a significant branch point in the pathway of acylglycerol and phosphoglycerol biosynthesis. Diacylglycerol is a significant branch point in the pathway of acylglycerol and phosphoglycerol biosynthesis. Dihydroxyacetone phosphate is the precursor for phosphoglycerols containing an ether link, such as plasmalogens and platelet-activating factor (PAF). Glycerol-3-phosphate is an intermediate in glycolysis, connecting carbohydrate and lipid metabolism. Dihydroxyacetone phosphate is an intermediate in glycolysis, connecting carbohydrate and lipid metabolism. Both glycerol and fatty acid components must be activated by ATP before they can be incorporated into acylglycerols. Glycerol kinase catalyzes the activation of glycerol to sn-glycerol-3-phosphate. In muscle or adipose tissue, where glycerol kinase activity is absent or low, most glycerol-3-phosphate is formed from dihydroxyacetone phosphate by glycerol-3-phosphate dehydrogenase (Figure 24--2).\n\nFigure 24-1provides an overview of acylglycerol biosynthesis. Figure 24-2illustrates the biosynthesis of triacylglycerol and phospholipids.",
+      "char_start": 3646,
+      "char_end": 5146,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-24-1",
+        "fig-24-2"
+      ],
+      "table_refs": [],
+      "section_id": "triacylglycerols-phosphoglycerols-are-formed-by-acylation"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Acyl-CoA combines with glycerol-3-phosphate to produce phosphatidate in two successive reactions. Glycerol-3-phosphate acyltransferase catalyzes the first reaction in phosphatidate production. 1-acylglycerol-3-phosphate acyltransferase catalyzes the second reaction in phosphatidate production. Phosphatidate is converted to triacylglycerol in two steps. Phosphatidate phosphohydrolase, also called phosphatidate phosphatase (PAP), catalyzes the first step in converting phosphatidate to triacylglycerol. Diacylglycerol acyltransferase (DGAT) catalyzes the second step in converting phosphatidate to triacylglycerol. Diacylglycerol acyltransferase (DGAT) catalyzes the only step specific for triacylglycerol synthesis. Diacylglycerol acyltransferase (DGAT) is thought to be rate limiting in most circumstances. In the intestinal mucosa, monoacylglycerol acyltransferase converts monoacylglycerol to 1,2-diacylglycerol in the monoacylglycerol pathway.",
+      "char_start": 5350,
+      "char_end": 6300,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+        "Biosynthesis of Triacylglycerols"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-triacylglycerols"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The biosynthesis of phosphatidylcholine involves the conversion of phosphatidate to 1,2-diacylglycero. The biosynthesis of phosphatidylethanolamine involves the conversion of phosphatidate to 1,2-diacylglycero. Choline must be activated by phosphorylation by ATP before the next step in phosphatidylcholine biosynthesis. Ethanolamine must be activated by phosphorylation by ATP before the next step in phosphatidylethanolamine biosynthesis. Activated choline is linked to CDP to form CDP-choline. Activated ethanolamine is linked to CDP to form CDP-ethanolamine. CDP-choline reacts with 1,2-diacylglycerol to form phosphatidylcholine. CDP-ethanolamine reacts with 1,2-diacylglycerol to form phosphatidylethanolamine. Phosphatidylinositol formation involves linking phosphatidate to CDP to form CDP-diacylglycerol. CDP-diacylglycerol is linked to inositol by phosphatidylinositol synthase to form phosphatidylinositol. Phosphatidylinositol 4,5 bisphosphate (PIP2) is synthesized by two further kinase catalyzed steps from phosphatidylinositol. PIP2 regulates essential cell functions including signal transduction and vesicle trafficking. Phosphatidylserine is formed from phosphatidylethanolamine by reaction with serine. Phosphatidylserine can be converted back to phosphatidylethanolamine by decarboxylation. An alternative pathway in the liver enables phosphatidylethanolamine to give rise directly to phosphatidylcholine by progressive methylation of the ethanolamine residue. Despite these endogenous sources, choline is considered an essential nutrient for humans and other mammals. Triacylglycerol, phosphatidylcholine, and phosphatidylethanolamine biosynthesis is driven by the availability of free fatty acids. Free fatty acids are preferentially converted to phospholipids when not required for oxidation. When phospholipid requirements are satisfied, free fatty acids are used for triacylglycerol synthesis. Cardiolipin, or diphosphatidylglycerol, is present in the mitochondrial inner membrane. Cardiolipin has a key role in mitochondrial structure and function. Cardiolipin is thought to be involved in programmed cell death (apoptosis). Cardiolipin is formed from phosphatidylglycerol. Phosphatidylglycerol is synthesized from CDP-diacylglycerol and glycerol-3-phosphate.",
+      "char_start": 6336,
+      "char_end": 8621,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+        "Biosynthesis of Phospholipids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-phospholipids"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "In glycerol ether phospholipids, one or more of the glycerol carbons is attached to a hydrocarbon chain by an ether linkage rather than an ester bond. Plasmalogens and PAF are important examples of this type of lipid. The biosynthetic pathway for glycerol ether phospholipids is located in peroxisomes. Dihydroxyacetone phosphate combines with acyl-CoA to form 1-acyldihydroxyacetone phosphate. The ether link is formed in the next reaction, producing 1-alkyldihydroxyacetone phosphate. 1-Alkyldihydroxyacetone phosphate is then converted to 1-alkylglycerol 3-phosphate. After further acylation in the 2 position, the resulting 1-alkyl-2-acylglycerol 3-phosphate is hydrolyzed to give 1-alkyl-2-acylglycerol. The next steps in phospholipid biosynthesis require CDP-ethanolamine and CDP-choline, respectively. Plasmalogens are produced by desaturation of the resulting 3-phosphoethanolamine derivative. PAF (1-alkyl-2-acetyl-sn-glycerol-3-phosphocholine) is synthesized by acetylation of the corresponding 3-phosphocholine derivative. Production of PAF occurs in many cell types, but particularly in leukocytes and endothelial cells. PAF was recognized initially for its platelet aggregating properties but is now known to mediate inflammation and can contribute to allergic reactions and shock. Figure 24-3illustrates the biosynthesis of ether lipids, including plasmalogens, and platelet-activating factor (PAF). In the de novo pathway for PAF synthesis, acetyl-CoA is incorporated at stage, avoiding the last two steps in the pathway shown here (Figure 24-3).",
+      "char_start": 8672,
+      "char_end": 10233,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+        "Biosynthesis of Glycerol Ether Phospholipids"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-24-3"
+      ],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-glycerol-ether-phospholipids"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Phospholipids are actively degraded, but each part of the molecule turns over at a different rate. The turnover time of the phosphate group differs from that of the 1-acyl group. Enzymes allow partial degradation followed by resynthesis (Figure 24--4).\n\nLysophospholipid may be reacylated by acyl-CoA in the presence of an acyltransferase. Lysophospholipid, such as lysolecithin, is attacked by lysophospholipase, forming the corresponding glyceryl phosphoryl base. Choline is an example of a base that can be formed. The glyceryl phosphoryl base may then be split by a hydrolase, liberating glycerol-3-phosphate plus base.",
+      "char_start": 10552,
+      "char_end": 11175,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+        "Phospholipases Allow Degradation & Remodeling of Phosphoglycerols"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipases-allow-degradation-remodeling-of"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Phospholipase C is one of the major toxins secreted by bacteria. Phospholipase D is involved in mammalian signal transduction.\n\nLysophosphatidylcholine, also called lysolecithin, may be formed by an alternative route involving lecithin (phosphatidylcholine): cholesterol acyltransferase (LCAT). LCAT is found in plasma and catalyzes the transfer of a fatty acid residue from the 2 position of lecithin to cholesterol, forming cholesteryl ester and lysolecithin. LCAT is responsible for much of the cholesteryl ester in plasma lipoproteins (see Chapter 25).\n\nLong-chain saturated fatty acids are found predominantly in the 1 position of phospholipids. Polyunsaturated fatty acids, such as the precursors of prostaglandins, are incorporated more frequently into the 2 position. Fatty acids are incorporated into phosphatidylcholine in three ways: by complete synthesis of the phospholipid (see Figure 24--4), by transacylation between cholesteryl ester and lysophosphatidylcholine, and by direct acylation of lysophosphatidylcholine by acyl-CoA. A continuous exchange of fatty acids is possible, particularly for introducing essential fatty acids into phospholipid molecules (see Chapter 21).",
+      "char_start": 11343,
+      "char_end": 12533,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+        "Phospholipases Allow Degradation & Remodeling of Phosphoglycerols"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipases-allow-degradation-remodeling-of"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Ceramide is synthesized in the endoplasmic reticulum from the amino acid serine (Figure 24-6). Ceramide is an important signaling molecule regulating pathways including programmed cell death (apoptosis), the cell cycle, and cell differentiation and senescence. Sphingomyelins are phospholipids formed when ceramide reacts with phosphatidylcholine, resulting in sphingomyelin plus diacylglycerol (Figure 24-7A). The reaction occurs mainly in the Golgi apparatus and to a lesser extent in the plasma membrane. Sphingolipids are formed from ceramide. Galactosylceramide and its sulfo derivative are synthesized as part of the sphingolipid pathway (Figure 24-7B).",
+      "char_start": 12581,
+      "char_end": 13240,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-24-6",
+        "fig-24-7"
+      ],
+      "table_refs": [],
+      "section_id": "all-sphingolipids-are-formed-from-ceramide"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The simplest glycosphingolipids are cerebrosides, which include galactosylceramide (GalCer) and glucosylceramide (GlcCer). GalCer is a major lipid component of myelin. GlcCer is the primary glycosphingolipid in extraneural tissues. GlcCer serves as a precursor for more complex glycosphingolipids. GalCer is formed from a reaction between ceramide and uridine diphosphate galactose (UDPGal). UDPGal is formed by epimerization from UDPGlc. Sulfogalactosylceramide, or sulfatide, is part of the myelin sheath. Sulfatide is created through a reaction involving 3'-phosphoadenosine-5'-phosphosulfate (PAPS).\n\nGangliosides are located in cell membranes. Gangliosides are synthesized from ceramide by the sequential addition of activated sugars, such as UDPGlc and UDPGal, and a sialic acid, typically N-acetylneuraminic acid (Figure 24-8). Various gangliosides with increasing molecular weights can be formed. The enzymes that transfer sugars from nucleotide sugars, known as glycosyl transferases, are primarily found in the Golgi apparatus. Certain gangliosides act as receptors for bacterial toxins, such as cholera toxin. Cholera toxin activates adenylyl cyclase.",
+      "char_start": 13528,
+      "char_end": 14690,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Ceramide and One or More Sugar Residues Form Glycosphingolipids"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-24-8"
+      ],
+      "table_refs": [],
+      "section_id": "ceramide-and-one-or-more-sugar-residues-form"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Glycosphingolipids are components of the outer leaflet of plasma membranes. Glycosphingolipids play roles in cell adhesion, cell recognition, and signal transduction. Some glycosphingolipids function as antigens. Some glycosphingolipids are antigens for the ABO blood group substances.",
+      "char_start": 14776,
+      "char_end": 15061,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Ceramide and One or More Sugar Residues Form Glycosphingolipids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ceramide-and-one-or-more-sugar-residues-form"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Lung surfactant is composed mainly of lipid with some proteins and carbohydrate.\n\nLung surfactant prevents the alveoli from collapsing.\n\nThe phospholipid dipalmitoyl-phosphatidylcholine decreases surface tension at the air-liquid interface.\n\nThe phospholipid dipalmitoyl-phosphatidylcholine greatly reduces the work of breathing.\n\nOther surfactant lipid and protein components are also important in surfactant function.\n\nDeficiency of lung surfactant in the lungs of many preterm newborns gives rise to infant respiratory distress syndrome (IRDS).\n\nAdministration of either natural or artificial surfactant is of therapeutic benefit.",
+      "char_start": 15134,
+      "char_end": 15767,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Deficiency of Lung Surfactant Causes Respiratory Distress Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "deficiency-of-lung-surfactant-causes-respiratory-distress"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Certain diseases are characterized by abnormal quantities of lipids in the tissues. Certain diseases often affect the nervous system. Certain diseases can be classified into two groups: true demyelinating diseases and sphingolipidoses.\n\nIn multiple sclerosis, a demyelinating disease, there is a loss of phospholipids, particularly ethanolamine plasmalogen, from white matter. In multiple sclerosis, a demyelinating disease, there is a loss of sphingolipids from white matter. The lipid composition of white matter in multiple sclerosis resembles that of gray matter. The cerebrospinal fluid shows raised phospholipid levels in multiple sclerosis.",
+      "char_start": 15850,
+      "char_end": 16497,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Sphingolipidoses are a group of inherited diseases caused by a genetic defect in the catabolism of lipids containing sphingosine. Sphingolipidoses are part of a larger group of lysosomal disorders where complex lipids containing ceramide accumulate in cells, particularly neurons. The accumulation of complex lipids in cells causes neurodegeneration and shortens the life span. The enzymatic defect in sphingolipidoses is in the degradation pathway of sphingolipids in lysosomes. The rate of synthesis of the stored lipid is normal in sphingolipidoses. There is no effective treatment for many of these diseases. Enzyme replacement therapy is now used successfully for Gaucher and Fabry diseases. Gene therapy for lysosomal disorders is also currently under investigation. Some examples of the more important lipid storage diseases are shown in Table 24-1.",
+      "char_start": 16499,
+      "char_end": 17355,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-24-1"
+      ],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Tay-Sachs disease is caused by a deficiency in Hexosaminidase A, S.\nIn Tay-Sachs disease, the lipid accumulating is GM2 Ganglioside.\nClinical symptoms of Tay-Sachs disease include mental retardation, blindness, and muscular weakness.\nFabry disease results from a deficiency in alpha-Galactosidase.\nIn Fabry disease, the lipid accumulating is Globotriaosylceramide.\nClinical symptoms of Fabry disease include skin rash and kidney failure, with full symptoms only in males due to it being X-linked recessive.\nMetachromatic leukodystrophy is caused by a deficiency in Arylsulfatase A.\nIn metachromatic leukodystrophy, the lipid accumulating is 3-Sulfogalactosylceramide.\nClinical symptoms of metachromatic leukodystrophy include mental retardation and psychologic disturbances in adults, as well as demyelination.\nKrabbe disease results from a deficiency in beta-Galactosidase.\nIn Krabbe disease, the lipid accumulating is Galactosylceramide.\nClinical symptoms of Krabbe disease include mental retardation and almost absent myelin.\nGaucher disease is caused by a deficiency in beta-Glucosidase.\nIn Gaucher disease, the lipid accumulating is Glucosylceramide.\nClinical symptoms of Gaucher disease include enlarged liver and spleen, erosion of long bones, and mental retardation in infants.\nNiemann-Pick disease types A and B result from a deficiency in Sphingomyelinase.\nIn Niemann-Pick disease types A and B, the lipid accumulating is Sphingomyelin.\nClinical symptoms of Niemann-Pick disease types A and B include enlarged liver and spleen, mental retardation, and are fatal in early life.\nFarber disease is caused by a deficiency in Ceramidase.\nIn Farber disease, the lipid accumulating is Ceramide.\nClinical symptoms of Farber disease include hoarseness, dermatitis, skeletal deformation, mental retardation, and are fatal in early life.",
+      "char_start": 17387,
+      "char_end": 19223,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Multiple sulfatase deficiency results in the accumulation of sulfogalactosylceramide, steroid sulfates, and proteoglycans. Multiple sulfatase deficiency is due to a combined deficiency of arylsulfatases A, B, and C and steroid sulfatase. Symptoms of multiple sulfatase deficiency include abnormalities in neurologic and metabolic functions. Symptoms of multiple sulfatase deficiency include abnormalities in hearing, sight, and bone.",
+      "char_start": 19225,
+      "char_end": 19658,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Metachromatic leukodystrophy is characterized by a build-up of sulfatides in tissues. A defect in arylsulfatase A causes the build-up of sulfatides in tissues. The build-up of sulfatides leads to irreversible damage to the myelin sheath.",
+      "char_start": 19677,
+      "char_end": 19914,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids",
+        "ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+        "Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Triacylglycerols and some phosphoglycerols are synthesized by progressive acylation of glycerol-3-phosphate. The pathway bifurcates at phosphatidate, forming inositol phospholipids and cardiolipin on the one hand and triacylglycerol and choline and ethanolamine phospholipids on the other.\nPlasmalogens and PAF are ether phospholipids formed from dihydroxyacetone phosphate.\nSphingolipids are formed from ceramide (N-acylsphingosine). Sphingomyelin is present in membranes of organelles involved in secretory processes (eg, Golgi apparatus). The simplest glycosphingolipids are a combination of ceramide plus a sugar residue (eg, GalCer in myelin) Gangliosides are more complex glycosphingolipids containing more sugar residues plus sialic acid. They are present in the outer layer of the plasma membrane, where they contribute to the glycocalyx and are important as antigens and cell receptors.\nPhospholipids and sphingolipids are involved in several disease processes, including infant respiratory distress syndrome (lack of lung surfactant), multiple sclerosis (demyelination), and sphingolipidoses (inability to break down sphingolipids in lysosomes due to inherited defects in hydrolase enzymes).",
+      "char_start": 19916,
+      "char_end": 21117,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-24-1",
+      "image_path": "",
+      "caption": "Overview of acylglycerol biosynthesis. (PAF, platelet-activating factor.)",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-24-1]",
+      "description": "",
+      "label": "Figure 24-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5167,
+        5240
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "triacylglycerols-phosphoglycerols-are-formed-by-acylation"
+    },
+    {
+      "fig_id": "fig-24-2",
+      "image_path": "",
+      "caption": "Biosynthesis of triacylglycerol and phospholipids.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-24-2]",
+      "description": "",
+      "label": "Figure 24-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5261,
+        5311
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "triacylglycerols-phosphoglycerols-are-formed-by-acylation"
+    },
+    {
+      "fig_id": "fig-24-3",
+      "image_path": "",
+      "caption": "Biosynthesis of ether lipids, including plasmalogens, and platelet-activating factor (PAF). In the de novo pathway for PAF synthesis, acetyl-CoA is incorporated at stage , avoiding the last two steps in the pathway shown here.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-24-3]",
+      "description": "",
+      "label": "Figure 24-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10254,
+        10480
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biosynthesis-of-glycerol-ether-phospholipids"
+    },
+    {
+      "fig_id": "fig-24-4",
+      "image_path": "",
+      "caption": "Metabolism of phosphatidylcholine (lecithin).",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-24-4]",
+      "description": "",
+      "label": "Figure 24-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11196,
+        11241
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phospholipases-allow-degradation-remodeling-of"
+    },
+    {
+      "fig_id": "fig-24-5",
+      "image_path": "",
+      "caption": "Sites of the hydrolytic activity of phospholipases on a phospholipid substrate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-24-5]",
+      "description": "",
+      "label": "Figure 24-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11262,
+        11341
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phospholipases-allow-degradation-remodeling-of"
+    },
+    {
+      "fig_id": "fig-24-6",
+      "image_path": "",
+      "caption": "Biosynthesis of ceramide.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-24-6]",
+      "description": "",
+      "label": "Figure 24-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13261,
+        13286
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "all-sphingolipids-are-formed-from-ceramide"
+    },
+    {
+      "fig_id": "fig-24-7",
+      "image_path": "",
+      "caption": "Biosynthesis of (A) sphingomyelin, (B) galactosylceramide and its sulfo derivative. (PAPS, “active sulfate,” adenosine 3′-phosphate-5′ phosphosulfate.)",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-24-7]",
+      "description": "",
+      "label": "Figure 24-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13307,
+        13458
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "all-sphingolipids-are-formed-from-ceramide"
+    },
+    {
+      "fig_id": "fig-24-8",
+      "image_path": "",
+      "caption": "Biosynthesis of gangliosides. (NeuAc, N-acetylneuraminic acid.)",
+      "referenced_from": "c010",
+      "marker": "[FIGURE:fig-24-8]",
+      "description": "",
+      "label": "Figure 24-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14711,
+        14774
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ceramide-and-one-or-more-sugar-residues-form"
+    },
+    {
+      "fig_id": "fig-x9",
+      "image_path": "images/46632beaa1c606337cb792d366a04b33ba9c86f91648530ac6f9946352972b66.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x9]",
+      "description": "",
+      "label": "",
+      "panel": "Abbrevia",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-24-1",
+      "label": "Table 24-1",
+      "caption": "Examples of Sphingolipidoses",
+      "referenced_from": "c014",
+      "content_chunk": "c015",
+      "caption_span": [
+        17357,
+        17385
+      ],
+      "section_id": "phospholipids-sphingolipids-are-involved-in-multiple"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain that the catabolism of triacylglycerols involves hydrolysis to free fatty acids and glycerol and indicate the fate of these metabolites.\nIndicate that glycerol-3-phosphate is the substrate for the formation of both triacylglycerols and phosphoglycerols and that a branch point at phosphatidate leads to the synthesis of inositol phospholipids and cardiolipin and/or triacylglycerols and other phospholipids.\nExplain that plasmalogens and platelet-activating factor (PAF) are formed by a complex pathway starting from dihydroxyacetone phosphate.\nIllustrate the role of various phospholipases in the degradation and remodeling of phospholipids.\nExplain that ceramide is the precursor from which all sphingolipids are formed.\nIndicate how sphingomyelin and glycosphingolipids are produced by the reaction of ceramide with phosphatidylcholine or sugar residue(s), respectively.\nIdentify examples of disease processes caused by defects in phospholipid or sphingolipid synthesis or breakdown.",
+      "char_start": 47,
+      "char_end": 1041,
+      "section_path": [
+        "Metabolism of Acylglycerols & Sphingolipids"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-24-8",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_24_metabolism_of_acylglycerols_and_sphingolipids.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_24_metabolism_of_acylglycerols_and_sphingolipids/chapter_24_metabolism_of_acylglycerols_and_sphingolipids.normalized.md"
+}

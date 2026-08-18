@@ -1,0 +1,666 @@
+{
+  "doc_id": "chapter_18_metabolism_of_glycogen",
+  "source": {
+    "source_id": "chapter_18_metabolism_of_glycogen",
+    "title": "Metabolism of Glycogen",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "Glycogen metabolism involves the synthesis and breakdown of glycogen, regulated by enzymes and hormones, with differences in liver and muscle.",
+    "page": null,
+    "origin": "chapter_18_metabolism_of_glycogen.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 23:12:58"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Glycogen is the major storage carbohydrate in animals. Glycogen is a branched polymer of α-D-glucose. Glycogen occurs mainly in liver and muscle, with modest amounts in the brain. The concentration of glycogen in the liver is greater than that in muscle. The total muscle mass of the body is considerably greater than that of the liver. About three-quarters of total body glycogen is in muscle.",
+      "char_start": 306,
+      "char_end": 700,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Liver glycogen constitutes 5.0 percent of tissue weight.\nLiver glycogen is stored in 1.8 kg of tissue weight.\nLiver glycogen accounts for 90 grams of body content.\nMuscle glycogen constitutes 0.7 percent of tissue weight.\nMuscle glycogen is stored in 35 kg of tissue weight.\nMuscle glycogen accounts for 245 grams of body content.\nExtracellular glucose constitutes 0.1 percent of tissue weight.\nExtracellular glucose is stored in 14 liters of tissue weight.\nExtracellular glucose accounts for 14 grams of body content.",
+      "char_start": 745,
+      "char_end": 1263,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Liver glycogen functions as a reserve to maintain the blood glucose concentration in the fasting state. The liver makes about 9 grams of glucose per hour after an overnight fast, of which 6 g/h is used by glucose-requiring tissues such as the brain and red blood cells. The total glycogen mass in the liver is approximately 90 g. If liver glycogen was the only source of glucose, it would last for about 10 hours. However, gluconeogenesis provides another source of glucose in the liver, so glycogen stores do not deplete as rapidly. After fasting for about 6 to 8 hours, liver glycogen stores decrease to about 20 g. Liver glycogen stores decrease to about 20 g depends on when the last meal was eaten, the rate of intestinal absorption of carbohydrates, and the composition of the last meal. If breakfast and lunch are skipped, by dinner time, liver glycogen is almost totally depleted.",
+      "char_start": 1265,
+      "char_end": 2153,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Muscle glycogen provides a readily available source of glucose-1-phosphate for glycolysis within the muscle itself. Muscle glycogen breakdown does not directly yield free glucose because muscle lacks glucose-6-phosphatase. During muscle glycogenolysis, pyruvate formed by glycolysis in muscle can be transaminated to alanine or reduced to lactate. Muscle protein stores can be broken down to release glucogenic amino acids, which can be exported from muscle and used for gluconeogenesis in the liver. After a meal, about 50% of liver glycogen accretion is from diversion of gluconeogenic carbon into glycogen, known as indirect glycogen synthesis.\n\nGlycogen storage diseases are a rare group of inherited disorders, affecting fewer than 1 in 20,000 people. Glycogen storage diseases are characterized by deficient mobilization of glycogen or deposition of abnormal forms of glycogen, leading to liver damage and muscle weakness. Some glycogen storage diseases result in early death. Glycogen storage diseases are inherited in an autosomal recessive fashion, with the exception of type IX and Danon disease, which are X-linked recessive.",
+      "char_start": 2155,
+      "char_end": 3291,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Type 0 glycogen storage disease involves a deficiency in glycogen synthase, affecting the genes GYS2 and GYS1. Type 0 glycogen storage disease is characterized by hypoglycemia, hyperketonemia, and early death. Type I glycogen storage disease, known as von Gierke disease, involves a deficiency in glucose-6-phosphatase or the endoplasmic reticulum glucose-6-phosphate transporter, affecting the genes G6PC and SLC37A4. Type I glycogen storage disease is characterized by glycogen accumulation in liver and renal tubule cells, hypoglycemia, lactic acidemia, ketosis, and hyperlipemia. Type II glycogen storage disease, known as Pompe disease, involves a deficiency in lysosomal α1→4 and α1→6 glucosidase (acid maltase), affecting the gene GAA. Type II glycogen storage disease is characterized by the accumulation of glycogen in lysosomes. The juvenile-onset variant leads to muscle hypotonia and death from heart failure by age 2, while the adult-onset variant leads to muscle dystrophy.",
+      "char_start": 3293,
+      "char_end": 4280,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Type III glycogen storage disease, known as Cori/Forbes disease, involves a deficiency in the liver and muscle debranching enzyme, affecting the gene AGL. Type III glycogen storage disease is characterized by fasting hypoglycemia, hepatomegaly in infancy, accumulation of characteristic branched polysaccharide (limit dextrin), and variable muscle weakness. Type IV glycogen storage disease, known as Amylopectinosis or Andersen disease, involves a deficiency in the glycogen branching enzyme, affecting the gene GBE1. Type IV glycogen storage disease is characterized by hepatosplenomegaly, accumulation of polysaccharide with few branch points, and death from heart or liver failure before age 5. Type V glycogen storage disease, known as McArdle disease, involves a deficiency in muscle phosphorylase, affecting the gene PYGM. Type V glycogen storage disease is characterized by poor exercise tolerance and abnormally high muscle glycogen (2.5-4%), with very low blood lactate after exercise. Type VI glycogen storage disease, known as Hers disease, involves a deficiency in liver phosphorylase, affecting the gene PYGL. Type VI glycogen storage disease is characterized by hepatomegaly, accumulation of glycogen in the liver, mild hypoglycemia, and generally good prognosis. Type VII glycogen storage disease, known as Tarui disease, involves a deficiency in muscle and erythrocyte phosphofructokinase 1, affecting the gene PFKM. Type VII glycogen storage disease is characterized by poor exercise tolerance, abnormally high muscle glycogen (2.5-4%), very low blood lactate after exercise, and hemolytic anemia.",
+      "char_start": 4282,
+      "char_end": 5897,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Type IX glycogen storage disease involves a deficiency in liver and muscle phosphorylase kinase, affecting the genes PHKA2, PHKB, PHKG2, and PHKA1. Type IX glycogen storage disease is characterized by hepatomegaly, accumulation of glycogen in the liver and muscle, mild hypoglycemia, and generally good prognosis. Type X glycogen storage disease involves a deficiency in muscle phosphoglycerate mutase, affecting the gene PGAM2. Type X glycogen storage disease is characterized by hepatomegaly and accumulation of glycogen in the liver. Type XI glycogen storage disease, known as Fanconi-Bickel disease, involves a deficiency in the glucose transporter 2, affecting the gene SLC2A2. Type XI glycogen storage disease is characterized by liver and kidney effects, weak bones, small stature, renal dysfunction, and generally good prognosis. Type XII glycogen storage disease involves a deficiency in Aldolase A, affecting the gene ALDOA. Type XII glycogen storage disease is characterized by myopathy, exercise intolerance, and hemolytic anemia. Type XIII glycogen storage disease involves a deficiency in Beta-enolase, affecting the gene ENO3. Type XIII glycogen storage disease is characterized by exercise intolerance and myalgia. Type XV glycogen storage disease involves a deficiency in Glycogenin-1, affecting the gene GYG1. Type XV glycogen storage disease is characterized by cardiomegaly.",
+      "char_start": 5899,
+      "char_end": 7293,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The highly branched structure of glycogen provides a large number of sites for glycogenolysis and synthesis. The highly branched structure increases the surface area to rapidly release glucose-1-phosphate for muscle glycolytic activity or rapid mobilization of glucose from the liver when glucose demand is high, such as during exercise. Endurance athletes adapt muscle metabolism to maintain a slower, more sustained release of glucose-1-phosphate in muscle, to preserve muscle glycogen stores and exercise endurance. Consuming a diet that supplies ample carbohydrates and energy to meet or exceed daily expenditure gradually augments muscle glycogen stores over days and weeks. Some endurance athletes practice carbohydrate loading. Endurance athletes lower muscle glycogen stores either by doing a bout of exercise to exhaustion or by going on a low carbohydrate diet for 3 days. After that, they ingest a high carbohydrate meal to rapidly increase muscle glycogen stores. A modified form is to taper exercise training for 3 days while on a moderate carbohydrate diet, then switch to a very high carbohydrate diet for 2 days. This will augment muscle glycogen synthesis, with fewer branch points than normal and an increase in total muscle stores. Carbohydrate ingestion during exercise prolongs endurance because it helps maintain liver glycogen stores and may spare muscle glycogen, especially in fast twitch muscle cells. For each gram of glycogen, there is 3 g of water. Thus, the early rapid weight loss seen when dieting or switching to a low-carbohydrate diet is partly due to water loss and not as much fat loss.",
+      "char_start": 7295,
+      "char_end": 8918,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Small glycogen stores are present in the brain, primarily in astrocytes. Small glycogen stores may help explain some of the neurologic symptoms seen in some glycogen storage diseases.",
+      "char_start": 8920,
+      "char_end": 9103,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Glucose is phosphorylated to glucose-6-phosphate by hexokinase in muscle. Glucose is phosphorylated to glucose-6-phosphate by glucokinase in the liver. Glucose-6-phosphate is isomerized to glucose-1-phosphate by phosphoglucomutase. Phosphoglucomutase itself is phosphorylated. The phosphate group participates in a reversible reaction where glucose 1,6-bisphosphate is an intermediate. Glucose-1-phosphate reacts with uridine triphosphate (UTP) to form uridine diphosphate glucose (UDPGlc) and pyrophosphate. UDPGlc pyrophosphorylase catalyzes the reaction of glucose-1-phosphate with uridine triphosphate (UTP). Pyrophosphatase catalyzes the hydrolysis of pyrophosphate to 2× phosphate. The hydrolysis of pyrophosphate removes one of the reaction products and favors the formation of UDPGlc. UDPGlc pyrophosphorylase is present in relatively large amounts. UDPGlc pyrophosphorylase is not a regulatory step in glycogen synthesis.",
+      "char_start": 9152,
+      "char_end": 10082,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE",
+        "Glycogen Biosynthesis Involves UDP-Glucose"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Insulin decreases the level of cAMP only after it has been raised by glucagon or epinephrine. Insulin antagonizes the action of glucagon and epinephrine. Glucagon acts on heart muscle. Glucagon does not act on skeletal muscle. Glucan transferase and debranching enzyme are two separate activities of the same enzyme.",
+      "char_start": 10164,
+      "char_end": 10480,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE",
+        "Glycogen Biosynthesis Involves UDP-Glucose"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "The initial steps in glycogen synthesis involve the protein glycogenin, a 37-kDa protein that is glucosylated on a specific tyrosine residue by UDPGlc. Glycogenin catalyzes the transfer of a further seven glucose residues from UDPGlc, in 1 → 4 linkage, to form a glycogen primer that is the substrate for glycogen synthase. The glycogenin remains at the core of the glycogen granule. The self-glycosylation of glycogen and the resulting oligosaccharide primer are required for glycogen synthesis to occur. A genetic defect in this gene (GSD-IV) primarily impairs heart function. Glycogen synthase catalyzes the formation of a glycoside bond between C-1 of the glucose of UDPGlc and C-4 of a terminal glucose residue of glycogen, liberating UDP. The addition of a glucose residue to a preexisting glycogen chain, or “primer,” occurs at the nonreducing, outer end of the molecule, so that the branches of the glycogen molecule become elongated as successive 1 → 4 linkages are formed (Figure 18–3).",
+      "char_start": 10540,
+      "char_end": 11536,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE",
+        "Glycogen Biosynthesis Involves UDP-Glucose"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-18-3"
+      ],
+      "table_refs": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "When a growing chain is at least 11 glucose residues long, branching enzyme transfers a part of the 1 → 4 chain (at least six glucose residues) to a neighboring chain to form a 1 → 6 linkage, establishing a branch point. The branches grow by further additions of 1 → 4-glucosyl units and further branching.",
+      "char_start": 11763,
+      "char_end": 12069,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "BIOMEDICAL IMPORTANCE",
+        "Branching Involves Detachment of Existing Glycogen Chains"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "branching-involves-detachment-of-existing-glycogen-chains"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Glycogen phosphorylase catalyzes the rate-limiting step in glycogenolysis, which involves the phosphorolytic cleavage of the 1 → 4 linkages of glycogen to yield glucose-1-phosphate (Figure 18--4). Different isoenzymes of glycogen phosphorylase exist in liver, muscle, and brain. Each isoenzyme of glycogen phosphorylase is encoded by different genes. Glycogen phosphorylase requires pyridoxal phosphate as its coenzyme. In the context of phosphorylase, the phosphate group of pyridoxal phosphate is catalytically active. In amino acid metabolism, the aldehyde group of pyridoxal phosphate is the reactive group (see Chapter 28).\n\nThe terminal glucosyl residues from the outermost chains of the glycogen molecule are removed sequentially until approximately four glucose residues remain on either side of a 1 → 6 branch (see Figure 18–4). The debranching enzyme has two catalytic sites in a single polypeptide chain. One site is a glucan transferase that transfers a trisaccharide unit from one branch to the other, exposing the 1 → 6 branch point. The other site is a 1,6-glycosidase that catalyzes hydrolysis of the 1 → 6-glycoside bond to liberate free glucose. Further phosphorylase action can then proceed. The combined action of phosphorylase and these other enzymes leads to the complete breakdown of glycogen.",
+      "char_start": 12150,
+      "char_end": 13466,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-18-4"
+      ],
+      "table_refs": [],
+      "section_id": "glycogenolysis-is-not-the-reverse-of-glycogenesis-it-is-a"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The reaction catalyzed by phosphoglucomutase is reversible. Phosphoglucomutase allows glucose-1-phosphate derived from hydrolysis of glycogen to form glucose-6-phosphate. In liver, glucose-6-phosphatase catalyzes hydrolysis of glucose-6-phosphate, yielding glucose that is exported. The export of glucose leads to an increase in the blood glucose concentration. Glucose-6-phosphatase is located in the lumen of the smooth endoplasmic reticulum. Genetic defects of the glucose-6-phosphate transporter can cause a variant of type I glycogen storage disease (online Table 18–2).\n\nGlycogen granules can be engulfed by lysosomes. Acid maltase catalyzes the hydrolysis of glycogen to glucose in lysosomes. The hydrolysis of glycogen to glucose by acid maltase may be especially important in glucose homeostasis in neonates. Genetic lack of lysosomal acid maltase causes type II glycogen storage disease (Pompe disease; see online Table 18–2). The lysosomal catabolism of glycogen is under hormonal control.",
+      "char_start": 13513,
+      "char_end": 14513,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-18-2"
+      ],
+      "section_id": "glycogenolysis-is-not-the-reverse-of-glycogenesis-it-is-a"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Glycogen phosphorylase and glycogen synthase are the principal enzymes controlling glycogen metabolism. Glycogen phosphorylase and glycogen synthase are regulated in opposite directions by allosteric mechanisms, subcellular localization, and covalent modification by reversible phosphorylation and dephosphorylation. Phosphorylation of glycogen phosphorylase increases its activity. Phosphorylation of glycogen synthase reduces its activity.\n\nPhosphorylation is increased in response to cyclic AMP (cAMP). cAMP is formed from ATP by adenylyl cyclase at the inner surface of cell membranes. Hormones such as epinephrine, norepinephrine, and glucagon trigger the formation of cAMP. cAMP is hydrolyzed by phosphodiesterase, terminating hormone action. In the liver, insulin increases the activity of phosphodiesterase (Figure 18--5).",
+      "char_start": 14588,
+      "char_end": 15418,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CYCLIC AMP INTEGRATES THE REGULATION OF GLYCOGENOLYSIS & GLYCOGENESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cyclic-amp-integrates-the-regulation-of-glycogenolysis"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "In the liver, glycogen provides free glucose for export to maintain blood glucose concentration. In muscle, glycogen provides glucose-6-phosphate for glycolysis in response to ATP needs for muscle contraction. In both liver and muscle, glycogen phosphorylase is activated by phosphorylation catalyzed by phosphorylase kinase, producing phosphorylase a. In both liver and muscle, glycogen phosphorylase is inactivated by dephosphorylation catalyzed by phosphoprotein phosphatase, producing phosphorylase b. Active phosphorylase a in both tissues is allosterically inhibited by ATP and glucose-6 phosphate. In the liver, free glucose also inhibits active phosphorylase a. In muscle, the phosphorylase enzyme differs from the liver isoenzyme by having a binding site for 5' AMP. 5' AMP acts as an allosteric activator of the dephosphorylated b-form of the enzyme in muscle. 5' AMP signals the energy state of the muscle cell. 5' AMP is formed as the concentration of ADP increases, indicating the need for increased substrate metabolism to permit ATP formation. The differing regulation of muscle and liver glycogen phosphorylase reflects the differing roles of glycogen in these tissues. Liver glycogen is released to control plasma glucose. Muscle glycogen is used by the contracting muscle and is sensitive to the energy state of the muscle. In exercise, liver glucose production increases twofold within a few minutes. If exogenous glucose is given, the liver must rapidly stop making glucose and become a glucose consumer to prevent hyperglycemia and maximize glycogen repletion. In muscle, glycogen use is sensitive to the energy state of the muscle, influenced by 5' AMP and calcium.",
+      "char_start": 15582,
+      "char_end": 17269,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CYCLIC AMP INTEGRATES THE REGULATION OF GLYCOGENOLYSIS & GLYCOGENESIS",
+        "Glycogen Phosphorylase Regulation Is Different in Liver & Muscle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycogen-phosphorylase-regulation-is-different-in-liver"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Phosphorylase kinase is activated in response to cAMP. Increasing the concentration of cAMP activates cAMP-dependent protein kinase. cAMP-dependent protein kinase catalyzes the phosphorylation by ATP of inactive phosphorylase kinase b to active phosphorylase kinase a. Active phosphorylase kinase a phosphorylates phosphorylase b to phosphorylase a. In the liver, cAMP is formed in response to glucagon and epinephrine. Glucagon and epinephrine are secreted in response to falling blood glucose or exercise. Muscle is insensitive to glucagon. In muscle, the signal for increased cAMP formation is the action of epinephrine. Epinephrine is secreted in response to fear or fright. There is a need for increased glycogenolysis to permit rapid muscle activity. A flowchart for the control of glycogen phosphorylase in the muscles is shown in Figure 18-6. The sequence of reactions arranged as a cascade allows amplification of the hormonal signal at each step (Figure 18-6).",
+      "char_start": 17312,
+      "char_end": 18282,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-18-6"
+      ],
+      "table_refs": [],
+      "section_id": "camp-activates-glycogen-phosphorylase"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Glycogenolysis in muscle increases several 100-fold at the onset of contraction. Muscle phosphorylase kinase activates glycogen phosphorylase. The α and β subunits contain serine residues that are phosphorylated by cAMP-dependent protein kinase. -binding protein calmodulin.",
+      "char_start": 18598,
+      "char_end": 18872,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE",
+        "2+ Synchronizes the Activation of Glycogen Phosphorylase With Muscle Contraction"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "2-synchronizes-the-activation-of-glycogen-phosph"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "cAMP-independent glycogenolysis is also activated by vasopressin. cAMP-independent glycogenolysis is activated by oxytocin. cAMP-independent glycogenolysis is activated by angiotensin II. Vasopressin acts either through calcium or the phosphatidylinositol bisphosphate pathway. Oxytocin acts either through calcium or the phosphatidylinositol bisphosphate pathway. Angiotensin II acts either through calcium or the phosphatidylinositol bisphosphate pathway.",
+      "char_start": 18926,
+      "char_end": 19383,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE",
+        "Glycogenolysis in Liver Can Be cAMP-Independent"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycogenolysis-in-liver-can-be-camp-independent"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Protein phosphatase-1 dephosphorylates and inactivates phosphorylase a. Protein phosphatase-1 dephosphorylates and inactivates phosphorylase kinase a. Protein phosphatase-1 is inhibited by inhibitor-1. Inhibitor-1 becomes active after being phosphorylated by cAMP-dependent protein kinase. cAMP controls the activation and inactivation of phosphorylase. Insulin reinforces the effect of cAMP by inhibiting the activation of phosphorylase b. Insulin indirectly inhibits phosphorylase b by increasing glucose uptake. Increased glucose uptake leads to increased formation of glucose-6-phosphate. Glucose-6-phosphate inhibits phosphorylase kinase.",
+      "char_start": 19446,
+      "char_end": 20089,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE",
+        "Protein Phosphatase-1 Inactivates Glycogen Phosphorylase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "protein-phosphatase-1-inactivates-glycogen-phosphorylase"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "There are different isoenzymes of glycogen synthase in liver, muscle, and brain. Active glycogen synthase a is dephosphorylated. Inactive glycogen synthase b is phosphorylated. The effect of phosphorylation on glycogen synthase is the reverse of that seen in phosphorylase. Six different protein kinases act on glycogen synthase. There are at least nine different serine residues in the enzyme that can be phosphorylated. One of these kinases is phosphorylase kinase. Another kinase is cAMP-dependent protein kinase. cAMP-dependent protein kinase allows cAMP-mediated hormone action to inhibit glycogen synthesis synchronously with the activation of glycogenolysis. Insulin promotes glycogenesis in muscle. Insulin inhibits glycogenolysis by raising glucose-6-phosphate concentrations. Glucose-6-phosphate stimulates the dephosphorylation and activation of glycogen synthase. Protein phosphatase-1 carries out the dephosphorylation of glycogen synthase b. Protein phosphatase-1 is under the control of cAMP-dependent protein kinase. (Figure 18–7: Control of glycogen synthase in muscle. (G6P, glucose-6-phosphate; GSK, glycogen synthase kinase; n, number of glucose residues.))",
+      "char_start": 20174,
+      "char_end": 21351,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE",
+        "The Activities of Glycogen Synthase & Phosphorylase Are Reciprocally Regulated"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-18-7"
+      ],
+      "table_refs": [],
+      "section_id": "the-activities-of-glycogen-synthase-phosphorylase-are"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "cAMP activates phosphorylase by increasing its concentration, which is mediated by phosphorylase kinase. cAMP-dependent protein kinase mediates the conversion of glycogen synthase to its inactive form. Inhibition of glycogenolysis enhances net glycogenesis. Inhibition of glycogenesis enhances net glycogenolysis. Protein phosphatase-1 catalyzes the dephosphorylation of phosphorylase a. Protein phosphatase-1 catalyzes the dephosphorylation of phosphorylase kinase. Protein phosphatase-1 catalyzes the dephosphorylation of glycogen synthase b. Protein phosphatase-1 is inhibited by cAMP-dependent protein kinase via inhibitor-1. Insulin inhibits glycogenolysis by increasing protein phosphatase-1. Insulin inhibits glycogenolysis by lowering cAMP. Glycogenolysis and glycogenesis are dependent on the activity of cAMP-dependent protein kinase. Glycogenolysis and glycogenesis are dependent on the availability of cAMP. Phosphorylase kinase can be reversibly phosphorylated at multiple sites by separate kinases and phosphatases. Glycogen synthase can be reversibly phosphorylated at multiple sites by separate kinases and phosphatases. Secondary phosphorylations modify the sensitivity of primary sites to phosphorylation and dephosphorylation. Increases in glucose and insulin can amplify the effects of insulin to reduce glycogen mobilization. Increases in glucose and insulin can enhance glycogen synthesis. Glucose-6-phosphate increases secondary to an increase in plasma glucose activate glucokinase by translocating it from the nucleus to the glycogen granule in the liver. Rapid fine-tuning of hepatic glycogen metabolism is critical to prevent hypoglycemia during increased glucose demand, such as exercise. Failure to rapidly increase hepatic glucose production can lead to hypoglycemia and death if severe. Moderate hypoglycemia can prematurely terminate exercise. Gluconeogenesis is a slower process that requires an increase in gluconeogenic substrate supply to sustain glucose production during sustained exercise. During moderate intensity exercise, glucose levels barely change due to the tight coupling between liver glycogenolysis, gluconeogenesis, and muscle glucose demand. Glucagon levels rise during exercise, driving liver glucose production. Insulin levels fall during exercise, driving liver glucose production. During exercise, glucose uptake in muscle increases independently of insulin, even though insulin levels are falling. (Figure 18-8)",
+      "char_start": 21608,
+      "char_end": 24076,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "GLYCOGEN METABOLISM IS REGULATED BY A BALANCE IN ACTIVITIES BETWEEN GLYCOGEN SYNTHASE & PHOSPHORYLASE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-18-8"
+      ],
+      "table_refs": [],
+      "section_id": "glycogen-metabolism-is-regulated-by-a-balance-in-activities"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "In individuals with diabetes, treatments are designed to bring fasting glucose and meal glucose concentration into the normal range to minimize the long-term complications of diabetes.\n\nHypoglycemia can occur despite the best intentions.\n\nMany individuals with long-standing diabetes develop an unawareness of hypoglycemia.\n\nNonsevere hypoglycemia events usually generate autonomic and/or neuroglycopenic symptoms, which enable the individual to identify the onset, and to treat the falling blood glucose without requiring assistance as it is occurring.\n\nIf individuals are unaware, hypoglycemia can become severe enough to impair their ability to function, requiring external assistance.\n\nGlucagon is one of the rescue medicines if the person is unconscious or unable to swallow and ingest a fast-acting carbohydrate.\n\nGlucagon is rapid in onset and is a potent stimulator of glycogenolysis.",
+      "char_start": 24554,
+      "char_end": 25446,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "GLYCOGEN METABOLISM IS REGULATED BY A BALANCE IN ACTIVITIES BETWEEN GLYCOGEN SYNTHASE & PHOSPHORYLASE",
+        "Hypoglycemia & Diabetes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hypoglycemia-diabetes"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Glycogen storage disease is a generic term for a group of inherited disorders characterized by the deposition of an abnormal type or quantity of glycogen in tissues, or failure to mobilize glycogen.\n\nGlycogen storage diseases are heterogenous and rare.\n\nGlycogen storage diseases predominantly affect the liver, muscles, heart, and in rare instances, the brain from infancy to adulthood.\n\nClinical suspicions can lead to the diagnosis of glycogen storage diseases in primary care and in-patient settings.\n\nNewborn genetic screening is key to detecting glycogen storage diseases.\n\nMany of the medical crises associated with glycogen storage diseases are preventable with simple nutritional measures.\n\nNutritional measures can limit growth retardation and intellectual disability in individuals with glycogen storage diseases.",
+      "char_start": 25492,
+      "char_end": 26316,
+      "section_path": [
+        "Metabolism of Glycogen",
+        "GLYCOGEN METABOLISM IS REGULATED BY A BALANCE IN ACTIVITIES BETWEEN GLYCOGEN SYNTHASE & PHOSPHORYLASE",
+        "Glycogen Storage Diseases Are Inherited"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycogen-storage-diseases-are-inherited"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Glycogen represents the principal storage carbohydrate in the body, mainly in the liver and muscle.\nIn the liver, its major function is to provide glucose for extrahepatic tissues. In muscle, it serves mainly as a source of metabolic fuel for use in muscle. Muscle lacks glucose-6-phosphatase and cannot release free glucose from glycogen.\nGlycogen is synthesized from glucose by the pathway of glycogenesis. It is broken down by a separate pathway, glycogenolysis.\nCyclic AMP integrates the regulation of glycogenolysis and glycogenesis by promoting the simultaneous activation of phosphorylase and inhibition of glycogen synthase. Insulin acts reciprocally by inhibiting glycogenolysis and stimulating glycogenesis.\nInherited deficiencies of enzymes of glycogen metabolism in both liver, muscle, and brain cause glycogen storage diseases.",
+      "char_start": 26318,
+      "char_end": 27158,
+      "section_path": [
+        "Metabolism of Glycogen"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-18-1",
+      "image_path": "",
+      "caption": "Pathways of glycogenesis and glycogenolysis in the liver. (",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-18-1]",
+      "description": "",
+      "label": "Figure 18-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10103,
+        10162
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "fig_id": "fig-18-2",
+      "image_path": "",
+      "caption": "Uridine diphosphate glucose (UDPGlc).",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-18-2]",
+      "description": "",
+      "label": "Figure 18-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10501,
+        10538
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "fig_id": "fig-18-3",
+      "image_path": "",
+      "caption": "The biosynthesis of glycogen. The mechanism of branching as revealed by feeding 14C-labeled glucose and examining liver glycogen at intervals.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-18-3]",
+      "description": "",
+      "label": "Figure 18-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11557,
+        11699
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycogen-biosynthesis-involves-udp-glucose"
+    },
+    {
+      "fig_id": "fig-18-4",
+      "image_path": "",
+      "caption": "Steps in glycogenolysis.",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-18-4]",
+      "description": "",
+      "label": "Figure 18-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13487,
+        13511
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycogenolysis-is-not-the-reverse-of-glycogenesis-it-is-a"
+    },
+    {
+      "fig_id": "fig-18-5",
+      "image_path": "",
+      "caption": "The formation and hydrolysis of cyclic AMP (3′, 5′-adenylic acid, cAMP).",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-18-5]",
+      "description": "",
+      "label": "Figure 18-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15439,
+        15511
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cyclic-amp-integrates-the-regulation-of-glycogenolysis"
+    },
+    {
+      "fig_id": "fig-18-6",
+      "image_path": "",
+      "caption": "Control of glycogen phosphorylase in muscle. The sequence of reactions arranged as a cascade allows amplification of the hormonal signal at each step. (G6P, glucose-6-phosphate; n number of glucose residues.)",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-18-6]",
+      "description": "",
+      "label": "Figure 18-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        18303,
+        18511
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "camp-activates-glycogen-phosphorylase"
+    },
+    {
+      "fig_id": "fig-18-7",
+      "image_path": "",
+      "caption": "Control of glycogen synthase in muscle. (G6P, glucose-6-phosphate; GSK, glycogen synthase kinase; n, number of glucose residues.)",
+      "referenced_from": "c022",
+      "marker": "[FIGURE:fig-18-7]",
+      "description": "",
+      "label": "Figure 18-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21372,
+        21501
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-activities-of-glycogen-synthase-phosphorylase-are"
+    },
+    {
+      "fig_id": "fig-18-8",
+      "image_path": "",
+      "caption": "Coordinated control of glycogenolysis and glycogenesis by cAMP-dependent protein kinase. The reactions that lead to glycogenolysis as a result of an increase in cAMP concentrations are shown with bold arrows, and those that are inhibited by activation of protein phosphatase-1 are shown with dashed arrows. The reverse occurs when cAMP concentrations decrease as a result of phosphodiesterase activity, leading to glycogenesis.",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-18-8]",
+      "description": "",
+      "label": "Figure 18-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        24097,
+        24524
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycogen-metabolism-is-regulated-by-a-balance-in-activities"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-18-1",
+      "label": "Table 18-1",
+      "caption": "Storage of Carbohydrate in a 70-kg Person",
+      "referenced_from": "",
+      "content_chunk": "c002",
+      "caption_span": [
+        702,
+        743
+      ],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "table_id": "tbl-18-2",
+      "label": "Table 18-2",
+      "caption": "",
+      "referenced_from": "c015",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "biomedical-importance"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the structure of glycogen and its importance as a carbohydrate reserve.\nDescribe the synthesis and breakdown of glycogen and how the processes are regulated in response to hormone action.\nDescribe the various types of glycogen storage diseases.",
+      "char_start": 26,
+      "char_end": 279,
+      "section_path": [
+        "Metabolism of Glycogen"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Ellingwood SS, Cheng A: Biochemical and clinical aspects of glycogen storage diseases. J Endocrinol 2018;238(3):R131–R141. Doi:10.1530/JOE-18 0120.\nMurray B, Rosenbloom C: Fundamentals of glycogen metabolism for coaches and athletes. Nutr Rev 2018;76(4):243–259.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6019055/ [PubMed: 29444266]",
+      "char_start": 27160,
+      "char_end": 27495,
+      "section_path": [
+        "Metabolism of Glycogen"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-18-8",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-18-1",
+      "reason": "table never cited in prose"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-18-2",
+      "reason": "table has no restated content"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_18_metabolism_of_glycogen.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_18_metabolism_of_glycogen/chapter_18_metabolism_of_glycogen.normalized.md"
+}

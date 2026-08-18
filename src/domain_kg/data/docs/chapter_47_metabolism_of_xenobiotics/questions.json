@@ -1,0 +1,301 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which structure includes the liver?",
+    "options": [
+      "adrenal gland",
+      "grapefruit",
+      "intestinal tract",
+      "portal vein",
+      "tissues"
+    ],
+    "answer": "intestinal tract",
+    "rationale": "The concentrations of these enzymes are highest in the liver and intestinal tract.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > WE ENCOUNTER MANY XENOBIOTICS THAT MUST BE METABOLIZED BEFORE BEING EXCRETED",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is involved in cholesterol biosynthesis?",
+    "options": [
+      "alcohol dehydrogenases",
+      "amino acid",
+      "CYP1A1",
+      "CYP3A4",
+      "cytochrome P450"
+    ],
+    "answer": "cytochrome P450",
+    "rationale": "In the adrenal gland, cytochrome P450s are involved in cholesterol and steroid hormone biosynthesis and are found in mitochondria as well as in the endoplasmic reticulum.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > ISOFORMS OF CYTOCHROME P450 ACT ON A WIDE VARIETY OF XENOBIOTICS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is involved in steroid hormone biosynthesis?",
+    "options": [
+      "alcohol dehydrogenases",
+      "amino acid",
+      "CYP1A1",
+      "CYP3A4",
+      "cytochrome P450"
+    ],
+    "answer": "cytochrome P450",
+    "rationale": "In the adrenal gland, cytochrome P450s are involved in cholesterol and steroid hormone biosynthesis and are found in mitochondria as well as in the endoplasmic reticulum.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > ISOFORMS OF CYTOCHROME P450 ACT ON A WIDE VARIETY OF XENOBIOTICS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is transported by cytochrome b5?",
+    "options": [
+      "bile",
+      "electron",
+      "first-pass",
+      "polychlorinated biphenyls",
+      "urine"
+    ],
+    "answer": "electron",
+    "rationale": "Cytochrome b5 may be involved as an electron donor in some cases.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > ISOFORMS OF CYTOCHROME P450 ACT ON A WIDE VARIETY OF XENOBIOTICS",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of hypertrophy?",
+    "options": [
+      "calcitriol",
+      "phenobarbital",
+      "procarcinogen",
+      "steroid",
+      "vitamin D"
+    ],
+    "answer": "phenobarbital",
+    "rationale": "Phenobarbital or other drugs cause hypertrophy of the smooth endoplasmic reticulum.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > ISOFORMS OF CYTOCHROME P450 ACT ON A WIDE VARIETY OF XENOBIOTICS > Cytochrome P450s often Mediate Drug-Drug and Food-Drug Interactions",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substrate does CYP2A6 act on?",
+    "options": [
+      "DNA",
+      "methyl",
+      "nicotine",
+      "polychlorinated biphenyls",
+      "urine"
+    ],
+    "answer": "nicotine",
+    "rationale": "CYP2A6 is involved in the metabolism of nicotine to cotinine.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > ISOFORMS OF CYTOCHROME P450 ACT ON A WIDE VARIETY OF XENOBIOTICS > Cytochrome P450s often Mediate Drug-Drug and Food-Drug Interactions",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substrate does glutathione S-transferases act on?",
+    "options": [
+      "\\mathrm{R",
+      "alcohol dehydrogenases",
+      "amino acid",
+      "CYP1A1",
+      "cytochrome P450"
+    ],
+    "answer": "\\mathrm{R",
+    "rationale": "The reaction catalyzed by glutathione S-transferases is $\\mathrm{R} + \\mathrm{GSH} \\\nightarrow \\mathrm{R} - \\mathrm{S} - \\mathrm{G}$. $\\mathrm{R} + \\mathrm{GSH} \\\nightarrow \\mathrm{R} - \\mathrm{S} - \\mathrm{G}$ involves an electrophilic compound R.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > CONJUGATION REACTIONS IN PHASE 2 METABOLISM PREPARE XENOBIOTICS FOR EXCRETION",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is transported by glutathione S-transferases?",
+    "options": [
+      "electron",
+      "first-pass",
+      "monoamine",
+      "polychlorinated biphenyls",
+      "urine"
+    ],
+    "answer": "urine",
+    "rationale": "Glutathione S-conjugates are excreted in urine and bile. The reaction catalyzed by glutathione S-transferases is $\\mathrm{R} + \\mathrm{GSH} \\",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > CONJUGATION REACTIONS IN PHASE 2 METABOLISM PREPARE XENOBIOTICS FOR EXCRETION",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Within which structure are glutathione S-transferases found?",
+    "options": [
+      "bile canaliculi",
+      "intestinal tract",
+      "liver",
+      "portal vein",
+      "tissues"
+    ],
+    "answer": "bile canaliculi",
+    "rationale": "Some hepatic glutathione S-conjugates enter the bile canaliculi. Glutathione S-conjugates in the bile canaliculi are broken down to cysteine S-conjugates.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > CONJUGATION REACTIONS IN PHASE 2 METABOLISM PREPARE XENOBIOTICS FOR EXCRETION",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Within which structure are cysteine S-conjugates found?",
+    "options": [
+      "bile canaliculi",
+      "intestinal tract",
+      "liver",
+      "portal vein",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "Cysteine S-conjugates are taken up into the liver for N-acetylation. Cysteine S-conjugates are reexcreted in the bile after N-acetylation.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > CONJUGATION REACTIONS IN PHASE 2 METABOLISM PREPARE XENOBIOTICS FOR EXCRETION",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In which cellular structure is the cytosol located?",
+    "options": [
+      "adrenal gland",
+      "grapefruit",
+      "intestinal tract",
+      "liver",
+      "portal vein"
+    ],
+    "answer": "liver",
+    "rationale": "Acetylation reactions are catalyzed by acetyltransferases present in the cytosol of various tissues, particularly the liver.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview > OTHER REACTIONS ARE ALSO INVOLVED IN PHASE 2 METABOLISM",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substance is commonly stored in the liver?",
+    "options": [
+      "alcohol dehydrogenases",
+      "amino acid",
+      "CYP1A1",
+      "CYP3A4",
+      "cytochrome P450"
+    ],
+    "answer": "cytochrome P450",
+    "rationale": "Cytochromes P450 are generally located in the endoplasmic reticulum of cells, especially in the liver.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview",
+    "relation": "stores",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substrate do sulfotransferases typically act upon?",
+    "options": [
+      "\\mathrm{R",
+      "alcohol dehydrogenases",
+      "amino acid",
+      "cytochrome P450",
+      "glutathione"
+    ],
+    "answer": "glutathione",
+    "rationale": "Phase 2 conjugation reactions are catalyzed by enzymes such as glucuronyltransferases, sulfotransferases, and glutathione S-transferases.",
+    "citation": "chapter_47_metabolism_of_xenobiotics — Overview",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

@@ -1,0 +1,1009 @@
+{
+  "doc_id": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides",
+  "source": {
+    "source_id": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides",
+    "title": "Metabolism of Purine & Pyrimidine Nucleotides",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the metabolism of purine and pyrimidine nucleotides, including their biosynthesis, regulation, and the biomedical importance of these processes in human health and disease.",
+    "page": null,
+    "origin": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 04:36:33"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Dietary purines are not directly incorporated into tissue nucleic acids. Dietary pyrimidines are not directly incorporated into tissue nucleic acids. Humans synthesize nucleic acids from amphibolic intermediates. Humans synthesize ATP from amphibolic intermediates. Humans synthesize coenzyme A from amphibolic intermediates. Injected purine analogs may be incorporated into DNA. Injected pyrimidine analogs may be incorporated into DNA. The biosyntheses of purine ribonucleotide triphosphates are precisely regulated. The biosyntheses of pyrimidine ribonucleotide triphosphates are precisely regulated. The biosyntheses of purine dNTPs are precisely regulated. The biosyntheses of pyrimidine dNTPs are precisely regulated. Feedback mechanisms coordinate the production of purine and pyrimidine ribonucleotide triphosphates to match varying physiologic demand. Feedback mechanisms coordinate the production of purine and pyrimidine dNTPs to match varying physiologic demand. Cell division is an example of varying physiologic demand.\n\nHuman diseases involving abnormalities in purine metabolism include gout, Lesch-Nyhan syndrome, adenosine deaminase deficiency, and purine nucleoside phosphorylase deficiency. Diseases of pyrimidine biosynthesis are rarer but include orotic acidurias. Uric acid is formed by purine catabolism. Uric acid has low solubility. The end products of pyrimidine catabolism are highly water soluble.",
+      "char_start": 1293,
+      "char_end": 2719,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Normal human tissues can synthesize purines and pyrimidines from amphibolic intermediates. Ingested nucleic acids and nucleotides are dietarily nonessential. The resulting mononucleotides from their degradation in the intestinal tract may be absorbed or converted to purine and pyrimidine bases. The purine bases are oxidized to uric acid. Uric acid may be absorbed and excreted in the urine. Little or no dietary purine or pyrimidine is incorporated into tissue nucleic acids. Injected compounds are incorporated into tissue nucleic acids. Radiolabeled uracil can be used to measure the rate of cellular RNA synthesis. Radiolabeled thymidine can be used to measure the rate of cellular DNA synthesis.",
+      "char_start": 2773,
+      "char_end": 3474,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "PURINES & PYRIMIDINES ARE DIETARILY NONESSENTIAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "purines-pyrimidines-are-dietarily-nonessential"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "With the exception of parasitic protozoa, all forms of life synthesize purine and pyrimidine nucleotides. Synthesis from amphibolic intermediates proceeds at controlled rates appropriate for all cellular functions. Intracellular mechanisms sense and regulate the pool sizes of NTPs to achieve homeostasis. NTPs rise during growth or tissue regeneration when cells are rapidly dividing. Purine and pyrimidine nucleotides are synthesized in vivo at rates consistent with physiologic need. Early investigations of nucleotide biosynthesis first employed birds. Later, Escherichia coli was used in investigations of nucleotide biosynthesis. Isotopic precursors of uric acid fed to pigeons established the source of each atom of a purine (Figure 33--1). Isotopic precursors of uric acid fed to pigeons initiated study of the intermediates of purine biosynthesis. Avian tissues served as a source of cloned genes that encode enzymes of purine biosynthesis. Avian tissues also served as a source of cloned genes that encode regulatory proteins that control the rate of purine biosynthesis. Atoms 4, 5, and 7 of the purine ring derive from glycine (Figure 33--1).",
+      "char_start": 3514,
+      "char_end": 4668,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "BIOSYNTHESIS OF PURINE NUCLEOTIDES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-purine-nucleotides"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "The initial reaction of purine biosynthesis involves the transfer of two phosphoryl groups from ATP to carbon 1 of ribose 5-phosphate, forming phosphoribosyl pyrophosphate (PRPP). The reaction is catalyzed by PRPP synthetase, which has the enzyme classification EC 2.7.6.1. The end product of the subsequent ten enzyme-catalyzed reactions in purine biosynthesis is inosine monophosphate (IMP) (Figure 33-2).",
+      "char_start": 4883,
+      "char_end": 5290,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-2"
+      ],
+      "table_refs": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "α-Dibose 5-phosphate (I) is converted to phosphoribosyl pyrophosphate (PRPP) (II) with the help of ATP and AMP.\nPhosphoribosyl pyrophosphate (PRPP) (II) is transformed into 5-Phospho-β-Dibosylamine (III) with the involvement of glutamine, glutamate, and PP.\n5-Phospho-β-Dibosylamine (III) is converted to glycinamide ribosyl-5-phosphate (IV) with the addition of glycine, Mg2+, ADP, and P.\nGlycinamide ribosyl-5-phosphate (IV) is modified to formylglycinamide ribosyl-5-phosphate (V) through the action of formyltransferase.\nFormylglycinamide ribosyl-5-phosphate (V) is processed into formylglycinamidine ribosyl-5-phosphate (VI) by VI synthetase, ATP, Mg2+, and Glu.\nFormylglycinamidine ribosyl-5-phosphate (VI) is further transformed into formylglycinamidine ribosyl-5-phosphate (IX) with the help of Gln, ATP, Mg2+, and Glu.\nFormylglycinamidine ribosyl-5-phosphate (IX) is converted to aminimidazole carboxamide ribosyl-5-phosphate (X) by adenylsuccinase.\nAminimidazole carboxamide ribosyl-5-phosphate (X) is modified to formimidazole carboxamide ribosyl-5-phosphate (XI) through the action of formyltransferase.\nFormimidazole carboxamide ribosyl-5-phosphate (XI) is transformed into formimidazole carboxamide ribosyl-5-phosphate (XII) with the involvement of N10-Formyl-H4folate and H4folate.\nFormimidazole carboxamide ribosyl-5-phosphate (XII) is finally converted to inosine monophosphate (IMP) (XII) through ring closure by IMP Cyclohydrolase.\nThe diagram illustrates the process of purine biosynthesis from ribose 5-phosphate and ATP.",
+      "char_start": 5398,
+      "char_end": 6940,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Following the synthesis of IMP, separate branches lead to the formation of AMP and GMP (Figure 33-3). ATP is used to convert AMP and GMP to ADP and GDP, respectively. Conversion of GDP to GTP involves an additional phosphoryl transfer from ATP. In contrast, the conversion of ADP to ATP is primarily achieved through oxidative phosphorylation (see Chapter 13).",
+      "char_start": 6942,
+      "char_end": 7302,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-3"
+      ],
+      "table_refs": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Inosine monophosphate (IMP) is converted to Adenylosuccinate (AMPS) by Adenylosuccinate synthetase, requiring GTP, GTP, Mg2+, GDP + Pi.\nAdenylosuccinate (AMPS) is converted to Adenosine monophosphate (AMP) by Adenylosuccinase.\nAdenosine monophosphate (AMP) is converted to Xanthosine monophosphate (XMP) by an unspecified enzyme.\nXanthosine monophosphate (XMP) is converted to Xanthosine monophosphate (XMP) by IMP Dehydrogenase, requiring NADH + H+.\nXanthosine monophosphate (XMP) is converted to Guanosine monophosphate (GMP) by an unspecified enzyme, requiring Glutamine, Glutamate.\nGuanosine monophosphate (GMP) is converted to Guanosine monophosphate (GMP) by Transamidinase.\nThe diagram as a whole relates the conversion of Inosine monophosphate (IMP) to Adenosine monophosphate (AMP) and Guanosine monophosphate (GMP).",
+      "char_start": 7358,
+      "char_end": 8183,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "In prokaryotes, each reaction of Figure 33--2 is catalyzed by a different polypeptide.\n\nThe enzymes of eukaryotes are polypeptides that possess multiple catalytic activities.\n\nThe enzymes of eukaryotes are polypeptides that possess multiple catalytic activities. facilitate channeling of intermediates between sites.\n\nThree distinct multifunctional enzymes catalyze reactions ③, ④, and ⑥ of Figure 33--2.\n\nThree distinct multifunctional enzymes catalyze reactions ⑦ and ⑧ of Figure 33--2.\n\nThree distinct multifunctional enzymes catalyze reactions ⑩ and ⑪ of Figure 33--2.",
+      "char_start": 8261,
+      "char_end": 8833,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES",
+        "Multifunctional Catalysts Participate in Purine Nucleotide Biosynthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "multifunctional-catalysts-participate-in-purine-nucleotide"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The carbons in reactions ④ and ⑩ of Figure 33–2are contributed by derivatives of tetrahydrofolate. Purine deficiency states are rare in humans and generally reflect a deficiency of folic acid. Compounds that inhibit the formation of tetrahydrofolates block purine synthesis and have been used in cancer chemotherapy. Azaserine inhibits reaction ⑤ in Figure 33–2. Diazanorleucine inhibits reaction ② in Figure 33–2. 6-mercaptopurine inhibits reactions ⑬ and ⑭ in Figure 33–3. Mycophenolic acid inhibits reaction ⑭ in Figure 33–3.",
+      "char_start": 8913,
+      "char_end": 9441,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES",
+        "Antifolate Drugs & Glutamine Analogs Block Purine Nucleotide Biosynthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-2",
+        "fig-33-3"
+      ],
+      "table_refs": [],
+      "section_id": "antifolate-drugs-glutamine-analogs-block-purine-nucleotide"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Conversion of purines, their ribonucleosides, and their deoxyribonucleosides to mononucleotides involves 'salvage reactions' that require far less energy than de novo synthesis. Phosphoribosylation by PRPP of a free purine (Pu) forms a purine 5'-mononucleotide (Pu-RP).\n\nPhosphoryl transfer from PRPP catalyzed by adenosine- and hypoxanthine-phosphoribosyl transferases converts adenine, hypoxanthine, and guanine to their mononucleotides (Figure 33–4).",
+      "char_start": 9521,
+      "char_end": 9974,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "\"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-4"
+      ],
+      "table_refs": [],
+      "section_id": "salvage-reactions-convert-purines-their-nucleosides-to"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Pu-R + ATP → PuR-P + ADP. Phosphorylation of the purine nucleotides, catalyzed by adenosine kinase, converts adenosine and deoxyadenosine to AMP and dAMP. Deoxycytidine kinase phosphorylates deoxycytidine and 2'-deoxyguanosine, forming dCMP and dGMP, respectively.\n\nLiver is the major site of purine nucleotide biosynthesis and provides purines and purine nucleosides for salvage and for utilization by tissues incapable of their biosynthesis. Human brain tissue has a low level of PRPP glutamyl amidotransferase and hence depends in part on exogenous purines. Erythrocytes and polymorphonuclear leukocytes cannot synthesize 5-phosphoribosylamine and therefore also utilize exogenous purines to form nucleotides.",
+      "char_start": 10095,
+      "char_end": 10807,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "\"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "salvage-reactions-convert-purines-their-nucleosides-to"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Biosynthesis of IMP is energetically expensive. ATP, glycine, glutamine, aspartate, and reduced tetrahydrofolate derivatives are all consumed in the process. Biosynthesis of IMP is energetically expensive. It is advantageous to regulate purine biosynthesis in response to varying physiologic need. The concentration of PRPP determines the rate of de novo purine nucleotide biosynthesis. The rate of PRPP synthesis depends on the availability of ribose 5-phosphate and the activity of PRPP synthetase, EC 2.7.6.1. PRPP synthetase is feedback inhibited by AMP, ADP, GMP, and GDP. Elevated levels of these nucleoside phosphates signal a decrease in their biosynthesis. The rate of PRPP synthesis is influenced by the regulation of PRPP synthesis, utilization, degradation, and regulation. PRPP synthetase catalyzes reaction ② in Figure 33-5. Solid lines in Figure 33-5represent chemical flow. Broken red lines in Figure 33-5represent feedback inhibition by intermediates of the pathway.",
+      "char_start": 10872,
+      "char_end": 11855,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "\"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+        "AMP & GMP Feedback Regulate PRPP Glutamyl Amidotransferase"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-5"
+      ],
+      "table_refs": [],
+      "section_id": "amp-gmp-feedback-regulate-prpp-glutamyl-amidotransferase"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Ribose 5-phosphate + ATP is converted to PRPP by PRPP synthetase.\nPRPP is converted to 5-Phosphoribosylamine by PRPP glutamyl amidotransferase.\n5-Phosphoribosylamine is converted to IMP in the de novo purine nucleotide biosynthesis pathway.\nIMP is converted to AMP in the de novo purine nucleotide biosynthesis pathway.\nIMP is converted to GMP in the de novo purine nucleotide biosynthesis pathway.\nAMP is converted to ADP in the de novo purine nucleotide biosynthesis pathway.\nADP is converted to ATP in the de novo purine nucleotide biosynthesis pathway.\nGMP is converted to GDP in the de novo purine nucleotide biosynthesis pathway.\nGDP is converted to GTP in the de novo purine nucleotide biosynthesis pathway.\nThe diagram illustrates the control of the rate of de novo purine nucleotide biosynthesis, showing chemical flow and feedback inhibition by intermediates of the pathway.",
+      "char_start": 12161,
+      "char_end": 13045,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "\"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+        "AMP & GMP Feedback Regulate PRPP Glutamyl Amidotransferase"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "amp-gmp-feedback-regulate-prpp-glutamyl-amidotransferase"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "AMP feedback inhibits adenylosuccinate synthetase, EC 6.3.4.4 (reaction ⑫, Figure 33--3).\n\nGMP inhibits IMP dehydrogenase, EC 1.1.1.205 (reaction ⑭, Figure 33--3).\n\nConversion of IMP to adenylosuccinate en route to AMP (reaction ⑫, Figure 33--3) requires GTP.\n\nConversion of xanthinylate (XMP) to GMP requires ATP.\n\nAMP and GMP inhibit hypoxanthine-guanine phosphoribosyltransferase, which converts hypoxanthine and guanine to IMP and GMP (Figure 33--4).\n\nGMP also feedback inhibits PRPP glutamyl amidotransferase (reaction ②, Figure 33--2).\n\nCross-regulation between the pathways of IMP metabolism serves to balance the biosynthesis of purine nucleoside triphosphates by decreasing the synthesis of one purine nucleotide when there is a deficiency of the other nucleotide.\n\nFigure 33-6represents the regulation of the conversion of IMP to adenosine nucleotides and guanosine nucleotides, with solid lines representing chemical flow and broken green lines representing positive feedback loops.",
+      "char_start": 13104,
+      "char_end": 14097,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "\"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+        "AMP & GMP Feedback Regulate Their Formation From IMP"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-6"
+      ],
+      "table_refs": [],
+      "section_id": "amp-gmp-feedback-regulate-their-formation-from-imp"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Reduction of the 2'-hydroxyl of purine and pyrimidine ribonucleotides forms deoxyribonucleoside diphosphates (dNDPs). Reduction of the 2'-hydroxyl of purine and pyrimidine ribonucleotides is catalyzed by ribonucleotide reductase, EC 1.17.4.1 (Figure 33–7). The enzyme complex is functional only when cells are actively synthesizing DNA. The reduction process requires reduced thioredoxin, thioredoxin reductase (EC 1.8.1.9), and NADPH. Reduced thioredoxin acts as the immediate reductant, which is produced by NADPH-dependent reduction of oxidized thioredoxin. The reduction of ribonucleoside diphosphates (NDPs) to dNDPs is subject to complex regulatory controls that ensure balanced production of dNTPs for DNA synthesis (Figure 33–8).",
+      "char_start": 14515,
+      "char_end": 15252,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "REDUCTION OF RIBONUCLEOSIDE DIPHOSPHATES FORMS DEOXYRIBONUCLEOSIDE DIPHOSPHATES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-7",
+        "fig-33-8"
+      ],
+      "table_refs": [],
+      "section_id": "reduction-of-ribonucleoside-diphosphates-forms"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Ribonucleotide reductase reduces ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates.\nReduced thioredoxin is involved in the reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates by ribonucleotide reductase.\n2'-Deoxyribonucleoside diphosphate is produced from ribonucleoside diphosphates by ribonucleotide reductase.\nOxidized thioredoxin is generated as a result of the reduction process involving ribonucleotide reductase and reduced thioredoxin.\nThioredoxin reductase reduces oxidized thioredoxin back to reduced thioredoxin.\nNADPH + H+ is required for thioredoxin reductase to reduce oxidized thioredoxin.\nNADP+ is produced when NADPH + H+ is used by thioredoxin reductase to reduce oxidized thioredoxin.\nThe overall process involves the reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates with the help of ribonucleotide reductase, reduced thioredoxin, and thioredoxin reductase.",
+      "char_start": 15355,
+      "char_end": 16307,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "REDUCTION OF RIBONUCLEOSIDE DIPHOSPHATES FORMS DEOXYRIBONUCLEOSIDE DIPHOSPHATES"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reduction-of-ribonucleoside-diphosphates-forms"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The figures referenced in this section are Figure 33-7: Reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates and Figure 33-8: Regulatory aspects of the biosynthesis of purine and pyrimidine ribonucleotides and reduction to their respective 2'-deoxyribonucleotides. Figure 33-8includes a broken green line representing a positive feedback loop and broken red lines representing negative feedback loops. Abbreviations in Figure 33-8include CAP for carbamoyl phosphate, CAA for carbamoyl aspartate, DHOA for dihydroorotate, OA for orotic acid, OMP for orotidine monophosphate, and PRPP for phosphoribosyl pyrophosphate.",
+      "char_start": 16875,
+      "char_end": 17518,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "REDUCTION OF RIBONUCLEOSIDE DIPHOSPHATES FORMS DEOXYRIBONUCLEOSIDE DIPHOSPHATES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-7",
+        "fig-33-8"
+      ],
+      "table_refs": [],
+      "section_id": "reduction-of-ribonucleoside-diphosphates-forms"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The initial reaction in pyrimidine nucleotide biosynthesis is catalyzed by cytosolic carbamoyl phosphate synthetase II (EC 6.3.5.5).\n\nCytosolic carbamoyl phosphate synthetase II is distinct from the mitochondrial carbamoyl phosphate synthetase I involved in urea synthesis (see Figure 28--13).\n\nCompartmentation allows for an independent pool of carbamoyl phosphate for each process.\n\nPRPP participates in pyrimidine biosynthesis only after the assembly of the pyrimidine ring.\n\nIn contrast, PRPP serves as a scaffold for assembly of the purine ring in purine biosynthesis (see Figure 33--2).\n\nPurine nucleoside biosynthesis is energetically costly, similar to pyrimidine biosynthesis.\n\nFigure 33-9illustrates the biosynthetic pathway for pyrimidine nucleotides.",
+      "char_start": 17562,
+      "char_end": 18324,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "BIOSYNTHESIS OF PYRIMIDINE NUCLEOTIDES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-9"
+      ],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-pyrimidine-nucleotides"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Carbamoyl phosphate synthetase II produces Carbamoyl phosphate (CAP).\nCarbamoyl phosphate (CAP) is converted by Aspartate transcarbamoylase.\nAspartate transcarbamoylase produces Carbamoyl aspartic acid (CAA).\nCarbamoyl aspartic acid (CAA) is converted by Dihydro-orotase.\nDihydro-orotase produces Oromic acid (DHOA) with the help of water (H2O).\nOromic acid (DHOA) is converted to Orotic acid (OA) with the help of NAD+.\nDihydroorotate dehydrogenase converts Oromic acid (DHOA) back to itself using NADH + H+.\nCarbamoyl phosphate (CAP) is also processed by Orotidylic acid decarboxylase.\nOrotidylic acid decarboxylase produces Orotate phosphoribosyltransferase with the release of PPi.\nOrotate phosphoribosyltransferase produces Oromic acid (OA).\nOromic acid (OA) is converted to UDP with the help of NADPH + H+ by Ribonucleotide reductase.\nRibonucleotide reductase converts UDP to dUDP (deoxyuridine diphosphate).\ndUDP (deoxyuridine diphosphate) releases Pi to form dUMP.\ndUMP is converted by Thymidylate synthase with the help of H2 folate to dR-5-P.\ndR-5-P is converted to CTP.\nCTP interacts with ADP + Pi to produce Glutamate.\nGlutamate is converted to ATP.\nATP is converted to UTP.\nUTP is converted to UDP.\nUDP is converted back to itself by Ribonucleotide reductase.\nRibonucleotide reductase converts UDP to dUDP (deoxyuridine diphosphate).\ndUDP (deoxyuridine diphosphate) is converted to dR-5-P.\nThe diagram represents the biosynthetic pathway for pyrimidine nucleotides.",
+      "char_start": 18399,
+      "char_end": 19877,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "BIOSYNTHESIS OF PYRIMIDINE NUCLEOTIDES"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-pyrimidine-nucleotides"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Five of the first six enzyme activities of pyrimidine biosynthesis are located on multifunctional polypeptides. The first multifunctional protein is CAD, named for the first letters of its enzyme activities. CAD catalyzes the first three reactions of Figure 33--9. The second multifunctional enzyme is UMPS, named for its UMP Synthetase activity. UMPS catalyzes reactions ⑤ and ⑥ of Figure 33--9. The close proximity of multiple active sites on a multifunctional polypeptide facilitates efficient channeling of labile intermediates during pyrimidine biosynthesis.",
+      "char_start": 19964,
+      "char_end": 20527,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "BIOSYNTHESIS OF PYRIMIDINE NUCLEOTIDES",
+        "Multifunctional Proteins Catalyze the Early Reactions of Pyrimidine Biosynthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "multifunctional-proteins-catalyze-the-early-reactions-of"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Adenine, guanine, and hypoxanthine are reconverted to nucleoside triphosphates via salvage pathways. Mammalian cells reutilize few free pyrimidines. Salvage reactions convert the pyrimidine ribonucleosides uridine and cytidine and the pyrimidine deoxyribonucleosides thymidine and deoxycytidine to their respective nucleotides. Guanine and PRPP react to form GMP and PPi. Hypoxanthine and PRPP react to form IMP and PPi. The conversion of dNDPs to nucleoside triphosphates results in the corresponding nucleoside triphosphates. NDP and ATP react to form NTP and ADP. dNDP and ATP react to form dNTP and ADP.",
+      "char_start": 20591,
+      "char_end": 21198,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-deoxyribonucleosides-of-uracil-cytosine-are-salvaged"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "The reaction catalyzed by thymidylate synthase, EC 2.1.1.45, is the only reaction of pyrimidine nucleotide biosynthesis that requires a tetrahydrofolate derivative. Dihydrofolate is the oxidized form of tetrahydrofolate. For further pyrimidine synthesis to occur, dihydrofolate must be reduced back to tetrahydrofolate. The reduction of dihydrofolate is catalyzed by dihydrofolate reductase (EC 1.5.1.3). Methotrexate inhibits the reduction of dihydrofolate by dihydrofolate reductase. Dividing cells are especially sensitive to inhibitors of dihydrofolate reductase such as methotrexate. Methotrexate is an anticancer drug.",
+      "char_start": 21251,
+      "char_end": 21875,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Methotrexate Blocks Reduction of Dihydrofolate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "methotrexate-blocks-reduction-of-dihydrofolate"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Allopurinol is used to treat gout.\n\n5-fluorouracil is an anticancer drug.\n\nAllopurinol and 5-fluorouracil are alternate substrates for orotate phosphoribosyltransferase, EC 2.4.2.10.\n\nOrotate phosphoribosyltransferase is involved in reaction ⑤ of Figure 33–9.\n\nBoth allopurinol and 5-fluorouracil undergo phosphoribosylation.\n\nAllopurinol is converted to a nucleotide.",
+      "char_start": 21973,
+      "char_end": 22341,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Certain Pyrimidine Analogs are Substrates for Enzymes of Pyrimidine Nucleotide Biosynthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-9"
+      ],
+      "table_refs": [],
+      "section_id": "certain-pyrimidine-analogs-are-substrates-for-enzymes-of"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "CAD represents the primary focus for regulation of pyrimidine biosynthesis. Expression of the CAD gene is regulated at the level of transcription. Expression of the CAD gene is regulated at the level of translation. The carbamoyl phosphate synthetase II (CPS) activity of CAD is activated by PRPP. The carbamoyl phosphate synthetase II (CPS) activity of CAD is feedback inhibited by UTP. Phosphorylation of serine 1406 of CAD abolishes the effect of UTP.",
+      "char_start": 22400,
+      "char_end": 22854,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Gene Expression & Enzyme Activity Both are Regulated"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "gene-expression-enzyme-activity-both-are-regulated"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Purine and pyrimidine biosynthesis occur in parallel quantitatively, suggesting coordinated control of their biosynthesis. PRPP synthetase, which forms a precursor essential for both processes, is feedback inhibited by both purine and pyrimidine nucleotides. The conversion of both pyrimidine and purine nucleotides NDPs to NTPs is also feedback inhibited by purine and pyrimidine nucleotides (Figure 33-10).",
+      "char_start": 22931,
+      "char_end": 23339,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Purine & Pyrimidine Nucleotide Biosynthesis are Coordinately Regulated"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-10"
+      ],
+      "table_refs": [],
+      "section_id": "purine-pyrimidine-nucleotide-biosynthesis-are-coordinately"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "CDP converts to 2'dCDP.\n2'dCDP converts to 2'dCTP.\nUDP converts to 2'dUDP.\n2'dUDP converts to 2'dTTP.\nGDP converts to 2'dGTP.\n2'dGTP converts to 2'dGTP.\nADP converts to 2'dADP.\n2'dADP converts to 2'dATP.\nUDP regulates CDP conversion to 2'dCDP by providing ATP.\nUDP regulates 2'dUDP conversion to 2'dTTP by providing ATP.\nUDP regulates GDP conversion to 2'dGTP by providing ATP.\nUDP regulates ADP conversion to 2'dADP by providing ATP.\nThe diagram illustrates the regulation of the conversion of purine and pyrimidine NDPs to NTPs.",
+      "char_start": 23509,
+      "char_end": 24039,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Purine & Pyrimidine Nucleotide Biosynthesis are Coordinately Regulated"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "purine-pyrimidine-nucleotide-biosynthesis-are-coordinately"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "This section contains the following figures and tables: Figure 33-10: Regulation of the conversion of purine and pyrimidine NDPs to NTPs. Solid lines represent chemical flow. Broken lines indicate targets of positive or negative feedback inhibition.",
+      "char_start": 24041,
+      "char_end": 24290,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+        "Purine & Pyrimidine Nucleotide Biosynthesis are Coordinately Regulated"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-10"
+      ],
+      "table_refs": [],
+      "section_id": "purine-pyrimidine-nucleotide-biosynthesis-are-coordinately"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Humans convert adenosine and guanosine to uric acid (Figure 33--11).\n\nAdenosine is first converted to inosine by adenosine deaminase, EC 3.5.4.4.\n\nIn mammals other than higher primates, uricase (EC 1.7.3.3) converts uric acid to the water-soluble product allantoin.\n\nHumans lack uricase.\n\nThe end product of purine catabolism in humans is uric acid.\n\nPurine deoxyribonucleosides are degraded by the same catabolic pathway and enzymes, all of which exist in the mucosa of the mammalian gastrointestinal tract (Figure 33-11).",
+      "char_start": 24334,
+      "char_end": 24857,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "HUMANS CATABOLIZE PURINES TO URIC ACID"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-33-11"
+      ],
+      "table_refs": [],
+      "section_id": "humans-catabolize-purines-to-uric-acid"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Adenosine is converted to Inosine with the help of water.\nAdenosine deaminase converts Adenosine to Inosine with the help of water and ammonia.\nAdenosine deaminase produces ammonia when converting Adenosine to Inosine.\nThe diagram illustrates the catabolic pathway for the formation of uric acid from purine nucleosides, involving the conversion of Adenosine to Inosine.",
+      "char_start": 25149,
+      "char_end": 25519,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "HUMANS CATABOLIZE PURINES TO URIC ACID"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "humans-catabolize-purines-to-uric-acid"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Genetic defects in PRPP synthetase can present clinically as gout. Increased affinity for ribose 5-phosphate in PRPP synthetase results in overproduction and overexcretion of purine catabolites. Resistance to feedback inhibition in PRPP synthetase causes overproduction and overexcretion of purine catabolites. When serum urate levels exceed the solubility limit, sodium urate crystallizes in soft tissues and joints. Sodium urate crystals cause an inflammatory reaction known as gouty arthritis. Most cases of gout reflect abnormalities in renal handling of uric acid.\n\nPurine deficiency states are rare in human subjects. There are numerous genetic disorders of purine catabolism. Hyperuricemias can be differentiated based on whether patients excrete normal or excessive quantities of total urates. Some hyperuricemias reflect specific enzyme defects. Other hyperuricemias are secondary to diseases such as cancer or psoriasis that enhance tissue turnover.",
+      "char_start": 25641,
+      "char_end": 26600,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "DISORDERS OF PURINE METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "disorders-of-purine-metabolism"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "The Lesch-Nyhan syndrome is characterized by frequent episodes of uric acid lithiasis and a bizarre syndrome of self-mutilation.\n\nThe Lesch-Nyhan syndrome reflects a defect in hypoxanthine-guanine phosphoribosyl transferase, an enzyme of purine salvage.\n\nThe defect in hypoxanthine-guanine phosphoribosyl transferase leads to an accompanying rise in intracellular PRPP.\n\nThe rise in intracellular PRPP results in purine overproduction.\n\nMutations that decrease or abolish hypoxanthine-guanine phosphoribosyltransferase activity include deletions, frame-shift mutations, base substitutions, and aberrant mRNA splicing.",
+      "char_start": 26627,
+      "char_end": 27244,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "DISORDERS OF PURINE METABOLISM",
+        "Lesch-Nyhan Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "lesch-nyhan-syndrome"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "von Gierke disease involves purine overproduction and hyperuricemia.\n\nvon Gierke disease is characterized by glucose-6-phosphatase deficiency.\n\nEnhanced generation of the PRPP precursor ribose 5-phosphate leads to purine overproduction in von Gierke disease.\n\nAn associated lactic acidosis in von Gierke disease elevates the renal threshold for urate.\n\nElevated renal threshold for urate results in elevated total body urates in von Gierke disease.",
+      "char_start": 27269,
+      "char_end": 27717,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "DISORDERS OF PURINE METABOLISM",
+        "von Gierke Disease"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "von-gierke-disease"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Hypouricemia is associated with a deficiency in xanthine oxidase, EC 1.17.3.2. Increased excretion of hypoxanthine and xanthine is associated with a deficiency in xanthine oxidase, EC 1.17.3.2. A deficiency in xanthine oxidase can be due to a genetic defect. A deficiency in xanthine oxidase can be due to severe liver damage. Patients with a severe enzyme deficiency may exhibit xanthinuria. Patients with a severe enzyme deficiency may exhibit xanthine lithiasis.",
+      "char_start": 27736,
+      "char_end": 28201,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "DISORDERS OF PURINE METABOLISM",
+        "Hypouricemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hypouricemia"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Adenosine deaminase deficiency is associated with an immunodeficiency disease.\n\nIn this disease, thymus-derived lymphocytes (T cells) are sparse and dysfunctional.\n\nIn this disease, bone marrow-derived lymphocytes (B cells) are sparse and dysfunctional.\n\nPatients with adenosine deaminase deficiency suffer from severe immunodeficiency.\n\nWithout enzyme replacement or bone marrow transplantation, infants with adenosine deaminase deficiency often succumb to fatal infections.\n\nDefective activity of purine nucleoside phosphorylase (EC 2.4.2.1) is associated with a severe deficiency of T cells.\n\nIn the case of purine nucleoside phosphorylase deficiency, B-cell function appears normal.\n\nImmune dysfunctions in these deficiencies result from the accumulation of dGTP and dATP.\n\ndGTP and dATP inhibit ribonucleotide reductase.\n\nThe inhibition of ribonucleotide reductase depletes cells of DNA precursors.",
+      "char_start": 28272,
+      "char_end": 29175,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "DISORDERS OF PURINE METABOLISM",
+        "Adenosine Deaminase & Purine Nucleoside Phosphorylase Deficiency"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenosine-deaminase-purine-nucleoside-phosphorylase"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Catabolism of the pyrimidines forms highly water-soluble products. Unlike purine catabolism, which produces low solubility products, pyrimidine catabolism results in highly soluble compounds.",
+      "char_start": 29221,
+      "char_end": 29412,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "PYRIMIDINE CATABOLITES ARE WATER SOLUBLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pyrimidine-catabolites-are-water-soluble"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Cytosine converts to Uracil with the addition of 1/2O2.\nUracil is reduced by NADPH + H+ to form Dihydropyrimidine dehydrogenase.\nUracil is oxidized by NADP+ to form Dihydropyrimidine dehydrogenase.\nDihydropyrimidine dehydrogenase reduces Dihydrothymine with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydrothymine reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nβ-Ureidopropionate (N-carbamoyl-β-alanine) is hydrolyzed by H2O.\nβ-Ureidopropionate (N-carbamoyl-β-alanine) is further hydrolyzed by H2O.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) is hydrolyzed by H2O.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate).\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Alanine.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Aminoisobutyrate.\nThe diagram illustrates the catabolism of pyrimidines, showing the enzymatic conversions and intermediates involved in breaking down cytosine and uracil to β-alanine and β-aminoisobutyrate.",
+      "char_start": 29591,
+      "char_end": 30902,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "PYRIMIDINE CATABOLITES ARE WATER SOLUBLE"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pyrimidine-catabolites-are-water-soluble"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Excretion of β-aminoisobutyrate increases in leukemia and severe x-ray radiation exposure due to increased destruction of DNA. Many persons of Chinese or Japanese ancestry routinely excrete β-aminoisobutyrate. Excretion of β-aminoisobutyrate is also relevant to patients with low levels of dihydropyrimidine dehydrogenase.",
+      "char_start": 30904,
+      "char_end": 31226,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "PYRIMIDINE CATABOLITES ARE WATER SOLUBLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pyrimidine-catabolites-are-water-soluble"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Pseudouridine is excreted unchanged in the urine of normal subjects. Pseudouridine was first isolated from human urine (Figure 33--13).",
+      "char_start": 31268,
+      "char_end": 31403,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "PYRIMIDINE CATABOLITES ARE WATER SOLUBLE",
+        "Pseudouridine Is Excreted Unchanged"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pseudouridine-is-excreted-unchanged"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Since the end products of pyrimidine catabolism are highly water soluble, pyrimidine overproduction results in few clinical signs or symptoms.",
+      "char_start": 31529,
+      "char_end": 31671,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "OVERPRODUCTION OF PYRIMIDINE CATABOLITES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overproduction-of-pyrimidine-catabolites"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Orotic aciduria accompanies the Reye syndrome due to the inability of severely damaged mitochondria to utilize carbamoyl phosphate.\n\nCarbamoyl phosphate becomes available for cytosolic overproduction of orotic acid when mitochondria are severely damaged.\n\nType I orotic aciduria reflects a deficiency of both orotate phosphoribosyltransferase and orotidylate decarboxylase.\n\nType II orotic aciduria is due to a deficiency only of orotidylate decarboxylase.\n\nType II orotic aciduria is rarer than Type I orotic aciduria.",
+      "char_start": 31693,
+      "char_end": 32212,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "OVERPRODUCTION OF PYRIMIDINE CATABOLITES",
+        "Orotic Aciduria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "orotic-aciduria"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "A deficiency in liver mitochondrial ornithine transcarbamoylase leads to increased excretion of orotic acid, uracil, and uridine.\n\nExcess carbamoyl phosphate exits to the cytosol when liver mitochondrial ornithine transcarbamoylase is deficient.\n\nIn the cytosol, excess carbamoyl phosphate stimulates pyrimidine nucleotide biosynthesis.\n\nThe deficiency in liver mitochondrial ornithine transcarbamoylase results in mild orotic aciduria.\n\nHigh-nitrogen foods increase the mild orotic aciduria associated with the deficiency in liver mitochondrial ornithine transcarbamoylase.",
+      "char_start": 32298,
+      "char_end": 32872,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "OVERPRODUCTION OF PYRIMIDINE CATABOLITES",
+        "Deficiency of a Urea Cycle Enzyme Results in Excretion of Pyrimidine Precursors"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "deficiency-of-a-urea-cycle-enzyme-results-in-excretion-of"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Allopurinol is an alternative substrate for orotate phosphoribosyltransferase. Allopurinol competes with orotic acid. The nucleotide product resulting from allopurinol inhibits orotidylate decarboxylase. Inhibition of orotidylate decarboxylase by the nucleotide product results in orotic aciduria. Inhibition of orotidylate decarboxylase by the nucleotide product results in orotidinuria.\n\n6-Azauridine converts to 6-azauridylate. 6-Azauridylate competitively inhibits orotidylate decarboxylase. Inhibition of orotidylate decarboxylase by 6-azauridylate enhances excretion of orotic acid. Inhibition of orotidylate decarboxylase by 6-azauridylate enhances excretion of orotidine.\n\nFour genes encode urate transporters. Two of these encoded proteins are localized to the apical membrane of proximal tubular cells.",
+      "char_start": 32916,
+      "char_end": 33728,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides",
+        "OVERPRODUCTION OF PYRIMIDINE CATABOLITES",
+        "Drugs May Precipitate Orotic Aciduria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "drugs-may-precipitate-orotic-aciduria"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "Degradation of ingested nucleic acids yields free purines and pyrimidines. Purines and pyrimidines are formed from amphibolic intermediates and thus are dietarily nonessential.\nSeveral reactions of IMP biosynthesis require folate derivatives and glutamine. Consequently, antifolate drugs and glutamine analogs inhibit purine biosynthesis.\nIMP is a precursor both of AMP and GMP. Glutamine provides the 2-amino group of GMP, and aspartate the 6-amino group of AMP.\nPhosphoryl transfer from ATP converts AMP and GMP to ADP and GDP. A second phosphoryl transfer from ATP forms GTP, but ADP is converted to ATP primarily by oxidative phosphorylation.\nHepatic purine nucleotide biosynthesis is stringently regulated by the pool size of PRPP and by feedback inhibition of PRPP glutamyl amidotransferase by AMP and GMP.\nCoordinated regulation of purine and pyrimidine nucleotide biosynthesis ensures their presence in proportions appropriate for nucleic acid biosynthesis and other metabolic needs.\nUrate crystals are diagnostic of gout. Other disorders of purine catabolism include Lesch-Nyhan syndrome, von Gierke disease, and hypouricemias.\nSince pyrimidine catabolites are water soluble, their overproduction does not result in clinical abnormalities. Excretion of pyrimidine precursors can, however, result from a deficiency of ornithine transcarbamoylase because excess carbamoyl phosphate is available for pyrimidine biosynthesis.",
+      "char_start": 33730,
+      "char_end": 35160,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-33-1",
+      "image_path": "images/643321c5f1264be89991a62252fd7be1d90d3592b4bfe5d30d09e66ba8900684.jpg",
+      "caption": "Sources of the nitrogen and carbon atoms of the purine ring. Atoms 4, 5, and 7 (blue highlight) derive from glycine.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-33-1]",
+      "description": "",
+      "label": "Figure 33-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4689,
+        4805
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biosynthesis-of-purine-nucleotides"
+    },
+    {
+      "fig_id": "fig-33-2",
+      "image_path": "",
+      "caption": "Purine biosynthesis from ribose 5-phosphate and ATP. See the text for explanations. (",
+      "referenced_from": "c004",
+      "marker": "[FIGURE:fig-33-2]",
+      "description": "α-Dibose 5-phosphate (I) is converted to phosphoribosyl pyrophosphate (PRPP) (II) with the help of ATP and AMP.\nPhosphoribosyl pyrophosphate (PRPP) (II) is transformed into 5-Phospho-β-Dibosylamine (III) with the involvement of glutamine, glutamate, and PP.\n5-Phospho-β-Dibosylamine (III) is converted to glycinamide ribosyl-5-phosphate (IV) with the addition of glycine, Mg2+, ADP, and P.\nGlycinamide ribosyl-5-phosphate (IV) is modified to formylglycinamide ribosyl-5-phosphate (V) through the action of formyltransferase.\nFormylglycinamide ribosyl-5-phosphate (V) is processed into formylglycinamidine ribosyl-5-phosphate (VI) by VI synthetase, ATP, Mg2+, and Glu.\nFormylglycinamidine ribosyl-5-phosphate (VI) is further transformed into formylglycinamidine ribosyl-5-phosphate (IX) with the help of Gln, ATP, Mg2+, and Glu.\nFormylglycinamidine ribosyl-5-phosphate (IX) is converted to aminimidazole carboxamide ribosyl-5-phosphate (X) by adenylsuccinase.\nAminimidazole carboxamide ribosyl-5-phosphate (X) is modified to formimidazole carboxamide ribosyl-5-phosphate (XI) through the action of formyltransferase.\nFormimidazole carboxamide ribosyl-5-phosphate (XI) is transformed into formimidazole carboxamide ribosyl-5-phosphate (XII) with the involvement of N10-Formyl-H4folate and H4folate.\nFormimidazole carboxamide ribosyl-5-phosphate (XII) is finally converted to inosine monophosphate (IMP) (XII) through ring closure by IMP Cyclohydrolase.\nThe diagram illustrates the process of purine biosynthesis from ribose 5-phosphate and ATP.",
+      "label": "Figure 33-2",
+      "panel": "",
+      "content_chunk": "c005",
+      "caption_span": [
+        5311,
+        5396
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "fig_id": "fig-33-3",
+      "image_path": "images/1e4dccef93edbbf1caba06d49cf49ad5dca6c6cdba0b8f5f5b019c1e5ea8c2a4.jpg",
+      "caption": "Conversion of IMP to AMP and GMP.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-33-3]",
+      "description": "Inosine monophosphate (IMP) is converted to Adenylosuccinate (AMPS) by Adenylosuccinate synthetase, requiring GTP, GTP, Mg2+, GDP + Pi.\nAdenylosuccinate (AMPS) is converted to Adenosine monophosphate (AMP) by Adenylosuccinase.\nAdenosine monophosphate (AMP) is converted to Xanthosine monophosphate (XMP) by an unspecified enzyme.\nXanthosine monophosphate (XMP) is converted to Xanthosine monophosphate (XMP) by IMP Dehydrogenase, requiring NADH + H+.\nXanthosine monophosphate (XMP) is converted to Guanosine monophosphate (GMP) by an unspecified enzyme, requiring Glutamine, Glutamate.\nGuanosine monophosphate (GMP) is converted to Guanosine monophosphate (GMP) by Transamidinase.\nThe diagram as a whole relates the conversion of Inosine monophosphate (IMP) to Adenosine monophosphate (AMP) and Guanosine monophosphate (GMP).",
+      "label": "Figure 33-3",
+      "panel": "",
+      "content_chunk": "c007",
+      "caption_span": [
+        7323,
+        7356
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "inosine-monophosphate-imp-is-synthesized-from-amphibolic"
+    },
+    {
+      "fig_id": "fig-33-4",
+      "image_path": "images/eeb439d51bd73cbbb0a65bbfd6ab840685e7bee9ebdb12f5ad34c6adadb12556.jpg",
+      "caption": "Phosphoribosylation of adenine, hypoxanthine, and guanine to form AMP, IMP, and GMP, respectively.",
+      "referenced_from": "c010",
+      "marker": "[FIGURE:fig-33-4]",
+      "description": "",
+      "label": "Figure 33-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9995,
+        10093
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "salvage-reactions-convert-purines-their-nucleosides-to"
+    },
+    {
+      "fig_id": "fig-33-5",
+      "image_path": "images/da4446ed1a2f881e529a260c329c8d2602b2e1b3baecfc32277507ac2eb56a02.jpg",
+      "caption": "Control of the rate of de novo purine nucleotide biosynthesis. Reactions ① and ② are catalyzed by PRPP synthetase and by PRPP glutamyl amidotransferase, respectively. Solid lines represent chemical flow. Broken red lines represent feedback inhibition by intermediates of the pathway.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-33-5]",
+      "description": "Ribose 5-phosphate + ATP is converted to PRPP by PRPP synthetase.\nPRPP is converted to 5-Phosphoribosylamine by PRPP glutamyl amidotransferase.\n5-Phosphoribosylamine is converted to IMP in the de novo purine nucleotide biosynthesis pathway.\nIMP is converted to AMP in the de novo purine nucleotide biosynthesis pathway.\nIMP is converted to GMP in the de novo purine nucleotide biosynthesis pathway.\nAMP is converted to ADP in the de novo purine nucleotide biosynthesis pathway.\nADP is converted to ATP in the de novo purine nucleotide biosynthesis pathway.\nGMP is converted to GDP in the de novo purine nucleotide biosynthesis pathway.\nGDP is converted to GTP in the de novo purine nucleotide biosynthesis pathway.\nThe diagram illustrates the control of the rate of de novo purine nucleotide biosynthesis, showing chemical flow and feedback inhibition by intermediates of the pathway.",
+      "label": "Figure 33-5",
+      "panel": "",
+      "content_chunk": "c013",
+      "caption_span": [
+        11876,
+        12159
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amp-gmp-feedback-regulate-prpp-glutamyl-amidotransferase"
+    },
+    {
+      "fig_id": "fig-33-6",
+      "image_path": "",
+      "caption": "Regulation of the conversion of IMP to adenosine nucleotides and guanosine nucleotides. Solid lines represent chemical flow. Broken green lines represent positive feedback loops",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-33-6]",
+      "description": "",
+      "label": "Figure 33-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14118,
+        14295
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amp-gmp-feedback-regulate-their-formation-from-imp"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/9f699a8dab45b20373c2f40272e262c433c58c08199d5bd9b6983561037f4ef9.jpg",
+      "caption": "Diagram showing the interconversion pathways of purine nucleotides, including AMP, ADP, ATP, GMP, GTP, IMP, and XMP.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14314,
+        14430
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amp-gmp-feedback-regulate-their-formation-from-imp"
+    },
+    {
+      "fig_id": "fig-33-7",
+      "image_path": "images/4604ab4e87d02e2269d8d94d616cb6c212bb3a79e912ac0e3500e0687aed2431.jpg",
+      "caption": "Reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates.",
+      "referenced_from": "c015",
+      "marker": "[FIGURE:fig-33-7]",
+      "description": "Ribonucleotide reductase reduces ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates.\nReduced thioredoxin is involved in the reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates by ribonucleotide reductase.\n2'-Deoxyribonucleoside diphosphate is produced from ribonucleoside diphosphates by ribonucleotide reductase.\nOxidized thioredoxin is generated as a result of the reduction process involving ribonucleotide reductase and reduced thioredoxin.\nThioredoxin reductase reduces oxidized thioredoxin back to reduced thioredoxin.\nNADPH + H+ is required for thioredoxin reductase to reduce oxidized thioredoxin.\nNADP+ is produced when NADPH + H+ is used by thioredoxin reductase to reduce oxidized thioredoxin.\nThe overall process involves the reduction of ribonucleoside diphosphates to 2'-deoxyribonucleoside diphosphates with the help of ribonucleotide reductase, reduced thioredoxin, and thioredoxin reductase.",
+      "label": "Figure 33-7",
+      "panel": "",
+      "content_chunk": "c016",
+      "caption_span": [
+        15273,
+        15353
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reduction-of-ribonucleoside-diphosphates-forms"
+    },
+    {
+      "fig_id": "fig-33-8",
+      "image_path": "images/6205766ea595f726ddd358c4479b972c6fee5cc3fe472c185c8b7cea52003963.jpg",
+      "caption": "Regulatory aspects of the biosynthesis of purine and pyrimidine ribonucleotides and reduction to their respective 2'-deoxyribonucleotides. The broken green line represents a positive feedback loop. Broken red lines represent negative feedback loops. Abbreviations are provided for the intermediates in the biosynthesis of pyrimidine nucleotides whose structures are given in Figure 33–9. (CAP, caramoyl phosphate; CAA, carbamoyl aspartate; DHOA, dihydroorotate; OA, orotic acid; OMP, orotidine monophosphate; PRPP, phosphoribosyl pyrophosphate.)",
+      "referenced_from": "c015",
+      "marker": "[FIGURE:fig-33-8]",
+      "description": "",
+      "label": "Figure 33-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        16328,
+        16873
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reduction-of-ribonucleoside-diphosphates-forms"
+    },
+    {
+      "fig_id": "fig-33-9",
+      "image_path": "images/5bcad45c56b614e9de26b1ccdcc855c69d74bedbb6c0592cd10a2d8e23b63f20.jpg",
+      "caption": "The biosynthetic pathway for pyrimidine nucleotides.",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-33-9]",
+      "description": "Carbamoyl phosphate synthetase II produces Carbamoyl phosphate (CAP).\nCarbamoyl phosphate (CAP) is converted by Aspartate transcarbamoylase.\nAspartate transcarbamoylase produces Carbamoyl aspartic acid (CAA).\nCarbamoyl aspartic acid (CAA) is converted by Dihydro-orotase.\nDihydro-orotase produces Oromic acid (DHOA) with the help of water (H2O).\nOromic acid (DHOA) is converted to Orotic acid (OA) with the help of NAD+.\nDihydroorotate dehydrogenase converts Oromic acid (DHOA) back to itself using NADH + H+.\nCarbamoyl phosphate (CAP) is also processed by Orotidylic acid decarboxylase.\nOrotidylic acid decarboxylase produces Orotate phosphoribosyltransferase with the release of PPi.\nOrotate phosphoribosyltransferase produces Oromic acid (OA).\nOromic acid (OA) is converted to UDP with the help of NADPH + H+ by Ribonucleotide reductase.\nRibonucleotide reductase converts UDP to dUDP (deoxyuridine diphosphate).\ndUDP (deoxyuridine diphosphate) releases Pi to form dUMP.\ndUMP is converted by Thymidylate synthase with the help of H2 folate to dR-5-P.\ndR-5-P is converted to CTP.\nCTP interacts with ADP + Pi to produce Glutamate.\nGlutamate is converted to ATP.\nATP is converted to UTP.\nUTP is converted to UDP.\nUDP is converted back to itself by Ribonucleotide reductase.\nRibonucleotide reductase converts UDP to dUDP (deoxyuridine diphosphate).\ndUDP (deoxyuridine diphosphate) is converted to dR-5-P.\nThe diagram represents the biosynthetic pathway for pyrimidine nucleotides.",
+      "label": "Figure 33-9",
+      "panel": "",
+      "content_chunk": "c019",
+      "caption_span": [
+        18345,
+        18397
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biosynthesis-of-pyrimidine-nucleotides"
+    },
+    {
+      "fig_id": "fig-33-10",
+      "image_path": "",
+      "caption": "Regulation of the conversion of purine and pyrimidine NDPs to NTPs. Solid lines represent chemical flow. Broken lines indicate targets of positive",
+      "referenced_from": "c025",
+      "marker": "[FIGURE:fig-33-10]",
+      "description": "CDP converts to 2'dCDP.\n2'dCDP converts to 2'dCTP.\nUDP converts to 2'dUDP.\n2'dUDP converts to 2'dTTP.\nGDP converts to 2'dGTP.\n2'dGTP converts to 2'dGTP.\nADP converts to 2'dADP.\n2'dADP converts to 2'dATP.\nUDP regulates CDP conversion to 2'dCDP by providing ATP.\nUDP regulates 2'dUDP conversion to 2'dTTP by providing ATP.\nUDP regulates GDP conversion to 2'dGTP by providing ATP.\nUDP regulates ADP conversion to 2'dADP by providing ATP.\nThe diagram illustrates the regulation of the conversion of purine and pyrimidine NDPs to NTPs.",
+      "label": "Figure 33-10",
+      "panel": "",
+      "content_chunk": "c026",
+      "caption_span": [
+        23361,
+        23507
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "purine-pyrimidine-nucleotide-biosynthesis-are-coordinately"
+    },
+    {
+      "fig_id": "fig-33-11",
+      "image_path": "images/04d4c1265f19e62b0a3febcf2c670150a29be92bc317b07a772491efe14f866d.jpg",
+      "caption": "Formation of uric acid from purine nucleosides by way of the purine bases hypoxanthine, xanthine, and guanine. Purine deoxyribonucleosides are degraded by the same catabolic pathway and enzymes, all of which exist in the mucosa of the mammalian gastrointestinal tract.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-33-11]",
+      "description": "Adenosine is converted to Inosine with the help of water.\nAdenosine deaminase converts Adenosine to Inosine with the help of water and ammonia.\nAdenosine deaminase produces ammonia when converting Adenosine to Inosine.\nThe diagram illustrates the catabolic pathway for the formation of uric acid from purine nucleosides, involving the conversion of Adenosine to Inosine.",
+      "label": "Figure 33-11",
+      "panel": "",
+      "content_chunk": "c029",
+      "caption_span": [
+        24879,
+        25147
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "humans-catabolize-purines-to-uric-acid"
+    },
+    {
+      "fig_id": "fig-x13",
+      "image_path": "images/2dffde35007ff3b7e524383861d84c8cad7c001bd35036452a1c26d0f9d37207.jpg",
+      "caption": "Xanthine oxidase catalyzes the oxidation of xanthine to uric acid.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x13]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        25539,
+        25605
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "humans-catabolize-purines-to-uric-acid"
+    },
+    {
+      "fig_id": "fig-33-12",
+      "image_path": "images/2825c4ffeb76f8788426f8f4d80b55ce3f600ba5d0b689393fc5de3862b4dae6.jpg",
+      "caption": "Catabolism of pyrimidines. Hepatic β -ureidopropionase catalyzes the formation of both β -alanine and β -aminoisobutyrate from their pyrimidine precursors.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-33-12]",
+      "description": "Cytosine converts to Uracil with the addition of 1/2O2.\nUracil is reduced by NADPH + H+ to form Dihydropyrimidine dehydrogenase.\nUracil is oxidized by NADP+ to form Dihydropyrimidine dehydrogenase.\nDihydropyrimidine dehydrogenase reduces Dihydrothymine with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydrothymine reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nDihydropyrimidine dehydrogenase reduces itself with NADPH + H+.\nβ-Ureidopropionate (N-carbamoyl-β-alanine) is hydrolyzed by H2O.\nβ-Ureidopropionate (N-carbamoyl-β-alanine) is further hydrolyzed by H2O.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) is hydrolyzed by H2O.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate).\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Alanine.\nβ-Ureidoisobutyrate (N-carbamoyl-β-amino-isobutyrate) releases CO2 and NH3 to form β-Aminoisobutyrate.\nThe diagram illustrates the catabolism of pyrimidines, showing the enzymatic conversions and intermediates involved in breaking down cytosine and uracil to β-alanine and β-aminoisobutyrate.",
+      "label": "Figure 33-12",
+      "panel": "",
+      "content_chunk": "c036",
+      "caption_span": [
+        29434,
+        29589
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "pyrimidine-catabolites-are-water-soluble"
+    },
+    {
+      "fig_id": "fig-33-13",
+      "image_path": "images/ea63732c3ffa82a7f3564c8042221e72143457db67bad08d3e6c0414ef9c4173.jpg",
+      "caption": "Pseudouridine, in which ribose is linked to C5 of uridine.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-33-13]",
+      "description": "",
+      "label": "Figure 33-13",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        31425,
+        31483
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "pseudouridine-is-excreted-unchanged"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Compare and contrast the roles of dietary nucleic acids and of de novo biosynthesis in the production of purines and pyrimidines destined for polynucleotide biosynthesis.\nExplain why antifolate drugs and analogs of the amino acid glutamine inhibit purine biosynthesis.\nOutline the sequence of reactions that convert inosine monophosphate (IMP), first to AMP and GMP, and subsequently to their corresponding nucleoside triphosphates.\nDescribe the formation from ribonucleotides of deoxyribonucleotides (dNTPs).\nIndicate the regulatory role of phosphoribosyl pyrophosphate (PRPP) in hepatic purine biosynthesis and the specific reaction of hepatic purine biosynthesis that is feedback inhibited by AMP and GMP.\nState the relevance of coordinated control of purine and pyrimidine nucleotide biosynthesis.\nIdentify the reactions discussed that are inhibited by certain anticancer drugs.\nWrite the structure of the end product of purine catabolism. Comment on its solubility and indicate its role in gout, Lesch-Nyhan syndrome, and von Gierke disease.\nIdentify reactions whose impairment leads to modified pathologic signs and symptoms.\nIndicate why there are few clinically significant disorders of pyrimidine catabolism.",
+      "char_start": 49,
+      "char_end": 1266,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Brassier A, Ottolenghi C, Boutron A, et al: Dihydrolipoamide dehydrogenase deficiency: a still overlooked cause of recurrent acute liver failure and Reye-like syndrome. Mol Genet Metab 2013;109:28. [PubMed: 23478190]\nFu R, Jinnah HA: Genotype-phenotype correlations in Lesch-Nyhan disease: moving beyond the gene. J Biol Chem 2012;287:2997. [PubMed: 22157001]\nFu W, Li Q, Yao J, et al: Protein expression of urate transporters in renal tissue of patients with uric acid nephrolithiasis. Cell Biochem Biophys 2014;70:449. [PubMed: 24723238]\nUehara I, Kimura T, Tanigaki S, et al: Paracellular route is the major urate transport pathway across the blood-placental barrier. Physiol Rep 2014;20:2.",
+      "char_start": 35162,
+      "char_end": 35855,
+      "section_path": [
+        "Metabolism of Purine & Pyrimidine Nucleotides"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-33-10",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides/chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides.normalized.md"
+}

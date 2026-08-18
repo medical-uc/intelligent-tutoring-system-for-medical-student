@@ -1,0 +1,1368 @@
+{
+  "doc_id": "chapter_42_hormone_action_and_signal_transduction",
+  "source": {
+    "source_id": "chapter_42_hormone_action_and_signal_transduction",
+    "title": "Hormone Action & Signal Transduction",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Hormone action and signal transduction in the body, focusing on how hormones interact with receptors to generate intracellular signals that regulate protein activity and gene expression.",
+    "page": null,
+    "origin": "chapter_42_hormone_action_and_signal_transduction.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 11:26:03"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "The homeostatic adaptations of an organism are largely achieved through changes in protein activity and quantity. Hormones are a primary mechanism for facilitating these changes. Hormone-receptor interactions generate amplified intracellular signals. Intracellular signals can regulate the activity of specific genes, altering protein amounts in target cells. Intracellular signals can also affect the activity of specific proteins, such as enzymes, transporters, or channel proteins. The signals influence protein location within the cell. The signals impact general processes like protein synthesis, cell growth, and replication by affecting gene expression. Cytokines, interleukins, growth factors, and metabolites use similar mechanisms and signal transduction pathways. Excessive, deficient, or inappropriate production and release of hormones and other regulatory signaling molecules are major causes of disease. Many pharmacotherapeutic agents target these pathways to correct or influence them.",
+      "char_start": 891,
+      "char_end": 1893,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "The stimulus can be a challenge or a threat to the organism, to an organ, or to the integrity of a single cell within that organism. Recognition of the stimulus is the first step in the adaptive response. At the organismic level, this generally involves the nervous system and the special senses such as sight, hearing, pain, smell, and touch. Appropriate recognition of such stimuli results in the release of one or more hormones that will govern generation of the necessary adaptive response.\n\nFor purposes of this discussion, the hormones are categorized as described in Tables 41–3 and 41–4. Group I hormones interact with an intracellular receptor. Group II hormones interact with receptor recognition sites located on the extracellular surface of the plasma membrane of target cells. The cytokines, interleukins, and growth factors are also considered in this latter category. Cytokines, interleukins, and growth factors are critical in homeostatic adaptation. Cytokines, interleukins, and growth factors are produced in specific cells and have the equivalent of autocrine, paracrine, and endocrine actions. Cytokines, interleukins, and growth factors bind to cell surface receptors and activate many of the same signal transduction pathways employed by the more traditional group II hormones.",
+      "char_start": 1958,
+      "char_end": 3257,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hormones-transduce-signals-to-affect-homeostatic-mechanisms"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Hormonal involvement in responses to a stimulus is illustrated in Figure 42–1. Physiologic needs or challenges to the integrity of the organism elicit a response that includes the release of one or more hormones. The hormones generate signals at or within target cells. The signals regulate a variety of biological processes that provide for a coordinated response to the stimulus or challenge. See Figure 42–8for a specific example.",
+      "char_start": 3259,
+      "char_end": 3692,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-1",
+        "fig-42-8"
+      ],
+      "table_refs": [],
+      "section_id": "hormones-transduce-signals-to-affect-homeostatic-mechanisms"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "A stimulus elicits the release of Group I hormones.\nA stimulus elicits the release of Group II hormones.\nGroup I hormones form a hormone-receptor complex.\nGroup II hormones generate many different signals.\nThe hormone-receptor complex regulates gene transcription.\nThe hormone-receptor complex regulates transporters channels.\nThe signals generated by Group II hormones cause protein translocation.\nThe signals generated by Group II hormones cause protein modification.\nRegulated gene transcription contributes to a coordinated response to the stimulus.\nRegulated transporters channels contribute to a coordinated response to the stimulus.\nProtein translocation contributes to a coordinated response to the stimulus.\nProtein modification contributes to a coordinated response to the stimulus.\nThe diagram illustrates the hormonal involvement in responses to a stimulus, showing how different hormones and signals contribute to a coordinated response.",
+      "char_start": 4127,
+      "char_end": 5077,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hormones-transduce-signals-to-affect-homeostatic-mechanisms"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Group I hormones are lipophilic and diffuse through the plasma membrane of all cells. Group I hormones encounter their specific, high-affinity intracellular receptors only in target cells. The receptors for these hormones can be located in the cytoplasm or in the nucleus of target cells. The hormone-receptor complex undergoes an activation reaction. Receptor activation occurs by at least two mechanisms. Glucocorticoids diffuse across the plasma membrane and encounter their cognate receptor in the cytoplasm of target cells. Ligand-receptor binding causes a conformational change in the receptor. This change leads to the dissociation of the heat shock protein 90 (hsp90 chaperone). Dissociation of hsp90 is necessary for the nuclear translocation of the glucocorticoid receptor (GR). The GR contains a nuclear localization sequence (NLS) that facilitates its translocation from the cytoplasm to the nucleus. The activated receptor moves into the nucleus and binds with high affinity to a specific DNA sequence called the hormone response element (HRE). In the case of the GR, this is a glucocorticoid response element (GRE). The liganded DNA-bound receptor serves as a high-affinity binding target for one or more transcriptional coactivator proteins. Accelerated gene transcription typically ensues when this occurs. Thyroid hormones and retinoids diffuse from the extracellular fluid across the plasma membrane and go directly into the nucleus. In this case, the cognate receptor is already bound to the HRE, such as the thyroid hormone response element (TRE). However, this DNA-bound receptor fails to activate transcription because it exists in complex with a corepressor. The receptor-corepressor complex serves as a tonic repressor of gene transcription. Association of ligand with these receptors results in the dissociation of the corepressor(s). The liganded receptor is capable of binding one or more coactivators with high affinity. This results in the recruitment of RNA polymerase II and the general transcription factors (GTFs) and activation of gene transcription. The relationship of hormone receptors to other nuclear receptors and to coregulators is discussed in more detail later. (Figure 42–2)",
+      "char_start": 5146,
+      "char_end": 7364,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS",
+        "The Ligand-Receptor Complex Is the Signal for Group I Hormones"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-2"
+      ],
+      "table_refs": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Plasma membrane is shown in an image. (Figure 42–2)\n\nThe GRE, PRE, MRE, and ARE consist of the same DNA sequence. Specificity is likely conferred by the intracellular concentration of the ligand or hormone receptor. Specificity is likely conferred by flanking DNA sequences not included in the consensus. Specificity is likely conferred by other accessory elements. A second group of HREs includes those for thyroid hormones, estrogens, retinoic acid, and vitamin D. These HREs are similar except for the orientation and spacing between the half palindromes. Spacing determines the hormone specificity. VDRE (N=3) binds to direct repeats rather than to inverted repeats. TRE (N=4) binds to direct repeats rather than to inverted repeats. RARE (N=5) binds to direct repeats rather than to inverted repeats. The retinoid X receptor (RXR) forms heterodimers with VDR, TR, and RARE. These heterodimers constitute the functional forms of these DNA-binding transacting factors. cAMP affects gene transcription through the CRE. (Table 42-1)",
+      "char_start": 8820,
+      "char_end": 9853,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS",
+        "The Ligand-Receptor Complex Is the Signal for Group I Hormones"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-2"
+      ],
+      "table_refs": [
+        "tbl-42-1"
+      ],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Glucocorticoids have a hormone response element (HRE) called GRE.\nThe DNA sequence for the glucocorticoid response element (GRE) is GGTACA NNN TGTTCT.\nProgestins have a hormone response element (HRE) called PRE.\nMineralocorticoids have a hormone response element (HRE) called MRE.\nAndrogens have a hormone response element (HRE) called ARE.\nEstrogens have a hormone response element (HRE) called ERE.\nThe DNA sequence for the estrogen response element (ERE) is AGGTCA — TGACCT.\nThyroid hormone has a hormone response element (HRE) called TRE.\nRetinoic acid has a hormone response element (HRE) called RARE.\nVitamin D has a hormone response element (HRE) called VDRE.\ncAMP has a hormone response element (HRE) called CRE.\nThe DNA sequence for the cAMP response element (CRE) is TGACGTCA.",
+      "char_start": 9920,
+      "char_end": 10706,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS",
+        "The Ligand-Receptor Complex Is the Signal for Group I Hormones"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "By selectively affecting gene transcription and the consequent production of appropriate target messenger RNAs, the amounts of specific proteins are changed and metabolic processes are influenced. The influence of each hormone is quite specific; generally, a given hormone directly affects less than 1% of the genes, mRNA, or proteins in a target cell. Sometimes only a few genes are affected. The nuclear actions of steroid, thyroid, and retinoid hormones are quite well defined. Most evidence suggests that these hormones exert their dominant effect on modulating gene transcription, but they can act at any step of the 'information pathway' to control specific gene expression and, ultimately, a biological response. Direct actions of steroids in the cytoplasm and on various organelles and membranes have also been described. Recently, microRNAs and lncRNAs have been implicated in mediating some of the diverse actions of hormones. (Figure 42–3)",
+      "char_start": 10708,
+      "char_end": 11658,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS",
+        "The Ligand-Receptor Complex Is the Signal for Group I Hormones"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-3"
+      ],
+      "table_refs": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The Gene undergoes transcription to produce the Primary transcript.\nThe Primary transcript can be degraded to form mRNA.\nmRNA undergoes modification and processing to become mRNA.\nmRNA can be degraded back to mRNA.\nmRNA is transported to become active mRNA.\nActive mRNA undergoes translation to produce Protein.\nProtein undergoes modification and degradation to affect mRNA.\nInactive mRNA can revert to active mRNA.\nHormones can influence any of these steps, affecting the rates of processing, degradation, or modification of the products involved.",
+      "char_start": 11925,
+      "char_end": 12473,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES TRANSDUCE SIGNALS TO AFFECT HOMEOSTATIC MECHANISMS",
+        "The Ligand-Receptor Complex Is the Signal for Group I Hormones"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Many hormones are water soluble. Water soluble hormones have no transport proteins. Water soluble hormones have a short plasma half-life. Water soluble hormones initiate a response by binding to a receptor located in the plasma membrane. The mechanism of action of this group of hormones can be discussed in terms of the intracellular signals they generate. These signals include cAMP (cyclic AMP; 3',5'-adenylic acid). cAMP is a nucleotide derived from ATP through the action of adenylyl cyclase. These signals also include cGMP. cGMP is a nucleotide formed from GTP by guanylyl cyclase. Phosphatidylinositides are also part of these signals. Such small molecules are termed second messengers. The synthesis of second messengers is triggered by the presence of the primary hormone binding its receptor. Many of these second messengers affect gene transcription. Second messengers also influence a variety of other biological processes. See Tables 41–3 and 41–4 for more information. See Figure 18–5 for more information on cAMP. See Figure 42–3for more information on biological processes influenced by second messengers. See Figures 42–6and 42–8 for additional information.",
+      "char_start": 12577,
+      "char_end": 13752,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-3",
+        "fig-42-6"
+      ],
+      "table_refs": [],
+      "section_id": "group-ii-peptide-catecholamine-hormones-have-membrane"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "G-protein-coupled receptors (GPCRs) are receptors that couple to effectors through a guanine-nucleotide binding protein (G protein) intermediary. GPCRs are the largest family of cell surface receptors in humans. A wide variety of responses are mediated by the GPCRs. (Figure 42–4)",
+      "char_start": 13786,
+      "char_end": 14066,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "G-Protein-Coupled Receptors"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-4"
+      ],
+      "table_refs": [],
+      "section_id": "g-protein-coupled-receptors"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "On binding of hormone (H) to the receptor, conformational changes occur within the receptor, and the G-protein complex associates with the rearranged receptor, activating the G-protein complex. (Figure 42–4)\n\n(Figure 42–4)",
+      "char_start": 15411,
+      "char_end": 15633,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "G-Protein-Coupled Receptors"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-4"
+      ],
+      "table_refs": [],
+      "section_id": "g-protein-coupled-receptors"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Cyclic AMP was the first intracellular second messenger signal identified in mammalian cells.\n\nSeveral components comprise a system for the generation, degradation, and action of cAMP (Table 42-2).",
+      "char_start": 15835,
+      "char_end": 16032,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "cAMP Is the Intracellular Signal for Many Responses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-42-2"
+      ],
+      "section_id": "camp-is-the-intracellular-signal-for-many-responses"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "ACTH is a hormone that stimulates adenylyl cyclase.\nAcetylcholine is a hormone that inhibits adenylyl cyclase.\nADH is a hormone that stimulates adenylyl cyclase.\nAngiotensin II is a hormone that inhibits adenylyl cyclase.\nCalcitonin is a hormone that stimulates adenylyl cyclase.\nSomatostatin is a hormone that inhibits adenylyl cyclase.\nCRH is a hormone that stimulates adenylyl cyclase.\nFSH is a hormone that stimulates adenylyl cyclase.\nGlucagon is a hormone that stimulates adenylyl cyclase.\nCG is a hormone that stimulates adenylyl cyclase.\nLH is a hormone that stimulates adenylyl cyclase.\nLPH is a hormone that stimulates adenylyl cyclase.\nMSH is a hormone that stimulates adenylyl cyclase.\nPTH is a hormone that stimulates adenylyl cyclase.\nTSH is a hormone that stimulates adenylyl cyclase.",
+      "char_start": 16076,
+      "char_end": 16875,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "cAMP Is the Intracellular Signal for Many Responses"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "camp-is-the-intracellular-signal-for-many-responses"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "ACTH stands for adrenocorticotropic hormone.\n\nADH stands for antidiuretic hormone.\n\nCRH stands for corticotropin-releasing hormone.\n\nFSH stands for follicle-stimulating hormone.\n\nhCG stands for human chorionic gonadotropin.\n\nLH stands for luteinizing hormone.\n\nLPH stands for lipotropin.\n\nMSH stands for melanocyte-stimulating hormone.\n\nPTH stands for parathyroid hormone.\n\nTSH stands for thyroid-stimulating hormone.",
+      "char_start": 16877,
+      "char_end": 17294,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "cAMP Is the Intracellular Signal for Many Responses"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "camp-is-the-intracellular-signal-for-many-responses"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Different peptide hormones can stimulate the production of cAMP from adenylyl cyclase through the action of G proteins. Different peptide hormones can inhibit the production of cAMP from adenylyl cyclase through the action of G proteins. G proteins are encoded by at least 10 different genes (Table 42--3).\n\nTwo parallel systems, a stimulatory (s) one and an inhibitory (i) one, converge on a catalytic molecule (C).",
+      "char_start": 17317,
+      "char_end": 17733,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Adenylyl Cyclase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-cyclase"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The Gs class or type has an alpha_s subunit.\nThe alpha_s subunit of the Gs class is stimulated by glucagon and β-adrenergics.\nThe alpha_s subunit of the Gs class affects the effector by increasing adenylyl cyclase.\nThe alpha_s subunit of the Gs class results in the effects of glyconeogenesis, lipolysis, and glycogenolysis.\nThe alpha_s subunit of the Gs class also affects the effector by increasing cardiac Ca^{2+}, Cl^-, and Na^+ channels.\nThe alpha_s subunit of the Gs class results in the effect of olfaction.\nThe alpha_olf subunit of the Gs class is stimulated by odorant.\nThe alpha_olf subunit of the Gs class affects the effector by increasing adenylyl cyclase.\nThe G_i class or type has an alpha_{i-1,2,3} subunit.\nThe alpha_{i-1,2,3} subunit of the G_i class is stimulated by acetylcholine and α_2-adrenergics.\nThe alpha_{i-1,2,3} subunit of the G_i class affects the effector by decreasing adenylyl cyclase.\nThe alpha_{i-1,2,3} subunit of the G_i class results in the effect of slowed heart rate.\nThe alpha_{i-1,2,3} subunit of the G_i class also affects the effector by increasing potassium channels.\nThe alpha_{i-1,2,3} subunit of the G_i class is stimulated by M_2 cholinergics.\nThe alpha_{i-1,2,3} subunit of the G_i class affects the effector by decreasing calcium channels.\nThe alpha_o subunit of the G_i class is stimulated by opioids and endorphins.\nThe alpha_o subunit of the G_i class affects the effector by increasing potassium channels.\nThe alpha_o subunit of the G_i class results in the effect of neuronal electrical activity.\nThe alpha_t subunit of the G_i class is stimulated by light.\nThe alpha_t subunit of the G_i class affects the effector by increasing cGMP phosphodiesterase.\nThe alpha_t subunit of the G_i class results in the effect of vision.\nThe G_q class or type has an alpha_q subunit.\nThe alpha_q subunit of the G_q class is stimulated by M_1 cholinergics.\nThe alpha_q subunit of the G_q class is also stimulated by α_1-adrenergics.\nThe alpha_q subunit of the G_q class affects the effector by increasing phospholipase C-β1.\nThe alpha_q subunit of the G_q class results in the effect of decreased muscle contraction.\nThe alpha_{11} subunit of the G_q class is stimulated by α_1-adrenergics.\nThe alpha_{11} subunit of the G_q class affects the effector by increasing phospholipase C-β2.\nThe alpha_{11} subunit of the G_q class results in the effect of decreased blood pressure.\nThe G_{12} class or type has an alpha_{12} subunit.\nThe alpha_{12} subunit of the G_{12} class is stimulated by thrombin.\nThe alpha_{12} subunit of the G_{12} class affects the effector by acting on Rho.\nThe alpha_{12} subunit of the G_{12} class results in the effect of cell shape changes.",
+      "char_start": 17781,
+      "char_end": 20490,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Adenylyl Cyclase"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-cyclase"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "There is a large family of G proteins. G proteins are part of the superfamily of GTPases.\n\nG proteins are involved in many important biological processes in addition to hormone action. Some examples are listed in Table 42--3. GPCRs are implicated in a number of diseases. GPCRs are major targets for pharmaceutical agents.\n\nNine isoforms of adenylyl cyclase have been identified (isoforms I-IX).",
+      "char_start": 20492,
+      "char_end": 20887,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Adenylyl Cyclase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-cyclase"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "In prokaryotic cells, cAMP binds to a specific protein called cAMP activator protein (CAP). cAMP activator protein (CAP) binds directly to DNA and influences gene expression. In eukaryotic cells, cAMP binds to a protein kinase called protein kinase A (PKA). PKA is a heterotetrameric molecule consisting of two regulatory subunits (R) that inhibit the activity of the two catalytic subunits (C) when bound as a tetrameric complex. The binding of cAMP to the R subunit induces dissociation of the R-C complex, thereby activating the catalytic subunits (Figure 42–5).",
+      "char_start": 20908,
+      "char_end": 21473,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Protein Kinase"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-5"
+      ],
+      "table_refs": [],
+      "section_id": "protein-kinase"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Active adenylyl cyclase generates cAMP, which can be broken down by phosphodiesterase.\nActive adenylyl cyclase converts ATP • Mg2+ into cAMP, which binds to R2C2 Inactive PKA.\nActive adenylyl cyclase converts ATP into 5'-AMP, leading to the formation of C2 Active PKA + R2.\nPhosphodiesterase converts cAMP into 5'-AMP, contributing to the activation of C2 Active PKA + R2.\nR2C2 Inactive PKA dissociates into C2 Active PKA + R2 upon binding of cAMP.\nC2 Active PKA + R2 utilizes Mg2+ • ATP to phosphorylate target proteins.\nMg2+ • ATP is used by C2 Active PKA + R2 to phosphorylate proteins, leading to the formation of phosphoproteins.\nPhosphoproteins undergo dephosphorylation by phosphatases, terminating the physiologic response.\nPhosphoproteins contribute to physiologic effects when phosphorylated.\nThe diagram illustrates the hormonal regulation of cellular processes through cAMP-dependent protein kinase (PKA).",
+      "char_start": 22216,
+      "char_end": 23133,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Protein Kinase"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "protein-kinase"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "The consensus PKA phosphorylation sites are -ArgArg/Lys-X-Ser/Thr- and -Arg-Lys-X-X-Ser-, where X can be any amino acid. Historically, protein kinase activities were described as being 'cAMP-dependent'. Historically, protein kinase activities were described as being 'cAMP-independent'. Protein phosphorylation is now recognized as a major and ubiquitous regulatory mechanism. Several hundred protein kinases have been described. Protein kinases are related in sequence and structure within the catalytic domain. Both kinase and protein phosphatase activities can be targeted by interaction with specific kinase-binding proteins.\n\nIn the case of PKA, such targeting proteins are termed A kinase anchoring proteins (AKAPs). AKAPs serve as scaffolds, which localize PKA near to substrates. AKAPs focus PKA activity toward physiologic substrates. AKAPs facilitate spatiotemporal biologic regulation. AKAPs allow for common, shared proteins to elicit specific physiologic responses. Multiple AKAPs have been described. AKAPs can bind PKA and other kinases as well as phosphatases, phosphodiesterases, and protein kinase substrates. The multifunctionality of AKAPs facilitates signaling localization, rate, specificity, and dynamics. Phosphatases remove phosphate from serine and threonine residues. Phosphatases terminate the physiologic response. A phosphodiesterase can also terminate the response by converting cAMP to 5'-AMP (Figure 42-5).",
+      "char_start": 23135,
+      "char_end": 24574,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Protein Kinase"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-5"
+      ],
+      "table_refs": [],
+      "section_id": "protein-kinase"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "The effects of cAMP in eukaryotic cells are mediated by protein phosphorylation and dephosphorylation, principally on serine and threonine residues. The control of cAMP effects, such as steroidogenesis, secretion, ion transport, carbohydrate and fat metabolism, enzyme induction, gene regulation, synaptic transmission, and cell growth and replication, can be conferred by specific protein kinases, specific phosphatases, or specific substrates for phosphorylation. The array of specific substrates contributes to defining a target tissue and the extent of a particular response within a given cell. The effects of cAMP on gene transcription are mediated by the cyclic AMP response element binding protein (CREB). CREB binds to a cAMP responsive DNA enhancer element (CRE) in its nonphosphorylated state, acting as a weak activator of transcription. When phosphorylated by PKA at key amino acids, CREB becomes a much more potent transcriptional activator. CREB binds the coactivator CREB-binding protein CBP/p300 when phosphorylated. CBP and the related p300 contain histone acetyltransferase activities (HATs) and serve as chromatin-active transcriptional coregulators. CBP/p300 can also acetylate certain transcription factors, thereby stimulating their ability to bind DNA and modulate transcription.",
+      "char_start": 24596,
+      "char_end": 25899,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Phosphoproteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phosphoproteins"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Phosphodiesterases hydrolyze cAMP to 5'-AMP. The presence of phosphodiesterases ensures rapid turnover of the cAMP signal. Rapid turnover of cAMP leads to rapid termination of biological processes once the hormonal stimulus is removed. There are at least 11 known members of the phosphodiesterase family of enzymes. Phosphodiesterases are regulated by their substrates, cAMP and cGMP. Phosphodiesterases are regulated by hormones. Phosphodiesterases are regulated by intracellular messengers such as calcium. Calcium probably acts through calmodulin to regulate phosphodiesterases. Inhibitors of phosphodiesterase, such as methylated xanthine derivatives like caffeine, increase intracellular cAMP. Increased intracellular cAMP mimics or prolongs the actions of hormones through this signal.",
+      "char_start": 25924,
+      "char_end": 26715,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Phosphodiesterases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phosphodiesterases"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Protein phosphorylation is an important control mechanism. The phosphoprotein phosphatases are regulated by phosphorylation-dephosphorylation reactions. The phosphoprotein phosphatases are regulated by protein-protein interactions. The substrate specificity of phosphoserine-phosphothreonine phosphatases is influenced by regulatory subunits. Regulatory subunits of phosphoserine-phosphothreonine phosphatases are hormonally regulated. Dephosphorylation of proteins plays a crucial role in glycogen metabolism in muscle. Two major types of phosphoserine-phosphothreonine phosphatases exist. Type I phosphatase regulates glycogen synthase, phosphorylase, and phosphorylase kinase. Type I phosphatase is regulated by the phosphorylation of its subunits. The phosphorylation of type I phosphatase subunits is reversed by type II phosphatases. Two heat-stable protein inhibitors regulate type I phosphatase activity. Inhibitor-1 is phosphorylated and activated by cAMP-dependent protein kinases. Inhibitor-2 is possibly a subunit of the inactive phosphatase. Inhibitor-2 is phosphorylated by glycogen synthase kinase-3. Phosphatases targeting phosphotyrosine are significant in signal transduction.",
+      "char_start": 26749,
+      "char_end": 27943,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Phosphoprotein Phosphatases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phosphoprotein-phosphatases"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Cyclic GMP is made from GTP by the enzyme guanylyl cyclase. Guanylyl cyclase exists in soluble and membrane-bound forms. Each form of guanylyl cyclase has unique physiologic properties. The atriopeptins are a family of peptides produced in cardiac atrial tissues. The atriopeptins cause natriuresis, diuresis, vasodilation, and inhibition of aldosterone secretion. The atrial natriuretic factor is an example of an atriopeptin. The atriopeptins bind to and activate the membrane-bound form of guanylyl cyclase. Activation of the membrane-bound guanylyl cyclase results in an increase of cGMP by as much as 50-fold in some cases. The increase in cGMP is thought to mediate the effects of atriopeptins. Other evidence links cGMP to vasodilation. Nitroprusside causes smooth muscle relaxation. Nitroglycerin causes smooth muscle relaxation. Nitric oxide causes smooth muscle relaxation. Sodium nitrite causes smooth muscle relaxation. Sodium azide causes smooth muscle relaxation. These compounds are potent vasodilators. These compounds increase cGMP by activating the soluble form of guanylyl cyclase. Inhibitors of cGMP phosphodiesterase enhance and prolong the responses of these agents. Sildenafil, also known as Viagra, is an example of an inhibitor of cGMP phosphodiesterase. Increased cGMP activates cGMP-dependent protein kinase (PKG). PKG phosphorylates a number of smooth muscle proteins. This phosphorylation is involved in the relaxation of smooth muscle and vasodilation.",
+      "char_start": 27986,
+      "char_end": 29468,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "cGMP Is Also an Intracellular Signal"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cgmp-is-also-an-intracellular-signal"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Ionized calcium regulates muscle contraction.\n\nIonized calcium regulates stimulus-secretion coupling.\n\nIonized calcium regulates the blood clotting cascade.\n\nIonized calcium regulates enzyme activity.\n\nIonized calcium regulates membrane excitability.",
+      "char_start": 29536,
+      "char_end": 29786,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Several Hormones Act Through Calcium or Phosphatidylinositols"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-hormones-act-through-calcium-or"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Substantial amounts of calcium are associated with intracellular organelles such as mitochondria and the endoplasmic reticulum.",
+      "char_start": 29811,
+      "char_end": 29938,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Calcium Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "calcium-metabolism"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Calmodulin is the calcium-dependent regulatory protein involved in this process. Calmodulin is a 17-kDa protein that shares structural and functional homology with the muscle protein troponin C. Full occupancy of these sites induces a significant conformational change in calmodulin. Full occupancy of these sites enables calmodulin to activate enzymes and ion channels. Calmodulin can be part of numerous subunits of complex proteins. Calmodulin is particularly involved in regulating various kinases and enzymes related to cyclic nucleotide generation and degradation.",
+      "char_start": 29955,
+      "char_end": 30525,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Calmodulin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "calmodulin"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Adenylyl cyclase is regulated by calcium or calmodulin.\n\nCyclic nucleotide phosphodiesterase is regulated by calcium or calmodulin.\n\nSome cytoskeletal proteins are regulated by calcium or calmodulin.\n\nSome ion channels, such as l-type calcium channels, are regulated by calcium or calmodulin.\n\nNitric oxide synthase is regulated by calcium or calmodulin.\n\nPhosphorylase kinase is regulated by calcium or calmodulin.\n\nPhosphoprotein phosphatase 2B is regulated by calcium or calmodulin.\n\nSome receptors, such as NMDA-type glutamate receptors, are regulated by calcium or calmodulin.",
+      "char_start": 30590,
+      "char_end": 31171,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Some Enzymes & Proteins Regulated by Calcium or Calmodulin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-enzymes-proteins-regulated-by-calcium-or-calmodulin"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Microfilament-mediated processes in noncontractile cells include cell motility, cell conformation changes, mitosis, granule release, and endocytosis.",
+      "char_start": 31228,
+      "char_end": 31377,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Abbreviation: NDMA, N-methyl-D-aspartate receptor."
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "abbreviation-ndma-n-methyl-d-aspartate-receptor"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Calcium plays a role in hormone action. The effect of many hormones is blunted when intracellular calcium is depleted. Hormone action influences cellular calcium flux. Vasopressin regulates glycogen metabolism in the liver. Glycogen synthase is regulated by phosphorylation. Pyruvate kinase is regulated by phosphorylation. Pyruvate carboxylase is regulated by phosphorylation. Glycerol-3-phosphate dehydrogenase is regulated by phosphorylation. Pyruvate dehydrogenase is regulated by phosphorylation.",
+      "char_start": 31423,
+      "char_end": 31924,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Calcium Is a Mediator of Hormone Action"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "calcium-is-a-mediator-of-hormone-action"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "(Figure 42-6)",
+      "char_start": 32003,
+      "char_end": 32016,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Phosphatidylinositide Metabolism Affects Ca 2+ -Dependent Hormone Action"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-6"
+      ],
+      "table_refs": [],
+      "section_id": "phosphatidylinositide-metabolism-affects-ca-2-dependent"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "(see Chapter 21)\n\nActivated protein kinase C (PKC) phosphorylates specific substrates. Phosphorylation by activated protein kinase C (PKC) alters physiologic processes. Modification of substrates by kinases alters physiologic responses. (Figure 42-6)\n\n(Figure 42-7)",
+      "char_start": 33033,
+      "char_end": 33298,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Phosphatidylinositide Metabolism Affects Ca 2+ -Dependent Hormone Action"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-6",
+        "fig-42-7"
+      ],
+      "table_refs": [],
+      "section_id": "phosphatidylinositide-metabolism-affects-ca-2-dependent"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "The phosphorylation of serine and threonine residues in target proteins is a result of these kinases. The discovery that the epidermal growth factor (EGF) receptor contains an intrinsic tyrosine kinase activity was an important breakthrough. The tyrosine kinase activity of the epidermal growth factor (EGF) receptor is activated by the binding of the ligand EGF. The insulin and insulin-like growth factor 1 (IGF-1) receptors also contain intrinsic ligand-activated tyrosine kinase activity. Receptors involved in binding ligands that control cellular growth, differentiation, and the inflammatory response either have intrinsic tyrosine kinase activity or are tightly associated with proteins that are tyrosine kinases. These kinases preferentially phosphorylate tyrosine residues. Tyrosine phosphorylation is infrequent, occurring in less than 0.03% of total amino acid phosphorylation in mammalian cells. The ligand-receptor interaction that results in a tyrosine phosphorylation event initiates a cascade involving several protein kinases, phosphatases, and other regulatory proteins.",
+      "char_start": 33636,
+      "char_end": 34725,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Some Hormones Act Through a Protein Kinase Cascade"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-hormones-act-through-a-protein-kinase-cascade"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "The insulin, EGF, and IGF-1 receptors have intrinsic protein tyrosine kinase activities located within their cytoplasmic domains. The intrinsic protein tyrosine kinase activities are stimulated when their ligands bind to the cognate receptor. The receptors are then autophosphorylated on specific tyrosine residues. This tyrosine residue phosphorylation initiates a complex series of events for the case of the insulin receptor. The tyrosine-phosphorylated sites on the insulin receptor recruit one of several forms of integral membrane proteins, the insulin receptor substrates, on tyrosine residues. There are at least four types of IRS molecules that can vary from cell type to cell type. Phosphorylated IRS proteins are bound through the Src homology 2 domains of a variety of proteins that are directly involved in mediating different biological effects of insulin. Three broad classes of physiological regulatory events are depicted: modulation of glucose/lipid metabolism and cellular homeostasis, control of cellular proliferation, and attenuation of IR-signaling and IR recycling (Figure 42–8).",
+      "char_start": 34799,
+      "char_end": 35902,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Insulin Transmits Signals Through Several Kinase Signaling Cascades"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-8"
+      ],
+      "table_refs": [],
+      "section_id": "insulin-transmits-signals-through-several-kinase-signaling"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Insulin is released into the bloodstream from pancreatic β cells in response to hyperglycemia. Binding of insulin to a target cell-specific plasma membrane heterotetrameric insulin receptor results in a cascade of intracellular events. First, the intrinsic tyrosine kinase activity of the insulin receptor is activated. Receptor activation results in increased tyrosine phosphorylation within the receptor. One or more of the insulin receptor substrate molecules (IRS 1-4) then bind to the tyrosine-phosphorylated receptor and themselves are specifically tyrosine phosphorylated. IRS proteins interact with the activated IR via N-terminal PH and phosphotyrosine binding domains. IR-docked IRS proteins are tyrosine phosphorylated and the resulting P-Y residues form the docking sites for several additional signaling proteins such as PI-3 kinase, GRB2, and mTOR. GRB2 and PI-3K bind to IRS P-Y residues via their SH domains. Binding to IRS-Y-P residues leads to activation of the activity of many intracellular signaling molecules such as GTPases, protein kinases, and lipid kinases. The two best-described pathways are shown. Signaling is attenuated upon endocytosis of the IR. The receptor is dephosphorylated, insulin dissociates from the IR and is trafficked back to the plasma membrane in a form that is able to repeat the cycle (Figure 42-8).",
+      "char_start": 37680,
+      "char_end": 39028,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Insulin Transmits Signals Through Several Kinase Signaling Cascades"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-8"
+      ],
+      "table_refs": [],
+      "section_id": "insulin-transmits-signals-through-several-kinase-signaling"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "PI-3 kinase (PI3K) is activated by IR-pY-IRS-pY bound proteins to generate inositol trisphosphate PIP3.\n\nPIP3 links the insulin-bound insulin receptor to insulin action.\n\nPIP3 activates a number of molecules, including phosphoinositide-dependent kinase 1 (PDK1).\n\nPDK1 is activated further by serine phosphorylation (pS).\n\nPhospho-PDK1 modulates the expression or control of multiple targets.\n\nPhospho-PDK1 modulates the expression or control of multiple targets, including transcription factors such as FOXO (Forkhead box O) and SREBP (Sterol Regulatory Element Binding Protein).\n\nGLUT4 (Glucose Transporter type 4) is another target modulated by phospho-PDK1.\n\nGSK3 (glycogen synthase kinase-3) and mTORC (mammalian target of rapamycin complex) are also modulated by phospho-PDK1.\n\nThe PI3K/PDK activation arm of insulin/IR function is antagonized by multiple protein tyrosine phosphatases.\n\nPTEN is one of the protein tyrosine phosphatases that antagonizes the PI3K/PDK activation arm.\n\nSHP2 is another protein tyrosine phosphatase that antagonizes the PI3K/PDK activation arm.\n\nPTP1B is a third protein tyrosine phosphatase that antagonizes the PI3K/PDK activation arm.",
+      "char_start": 39116,
+      "char_end": 40289,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Modulation of Small Molecule Constituents Required for Metabolism and Cell Growth"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "modulation-of-small-molecule-constituents-required-for"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "GRB2 is an adaptor protein that contains an SH2 domain.\n\nGRB2 bridges between IR-bound IRS-tyrosine phosphorylated SHC and SOS.\n\nSOS is a guanine nucleotide exchange factor (GEF).\n\nSOS catalyzes the conversion of Ras from inactive GDP-bound Ras to active, GTP-bound Ras.\n\nRas-GTP activates a cascade of threonine and serine kinases.\n\nThe MAP Kinase pathway involves the RAF-MEK-ERK cascade.\n\nThe insulin-IR interaction activates the MAPK pathway.\n\nA diagram in Figure 42–8illustrates the activation of the MAPK pathway by insulin-IR interaction.",
+      "char_start": 40380,
+      "char_end": 40925,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Modulation of Cellular Growth and Proliferation Activation of the MAP Kinase Pathway"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-8"
+      ],
+      "table_refs": [],
+      "section_id": "modulation-of-cellular-growth-and-proliferation-activation"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Cells utilize three mechanisms to limit the extent of insulin receptor activation and signaling.\n\nPTP1B works to begin dephosphorylation of phosphotyrosine residues on the insulin receptor.\n\nPTP1B works to begin dephosphorylation of phosphotyrosine residues on the insulin receptor. This event controls the amount or steady state levels of IRS recruitment to the receptor.\n\nActivated ERK increases insulin receptor endocytosis.\n\nThe low pH within the endosome facilitates insulin dissociation from the receptor.\n\nInsulin is degraded within the endosome.\n\nThe receptor is fully dephosphorylated within the endosome.\n\nThe receptor is then trafficked and reintegrated into the plasma membrane.\n\nThe reintegrated receptor is ready to participate in additional cycles of insulin binding and signaling.",
+      "char_start": 40950,
+      "char_end": 41746,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "Signal Attenuation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "signal-attenuation"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Tyrosine kinase activation can initiate a phosphorylation and dephosphorylation cascade involving several protein kinases and phosphatases. Some hormones, such as growth hormone, prolactin, erythropoietin, and cytokines, initiate their action by activating a tyrosine kinase that is not part of the hormone receptor. The hormone-receptor interaction promotes the binding and activation of cytoplasmic protein tyrosine kinases, including Janus kinases 1 and 2 (JAK1 or JAK2) or tyrosine kinase 2 (TYK2).\n\nJanus kinases 1 and 2 (JAK1 or JAK2) or tyrosine kinase 2 (TYK2) phosphorylate cytoplasmic proteins, which then associate with other proteins through SH2 domains. One such interaction activates a family of cytosolic proteins called STATs (signal transducers and activators of transcription). Phosphorylated STAT proteins dimerize and translocate into the nucleus. Phosphorylated STAT proteins bind to specific DNA elements, such as the interferon response element (IRE), and activate transcription. The process of STAT activation and transcription regulation is illustrated in Figure 42–9.",
+      "char_start": 41807,
+      "char_end": 42900,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The JAK/STAT Pathway Is Used by Hormones and Cytokines"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-9"
+      ],
+      "table_refs": [],
+      "section_id": "the-jak-stat-pathway-is-used-by-hormones-and-cytokines"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "The Ligand binds to the receptor (R).\nThe receptor (R) dimerizes upon ligand binding.\nThe dimerized receptor (R) activates an associated JAK kinase.\nThe activated JAK kinase phosphorylates the receptor (R) on tyrosine residues.\nThe phosphorylated receptor (R) associates with STAT proteins.\nThe STAT proteins are phosphorylated by the activated JAK kinase (JAK-P).\nThe phosphorylated STAT proteins dimerize and translocate to the nucleus.\nThe phosphorylated receptor (R) also binds to several SH2 domain-containing proteins (X-SH2).\nThe diagram as a whole relates the initiation of signal transduction by receptors linked to JAK kinases.",
+      "char_start": 43791,
+      "char_end": 44428,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The JAK/STAT Pathway Is Used by Hormones and Cytokines"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-jak-stat-pathway-is-used-by-hormones-and-cytokines"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Other SH2 domain interactions may activate PI-3 kinase, the MAP kinase pathway through SHC or GRB2, or G-protein-mediated activation of phospholipase C (PLCγ), leading to the production of diacylglycerol and activation of protein kinase C. There is potential for 'cross-talk' when different hormones activate these various signal transduction pathways.\n\nFigure 42-9illustrates the initiation of signal transduction by receptors linked to JAK kinases. The receptors that bind prolactin, growth hormone, interferons, and cytokines lack endogenous tyrosine kinase. On ligand binding, these receptors dimerize and an associated, though inactive protein kinase (JAK1, JAK2, or TYK) is phosphorylated. Phospho-JAK activates and phosphorylates the receptor on tyrosine residues. STAT proteins associate with the phosphorylated receptor and are phosphorylated by JAK-P. Phosphorylated STAT proteins dimerize, translocate to the nucleus, bind to specific DNA elements, and regulate transcription. The phosphotyrosine residues of the receptor also bind to several SH2 domain-containing proteins, which activate the MAP kinase pathway, PLCγ, or PI-3 kinase.",
+      "char_start": 44430,
+      "char_end": 45576,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The JAK/STAT Pathway Is Used by Hormones and Cytokines"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-9"
+      ],
+      "table_refs": [],
+      "section_id": "the-jak-stat-pathway-is-used-by-hormones-and-cytokines"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "The DNA-binding transcription factor NF-κB is a heterodimeric complex. The heterodimeric complex NF-κB is typically composed of two subunits termed p50 and p65. NF-κB is sequestered in the cytoplasm in a transcriptionally inactive form. The sequestration of NF-κB in the cytoplasm is by interactions with members of the IκB family of proteins. Extracellular stimuli such as proinflammatory cytokines, reactive oxygen species, and mitogens activate the IKK complex. The IKK complex is a heterohexameric structure. The heterohexameric structure of the IKK complex consists of α, β, and γ subunits. Activated IKK phosphorylates IκB on two serine residues. Phosphorylation of IκB on two serine residues targets IκB for polyubiquitylation and subsequent degradation by the proteasome. Following IκB degradation, free NF-κB translocates to the nucleus. In the nucleus, NF-κB binds to a number of gene enhancers and activates transcription. NF-κB particularly activates transcription of genes involved in the inflammatory response. Transcriptional regulation by NF-κB is mediated by a variety of coactivators such as CREB-binding protein (CBP).",
+      "char_start": 45632,
+      "char_end": 46769,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The NF-κB Pathway Is Regulated by Glucocorticoids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nf-b-pathway-is-regulated-by-glucocorticoids"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Glucocorticoid hormones are therapeutically useful agents for the treatment of a variety of inflammatory and immune diseases. Glucocorticoids inhibit NF-κB and its subsequent actions. Glucocorticoids increase IκB mRNA. The increase in IκB mRNA leads to an increase of IκB protein. The increase of IκB protein results in more efficient sequestration of NF-κB in the cytoplasm. The glucocorticoid receptor competes with NF-κB for binding to coactivators. The glucocorticoid receptor directly binds to the p65 subunit of NF-κB. The binding of the glucocorticoid receptor to the p65 subunit of NF-κB inhibits its activation. Glucocorticoids affect at least three steps in the NF-κB pathway (Figure 42–10).",
+      "char_start": 46771,
+      "char_end": 47472,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The NF-κB Pathway Is Regulated by Glucocorticoids"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-10"
+      ],
+      "table_refs": [],
+      "section_id": "the-nf-b-pathway-is-regulated-by-glucocorticoids"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "The plasma membrane activates membrane bound and intracellular receptors.\nMembrane bound and intracellular receptors activate the IKK complex.\nThe IKK complex phosphorylates IκB.\nIκB is ubiquitylated by the proteasome.\nThe proteasome ubiquitylates IκB, leading to its degradation.\nUbiquitinated IκB releases NF-κB, allowing it to move from the cytoplasm to the nucleus.\nIn the cytoplasm, coactivators assist NF-κB in its translocation to the nucleus.\nIn the nucleus, NF-κB regulates the transcription of target genes.\nThe transcription of target genes by NF-κB influences cytoplasmic processes.\nIn the cytoplasm, NF-κB consists of the p50 subunit.\nIn the cytoplasm, NF-κB consists of the p65 subunit.\nThe p50 subunit can reassociate with IκB.\nThe p65 subunit can reassociate with IκB.\nThe diagram illustrates the regulation of the NF-κB pathway, showing how NF-κB is released from IκB and translocates to the nucleus to regulate gene transcription.",
+      "char_start": 48253,
+      "char_end": 49201,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The NF-κB Pathway Is Regulated by Glucocorticoids"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nf-b-pathway-is-regulated-by-glucocorticoids"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "NF-κB activators include proinflammatory cytokines. NF-κB activators include bacteria and viruses. NF-κB activators include reactive oxygen species. NF-κB activators include mitogens.",
+      "char_start": 49203,
+      "char_end": 49386,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+        "The NF-κB Pathway Is Regulated by Glucocorticoids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nf-b-pathway-is-regulated-by-glucocorticoids"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "Actively transcribed genes are in regions of “open” chromatin. Regions of “open” chromatin are experimentally defined as having relatively high susceptibility to DNase I digestion. Regions of “open” chromatin contain certain histone PTMs or “histone marks.”\n\nGenes have regulatory regions. Transcription factors bind to regulatory regions to modulate the frequency of transcription. Transcription modulation includes initiation, promoter clearance, and elongation.\n\nThe hormone-receptor complex can act as one of these transcription factors.\n\nThe DNA sequence to which receptors bind is called an HRE.\n\nHormone-generated signals can modify the location of transcription factors. Hormone-generated signals can modify the amount of transcription factors. Hormone-generated signals can modify the activity of transcription factors. Modifying transcription factors influences their binding to the regulatory or response element.\n\nMembers of a large superfamily of nuclear receptors act with the hormone receptors described earlier. Members of a large superfamily of nuclear receptors act in a manner analogous to the hormone receptors described earlier.\n\nNuclear receptors interact with a large group of coregulatory molecules. Nuclear receptors effect changes in the transcription of specific genes.",
+      "char_start": 49470,
+      "char_end": 50766,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hormones-can-influence-specific-biological-effects-by"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "HREs resemble enhancer elements in that they are not strictly dependent on position and location. HREs resemble enhancer elements in that they are not strictly dependent on orientation. HREs are generally found within a few hundred nucleotides upstream (5') of the transcription initiation site. HREs may be located within the coding region of the gene, in introns. HREs were defined by the strategy illustrated in Figure 38-10. The consensus sequences were arrived at through analysis of many genes regulated by a given hormone using simple, heterologous reporter systems (see Figure 38-9). The consensus sequences were arrived at through genome-wide chromatin immunoprecipitation and bioinformatic analyses (see Chapter 39).\n\nSimple HREs bind the hormone-receptor complex more avidly than surrounding DNA. Simple HREs bind the hormone-receptor complex more avidly than DNA from an unrelated source. Simple HREs confer hormone responsiveness to a reporter gene. It soon became apparent that the regulatory circuitry of natural genes must be much more complicated. Glucocorticoids, progestins, mineralocorticoids, and androgens have vastly different physiologic actions. The specificity required for these effects could not be achieved through regulation of gene expression by the same HRE (see Table 42-1).",
+      "char_start": 50803,
+      "char_end": 52110,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "Several HREs Have Been Defined"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-42-1"
+      ],
+      "section_id": "several-hres-have-been-defined"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "In the vast majority of cellular genes, the HRE is found associated with other specific regulatory DNA elements. In the vast majority of cellular genes, the HRE is found associated with associated binding proteins. These associations are mandatory for optimal function. The extensive sequence similarity between steroid hormone receptors, particularly in their DNA-binding domains (DBDs), led to the discovery of the nuclear receptor superfamily of proteins. These proteins allow for a wide variety of DNA-protein and protein-protein interactions. These proteins allow for a wide variety of interactions with a large number of coregulator proteins. These interactions provide the specificity necessary for highly regulated physiologic control. A schematic of such an assembly is illustrated in Figure 42-11.",
+      "char_start": 52112,
+      "char_end": 52919,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "Several HREs Have Been Defined"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-11"
+      ],
+      "table_refs": [],
+      "section_id": "several-hres-have-been-defined"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "Pol II PIC interacts with the gene coding region to activate the hormone response element (HRE).\nHRE interacts with accessory factor (AF) elements to influence the Pol II PIC.\nHRE also interacts with another accessory factor (AF) element.\nAccessory factor (AF) elements interact with the Pol II PIC to modulate transcriptional activation.\np160 coregulator interacts with accessory factor (AF) elements to regulate transcriptional activation.\np300 coregulator interacts with accessory factor (AF) elements to regulate transcriptional activation.\nAccessory factor elements (AFE) interact with the Pol II PIC to influence transcriptional activation.\nAnother accessory factor element (AFE) also interacts with the Pol II PIC to influence transcriptional activation.\nThe diagram represents a schematic model of a hormone response transcriptional activation unit, showing interactions among the hormone response element, ligand-bound receptor, accessory factor elements, and coregulators.",
+      "char_start": 53139,
+      "char_end": 54121,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "Several HREs Have Been Defined"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "several-hres-have-been-defined"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "The nuclear receptor superfamily consists of a diverse set of transcription factors discovered due to sequence similarity in their DNA-binding domains (DBDs). The nuclear receptor superfamily includes more than 50 members. The family comprises nuclear hormone receptors. The family comprises receptors with subsequently discovered ligands. The family comprises orphan receptors whose physiologic ligands are yet to be identified.\n\nAll nuclear receptors have a centrally located DBD that binds with high affinity to its cognate hormone response element (HRE). The DBD contains two zinc finger binding motifs that facilitate binding as homodimers, heterodimers, or monomers. The target response element consists of one or two DNA half-site consensus sequences arranged as an inverted or direct repeat. The spacing between the DNA half-site consensus sequences determines binding specificity.\n\nThe ligand-binding domain (LBD) is located in the carboxyl terminal half of the receptor. The ligand-binding domain (LBD) binds hormones or metabolites selectively. The ligand-binding domain (LBD) specifies a particular biological response. The ligand-binding domain (LBD) contains domains for binding heat shock proteins. The ligand-binding domain (LBD) contains domains for dimerization. The ligand-binding domain (LBD) contains domains for nuclear localization. The ligand-binding domain (LBD) contains domains for transactivation.",
+      "char_start": 54180,
+      "char_end": 55605,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c052",
+      "text": "The carboxyl-terminal transcription activation function, or activation domain (AD), known as the AF-2 domain, facilitates the interaction with coactivators. A highly variable hinge region separates the DBD from the LBD. The hinge region provides flexibility for different DNA-binding conformations.\n\nA highly variable amino-terminal region contains another activation domain, AF-1. AF-1 provides distinct physiologic functions through the binding of different coregulator proteins. The amino-terminal region allows for receptor isoforms that share DBD and LBD identity. These receptor isoforms exert different physiologic responses due to the association of various coregulators with the variable amino terminal AF-1 AD.",
+      "char_start": 55607,
+      "char_end": 56327,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c053",
+      "text": "Classic hormone receptors for glucocorticoids (GR) bind as homodimers to inverted repeat sequences. Classic hormone receptors for mineralocorticoids (MR) bind as homodimers to inverted repeat sequences. Classic hormone receptors for estrogens (ER) bind as homodimers to inverted repeat sequences. Classic hormone receptors for androgens (AR) bind as homodimers to inverted repeat sequences. Classic hormone receptors for progestins (PR) bind as homodimers to inverted repeat sequences. Thyroid hormone receptors (TR) bind as heterodimers with RXR as a partner to direct repeat sequences. Retinoic acid receptors (RAR) bind as heterodimers with RXR as a partner to direct repeat sequences. Vitamin D receptors (VDR) bind as heterodimers with RXR as a partner to direct repeat sequences. PPAR α binds as heterodimers with RXR as a partner to direct repeat sequences. PPAR β binds as heterodimers with RXR as a partner to direct repeat sequences. PPAR γ binds as heterodimers with RXR as a partner to direct repeat sequences. FXR binds as heterodimers with RXR as a partner to direct repeat sequences. LXR binds as heterodimers with RXR as a partner to direct repeat sequences. PXR binds as heterodimers with RXR as a partner to direct repeat sequences. CAR binds as heterodimers with RXR as a partner to direct repeat sequences. Orphan receptors without known ligands bind as homodimers to direct repeat sequences. Orphan receptors without known ligands bind as monomers to direct repeat sequences.",
+      "char_start": 56329,
+      "char_end": 57825,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c054",
+      "text": "The nuclear receptor superfamily can be divided into groups based on how they bind to their respective DNA elements. Classic hormone receptors bind as homodimers on inverted repeat half-sites. Other receptors form heterodimers with RXR on direct repeat elements. Orphan receptors bind as homodimers to direct repeats. Orphan receptors occasionally bind as monomers to a single half-site (Figure 42-12).",
+      "char_start": 57827,
+      "char_end": 58229,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-12"
+      ],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c055",
+      "text": "GR, MR, PR, AR, ER bind as homodimers on inverted repeat half-sites.\nGR, MR, PR, AR, ER form heterodimers with the partner RXR on direct repeat elements.\nGR, MR, PR, AR, ER can have nucleotide spacers of one to five bases between these direct repeats (DR1-5).\nGR, MR, PR, AR, ER include receptors with known ligands, such as the steroid hormones.\nGR, MR, PR, AR, ER are part of the nuclear receptor superfamily.\nGR, MR, PR, AR, ER have six structural domains (A-F).\nDomain A/B is also called AF-1, or the modulator region, because it contains an AD and is involved in activating transcription.\nThe C domain consists of the DNA-binding domain (DBD).\nThe D region contains the hinge, which provides flexibility between the DBD and the ligand-binding domain (LBD, region E).\nThe C-terminal part of region E contains AF-2, another AD that also contributes importantly to activation of transcription.\nThe F region is less well defined.\nReceptors with known ligands, such as the steroid hormones, bind as homodimers on inverted repeat half-sites.\nOther receptors form heterodimers with the partner RXR on direct repeat elements.\nThere can be nucleotide spacers of one to five bases between these direct repeats (DR1-5).\nAnother class of receptors for which ligands have not been definitively determined (orphan receptors) bind as homodimers to direct repeats and occasionally as monomers to a single half-site.\nThe diagram relates the structure and function of the nuclear receptor superfamily, including the domains and binding characteristics of its members.",
+      "char_start": 59400,
+      "char_end": 60954,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c056",
+      "text": "The discovery of the nuclear receptor superfamily has enhanced understanding of how metabolites and xenobiotics regulate gene expression. The nuclear receptor superfamily influences metabolism, detoxification, and elimination of normal body products and exogenous agents such as pharmaceuticals. The discovery of the nuclear receptor superfamily is a fertile field for investigation of new therapeutic interventions (Table 42-5).",
+      "char_start": 60956,
+      "char_end": 61385,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-42-5"
+      ],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c057",
+      "text": "Peroxisome proliferator-activated receptor alpha (PPAR_{\\alpha}) has a partner called RXR (DR1).\nPeroxisome proliferator-activated receptor alpha (PPAR_{\\alpha}) binds to fatty acids as its ligand.\nPeroxisome proliferator-activated receptor alpha (PPAR_{\\alpha}) affects the process of peroxisome proliferation.\nPeroxisome proliferator-activated receptor beta (PPAR_{\\beta}) binds to fatty acids as its ligand.\nPeroxisome proliferator-activated receptor gamma (PPAR_{\\gamma}) binds to fatty acids as its ligand.\nPeroxisome proliferator-activated receptor gamma (PPAR_{\\gamma}) affects lipid and carbohydrate metabolism.\nPeroxisome proliferator-activated receptor gamma (PPAR_{\\gamma}) also binds to eicosanoids and thiazolidinediones as its ligand.\nFarnesoid X receptor (FXR) has a partner called RXR (DR4).\nFarnesoid X receptor (FXR) binds to farnesol and bile acids as its ligand.\nFarnesoid X receptor (FXR) affects bile acid metabolism.\nLiver X receptor (LXR) has a partner called RXR (DR4).\nLiver X receptor (LXR) binds to oxysterols as its ligand.\nLiver X receptor (LXR) affects cholesterol metabolism.\nXenobiotic X receptor (CAR) has a partner called RXR (DR5).\nXenobiotic X receptor (CAR) binds to androstanes, phenobarbital, and xenobiotics as its ligand.\nXenobiotic X receptor (CAR) affects protection against certain drugs, toxic metabolites, and xenobiotics.\nPregnane X receptor (PXR) has a partner called RXR (DR3).\nPregnane X receptor (PXR) binds to pregnanes and xenobiotics as its ligand.",
+      "char_start": 61429,
+      "char_end": 62932,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "There Is a Large Family of Nuclear Receptor Proteins"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "chunk_id": "c058",
+      "text": "Chromatin remodeling involves histone modifications. Chromatin remodeling involves DNA methylation. Chromatin remodeling involves nucleosome repositioning/remodeling/displacement. Transcription factor modification by various enzyme activities is facilitated by protein-protein interactions with coregulator molecules. Communication between nuclear receptors and the basal transcription apparatus is facilitated by protein-protein interactions with coregulator molecules. There are hundreds of coregulator molecules, not including species variations and splice variants. CREB-binding protein (CBP) was the first coregulator described. CBP binds to phosphorylated serine 137 of CREB through an amino-terminal domain. CBP mediates transactivation in response to cAMP. CBP is described as a coactivator. CBP interacts directly or indirectly with several DNA-binding transcription factors, including activator protein-1 (AP-1), STATs, nuclear receptors, and CREB. p300 interacts directly or indirectly with several DNA-binding transcription factors, including activator protein-1 (AP-1), STATs, nuclear receptors, and CREB. CBP/p300 has intrinsic histone acetyltransferase (HAT) activity. CBP/p300 serves as a scaffold for the binding of other proteins. Other coregulators perform similar functions.",
+      "char_start": 63031,
+      "char_end": 64325,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "A Large Number of Nuclear Receptor Coregulators Also Participate in Regulating Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "a-large-number-of-nuclear-receptor-coregulators-also"
+    },
+    {
+      "chunk_id": "c059",
+      "text": "The p160 family of coactivators includes SRC-1 and NCoA-1, GRIP 1, TIF2, and NCoA-2. The p160 family of coactivators also includes p/CIP, ACTR, AIB1, RAC3, and TRAM-1. Different names within a subfamily often represent species variations or minor splice variants. There is about 35% amino acid identity between members of different subfamilies. The p160 coactivators bind nuclear receptors in an agonist- and AF-2 AD-dependent manner. The p160 coactivators have a conserved amino terminal basic helix-loop-helix (bHLH) motif. The p160 coactivators have a weak carboxyl-terminal transactivation domain. The p160 coactivators have a stronger amino-terminal transactivation domain required for CBP-p160 interaction. The p160 coactivators contain at least three LXXLL motifs for protein–protein interaction with other coactivators. Many p160 coactivators have HAT activity. Mutations in the HAT domain disable many transcription factors. HAT activities acetylate histones, facilitating chromatin remodeling into a transcription-efficient environment. Histone acetylation/deacetylation plays a critical role in gene expression. HAT-mediated acetylation of nonhistone proteins, such as DNA-binding transcription activators and other coregulators, has been reported. Nonhistone PTM events factor into the overall regulatory response.",
+      "char_start": 64327,
+      "char_end": 65653,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "A Large Number of Nuclear Receptor Coregulators Also Participate in Regulating Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "a-large-number-of-nuclear-receptor-coregulators-also"
+    },
+    {
+      "chunk_id": "c060",
+      "text": "The corepressor family includes proteins such as NCoR and SMRT. The corepressor family functions as described in Figure 42–2. The TRAPs, DRIPs, and ARC family proteins are subunits of the mediator. The TRAPs, DRIPs, and ARC family proteins range in size from 80 to 240 kDa. The TRAPs, DRIPs, and ARC family proteins are thought to link the nuclear receptor-coactivator complex to RNA polymerase II and the basal transcription apparatus.\n\nThe role of coactivators is under intensive investigation. Many coactivators have intrinsic enzymatic activities. Acetylation alters the activity of coregulators and their targets. Phosphorylation alters the activity of coregulators and their targets. Methylation alters the activity of coregulators and their targets. Sumoylation alters the activity of coregulators and their targets. Ubiquitination alters the activity of coregulators and their targets. Proteolysis alters the activity of coregulators and their targets. Cellular translocation alters the activity of coregulators and their targets. Different combinations of coregulators and activators and inhibitors are responsible for specific ligand-induced actions through various receptors. Interactions on a given promoter are dynamic. Complexes consisting of over 45 transcription factors have been observed on a single gene. Several signal transduction pathways converge on CBP/p300. Many ligands that associate with membrane or nuclear receptors eventually converge on CBP/p300 (Figure 42–13).",
+      "char_start": 65655,
+      "char_end": 67148,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "A Large Number of Nuclear Receptor Coregulators Also Participate in Regulating Transcription"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-42-13",
+        "fig-42-2"
+      ],
+      "table_refs": [],
+      "section_id": "a-large-number-of-nuclear-receptor-coregulators-also"
+    },
+    {
+      "chunk_id": "c061",
+      "text": "Insulin, EGF, etc activate GPCR.\nRAS activates MEK.\nIRS activates MEK.\nGPCR activates cAMP.\ncAMP activates PKA.\nPKA activates CREB.\nCREB activates AP-1.\nAP-1 activates CBP p300.\nPKA activates Nuclear receptors.\nNuclear receptors activate STATs.\nSTATs activate NFκB.\nNFκB activates STATs.\nSTATs activate Jak.\nJak activates Retinoic acid, estrogen, vitamin D, glucocorticoids, etc.\nRetinoic acid, estrogen, vitamin D, glucocorticoids, etc activate Group I Hormones.\nGroup I Hormones activate GH, Prl, Cytokines, etc.\nGH, Prl, Cytokines, etc activate TNF, etc.\nTNF, etc activate NFκB.\nNFκB activates NFκB.\nNFκB activates NFκB.\nNFκB activates NFκB.\nSeveral signal transduction pathways converge on CBP/p300.",
+      "char_start": 67545,
+      "char_end": 68248,
+      "section_path": [
+        "Hormone Action & Signal Transduction",
+        "HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION",
+        "A Large Number of Nuclear Receptor Coregulators Also Participate in Regulating Transcription"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "a-large-number-of-nuclear-receptor-coregulators-also"
+    },
+    {
+      "chunk_id": "c062",
+      "text": "Hormones, cytokines, interleukins, and growth factors use a variety of signaling mechanisms to facilitate cellular adaptive responses.\nThe ligand-receptor complex serves as the initial signal for members of the nuclear receptor family.\nClass II peptide/protein and catecholamine hormones, which bind to cell surface receptors, generate a variety of intracellular signals.\nMany hormone responses are accomplished through alterations in the rate of transcription of specific genes.\nThe nuclear receptor superfamily of proteins plays a central role in the regulation of gene transcription.\nDNA-binding nuclear receptors, which may have hormones, metabolites, or drugs as ligands, bind to specific HREs as homodimers or as heterodimers with RXR.\nAnother large family of coregulator proteins remodel chromatin, modify other transcription factors, and bridge the nuclear receptors to the basal transcription apparatus.",
+      "char_start": 68250,
+      "char_end": 69162,
+      "section_path": [
+        "Hormone Action & Signal Transduction"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-42-1",
+      "image_path": "images/31d93b0ed62d5d9c457a256ef4bd60cd8d8dbc310ed522418c83e73ba9d0a04f.jpg",
+      "caption": "Hormonal involvement in responses to a stimulus. Physiologic needs, or challenges to the integrity of the organism, elicit a response that includes the release of one or more hormones. These hormones generate signals at or within target cells and these signals regulate a variety of biological processes that provide for a coordinated response to the stimulus or challenge. See Figure 42–8for a specific example.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-42-1]",
+      "description": "A stimulus elicits the release of Group I hormones.\nA stimulus elicits the release of Group II hormones.\nGroup I hormones form a hormone-receptor complex.\nGroup II hormones generate many different signals.\nThe hormone-receptor complex regulates gene transcription.\nThe hormone-receptor complex regulates transporters channels.\nThe signals generated by Group II hormones cause protein translocation.\nThe signals generated by Group II hormones cause protein modification.\nRegulated gene transcription contributes to a coordinated response to the stimulus.\nRegulated transporters channels contribute to a coordinated response to the stimulus.\nProtein translocation contributes to a coordinated response to the stimulus.\nProtein modification contributes to a coordinated response to the stimulus.\nThe diagram illustrates the hormonal involvement in responses to a stimulus, showing how different hormones and signals contribute to a coordinated response.",
+      "label": "Figure 42-1",
+      "panel": "",
+      "content_chunk": "c004",
+      "caption_span": [
+        3713,
+        4125
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "hormones-transduce-signals-to-affect-homeostatic-mechanisms"
+    },
+    {
+      "fig_id": "fig-42-2",
+      "image_path": "",
+      "caption": "Regulation of gene expression by two different group I hormones, thyroid hormone, and glucocorticoids. The hydrophobic steroid hormones readily gain access to the cytoplasmic compartment of target cells by diffusion through the plasma membrane. Glucocorticoid hormones (solid triangles) encounter their cognate receptor, the glucocorticoid receptor (GR) in the cytoplasm where GR exists in a complex with a chaperone protein, heat shock protein 90 (hsp). Ligand binding causes dissociation of hsp90 and a conformational change of the receptor. The receptor-ligand complex then traverses the nuclear membrane and binds to DNA with specificity and high affinity at a glucocorticoid response element (GRE). This event affects the architecture of a number of transcription coactivators (green triangles with internal “+”), and enhanced transcription ensues. By contrast, thyroid hormones and retinoic acid (black circle) directly enter the nucleus, where their cognate heterodimeric (TR-RXR; see Figure 42–12) receptors are already bound to the appropriate response elements with an associated transcription corepressor complex (red circles). Binding of hormones occurs, which again induces conformational changes in the receptor here leading to dissociation of the corepressor complex from the receptor, thereby allowing an activator complex, consisting of the TR-TRE and coactivator, to assemble. The gene is then actively transcribed.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-42-2]",
+      "description": "",
+      "label": "Figure 42-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7385,
+        8818
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "fig_id": "fig-42-3",
+      "image_path": "images/3093cbaf16c8e4679b6da12945cee1b3da474c29c30887dc0e68a6d283b69454.jpg",
+      "caption": "The “information pathway.” Information flows from the gene to the primary transcript to mRNA to protein. Hormones can affect any of the steps involved and can affect the rates of processing, degradation, or modification of the various products.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-42-3]",
+      "description": "The Gene undergoes transcription to produce the Primary transcript.\nThe Primary transcript can be degraded to form mRNA.\nmRNA undergoes modification and processing to become mRNA.\nmRNA can be degraded back to mRNA.\nmRNA is transported to become active mRNA.\nActive mRNA undergoes translation to produce Protein.\nProtein undergoes modification and degradation to affect mRNA.\nInactive mRNA can revert to active mRNA.\nHormones can influence any of these steps, affecting the rates of processing, degradation, or modification of the products involved.",
+      "label": "Figure 42-3",
+      "panel": "",
+      "content_chunk": "c009",
+      "caption_span": [
+        11679,
+        11923
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "fig_id": "fig-42-4",
+      "image_path": "",
+      "caption": "Components of the hormone receptor–G-protein effector system. Receptors that couple to effectors through G proteins, the G-protein–coupled receptors (GPCRs), typically have seven α -helical membrane-spanning domains (here shown as long cylinders). In the absence of hormone (left), the heterotrimeric G-protein complex ( α,β,γ ) is in an inactive guanosine diphosphate (GDP)-bound form and is probably not associated with the receptor. This complex is anchored to the plasma membrane through prenylated groups on the βγ subunits (wavy lines) and perhaps by myristoylated groups on α subunits (not shown). On binding of hormone (H) to the receptor, there are conformational changes within the receptor (as indicated by the tilted membrane-spanning domains) and association of the G-protein complex with the rearranged receptor—this then activates the G-protein complex. This activation results from the exchange of GDP with guanosine triphosphate (GTP) on the α subunit, after which α and βγ dissociate. The α subunit binds to and activates the effector (E). E can be adenylyl cyclase, Ca2+ , Na+ , or Cl- channels ( αs ), or it could be a K+ channel ( αi ), phospholipase Cβ ( αq ), or cGMP phosphodiesterase ( αt ); see Table 42–3. The βγ subunit can also have direct actions on E. (Reproduced with permission from Becker",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-42-4]",
+      "description": "",
+      "label": "Figure 42-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14087,
+        15409
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "g-protein-coupled-receptors"
+    },
+    {
+      "fig_id": "fig-x5",
+      "image_path": "images/5a5858a03d993f7ef4bcbac874c74ee9b2d4d53ba3c787ca28d5544ceabdef96.jpg",
+      "caption": "Diagram illustrates the difference in binding of inactive and active effector proteins when hormone is absent versus present.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x5]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15652,
+        15777
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "g-protein-coupled-receptors"
+    },
+    {
+      "fig_id": "fig-42-5",
+      "image_path": "images/173fdec723b1ecdadb88e1cafcec2ffd22dc44985edc8bbffee5c3798b4321e2.jpg",
+      "caption": "Hormonal regulation of cellular processes through cAMP-dependent protein kinase (PKA). PKA exists in an inactive form as an R2C2 heterotetramer consisting of two regulatory (R) and two catalytic (C) subunits. The cAMP generated by the action of adenylyl cyclase (activated as shown in Figure 42–4) binds to the regulatory subunit of PKA. This results in dissociation of the regulatory and catalytic subunits and activation of the latter. The active catalytic subunits phosphorylate a number of target proteins on serine and threonine residues. Phosphatases remove phosphate from these residues and thus terminate the physiologic response. A phosphodiesterase can also terminate the response by converting cAMP to 5'-AMP.",
+      "referenced_from": "c019",
+      "marker": "[FIGURE:fig-42-5]",
+      "description": "Active adenylyl cyclase generates cAMP, which can be broken down by phosphodiesterase.\nActive adenylyl cyclase converts ATP • Mg2+ into cAMP, which binds to R2C2 Inactive PKA.\nActive adenylyl cyclase converts ATP into 5'-AMP, leading to the formation of C2 Active PKA + R2.\nPhosphodiesterase converts cAMP into 5'-AMP, contributing to the activation of C2 Active PKA + R2.\nR2C2 Inactive PKA dissociates into C2 Active PKA + R2 upon binding of cAMP.\nC2 Active PKA + R2 utilizes Mg2+ • ATP to phosphorylate target proteins.\nMg2+ • ATP is used by C2 Active PKA + R2 to phosphorylate proteins, leading to the formation of phosphoproteins.\nPhosphoproteins undergo dephosphorylation by phosphatases, terminating the physiologic response.\nPhosphoproteins contribute to physiologic effects when phosphorylated.\nThe diagram illustrates the hormonal regulation of cellular processes through cAMP-dependent protein kinase (PKA).",
+      "label": "Figure 42-5",
+      "panel": "",
+      "content_chunk": "c020",
+      "caption_span": [
+        21494,
+        22214
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "protein-kinase"
+    },
+    {
+      "fig_id": "fig-42-6",
+      "image_path": "images/2e918949b88f2071926d75a85785dd8f49e3fa80d1c0e821e216391d1452a64f.jpg",
+      "caption": "Certain hormone-receptor interactions result in the activation of phospholipase C (PLC). PLC activation appears to involve a specific G protein, which also may activate a calcium channel. Phospholipase C generates inositol trisphosphate (IP₃) from PIP₂ (phosphoinositol 4,5- bisphosphate; see Figure 42–7), which liberates stored intracellular Ca2+ , and diacylglycerol (DAG), a potent activator of protein kinase C (PKC). In this scheme, the activated PKC phosphorylates specific substrates, which then alter physiologic processes. Likewise, the Ca2+ -calmodulin complex can activate specific kinases, two of which are shown here. These actions result in phosphorylation of substrates, and this leads to altered physiologic responses. This figure also shows that Ca2+ can enter cells through voltage- or ligand-gated Ca2+ channels. The intracellular [Ca2+] is also regulated through storage and release by the mitochondria and endoplasmic reticulum. (Reproduced with permission from JH Exton.)",
+      "referenced_from": "c010",
+      "marker": "[FIGURE:fig-42-6]",
+      "description": "",
+      "label": "Figure 42-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        32037,
+        33031
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phosphatidylinositide-metabolism-affects-ca-2-dependent"
+    },
+    {
+      "fig_id": "fig-42-7",
+      "image_path": "images/a60e38257de41ced42fbabea93a1327462a19814019558a5cf66c7ef91566ddd.jpg",
+      "caption": "Phospholipase C cleaves PIP2 into diacylglycerol and inositol trisphosphate. R1 generally is stearate, and R2 is usually arachidonate. IP3 can be dephosphorylated (to the inactive I-1,4- P2 ) or phosphorylated (to the potentially active Inositol-1,3,4,5- P4 ).",
+      "referenced_from": "c033",
+      "marker": "[FIGURE:fig-42-7]",
+      "description": "",
+      "label": "Figure 42-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        33319,
+        33579
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phosphatidylinositide-metabolism-affects-ca-2-dependent"
+    },
+    {
+      "fig_id": "fig-42-8",
+      "image_path": "images/e8de5b0a39a65d370b24d957b4f11e292539536bd29076c052ab76b6b124e0f9.jpg",
+      "caption": "Insulin signaling pathways. The insulin signaling pathways provide an excellent example of the “recognition → hormone release → signal generation → effects” paradigm outlined in Figure 42–1. Insulin is released into the bloodstream from pancreatic β cells in response to hyperglycemia. Binding of insulin to a target cell-specific plasma membrane heterotetrameric insulin receptor (IR) results in a cascade of intracellular events. First, the intrinsic tyrosine kinase activity of the insulin receptor is activated and marks the initial event. Receptor activation results in increased tyrosine phosphorylation (conversion of specific Y residues to Y-P) within the receptor. One or more of the insulin receptor substrate (IRS) molecules (IRS 1-4) then bind to the tyrosine-phosphorylated receptor and themselves are specifically tyrosine phosphorylated. IRS proteins interact with the activated IR via N-terminal PH (pleckstrin homology) and phosphotyrosine binding (PTB) domains. IR-docked IRS proteins are tyrosine phosphorylated and the resulting P-Y residues form the docking sites for several additional signaling proteins (ie, PI-3 kinase, GRB2, and mTOR). GRB2 and PI-3K bind to IRS P-Y residues via their SH (Src homology) domains; binding to IRS-Y-P residues leads to activation of the activity of many intracellular signaling molecules such as GTPases, protein kinases, and lipid kinases, as shown (left/right), all of which play key roles in certain metabolic actions of insulin. The two best-described pathways are shown. Signaling is attenuated upon endocytosis of the IR. The receptor is dephosphorylated, insulin dissociates from the IR and is trafficked back to the plasma membrane (dashed lines) in a form that is able to repeat the cycle.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-42-8]",
+      "description": "",
+      "label": "Figure 42-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        35923,
+        37678
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "insulin-transmits-signals-through-several-kinase-signaling"
+    },
+    {
+      "fig_id": "fig-42-9",
+      "image_path": "images/edd591fddee7728aa4aece5c332984bc18f4f04dd62d7d4942611fb0ec518e28.jpg",
+      "caption": "Initiation of signal transduction by receptors linked to JAK kinases. The receptors (R) that bind prolactin, growth hormone, interferons, and cytokines lack endogenous tyrosine kinase. On ligand binding, these receptors dimerize and an associated, though inactive protein kinase (JAK1, JAK2, or TYK), is phosphorylated. Phospho-JAK is now activated and proceeds to phosphorylate the receptor on tyrosine residues. The STAT proteins associate with the phosphorylated receptor and then are themselves phosphorylated by JAK-P. The phosphorylated STAT protein, STAT dimerizes, translocates to the nucleus, binds to specific DNA elements, and regulates transcription. The phosphotyrosine residues of the receptor also bind to several SH2 domain-containing proteins (X-SH2), which result in activation of the MAP kinase pathway (through SHC or GRB2), PLC γ , or PI-3 kinase.",
+      "referenced_from": "c040",
+      "marker": "[FIGURE:fig-42-9]",
+      "description": "The Ligand binds to the receptor (R).\nThe receptor (R) dimerizes upon ligand binding.\nThe dimerized receptor (R) activates an associated JAK kinase.\nThe activated JAK kinase phosphorylates the receptor (R) on tyrosine residues.\nThe phosphorylated receptor (R) associates with STAT proteins.\nThe STAT proteins are phosphorylated by the activated JAK kinase (JAK-P).\nThe phosphorylated STAT proteins dimerize and translocate to the nucleus.\nThe phosphorylated receptor (R) also binds to several SH2 domain-containing proteins (X-SH2).\nThe diagram as a whole relates the initiation of signal transduction by receptors linked to JAK kinases.",
+      "label": "Figure 42-9",
+      "panel": "",
+      "content_chunk": "c041",
+      "caption_span": [
+        42921,
+        43789
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-jak-stat-pathway-is-used-by-hormones-and-cytokines"
+    },
+    {
+      "fig_id": "fig-42-10",
+      "image_path": "",
+      "caption": "Regulation of the NF- B pathway. NF- B consists of two subunits, p50 and p65, which when present in the nucleus regulates transcription of the multitude of genes important for the inflammatory response. NF- B is restricted from entering the nucleus by I B, an inhibitor of NF- B. I B binds to—and masks—the nuclear localization signal of NF- B. This cytoplasmic protein is phosphorylated by an IKK complex which is activated by cytokines, reactive oxygen species, and mitogens. Phosphorylated I B can be ubiquitylated and degraded, thus releasing its hold on NF- B, and allowing for nuclear translocation. Glucocorticoids, potent anti-inflammatory agents, are thought to affect at least three steps in this process (steps 1, 2, 3), as described in the text.",
+      "referenced_from": "c044",
+      "marker": "[FIGURE:fig-42-10]",
+      "description": "The plasma membrane activates membrane bound and intracellular receptors.\nMembrane bound and intracellular receptors activate the IKK complex.\nThe IKK complex phosphorylates IκB.\nIκB is ubiquitylated by the proteasome.\nThe proteasome ubiquitylates IκB, leading to its degradation.\nUbiquitinated IκB releases NF-κB, allowing it to move from the cytoplasm to the nucleus.\nIn the cytoplasm, coactivators assist NF-κB in its translocation to the nucleus.\nIn the nucleus, NF-κB regulates the transcription of target genes.\nThe transcription of target genes by NF-κB influences cytoplasmic processes.\nIn the cytoplasm, NF-κB consists of the p50 subunit.\nIn the cytoplasm, NF-κB consists of the p65 subunit.\nThe p50 subunit can reassociate with IκB.\nThe p65 subunit can reassociate with IκB.\nThe diagram illustrates the regulation of the NF-κB pathway, showing how NF-κB is released from IκB and translocates to the nucleus to regulate gene transcription.",
+      "label": "Figure 42-10",
+      "panel": "",
+      "content_chunk": "c045",
+      "caption_span": [
+        47494,
+        48251
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-nf-b-pathway-is-regulated-by-glucocorticoids"
+    },
+    {
+      "fig_id": "fig-42-11",
+      "image_path": "images/0f66b9060b3d8acf55e37ea5b895fa2efbbbe12725dbca72829efbc2f692a747.jpg",
+      "caption": "A schematic model of a hormone response transcriptional activation unit, showing the hormone response element, ligand-bound receptor, accessory factor elements, and interactions with coregulators.",
+      "referenced_from": "c049",
+      "marker": "[FIGURE:fig-42-11]",
+      "description": "Pol II PIC interacts with the gene coding region to activate the hormone response element (HRE).\nHRE interacts with accessory factor (AF) elements to influence the Pol II PIC.\nHRE also interacts with another accessory factor (AF) element.\nAccessory factor (AF) elements interact with the Pol II PIC to modulate transcriptional activation.\np160 coregulator interacts with accessory factor (AF) elements to regulate transcriptional activation.\np300 coregulator interacts with accessory factor (AF) elements to regulate transcriptional activation.\nAccessory factor elements (AFE) interact with the Pol II PIC to influence transcriptional activation.\nAnother accessory factor element (AFE) also interacts with the Pol II PIC to influence transcriptional activation.\nThe diagram represents a schematic model of a hormone response transcriptional activation unit, showing interactions among the hormone response element, ligand-bound receptor, accessory factor elements, and coregulators.",
+      "label": "Figure 42-11",
+      "panel": "",
+      "content_chunk": "c050",
+      "caption_span": [
+        52941,
+        53137
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "several-hres-have-been-defined"
+    },
+    {
+      "fig_id": "fig-42-12",
+      "image_path": "images/1f9d5f96357a3d0d7aa9b735132a7d5c5301a32ae23f5a86bc9d16bc1666b732.jpg",
+      "caption": "The nuclear receptor superfamily. Members of this family are divided into six structural domains (A-F). Domain A/B is also called AF-1, or the modulator region, because it contains an AD and is involved in activating transcription. The C domain consists of the DNA-binding domain (DBD). The D region contains the hinge, which provides flexibility between the DBD and the ligand-binding domain (LBD, region E). The C-terminal part of region E contains AF-2, another AD that also contributes importantly to activation of transcription. The F region is less well defined. The functions of these domains are discussed in more detail in the text. Receptors with known ligands, such as the steroid hormones, bind as homodimers on inverted repeat half-sites. Other receptors form heterodimers with the partner RXR on direct repeat elements. There can be nucleotide spacers of one to five bases between these direct repeats (DR1-5; see Table 42–1for more details). Another class of receptors for which ligands have not been definitively determined (orphan receptors) bind as homodimers to direct repeats and occasionally as monomers to a single half-site.",
+      "referenced_from": "c054",
+      "marker": "[FIGURE:fig-42-12]",
+      "description": "GR, MR, PR, AR, ER bind as homodimers on inverted repeat half-sites.\nGR, MR, PR, AR, ER form heterodimers with the partner RXR on direct repeat elements.\nGR, MR, PR, AR, ER can have nucleotide spacers of one to five bases between these direct repeats (DR1-5).\nGR, MR, PR, AR, ER include receptors with known ligands, such as the steroid hormones.\nGR, MR, PR, AR, ER are part of the nuclear receptor superfamily.\nGR, MR, PR, AR, ER have six structural domains (A-F).\nDomain A/B is also called AF-1, or the modulator region, because it contains an AD and is involved in activating transcription.\nThe C domain consists of the DNA-binding domain (DBD).\nThe D region contains the hinge, which provides flexibility between the DBD and the ligand-binding domain (LBD, region E).\nThe C-terminal part of region E contains AF-2, another AD that also contributes importantly to activation of transcription.\nThe F region is less well defined.\nReceptors with known ligands, such as the steroid hormones, bind as homodimers on inverted repeat half-sites.\nOther receptors form heterodimers with the partner RXR on direct repeat elements.\nThere can be nucleotide spacers of one to five bases between these direct repeats (DR1-5).\nAnother class of receptors for which ligands have not been definitively determined (orphan receptors) bind as homodimers to direct repeats and occasionally as monomers to a single half-site.\nThe diagram relates the structure and function of the nuclear receptor superfamily, including the domains and binding characteristics of its members.",
+      "label": "Figure 42-12",
+      "panel": "",
+      "content_chunk": "c055",
+      "caption_span": [
+        58251,
+        59398
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    },
+    {
+      "fig_id": "fig-42-13",
+      "image_path": "images/bb1da26f39e4373a06c011cd41f203331021c852a93d87c1bbad3931439087de.jpg",
+      "caption": "Several signal transduction pathways converge on CBP/p300. Many ligands that associate with membrane or nuclear receptors eventually converge on CBP/p300. Several different signal transduction pathways are illustrated. Abbreviations: EGF, epidermal growth factor; GH, growth hormone; Prl, prolactin; TNF, tumor necrosis factor; other abbreviations are expanded in the text.",
+      "referenced_from": "c060",
+      "marker": "[FIGURE:fig-42-13]",
+      "description": "Insulin, EGF, etc activate GPCR.\nRAS activates MEK.\nIRS activates MEK.\nGPCR activates cAMP.\ncAMP activates PKA.\nPKA activates CREB.\nCREB activates AP-1.\nAP-1 activates CBP p300.\nPKA activates Nuclear receptors.\nNuclear receptors activate STATs.\nSTATs activate NFκB.\nNFκB activates STATs.\nSTATs activate Jak.\nJak activates Retinoic acid, estrogen, vitamin D, glucocorticoids, etc.\nRetinoic acid, estrogen, vitamin D, glucocorticoids, etc activate Group I Hormones.\nGroup I Hormones activate GH, Prl, Cytokines, etc.\nGH, Prl, Cytokines, etc activate TNF, etc.\nTNF, etc activate NFκB.\nNFκB activates NFκB.\nNFκB activates NFκB.\nNFκB activates NFκB.\nSeveral signal transduction pathways converge on CBP/p300.",
+      "label": "Figure 42-13",
+      "panel": "",
+      "content_chunk": "c061",
+      "caption_span": [
+        67170,
+        67543
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "a-large-number-of-nuclear-receptor-coregulators-also"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-42-1",
+      "label": "Table 42-1",
+      "caption": "The DNA Sequences of Several Hormone Response Elements (HREs) a",
+      "referenced_from": "c006",
+      "content_chunk": "c007",
+      "caption_span": [
+        9855,
+        9918
+      ],
+      "section_id": "the-ligand-receptor-complex-is-the-signal-for-group-i"
+    },
+    {
+      "table_id": "tbl-42-2",
+      "label": "Table 42-2",
+      "caption": "Subclassification of Group II.A Hormones",
+      "referenced_from": "c013",
+      "content_chunk": "c014",
+      "caption_span": [
+        16034,
+        16074
+      ],
+      "section_id": "camp-is-the-intracellular-signal-for-many-responses"
+    },
+    {
+      "table_id": "tbl-42-3",
+      "label": "Table 42-3",
+      "caption": "Classes & Functions of Selected G Proteins a",
+      "referenced_from": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        17735,
+        17779
+      ],
+      "section_id": "adenylyl-cyclase"
+    },
+    {
+      "table_id": "tbl-42-4",
+      "label": "Table 42-4",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "calmodulin"
+    },
+    {
+      "table_id": "tbl-42-5",
+      "label": "Table 42-5",
+      "caption": "Nuclear Receptors With Special Ligands a",
+      "referenced_from": "c056",
+      "content_chunk": "c057",
+      "caption_span": [
+        61387,
+        61427
+      ],
+      "section_id": "there-is-a-large-family-of-nuclear-receptor-proteins"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain the roles of stimulus, hormone release, signal generation, and effector response in hormone-regulated physiologic processes.\nDescribe the role of receptors and guanosine nucleotide-binding G proteins in hormone signal transduction, particularly with regard to the generation of second messengers.\nAppreciate the complex patterns of signal transduction pathway cross-talk in mediating complicated physiologic outputs.\nUnderstand the key roles that protein-ligand, protein-protein, protein posttranslational modification, and protein-DNA interactions play in mediating hormone-directed physiologic processes.\nDetail why hormone-modulated receptors, second messengers, and associated signaling molecules represent a rich source of potential drug target development given their key roles in the regulation of physiology.",
+      "char_start": 40,
+      "char_end": 864,
+      "section_path": [
+        "Hormone Action & Signal Transduction"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Ashcroft SP, Stocks B, Egan B, Zierath JR: Exercise induces tissue-specific adaptations to enhance cardiometabolic health. Cell Metab 2024;36:278–300. [PubMed: 38183980]\nBock A, Irannejad R, Scott JD. cAMP signaling: a remarkably regional affair. Trends Biochem Sci 2024 Feb 2:S0968-0004(24)00018-5.\nDasgupta S, Lonard DM, O'Malley BW: Nuclear receptor coactivators: master regulators of human health and disease. Annu Rev Med 2014;65:279–292. [PubMed: 24111892]\nEunhee CE, Bai X-C: The activation mechanism of the insulin receptor: a structural perspective. Annu Rev Biochem 2023;92:247–272. [PubMed: 37001136]\nEvans RM, Mangelsdorf DJ. Nuclear receptors, RXR, and the Big Bang. Cell 2014 Mar 27;157(1):255–266. [PubMed: 24679540]\nFan W, Evans RM: Exercise mimetics: impact on health and performance. Cell Metab 2017;25:242–247. [PubMed: 27889389]\nFasouli ES, Katsaatoni E: JAK-STAT in early hematopoiesis and leukemia. Front Cell Dev Biol 2021;9:669363. [PubMed: 34055801]\nLazar MA: Maturing the nuclear receptor family. J Clin Invest 2017;127:1123–1125. [PubMed: 28368290]\nPauss SN, Bates EA, Martinez GJ: Steroid receptors and coregulators: Dissemination of sex differences and emerging technologies. J Biol Chem 2025;301:108365. [PubMed: 40023398]\nSu H, Karin M: Collagen architecture and signaling orchestrate cancer development. Trends Cancer 2023 Sep;9(9):764–773. [PubMed: 37400314]\nSzwarc MM, Lydon JP, O'Malley BW: Steroid receptor coactivators as therapeutic targets in the female reproductive system. J Steroid Biochem Mol Biol 2015;154:32–38. [PubMed: 26151740]\nWang Z, Schaffer NE, Kliewer SA, Mangelsdorf DJ: Nuclear receptors: emerging drug targets for parasitic diseases. J Clin Invest 2017;127:1165–1171. [PubMed: 28165341]\nWeikum ER, Knuesel MT, Ortlund EA, Yamamoto KR: Glucocorticoid receptor control of transcription: precision and plasticity via allostery. Nat Rev Mol Cell Biol 2017;18:159–174. [PubMed: 28053348]\nWeis WI, Kobilka BK: The molecular basis of G protein-coupled receptor activation. Ann Rev Biochem 2018;87:897–919. [PubMed: 29925258]\nWhite MF, Kahn CR: Insulin action at a molecular level—100 years of progress. Mol Metab 2021;52:101304. [PubMed: 34274528]\nZhang H, Cao X, Tang M, et al: A subcellular map of the human kinome. eLife 2021;10:e64943. [PubMed: 33988507]\nZhang Q, Lenardo MJ, Baltimore D: 30 years of NF-  B: a blossoming of relevance to human pathobiology. Cell 2017;168:37–57. [PubMed: 28086098]",
+      "char_start": 69164,
+      "char_end": 71614,
+      "section_path": [
+        "Hormone Action & Signal Transduction"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-42-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-42-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-42-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-42-3",
+      "reason": "table never cited in prose"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-42-4",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-42-4",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_42_hormone_action_and_signal_transduction.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_42_hormone_action_and_signal_transduction/chapter_42_hormone_action_and_signal_transduction.normalized.md"
+}

@@ -1,0 +1,1060 @@
+{
+  "doc_id": "chapter_31_porphyrins_and_bile_pigments",
+  "source": {
+    "source_id": "chapter_31_porphyrins_and_bile_pigments",
+    "title": "Porphyrins & Bile Pigments",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "The chapter discusses the biochemistry of porphyrins and bile pigments, focusing on heme synthesis and the disorders related to it, such as porphyrias and jaundice.",
+    "page": null,
+    "origin": "chapter_31_porphyrins_and_bile_pigments.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 03:57:37"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Heme is synthesized from porphyrins and iron. Bile pigments are produced by heme degradation. The biochemistry of porphyrins and heme is fundamental to understanding the functions of hemoproteins. The porphyrias are a group of diseases caused by abnormalities in the pathway of porphyrin biosynthesis. Jaundice is a common clinical condition that reflects elevated levels of plasma bilirubin. Jaundice can result from the overproduction of bilirubin. Jaundice can also result from failures in the excretion of bilirubin. Jaundice occurs in numerous diseases, including hemolytic anemias, viral hepatitis, and cancer of the pancreas.",
+      "char_start": 707,
+      "char_end": 1339,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Porphyrins are cyclic compounds formed by the linkage of four pyrrole rings through methine (= HC—) bridges (Figure 31–1).",
+      "char_start": 1355,
+      "char_end": 1477,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "PORPHYRINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-1"
+      ],
+      "table_refs": [],
+      "section_id": "porphyrins"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The nitrogen atoms of the four pyrrole rings enable porphyrins to coordinately bind metal ions.\n\nExamples of porphyrin-metal ion complexes include iron porphyrins such as the heme of hemoglobin and the magnesium-containing porphyrin chlorophyll, the photosynthetic pigment of plants.\n\nHeme proteins are ubiquitous in biology and serve diverse functions including, but not limited to, oxygen transport and storage (eg, hemoglobin and myoglobin) and electron transport (eg, cytochrome c and cytochrome P450).\n\nHemes are tetrapyrroles, of which two types, heme b and heme c, predominate (Figure 31–2).",
+      "char_start": 1668,
+      "char_end": 2266,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "PORPHYRINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-2"
+      ],
+      "table_refs": [],
+      "section_id": "porphyrins"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "In heme c the vinyl groups of heme b are replaced by covalent thioether links to an apoprotein, typically via cysteinyl residues.\n\nThus, unlike heme b, heme c does not readily dissociate from its apoproteins.",
+      "char_start": 2321,
+      "char_end": 2529,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "PORPHYRINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "porphyrins"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The biosynthesis of heme occurs in most mammalian cells. Mature erythrocytes lack mitochondria, so they do not synthesize heme. Approximately 85% of heme synthesis takes place in erythroid precursor cells in the bone marrow. The remainder of heme synthesis primarily occurs in hepatocytes. Heme synthesis begins with the condensation of succinyl-CoA and glycine. The reaction that begins heme synthesis is dependent on pyridoxal phosphate. Mitochondrial δ-aminolevulinate synthase (ALA synthase) catalyzes the reaction that begins heme synthesis.\n\nHumans express two isozymes of ALA synthase: ALAS1 and ALAS2. ALAS1 is ubiquitously expressed throughout the body. ALAS2 is expressed in erythrocyte precursor cells. The formation of δ-aminolevulinate is the rate-limiting step for porphyrin biosynthesis in the mammalian liver (Figure 31–3).",
+      "char_start": 2582,
+      "char_end": 3421,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-3"
+      ],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Following the formation of δ-aminolevulinate, it exits into the cytosol where ALA dehydratase catalyzes the condensation of two molecules of ALA to form porphobilinogen (Figure 31–4). ALA dehydratase is a zinc metalloprotein sensitive to inhibition by lead. ALA dehydratase requires an Fe-S cofactor for optimal activity. The Fe-S cofactor allows regulation of porphyrin biosynthesis in response to iron availability.",
+      "char_start": 3539,
+      "char_end": 3956,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-4"
+      ],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "The third reaction, catalyzed by hydroxymethylbilane synthase, involves the head-to-tail condensation of four molecules of porphobilinogen to form the linear tetrapyrrole hydroxymethylbilane (Figure 31–5, top). Hydroxymethylbilane is formed from the condensation of four molecules of porphobilinogen. The subsequent cyclization of hydroxymethylbilane, catalyzed by uroporphyrinogen III synthase, forms uroporphyrinogen III (Figure 31–5, bottom right). Under normal conditions, the uroporphyrinogen formed is almost exclusively the type III isomer. Type I isomers of uroporphyrinogen can be formed in certain porphyrias.",
+      "char_start": 4107,
+      "char_end": 4726,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-5"
+      ],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Uroporphyrinogen decarboxylase catalyzes the decarboxylation of all four acetate moieties of uroporphyrinogen III to form coproporphyrinogen III (Figure 31–6). Uroporphyrinogen decarboxylase can also convert uroporphyrinogen I to coproporphyrinogen I if present. The final three reactions of heme biosynthesis occur in the mitochondria. Coproporphyrinogen III is converted to protoporphyrinogen III and then to protoporphyrin III. Coproporphyrinogen oxidase catalyzes the conversion of coproporphyrinogen III to protoporphyrinogen III. Protoporphyrinogen oxidase catalyzes the conversion of protoporphyrinogen III to protoporphyrin III (Figure 31–7).",
+      "char_start": 5215,
+      "char_end": 5865,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-6",
+        "fig-31-7"
+      ],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Enzyme 1, ALA synthase 2 (ALAS2), is associated with X-linked sideroblastic anemia (erythropoietic) (OMIM 301300).\nThe major sign and symptom of X-linked sideroblastic anemia is anemia.\nIn the laboratory tests for X-linked sideroblastic anemia, red cell counts and hemoglobin are decreased.\nEnzyme 2, ALA dehydratase, is associated with ALA dehydratase deficiency (hepatic) (OMIM 125270).\nThe major signs and symptoms of ALA dehydratase deficiency are abdominal pain and neuropsychiatric symptoms.\nIn the laboratory tests for ALA dehydratase deficiency, urinary ALA and coproporphyrin III are increased.\nEnzyme 3, Uroporphyrinogen I synthase, is associated with acute intermittent porphyria (hepatic) (OMIM 176000).\nThe major signs and symptoms of acute intermittent porphyria are abdominal pain and neuropsychiatric symptoms.\nIn the laboratory tests for acute intermittent porphyria, urinary ALA and PBG are increased.\nEnzyme 4, Uroporphyrinogen III synthase, is associated with congenital erythropoietic porphyria (erythropoietic) (OMIM 263700).\nThe major sign and symptom of congenital erythropoietic porphyria is photosensitivity.\nIn the laboratory tests for congenital erythropoietic porphyria, urinary, fecal, and red cell uroporphyrin I are increased.\nEnzyme 5, Uroporphyrinogen decarboxylase, is associated with porphyria cutanea tarda (hepatic) (OMIM 176100).\nThe major sign and symptom of porphyria cutanea tarda is photosensitivity.\nIn the laboratory tests for porphyria cutanea tarda, urinary uroporphyrin I is increased.\nEnzyme 6, Coproporphyrinogen oxidase, is associated with hereditary coproporphyria (hepatic) (OMIM 121300).\nThe major signs and symptoms of hereditary coproporphyria are photosensitivity, abdominal pain, and neuropsychiatric symptoms.\nIn the laboratory tests for hereditary coproporphyria, urinary ALA, PBG, and coproporphyrin III and fecal coproporphyrin III are increased.\nEnzyme 7, Protoporphyrinogen oxidase, is associated with variegate porphyria (hepatic) (OMIM 176200).\nThe major signs and symptoms of variegate porphyria are photosensitivity, abdominal pain, and neuropsychiatric symptoms.\nIn the laboratory tests for variegate porphyria, urinary ALA, PBG, and coproporphyrin III and fecal protoporphyrin IX are increased.\nEnzyme 8, Ferrochelatase, is associated with protoporphyria (erythropoietic) (OMIM 177000).\nThe major sign and symptom of protoporphyria is photosensitivity.\nIn the laboratory tests for protoporphyria, fecal and red cell protoporphyrin IX are increased.",
+      "char_start": 6724,
+      "char_end": 9242,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The eighth and final step in heme synthesis involves the incorporation of ferrous iron into protoporphyrin III. Ferrochelatase (heme synthase) catalyzes the incorporation of ferrous iron into protoporphyrin III. The incorporation of ferrous iron into protoporphyrin III is illustrated in Figure 31-7.\n\nMutations in the gene encoding ALA synthase cause X-linked sideroblastic anemia. X-linked sideroblastic anemia is not a porphyria. Mutations in the genes encoding enzymes 2 to 8 give rise to the porphyrias (Figure 31–7).",
+      "char_start": 9244,
+      "char_end": 9766,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-7"
+      ],
+      "table_refs": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "ALA synthase 1 (ALAS1) is expressed throughout body tissues. ALAS1 catalyzes the rate-limiting reaction for heme biosynthesis in the liver. ALAS1 has a short half-life. Heme regulates the synthesis of ALAS1 through the Erg-1 aporepressor and one of its NAB corepressors. The absence of heme greatly increases the synthesis of ALAS1. The presence of heme diminishes the synthesis of ALAS1. Heme affects the translation of ALAS1. Heme affects the translocation of ALAS1 from the cytosol to the mitochondria. Many drugs that require cytochrome P450 for metabolism induce enhanced biosynthesis of this hemoprotein. The induction of hemoprotein biosynthesis depletes the intracellular heme pool. The depletion of the heme pool induces the synthesis of ALAS1. The rate of heme synthesis rises to meet metabolic demand. ALAS2 is not feedback regulated by heme. The biosynthesis of ALAS2 is not induced by these drugs.\n\nCytochrome P450 is an enzyme required for the metabolism of many drugs. Drugs that require cytochrome P450 induce enhanced biosynthesis of hemoproteins. The enhanced biosynthesis of hemoproteins depletes the intracellular heme pool. The depletion of the heme pool induces the synthesis of ALAS1.",
+      "char_start": 9846,
+      "char_end": 11053,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HEME IS SYNTHESIZED FROM SUCCINYL-CoA & GLYCINE",
+        "ALA Synthase Is the Key Regulatory Enzyme in Hepatic Biosynthesis of Heme"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ala-synthase-is-the-key-regulatory-enzyme-in-hepatic"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Porphyrinogens are colorless. The various porphyrins are colored. The conjugated double bonds in the pyrrole rings and linking methine groups of porphyrins are responsible for their characteristic absorption and fluorescence spectra. The visible and ultraviolet spectra of porphyrins and porphyrin derivatives are useful for their identification (Figure 31--8).\n\nThe sharp absorption band near 400 nm is a distinguishing feature shared by all porphyrins. The sharp absorption band near 400 nm is termed the Soret band, named after its discoverer, the French physicist Charles Soret.\n\nPorphyrins dissolved in strong mineral acids or in organic solvents emit a strong red fluorescence when illuminated by ultraviolet light. The strong red fluorescence is often used to detect small amounts of free porphyrins.\n\nFigure 31-8shows the absorption spectrum of hematoporphyrin. The spectrum is of a dilute (0.01%) solution of hematoporphyrin in 5% HCl.",
+      "char_start": 11093,
+      "char_end": 12037,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "PORPHYRINS ARE COLORED & FLUORESCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-8"
+      ],
+      "table_refs": [],
+      "section_id": "porphyrins-are-colored-fluoresce"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Coproporphyrins are excreted in elevated amounts in the porphyrias. Uroporphyrins are excreted in elevated amounts in the porphyrias. When present in urine, coproporphyrins and uroporphyrins can be separated by extraction with appropriate solvents. When present in feces, coproporphyrins and uroporphyrins can be separated by extraction with appropriate solvents. After separation, coproporphyrins and uroporphyrins can be identified using spectrophotometric methods. After separation, coproporphyrins and uroporphyrins can be quantified using spectrophotometric methods.",
+      "char_start": 12244,
+      "char_end": 12815,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "PORPHYRINS ARE COLORED & FLUORESCE",
+        "Spectrophotometry Is Used to Detect Porphyrins & Their Precursors"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "spectrophotometry-is-used-to-detect-porphyrins-their"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Disorders of heme biosynthesis can be genetic or acquired. Lead poisoning is an example of an acquired defect. Lead inactivates ferrochelatase by binding to essential thiol groups. Lead inactivates ALA dehydratase by binding to essential thiol groups. Lead poisoning causes elevated levels of protoporphyrin in erythrocytes. Lead poisoning causes elevated urinary levels of ALA. Lead poisoning causes elevated urinary levels of coproporphyrin. Genetic disorders of heme metabolism and bilirubin metabolism share features with metabolic disorders of urea biosynthesis. Different mutations in genes that encode a given enzyme can cause similar clinical signs and symptoms. Mutations in genes that encode enzymes catalyzing successive reactions can cause similar clinical signs and symptoms. Rational therapy requires understanding the biochemistry of enzyme-catalyzed reactions in both normal and impaired individuals. Identifying intermediates and side products that accumulate before a metabolic block can provide the basis for metabolic screening tests. Metabolic screening tests can implicate the impaired reaction. Definitive diagnosis involves quantitative assay of the activity of the enzyme(s) suspected to be defective. Translocation of enzymes and intermediates between cellular compartments may involve as yet incompletely identified factors. Comparing the DNA sequence of a gene that encodes a mutant enzyme to that of the wild-type gene can identify specific mutations causing the disease.",
+      "char_start": 12851,
+      "char_end": 14351,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "disorders-of-heme-biosynthesis"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The signs and symptoms of porphyria result from a deficiency of intermediates beyond the enzymatic block.\n\nThe signs and symptoms of porphyria result from the accumulation of metabolites prior to the enzymatic block.\n\nTable 31–1lists six major types of porphyria that reflect low or absent activity of enzymes that catalyze reactions 2 through 8 of Figure 31–7.\n\nThere is no known defect of ALAS1 possibly due to potential lethality.\n\nIndividuals with low ALAS2 activity develop anemia, not porphyria.\n\nPorphyria consequent to low activity of ALA dehydratase is termed ALA dehydratase-deficient porphyria.\n\nALA dehydratase-deficient porphyria is extremely rare.",
+      "char_start": 14372,
+      "char_end": 15033,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS",
+        "The Porphyrias"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-7"
+      ],
+      "table_refs": [
+        "tbl-31-1"
+      ],
+      "section_id": "the-porphyrias"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Congenital erythropoietic porphyria is inherited in a recessive mode.\n\nMost porphyrias are inherited in an autosomal dominant manner.\n\nThe defective enzyme in congenital erythropoietic porphyria is uroporphyrinogen III synthase.\n\nVictims of congenital erythropoietic porphyria exhibit photosensitivity and severe disfigurement.\n\nSome victims of congenital erythropoietic porphyria have been suggested as prototypes of so-called werewolves.",
+      "char_start": 15075,
+      "char_end": 15514,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS",
+        "Congenital Erythropoietic Porphyria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "congenital-erythropoietic-porphyria"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The defective enzyme in acute intermittent porphyria is hydroxymethylbilane synthase (see Figure 31--5, bottom).\n\nALA and porphobilinogen accumulate in body tissues and fluids (Figure 31--9).",
+      "char_start": 15549,
+      "char_end": 15740,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS",
+        "Acute Intermittent Porphyria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acute-intermittent-porphyria"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "A flowchart of the genetic mutations leading to photosensitivity and neuropsychiatric signs is available.",
+      "char_start": 15831,
+      "char_end": 15936,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS",
+        "Acute Intermittent Porphyria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acute-intermittent-porphyria"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Blocks later in the pathway cause the accumulation of porphyrinogens.\n\nThe oxidation of these porphyrinogens results in photosensitivity to visible light of about 400-nm wavelength.\n\nThe excitation of these porphyrinogens and their reaction with molecular oxygen generate oxygen radicals.\n\nOxygen radicals injure lysosomes and other subcellular organelles.\n\nThe injury to lysosomes releases proteolytic enzymes.\n\nProteolytic enzymes cause variable degrees of skin damage, including scarring.",
+      "char_start": 15970,
+      "char_end": 16461,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "DISORDERS OF HEME BIOSYNTHESIS",
+        "Subsequent Metabolic Blocks"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "subsequent-metabolic-blocks"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Porphyrias are classified as erythropoietic or hepatic based on the organs most affected.\n\nPorphyrias can also be classified as acute or cutaneous based on their clinical features.\n\nDifferent and variable levels of heme, toxic precursors, or metabolites account for the differential effects of specific porphyrias on individual cell types and organs.\n\nDiagnosis of porphyrias involves consideration of the clinical and family history, physical examination, and appropriate laboratory tests.\n\nTable 31–1lists the major signs, symptoms, and relevant laboratory findings in the six principal types of porphyria.",
+      "char_start": 16499,
+      "char_end": 17107,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CLASSIFICATION OF THE PORPHYRIAS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-31-1"
+      ],
+      "section_id": "classification-of-the-porphyrias"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Certain drugs, such as barbiturates and griseofulvin, induce elevated production of cytochrome P450. Elevated production of cytochrome P450 can precipitate an attack of porphyria by depleting heme levels. Depletion of heme levels leads to derepression of synthesis of ALAS1. Derepression of synthesis of ALAS1 results in increased levels of potentially harmful heme precursors.",
+      "char_start": 17136,
+      "char_end": 17513,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CLASSIFICATION OF THE PORPHYRIAS",
+        "Drug-Induced Porphyria"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "drug-induced-porphyria"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Present treatment of porphyrias is essentially symptomatic. Avoiding drugs that induce production of cytochrome P450 is part of the treatment for porphyrias. Ingestion of large amounts of carbohydrate is recommended in the treatment of porphyrias. Administration of hematin represses ALAS1 synthesis. Hematin diminishes the production of harmful heme precursors. Patients with porphyrias exhibiting photosensitivity benefit from sunscreens. Administered β-carotene can lessen production of free radicals in patients with porphyrias. Decreased production of free radicals reduces photosensitivity in patients with porphyrias.",
+      "char_start": 17554,
+      "char_end": 18178,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CLASSIFICATION OF THE PORPHYRIAS",
+        "Possible Treatments for Porphyrias"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "possible-treatments-for-porphyrias"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Human adults normally destroy about 200 billion erythrocytes per day. A 70-kg human turns over approximately 6 g of hemoglobin daily. All products are reused. The globin is degraded to its constituent amino acids. The released iron enters the iron pool. The iron-free porphyrin portion of heme is also degraded, mainly in the reticuloendothelial cells of the liver, spleen, and bone marrow. The catabolism of heme from all heme proteins is catalyzed by heme oxygenase, EC 1.14.18.18. Heme oxygenase synthesis is substrate-inducible. Heme serves as both substrate and a cofactor for the reaction. The iron of the heme that reaches heme oxygenase is usually in its oxidized, ferric form (hemin).\n\nThe carbon monoxide produced does not severely inhibit heme oxygenase despite its high affinity for heme-Fe2+. In humans, biliverdin reductase (EC 1.3.1.24) reduces the central methylene bridge of biliverdin to a methyl group. In humans, biliverdin reductase (EC 1.3.1.24) produces the yellow-pigment bilirubin (Figure 31–10).",
+      "char_start": 18221,
+      "char_end": 19242,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-10"
+      ],
+      "table_refs": [],
+      "section_id": "catabolism-of-heme-produces-bilirubin"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Birds excrete the green-colored biliverdin directly. Amphibians excrete the green-colored biliverdin directly. 1 g of hemoglobin yields about 35 mg of bilirubin. Human adults form 250 to 350 mg of bilirubin per day. Bilirubin is derived principally from hemoglobin. Bilirubin is derived with contributions from ineffective erythropoiesis and the catabolism of other heme proteins. Conversion of heme to bilirubin by reticuloendothelial cells can be observed visually. The purple color of the heme in a hematoma slowly converts to the yellow pigment of bilirubin.",
+      "char_start": 19487,
+      "char_end": 20049,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "catabolism-of-heme-produces-bilirubin"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Bilirubin is only sparingly soluble in water. Bilirubin is bound by serum albumin for transport to the liver. Albumin has both high-affinity and low-affinity sites for bilirubin. The high-affinity site can bind approximately 25 mg of bilirubin per 100 mL of plasma. More loosely bound bilirubin can readily dissociate and diffuse into tissues. Some antibiotics can displace bilirubin from albumin’s high-affinity site. Certain other drugs can displace bilirubin from albumin’s high-affinity site.",
+      "char_start": 20116,
+      "char_end": 20612,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Bilirubin Is Transported to the Liver Bound to Serum Albumin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "bilirubin-is-transported-to-the-liver-bound-to-serum-albumin"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Hepatic catabolism of bilirubin takes place in three stages: uptake by the liver, conjugation with glucuronic acid, and secretion in the bile.",
+      "char_start": 20680,
+      "char_end": 20822,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Further Metabolism of Bilirubin Occurs Primarily in the Liver"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "further-metabolism-of-bilirubin-occurs-primarily-in-the"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Bilirubin dissociates from albumin and is taken up at the sinusoidal surface of hepatocytes by a large capacity facilitated transport system.\n\nThe transport system for bilirubin uptake is saturable, but it does not appear to be rate-limiting for the metabolism of bilirubin even under pathologic conditions.\n\nThe net uptake of bilirubin depends on its removal by subsequent metabolism.\n\nOnce internalized, bilirubin binds to cytosolic proteins such as glutathione S-transferase, previously known as a ligandin, to prevent bilirubin from reentering the bloodstream.",
+      "char_start": 20875,
+      "char_end": 21439,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Uptake of Bilirubin by Liver Parenchymal Cells"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "uptake-of-bilirubin-by-liver-parenchymal-cells"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Bilirubin is nonpolar. Bilirubin would persist in cells if not converted to a more water-soluble form. Conversion to a more polar form occurs by conjugation with two molecules of glucuronic acid. Conversion to a more polar form is catalyzed by a bilirubin-specific UDP-glucuronosyltransferase (EC 2.4.1.17) of the endoplasmic reticulum. The reaction proceeds as follows: Bilirubin reacts with UDP-glucuronate to form bilirubin monoglucuronide and UDP. Bilirubin monoglucuronide reacts with UDP-glucuronate to form bilirubin diglucuronide and UDP. Glucuronate moieties are attached via ester bonds to the two propionate groups of bilirubin (Figure 31-11). Clinically, the diglucuronide is termed 'direct reacting' bilirubin.",
+      "char_start": 21487,
+      "char_end": 22210,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Conjugation of Bilirubin With Glucuronate"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-11"
+      ],
+      "table_refs": [],
+      "section_id": "conjugation-of-bilirubin-with-glucuronate"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Conjugated bilirubin is secreted into the bile by an active transport mechanism. The active transport mechanism is probably rate-limiting for the overall process of hepatic bilirubin metabolism. The protein involved in this transport is a multispecific organic anion transporter (MOAT), located in the plasma membrane of the bile canaliculi. MOAT is a member of the ATP-binding cassette (ABC) transporter family. MOAT transports a number of organic anions. The hepatic transport system for conjugated bilirubin into the bile is inducible by the same drugs that can induce the conjugation of bilirubin. Conjugation and excretion of bilirubin constitute a coordinated functional unit.\n\nMost of the bilirubin excreted in the bile of mammals is bilirubin diglucuronide. Bilirubin UDP-glucuronosyltransferase activity can be induced by several drugs, including phenobarbital. When bilirubin conjugates exist abnormally in human plasma, such as in obstructive jaundice, they are predominantly monoglucuronides. Figure 31-12summarizes the three major processes involved in the transfer of bilirubin from blood to bile. Certain proteins of hepatocytes bind intracellular bilirubin. Certain proteins of hepatocytes may prevent its efflux into the bloodstream. The processes affected in certain conditions that cause jaundice are also shown in Figure 31-12. A flowchart traces the transfer of bilirubin from the blood to the bile duct.",
+      "char_start": 22466,
+      "char_end": 23891,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Secretion of Bilirubin Into the Bile"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-31-12"
+      ],
+      "table_refs": [],
+      "section_id": "secretion-of-bilirubin-into-the-bile"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "In the normal condition, the direct serum bilirubin level is 0.1-0.4 mg/dL.\nIn the normal condition, the indirect serum bilirubin level is 0.2-0.7 mg/dL.\nIn the normal condition, the urine urobilinogen level is 0-4 mg/24 h.\nIn the normal condition, urine bilirubin is absent.\nIn the normal condition, fecal urobilinogen is 40-280 mg/24 h.\nIn hemolytic anemia, the indirect serum bilirubin level is increased.\nIn hemolytic anemia, the urine urobilinogen level is increased.\nIn hemolytic anemia, urine bilirubin is absent.\nIn hemolytic anemia, fecal urobilinogen is increased.\nIn hepatitis, both direct and indirect serum bilirubin levels are increased.\nIn hepatitis, the urine urobilinogen level is decreased if micro-obstruction is present.\nIn hepatitis, urine bilirubin is present if micro-obstruction occurs.\nIn hepatitis, fecal urobilinogen is decreased.\nIn obstructive jaundice, the direct serum bilirubin level is increased.\nIn obstructive jaundice, the urine urobilinogen level is absent.\nIn obstructive jaundice, urine bilirubin is present.\nIn obstructive jaundice, fecal urobilinogen is trace to absent.",
+      "char_start": 24257,
+      "char_end": 25368,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Secretion of Bilirubin Into the Bile"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "secretion-of-bilirubin-into-the-bile"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Conjugated bilirubin reaches the terminal ileum and the large intestine. Specific bacterial β-glucuronidases remove the glucuronosyl moieties from conjugated bilirubin. Specific bacterial β-glucuronidases are classified as EC 3.2.1.31. The intestinal microbiota reduces the resulting compounds to form colorless tetrapyrroles called urobilinogens. Small portions of urobilinogens are reabsorbed in the terminal ileum and large intestine. The reabsorbed urobilinogens are reexcreted via the enterohepatic urobilinogen cycle. Under abnormal conditions, excessive bile pigment formation can lead to increased urobilinogen excretion in the urine. Liver disease can disrupt the intrahepatic cycle, leading to increased urobilinogen excretion in the urine. Most of the colorless urobilinogens formed in the colon are oxidized to colored urobilins. The feces are darkened by the oxidation of residual urobilinogens to urobilins upon standing in air.",
+      "char_start": 25438,
+      "char_end": 26380,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Intestinal Bacteria Reduce Conjugated Bilirubin to Urobilinogen"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "intestinal-bacteria-reduce-conjugated-bilirubin-to"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Quantitation of bilirubin employs a colorimetric method based on the reddish-purple color formed when bilirubin reacts with diazotized sulfanilic acid.\n\nAn assay conducted in the absence of added methanol measures direct bilirubin, which is bilirubin glucuronide.\n\nAn assay conducted in the presence of added methanol measures total bilirubin.\n\nThe difference between total bilirubin and direct bilirubin is known as indirect bilirubin, and it is unconjugated bilirubin.",
+      "char_start": 26420,
+      "char_end": 26890,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "CATABOLISM OF HEME PRODUCES BILIRUBIN",
+        "Measurement of Bilirubin in Serum"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "measurement-of-bilirubin-in-serum"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Hyperbilirubinemia occurs when the blood level of bilirubin exceeds 1 mg/dL (17 μmol/L). Hyperbilirubinemia can result from the liver producing more bilirubin than it can excrete. Hyperbilirubinemia can also result from a damaged liver failing to excrete normal amounts of bilirubin. Obstruction of the liver's excretory ducts can prevent bilirubin excretion and cause hyperbilirubinemia. Jaundice occurs when the blood concentration of bilirubin reaches 2 to 2.5 mg/dL. Jaundice is also known as icterus. Jaundice is characterized by tissues turning yellow.",
+      "char_start": 26930,
+      "char_end": 27488,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hyperbilirubinemia-causes-jaundice"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Retention hyperbilirubinemia is due to overproduction of bilirubin. Regurgitation hyperbilirubinemia is due to reflux into the bloodstream because of biliary obstruction.\n\nBecause of its hydrophobicity, unconjugated bilirubin can cross the blood–brain barrier. Unconjugated bilirubin can enter the central nervous system.\n\nEncephalopathy due to hyperbilirubinemia (kernicterus) occurs only with unconjugated bilirubin. Retention hyperbilirubinemia is a condition where unconjugated bilirubin levels are elevated.\n\nConjugated bilirubin appears in urine because of its water solubility.\n\nCholuric jaundice occurs only in regurgitation hyperbilirubinemia. Acholuric jaundice occurs only in the presence of an excess of unconjugated bilirubin.\n\nA moderate hyperbilirubinemia accompanies hemolytic anemias.\n\nHyperbilirubinemia is usually modest (< 4 mg bilirubin/dL; < 68 μmol/L). A healthy liver has a high capacity to metabolize bilirubin.\n\nA stone in the common bile duct is a common cause of obstruction of the biliary tree. Cancer of the head of the pancreas is a common cause of obstruction of the biliary tree.\n\nLiver diseases are frequent causes of predominantly conjugated hyperbilirubinemia. Hepatitis is an example of liver diseases causing predominantly conjugated hyperbilirubinemia.\n\nTable 31–2lists some causes of unconjugated hyperbilirubinemia. Table 31–2lists some causes of conjugated hyperbilirubinemia.",
+      "char_start": 27540,
+      "char_end": 28958,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Occurrence of Unconjugated Bilirubin in Blood"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-31-2"
+      ],
+      "section_id": "occurrence-of-unconjugated-bilirubin-in-blood"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Hemolytic anemias are a cause of unconjugated hyperbilirubinemia.\nObstruction of the biliary tree is a cause of conjugated hyperbilirubinemia.\nNeonatal “physiologic jaundice” is a cause of unconjugated hyperbilirubinemia.\nDubin-Johnson syndrome is a cause of conjugated hyperbilirubinemia.\nCrigler-Najjar syndrome types I and II are causes of unconjugated hyperbilirubinemia.\nRotor syndrome is a cause of conjugated hyperbilirubinemia.\nGilbert syndrome is a cause of unconjugated hyperbilirubinemia.\nLiver diseases such as the various types of hepatitis are causes of conjugated hyperbilirubinemia.\nToxic hyperbilirubinemia is a cause of unconjugated hyperbilirubinemia.",
+      "char_start": 29023,
+      "char_end": 29693,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Occurrence of Unconjugated Bilirubin in Blood"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "occurrence-of-unconjugated-bilirubin-in-blood"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Neonatal “physiologic jaundice” results from accelerated hemolysis and an immature hepatic system for the uptake, conjugation, and secretion of bilirubin. In neonatal “physiologic jaundice,” bilirubin-glucuronosyltransferase activity is reduced. In neonatal “physiologic jaundice,” synthesis of UDP-glucuronate is probably also reduced. When the plasma concentration of unconjugated bilirubin exceeds that which can be tightly bound by albumin, it can penetrate the blood–brain barrier. The threshold for unconjugated bilirubin tightly bound by albumin is 20–25 mg/dL. Hyperbilirubinemic toxic encephalopathy, or kernicterus, can result in mental retardation if left untreated. Exposure of jaundiced neonates to blue light promotes hepatic excretion of unconjugated bilirubin. Phototherapy converts a portion of unconjugated bilirubin to derivatives that are excreted in the bile. Phenobarbital may be administered as a promoter of bilirubin metabolism.",
+      "char_start": 29731,
+      "char_end": 30684,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Neonatal “Physiologic Jaundice”"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "neonatal-physiologic-jaundice"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Glucuronosyltransferases (EC 2.4.1.17) generate polar conjugates of various drugs and drug metabolites. Glucuronosyltransferases facilitate the excretion of drugs and drug metabolites. Mutations in the gene encoding bilirubin UDP-glucuronosyltransferase can result in reduced enzyme activity. Mutations in the gene encoding bilirubin UDP-glucuronosyltransferase can result in absent enzyme activity. Gilbert syndrome reflects the severity of impairment in bilirubin UDP-glucuronosyltransferase activity. Crigler-Najjar syndrome type 1 reflects the severity of impairment in bilirubin UDP-glucuronosyltransferase activity. Crigler-Najjar syndrome type 2 reflects the severity of impairment in bilirubin UDP-glucuronosyltransferase activity.",
+      "char_start": 30739,
+      "char_end": 31478,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Defects of Bilirubin UDP-Glucuronosyltransferase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "defects-of-bilirubin-udp-glucuronosyltransferase"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "In Gilbert syndrome, bilirubin UDP-glucuronosyltransferase activity is reduced.\n\nIn Gilbert syndrome, bilirubin UDP-glucuronosyltransferase activity is not eliminated.\n\nIf retained activity equals or exceeds 30% of normal levels, Gilbert syndrome is essentially harmless.",
+      "char_start": 31501,
+      "char_end": 31772,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Gilbert Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "gilbert-syndrome"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Type I Crigler-Najjar syndrome causes severe congenital jaundice with bilirubin levels exceeding 20 mg/dL in serum. Type I Crigler-Najjar syndrome results in complete absence of hepatic UDP-glucuronosyltransferase activity. The brain damage associated with type I Crigler-Najjar syndrome is a consequence of the severe jaundice. Phototherapy is used to reduce plasma bilirubin levels in type I Crigler-Najjar syndrome. Phenobarbital does not have a beneficial effect on type I Crigler-Najjar syndrome. Type I Crigler-Najjar syndrome is often fatal within the first 15 months of life.",
+      "char_start": 31809,
+      "char_end": 32392,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Type I Crigler-Najjar Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "type-i-crigler-najjar-syndrome"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "In type II Crigler-Najjar syndrome, some bilirubin UDP-glucuronosyltransferase activity is retained.\n\nType II Crigler-Najjar syndrome is more benign than type I syndrome.\n\nSerum bilirubin in type II Crigler-Najjar syndrome tends not to exceed 20 mg/dL of serum.\n\nPatients with type II Crigler-Najjar syndrome respond to treatment with large doses of phenobarbital.",
+      "char_start": 32430,
+      "char_end": 32794,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Type II Crigler-Najjar Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "type-ii-crigler-najjar-syndrome"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Unconjugated hyperbilirubinemia can result from toxin-induced liver dysfunction. Chloroform can cause toxin-induced liver dysfunction. Arsphenamines can cause toxin-induced liver dysfunction. Carbon tetrachloride can cause toxin-induced liver dysfunction. Acetaminophen can cause toxin-induced liver dysfunction. Hepatitis virus can cause toxin-induced liver dysfunction. Cirrhosis can cause toxin-induced liver dysfunction. Amanita mushroom poisoning can cause toxin-induced liver dysfunction. Toxin-induced liver dysfunction involves hepatic parenchymal cell damage. Hepatic parenchymal cell damage impairs bilirubin conjugation.",
+      "char_start": 32825,
+      "char_end": 33456,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Toxic Hyperbilirubinemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "toxic-hyperbilirubinemia"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Conjugated hyperbilirubinemia commonly results from blockage of the hepatic or common bile ducts. Gallstones are a common cause of this blockage. Cancer of the head of the pancreas can also cause this blockage. Bilirubin diglucuronide that cannot be excreted regurgitates into the hepatic veins and lymphatics. Conjugated bilirubin appears in the blood and urine, known as choluric jaundice. The stools typically are a pale color when this occurs.\n\nCholestatic jaundice includes all cases of extrahepatic obstructive jaundice. Cholestatic jaundice also includes conjugated hyperbilirubinemia due to micro obstruction of intrahepatic biliary ductules. Damaged hepatocytes can cause such micro obstruction. Micro obstruction of intrahepatic biliary ductules can occur in infectious hepatitis.",
+      "char_start": 33552,
+      "char_end": 34342,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Obstruction in the Biliary Tree Is the Most Common Cause of Conjugated Hyperbilirubinemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "obstruction-in-the-biliary-tree-is-the-most-common-cause-of"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "Dubin-Johnson syndrome is a benign autosomal recessive disorder.\n\nDubin-Johnson syndrome involves conjugated hyperbilirubinemia.\n\nConjugated hyperbilirubinemia in Dubin-Johnson syndrome occurs in childhood or during adult life.\n\nMutations in the gene encoding the protein involved in the secretion of conjugated bilirubin into bile cause hyperbilirubinemia in Dubin-Johnson syndrome.",
+      "char_start": 34371,
+      "char_end": 34754,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Dubin-Johnson Syndrome"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "dubin-johnson-syndrome"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "When high levels of conjugated bilirubin persist in plasma, a portion can become covalently bound to albumin.\n\nδ-bilirubin, termed δ-bilirubin, has a longer half-life in plasma than does conventional conjugated bilirubin.\n\nδ-bilirubin remains elevated during recovery from obstructive jaundice.\n\nSome patients continue to appear jaundiced even after the circulating conjugated bilirubin level has returned to normal.",
+      "char_start": 34817,
+      "char_end": 35233,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Some Conjugated Bilirubin Can Bind Covalently to Albumin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-conjugated-bilirubin-can-bind-covalently-to-albumin"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "In complete obstruction of the bile duct, bilirubin has no access to the intestine for conversion to urobilinogen. In complete obstruction of the bile duct, no urobilinogen is present in the urine. The presence of conjugated bilirubin in the urine without urobilinogen suggests intrahepatic or posthepatic obstructive jaundice. In jaundice secondary to hemolysis, the increased production of bilirubin leads to increased production of urobilinogen. In jaundice secondary to hemolysis, increased urobilinogen appears in the urine in large amounts. Bilirubin is not usually found in the urine in hemolytic jaundice. The combination of increased urobilinogen and absence of bilirubin is suggestive of hemolytic jaundice. Increased blood destruction from any cause brings about an increase in urine urobilinogen. The most common causes of obstructive (posthepatic) jaundice are cancer of the head of the pancreas and a gallstone lodged in the common bile duct. The presence of bilirubin in the urine is sometimes referred to as choluria. Hepatitis and obstruction of the common bile duct cause choluric jaundice. The jaundice of hemolytic anemia is referred to as acholuric. The laboratory results in patients with hepatitis are variable, depending on the extent of damage to parenchymal cells and the extent of micro-obstruction to bile ductules. Serum levels of alanine aminotransferase and aspartate aminotransferase are usually markedly elevated in hepatitis. Serum levels of alkaline phosphatase are elevated in obstructive liver disease.",
+      "char_start": 35296,
+      "char_end": 36835,
+      "section_path": [
+        "Porphyrins & Bile Pigments",
+        "HYPERBILIRUBINEMIA CAUSES JAUNDICE",
+        "Urinary Urobilinogen & Bilirubin Are Clinical Indicators"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "urinary-urobilinogen-bilirubin-are-clinical-indicators"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "The heme of hemoproteins such as hemoglobin and the cytochromes is an iron-porphyrin complex. Porphyrin consists of four pyrrole rings joined by methine bridges.\nThe eight methyl, vinyl, and propionyl substituents on the four pyrrole rings of heme are arranged in a specific sequence. The metal ion (Fe2+ in hemoglobin; Mg2+ in chlorophyll) is linked to the four nitrogen atoms of the pyrrole rings.\nBiosynthesis of the heme ring involves eight enzyme-catalyzed reactions, some of which occur in mitochondria, others in the cytosol.\nSynthesis of heme commences with the condensation of succinyl-CoA and glycine to form ALA. This reaction is catalyzed by ALAS1, the regulatory enzyme of heme biosynthesis.\nSynthesis of ALAS1 increases in response to a low level of available heme. For example, certain drugs (eg, phenobarbital) indirectly trigger enhanced synthesis of ALAS1 by promoting synthesis of the heme protein cytochrome P450, which thereby depletes the heme pool. By contrast, ALAS2 is not regulated by heme levels, and consequently not by drugs that promote synthesis of cytochrome P450.\nGenetic abnormalities of seven of the eight enzymes of heme biosynthesis result in inherited porphyrias. Erythrocytes and liver are the major sites of expression of the porphyrias. Photosensitivity and neurologic problems are common complaints. Intake of certain toxins (eg, lead) can cause acquired porphyrias. Increased amounts of porphyrins or their precursors can be detected in blood and urine, facilitating diagnosis.\nCatabolism of the heme ring, initiated by the mitochondrial enzyme heme oxygenase, produces the linear tetrapyrrole, biliverdin. Subsequent reduction of biliverdin in the cytosol forms bilirubin.\nBilirubin binds to albumin for transport from peripheral tissues to the liver, where it is taken up by hepatocytes. The iron of heme is released and reutilized.\nThe water solubility of bilirubin is increased by the addition of two moles of the highly polar glucuronosyl moiety, derived from UDP-glucuronate, per mole of bilirubin. Attachment of the glucuronosyl moieties is catalyzed by bilirubin UDP-glucuronosyltransferase, one of a large family of enzymes of differing substrate specificities that increase the polarity of various drugs and drug metabolites, thereby facilitating their excretion.\nMutations in the encoding gene may result in reduced or absent bilirubin UDP-glucuronosyltransferase activity. Clinical presentations that reflect the severity of the mutation(s) include Gilbert syndrome and two types of Crigler-Najjar syndrome, conditions whose severity depends on the extent of remaining glucuronosyltransferase activity.\nFollowing secretion of bilirubin from the bile into the gut, bacterial enzymes convert bilirubin to urobilinogen and urobilin, which are excreted in the feces and urine.\nColorimetric measurement of bilirubin employs the color formed when bilirubin reacts with diazotized sulfanilic acid. Assays conducted in the of added methanol measure “direct bilirubin” (ie, bilirubin glucuronide). Assays conducted in the of added methanol measure total bilirubin. The difference between total bilirubin and direct bilirubin, termed “indirect bilirubin,” is unconjugated bilirubin.\nJaundice results from an elevated level of plasma bilirubin. The causes of jaundice can be distinguished as prehepatic (eg, hemolytic anemias), hepatic (eg, hepatitis), or posthepatic (eg, obstruction of the common bile duct). Measurements of plasma total and nonconjugated bilirubin, of urinary urobilinogen and bilirubin, of the activity of certain serum enzymes, and the analysis of stool samples help distinguish between the causes of jaundice.",
+      "char_start": 36837,
+      "char_end": 40513,
+      "section_path": [
+        "Porphyrins & Bile Pigments"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-31-1",
+      "image_path": "",
+      "caption": "The porphyrin molecule. Rings are labeled I, II, III, and IV. Substituent positions are labeled 1 through 8. The four methine bridges (=HC—) are labeled α, β, γ, and δ.",
+      "referenced_from": "c002",
+      "marker": "[FIGURE:fig-31-1]",
+      "description": "",
+      "label": "Figure 31-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        1498,
+        1666
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "porphyrins"
+    },
+    {
+      "fig_id": "fig-31-2",
+      "image_path": "",
+      "caption": "Structures of heme b and heme c.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-31-2]",
+      "description": "",
+      "label": "Figure 31-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        2287,
+        2319
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "porphyrins"
+    },
+    {
+      "fig_id": "fig-31-3",
+      "image_path": "",
+      "caption": "Synthesis of δ-aminolevulinate (ALA). This mitochondrial reaction is catalyzed by ALA synthase.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-31-3]",
+      "description": "",
+      "label": "Figure 31-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3442,
+        3537
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "fig_id": "fig-31-4",
+      "image_path": "",
+      "caption": "Formation of porphobilinogen. Cytosolic porphobilinogen synthase converts two molecules of δ-aminolevulinate to porphobilinogen.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-31-4]",
+      "description": "",
+      "label": "Figure 31-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3977,
+        4105
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "fig_id": "fig-31-5",
+      "image_path": "",
+      "caption": "Synthesis of hydroxymethylbilane and its subsequent cyclization to porphobilinogen III. Cytosolic hydroxymethylbilane synthase (ALA dehydratase) forms a linear tetrapyrrole, which cytosolic uroporphyrinogen synthase cyclizes to form uroporphyrinogen III. Notice the asymmetry of the substituents on ring 4, so that the highlighted acetate and propionate substituents are reversed in uroporphyrinogens I and III. (A, acetate [— CH COO ]; P, propionate [—CH CH COO ].)",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-31-5]",
+      "description": "",
+      "label": "Figure 31-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4747,
+        5213
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "fig_id": "fig-31-6",
+      "image_path": "",
+      "caption": "Decarboxylation of uroporphyrinogen III to coproporphyrinogen III. Shown is a representation of the tetrapyrrole to emphasize the conversion of four attached acetyl groups to methyl groups. (A, acetyl; M, methyl; P, propionyl.)",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-31-6]",
+      "description": "",
+      "label": "Figure 31-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5886,
+        6113
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "fig_id": "fig-31-7",
+      "image_path": "",
+      "caption": "Intermediates, enzymes, and regulation of heme synthesis. The numbers of the enzymes that catalyze the indicated reactions are those used in the accompanying text and in column 1 of Table 31–1. Enzymes 1,6,7, and 8 are mitochondrial, but enzymes 2 to 5 are c tosolic. Regulation of hepatic heme synthesis occurs at ALA synthase (ALAS1) by a repression–derepression mechanism mediated by heme and a hypothetical aporepresso (not shown). Mutations in the gene encoding enzyme 1 cause X-linked sideroblastic anemia. Mutations in the genes encoding enzymes 2 to 8 give rise to the porphyrias.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-31-7]",
+      "description": "Enzyme 1, ALA synthase 2 (ALAS2), is associated with X-linked sideroblastic anemia (erythropoietic) (OMIM 301300).\nThe major sign and symptom of X-linked sideroblastic anemia is anemia.\nIn the laboratory tests for X-linked sideroblastic anemia, red cell counts and hemoglobin are decreased.\nEnzyme 2, ALA dehydratase, is associated with ALA dehydratase deficiency (hepatic) (OMIM 125270).\nThe major signs and symptoms of ALA dehydratase deficiency are abdominal pain and neuropsychiatric symptoms.\nIn the laboratory tests for ALA dehydratase deficiency, urinary ALA and coproporphyrin III are increased.\nEnzyme 3, Uroporphyrinogen I synthase, is associated with acute intermittent porphyria (hepatic) (OMIM 176000).\nThe major signs and symptoms of acute intermittent porphyria are abdominal pain and neuropsychiatric symptoms.\nIn the laboratory tests for acute intermittent porphyria, urinary ALA and PBG are increased.\nEnzyme 4, Uroporphyrinogen III synthase, is associated with congenital erythropoietic porphyria (erythropoietic) (OMIM 263700).\nThe major sign and symptom of congenital erythropoietic porphyria is photosensitivity.\nIn the laboratory tests for congenital erythropoietic porphyria, urinary, fecal, and red cell uroporphyrin I are increased.\nEnzyme 5, Uroporphyrinogen decarboxylase, is associated with porphyria cutanea tarda (hepatic) (OMIM 176100).\nThe major sign and symptom of porphyria cutanea tarda is photosensitivity.\nIn the laboratory tests for porphyria cutanea tarda, urinary uroporphyrin I is increased.\nEnzyme 6, Coproporphyrinogen oxidase, is associated with hereditary coproporphyria (hepatic) (OMIM 121300).\nThe major signs and symptoms of hereditary coproporphyria are photosensitivity, abdominal pain, and neuropsychiatric symptoms.\nIn the laboratory tests for hereditary coproporphyria, urinary ALA, PBG, and coproporphyrin III and fecal coproporphyrin III are increased.\nEnzyme 7, Protoporphyrinogen oxidase, is associated with variegate porphyria (hepatic) (OMIM 176200).\nThe major signs and symptoms of variegate porphyria are photosensitivity, abdominal pain, and neuropsychiatric symptoms.\nIn the laboratory tests for variegate porphyria, urinary ALA, PBG, and coproporphyrin III and fecal protoporphyrin IX are increased.\nEnzyme 8, Ferrochelatase, is associated with protoporphyria (erythropoietic) (OMIM 177000).\nThe major sign and symptom of protoporphyria is photosensitivity.\nIn the laboratory tests for protoporphyria, fecal and red cell protoporphyrin IX are increased.",
+      "label": "Figure 31-7",
+      "panel": "",
+      "content_chunk": "c009",
+      "caption_span": [
+        6134,
+        6722
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "fig_id": "fig-31-8",
+      "image_path": "",
+      "caption": "Absorption spectrum of hematoporphyrin. The spectrum is of a dilute (0.01%) solution of hematoporphyrin in 5% HCl.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-31-8]",
+      "description": "",
+      "label": "Figure 31-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12058,
+        12172
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "porphyrins-are-colored-fluoresce"
+    },
+    {
+      "fig_id": "fig-31-9",
+      "image_path": "",
+      "caption": "Biochemical basis of the major signs and symptoms of the porphyrias.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-31-9]",
+      "description": "",
+      "label": "Figure 31-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15761,
+        15829
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "acute-intermittent-porphyria"
+    },
+    {
+      "fig_id": "fig-31-10",
+      "image_path": "",
+      "caption": "Conversion of ferric heme to biliverdin, and then to bilirubin. (1) Conversion of ferric heme to biliverdin is catalyzed by the heme oxygenase system. (2) Subsequently, biliverdin reductase reduces bilirubin to bilirubin.",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-31-10]",
+      "description": "",
+      "label": "Figure 31-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19264,
+        19485
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "catabolism-of-heme-produces-bilirubin"
+    },
+    {
+      "fig_id": "fig-31-11",
+      "image_path": "",
+      "caption": "Bilirubin diglucuronide. Glucuronate moieties are attached via ester bonds to the two propionate groups of bilirubin. Clinically, the diglucuronide is also termed “direct reacting” bilirubin.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-31-11]",
+      "description": "",
+      "label": "Figure 31-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        22232,
+        22423
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "conjugation-of-bilirubin-with-glucuronate"
+    },
+    {
+      "fig_id": "fig-31-12",
+      "image_path": "",
+      "caption": "Diagrammatic representation of the three major processes (uptake, conjugation, and secretion) involved in the transfer of bilirubin from blood to bile. Certain proteins of hepatocytes bind intracellular bilirubin and may prevent its efflux into the bloodstream. The processes affected in certain conditions that cause jaundice are also shown.",
+      "referenced_from": "c029",
+      "marker": "[FIGURE:fig-31-12]",
+      "description": "In the normal condition, the direct serum bilirubin level is 0.1-0.4 mg/dL.\nIn the normal condition, the indirect serum bilirubin level is 0.2-0.7 mg/dL.\nIn the normal condition, the urine urobilinogen level is 0-4 mg/24 h.\nIn the normal condition, urine bilirubin is absent.\nIn the normal condition, fecal urobilinogen is 40-280 mg/24 h.\nIn hemolytic anemia, the indirect serum bilirubin level is increased.\nIn hemolytic anemia, the urine urobilinogen level is increased.\nIn hemolytic anemia, urine bilirubin is absent.\nIn hemolytic anemia, fecal urobilinogen is increased.\nIn hepatitis, both direct and indirect serum bilirubin levels are increased.\nIn hepatitis, the urine urobilinogen level is decreased if micro-obstruction is present.\nIn hepatitis, urine bilirubin is present if micro-obstruction occurs.\nIn hepatitis, fecal urobilinogen is decreased.\nIn obstructive jaundice, the direct serum bilirubin level is increased.\nIn obstructive jaundice, the urine urobilinogen level is absent.\nIn obstructive jaundice, urine bilirubin is present.\nIn obstructive jaundice, fecal urobilinogen is trace to absent.",
+      "label": "Figure 31-12",
+      "panel": "",
+      "content_chunk": "c030",
+      "caption_span": [
+        23913,
+        24255
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "secretion-of-bilirubin-into-the-bile"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-31-1",
+      "label": "Table 31-1",
+      "caption": "",
+      "referenced_from": "c015",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "heme-is-synthesized-from-succinyl-coa-glycine"
+    },
+    {
+      "table_id": "tbl-31-2",
+      "label": "Table 31-2",
+      "caption": "Some Causes of Unconjugated and Conjugated Hyperbilirubinemia",
+      "referenced_from": "c034",
+      "content_chunk": "c035",
+      "caption_span": [
+        28960,
+        29021
+      ],
+      "section_id": "occurrence-of-unconjugated-bilirubin-in-blood"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Write the structural formulas of the two amphibolic intermediates whose condensation initiates heme biosynthesis.\nIdentify the enzyme that catalyzes the key regulated step of hepatic heme biosynthesis.\nSpecify the intracellular locations of the enzymes and metabolites of heme biosynthesis.\nOutline the causes and clinical presentations of various porphyrias.\nIdentify the roles of heme oxygenase and of UDP-glucosyl transferase in heme catabolism.\nDefine jaundice, name some of its causes, and suggest how to determine its biochemical basis.\nSpecify the biochemical basis of the clinical laboratory terms “direct bilirubin” and “indirect bilirubin.”",
+      "char_start": 30,
+      "char_end": 680,
+      "section_path": [
+        "Porphyrins & Bile Pigments"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Cross T, ed: Liver Disease in Clinical Practice , 2nd ed. Springer, 2022.\nDailey HA, Medlock AE: A primer on heme biosynthesis. Biol Chem 2022;403:985. [PubMed: 36029525]\nFriedman LS, Martin P: Handbook of Liver Disease , 4th ed. Elsevier, 2017.\nLiu G, Sil D, Tong W-H, et al: Heme biosynthesis depends on previously unrecognized acquisition of iron-sulfur cofactors in human amino-levulinic acid dehydratase. Nature Commun 2020;11:6310.\nLoscalzo J, Fauci A, Kasper D, et al: Harrison ’s Principles of Internal Medicine , 21st ed. McGraw Hill, 2021.\nMurphy A, ed: Bile Acids. Biosynthesis Metabolic Regulation and Biological Functions. Nova Science Publ, 2016.\nRawal R, Kharangarh PR, Darwa S, et al: A comprehensive review of bilirubin determination methods with specific emphasis on biosensors. Process Biochem 2020;89:165.\nStolzel U, Kubisch I, Stauch T, Schuppan D: Disorders of heme metabolism. In Physician ’s Guide to the Diagnosis Treatment and Follow-up of . Blau N, Vici CD, Ferreira CR, et al, eds. Springer, 2022.\nVerran C, Shipman MR, Shipman ME: Investigative algorithms for disorders affecting plasma bilirubin: a narrative review. J Lab Precision Med 2024;9:https://dx.doi.org/10.21037/jlpm-23-24.",
+      "char_start": 40515,
+      "char_end": 41728,
+      "section_path": [
+        "Porphyrins & Bile Pigments"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-8",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-9",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-31-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-31-1",
+      "reason": "table has no restated content"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_31_porphyrins_and_bile_pigments.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_31_porphyrins_and_bile_pigments/chapter_31_porphyrins_and_bile_pigments.normalized.md"
+}

@@ -1,0 +1,987 @@
+{
+  "doc_id": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen",
+  "source": {
+    "source_id": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen",
+    "title": "Catabolism of Proteins & of Amino Acid Nitrogen",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "The chapter discusses the catabolism of proteins and amino acid nitrogen, focusing on how nitrogen from amino acids is converted to urea and the metabolic disorders associated with defects in this process.",
+    "page": null,
+    "origin": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 02:45:56"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "In normal adults, nitrogen intake matches nitrogen excreted. Positive nitrogen balance accompanies growth and pregnancy. Positive nitrogen balance is an excess of ingested over excreted nitrogen. Negative nitrogen balance may follow surgery, advanced cancer, malnutrition, and the nutritional disorders kwashiorkor and marasmus. Negative nitrogen balance is where output exceeds intake.\n\nGenetic disorders that result from defects in the genes that encode ubiquitin include Angelman syndrome, juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia. Genetic disorders that result from defects in the genes that encode ubiquitin ligases include Angelman syndrome, juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia. Genetic disorders that result from defects in the genes that encode deubiquitinating enzymes include Angelman syndrome, juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia.\n\nAmmonia is highly toxic. Ammonia arises in humans primarily from the α-amino nitrogen of amino acids. Tissues convert ammonia to the amide nitrogen of the nontoxic amino acid glutamine. The liver deaminates glutamine, releasing ammonia. The liver efficiently converts ammonia to urea. Urea is a nontoxic molecule. Urea is nitrogen-rich. Urea is highly water-soluble.",
+      "char_start": 1175,
+      "char_end": 2523,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "If liver function is compromised, elevated blood ammonia levels generate clinical signs and symptoms. Compromised liver function occurs in conditions such as cirrhosis or hepatitis. Each enzyme of the urea cycle provides examples of metabolic defects. Each enzyme of the urea cycle illustrates physiologic consequences of metabolic defects.",
+      "char_start": 2525,
+      "char_end": 2865,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The continuous degradation and synthesis, or turnover, of cellular proteins occur in all forms of life. Humans turn over 1 to 2% of their total body protein each day, principally from muscle. High rates of protein degradation occur in tissues undergoing structural rearrangement, such as uterine tissue during pregnancy. High rates of protein degradation also occur in skeletal muscle during starvation. High rates of protein degradation occur in tadpole tail tissue during metamorphosis. Approximately 75% of the amino acids liberated by protein degradation are reutilized. The remaining excess free amino acids are rapidly degraded. The major portion of the carbon skeletons of the amino acids is converted to amphibolic intermediates. In humans, the amino nitrogen is converted to urea and excreted in the urine.",
+      "char_start": 2887,
+      "char_end": 3702,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEIN TURNOVER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "protein-turnover"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Protein half-lives of liver proteins can range from under 30 minutes to over 150 hours. PEST sequences, regions rich in proline (P), glutamate (E), serine (S), and threonine (T), target some proteins for rapid degradation. Intracellular proteases hydrolyze internal peptide bonds. Endopeptidases hydrolyze internal peptide bonds. Aminopeptidases remove amino acids sequentially from the amino-termini. Carboxypeptidases remove amino acids sequentially from the carboxyl-termini. The resulting peptides are then degraded to amino acids by endopeptidases, aminopeptidases, and carboxypeptidases.",
+      "char_start": 3762,
+      "char_end": 4355,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "proteases-peptidases-degrade-proteins-to-amino-acids"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Degradation of blood glycoproteins follows loss of a sialic acid moiety from the nonreducing ends of their oligosaccharide chains. Asialoglycoproteins are internalized by liver-cell asialoglycoprotein receptors. Asialoglycoproteins are degraded by lysosomal proteases. Extracellular proteins are degraded in lysosomes by ATP-independent processes. Membrane associated proteins are degraded in lysosomes by ATP-independent processes. Long-lived intracellular proteins are degraded in lysosomes by ATP-independent processes.",
+      "char_start": 4389,
+      "char_end": 4911,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS",
+        "ATP-Independent Degradation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-independent-degradation"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Degradation of short-lived regulatory proteins and abnormal or misfolded proteins in the cytosol requires ATP and ubiquitin. Ubiquitin is a small polypeptide, 8.5 kDa in size and consisting of 76 residues, present in all eukaryotic cells. The primary structure of ubiquitin is highly conserved, with only 3 of 76 residues differing between yeast and human ubiquitin. Ubiquitin molecules are attached to target proteins by amide bonds formed between the carboxyl terminal of ubiquitin and the ε-amino groups of lysyl residues in the target protein (Figure 28–2).",
+      "char_start": 4955,
+      "char_end": 5516,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS",
+        "ATP & Ubiquitin-Dependent Degradation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-2"
+      ],
+      "table_refs": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "The residue at the amino terminus of a protein influences its ubiquitination. Amino terminal Met or Ser residues retard ubiquitination, while Asp or Arg favor it. Attachment of a single ubiquitin molecule to transmembrane proteins alters their subcellular localization and targets them for degradation. Soluble proteins undergo polyubiquitination, which involves the ligase-catalyzed attachment of four or more additional ubiquitin molecules. Subsequent degradation of ubiquitin-tagged proteins occurs in the proteasome, a macromolecule ubiquitous in eukaryotic cells. The proteasome is a macromolecular, cylindrical complex of proteins with stacked rings forming a central pore that contains the active sites of proteolytic enzymes. Entry into the proteasome's core is regulated by the outer rings, which recognize polyubiquitinated proteins (Figure 28–3).",
+      "char_start": 6196,
+      "char_end": 7053,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS",
+        "ATP & Ubiquitin-Dependent Degradation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-3"
+      ],
+      "table_refs": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Aaron Ciechanover, Avram Hershko, and Irwin Rose were awarded the 2004 Nobel Prize in Chemistry for the discovery of ubiquitin-mediated protein degradation. Genetic disorders resulting from defects in genes encoding ubiquitin, ubiquitin ligases, or deubiquitinating enzymes include Angelman syndrome, autosomal recessive juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia. Additional aspects of protein degradation and ubiquitination, including its role in the cell cycle, are covered in Chapter 35.\n\nUbiquitin is a tiny regulatory protein involved in several processes generally associated with protein 'housekeeping' (Figure 28-1). Ubiquitin's best known role is to tag and identify damaged or unneeded proteins for degradation. Ubiquitin links to a target protein using the C-terminal Gly residue, forming an isopeptide bond with a Lys side chain on the target protein. Multiple copies of ubiquitin are usually required to signal a particular cellular process. The role of ubiquitination depends on the number and arrangement of ubiquitin molecules. Ubiquitin can form isopeptide bonds to other ubiquitin units using any of its seven Lys residues (Figure 28-1).",
+      "char_start": 7278,
+      "char_end": 8475,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS",
+        "ATP & Ubiquitin-Dependent Degradation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-1"
+      ],
+      "table_refs": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Three enzymes are involved in the attachment of ubiquitin to proteins: E1, an activating enzyme; E2, a transferase; and E3, a ligase. There are several types of E1 and over 500 types of E2. The terminal COOH of ubiquitin first forms a thioester with E1. The coupled hydrolysis of PP by pyrophosphatase ensures the reaction proceeds readily. A thioester exchange reaction transfers activated ubiquitin to E2. E3 then catalyzes the transfer of ubiquitin to the ε-amino group of a lysyl residue of the target protein. Additional rounds of ubiquitination result in subsequent polyubiquitination (Figure 28-2).\n\nThe proteasome structure is represented as having an upper ring that is gated to permit only polyubiquitinated proteins to enter. Once inside, immobilized internal proteases degrade these proteins to peptides (Figure 28-3).",
+      "char_start": 9298,
+      "char_end": 10128,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS",
+        "ATP & Ubiquitin-Dependent Degradation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-2",
+        "fig-28-3"
+      ],
+      "table_refs": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Muscle generates over half of the total body pool of free amino acids. The liver is the site of the urea cycle enzymes. The urea cycle enzymes are necessary for disposing of excess nitrogen generated by amino acid catabolism and gluconeogenesis. Muscle plays a major role in maintaining circulating amino acid levels. The liver plays a major role in maintaining circulating amino acid levels.\n\nIn the postabsorptive state, free amino acids, particularly alanine and glutamine, are released from muscle into the circulation. Alanine is extracted primarily by the liver. Glutamine is extracted by the gut and the kidney. The gut converts a significant portion of glutamine to alanine. The kidney converts a significant portion of glutamine to alanine. Glutamine serves as a source of ammonia for excretion by the kidney. The kidney provides a major source of serine for uptake by peripheral tissues, including the liver and muscle. Branched-chain amino acids, particularly valine, are released by muscle. Branched-chain amino acids, particularly valine, are taken up predominantly by the brain.",
+      "char_start": 10197,
+      "char_end": 11289,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "interorgan-exchange-maintains-circulating-levels-of-amino"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Alanine is a key gluconeogenic amino acid. The rate of hepatic gluconeogenesis from alanine is far higher than from all other amino acids. Following a protein-rich meal, the splanchnic tissues release amino acids. Following a protein-rich meal, the peripheral muscles extract amino acids, predominantly branched-chain amino acids. Branched-chain amino acids serve a special role in nitrogen metabolism. In the fasting state, branched-chain amino acids provide the brain with an energy source. Postprandially, branched-chain amino acids are extracted predominantly by muscle, having been spared by the liver.\n\nFigure 28-4summarizes the interorgan amino acid exchange in normal postabsorptive humans. Figure 28-4shows the key role of alanine in amino acid output from muscle and gut. Figure 28-4shows the uptake of alanine by the liver. Figure 28-5illustrates the glucose-alanine cycle. In the glucose-alanine cycle, alanine is synthesized in muscle by transamination of glucose-derived pyruvate. In the glucose-alanine cycle, alanine is released into the bloodstream. In the glucose-alanine cycle, alanine is taken up by the liver. In the liver, the carbon skeleton of alanine is reconverted to glucose. Glucose is released into the bloodstream by the liver. Glucose is available for uptake by muscle and resynthesis of alanine. Figure 28-6provides a summary of amino acid exchange between organs immediately after feeding.",
+      "char_start": 11291,
+      "char_end": 12713,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-4",
+        "fig-28-5",
+        "fig-28-6"
+      ],
+      "table_refs": [],
+      "section_id": "interorgan-exchange-maintains-circulating-levels-of-amino"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Teleostean fish are ammonotelic and excrete ammonia into their aqueous environment. Ammonia is highly toxic, but the aquatic environment provides a large sink for its dispersion. Birds are uricotelic and excrete nitrogen-rich uric acid as semisolid guano. Birds need to conserve water and maintain low weight, which is addressed by excreting uric acid. Many land animals, including humans, are ureotelic and excrete nontoxic, highly water-soluble urea. Urea is nontoxic to humans. High blood levels of urea are associated with renal disease. High blood urea levels are a consequence, not a cause, of impaired kidney function.",
+      "char_start": 13412,
+      "char_end": 14037,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "ANIMALS CONVERT α-AMINO NITROGEN TO VARIED END PRODUCTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "animals-convert-amino-nitrogen-to-varied-end-products"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Free ammonia levels are kept low in the cytoplasm due to its toxicity.\n\nAmino acids glutamate and glutamine are utilized as transporters for moving waste nitrogen into the mitochondria.\n\nWaste nitrogen is released as ammonia in the mitochondrial matrix for processing by the urea cycle.\n\nUrea biosynthesis occurs in stages: (1) transamination, (2) oxidative deamination of glutamate, and (3) reactions of the urea cycle (Figure 28--7).",
+      "char_start": 14063,
+      "char_end": 14498,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOSYNTHESIS OF UREA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biosynthesis-of-urea"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Transamination reactions interconvert pairs of α-amino acids and α-keto acids (Figure 28--8). Transamination reactions are freely reversible. Transamination reactions also function in amino acid biosynthesis. All common amino acids except lysine, threonine, proline, and hydroxyproline participate in transamination. Transamination is not restricted to α-amino groups. The δ-amino group of ornithine readily undergoes transamination. The ε-amino group of lysine does not undergo transamination.",
+      "char_start": 14655,
+      "char_end": 15149,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOSYNTHESIS OF UREA",
+        "Transamination Transfers α-Amino Nitrogen to α-Ketoglutarate, Forming Glutamate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transamination-transfers-amino-nitrogen-to-ketoglutarate"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Alanine-pyruvate aminotransferase catalyzes the transfer of amino groups to pyruvate, forming alanine. Glutamate-α-ketoglutarate aminotransferase catalyzes the transfer of amino groups to α-ketoglutarate, forming glutamate. Each aminotransferase is specific for one pair of substrates. Each aminotransferase is nonspecific for the other pair of substrates. Alanine is a substrate for glutamate aminotransferase. The α-amino nitrogen from amino acids that undergo transamination can be concentrated in glutamate. L-glutamate is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissues. The formation of ammonia from α-amino groups occurs mainly via the α-amino nitrogen of L-glutamate.",
+      "char_start": 15266,
+      "char_end": 15994,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOSYNTHESIS OF UREA",
+        "Transamination Transfers α-Amino Nitrogen to α-Ketoglutarate, Forming Glutamate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transamination-transfers-amino-nitrogen-to-ketoglutarate"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Transamination occurs via a 'ping-pong' mechanism. The 'ping-pong' mechanism is characterized by the alternate addition of a substrate and release of a product. Pyridoxal phosphate (PLP) is present at the catalytic site of all aminotransferases. PLP plays a key role in catalysis. PLP serves as a 'carrier' of amino groups during transamination. An enzyme-bound Schiff base is formed between the oxo group of enzyme-bound PLP and the α-amino group of an α-amino acid (Figure 28--9). The Schiff base can rearrange in various ways. In transamination, the shifting of the N=C double bond by hydration-dehydration produces an α-keto acid and enzyme-bound pyridoxamine phosphate. After removal of its α-amino nitrogen by transamination, the remaining carbon 'skeleton' of an amino acid is degraded by pathways discussed in Chapter 29.",
+      "char_start": 15996,
+      "char_end": 16825,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "BIOSYNTHESIS OF UREA",
+        "Transamination Transfers α-Amino Nitrogen to α-Ketoglutarate, Forming Glutamate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transamination-transfers-amino-nitrogen-to-ketoglutarate"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Transfer of amino nitrogen to α-ketoglutarate forms L-glutamate. L-glutamate is transported into the mitochondria. Hepatic L-glutamate dehydrogenase (GDH) releases nitrogen as ammonia from L-glutamate. Hepatic L-glutamate dehydrogenase (GDH) can use either NAD+ or NADP+. The conversion of α-amino nitrogen to ammonia by glutamate aminotransferase and GDH is termed 'transdeamination'.\n\nLiver GDH activity is allosterically inhibited by ATP. Liver GDH activity is allosterically inhibited by GTP. Liver GDH activity is allosterically inhibited by NADH. Liver GDH activity is activated by ADP. The GDH reaction is freely reversible. The GDH reaction functions in amino acid biosynthesis.",
+      "char_start": 17008,
+      "char_end": 17694,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "L-GLUTAMATE DEHYDROGENASE OCCUPIES A CENTRAL POSITION IN NITROGEN METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "l-glutamate-dehydrogenase-occupies-a-central-position-in"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "L-Amino acid oxidase of the liver and kidney converts an amino acid to an α-imino acid. The α-imino acid decomposes to an α-keto acid with the release of ammonium ion (Figure 28–10). L-amino acid oxidase is an L-α-amino acid:0_2 oxidoreductase, EC 1.4.3.2. The α-imino acid is not a stable intermediate (Figure 28–10).",
+      "char_start": 17746,
+      "char_end": 18064,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-10"
+      ],
+      "table_refs": [],
+      "section_id": "amino-acid-oxidases-remove-nitrogen-as-ammonia"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Enteric bacteria produce ammonia, which is absorbed into portal venous blood.\n\nTissues also produce ammonia.\n\nThe liver rapidly removes ammonia from circulation and converts it to urea.\n\nNormally, only traces of ammonia (10-20 μg/dL) are present in peripheral blood.\n\nAmmonia is toxic to the central nervous system.\n\nIf portal blood bypasses the liver, systemic blood ammonia may reach toxic levels.\n\nSeverely impaired hepatic function can lead to elevated systemic blood ammonia levels.\n\nThe development of collateral links between the portal and systemic veins in cirrhosis can lead to elevated systemic blood ammonia levels.\n\nSymptoms of ammonia intoxication include tremor, slurred speech, blurred vision, coma, and ultimately death.\n\nAmmonia may be toxic to the brain because it reacts with α-ketoglutarate to form glutamate.\n\nThe depletion of α-ketoglutarate impairs the function of the tricarboxylic acid (TCA) cycle in neurons.",
+      "char_start": 18303,
+      "char_end": 19238,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Ammonia Intoxication Is Life-Threatening"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ammonia-intoxication-is-life-threatening"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Formation of glutamine is catalyzed by mitochondrial glutamine synthetase (Figure 28--11).\n\nThe reaction strongly favors glutamine synthesis.\n\nDuring catalysis, glutamate attacks the γ-phosphoryl group of ATP, forming γ-glutamyl phosphate and ADP.\n\nGlutamine synthetase provides glutamine to serve as a carrier of nitrogen, carbon, and energy between organs.\n\nGlutamine synthetase plays a major role in ammonia detoxification.\n\nGlutamine synthetase plays a major role in acid–base homeostasis.\n\nA rare deficiency in neonate glutamine synthetase results in severe brain damage, multiorgan failure, and death.",
+      "char_start": 19292,
+      "char_end": 19899,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Glutamine Synthetase Fixes Ammonia as Glutamine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glutamine-synthetase-fixes-ammonia-as-glutamine"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "There are two human isoforms of mitochondrial glutaminase, termed liver-type and renal-type glutaminase. The liver-type and renal-type glutaminases are products of different genes. Liver-type and renal-type glutaminases differ with respect to their structure, kinetics, and regulation. Hepatic glutaminase levels rise in response to high protein intake. Renal kidney-type glutaminase increases in metabolic acidosis. The hydrolytic release of the amide nitrogen of glutamine as ammonia, catalyzed by glutaminase, strongly favors glutamate formation (Figure 28-12). L-asparaginase (EC 3.5.1.1) catalyzes an analogous reaction. The concerted action of glutamine synthetase and glutaminase catalyzes the interconversion of free ammonium ion and glutamine. The reaction catalyzed by glutaminase, EC 3.5.1.2, proceeds essentially irreversibly in the direction of glutamate and NH+ formation. The amide nitrogen, not the α-amino nitrogen, is removed in the reaction catalyzed by glutaminase (Figure 28-12).",
+      "char_start": 20057,
+      "char_end": 21057,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Glutaminase & Asparaginase Deamidate Glutamine & Asparagine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-12"
+      ],
+      "table_refs": [],
+      "section_id": "glutaminase-asparaginase-deamidate-glutamine-asparagine"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Excretion into urine of ammonia produced by renal tubular cells facilitates cation conservation. Excretion into urine of ammonia produced by renal tubular cells regulates acid–base balance. Ammonia production from intracellular renal amino acids, especially glutamine, increases in metabolic acidosis. Ammonia production from intracellular renal amino acids, especially glutamine, decreases in metabolic alkalosis.",
+      "char_start": 21361,
+      "char_end": 21775,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Formation & Secretion of Ammonia Maintains Acid–Base Balance"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "formation-secretion-of-ammonia-maintains-acid-base-balance"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Synthesis of 1 mol of urea requires 3 mol of ATP. Synthesis of 1 mol of urea requires 1 mol of ammonium ion. Synthesis of 1 mol of urea requires 1 mol of aspartate. Urea synthesis employs five enzymes. Six amino acids participate in urea synthesis. N-acetylglutamate functions solely as an enzyme activator. Ornithine serves as a carrier in urea synthesis. Citrulline serves as a carrier in urea synthesis. Argininosuccinate serves as a carrier in urea synthesis. The major metabolic role of ornithine in mammals is urea synthesis. The major metabolic role of citrulline in mammals is urea synthesis. The major metabolic role of argininosuccinate in mammals is urea synthesis. Urea synthesis is a cyclic process. Ammonium ion is consumed in urea synthesis. ATP is consumed in urea synthesis. Aspartate is consumed in urea synthesis. Ornithine is regenerated in urea synthesis. Citrulline is regenerated in urea synthesis. Argininosuccinate is regenerated in urea synthesis. Arginine is regenerated in urea synthesis. There is no net loss or gain of ornithine in urea synthesis. There is no net loss or gain of citrulline in urea synthesis. There is no net loss or gain of argininosuccinate in urea synthesis. There is no net loss or gain of arginine in urea synthesis. Some reactions of urea synthesis occur in the matrix of the mitochondrion. Some reactions of urea synthesis occur in the cytosol. Ammonium ion enters the mitochondrial matrix via specific carriers. Ornithine enters the mitochondrial matrix via specific carriers. Citrulline enters the mitochondrial matrix via specific carriers. Specific carriers for these molecules are present in the inner membrane of liver mitochondria. (Figure 28-13)",
+      "char_start": 21844,
+      "char_end": 23551,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Urea Is the Major End Product of Nitrogen Catabolism in Humans"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-28-13"
+      ],
+      "table_refs": [],
+      "section_id": "urea-is-the-major-end-product-of-nitrogen-catabolism-in"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Carbamoyl phosphate synthetase I is a mitochondrial enzyme. Carbamoyl phosphate synthetase II is a cytosolic enzyme. Carbamoyl phosphate synthetase II uses glutamine rather than ammonia as the nitrogen donor. Carbamoyl phosphate synthetase II functions in pyrimidine biosynthesis. Glutamate dehydrogenase and carbamoyl phosphate synthetase I work together to shuttle amino nitrogen into carbamoyl phosphate. Carbamoyl phosphate is a compound with high group transfer potential.\n\nCarbamoyl phosphate synthetase I is the rate-limiting enzyme of the urea cycle. Carbamoyl phosphate synthetase I requires N-acetylglutamate for activity. N-acetylglutamate is an allosteric ligand. N-acetylglutamate enhances the affinity of carbamoyl phosphate synthetase I for ATP. Synthesis of 1 mol of carbamoyl phosphate requires 2 mol of ATP. One ATP serves as the phosphoryl donor for the formation of the mixed acid anhydride bond of carbamoyl phosphate. The second ATP provides the driving force for the synthesis of the amide bond of carbamoyl phosphate. The reaction proceeds stepwise. Bicarbonate reacts with ATP to form carbonyl phosphate and ADP. Ammonia displaces ADP, forming carbamate and orthophosphate. Carbamate is phosphorylated by the second ATP to form carbamoyl phosphate.",
+      "char_start": 24044,
+      "char_end": 25317,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Carbamoyl Phosphate Synthetase I Initiates Urea Biosynthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbamoyl-phosphate-synthetase-i-initiates-urea-biosynthesis"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "L-Ornithine transcarbamoylase (EC 2.1.3.3) catalyzes the transfer of the carbamoyl group of carbamoyl phosphate to ornithine. L-Ornithine transcarbamoylase (EC 2.1.3.3) catalyzes the transfer of the carbamoyl group of carbamoyl phosphate to ornithine forms citrulline and orthophosphate. The reaction occurs in the mitochondrial matrix. The formation of ornithine takes place in the cytosol. The subsequent metabolism of citrulline takes place in the cytosol. Entry of ornithine into mitochondria involves the mitochondrial inner membrane carriers ORC1, ORC2, and SLCA25A29. Exodus of citrulline from mitochondria involves the mitochondrial inner membrane carriers ORC1, ORC2, and SLCA25A29.",
+      "char_start": 25375,
+      "char_end": 26066,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Carbamoyl Phosphate Plus Ornithine Forms Citrulline"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbamoyl-phosphate-plus-ornithine-forms-citrulline"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Argininosuccinate synthetase (EC 6.3.4.5) links aspartate and citrulline via the amino group of aspartate. The reaction provides the second nitrogen of urea. The reaction requires ATP. The reaction involves intermediate formation of citrullyl-AMP. AMP is displaced by aspartate. The displacement of AMP by aspartate forms argininosuccinate.",
+      "char_start": 26122,
+      "char_end": 26462,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Citrulline Plus Aspartate Forms Argininosuccinate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "citrulline-plus-aspartate-forms-argininosuccinate"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Cleavage of argininosuccinate is catalyzed by argininosuccinate lyase (EC 4.3.2.1).\n\nThe reaction retains all three nitrogens in arginine and releases the aspartate skeleton as fumarate.\n\nSubsequent addition of water to fumarate forms L-malate.\n\nL-malate undergoes NAD+-dependent oxidation to form oxaloacetate.\n\nThe reactions involving the conversion of fumarate to oxaloacetate are analogous to reactions of the citric acid cycle but are catalyzed by fumarase and malate dehydrogenase.\n\nTransamination of oxaloacetate by glutamate aminotransferase reforms aspartate.\n\nThe carbon skeleton of aspartate-fumarate acts as a carrier of the nitrogen of glutamate into a precursor of urea.",
+      "char_start": 26524,
+      "char_end": 27208,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Cleavage of Argininosuccinate Forms Arginine & Fumarate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cleavage-of-argininosuccinate-forms-arginine-fumarate"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Hydrolytic cleavage of the guanidino group of arginine releases urea. Liver arginase catalyzes this reaction. The reaction is classified as EC 3.5.3.1. Ornithine is the other product of this reaction. Ornithine reenters liver mitochondria. Ornithine participates in additional rounds of urea synthesis. Ornithine and lysine are potent inhibitors of arginase. Ornithine competes with arginine. Lysine competes with arginine. Arginine serves as the precursor of nitric oxide (NO). Nitric oxide is a potent muscle relaxant. The formation of nitric oxide from arginine is a Ca2+-dependent reaction. NO synthetase catalyzes the formation of nitric oxide from arginine.",
+      "char_start": 27269,
+      "char_end": 27932,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Cleavage of Arginine Releases Urea & Reforms Ornithine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cleavage-of-arginine-releases-urea-reforms-ornithine"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Carbamoyl phosphate synthetase I activity is determined by N-acetylglutamate. N-acetylglutamate's steady-state level is influenced by the balance between its synthesis and hydrolysis. Synthesis of N-acetylglutamate from acetyl-CoA and glutamate is catalyzed by N-acetylglutamate synthetase (NAGS). Hydrolysis of N-acetylglutamate to acetate and glutamate is catalyzed by N-acetylglutamate deacylase (hydrolase).\n\nAcetyl-CoA and L-glutamate react to form N-acetyl-L-glutamate and CoASH. N-acetyl-L-glutamate and water react to form L-glutamate and acetate.\n\nMajor dietary changes can increase the concentrations of individual urea cycle enzymes by 10- to 20-fold. Starvation elevates enzyme levels. Starvation increases ammonia production due to enhanced protein degradation.",
+      "char_start": 28013,
+      "char_end": 28787,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+        "Carbamoyl Phosphate Synthetase I Is the Pacemaker Enzyme of the Urea Cycle"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbamoyl-phosphate-synthetase-i-is-the-pacemaker-enzyme-of"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Metabolic disorders associated with the enzymes of urea biosynthesis are rare but well-characterized and medically devastating. Metabolic disorders illustrate general principles of inherited metabolic diseases. Similar or identical clinical signs and symptoms can accompany various genetic mutations in a gene that encodes a given enzyme. Similar symptoms can also accompany mutations in enzymes that catalyze successive reactions in a metabolic pathway. Rational therapy for these disorders is based on an understanding of the relevant biochemical enzyme-catalyzed reactions in both normal and impaired individuals. The identification of intermediates and ancillary products that accumulate prior to a metabolic block provides the basis for metabolic screening tests. Metabolic screening tests can implicate the reaction that is impaired. Definitive diagnosis of these disorders involves quantitative assay of the activity of the enzyme suspected to be defective. The DNA sequence of the gene that encodes a given mutant enzyme is compared to that of the wild-type gene to identify the specific mutation(s) that cause the disease. The exponential increase in DNA sequencing of human genes has identified dozens of mutations of an affected gene. Some of these mutations are innocuous, or 'silent,' while others are associated with symptoms of varying severity of a given metabolic disorder.",
+      "char_start": 28832,
+      "char_end": 30222,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "GENERAL FEATURES OF METABOLIC DISORDERS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "general-features-of-metabolic-disorders"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Five well-documented diseases represent defects in the biosynthesis of enzymes of the urea cycle. Urea cycle disorders are characterized by hyperammonemia, encephalopathy, and respiratory alkalosis. Four of the five metabolic diseases are deficiencies of carbamoyl phosphate synthetase I, ornithine carbamoyl transferase, argininosuccinate synthetase, and argininosuccinate lyase. Deficiencies of carbamoyl phosphate synthetase I, ornithine carbamoyl transferase, argininosuccinate synthetase, and argininosuccinate lyase result in the accumulation of precursors of urea, principally ammonia and glutamine. Ammonia intoxication is most severe when the metabolic block occurs at reaction 1 or 2. If citrulline can be synthesized, some ammonia has already been removed by being covalently linked to an organic metabolite.",
+      "char_start": 30299,
+      "char_end": 31118,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-disorders-are-associated-with-each-reaction-of"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Clinical symptoms common to all urea cycle disorders include vomiting, avoidance of high-protein foods, intermittent ataxia, irritability, lethargy, and severe mental retardation. The most dramatic clinical presentation occurs in full-term infants who initially appear normal. Full-term infants then exhibit progressive lethargy, hypothermia, and apnea due to high plasma ammonia levels. The clinical features and treatment of all five disorders are similar. A low-protein diet ingested as frequent small meals can lead to significant improvement and minimization of brain damage. A low-protein diet helps to avoid sudden increases in blood ammonia levels. The goal of dietary therapy is to provide sufficient protein, arginine, and energy to promote growth and development while simultaneously minimizing the metabolic perturbations.",
+      "char_start": 31120,
+      "char_end": 31954,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-disorders-are-associated-with-each-reaction-of"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Acetylglutamate is essential for the activity of carbamoyl phosphate synthetase I, EC 6.3.4.16.\n\nDefects in carbamoyl phosphate synthetase I are responsible for hyperammonemia type 1.\n\nHyperammonemia type 1 is a relatively rare metabolic disease with an estimated frequency of 1:62,000.",
+      "char_start": 31993,
+      "char_end": 32279,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Carbamoyl Phosphate Synthetase I"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbamoyl-phosphate-synthetase-i"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "-Acetylglutamate synthetase, EC 2.3.1.1 (NAGS), catalyzes the formation of N-acetyl-L-glutamate from acetyl-CoA and L-glutamate.\n\nL-Glutamate + acetyl-CoA → N-acetyl-L-glutamate + CoASH.\n\nN-acetylglutamate is essential for carbamoyl phosphate synthetase I activity.\n\nThe clinical and biochemical features of NAGS deficiency are indistinguishable from those arising from a defect in carbamoyl phosphate synthetase I.\n\nA deficiency in NAGS may respond to administered N-acetylglutamate.",
+      "char_start": 32313,
+      "char_end": 32797,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "-Acetylglutamate Synthetase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acetylglutamate-synthetase"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "The hyperornithinemia, hyperammonemia, and homocitrullinuria (HHH) syndrome results from mutation of the ORC1 gene.\n\nThe ORC1 gene encodes the mitochondrial membrane ornithine carrier.\n\nThe inability to import cytosolic ornithine into the mitochondrial matrix renders the urea cycle inoperable.\n\nThe inoperable urea cycle leads to hyperammonemia.\n\nThe inoperable urea cycle leads to hyperornithinemia due to the accumulation of cytosolic ornithine.\n\nIn the absence of its normal acceptor (ornithine), mitochondrial carbamoyl phosphate carbamoylates lysine to homocitrulline.\n\nThe carbamoylation of lysine results in homocitrullinuria.",
+      "char_start": 32822,
+      "char_end": 33456,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Ornithine Permease"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ornithine-permease"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Ornithine transcarbamoylase deficiency is an X-chromosome–linked condition known as hyperammonemia type 2.\n\nMothers with ornithine transcarbamoylase deficiency exhibit hyperammonemia and often have an aversion to high-protein foods.\n\nElevated levels of glutamine are found in the blood, cerebrospinal fluid, and urine of individuals with ornithine transcarbamoylase deficiency.\n\nThe elevated glutamine levels are likely due to enhanced glutamine synthesis in response to increased tissue ammonia.",
+      "char_start": 33490,
+      "char_end": 33986,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Ornithine Transcarbamoylase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ornithine-transcarbamoylase"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Argininosuccinate synthetase is an enzyme involved in reaction 3 as shown in Figure 28--13.\n\nIn patients with citrullinemia, there is a lack of detectable argininosuccinate synthetase activity.\n\nIn citrullinemia, plasma and cerebrospinal fluid citrulline levels are elevated.\n\nCitrullinemia results in the excretion of 1 to 2 g of citrulline daily.",
+      "char_start": 34021,
+      "char_end": 34369,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Argininosuccinate Synthetase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "argininosuccinate-synthetase"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Argininosuccinic aciduria is associated with elevated levels of argininosuccinate in blood, cerebrospinal fluid, and urine. Argininosuccinic aciduria is associated with friable, tufted hair known as trichorrhexis nodosa. There are both early-onset and late-onset types of argininosuccinic aciduria. The metabolic defect in argininosuccinic aciduria is in argininosuccinate lyase. The reaction involving argininosuccinate lyase is reaction 4 in Figure 28--13. Diagnosis of argininosuccinic aciduria can be made by measuring erythrocyte argininosuccinate lyase activity. Erythrocyte argininosuccinate lyase activity can be measured in umbilical cord blood. Erythrocyte argininosuccinate lyase activity can also be measured in amniotic fluid cells.",
+      "char_start": 34399,
+      "char_end": 35144,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Argininosuccinate Lyase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "argininosuccinate-lyase"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Hyperargininemia is an autosomal recessive defect in the gene for arginase.\n\nThe first symptoms of hyperargininemia typically do not appear until age 2 to 4 years.\n\nBlood levels of arginine are elevated in hyperargininemia.\n\nCerebrospinal fluid levels of arginine are elevated in hyperargininemia.\n\nThe urinary amino acid pattern in hyperargininemia resembles that of lysine-cystinuria.\n\nArginine competes with lysine and cysteine for reabsorption in the renal tubule.",
+      "char_start": 35159,
+      "char_end": 35627,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Arginase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "arginase"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Metabolic diseases can be devastating when caused by the absence or functional impairment of metabolic enzymes.\n\nEarly dietary intervention can ameliorate the effects of metabolic diseases in many instances.\n\nEarly detection of metabolic diseases is of primary importance.\n\nTandem mass spectrometry (MS) is a powerful and sensitive technique that can detect numerous analytes significant in identifying metabolic disorders in a few minutes.\n\nExome sequencing can elucidate the specific genetic defect responsible for metabolic diseases.\n\nResearchers have used gene editing to correct deficiencies in argininosuccinate lyase in experimental animals in recent trials.",
+      "char_start": 35717,
+      "char_end": 36382,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen",
+        "METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+        "Analysis of Neonate Blood by Tandem Mass Spectrometry Can Detect Metabolic Diseases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "analysis-of-neonate-blood-by-tandem-mass-spectrometry-can"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Human subjects degrade 1 to 2% of their body protein daily at rates that vary widely between proteins and with physiologic state. Key regulator enzymes often have short half-lives.\nProteins are degraded by both ATP-dependent and ATP-independent pathways. Ubiquitin targets many intracellular proteins for degradation. Liver cell surface receptors bind and internalize circulating asialoglycoproteins destined for lysosomal degradation.\nPolyubiquitinated proteins are degraded by proteases on the inner surface of a cylindrical macromolecule, the proteasome. Entry into the proteasome is gated by a donut-shaped protein pore that rejects entry to all but polyubiquitinated proteins.\nHigher vertebrates convert NH3 to urea.\nTransamination channels amino acid nitrogen into glutamate. GDH occupies a central position in nitrogen metabolism.\nHepatic urea synthesis takes place in part in the mitochondrial matrix and in part in the cytosol.\nChanges in enzyme levels and allosteric regulation of carbamoyl phosphate synthetase I by N-acetylglutamate regulate urea biosynthesis.\nMetabolic diseases are associated with defects in each enzyme of the urea cycle, of the ORC1 ornithine carrier, and of NAGS.\nThe metabolic disorders of urea biosynthesis illustrate six general principles of all metabolic disorders.",
+      "char_start": 36384,
+      "char_end": 37688,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-28-2",
+      "image_path": "",
+      "caption": "Reactions involved in the attachment of ubiquitin (Ub) to proteins. Three enzymes are involved. E1 is an activating enzyme, E2 a transferase, and E3 a ligase. While depicted as single entities, there are several types of E1, and over 500 types of E2. The terminal COOH of ubiquitin first forms a thioester. The coupled hydrolysis of PP by pyrophosphatase ensures that the reaction will proceed readily. A thioester exchange reaction now transfers activated ubiquitin to E2. E3 then catalyzes the transfer of ubiquitin to the ε-amino group of a lysyl residue of the target protein. Additional rounds of ubiquitination result in subsequent polyubiquitination.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-28-2]",
+      "description": "",
+      "label": "Figure 28-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5537,
+        6194
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "fig_id": "fig-28-3",
+      "image_path": "",
+      "caption": "Representation of the structure of a proteasome. The upper ring is gated to permit only polyubiquitinated proteins to enter the proteosome, where immobilized internal proteases degrade them to peptides.",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-28-3]",
+      "description": "",
+      "label": "Figure 28-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7074,
+        7276
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "fig_id": "fig-28-1",
+      "image_path": "",
+      "caption": "Ubiquitin is a tiny regulatory protein involved in several processes generally associated with protein “housekeeping”. The best known role for ubiquitin is to tag and identify for degradation proteins that are damaged or no longer needed by the cell. Ubiquitin links to a target protein by using the C-terminal Gly residue, shown here in ball-and-stick form. The linking reaction uses a Lys side chain on the target protein to form an isopeptide bond. Multiple copies of ubiquitin are usually required to signal a particular cellar process. The role of ubiquination depends on the number and arrangemet of ubiquinin molecules. Ubiquitin can use of any seven Lys residues (blue) to form iopeptide bonds to other ubniquitin units to multiple sites on the target protein. (Greg Williams/Science Source.)",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-28-1]",
+      "description": "",
+      "label": "Figure 28-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8496,
+        9296
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-ubiquitin-dependent-degradation"
+    },
+    {
+      "fig_id": "fig-28-4",
+      "image_path": "",
+      "caption": "Interorgan amino acid exchange in normal postabsorptive humans. The key role of alanine in amino acid output from muscle and gut and uptake by the liver is shown.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-28-4]",
+      "description": "",
+      "label": "Figure 28-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12734,
+        12896
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "interorgan-exchange-maintains-circulating-levels-of-amino"
+    },
+    {
+      "fig_id": "fig-28-5",
+      "image_path": "",
+      "caption": "The glucose-alanine cycle. Alanine is synthesized in muscle by transamination of glucose-derived pyruvate, released into the bloodstream, and taken up by the liver. In the liver, the carbon skeleton of alanine is reconverted to glucose and released into the bloodstream, where it is available for uptake by muscle and resynthesis of alanine.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-28-5]",
+      "description": "",
+      "label": "Figure 28-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12917,
+        13258
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "interorgan-exchange-maintains-circulating-levels-of-amino"
+    },
+    {
+      "fig_id": "fig-28-6",
+      "image_path": "",
+      "caption": "Summary of amino acid exchange between organs immediately after feeding.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-28-6]",
+      "description": "",
+      "label": "Figure 28-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13279,
+        13351
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "interorgan-exchange-maintains-circulating-levels-of-amino"
+    },
+    {
+      "fig_id": "fig-28-7",
+      "image_path": "",
+      "caption": "Overall flow of nitrogen in amino acid catabolism.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-28-7]",
+      "description": "",
+      "label": "Figure 28-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14519,
+        14569
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biosynthesis-of-urea"
+    },
+    {
+      "fig_id": "fig-28-8",
+      "image_path": "",
+      "caption": "Transamination. The reaction is freely reversible with an equilibrium constant close to unity.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-28-8]",
+      "description": "",
+      "label": "Figure 28-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15170,
+        15264
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "transamination-transfers-amino-nitrogen-to-ketoglutarate"
+    },
+    {
+      "fig_id": "fig-28-9",
+      "image_path": "",
+      "caption": "Structure of a Schiff base formed between pyridoxal phosphate and an amino acid.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-28-9]",
+      "description": "",
+      "label": "Figure 28-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        16846,
+        16926
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "transamination-transfers-amino-nitrogen-to-ketoglutarate"
+    },
+    {
+      "fig_id": "fig-28-10",
+      "image_path": "",
+      "caption": "Oxidative deamination catalyzed by L-amino acid oxidase (L-α-amino acid:02 oxidoreductase, EC 1.4.3.2). The α-imino acid, shown in brackets, is not a stable intermediate.",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-28-10]",
+      "description": "",
+      "label": "Figure 28-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        18086,
+        18256
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acid-oxidases-remove-nitrogen-as-ammonia"
+    },
+    {
+      "fig_id": "fig-28-11",
+      "image_path": "",
+      "caption": "Formation of glutamine, catalyzed by glutamine synthetase, EC 6.3.1.2.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-28-11]",
+      "description": "",
+      "label": "Figure 28-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19921,
+        19991
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glutamine-synthetase-fixes-ammonia-as-glutamine"
+    },
+    {
+      "fig_id": "fig-28-12",
+      "image_path": "",
+      "caption": "The reaction catalyzed by glutaminase, EC 3.5.1.2. The reaction proceeds essentially irreversibly in the direction of glutamate and NH + formation. Note that the amide nitrogen, not the α-amino nitrogen, is removed.",
+      "referenced_from": "c021",
+      "marker": "[FIGURE:fig-28-12]",
+      "description": "",
+      "label": "Figure 28-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21079,
+        21294
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glutaminase-asparaginase-deamidate-glutamine-asparagine"
+    },
+    {
+      "fig_id": "fig-28-13",
+      "image_path": "",
+      "caption": "Reactions and intermediates of urea biosynthesis. The nitrogen-containing groups that contribute to the formation of urea are shaded. Reactions occur in the matrix of liver mitochondria and reactions and in liver cytosol. CO2 (as bicarbonate), ammonium ion, ornithine, and citrulline enter the mitochondrial matrix via specific carriers (see red dots) present in the inner membrane of liver mitochondria.",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-28-13]",
+      "description": "",
+      "label": "Figure 28-13",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23573,
+        23977
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "urea-is-the-major-end-product-of-nitrogen-catabolism-in"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe protein turnover.\nIndicate the mean rate of protein turnover in healthy individuals, and provide examples of human proteins that are degraded at rates greater than the mean rate.\nDescribe the roles in protein degradation played by the proteasome, ubiquitin, cell surface receptors, circulating asialoglycoproteins, ATP, and lysosomes.\nIndicate how the ultimate end products of nitrogen catabolism in mammals differ from those in birds and fish.\nIllustrate the central roles of transaminases (aminotransferases), as well as glutamate dehydrogenase and glutaminase in human nitrogen metabolism.\nUse structural formulas to represent the reactions that convert NH3,CO2, and the amide nitrogen of aspartate into urea, and identify the subcellular locations of the enzymes that catalyze urea biosynthesis.\nIndicate the roles of allosteric regulation and of acetylglutamate in the regulation of the earliest steps in urea biosynthesis.\nExplain why metabolic defects in different enzymes of urea biosynthesis, although distinct at the molecular level, present similar clinical signs and symptoms.",
+      "char_start": 51,
+      "char_end": 1148,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Burlina A, Gasperini S, la Marca G, et al: Long-term management of patients with mild urea cycle disorders identified through the newborn screening: an expert opinion for clinical practice. Nutrients 2024;16:13.\nBurrage LC, Madan S, Li X, et al: Chronic liver disease and impaired hepatic glycogen metabolism in argininosuccinate lyase deficiency. J Clin Invest Insight 2020;5:e132342.\nGurina TS, Mohiuddin SS: Biochemistry Protein Catabolism. StatPearls Publishing, 2024.\nJalil S, Keskinen T, Juutila J, et al: Genetic and functional correction of argininosuccinate lyase deficiency using CRISPR adenine base editors. Am J Human Genet 2024;111:714.\nMonné M, Miniero DV, Dabbabbo L, et al: Mitochondrial transporters for ornithine and related amino acids: a review. Amino Acids 2015;9:1963.\nRedant S, Empain A, Mugisha A, et al: Management of late onset urea cycle disorders—a remaining challenge for the intensivist? Annals Intens Care 2021;11:2.\nSoria LR, Mew NA, Brunetti-Pieeri N: Progress and challenges in the development of new therapies for urea cycle disorders. Hum Mol Genetics 2019;28:R42.\nUbiquitin Signalling in Health and Disease. Cell Death Differentiation 2021;28:(entire issue).\nUeno Y, Maeda T, Okamoto S, Taniguchi H: Evaluation of urea cycle activity by metabolic flux analysis using mass spectrometry. Meth Mol Biol 2022;2544:129.",
+      "char_start": 37690,
+      "char_end": 39041,
+      "section_path": [
+        "Catabolism of Proteins & of Amino Acid Nitrogen"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-8",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-9",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-28-13",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen/chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen.normalized.md"
+}

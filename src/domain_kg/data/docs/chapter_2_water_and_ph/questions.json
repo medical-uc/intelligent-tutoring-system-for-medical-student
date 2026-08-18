@@ -1,0 +1,25 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In the dissociation of water, hydroxide is converted into which substance?",
+    "options": [
+      "arterial blood",
+      "blood",
+      "extracellular fluid between",
+      "hydrogen",
+      "protons"
+    ],
+    "answer": "protons",
+    "rationale": "Water has a slight propensity to dissociate into hydroxide ions and protons.",
+    "citation": "chapter_2_water_and_ph — Water & pH > BIOMEDICAL IMPORTANCE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

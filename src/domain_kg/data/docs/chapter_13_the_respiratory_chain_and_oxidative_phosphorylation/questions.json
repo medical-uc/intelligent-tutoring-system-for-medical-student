@@ -1,0 +1,278 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substrate does Complex IV act on?",
+    "options": [
+      "ATP",
+      "flavin nucleotide",
+      "NADH",
+      "q",
+      "water"
+    ],
+    "answer": "water",
+    "rationale": "The products are 4 oxidized cytochrome c molecules, 2 water molecules, and 4 protons pumped into the intermembrane space.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > THE RESPIRATORY CHAIN OXIDIZES REDUCING EQUIVALENTS & ACTS AS A PROTON PUMP > Molecular Oxygen Is Reduced to Water via Complex IV",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "What substance is required by the β subunits in ATP synthase?",
+    "options": [
+      "Acyl-CoA synthetase",
+      "adenylyl kinase",
+      "creatine",
+      "glycerol phosphate acyltransferase",
+      "p_i"
+    ],
+    "answer": "p_i",
+    "rationale": "ADP and P_i are taken up sequentially by the \\beta subunits to form ATP, which is expelled as the rotating \\gamma subunit squeezes each \\beta subunit in turn and changes its conformation.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > THE RESPIRATORY CHAIN CREATES A PROTON GRADIENT THAT DRIVES THE SYNTHESIS OF ATP > An ATP Synthase Functions as a Rotary Motor to Form ATP",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "What substance is ADP/ATP converted into during work performance?",
+    "options": [
+      "ATP",
+      "coenzyme Q",
+      "flavin nucleotide",
+      "NADH",
+      "oxygen"
+    ],
+    "answer": "ATP",
+    "rationale": "When work is performed, ATP is converted to ADP. More respiration occurs when ATP is converted to ADP.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > THE RESPIRATORY CHAIN PROVIDES MOST OF THE ENERGY CAPTURED DURING CATABOLISM > Respiratory Control Ensures a Constant Supply of ATP",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "What substance does the ADP/ATP transporter facilitate the movement of?",
+    "options": [
+      "ATP",
+      "coenzyme Q",
+      "flavin nucleotide",
+      "NADH",
+      "oxygen"
+    ],
+    "answer": "ATP",
+    "rationale": "The ADP/ATP transporter facilitates entry of cytosolic ADP into and ATP out of the mitochondrion. The ADP/ATP transporter can become rate limiting.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > THE RESPIRATORY CHAIN PROVIDES MOST OF THE ENERGY CAPTURED DURING CATABOLISM > Respiratory Control Ensures a Constant Supply of ATP",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "In which structure is thermogenin found?",
+    "options": [
+      "brain",
+      "brown adipose tissue",
+      "heart and skeletal muscle",
+      "muscle",
+      "tissues"
+    ],
+    "answer": "brown adipose tissue",
+    "rationale": "Thermogenin, or uncoupling protein 1 (UCP1), is a physiologic uncoupler found in brown adipose tissue.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > MANY POISONS INHIBIT THE RESPIRATORY CHAIN",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What substance is transported by uncouplers across the mitochondrial membrane?",
+    "options": [
+      "ADP/ATP",
+      "carbon monoxide",
+      "cations",
+      "cyanide",
+      "protons"
+    ],
+    "answer": "protons",
+    "rationale": "Uncouplers such as dinitrophenol are amphipathic and increase the permeability of the lipoid inner mitochondrial membrane to protons. Physiologic uncouplers such as UCP1 are membrane-spanning proteins that have a similar effect.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > THE CHEMIOSMOTIC THEORY EXPLAINS RESPIRATORY CONTROL AND THE ACTION OF UNCOUPLERS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What substance is required by glutamate dehydrogenase?",
+    "options": [
+      "ADP/ATP",
+      "carbon monoxide",
+      "cyanide",
+      "NADPH",
+      "phospholipid"
+    ],
+    "answer": "NADPH",
+    "rationale": "Glutamate dehydrogenase is an intramitochondrial enzyme that uses NADPH.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > EXCHANGE TRANSPORTERS ARE REQUIRED IN THE INNER MITOCHONDRIAL MEMBRANE > Proton-Translocating Transhydrogenase Is a Source of Intramitochondrial NADPH",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What substance is required by hydroxylases involved in steroid synthesis?",
+    "options": [
+      "ADP/ATP",
+      "carbon monoxide",
+      "cyanide",
+      "NADPH",
+      "phospholipid"
+    ],
+    "answer": "NADPH",
+    "rationale": "Hydroxylases involved in steroid synthesis are intramitochondrial enzymes that use NADPH.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > EXCHANGE TRANSPORTERS ARE REQUIRED IN THE INNER MITOCHONDRIAL MEMBRANE > Proton-Translocating Transhydrogenase Is a Source of Intramitochondrial NADPH",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What substrate does glyceraldehyde-3-phosphate dehydrogenase act on?",
+    "options": [
+      "ATP",
+      "flavin nucleotide",
+      "NADH",
+      "q",
+      "water"
+    ],
+    "answer": "NADH",
+    "rationale": "NADH is produced continuously in the cytosol during glycolysis by glyceraldehyde-3-phosphate dehydrogenase.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > EXCHANGE TRANSPORTERS ARE REQUIRED IN THE INNER MITOCHONDRIAL MEMBRANE > Oxidation of Extramitochondrial NADH Is Mediated by Substrate Shuttles",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What is a recognized cause of MELAS?",
+    "options": [
+      "carbon monoxide",
+      "cardiolipin",
+      "cyanide",
+      "mitochondrial DNA",
+      "phospholipid"
+    ],
+    "answer": "mitochondrial DNA",
+    "rationale": "MELAS is caused by a mutation in mitochondrial DNA.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which condition is Alzheimer disease a risk factor for?",
+    "options": [
+      "arrest",
+      "encephalopathy",
+      "lactic acidosis",
+      "MELAS",
+      "myopathy"
+    ],
+    "answer": "MELAS",
+    "rationale": "MELAS may be involved in Alzheimer disease and diabetes mellitus.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > CLINICAL ASPECTS",
+    "relation": "risk_factor_for",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which condition is diabetes mellitus a risk factor for?",
+    "options": [
+      "arrest",
+      "encephalopathy",
+      "lactic acidosis",
+      "MELAS",
+      "myopathy"
+    ],
+    "answer": "MELAS",
+    "rationale": "MELAS may be involved in Alzheimer disease and diabetes mellitus.",
+    "citation": "chapter_13_the_respiratory_chain_and_oxidative_phosphorylation — The Respiratory Chain & Oxidative Phosphorylation > CLINICAL ASPECTS",
+    "relation": "risk_factor_for",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

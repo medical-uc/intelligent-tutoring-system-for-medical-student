@@ -1,0 +1,480 @@
+{
+  "doc_id": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism",
+  "source": {
+    "source_id": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism",
+    "title": "Overview",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The citric acid cycle, central to carbohydrate, lipid, and amino acid metabolism, generates ATP and provides substrates for various metabolic pathways.",
+    "page": null,
+    "origin": "chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 22:24:54"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "The Citric Acid Cycle is a central pathway in carbohydrate, lipid, and amino acid metabolism.\n\nOwen P. McGuinness is the author of the chapter on the Citric Acid Cycle.",
+      "char_start": 763,
+      "char_end": 931,
+      "section_path": [
+        "Overview",
+        "Overview"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "The citric acid cycle is a sequence of reactions in mitochondria. The citric acid cycle is also known as the Krebs cycle. The citric acid cycle is also known as the tricarboxylic acid cycle.\n\nThe citric acid cycle couples the oxidation of acetyl-CoA to the reduction of coenzymes. The coenzymes are reoxidized in the electron transport chain. The electron transport chain is linked to the formation of ATP.\n\nThe citric acid cycle is the final common pathway for the oxidation of carbohydrate, lipid, and protein. Glucose, fatty acids, and most amino acids are metabolized to acetyl-CoA or intermediates of the cycle.\n\nThe citric acid cycle has a central role in gluconeogenesis. The citric acid cycle has a central role in lipogenesis. The citric acid cycle has a central role in the interconversion of amino acids.\n\nMany processes related to the citric acid cycle occur in most tissues. The liver is the only tissue in which all processes related to the citric acid cycle occur to a significant extent.\n\nLarge numbers of hepatic cells being damaged has profound repercussions. Large numbers of hepatic cells being replaced by connective tissue has profound repercussions.\n\nGenetic defects of citric acid cycle enzymes are associated with severe neurologic damage. Severe neurologic damage is due to impaired ATP formation in the central nervous system.\n\nHyperammonemia leads to loss of consciousness. Hyperammonemia leads to coma. Hyperammonemia leads to convulsions.",
+      "char_start": 958,
+      "char_end": 2426,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Impaired activity of the citric acid cycle leads to reduced formation of ATP.",
+      "char_start": 2428,
+      "char_end": 2505,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "The citric acid cycle begins with the reaction between the acetyl moiety of acetyl-CoA and oxaloacetate, forming citrate. Citrate is a six-carbon tricarboxylic acid. Oxaloacetate is regenerated at the end of the cycle. Only a small amount of oxaloacetate is needed for the oxidation of a large quantity of acetyl-CoA. Oxaloacetate plays a catalytic role in the citric acid cycle.\n\nThe citric acid cycle provides the main pathway for ATP formation linked to the oxidation of metabolic fuels. Coenzymes are reduced during the oxidation of acetyl-CoA. The reduced coenzymes are then reoxidized in the respiratory chain. The reoxidation is linked to the formation of ATP through oxidative phosphorylation. The process is aerobic and requires oxygen as the final oxidant of the reduced coenzymes. The enzymes of the citric acid cycle are located in the mitochondrial matrix. Some enzymes are free, while others are attached to the inner mitochondrial membrane and the crista membrane. The enzymes and coenzymes of the respiratory chain are also found in the mitochondrial matrix.",
+      "char_start": 2578,
+      "char_end": 3652,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PROVIDES SUBSTRATES FOR THE RESPIRATORY CHAIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-provides-substrates-for-the"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "To sustain the citric acid cycle, the number of carbons entering and leaving must be equal. Acetyl-CoA, a two-carbon molecule, combines with oxaloacetate, a four-carbon molecule, to form citrate, a six-carbon molecule. After one turn of the cycle, citrate is converted back to oxaloacetate. If a metabolic pathway adds carbon to the cycle that is not through acetyl-CoA, such as the conversion of pyruvate to oxaloacetate for gluconeogenesis, then there must be an outlet pathway to bring an equal amount of carbon out of the cycle. The entry of carbon into the cycle is called anaplerosis. The exiting of carbon from the cycle is called cataplerosis. Anaplerosis must equal cataplerosis to sustain the citric acid cycle.\n\nThe citric acid cycle is the major catabolic pathway for acetyl-CoA. Acetyl-CoA enters the cycle by forming citrate. Reoxidation of the coenzymes in the respiratory chain leads to the phosphorylation of ADP to ATP. For one turn of the cycle, nine ATP are generated via oxidative phosphorylation. One ATP (or GTP) arises at substrate level from the conversion of succinyl-CoA to succinate (Figure 16-1).",
+      "char_start": 3654,
+      "char_end": 4779,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PROVIDES SUBSTRATES FOR THE RESPIRATORY CHAIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-16-1"
+      ],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-provides-substrates-for-the"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "The initial reaction between acetyl-CoA and oxaloacetate to form citrate is catalyzed by citrate synthase. Citrate synthase forms a carbon-carbon bond between the methyl carbon of acetyl-CoA and the carbonyl carbon of oxaloacetate. The thioester bond of the resultant citryl-CoA is hydrolyzed, releasing citrate and CoASH. The reaction is exothermic. The coenzyme A released can be recycled in the conversion of pyruvate to acetyl-CoA by the pyruvate dehydrogenase complex. Fluoroacetate can inhibit this process. Malonate can inhibit this process. Arsenite can inhibit this process.",
+      "char_start": 5377,
+      "char_end": 5960,
+      "section_path": [
+        "Overview",
+        "REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Citrate is isomerized to isocitrate by the enzyme aconitase. Aconitase catalyzes the reaction in two steps: dehydration to cis-aconitate and rehydration to isocitrate. Citrate is a symmetrical molecule. Aconitase reacts with citrate asymmetrically. This asymmetric behavior is due to channeling, where the product of citrate synthase is transferred directly to the active site of aconitase without entering free solution. Fatty acid synthesis uses an anaplerotic pathway to add oxaloacetate to the cycle, leading to extra citrate and isocitrate. Excess isocitrate can inhibit aconitase. Channeling ensures that citrate is only available in free solution when aconitase is inhibited by isocitrate accumulation. This allows citrate to be exported out of the cycle for fatty acid synthesis.",
+      "char_start": 7062,
+      "char_end": 7849,
+      "section_path": [
+        "Overview",
+        "REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Fluoroacetate is a poison found in some plants. Fluoroacetate is toxic to grazing animals. Fluoroacetyl-CoA condenses with oxaloacetate to form fluorocitrate. Fluorocitrate inhibits aconitase. Inhibition of aconitase causes citrate to accumulate.\n\nIsocitrate undergoes dehydrogenation catalyzed by isocitrate dehydrogenase to form oxalosuccinate. There are three isoenzymes of isocitrate dehydrogenase.\n\n\\u03b1-Ketoglutarate undergoes oxidative decarboxylation catalyzed by a multienzyme complex similar to that involved in the oxidative decarboxylation of pyruvate. The \\u03b1-ketoglutarate dehydrogenase complex requires the same cofactors as the pyruvate dehydrogenase complex: thiamin diphosphate, lipoate, NAD\\u002b, flavin adenine dinucleotide (FAD), and CoA. \\u03b1-Ketoglutarate dehydrogenase complex results in the formation of succinyl-CoA. The equilibrium of this reaction favors succinyl-CoA formation, making it physiologically unidirectional. Arsenite inhibits this reaction, causing \\u03b1-ketoglutarate to accumulate. High concentrations of ammonia, seen in liver disease, also inhibit \\u03b1-ketoglutarate dehydrogenase.",
+      "char_start": 8017,
+      "char_end": 9154,
+      "section_path": [
+        "Overview",
+        "REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Succinyl-CoA is converted to succinate by the enzyme succinate thiokinase (succinyl-CoA synthetase). Succinyl-CoA is the only example of substrate-level phosphorylation in the citric acid cycle. Tissues in which gluconeogenesis occurs, such as the liver and kidney, contain two isoenzymes of succinate thiokinase. One isoenzyme of succinate thiokinase is specific for GDP. The other isoenzyme of succinate thiokinase is specific for ADP. The GTP formed is used for the decarboxylation of oxaloacetate to phosphoenolpyruvate in gluconeogenesis. Nongluconeogenic tissues have only the isoenzyme that phosphorylates ADP.\n\nWhen ketone bodies are being metabolized in extrahepatic tissues, an alternative reaction is catalyzed by succinyl-CoA–acetoacetate-CoA transferase (thiophorase). The reaction involves the transfer of CoA from succinyl-CoA to acetoacetate. The transfer of CoA results in the formation of acetoacetyl-CoA and succinate.",
+      "char_start": 9156,
+      "char_end": 10093,
+      "section_path": [
+        "Overview",
+        "REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The first dehydrogenation reaction, forming fumarate, is catalyzed by succinate dehydrogenase. Succinate dehydrogenase is bound to the inner surface of the inner mitochondrial membrane. Succinate dehydrogenase contains FAD and iron-sulfur (Fe-S) protein. Succinate dehydrogenase directly reduces ubiquinone in the electron transport chain. Fumarase catalyzes the addition of water across the double bond of fumarate, yielding malate. Although the equilibrium of this reaction strongly favors malate, the net flux is to oxaloacetate because oxaloacetate is rapidly being used. Oxaloacetate is used for multiple reactions: forming citrate, leaving the mitochondria for gluconeogenesis, or undergoing transamination to form aspartate. NADH is reoxidized to NAD by the respiratory chain.\n\nIn the citric acid cycle, two carbon atoms are lost as CO₂ in one turn of the cycle. Two carbon atoms are not derived from the acetyl-CoA that has immediately entered the cycle. Instead, they are derived from the portion of the citrate molecule that was derived from oxaloacetate. After one turn of the cycle, the regenerated oxaloacetate is labeled. Labeled CO₂ is evolved during the second turn of the cycle. Because succinate is a symmetrical compound, 'randomization' of label occurs at this step. All four carbon atoms of oxaloacetate appear labeled after one turn of the cycle. During gluconeogenesis, some of the label in oxaloacetate is incorporated into glucose and glycogen.",
+      "char_start": 10095,
+      "char_end": 11564,
+      "section_path": [
+        "Overview",
+        "REACTIONS OF THE CITRIC ACID CYCLE GENERATE REDUCING EQUIVALENTS & CO₂"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Each NADH molecule results in the formation of approximately 2.5 ATP when reoxidized in the respiratory chain.\n\nSuccinate thiokinase catalyzes the formation of 1 ATP (or GTP) through substrate-level phosphorylation in the citric acid cycle.",
+      "char_start": 11622,
+      "char_end": 11862,
+      "section_path": [
+        "Overview",
+        "TEN ATP ARE FORMED PER TURN OF THE CITRIC ACID CYCLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ten-atp-are-formed-per-turn-of-the-citric-acid-cycle"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Riboflavin is essential in the citric acid cycle as FAD, the cofactor for succinate dehydrogenase.\n\nPantothenic acid is part of coenzyme A, which is esterified to carboxylic acids to form acetyl-CoA and succinyl-CoA.",
+      "char_start": 11916,
+      "char_end": 12132,
+      "section_path": [
+        "Overview",
+        "VITAMINS PLAY KEY ROLES IN THE CITRIC ACID CYCLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "vitamins-play-key-roles-in-the-citric-acid-cycle"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "The citric acid cycle is a pathway for the oxidation of two carbon units.\n\nThe citric acid cycle is a major pathway for the interconversion of metabolites from transamination and deamination of amino acids (see Chapters 28 and 29).\n\nThe citric acid cycle provides substrates for amino acid synthesis by transamination (see Chapter 27).\n\nThe citric acid cycle provides substrates for gluconeogenesis (see Chapter 19).\n\nThe citric acid cycle provides substrates for fatty acid synthesis (see Chapter 23).\n\nThe citric acid cycle functions in both oxidative and synthetic processes, making it amphibolic (Figure 16–3).",
+      "char_start": 12194,
+      "char_end": 12808,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-16-3"
+      ],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-plays-a-pivotal-role-in-metabolism"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Hydroxyproline, Serine, Cysteine, Threonine, and Glycine are involved in the formation of Tryptophan.\nTryptophan is converted into Alanine.\nAlanine undergoes a reaction with Transaminase.\nTransaminase converts Alanine into Pyruvate.\nPyruvate is processed by Pyruvate carboxylase.\nPyruvate can be converted into Acetyl-CoA.\nPyruvate can also be converted into Oxaloacetate.\nOxaloacetate is involved in the formation of Aspartate.\nAspartate contributes to the formation of Citrate.\nCitrate is involved in the release of CO2.\nCO2 leads to the formation of α-Ketoglutarate.\nα-Ketoglutarate undergoes a reaction with Transaminase.\nTransaminase converts α-Ketoglutarate into Glutamate.\nGlutamate is involved in the formation of Histidine, Proline, Glutamine, and Arginine.\nHistidine, Proline, Glutamine, and Arginine are involved in the formation of Propionate.\nPropionate is converted into Succinyl-CoA.\nSuccinyl-CoA is converted into Fumarate.\nFumarate is involved in the formation of Phosphoenol-pyruvate.\nPhosphoenol-pyruvate is converted into Glucose.\nGlucose is involved in the formation of Tryptophan.\nTryptophan leads to the formation of Tryptophan.\nTryptophan is converted into Alanine.\nAlanine undergoes a reaction with Phosphoenolpyruvate carboxykinase.\nPhosphoenolpyruvate carboxykinase converts Alanine into Fumarate.\nIsoleucine, Methionine, and Valine are involved in the formation of Succinyl-CoA.\nSuccinyl-CoA is involved in the formation of Aspartate.\nAspartate contributes to the formation of Phosphoenol-pyruvate.\nPhosphoenol-pyruvate is converted into Glucose.\nGlucose is involved in the formation of Tryptophan.\nThe diagram illustrates the involvement of the citric acid cycle in transamination and gluconeogenesis, with bold arrows indicating the main pathway of gluconeogenesis.",
+      "char_start": 12968,
+      "char_end": 14763,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-plays-a-pivotal-role-in-metabolism"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Figure 16-3illustrates the involvement of the citric acid cycle in transamination and gluconeogenesis.\n\nIn Figure 16-3, bold arrows indicate the main pathway of gluconeogenesis.",
+      "char_start": 14765,
+      "char_end": 14942,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-16-3"
+      ],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-plays-a-pivotal-role-in-metabolism"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "All the intermediates of the citric acid cycle are potentially glucogenic because they can give rise to oxaloacetate. Oxaloacetate leads to the production of glucose in the liver and kidney. The key enzyme for transferring out of the cycle into gluconeogenesis is phosphoenolpyruvate carboxykinase. Phosphoenolpyruvate carboxykinase catalyzes the decarboxylation of oxaloacetate to phosphoenolpyruvate. GTP acts as the phosphate donor in the reaction catalyzed by phosphoenolpyruvate carboxykinase. The GTP required for this reaction is provided by the GDP-dependent isoenzyme of succinate thiokinase. The mechanism ensures that oxaloacetate is not withdrawn from the cycle for gluconeogenesis unless GTP is supplied. The mechanism prevents the depletion of citric acid cycle intermediates and reduced ATP generation.",
+      "char_start": 15031,
+      "char_end": 15848,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-gluconeogenesis"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Net transfer into the citric acid cycle, known as anaplerosis, occurs through several reactions. One important anaplerotic reaction is the formation of oxaloacetate by the carboxylation of pyruvate, catalyzed by pyruvate carboxylase. The formation of oxaloacetate by the carboxylation of pyruvate maintains an adequate concentration of oxaloacetate for the condensation reaction with acetyl-CoA. Acetyl-CoA acts as an allosteric activator of pyruvate carboxylase. Acetyl-CoA acts as an inhibitor of pyruvate dehydrogenase, ensuring a supply of oxaloacetate. Lactate, an important substrate for gluconeogenesis, enters the cycle by being oxidized to pyruvate. Pyruvate is then carboxylated to oxaloacetate. Transamination of aspartate directly forms oxaloacetate. Various compounds can yield propionyl CoA, which can be carboxylated and isomerized to succinyl CoA, making them important anaplerotic substrates.",
+      "char_start": 15850,
+      "char_end": 16759,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-gluconeogenesis"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Aminotransferase reactions form pyruvate from alanine. Aminotransferase reactions form oxaloacetate from aspartate. Aminotransferase reactions form \\alpha -ketoglutarate from glutamate. Aminotransferase reactions are reversible. The citric acid cycle serves as a source of carbon skeletons for the synthesis of these amino acids. Other amino acids contribute to gluconeogenesis by providing carbon skeletons that become citric acid cycle intermediates. Alanine, cysteine, glycine, hydroxyproline, serine, threonine, and tryptophan yield pyruvate. Arginine, histidine, glutamine, and proline yield \\alpha -ketoglutarate. Isoleucine, methionine, and valine yield succinyl-CoA. Tyrosine and phenylalanine yield fumarate.\n\nA cataplerotic route is necessary for complete oxidation. Oxaloacetate must leave the cycle to be phosphorylated and carboxylated to phosphoenolpyruvate at the expense of GTP. Phosphoenolpyruvate is then dephosphorylated to form pyruvate by pyruvate kinase. Pyruvate can then undergo oxidative decarboxylation to acetyl-CoA by pyruvate dehydrogenase.\n\nIn ruminants, the main metabolic fuel is short-chain fatty acids formed by bacterial fermentation. Propionate is the major glucogenic product of rumen fermentation. Propionate enters the cycle at succinyl-CoA via the methylmalonyl-CoA pathway. Propionate forms glucose through gluconeogenesis.",
+      "char_start": 16761,
+      "char_end": 18125,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Gluconeogenesis, Transamination, & Deamination"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-gluconeogenesis"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Acetyl-CoA is the major substrate for long-chain fatty acid synthesis in nonruminants. In ruminants, acetyl-CoA is derived directly from acetate. Pyruvate dehydrogenase is a mitochondrial enzyme, and fatty acid synthesis occurs in the cytosol. The mitochondrial membrane is impermeable to acetyl-CoA. Citrate is transported from the mitochondrion to the cytosol to make acetyl-CoA available in the cytosol. Citrate lyase catalyzes the cleavage of citrate in the cytosol. Citrate transport out of the mitochondrion is regulated by the inhibition of aconitase by its product. The inhibition of aconitase by its product ensures that citrate is used for fatty acid synthesis only when there is an adequate amount to ensure continued activity of the cycle. The regulation of mitochondrial transport systems involved in cataplerosis and anaplerosis pathways is poorly understood, but they likely play a critical regulatory role in these pathways.",
+      "char_start": 18188,
+      "char_end": 19128,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Fatty Acid Synthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-fatty-acid-synthesis"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Oxaloacetate released by citrate lyase cannot reenter the mitochondrion. Oxaloacetate is reduced to malate at the expense of NADH. Malate undergoes oxidative decarboxylation to pyruvate, reducing NADP+ to NADPH. The malic enzyme catalyzes this reaction, which is the source of half the NADPH required for fatty acid synthesis. The pentose phosphate pathway provides the remainder of the NADPH required for fatty acid synthesis. Pyruvate enters the mitochondrion and is carboxylated to oxaloacetate by pyruvate carboxylase. This reaction is ATP-dependent and uses the coenzyme biotin. (Figure 16–4)",
+      "char_start": 19130,
+      "char_end": 19727,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Fatty Acid Synthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-16-4"
+      ],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-fatty-acid-synthesis"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Glycolysis in cytosol produces Pyruvate.\nPyruvate is converted by Pyruvate dehydrogenase.\nPyruvate dehydrogenase produces NADH.\nNADH is involved in the production of CO2.\nCO2 leads to the formation of CH3 C=O SCoA.\nCH3 C=O SCoA is converted to Acetyl CoA.\nAcetyl CoA participates in the reaction catalyzed by Citrate synthase.\nCOO- CH2 HO-C-COO- Citrate is formed in the citric acid cycle.\nCOO- CH2 HO-C-COO- Citrate undergoes a reaction with Citrate lyase.\nCitrate lyase produces COASH.\nCOASH is converted to CH3 C=O SCoA.\nCH3 C=O SCoA is transformed into Acetyl CoA for fatty acid synthesis.\nAcetyl CoA for fatty acid synthesis is involved in the reaction with Malate dehydrogenase.\nMalate dehydrogenase leads to the action of Malic enzyme.\nMalic enzyme produces NADPH.\nNADPH is involved in the conversion to Pyruvate.\nPyruvate is converted to CH3 C=O COO-.\nCH3 C=O COO- interacts with ATP.\nATP leads to the production of CO2.\nCO2 is involved in the reaction with Pyruvate carboxylase.\nPyruvate carboxylase produces Oxaloacetate.\nOxaloacetate leads to the formation of ADP + P1.\nADP + P1 is converted to ATP.\nATP leads to the production of CO2.\nCO2 is involved in the reaction with Malic enzyme.\nMalic enzyme produces NADPH.\nNADPH is involved in the conversion to Malate.\nThe diagram illustrates the participation of the citric acid cycle in providing cytosolic acetyl-CoA for fatty acid synthesis from glucose.",
+      "char_start": 19886,
+      "char_end": 21299,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "The Citric Acid Cycle Takes Part in Fatty Acid Synthesis"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-fatty-acid-synthesis"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "In most tissues, the primary role of the citric acid cycle is in energy-yielding metabolism. Respiratory control via the respiratory chain and oxidative phosphorylation regulates citric acid cycle activity. The availability of ADP is ultimately dependent on the utilization of ATP in chemical and physical work. As ATP usage increases, such as during muscle contraction, this generates ADP to help drive the cycle. If ATP demand is low, the cycle slows down to match the demand. Individual enzymes of the cycle are regulated. Regulatory events help to couple rapid changes in energy demand with citric acid cycle flux. In the brain, which is largely dependent on glucose to supply acetyl-CoA, control of the citric acid cycle may occur at pyruvate dehydrogenase. Citrate synthase is allosterically inhibited by ATP and long-chain fatty acyl-CoA. Mitochondrial NAD-dependent isocitrate dehydrogenase is allosterically activated by ADP. Activation by ADP is counteracted by ATP and NADH. Succinate dehydrogenase is inhibited by oxaloacetate. The concentration of oxaloacetate controls the rate of citrate formation. Hyperammonemia leads to loss of consciousness, coma, and convulsions, and may be fatal. Hyperammonemia occurs in advanced liver disease and a number of (rare) genetic diseases of amino acid metabolism. Hyperammonemia lowers concentrations of all citric acid cycle intermediates. Hyperammonemia decreases citric acid cycle flux. Hyperammonemia decreases the generation of ATP. The equilibrium of glutamate dehydrogenase is finely poised. Ammonium ion concentration is elevated in liver disease. Ammonia possibly inhibits pyruvate dehydrogenase. Inhibitions by ammonia further decrease citric acid cycle flux.",
+      "char_start": 21393,
+      "char_end": 23114,
+      "section_path": [
+        "Overview",
+        "THE CITRIC ACID CYCLE PLAYS A PIVOTAL ROLE IN METABOLISM",
+        "Regulation of the Citric Acid Cycle Depends Primarily on a Supply of Oxidized Cofactors"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "regulation-of-the-citric-acid-cycle-depends-primarily-on-a"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "The citric acid cycle is the final pathway for the oxidation of carbohydrate, lipid, and protein. Their common end-metabolite, acetyl-CoA, reacts with oxaloacetate to form citrate.\nThe reduced coenzymes are oxidized by the respiratory chain linked to formation of ATP. Thus, the cycle is the major pathway for the formation of ATP. It is located in the matrix of mitochondria adjacent to the enzymes of the respiratory chain and oxidative phosphorylation.\nThe citric acid cycle is amphibolic since, in addition to oxidation, it is important in the provision of carbon skeletons for gluconeogenesis, acetyl-CoA for fatty acid synthesis, and interconversion of amino acids. For these processes to be sustained, they rely on a balance of anaplerosis and cataplerosis in the citric acid cycle.",
+      "char_start": 23116,
+      "char_end": 23905,
+      "section_path": [
+        "Overview"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-16-1",
+      "image_path": "images/b1ed30de8bc24f42c6238857ba46716ebbcfad62157969a749357bf804b9ebee.jpg",
+      "caption": "The citric acid cycle: the major catabolic pathway for acetyl-CoA. Acetyl-CoA, the product of carbohydrate, protein, and lipid catabolism, enters the cycle by forming citrate and is oxidized to CO2 with the reduction of coenzymes. Reoxidation of the coenzymes in the respiratory chain leads to phosphorylation of ADP to ATP. For one turn of the cycle, nine ATP are generated via oxidative phosphorylation and one ATP (or GTP) arises at substrate level from the conversion of succinyl-CoA to succinate.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-16-1]",
+      "description": "",
+      "label": "Figure 16-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4800,
+        5301
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-citric-acid-cycle-provides-substrates-for-the"
+    },
+    {
+      "fig_id": "fig-16-2",
+      "image_path": "images/963bf01b484e2d6233e9f6eea67122336792a9416bf71714239121c62da814a9.jpg",
+      "caption": "The citric acid (Krebs) cycle. Oxidation of NADH and FADH2 in the respiratory chain leads to the formation of ATP via oxidative phosphorylation. In order to follow the passage of acetyl-CoA through the cycle, the two carbon atoms of the acetyl moiety are shown labeled on the carboxyl carbon (\\) and on the methyl carbon ( · ). Although two carbon atoms are lost as CO2 in one turn of the cycle, these atoms are not derived from the acetyl-CoA that has immediately entered the cycle, but from that portion of the citrate molecule that was derived from oxaloacetate. However, on completion of a single turn of the cycle, the oxaloacetate that is regenerated is now labeled, which leads to labeled CO2 being evolved during the second turn of the cycle. Because succinate is a symmetrical compound, “randomization” of label occurs at this step so that all four carbon atoms of oxaloacetate appear to be labeled after one turn of the cycle. During gluconeogenesis, some of the label in oxaloacetate is incorporated into glucose and glycogen (see Figure 20–1). The sites of inhibition",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-16-2]",
+      "description": "",
+      "label": "Figure 16-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5981,
+        7060
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "fig_id": "fig-x3",
+      "image_path": "images/93f728f73e4d825932d1226822592fc672fffcca998141d2f228471fe4ed5b7e.jpg",
+      "caption": "Flowchart shows metabolic pathway conversions: malate dehydrogenase to citrate synthase, then succinate and isocitrate to isocitrate dehydrogenase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x3]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7868,
+        8015
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "reactions-of-the-citric-acid-cycle-generate-reducing"
+    },
+    {
+      "fig_id": "fig-16-3",
+      "image_path": "images/1a9fa21677b7869a782d1be8e76fc9228e1d7914108babc716ded331d647573f.jpg",
+      "caption": "Involvement of the citric acid cycle in transamination and gluconeogenesis. The bold arrows indicate the main pathway of gluconeogenesis.",
+      "referenced_from": "c013",
+      "marker": "[FIGURE:fig-16-3]",
+      "description": "Hydroxyproline, Serine, Cysteine, Threonine, and Glycine are involved in the formation of Tryptophan.\nTryptophan is converted into Alanine.\nAlanine undergoes a reaction with Transaminase.\nTransaminase converts Alanine into Pyruvate.\nPyruvate is processed by Pyruvate carboxylase.\nPyruvate can be converted into Acetyl-CoA.\nPyruvate can also be converted into Oxaloacetate.\nOxaloacetate is involved in the formation of Aspartate.\nAspartate contributes to the formation of Citrate.\nCitrate is involved in the release of CO2.\nCO2 leads to the formation of α-Ketoglutarate.\nα-Ketoglutarate undergoes a reaction with Transaminase.\nTransaminase converts α-Ketoglutarate into Glutamate.\nGlutamate is involved in the formation of Histidine, Proline, Glutamine, and Arginine.\nHistidine, Proline, Glutamine, and Arginine are involved in the formation of Propionate.\nPropionate is converted into Succinyl-CoA.\nSuccinyl-CoA is converted into Fumarate.\nFumarate is involved in the formation of Phosphoenol-pyruvate.\nPhosphoenol-pyruvate is converted into Glucose.\nGlucose is involved in the formation of Tryptophan.\nTryptophan leads to the formation of Tryptophan.\nTryptophan is converted into Alanine.\nAlanine undergoes a reaction with Phosphoenolpyruvate carboxykinase.\nPhosphoenolpyruvate carboxykinase converts Alanine into Fumarate.\nIsoleucine, Methionine, and Valine are involved in the formation of Succinyl-CoA.\nSuccinyl-CoA is involved in the formation of Aspartate.\nAspartate contributes to the formation of Phosphoenol-pyruvate.\nPhosphoenol-pyruvate is converted into Glucose.\nGlucose is involved in the formation of Tryptophan.\nThe diagram illustrates the involvement of the citric acid cycle in transamination and gluconeogenesis, with bold arrows indicating the main pathway of gluconeogenesis.",
+      "label": "Figure 16-3",
+      "panel": "",
+      "content_chunk": "c014",
+      "caption_span": [
+        12829,
+        12966
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-citric-acid-cycle-plays-a-pivotal-role-in-metabolism"
+    },
+    {
+      "fig_id": "fig-16-4",
+      "image_path": "images/375b6634967f63f91ca481fc132ca221852bfccdb31d1b6930316026cf164e9c.jpg",
+      "caption": "Participation of the citric acid cycle in provision of cytosolic acetyl-CoA for fatty acid synthesis from glucose. See also Figure 23–5.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-16-4]",
+      "description": "Glycolysis in cytosol produces Pyruvate.\nPyruvate is converted by Pyruvate dehydrogenase.\nPyruvate dehydrogenase produces NADH.\nNADH is involved in the production of CO2.\nCO2 leads to the formation of CH3 C=O SCoA.\nCH3 C=O SCoA is converted to Acetyl CoA.\nAcetyl CoA participates in the reaction catalyzed by Citrate synthase.\nCOO- CH2 HO-C-COO- Citrate is formed in the citric acid cycle.\nCOO- CH2 HO-C-COO- Citrate undergoes a reaction with Citrate lyase.\nCitrate lyase produces COASH.\nCOASH is converted to CH3 C=O SCoA.\nCH3 C=O SCoA is transformed into Acetyl CoA for fatty acid synthesis.\nAcetyl CoA for fatty acid synthesis is involved in the reaction with Malate dehydrogenase.\nMalate dehydrogenase leads to the action of Malic enzyme.\nMalic enzyme produces NADPH.\nNADPH is involved in the conversion to Pyruvate.\nPyruvate is converted to CH3 C=O COO-.\nCH3 C=O COO- interacts with ATP.\nATP leads to the production of CO2.\nCO2 is involved in the reaction with Pyruvate carboxylase.\nPyruvate carboxylase produces Oxaloacetate.\nOxaloacetate leads to the formation of ADP + P1.\nADP + P1 is converted to ATP.\nATP leads to the production of CO2.\nCO2 is involved in the reaction with Malic enzyme.\nMalic enzyme produces NADPH.\nNADPH is involved in the conversion to Malate.\nThe diagram illustrates the participation of the citric acid cycle in providing cytosolic acetyl-CoA for fatty acid synthesis from glucose.",
+      "label": "Figure 16-4",
+      "panel": "",
+      "content_chunk": "c021",
+      "caption_span": [
+        19748,
+        19884
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-citric-acid-cycle-takes-part-in-fatty-acid-synthesis"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the reactions of the citric acid cycle.\nIdentify the reactions that generate reducing equivalents that are oxidized in the mitochondrial electron transport chain to yield ATP.\nIdentify the steps that require vitamins in the citric acid cycle.\nExplain how the citric acid cycle provides both a route for catabolism of amino acids and a route for their synthesis.\nDescribe the main anaplerotic and cataplerotic pathways that permit replenishment and removal of citric acid cycle intermediates.\nDescribe the role of the citric acid cycle in fatty acid synthesis.\nExplain how the activity of the citric acid cycle is controlled by the availability of oxidized cofactors.\nExplain how hyperammonemia can impair citric acid cycle flux.",
+      "char_start": 12,
+      "char_end": 749,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-marker",
+      "reason": "bold/italic marker in tagged content",
+      "count": 1,
+      "example": "The citric acid (Krebs) cycle. Oxidation of NADH and $FADH_{2}$ in the respiratory chain leads to the formation of ATP v"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-16-2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x3",
+      "reason": "figure never anchored in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism/chapter_16_the_citric_acid_cycle_a_pathway_central_to_carbohydrate_lipid_and_amino_acid_metabolism.normalized.md"
+}

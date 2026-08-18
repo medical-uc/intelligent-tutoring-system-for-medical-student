@@ -1,0 +1,1056 @@
+{
+  "doc_id": "chapter_32_nucleotides",
+  "source": {
+    "source_id": "chapter_32_nucleotides",
+    "title": "Nucleotides",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Nucleotides are essential molecules with diverse roles in energy metabolism, enzyme regulation, signal transduction, and as precursors for nucleic acids, and they also have medical applications in chemotherapy and immunosuppression.",
+    "page": null,
+    "origin": "chapter_32_nucleotides.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 04:10:27"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Purine and pyrimidine nucleotides serve as precursors of nucleic acids. Purine and pyrimidine nucleotides participate in diverse metabolic functions including energy metabolism, protein synthesis, regulation of enzyme activity, and signal transduction. Nucleotides linked to vitamins or vitamin derivatives form part of many coenzymes. Nucleoside tri- and diphosphates such as ATP and ADP are the principal donors and acceptors of phosphoryl groups in metabolism. ATP and ADP are the main players in energy transductions that accompany metabolic interconversions and oxidative phosphorylation. Nucleosides linked to sugars or lipids constitute key biosynthetic intermediates. UDP-glucose and UDP-galactose participate in sugar interconversions and in the biosynthesis of starch and glycogen. CDP-acylglycerol is an intermediate in lipid biosynthesis. Nucleotides perform roles in metabolic regulation, including ATP-dependent phosphorylation of key metabolic enzymes. ATP, ADP, AMP, and CTP regulate enzymes allosterically. ADP controls the rate of oxidative phosphorylation. Cyclic nucleotides cAMP and cGMP serve as second messengers in hormonally regulated events. GTP and GDP play key roles in signal transduction pathways. Synthetic purine and pyrimidine analogs containing halogens, thiols, or additional nitrogen atoms are used in the chemotherapy of cancer and viral diseases. Synthetic purine and pyrimidine analogs also act as suppressors of the immune response during organ transplantation.",
+      "char_start": 1459,
+      "char_end": 2960,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Nucleotides have central roles in metabolism. Nucleotides have medical applications. Synthetic purine and pyrimidine analogs are used in the chemotherapy of cancer and viral diseases. Synthetic purine and pyrimidine analogs are used as suppressors of the immune response during organ transplantation.",
+      "char_start": 2962,
+      "char_end": 3262,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Purines and pyrimidines are aromatic heterocycles. Purines and pyrimidines contain carbon and other heteroatoms such as nitrogen. Pyrimidine is the smaller molecule but has the longer name. Purine is the larger molecule and has the shorter name. The six-atom rings in purines and pyrimidines are numbered in opposite directions (Figure 32–1).",
+      "char_start": 3317,
+      "char_end": 3659,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Purines & Pyrimidines Are Heterocyclic Compounds"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-1"
+      ],
+      "table_refs": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "The proton at low pH associates with a ring nitrogen, not the exocyclic amino group. In adenine, the proton is typically at N1. In guanine, it is at N7. In cytosine, it is at N3.\n\nThe planar character of purines and pyrimidines facilitates stacking. The planar character of purines and pyrimidines stabilizes double-stranded DNA and base paired segments of single-stranded RNA (see Chapter 34).\n\nPurines and pyrimidines exhibit keto-enol and amine-imine tautomerism. However, physiologic conditions favor the amino and oxo forms (Figure 32–2).",
+      "char_start": 3766,
+      "char_end": 4309,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Purines & Pyrimidines Are Heterocyclic Compounds"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-2"
+      ],
+      "table_refs": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Nucleosides are derivatives of purines and pyrimidines that have a sugar linked to a ring nitrogen of a purine or pyrimidine. Numerals with a prime, such as 2' or 3', distinguish atoms of the sugar from those of the heterocycle. The sugar in ribonucleosides is D-ribose. The sugar in deoxyribonucleosides is 2-deoxy-D-ribose. Both sugars are linked to the heterocycle by an a-N-glycosidic bond. The sugar is almost always linked to the N-1 of a pyrimidine. The sugar is almost always linked to the N-9 of a purine. (Figure 32-3) shows Ribonucleosides, drawn as the syn conformers.",
+      "char_start": 4477,
+      "char_end": 5057,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleosides Are N-Glycosides"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-3"
+      ],
+      "table_refs": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Adenosine is a nucleoside. Cytidine is a nucleoside. Guanosine is a nucleoside. Uridine is a nucleoside.",
+      "char_start": 5336,
+      "char_end": 5440,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleosides Are N-Glycosides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Mononucleotides are nucleosides with a phosphoryl group esterified to a hydroxyl group of the sugar. The 3'- and 5'-nucleotides are nucleosides with a phosphoryl group on the 3'- or 5'-hydroxyl group of the sugar, respectively. Most nucleotides are 5'-, so the prefix '5'-' usually is omitted when naming them. UMP and dAMP represent nucleotides with a phosphoryl group on C-5 of the pentose. Additional phosphoryl groups form nucleoside diphosphates and triphosphates by ligating to the phosphoryl group of a mononucleotide through acid anhydride bonds (Figure 32–4).",
+      "char_start": 5596,
+      "char_end": 6164,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleotides Are Phosphorylated Nucleosides"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-4"
+      ],
+      "table_refs": [],
+      "section_id": "nucleotides-are-phosphorylated-nucleosides"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Both syn and anti conformers occur in nature. The anti conformers predominate. The syn and anti conformers of adenosine differ with respect to orientation about the N-glycosidic bond (Figure 32-5).",
+      "char_start": 6294,
+      "char_end": 6491,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Heterocyclic N-Glycosides Exist as Syn and Anti Conformers"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-5"
+      ],
+      "table_refs": [],
+      "section_id": "heterocyclic-n-glycosides-exist-as-syn-and-anti-conformers"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Small quantities of additional purines and pyrimidines occur in DNA and RNAs. 5-methylcytosine is an example found in bacterial and human DNA. 5-hydroxymethylcytosine is an example found in bacterial and viral nucleic acids. Mono- and di-N-methylated adenine and guanine are examples found in mammalian messenger RNAs. Mono- and di-N-methylated adenine and guanine function in oligonucleotide recognition and in regulating the half-lives of RNAs. Free heterocyclic bases include hypoxanthine, xanthine, and uric acid. Hypoxanthine is a 6-oxopurine. Xanthine is a 2,6-dioxopurine. Uric acid is a 2,6,8-trioxypurine. Hypoxanthine, xanthine, and uric acid are intermediates in the catabolism of adenine and guanine. Methylated heterocycles of plants include caffeine, theophylline, and theobromine, which are xanthine derivatives. Caffeine is found in coffee. Theophylline is found in tea. Theobromine is found in cocoa. The information about methylated heterocycles of plants is supported by figures and tables, including Figure 32-7, Figure 32-8, and Figure 32-9.",
+      "char_start": 6992,
+      "char_end": 8054,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Modification of Polynucleotides Can Generate Additional Structures"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-7",
+        "fig-32-8",
+        "fig-32-9"
+      ],
+      "table_refs": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Purines are neutral at physiologic pH. Pyrimidines are neutral at physiologic pH. Nucleotides bear a net negative charge at physiologic pH.",
+      "char_start": 8981,
+      "char_end": 9120,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleotides Are Polyfunctional Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nucleotides-are-polyfunctional-acids"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "The conjugated double bonds of purine and pyrimidine derivatives absorb ultraviolet light.\n\nAt pH 7.0, all the common nucleotides absorb light at wavelengths around 260 nm.\n\nThe concentration of nucleotides and nucleic acids is often expressed in terms of 'absorbance at 260 nm'.\n\nThe mutagenic effect of ultraviolet light is due to its absorption by nucleotides in DNA, resulting in chemical modifications.",
+      "char_start": 9163,
+      "char_end": 9570,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleotides Absorb Ultraviolet Light"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nucleotides-absorb-ultraviolet-light"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "ATP is the principal biologic transducer of free energy. The mean intracellular concentration of ATP is about 1 mmol/L. ATP is the most abundant free nucleotide in mammalian cells. Cyclic AMP (cAMP) serves as a second messenger. The intracellular concentration of cAMP is about 1 nmol/L. The concentration of cAMP is six orders of magnitude below that of ATP. Adenosine 3'-phosphate-5'-phosphosulfate is the sulfate donor for sulfated proteoglycans and sulfate conjugates of drugs. S-adenosylmethionine is a methyl group donor. GTP serves as an allosteric regulator and as an energy source for protein synthesis. Cyclic guanosine monophosphate (cGMP) serves as a second messenger in response to nitric oxide (NO) during relaxation of smooth muscle. UDP-sugar derivatives participate in sugar epimerizations and in the biosynthesis of glycogen, glucosyl disaccharides, and the oligosaccharides of glycoproteins and proteoglycans. UDP-glucuronic acid forms the urinary glucuronide conjugates of bilirubin and many drugs, including aspirin. CTP participates in the biosynthesis of phosphoglycerides, sphingomyelin, and other substituted sphingosines. Many coenzymes incorporate nucleotides as well as structures similar to purine and pyrimidine nucleotides. Active methionine has a structure where R is Methionine, R' is H, R'' is H, and n is 0. Amino acid adenylates have a structure where R is an Amino acid, R' is H, R'' is H, and n is 1. NAD has a structure where R is Nicotinamide, R' is H, R'' is H, and n is 2. FAD has a structure where R is Riboflavin, R' is H, R'' is H, and n is 2. Methionine replaces the phosphoryl group in active methionine. R is a vitamin B derivative in NAD and NADP.",
+      "char_start": 9624,
+      "char_end": 11320,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleotides Serve Diverse Physiologic Functions"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nucleotides-serve-diverse-physiologic-functions"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Nucleotide triphosphates have two acid anhydride bonds and one ester bond. Acid anhydrides have a high-group transfer potential relative to esters.\n\nCleavage of an acid anhydride bond is typically coupled with a highly endergonic process such as covalent bond synthesis. An example of such a process is the polymerization of nucleoside triphosphates to form a nucleic acid.",
+      "char_start": 11574,
+      "char_end": 11947,
+      "section_path": [
+        "Nucleotides",
+        "BIOMEDICAL IMPORTANCE",
+        "Nucleoside Triphosphates Have High-Group Transfer Potential"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nucleoside-triphosphates-have-high-group-transfer-potential"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Synthetic analogs of purines, pyrimidines, nucleosides, and nucleotides are modified in the heterocyclic ring or in the sugar moiety. Synthetic analogs of purines, pyrimidines, nucleosides, and nucleotides have numerous applications in clinical medicine. Their toxic effects are due to either inhibition of enzymes essential for nucleic acid synthesis or their incorporation into nucleic acids, disrupting base pairing. Oncologists use 5-fluoro- or 5-iodouracil, 3-deoxyuridine, 6-thioguanine, 6-mercaptopurine, 5- or 6-azauridine, 5- or 6-azacytidine, and 8-azaguanine (Figure 32-11). These analogs are incorporated into DNA prior to cell division. The purine analog allopurinol is used to treat hyperuricemia and gout. Allopurinol inhibits purine biosynthesis and xanthine oxidase activity. Cytarabine is used in cancer chemotherapy. Azathioprine is employed during organ transplantation to suppress immunologic rejection. Azathioprine is catabolized to 6-mercaptopurine. Recent work shows that various nucleoside/nucleotide analogs are useful in treating viral diseases such as COVID-19. 5-lodo-2'-deoxyuridine is a synthetic nucleotide analog. 6-Azauridine is a synthetic nucleotide analog. Cytarabine is a synthetic nucleotide analog. Azathioprine is a synthetic nucleotide analog.",
+      "char_start": 12006,
+      "char_end": 13292,
+      "section_path": [
+        "Nucleotides",
+        "SYNTHETIC NUCLEOTIDE ANALOGS ARE USED IN CHEMOTHERAPY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-11"
+      ],
+      "table_refs": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Synthetic, non-hydrolyzable analogs of nucleoside triphosphates allow investigators to distinguish the effects of nucleotides due to phosphoryl transfer from effects mediated by occupancy of allosteric nucleotide-binding sites on regulated enzymes. The parent nucleoside triphosphate is hydrolyzable. The beta,gamma-methylene derivative is a non-hydrolyzable analog. The beta,gamma-imino derivative is another non-hydrolyzable analog. The beta,gamma-methylene derivative and the beta,gamma-imino derivative are incapable of undergoing hydrolytic release of the terminal phosphoryl group (Figure 32-12).",
+      "char_start": 13863,
+      "char_end": 14465,
+      "section_path": [
+        "Nucleotides",
+        "SYNTHETIC NUCLEOTIDE ANALOGS ARE USED IN CHEMOTHERAPY",
+        "Non-Hydrolyzable Nucleoside Triphosphate Analogs Serve as Research Tools"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-32-12"
+      ],
+      "table_refs": [],
+      "section_id": "non-hydrolyzable-nucleoside-triphosphate-analogs-serve-as"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "The chemical structure of the analogs includes a phosphorus-containing polymer with ester and amide functional groups. The source of this information is P. J. Kennelly, K. M. Botham, O. P. McGuinness, P. A. Weil: Harper's Illustrated Biochemistry, 33rd Edition. The copyright is held by McGraw Hill. All rights are reserved.",
+      "char_start": 14933,
+      "char_end": 15257,
+      "section_path": [
+        "Nucleotides",
+        "SYNTHETIC NUCLEOTIDE ANALOGS ARE USED IN CHEMOTHERAPY",
+        "Non-Hydrolyzable Nucleoside Triphosphate Analogs Serve as Research Tools"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "non-hydrolyzable-nucleoside-triphosphate-analogs-serve-as"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The 5'-phosphoryl group of a mononucleotide can esterify a second hydroxyl group, forming a phosphodiester. The most common second hydroxyl group is the 3'-OH of the pentose of a second nucleotide. The formation of a dinucleotide with a 3',5'-phosphodiester bond, creating the backbone of RNA and DNA. The formation of a dinucleotide is represented by the elimination of water between two mononucleotides. Hydrolysis of the phosphodiester bond is strongly favored on thermodynamic grounds. Biologic formation of dinucleotides without catalysis is unlikely. DNA persists for considerable periods and has been detected in fossils. RNAs are less stable than DNA because their 2'-hydroxyl groups can act as nucleophiles for the chemical hydrolysis of 3',5'-phosphodiester bonds.\n\nPosttranslational modification of preformed polynucleotides can generate additional structures such as pseudouridine. Methylation by S-adenosylmethionine of a UMP in preformed tRNA forms TMP (thymidine monophosphate). TMP (thymidine monophosphate) contains ribose rather than deoxyribose.",
+      "char_start": 15292,
+      "char_end": 16356,
+      "section_path": [
+        "Nucleotides",
+        "DNA & RNA ARE POLYNUCLEOTIDES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "dna-rna-are-polynucleotides"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Each end of a polynucleotide is distinct. The '5'-end' or the '3'-end' of a polynucleotide is referred to based on these distinct ends. The representation pGpGpApTpCpA indicates that the terminal 5'-hydroxyl is phosphorylated. The representation GGATC shows only the base sequence. By convention, the base sequence is written with the 5'-base (G) at the left and the 3'-base (C) at the right.",
+      "char_start": 16409,
+      "char_end": 16801,
+      "section_path": [
+        "Nucleotides",
+        "DNA & RNA ARE POLYNUCLEOTIDES",
+        "Polynucleotides Are Directional Macromolecules"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polynucleotides-are-directional-macromolecules"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Under physiologic conditions, the amino and oxo tautomers of purines, pyrimidines, and their derivatives predominate.\nNucleic acids contain, in addition to A, G, C, T, and U, traces of 5-methylcytosine, 5-hydroxymethylcytosine, pseudouridine (ψ), and N-methylated heterocycles.\nA primed numeral indicates the hydroxyl to which the phosphoryl group of the sugars of mononucleotides (eg, 3'-GMP, 5'-dCMP) is attached. Additional phosphoryl groups linked to the first by acid anhydride bonds form nucleoside diphosphates and triphosphates.\nNucleoside triphosphates have high group transfer potential and participate in covalent bond syntheses. The cyclic phosphodiesters cAMP and cGMP function as intracellular second messengers.\nMononucleotides linked by 3' → 5'-phosphodiester bonds form polynucleotides, directional macromolecules with distinct 3'- and 5'-ends. When represented as pTpGpT or TGCATCA, the 5'-end is at the left, and all phosphodiester bonds are 3' → 5'.\nSynthetic analogs of purine and pyrimidine bases and their derivatives can serve as potent drugs, either by inhibiting an enzyme of nucleotide biosynthesis, or by being incorporated into DNA or RNA.",
+      "char_start": 16803,
+      "char_end": 17971,
+      "section_path": [
+        "Nucleotides"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-32-1",
+      "image_path": "images/25b70337d1c424adb02b732a878130198058ccbb0db9ac43230652428c02f574.jpg",
+      "caption": "Purine and pyrimidine. The atoms are numbered according to the international system.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-32-1]",
+      "description": "",
+      "label": "Figure 32-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3680,
+        3764
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "fig_id": "fig-x2",
+      "image_path": "images/d2624ef881bc8d082ae5982745d78b80497c4ab6acc3a6e9679e29a9b0917b35.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x2]",
+      "description": "",
+      "label": "",
+      "panel": "Pyrimidi",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "fig_id": "fig-32-2",
+      "image_path": "images/a3d8b53c91c6b155ca3bb9150d696504fb9bed91ff0012a7a8a10636acbf0a4b.jpg",
+      "caption": "Tautomerism of the oxo and amino functional groups of purines and pyrimidines.",
+      "referenced_from": "c004",
+      "marker": "[FIGURE:fig-32-2]",
+      "description": "",
+      "label": "Figure 32-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4347,
+        4425
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "fig_id": "fig-x4",
+      "image_path": "images/fe7b4d333f82326fef50bf6873229512fec50bfb3e14d2be701716f1ca54ff18.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x4]",
+      "description": "",
+      "label": "",
+      "panel": "Source:",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "purines-pyrimidines-are-heterocyclic-compounds"
+    },
+    {
+      "fig_id": "fig-32-3",
+      "image_path": "images/56b72145bd9d45ba4a118720639979cef92292eb21dc7087b49d77e5f183bf1f.jpg",
+      "caption": "Ribonucleosides, drawn as the syn conformers.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-32-3]",
+      "description": "",
+      "label": "Figure 32-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5078,
+        5123
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "fig_id": "fig-x6",
+      "image_path": "images/5e199d783fb96c66d67c4efb12ea20758a51f66c3cffdf3a5c3e79b45940088d.jpg",
+      "caption": "Chemical structure of a nucleoside analog featuring hydroxyl and amino substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x6]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5142,
+        5226
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/c0b290102ba01caa65371e2e0e8fcae4dfee3189a4848c4a9343aa7167b871a6.jpg",
+      "caption": "Chemical structure of a nucleoside analog featuring hydroxyl and amine functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5245,
+        5334
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "fig_id": "fig-x8",
+      "image_path": "images/3c6ef72668476b2f992cb27a8a586f9b7e57276631b12126fe859f5166c25266.jpg",
+      "caption": "Chemical structure of a nucleoside analog featuring carboxylic acid and hydroxyl groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x8]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5459,
+        5547
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleosides-are-n-glycosides"
+    },
+    {
+      "fig_id": "fig-32-4",
+      "image_path": "images/d2be536459aefea67b601b50846e5b5186151b8f294825617cd1287359fe22f2.jpg",
+      "caption": "ATP, its diphosphate, and its monophosphate.",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-32-4]",
+      "description": "",
+      "label": "Figure 32-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6185,
+        6229
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleotides-are-phosphorylated-nucleosides"
+    },
+    {
+      "fig_id": "fig-32-5",
+      "image_path": "images/9e4bec484d7b606da929300e18ad3ed75b21b3aad1e192e36a22403c82d337a9.jpg",
+      "caption": "The syn and anti conformers of adenosine differ with respect to orientation about the N-glycosidic bond.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-32-5]",
+      "description": "",
+      "label": "Figure 32-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6512,
+        6616
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heterocyclic-n-glycosides-exist-as-syn-and-anti-conformers"
+    },
+    {
+      "fig_id": "fig-32-6",
+      "image_path": "",
+      "caption": "Structures of AMP, dAMP, UMP, and TMP. ![](images/23c50a8ca6212af990849a45f0aa105fe154ee2a5cd2dbed2bd72e8289ee455e.jpg) Source: P. J. Kennelly, K. M. Botham, O. P. McGuinness, P. A. Well: Harper's Illustrated Biochemistry, 33 rd Edition Copyright © McGraw Hill. All rights reserved.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-32-6]",
+      "description": "",
+      "label": "Figure 32-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6637,
+        6919
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "heterocyclic-n-glycosides-exist-as-syn-and-anti-conformers"
+    },
+    {
+      "fig_id": "fig-32-7",
+      "image_path": "images/8c82ab214ec5b06c7d8f38ae54b2c723a869ba4f6bbcd5bc7f30d300907c0adc.jpg",
+      "caption": "Four uncommon naturally occurring pyrimidines and purines.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-32-7]",
+      "description": "",
+      "label": "Figure 32-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8075,
+        8133
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x13",
+      "image_path": "images/e420b8350a7404427e33269a8593be1d3e633d3c891c376a076123bfddaae749.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x13]",
+      "description": "",
+      "label": "",
+      "panel": "5-Hydrox",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x14",
+      "image_path": "images/27b3e79b88f4b50fb25506d6315bb51f55dfaa21d15bcda3ceee53949c5ad2ec.jpg",
+      "caption": "Chemical structure of a heterocyclic compound featuring two methyl groups and a pyridine ring.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x14]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8171,
+        8265
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x15",
+      "image_path": "images/73a65beb702471dca3a6b950404ae0ad176ae53f1431940962a89bb237c35c69.jpg",
+      "caption": "Chemical structure of a heterocyclic compound featuring a pyrimidine ring with methyl substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x15]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8285,
+        8384
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-32-8",
+      "image_path": "images/0952ea85a695a705e8da80c0a40fbf533003ed5b7d5483c5050e863eafbdec0d.jpg",
+      "caption": "Structures of hypoxanthine, xanthine, uric acid, and caffeine drawn as the oxo tautomers.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-32-8]",
+      "description": "",
+      "label": "Figure 32-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8405,
+        8494
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x17",
+      "image_path": "images/8e345fcc8c0e073c1f2ad1283e529a15a439555c3945de7806201df91e81568c.jpg",
+      "caption": "Chemical structure of a heterocyclic compound featuring two carbonyl groups and a pyrimidine ring, typical of nucleotide components.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x17]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8514,
+        8646
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x18",
+      "image_path": "images/5dbff7deef929529fa76018e7b7399e852f441c3251835fcced0978bec6fe4cd.jpg",
+      "caption": "Chemical structure of a nucleoside derivative featuring two carbonyl groups and a hydrazine substituent.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x18]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8666,
+        8770
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-x19",
+      "image_path": "images/8edf3645eaed5833d4234121be11a375eff2e5a2a290be29d856851684d518da.jpg",
+      "caption": "Chemical structure of a heterocyclic compound featuring methyl substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x19]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8790,
+        8866
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-32-9",
+      "image_path": "images/00b3a5649dcad07ceac5a1d94c5caddbc0c3753930c764d724e94a0cac35122b.jpg",
+      "caption": "cAMP, 3',5'-cyclic AMP, and cGMP, 3',5'-cyclic GMP.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-32-9]",
+      "description": "",
+      "label": "Figure 32-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8887,
+        8938
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "modification-of-polynucleotides-can-generate-additional"
+    },
+    {
+      "fig_id": "fig-32-10",
+      "image_path": "images/e9b3f43c6ebcae77fd44bf8151cc9429047ef252c8b5a0333c07e4e5bb671dda.jpg",
+      "caption": "Adenosine 3'-phosphate-5'-phosphosulfate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-32-10]",
+      "description": "",
+      "label": "Figure 32-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11342,
+        11383
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleotides-serve-diverse-physiologic-functions"
+    },
+    {
+      "fig_id": "fig-x22",
+      "image_path": "images/328bed749c2046f7cb3b436aeac4dcfb083a2998c036cc7c567ae954d0540d3c.jpg",
+      "caption": "Chemical structure of a d-Ribose polymer featuring an adenine side chain, with labeled functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x22]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11403,
+        11508
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "nucleotides-serve-diverse-physiologic-functions"
+    },
+    {
+      "fig_id": "fig-32-11",
+      "image_path": "images/fe8ed52bd37eb63a8d6c44ab8bb945f3ed37a481e1b2cdcd14e9a0155d26ded6.jpg",
+      "caption": "Selected synthetic pyrimidine and purine analogs.",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-32-11]",
+      "description": "",
+      "label": "Figure 32-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13314,
+        13363
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x24",
+      "image_path": "images/b21f27d31c6e0cedf2b159649a37cbf2f421a643e95d409cfb1bcc851e5302c9.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x24]",
+      "description": "",
+      "label": "",
+      "panel": "5-Fluoro",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x25",
+      "image_path": "images/f88708613a9a10e24f74cc058fe509a83696001858efd97dbb6b997c4446ac38.jpg",
+      "caption": "Chemical structure of a nucleotide sugar derivative featuring hydroxyl and carboxyl functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x25]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13401,
+        13503
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x26",
+      "image_path": "images/ac46fb2ff4190343ae762f2e456d2a9ad717d40011ab6bca156e50453c3a560e.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x26]",
+      "description": "",
+      "label": "",
+      "panel": "8-Azagua",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x27",
+      "image_path": "images/c9823a6868a58e18bdebdc2ba8b0b822c46234da1dccc72ebb38add1b6ea4023.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x27]",
+      "description": "",
+      "label": "",
+      "panel": "6-Mercap",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x28",
+      "image_path": "images/87ae08d2c0d0af9c46e40864cca221f0edc43938e485d2050574a0dc5ff81025.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x28]",
+      "description": "",
+      "label": "",
+      "panel": "6-Thiogu",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x29",
+      "image_path": "images/db8847f0ba9b2763730cbc62766a65675a1195b16f36ebd3908a4d31c5935c89.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x29]",
+      "description": "",
+      "label": "",
+      "panel": "Allopuri",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x30",
+      "image_path": "images/855637977b359a048950847aea7d2fe895f3e896ad544221e235cfefa1150532.jpg",
+      "caption": "Chemical structure of a nucleoside analog featuring hydroxyl and amino substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x30]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13595,
+        13679
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-x31",
+      "image_path": "images/96c14afab0620997d0fe4618a83c99aebb004a02bbc9f8a1e5f364c72d440cc3.jpg",
+      "caption": "Structure of a heterocyclic compound featuring nitro, sulfonamide, and methyl groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x31]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13699,
+        13784
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "synthetic-nucleotide-analogs-are-used-in-chemotherapy"
+    },
+    {
+      "fig_id": "fig-32-12",
+      "image_path": "images/7cfd2cf87b6ebea2629e1c037cec99426568c8402a12280eebe8958f8e0bce27.jpg",
+      "caption": "Synthetic derivatives of nucleoside triphosphates incapable of undergoing hydrolytic release of the terminal phosphoryl group. (Pu/Py, a purine or pyrimidine base; R, ribose or deoxyribose.) Shown are the parent (hydrolyzable) nucleoside triphosphate (top) and the unhydrolyzable β -methylene (center) and γ -imino derivatives (bottom).",
+      "referenced_from": "c015",
+      "marker": "[FIGURE:fig-32-12]",
+      "description": "",
+      "label": "Figure 32-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14487,
+        14823
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "non-hydrolyzable-nucleoside-triphosphate-analogs-serve-as"
+    },
+    {
+      "fig_id": "fig-x33",
+      "image_path": "images/074a1482d411a52a4e5696b0b9dfb42ef6b4db663586c607186c818040254af3.jpg",
+      "caption": "Chemical structure of a phosphorus-containing polymer featuring ester and methyl groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x33]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14843,
+        14931
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "non-hydrolyzable-nucleoside-triphosphate-analogs-serve-as"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-32-1",
+      "label": "Table 32-1",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "nucleotides-serve-diverse-physiologic-functions"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Write structural formulas to represent the amino- and oxo-tautomers of a purine and of a pyrimidine and state which tautomer predominates under physiologic conditions.\nReproduce the structural formulas for the principal nucleotides present in DNA and in RNA and the less common nucleotides 5-methylcytosine, 5-hydroxymethylcytosine, and pseudouridine (ψ).\nRepresent D-ribose or 2-deoxy-D-ribose linked as either a syn or an anti conformer to a purine, name the bond between the sugar and the base, and indicate which conformer predominates under most physiologic conditions.\nNumber the C and N atoms of a pyrimidine ribonucleoside and of a purine deoxyribonucleoside, including using a primed numeral for C atoms of the sugars.\nCompare the phosphoryl group transfer potential of each phosphoryl group of a nucleoside triphosphate.\nOutline the physiologic roles of the cyclic phosphodiesters cAMP and cGMP.\nAppreciate that polynucleotides are directional macromolecules composed of mononucleotides linked by 3' arrow 5' -phosphodiester bonds.\nBe familiar with the abbreviated representations of polynucleotide structures such as pTpGpT or TGCATCA, for which the 5'-end is always shown at the left and all phosphodiester bonds are 3' → 5'.\nFor specific synthetic analogs of purine and pyrimidine bases and their derivatives that have served as anticancer drugs, indicate in what ways these compounds inhibit metabolism.",
+      "char_start": 15,
+      "char_end": 1432,
+      "section_path": [
+        "Nucleotides"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Blackburn GM, Gait MJ, Loaks D, et al: Nucleic Acids in Chemistry and Biology, 3rd ed., RSC Publishing, 2006.\nKokic G., Hillen H.S., Tegunov D, et al. Mechanism of SARS-CoV-2 polymerase stalling by remdesivir. Nat Commun 2021;12:279. https://doi.org/10.1038/s41467-020-20542-0 [PubMed: 33436624]\nNasser N, Tonnerre P, Mansouri A, Asselah T: Hepatitis-B virus: replication cycle, targets, and antiviral approaches. Curr Opin Virol 2023. http://doi.org10.1016/j.coviro.2023.\nPacher P, Nivorozhkin A, Szabo C: Therapeutic effects of xanthine oxidase inhibitors: renaissance half a century after the discovery of allopurinol. Pharmacol Rev 2006;58:87. [PubMed: 16507884]",
+      "char_start": 17973,
+      "char_end": 18639,
+      "section_path": [
+        "Nucleotides"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-32-6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x14",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x15",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x17",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x18",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x19",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-32-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x22",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x24",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x25",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x26",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x27",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x28",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x29",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x30",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x31",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x33",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-32-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-32-1",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-32-1",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_32_nucleotides.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_32_nucleotides/chapter_32_nucleotides.normalized.md"
+}

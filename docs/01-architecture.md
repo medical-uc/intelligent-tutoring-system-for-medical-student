@@ -37,6 +37,12 @@ The shared BKT *parameters* that computation runs on (`p_init`/`p_transit`/`p_sl
 a per-student computation, so this doesn't move `p_know` itself server-side.
 Full detail: [09-knowledge-tracing.md](09-knowledge-tracing.md).
 
+**A fifth piece:** the actual client, a native iOS app in a sibling repo
+(`personalized-medical-learning-ios/`, not part of this repo). Full call-by-call
+sequence diagrams for every major flow (launch/auth, dashboard load, quiz, flashcards,
+mastery sync, session expiry) are in
+[10-frontend-integration.md](10-frontend-integration.md).
+
 ## System diagram
 
 ```mermaid
@@ -52,6 +58,7 @@ flowchart LR
     Bank -.served by src/quiz/bank.py.-> API[FastAPI app]
     API <--> Neo4j[(Neo4j student graph)]
     Student([Student]) <--> API
+    iOS["iOS app\n(personalized-medical-learning-ios)"] <--> API
 ```
 
 The two dashed edges are the important signal: this is **not** one continuous automated
@@ -153,6 +160,8 @@ docker/, docker-compose.yml, Makefile   infra: neo4j, postgres/minio/mlflow
 ```
 
 See [02-conventions.md](02-conventions.md) for why the gitignore split is deliberate.
+The client that actually talks to this repo's API lives in a separate repo entirely —
+see [10-frontend-integration.md](10-frontend-integration.md).
 
 **Note on `olmocr.ipynb`/`infinity_parser.ipynb`:** alternative PDF-parsing approaches
 added on the `feat/textbook-parser` branch, not yet integrated into the production

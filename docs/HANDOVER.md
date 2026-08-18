@@ -1,10 +1,19 @@
 # Project Handover — Intelligent Tutoring System for Medical Student
 
-Date: 2026-08-12
+Date: 2026-08-14
 Branch at handover: `feat/textbook-parser` (8 commits ahead of `main`, not yet merged, clean tree)
-Prior docs: [01-architecture.md](01-architecture.md) → [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md) —
+Prior docs: [01-architecture.md](01-architecture.md) → [09-knowledge-tracing.md](09-knowledge-tracing.md) —
 detailed, kept in sync as of this handover. This handover layers on top and flags what's
 changed or missing since, rather than repeating them.
+
+**Since the 2026-08-12 revision of this handover:** [10-frontend-integration.md](10-frontend-integration.md)
+was added — full request-by-request sequence diagrams for every major iOS client flow
+(app launch/auth, dashboard load, quiz answer loop, flashcard review loop, mastery sync,
+session expiry), traced directly from the client source in the sibling
+`personalized-medical-learning-ios` repo. No backend behavior changed; this closes a
+documentation gap (the API docs previously described endpoint shape but not the actual
+client call sequences around them, e.g. the on-device BKT step and the double
+`PUT /quiz/mastery` push that happen around `/check` and `/log`).
 
 **Since the 2026-08-11 revision of this handover:** commit `2892222` ported a standalone
 `domain_kg` staged knowledge-graph pipeline (stages 1-8: parse → NER/relation-extract →
@@ -96,10 +105,13 @@ to Neo4j server-side and the live app still gets mastery from client-pushed `PUT
 halves: an offline content pipeline that turns PDF lecture slides into a bank of
 multiple-choice questions and flashcards, and a live FastAPI service that serves that
 content to students and tracks their learning (answers, streaks, mastery, spaced
-repetition) in a Neo4j graph. No formal problem statement / success-metric document found
-in-repo (no `docs/00-*` or product brief) — get the original problem framing and target
-success criteria (e.g. target learning-outcome improvement, adoption numbers) directly
-from the outgoing owner; not derivable from code.
+repetition) in a Neo4j graph. A native iOS app (`personalized-medical-learning-ios`, a
+**separate sibling repo**, not part of this one) is the actual client — see
+[10-frontend-integration.md](10-frontend-integration.md) for full request sequences
+against every endpoint this repo serves. No formal problem statement / success-metric
+document found in-repo (no `docs/00-*` or product brief) — get the original problem
+framing and target success criteria (e.g. target learning-outcome improvement, adoption
+numbers) directly from the outgoing owner; not derivable from code.
 
 **Current status.** Prototype / active development, not production-hardened:
 - No deployment config in-repo (§5).
@@ -506,7 +518,9 @@ criteria referenced in §1.
 
 **Needs a judgment call, not just documentation:**
 
-- `PUT /quiz/mastery` — traced in full (§6 above, [06-student-graph.md](06-student-graph.md)):
+- `PUT /quiz/mastery` — traced in full (§6 above, [06-student-graph.md](06-student-graph.md),
+  and the full client call sequence in
+  [10-frontend-integration.md § 4](10-frontend-integration.md#4-quiz-flow--setup--answer-loop--finish)):
   client computes `p_know`, server persists it verbatim with no audit trail. Not a code
   bug, but a real question of whether this satisfies the original "mastery is never
   asserted" design intent — needs a decision from whoever owns the BKT client, not a fix.

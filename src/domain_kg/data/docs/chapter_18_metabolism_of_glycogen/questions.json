@@ -1,0 +1,669 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Muscle is part of which structure?",
+    "options": [
+      "brain",
+      "GBE1",
+      "intestinal",
+      "liver",
+      "tissue"
+    ],
+    "answer": "liver",
+    "rationale": "The total muscle mass of the body is considerably greater than that of the liver.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "part_of",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is secreted by the liver?",
+    "options": [
+      "carbon",
+      "dextrin",
+      "glucose",
+      "lactate",
+      "polysaccharide"
+    ],
+    "answer": "glucose",
+    "rationale": "The liver makes about 9 grams of glucose per hour after an overnight fast, of which 6 g/h is used by glucose-requiring tissues such as the brain and red blood cells.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "secretes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance does the brain require?",
+    "options": [
+      "carbon",
+      "dextrin",
+      "glucose",
+      "lactate",
+      "pyridoxal phosphate"
+    ],
+    "answer": "glucose",
+    "rationale": "The liver makes about 9 grams of glucose per hour after an overnight fast, of which 6 g/h is used by glucose-requiring tissues such as the brain and red blood cells.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance do red blood cells require?",
+    "options": [
+      "carbon",
+      "dextrin",
+      "glucose",
+      "lactate",
+      "pyridoxal phosphate"
+    ],
+    "answer": "glucose",
+    "rationale": "The liver makes about 9 grams of glucose per hour after an overnight fast, of which 6 g/h is used by glucose-requiring tissues such as the brain and red blood cells.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is transported by the intestine?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "glycogen",
+      "low-carbohydrate",
+      "pyruvate"
+    ],
+    "answer": "carbohydrates",
+    "rationale": "Liver glycogen stores decrease to about 20 g depends on when the last meal was eaten, the rate of intestinal absorption of carbohydrates, and the composition of the last meal.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "transports",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Pyruvate is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glucose-6-phosphatase lacks",
+      "glycogen synthase deficiency",
+      "IX"
+    ],
+    "answer": "alanine",
+    "rationale": "During muscle glycogenolysis, pyruvate formed by glycolysis in muscle can be transaminated to alanine or reduced to lactate.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is stored in muscle?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glucose-6-phosphatase lacks",
+      "glycogen synthase deficiency",
+      "IX"
+    ],
+    "answer": "amino acids",
+    "rationale": "Muscle protein stores can be broken down to release glucogenic amino acids, which can be exported from muscle and used for gluconeogenesis in the liver.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "stores",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which of the following is a recognised cause of hypoglycemia?",
+    "options": [
+      "alanine",
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glucose-6-phosphatase deficiency",
+    "rationale": "Type I glycogen storage disease, known as von Gierke disease, involves a deficiency in glucose-6-phosphatase or the endoplasmic reticulum glucose-6-phosphate transporter, affecting the genes G6PC and SLC37A4. Type I glycogen storage disease is characterized by glycogen accumulation in liver and renal tubule cells, hypoglycemia, lactic acidemia, ketosis, and hyperlipemia.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which of the following is a recognised cause of hyperketonemia?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glycogen synthase deficiency",
+    "rationale": "Type 0 glycogen storage disease involves a deficiency in glycogen synthase, affecting the genes GYS2 and GYS1. Type 0 glycogen storage disease is characterized by hypoglycemia, hyperketonemia, and early death.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which of the following is a recognised cause of death?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glycogen synthase deficiency",
+    "rationale": "Type 0 glycogen storage disease involves a deficiency in glycogen synthase, affecting the genes GYS2 and GYS1. Type 0 glycogen storage disease is characterized by hypoglycemia, hyperketonemia, and early death.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of ketosis?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glucose-6-phosphatase deficiency",
+    "rationale": "Type I glycogen storage disease, known as von Gierke disease, involves a deficiency in glucose-6-phosphatase or the endoplasmic reticulum glucose-6-phosphate transporter, affecting the genes G6PC and SLC37A4. Type I glycogen storage disease is characterized by glycogen accumulation in liver and renal tubule cells, hypoglycemia, lactic acidemia, ketosis, and hyperlipemia.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognised cause of hyperlipemia?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glucose-6-phosphatase deficiency",
+    "rationale": "Type I glycogen storage disease, known as von Gierke disease, involves a deficiency in glucose-6-phosphatase or the endoplasmic reticulum glucose-6-phosphate transporter, affecting the genes G6PC and SLC37A4. Type I glycogen storage disease is characterized by glycogen accumulation in liver and renal tubule cells, hypoglycemia, lactic acidemia, ketosis, and hyperlipemia.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of muscle dystrophy?",
+    "options": [
+      "adult-onset",
+      "glycogen storage diseases",
+      "hemolytic anemia",
+      "hypoglycemia",
+      "neuroglycopenic"
+    ],
+    "answer": "adult-onset",
+    "rationale": "The juvenile-onset variant leads to muscle hypotonia and death from heart failure by age 2, while the adult-onset variant leads to muscle dystrophy.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which of the following is a recognised cause of amylopectinosis?",
+    "options": [
+      "brain",
+      "GBE1",
+      "liver",
+      "muscle",
+      "tissue"
+    ],
+    "answer": "GBE1",
+    "rationale": "Type IV glycogen storage disease, known as Amylopectinosis or Andersen disease, involves a deficiency in the glycogen branching enzyme, affecting the gene GBE1.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which of the following is a recognised cause of Tarui disease?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "erythrocyte phosphofructokinase 1 deficiency",
+    "rationale": "Type VII glycogen storage disease, known as Tarui disease, involves a deficiency in muscle and erythrocyte phosphofructokinase 1, affecting the gene PFKM.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognised cause of Type IX glycogen storage disease?",
+    "options": [
+      "alanine",
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "muscle phosphorylase kinase deficiency",
+    "rationale": "Type IX glycogen storage disease involves a deficiency in liver and muscle phosphorylase kinase, affecting the genes PHKA2, PHKB, PHKG2, and PHKA1.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Which of the following is a recognised cause of Fanconi-Bickel disease?",
+    "options": [
+      "erythrocyte phosphofructokinase 1 deficiency",
+      "glucose transporter 2 deficiency",
+      "glucose-6-phosphatase deficiency",
+      "glycogen synthase deficiency",
+      "muscle phosphorylase kinase deficiency"
+    ],
+    "answer": "glucose transporter 2 deficiency",
+    "rationale": "Type XI glycogen storage disease, known as Fanconi-Bickel disease, involves a deficiency in the glucose transporter 2, affecting the gene SLC2A2.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognised cause of myopathy?",
+    "options": [
+      "adult-onset",
+      "glycogen storage diseases",
+      "hemolytic anemia",
+      "hypoglycemia",
+      "neuroglycopenic"
+    ],
+    "answer": "hemolytic anemia",
+    "rationale": "Type XII glycogen storage disease is characterized by myopathy, exercise intolerance, and hemolytic anemia.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which substance is required by muscle for glycogen storage?",
+    "options": [
+      "carbohydrates",
+      "glucose-6-phosphate",
+      "low-carbohydrate",
+      "oligosaccharide",
+      "pyruvate"
+    ],
+    "answer": "carbohydrates",
+    "rationale": "Consuming a diet that supplies ample carbohydrates and energy to meet or exceed daily expenditure gradually augments muscle glycogen stores over days and weeks.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognised cause of weight loss?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "glycogen",
+      "low-carbohydrate",
+      "pyruvate"
+    ],
+    "answer": "low-carbohydrate",
+    "rationale": "Thus, the early rapid weight loss seen when dieting or switching to a low-carbohydrate diet is partly due to water loss and not as much fat loss.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Glycogenin acts on which substrate?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "glycogen",
+      "UDPGlc"
+    ],
+    "answer": "UDPGlc",
+    "rationale": "Glycogenin catalyzes the transfer of a further seven glucose residues from UDPGlc, in 1 → 4 linkage, to form a glycogen primer that is the substrate for glycogen synthase.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE > Glycogen Biosynthesis Involves UDP-Glucose",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "What substance is required for glycogen synthesis to occur?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "low-carbohydrate",
+      "oligosaccharide",
+      "pyruvate"
+    ],
+    "answer": "oligosaccharide",
+    "rationale": "The self-glycosylation of glycogen and the resulting oligosaccharide primer are required for glycogen synthesis to occur.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > BIOMEDICAL IMPORTANCE > Glycogen Biosynthesis Involves UDP-Glucose",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "What is the substrate for glycogen phosphorylase in glycogenolysis?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "pyruvate",
+      "UDPGlc"
+    ],
+    "answer": "glucose-1-phosphate",
+    "rationale": "Glycogen phosphorylase catalyzes the rate-limiting step in glycogenolysis, which involves the phosphorolytic cleavage of the 1 → 4 linkages of glycogen to yield glucose-1-phosphate (Figure 18--4).",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which substance is required by glycogen phosphorylase as a coenzyme?",
+    "options": [
+      "carbon",
+      "dextrin",
+      "glucose",
+      "lactate",
+      "pyridoxal phosphate"
+    ],
+    "answer": "pyridoxal phosphate",
+    "rationale": "Glycogen phosphorylase requires pyridoxal phosphate as its coenzyme.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Phosphoglucomutase acts on which substrate?",
+    "options": [
+      "carbohydrates",
+      "glucose-6-phosphate",
+      "glycogen",
+      "pyruvate",
+      "UDPGlc"
+    ],
+    "answer": "glucose-6-phosphate",
+    "rationale": "Phosphoglucomutase allows glucose-1-phosphate derived from hydrolysis of glycogen to form glucose-6-phosphate.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "In which cellular structure is glucose-6-phosphatase located?",
+    "options": [
+      "brain",
+      "liver",
+      "lumen",
+      "muscle",
+      "tissue"
+    ],
+    "answer": "lumen",
+    "rationale": "Glucose-6-phosphatase is located in the lumen of the smooth endoplasmic reticulum.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGENOLYSIS IS NOT THE REVERSE OF GLYCOGENESIS, IT IS A SEPARATE PATHWAY",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "In which structure is glycogen phosphorylase found?",
+    "options": [
+      "brain",
+      "liver",
+      "lumen",
+      "muscle",
+      "tissue"
+    ],
+    "answer": "muscle",
+    "rationale": "A flowchart for the control of glycogen phosphorylase in the muscles is shown in Figure 18-6.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > CAMP ACTIVATES GLYCOGEN PHOSPHORYLASE",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of inherited disorders?",
+    "options": [
+      "carbohydrates",
+      "glucose-1-phosphate",
+      "glycogen abnormal type or quantity",
+      "low-carbohydrate",
+      "pyruvate"
+    ],
+    "answer": "glycogen abnormal type or quantity",
+    "rationale": "Glycogen storage disease is a generic term for a group of inherited disorders characterized by the deposition of an abnormal type or quantity of glycogen in tissues, or failure to mobilize glycogen.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGEN METABOLISM IS REGULATED BY A BALANCE IN ACTIVITIES BETWEEN GLYCOGEN SYNTHASE & PHOSPHORYLASE > Glycogen Storage Diseases Are Inherited",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of retardation and intellectual disability?",
+    "options": [
+      "adult-onset",
+      "glycogen storage diseases",
+      "hemolytic anemia",
+      "hypoglycemia",
+      "neuroglycopenic"
+    ],
+    "answer": "glycogen storage diseases",
+    "rationale": "Nutritional measures can limit growth retardation and intellectual disability in individuals with glycogen storage diseases.",
+    "citation": "chapter_18_metabolism_of_glycogen — Metabolism of Glycogen > GLYCOGEN METABOLISM IS REGULATED BY A BALANCE IN ACTIVITIES BETWEEN GLYCOGEN SYNTHASE & PHOSPHORYLASE > Glycogen Storage Diseases Are Inherited",
+    "relation": "caused_by",
+    "confidence": 0.7,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

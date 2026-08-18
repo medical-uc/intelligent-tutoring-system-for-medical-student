@@ -1,0 +1,968 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is transported by lipoproteins?",
+    "options": [
+      "blood",
+      "cholesterol",
+      "lipids",
+      "long-chain fatty acids",
+      "protons"
+    ],
+    "answer": "lipids",
+    "rationale": "Lipoproteins transport lipids from the intestines as chylomicrons. The liver releases lipids as very-low-density lipoproteins (VLDL).",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BIOMEDICAL IMPORTANCE",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is stored in adipose tissue?",
+    "options": [
+      "cholesterol",
+      "cholesteryl ester",
+      "phospholipid",
+      "plasma",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "Triacylglycerols are stored in adipose tissue in large lipid droplets.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of inherited defects?",
+    "options": [
+      "alcoholism",
+      "atherosclerosis",
+      "fatty infiltration",
+      "hypercholesterolemia",
+      "pallor"
+    ],
+    "answer": "hypercholesterolemia",
+    "rationale": "Some inherited defects cause hypercholesterolemia and premature atherosclerosis. Obesity, particularly abdominal obesity, is a risk factor for increased mortality.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Obesity is a risk factor for which condition?",
+    "options": [
+      "alzheimer disease",
+      "diabetes mellitus",
+      "human neurodegenerative disorders",
+      "hyperlipoproteinemias",
+      "liver disorder"
+    ],
+    "answer": "diabetes mellitus",
+    "rationale": "Obesity is a risk factor for type 2 diabetes mellitus. Obesity is a risk factor for hyperlipidemia.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BIOMEDICAL IMPORTANCE",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Apo B-48 is converted into which substance?",
+    "options": [
+      "apo B-100",
+      "chylomicrons",
+      "discoidal HDL",
+      "lipoproteins",
+      "UCP1"
+    ],
+    "answer": "apo B-100",
+    "rationale": "Apo B-48 is produced by introducing a stop signal into the mRNA transcript for apo B-100 through RNA editing. Apolipoproteins C-I, C-II, and C-III are smaller polypeptides with molecular masses ranging from 7000 to 9000 Da and are freely transferable between several lipoproteins.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Apo C-II acts on which substrate?",
+    "options": [
+      "cholesterol acyltransferase",
+      "chylomicrons",
+      "intermediate-density lipoprotein",
+      "lipoproteins",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "cholesterol acyltransferase",
+    "rationale": "Apolipoproteins act as enzyme cofactors, for example, apo C-II for lipoprotein lipase and apo A-I for lecithin:cholesterol acyltransferase (LCAT).",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Apo A-I acts on which substrate?",
+    "options": [
+      "chylomicrons",
+      "intermediate-density lipoprotein",
+      "lecithin-cholesterol acyltransferase",
+      "lipoproteins",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "lecithin-cholesterol acyltransferase",
+    "rationale": "Apolipoproteins act as enzyme cofactors, for example, apo C-II for lipoprotein lipase and apo A-I for lecithin:cholesterol acyltransferase (LCAT).",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Apo D is a risk factor for which condition?",
+    "options": [
+      "diabetes mellitus",
+      "human neurodegenerative disorders",
+      "hyperglycemia",
+      "hyperlipidemia",
+      "hypertension"
+    ],
+    "answer": "human neurodegenerative disorders",
+    "rationale": "Apo D is believed to be an important factor in human neurodegenerative disorders.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Apo E is a risk factor for which condition?",
+    "options": [
+      "alzheimer disease",
+      "diabetes mellitus",
+      "hyperglycemia",
+      "hyperlipidemia",
+      "hypertension"
+    ],
+    "answer": "alzheimer disease",
+    "rationale": "Polymorphism of the gene for Apo-E is associated with the risk of Alzheimer disease; APOE4 increases risk, while APOE2 decreases risk compared to APOE3.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "APOE4 is a risk factor for which condition?",
+    "options": [
+      "alzheimer disease",
+      "diabetes mellitus",
+      "hyperglycemia",
+      "hyperlipidemia",
+      "hypertension"
+    ],
+    "answer": "alzheimer disease",
+    "rationale": "Polymorphism of the gene for Apo-E is associated with the risk of Alzheimer disease; APOE4 increases risk, while APOE2 decreases risk compared to APOE3.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LIPIDS ARE TRANSPORTED IN THE PLASMA AS LIPOPROTEINS > The Distribution of Apolipoproteins Characterizes the Lipoprotein",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of diabetes mellitus?",
+    "options": [
+      "cholesteryl ester",
+      "FFA rise rise",
+      "lipids",
+      "phospholipid",
+      "triacylglycerol"
+    ],
+    "answer": "FFA rise rise",
+    "rationale": "In uncontrolled diabetes mellitus, FFA levels may rise to as much as 2 mEq/mL.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > FREE FATTY ACIDS ARE RAPIDLY METABOLIZED",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Lipolytic activity is found within which structure?",
+    "options": [
+      "adipose tissue",
+      "endothelium",
+      "kidney",
+      "liver",
+      "tissues"
+    ],
+    "answer": "adipose tissue",
+    "rationale": "The plasma-FFA concentration is determined by the rate of lipolysis in adipose tissue.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > FREE FATTY ACIDS ARE RAPIDLY METABOLIZED",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Phospholipid requires which substance as a cofactor?",
+    "options": [
+      "apo B-100",
+      "apo C-II",
+      "chylomicrons",
+      "lipoproteins",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "apo C-II",
+    "rationale": "Phospholipids are required as cofactors for lipoprotein lipase activity. Apo C-II is required as a cofactor for lipoprotein lipase activity. Apo A-II acts as an inhibitor of lipoprotein lipase activity.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Triacylglycerol is converted into which substance during hydrolysis?",
+    "options": [
+      "1.019",
+      "acylglycerol",
+      "C-II",
+      "diacylglycerol acyl",
+      "fat"
+    ],
+    "answer": "diacylglycerol acyl",
+    "rationale": "Triacylglycerol is hydrolyzed progressively through a diacylglycerol to a monoacylglycerol and finally to FFA plus glycerol. Some of the released FFA return to the circulation, attached to albumin.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Diacylglycerol is converted into which substance during hydrolysis?",
+    "options": [
+      "1.019",
+      "acylglycerol",
+      "C-II",
+      "fat",
+      "glycerol-3-phosphate"
+    ],
+    "answer": "acylglycerol",
+    "rationale": "Triacylglycerol is hydrolyzed progressively through a diacylglycerol to a monoacylglycerol and finally to FFA plus glycerol. Some of the released FFA return to the circulation, attached to albumin.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which substance transports unesterified long-chain fatty acids in the circulation?",
+    "options": [
+      "albumin",
+      "apo E",
+      "apolipoproteins C",
+      "chylomicrons",
+      "lipoproteins"
+    ],
+    "answer": "albumin",
+    "rationale": "Some of the released FFA return to the circulation, attached to albumin. The bulk of the released FFA is transported into the tissue.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Insulin is found within which structure?",
+    "options": [
+      "adipose tissue",
+      "brown adipose tissue",
+      "endothelium",
+      "kidney",
+      "liver"
+    ],
+    "answer": "endothelium",
+    "rationale": "In adipose tissue, insulin enhances the translocation of lipoprotein lipase to the luminal surface of the capillary endothelium.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Chylomicrons act on which substrate?",
+    "options": [
+      "cholesteryl ester",
+      "fatty acids",
+      "phospholipid",
+      "plasma",
+      "unesterified long-chain fatty acids"
+    ],
+    "answer": "cholesteryl ester",
+    "rationale": "The resulting chylomicron remnant is relatively enriched in cholesterol and cholesteryl esters because of the loss of triacylglycerol.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > CHYLOMICRONS & VLDL ARE RAPIDLY CATABOLIZED > Triacylglycerols of Chylomicrons & VLDL Are Hydrolyzed by Lipoprotein Lipase to Form Remnant Lipoproteins",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which of the following is a recognised cause of hypercholesterolemia?",
+    "options": [
+      "alcoholism",
+      "atherosclerosis",
+      "fatty infiltration",
+      "hyperlipoproteinemias",
+      "pallor"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Increased blood LDL cholesterol levels in familial hypercholesterolemia cause premature atherosclerosis.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > LDL IS METABOLIZED VIA THE LDL RECEPTOR",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which substance is secreted by the intestine?",
+    "options": [
+      "adiponectin",
+      "chylomicrons",
+      "intestinal HDL",
+      "leptin",
+      "lipoproteins"
+    ],
+    "answer": "intestinal HDL",
+    "rationale": "HDL is synthesized and secreted from both the liver and the intestine.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > HDL TAKES PART IN BOTH LIPOPROTEIN TRIACYLGLYCEROL & CHOLESTEROL METABOLISM",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is transported by liver HDL?",
+    "options": [
+      "albumin",
+      "apo A-I",
+      "apo E",
+      "insulin",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "apo E",
+    "rationale": "Apo C and apo E are synthesized in the liver and transferred from liver HDL to intestinal HDL when the latter enters the plasma.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > HDL TAKES PART IN BOTH LIPOPROTEIN TRIACYLGLYCEROL & CHOLESTEROL METABOLISM",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substance is transported by intestinal HDL?",
+    "options": [
+      "albumin",
+      "apo E",
+      "chylomicrons",
+      "lipoproteins",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "apo E",
+    "rationale": "Apo C and apo E are synthesized in the liver and transferred from liver HDL to intestinal HDL when the latter enters the plasma.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > HDL TAKES PART IN BOTH LIPOPROTEIN TRIACYLGLYCEROL & CHOLESTEROL METABOLISM",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Cholesterol is converted into which substance by LCAT?",
+    "options": [
+      "fatty acids",
+      "lipids",
+      "lysolecithin",
+      "phospholipid",
+      "triacylglycerol"
+    ],
+    "answer": "lysolecithin",
+    "rationale": "The surface phospholipid and free cholesterol are converted into cholesteryl esters and lysolecithin by LCAT.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > HDL TAKES PART IN BOTH LIPOPROTEIN TRIACYLGLYCEROL & CHOLESTEROL METABOLISM",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which substance is transported by lysolecithin?",
+    "options": [
+      "albumin",
+      "apo E",
+      "apolipoproteins C",
+      "chylomicrons",
+      "lipoproteins"
+    ],
+    "answer": "albumin",
+    "rationale": "Lysolecithin is transferred to plasma albumin.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > HDL TAKES PART IN BOTH LIPOPROTEIN TRIACYLGLYCEROL & CHOLESTEROL METABOLISM",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which substance is synthesised by the liver in the fed state?",
+    "options": [
+      "cholesteryl ester",
+      "lipids",
+      "long-chain fatty acids",
+      "phospholipid",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "The fed state rather than the starved state enhances both the synthesis of triacylglycerol and the secretion of VLDL by the liver. The consumption of diets high in carbohydrate, particularly if they contain sucrose or fructose, leads to high rates of lipogenesis and esterification of fatty acids.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > THE LIVER PLAYS A CENTRAL ROLE IN LIPID TRANSPORT & METABOLISM > Hepatic VLDL Secretion Is Related to Dietary & Hormonal Status",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which of the following is a recognised cause of fatty liver?",
+    "options": [
+      "cholesteryl ester",
+      "FFA rise rise",
+      "lipids",
+      "phospholipid",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "Fatty liver occurs when there is extensive accumulation of triacylglycerol in the liver. Nonalcoholic fatty liver disease (NAFLD) is the most common liver disorder worldwide.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > THE LIVER PLAYS A CENTRAL ROLE IN LIPID TRANSPORT & METABOLISM > Imbalance in the Rate of Triacylglycerol Formation & Export Causes Fatty Liver",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of fatty infiltration in twin lamb disease?",
+    "options": [
+      "alcoholism",
+      "atherosclerosis",
+      "hypercholesterolemia",
+      "hyperlipoproteinemias",
+      "pallor"
+    ],
+    "answer": "pallor",
+    "rationale": "In twin lamb disease, fatty infiltration is severe enough to cause visible pallor and enlargement of the liver. In twin lamb disease, fatty infiltration can possibly lead to liver dysfunction.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > THE LIVER PLAYS A CENTRAL ROLE IN LIPID TRANSPORT & METABOLISM > Imbalance in the Rate of Triacylglycerol Formation & Export Causes Fatty Liver",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of vitamin deficiencies?",
+    "options": [
+      "alcoholism",
+      "atherosclerosis",
+      "fatty infiltration",
+      "hypercholesterolemia",
+      "pallor"
+    ],
+    "answer": "fatty infiltration",
+    "rationale": "Vitamin deficiencies, such as linoleic acid, pyridoxine, and pantothenic acid, can cause fatty infiltration of the liver.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > THE LIVER PLAYS A CENTRAL ROLE IN LIPID TRANSPORT & METABOLISM > Imbalance in the Rate of Triacylglycerol Formation & Export Causes Fatty Liver",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of alcoholic liver disease (ALD)?",
+    "options": [
+      "alcoholism",
+      "atherosclerosis",
+      "fatty infiltration",
+      "hypercholesterolemia",
+      "pallor"
+    ],
+    "answer": "alcoholism",
+    "rationale": "Alcoholic liver disease (ALD) is caused by alcoholism. Alcoholic liver disease (ALD) ultimately leads to cirrhosis.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > THE LIVER PLAYS A CENTRAL ROLE IN LIPID TRANSPORT & METABOLISM > Ethanol Also Causes Fatty Liver",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which substance is secreted by adipose tissue as a hormone?",
+    "options": [
+      "chylomicrons",
+      "intestinal HDL",
+      "leptin",
+      "lipoproteins",
+      "triacylglycerol-rich lipoproteins"
+    ],
+    "answer": "leptin",
+    "rationale": "Adipose tissue secretes hormones such as leptin and adiponectin, known as adipokines.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which substance is required for the synthesis of triacylglycerol?",
+    "options": [
+      "1.019",
+      "C-II",
+      "fat",
+      "glucose",
+      "glycerol-3-phosphate"
+    ],
+    "answer": "glycerol-3-phosphate",
+    "rationale": "Triacylglycerol is synthesized from acyl-CoA and glycerol-3-phosphate.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > The Provision of Glycerol-3-Phosphate Regulates Esterification: Lipolysis Is Controlled by Hormone-Sensitive Lipase",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "In which structure is glycerol primarily processed?",
+    "options": [
+      "brown adipose tissue",
+      "endothelium",
+      "intestine",
+      "liver",
+      "organs"
+    ],
+    "answer": "liver",
+    "rationale": "Glycerol enters the blood and is taken up and transported to tissues such as the liver and kidney, which possess an active glycerol kinase.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > The Provision of Glycerol-3-Phosphate Regulates Esterification: Lipolysis Is Controlled by Hormone-Sensitive Lipase",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which substance is synthesized by adipose tissue?",
+    "options": [
+      "cholesterol",
+      "cholesteryl ester",
+      "long-chain fatty acids",
+      "phospholipid",
+      "plasma"
+    ],
+    "answer": "long-chain fatty acids",
+    "rationale": "Glucose can be converted to long-chain fatty acids via acyl-CoA in adipose tissue.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > Increased Glucose Metabolism Reduces the Output of FFA",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which substance is synthesized by insulin?",
+    "options": [
+      "1.019",
+      "acylglycerol",
+      "aqueous",
+      "C-II",
+      "fat"
+    ],
+    "answer": "acylglycerol",
+    "rationale": "Insulin enhances lipogenesis and the synthesis of acylglycerol. The effects of insulin are dependent on the presence of glucose.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > Adipose Tissue Lipolysis Is Inhibited by Insulin",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "What substance is necessary for the effects of insulin?",
+    "options": [
+      "1.019",
+      "C-II",
+      "fat",
+      "glucose",
+      "glycerol-3-phosphate"
+    ],
+    "answer": "glucose",
+    "rationale": "The effects of insulin are dependent on the presence of glucose. Insulin enhances the uptake of glucose into adipose cells through the GLUT 4 transporter.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > Adipose Tissue Lipolysis Is Inhibited by Insulin",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "In which structure are lipid droplets found?",
+    "options": [
+      "adipocytes",
+      "cells",
+      "hepatic parenchymal cells",
+      "intestinal cells",
+      "skeletal muscle cells"
+    ],
+    "answer": "adipocytes",
+    "rationale": "Perilipin is a protein involved in the formation of lipid droplets in adipocytes.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > ADIPOSE TISSUE IS THE MAIN STORE OF TRIACYLGLYCEROL IN THE BODY > Perilipin Regulates the Balance Between Triacylglycerol Storage & Lipolysis in Adipocytes",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "In which structure is ATP found?",
+    "options": [
+      "brown adipose tissue",
+      "endothelium",
+      "kidney",
+      "liver",
+      "tissues"
+    ],
+    "answer": "brown adipose tissue",
+    "rationale": "Brown adipose tissue (BAT) has low activity of ATP synthase. The metabolic emphasis in brown adipose tissue (BAT) is on the oxidation of both glucose and fatty acids.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BROWN ADIPOSE TISSUE PROMOTES THERMOGENESIS",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "In which structure are triacylglycerol-rich lipoproteins found?",
+    "options": [
+      "brown adipose tissue",
+      "endothelium",
+      "kidney",
+      "liver",
+      "tissues"
+    ],
+    "answer": "brown adipose tissue",
+    "rationale": "Lipoprotein lipase enhances the utilization of triacylglycerol-rich lipoproteins from the circulation in brown adipose tissue (BAT). Oxidation and phosphorylation are not coupled in the mitochondria of brown adipose tissue (BAT) because of the presence of thermogenic uncoupling protein, thermogenin (also called uncoupling protein 1 [UCP1]).",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BROWN ADIPOSE TISSUE PROMOTES THERMOGENESIS",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Which structure contains mitochondria?",
+    "options": [
+      "brown adipose tissue",
+      "intestine",
+      "liver",
+      "organs",
+      "tissues"
+    ],
+    "answer": "brown adipose tissue",
+    "rationale": "Oxidation and phosphorylation are not coupled in the mitochondria of brown adipose tissue (BAT) because of the presence of thermogenic uncoupling protein, thermogenin (also called uncoupling protein 1 [UCP1]). The phosphorylation that does occur in brown adipose tissue (BAT) is at the substrate level, for example, at the succinate thiokinase step and in glycolysis.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BROWN ADIPOSE TISSUE PROMOTES THERMOGENESIS",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "What is thermogenin converted into?",
+    "options": [
+      "apo B-100",
+      "chylomicrons",
+      "discoidal HDL",
+      "lipoproteins",
+      "UCP1"
+    ],
+    "answer": "UCP1",
+    "rationale": "Oxidation and phosphorylation are not coupled in the mitochondria of brown adipose tissue (BAT) because of the presence of thermogenic uncoupling protein, thermogenin (also called uncoupling protein 1 [UCP1]). The phosphorylation that does occur in brown adipose tissue (BAT) is at the substrate level, for example, at the succinate thiokinase step and in glycolysis.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage > BROWN ADIPOSE TISSUE PROMOTES THERMOGENESIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which substance is transported by LDL?",
+    "options": [
+      "blood",
+      "cholesterol",
+      "lipids",
+      "long-chain fatty acids",
+      "protons"
+    ],
+    "answer": "cholesterol",
+    "rationale": "LDLs deliver cholesterol to the tissues, and HDLs remove cholesterol from the tissues and return it to the liver for excretion in the process known as reverse cholesterol transport.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Triacylglycerol is primarily stored within which structure?",
+    "options": [
+      "adipose tissue",
+      "endothelium",
+      "kidney",
+      "organs",
+      "tissues"
+    ],
+    "answer": "adipose tissue",
+    "rationale": "Triacylglycerol is the main storage lipid in adipose tissue.",
+    "citation": "chapter_25_lipid_transport_and_storage — Lipid Transport & Storage",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

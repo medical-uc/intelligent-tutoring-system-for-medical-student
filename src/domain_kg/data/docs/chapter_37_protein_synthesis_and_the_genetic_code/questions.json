@@ -1,0 +1,232 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is transported by aminoacyl-tRNA?",
+    "options": [
+      "43S",
+      "amino acid",
+      "phenylalanine",
+      "serine",
+      "tyrosine"
+    ],
+    "answer": "amino acid",
+    "rationale": "Each of the 20 amino acids has its own enzyme for this process, termed aminoacyl-tRNA synthetases. These enzymes form an activated intermediate of aminoacyl-AMP–enzyme complex. The specific aminoacyl-AMP–enzyme complex then recognizes a specific tRNA and attaches the aminoacyl moiety at the 3′-hydroxyl adenosyl terminal. The amino acid remains attached to its specific tRNA in an ester linkage until it is incorporated into a polypeptide on the ribosome.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > AT LEAST ONE SPECIES OF tRNA EXISTS FOR EACH OF THE 20 AMINO ACIDS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "What does EIF-2 act on in the initiation of protein synthesis?",
+    "options": [
+      "43S",
+      "amino acid",
+      "EF-2",
+      "phenylalanine",
+      "serine"
+    ],
+    "answer": "43S",
+    "rationale": "The first step is the binding of a ternary complex consisting of the initiator methionyl-tRNA (met-tRNAi), GTP, and eIF-2 to the 40S ribosome subunit to form the 43S preinitiation complex.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Initiation Involves Several Protein-RNA Complexes",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is transported by the GTP-eIF-2-tRNAi ternary complex?",
+    "options": [
+      "3′-hydroxyl adenosyl",
+      "43S",
+      "amino acid",
+      "phenylalanine",
+      "serine"
+    ],
+    "answer": "43S",
+    "rationale": "The GTP-eIF-2-tRNAi ternary complex binds to the 40S ribosomal subunit to form the 43S preinitiation complex.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Formation of the 43S Preinitiation Complex",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "What is the 43S preinitiation complex converted into?",
+    "options": [
+      "48S",
+      "ADP",
+      "c",
+      "DNA",
+      "GDP"
+    ],
+    "answer": "48S",
+    "rationale": "The association of mRNA with the 43S preinitiation complex to form the 48S initiation complex requires ATP hydrolysis.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Formation of the 48S Initiation Complex",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "What substance is required by the 43S preinitiation complex to form the 48S initiation complex?",
+    "options": [
+      "ATP",
+      "CUA",
+      "tyr",
+      "UAC",
+      "UGA"
+    ],
+    "answer": "ATP",
+    "rationale": "The association of mRNA with the 43S preinitiation complex to form the 48S initiation complex requires ATP hydrolysis.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Formation of the 48S Initiation Complex",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What does EIF-5 act on during the binding of the 60S ribosomal subunit to the 48S initiation complex?",
+    "options": [
+      "adenine",
+      "c",
+      "DNA",
+      "GTP-GDP",
+      "nucleotide"
+    ],
+    "answer": "GTP-GDP",
+    "rationale": "The binding of the 60S ribosomal subunit to the 48S initiation complex involves hydrolysis of the GTP bound to eIF-2 by eIF-5.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Formation of the 80S Initiation Complex",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What is ATP converted into during the formation of a peptide bond?",
+    "options": [
+      "48S",
+      "ADP",
+      "c",
+      "DNA",
+      "GDP"
+    ],
+    "answer": "ADP",
+    "rationale": "The energy requirements for the formation of one peptide bond include the equivalent of the hydrolysis of two ATP molecules to ADP.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Translocation",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What is GTP converted into when an aminoacyl-tRNA enters the A site?",
+    "options": [
+      "48S",
+      "ADP",
+      "c",
+      "DNA",
+      "GDP"
+    ],
+    "answer": "GDP",
+    "rationale": "The entry of the aminoacyl-tRNA into the A site results in the hydrolysis of one GTP to GDP.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION > Translocation",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Procollagen is converted into which substance?",
+    "options": [
+      "amino acid",
+      "collagen",
+      "phenylalanine",
+      "serine",
+      "tyrosine"
+    ],
+    "answer": "collagen",
+    "rationale": "Collagen is synthesized as procollagen. Three procollagen polypeptide molecules, which are not always identical in sequence, align in a particular way dependent on specific amino terminal peptides.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > POSTTRANSLATIONAL PROCESSING AFFECTS THE ACTIVITY OF MANY PROTEINS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What does diphtheria toxin act on in mammalian cells?",
+    "options": [
+      "43S",
+      "amino acid",
+      "EF-2",
+      "phenylalanine",
+      "serine"
+    ],
+    "answer": "EF-2",
+    "rationale": "Diphtheria toxin catalyzes the ADP-ribosylation of EF-2. EF-2 contains the unique amino acid diphthamide in mammalian cells.",
+    "citation": "chapter_37_protein_synthesis_and_the_genetic_code — Protein Synthesis & the Genetic Code > MANY ANTIBIOTICS WORK BY SELECTIVELY INHIBITING PROTEIN SYNTHESIS IN BACTERIA",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

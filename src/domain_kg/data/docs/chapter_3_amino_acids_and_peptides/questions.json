@@ -1,0 +1,232 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Nodularin is a risk factor for which condition?",
+    "options": [
+      "blood coagulation",
+      "hepatic tumors",
+      "lathyrism",
+      "neurodegenerative diseases",
+      "t"
+    ],
+    "answer": "hepatic tumors",
+    "rationale": "Small quantities of nodularin promote the formation of hepatic tumors. The ingestion of certain amino acids present in the seeds of legumes of the genus Lathyrus can result in lathyrism.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Proline is converted into which substance in collagen?",
+    "options": [
+      "4-hydroxyproline",
+      "5-hydroxylysine",
+      "amino acids",
+      "bacitracin",
+      "l-α-amino acids"
+    ],
+    "answer": "4-hydroxyproline",
+    "rationale": "In collagen, protein-bound proline and lysine residues are converted to 4-hydroxyproline and 5-hydroxylysine (Figure 3–2).",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Posttranslational Modifications Confer Additional Properties",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Lysine is converted into which substance in collagen?",
+    "options": [
+      "4-hydroxyproline",
+      "5-hydroxylysine",
+      "amino acids",
+      "bacitracin",
+      "l-α-amino acids"
+    ],
+    "answer": "5-hydroxylysine",
+    "rationale": "In collagen, protein-bound proline and lysine residues are converted to 4-hydroxyproline and 5-hydroxylysine (Figure 3–2).",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Posttranslational Modifications Confer Additional Properties",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognised cause of neurolathyrism?",
+    "options": [
+      "BOAA",
+      "humans",
+      "lathyrus",
+      "reptiles",
+      "seeds"
+    ],
+    "answer": "lathyrus",
+    "rationale": "Neurolathyrism, a profound neurologic disorder characterized by progressive and irreversible spastic paralysis of the legs, is caused by dietary intake of the seeds and seed products of the legume Lathyrus. Lathyrism occurs widely during famines, when Lathyrus seeds may become a major part of the diet.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of ammonia toxicity?",
+    "options": [
+      "amino acids",
+      "bacitracin",
+      "gramicidin A",
+      "l-α-amino acids",
+      "γ-diaminobutyric acid"
+    ],
+    "answer": "γ-diaminobutyric acid",
+    "rationale": "The osteolathyrogen γ-glutamyl-β-aminopropionitrile (BAPN) is present in “sweet pea.” The seeds of some species also contain α,γ-diaminobutyric acid, an analogue of ornithine that inhibits the hepatic urea cycle enzyme ornithine transcarbamylase, leading to ammonia toxicity. L-β-methylaminoalanine, a neurotoxic amino acid present in Cycad seeds, has been implicated as a risk factor for neurodegenerative diseases including amyotrophic lateral sclerosis-Parkinson dementia complex in natives of Guam who consume fruit bats that feed on cycad fruit or flour made from cycad seeds.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which of the following is a recognised cause of human neurolathyrism?",
+    "options": [
+      "hepatic tumors",
+      "lathyrism",
+      "neurodegenerative diseases",
+      "neurotoxin",
+      "t"
+    ],
+    "answer": "neurotoxin",
+    "rationale": "A neurotoxin is implicated in human neurolathyrism.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which of the following is a recognised cause of bone deformities?",
+    "options": [
+      "antitumor",
+      "l-isomers",
+      "nodularin",
+      "osteolathyrogen",
+      "urea"
+    ],
+    "answer": "osteolathyrogen",
+    "rationale": "An osteolathyrogen is associated with causing bone deformities.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "D-serine is found within which structure?",
+    "options": [
+      "arterial renal blood",
+      "human brain tissue",
+      "kidneys",
+      "nerve",
+      "neuroendocrine"
+    ],
+    "answer": "human brain tissue",
+    "rationale": "Free D-serine and D-aspartate are found in human brain tissue.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "D-aspartate is found within which structure?",
+    "options": [
+      "arterial renal blood",
+      "human brain tissue",
+      "kidneys",
+      "nerve",
+      "neuroendocrine"
+    ],
+    "answer": "human brain tissue",
+    "rationale": "Free D-serine and D-aspartate are found in human brain tissue.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides > BIOMEDICAL IMPORTANCE > Certain Plant L-α-Amino Acids Can Adversely Impact Human Health",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "L-α-amino acids act on which substrate?",
+    "options": [
+      "antitumor",
+      "l-isomers",
+      "nodularin",
+      "nucleophile",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "Metabolic functions of the L-α-Amino acids include the biosynthesis of urea, heme, nucleic acids, hormones such as epinephrine, and neurotransmitters such as DOPA.",
+    "citation": "chapter_3_amino_acids_and_peptides — Amino Acids & Peptides",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

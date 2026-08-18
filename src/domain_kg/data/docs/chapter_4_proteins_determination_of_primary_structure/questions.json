@@ -1,0 +1,25 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Myosin filaments are part of which structure?",
+    "options": [
+      "capillary",
+      "muscle cells",
+      "neural cells",
+      "spongy",
+      "tube"
+    ],
+    "answer": "muscle cells",
+    "rationale": "Actin and myosin filaments form the contractile machinery of muscle.",
+    "citation": "chapter_4_proteins_determination_of_primary_structure — Proteins: Determination of Primary Structure > BIOMEDICAL IMPORTANCE",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

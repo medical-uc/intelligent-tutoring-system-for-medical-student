@@ -1,0 +1,554 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In the reaction involving oxygen and an electron donor, what substance is generated?",
+    "options": [
+      "arachidonic acid",
+      "hydrogen peroxide",
+      "hydroxyl",
+      "hypochlorous acid",
+      "sunlight"
+    ],
+    "answer": "hydrogen peroxide",
+    "rationale": "Reaction of oxygen with an electron donor can generate superoxide or hydrogen peroxide (reaction 1).",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Evolutionary Perspective",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "What substance can superoxide form when it reacts with nitric oxide?",
+    "options": [
+      "electron",
+      "lipids",
+      "NOXs",
+      "peroxynitrite",
+      "reactive oxygen species"
+    ],
+    "answer": "peroxynitrite",
+    "rationale": "Superoxide can react with nitric oxide to form peroxynitrite (reaction 3).",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Evolutionary Perspective",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "NOXs requires which substance?",
+    "options": [
+      "electron",
+      "lipids",
+      "NADPH",
+      "reactive oxygen species",
+      "superoxide"
+    ],
+    "answer": "NADPH",
+    "rationale": "NOXs use NADPH to produce superoxide.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Innate Immune Cells as a Source of ROS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "What substance does iNOS use to produce nitric oxide?",
+    "options": [
+      "electron",
+      "lipids",
+      "NADPH",
+      "reactive oxygen species",
+      "superoxide"
+    ],
+    "answer": "NADPH",
+    "rationale": "iNOS uses NADPH to produce nitric oxide.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Innate Immune Cells as a Source of ROS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "What substance is stored in the granules of neutrophils?",
+    "options": [
+      "iNOS",
+      "mitochondrial ROS",
+      "myeloperoxidase",
+      "nitric oxide synthase",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "myeloperoxidase",
+    "rationale": "Neutrophils store MPO in their granules.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Innate Immune Cells as a Source of ROS",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What substances does myeloperoxidase use to produce hypohalous acids?",
+    "options": [
+      "ATP",
+      "glucose",
+      "hydrogen peroxide",
+      "nitric oxide",
+      "oxygen"
+    ],
+    "answer": "hydrogen peroxide",
+    "rationale": "MPO uses hydrogen peroxide and halides to produce hypohalous acids.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Innate Immune Cells as a Source of ROS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Ultraviolet is converted into which substance?",
+    "options": [
+      "arachidonic acid",
+      "hydrogen peroxide",
+      "hydroxyl",
+      "hypochlorous acid",
+      "sunlight"
+    ],
+    "answer": "sunlight",
+    "rationale": "Ultraviolet radiation is a form of sunlight.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > BIOMEDICAL IMPORTANCE > Environmental Sources of ROS and ROS Generators",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Where is the LDL receptor typically expressed?",
+    "options": [
+      "body",
+      "HOCl",
+      "layer",
+      "liver",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "LDL is normally taken up by the LDL receptor expressed in the liver.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Atherosclerotic Cardiovascular Disease",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Cholesterol is found within which structure?",
+    "options": [
+      "body",
+      "HOCl",
+      "layer",
+      "liver",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "The LDL receptor helps dispose of cholesterol and reduces cholesterol synthesis by the liver.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Atherosclerotic Cardiovascular Disease",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What is a recognized cause of hypertension related to ROS-induced processes?",
+    "options": [
+      "iNOS",
+      "mitochondrial ROS",
+      "myeloperoxidase",
+      "nitric oxide synthase",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "mitochondrial ROS",
+    "rationale": "ROS-induced neo-antigen formation contributes to the development of some forms of hypertension.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Autoimmune Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognized cause of skin cancer?",
+    "options": [
+      "iNOS",
+      "mitochondrial ROS",
+      "myeloperoxidase",
+      "nitric oxide synthase",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "mitochondrial ROS",
+    "rationale": "Exposure to exogenous producers of ROS can drive cancer cell formation, as demonstrated by the effect of UV exposure on skin cancer and cigarette smoking on lung cancer.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Cancer",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognized cause of lung cancer?",
+    "options": [
+      "iNOS",
+      "mitochondrial ROS",
+      "myeloperoxidase",
+      "nitric oxide synthase",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "mitochondrial ROS",
+    "rationale": "Exposure to exogenous producers of ROS can drive cancer cell formation, as demonstrated by the effect of UV exposure on skin cancer and cigarette smoking on lung cancer.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Cancer",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognized cause of lipofuscin?",
+    "options": [
+      "electron",
+      "lipids",
+      "peroxynitrite",
+      "reactive oxygen species",
+      "superoxide"
+    ],
+    "answer": "lipids",
+    "rationale": "Lipofuscin forms through the aggregation of oxidized lipids and proteins.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ROS CAUSE OXIDATIVE DAMAGE TO LIPID, DNA, & PROTEINS WHICH LEADS TO DISEASE > Aging",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Glutathione reductase acts on which substrate?",
+    "options": [
+      "lipid alcohol",
+      "lipid peroxides",
+      "pentose phosphate",
+      "selenol",
+      "superoxide"
+    ],
+    "answer": "pentose phosphate",
+    "rationale": "The glutathione dimer can be recycled back to GSH using NADPH generated from the pentose phosphate pathway and glutathione reductase.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Enzymatic Antioxidants",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Glutathione acts on which substrate?",
+    "options": [
+      "lipid alcohol",
+      "lipid peroxides",
+      "pentose phosphate",
+      "selenol",
+      "superoxide"
+    ],
+    "answer": "lipid alcohol",
+    "rationale": "Glutathione peroxidase (GPX) uses glutathione (GSH) to catalyze the conversion of hydrogen peroxide or lipid peroxides (LOH) to form a glutathione disulfide dimer and either water or lipid alcohol, respectively (Figure 45–5, reaction 18).",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Enzymatic Antioxidants",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Polyamines require which substance?",
+    "options": [
+      "cysteine",
+      "glutamate",
+      "methionine",
+      "mitochondrial ROS",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "methionine",
+    "rationale": "Polyamines are synthesized using arginine and methionine. Polyamines are synthesized through the actions of arginase, ornithine decarboxylase, spermidine synthase, and spermine synthase.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Nonenzymatic Antioxidants",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Arginase acts on which substrate?",
+    "options": [
+      "lipid peroxides",
+      "pentose phosphate",
+      "polyamines",
+      "selenol",
+      "superoxide"
+    ],
+    "answer": "polyamines",
+    "rationale": "Polyamines are synthesized through the actions of arginase, ornithine decarboxylase, spermidine synthase, and spermine synthase. Polyamines can also be obtained from the diet.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Nonenzymatic Antioxidants",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Ornithine decarboxylase acts on which substrate?",
+    "options": [
+      "lipid peroxides",
+      "pentose phosphate",
+      "polyamines",
+      "selenol",
+      "superoxide"
+    ],
+    "answer": "polyamines",
+    "rationale": "Polyamines are synthesized through the actions of arginase, ornithine decarboxylase, spermidine synthase, and spermine synthase. Polyamines can also be obtained from the diet.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Nonenzymatic Antioxidants",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Spermidine synthase acts on which substrate?",
+    "options": [
+      "lipid peroxides",
+      "pentose phosphate",
+      "polyamines",
+      "selenol",
+      "superoxide"
+    ],
+    "answer": "polyamines",
+    "rationale": "Polyamines are synthesized through the actions of arginase, ornithine decarboxylase, spermidine synthase, and spermine synthase. Polyamines can also be obtained from the diet.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Nonenzymatic Antioxidants",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Glutathione requires which substance?",
+    "options": [
+      "glutamate",
+      "l-arginine",
+      "methionine",
+      "nitric oxide synthase",
+      "ROS-producing enzymes like NADPH oxidases"
+    ],
+    "answer": "glutamate",
+    "rationale": "Glutathione is synthesized from cysteine, glutamate, and cysteine by glutamate cysteine ligase and glutathione synthetase. Glutathione is present at concentrations of 1 to 10 mM in cells.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > ANTIOXIDANT DEFENSES > Nonenzymatic Antioxidants",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which agent is used in the management of dietary insufficiencies?",
+    "options": [
+      "ATP",
+      "hydrogen peroxide",
+      "nitric oxide",
+      "oxygen",
+      "vitamin antioxidants"
+    ],
+    "answer": "vitamin antioxidants",
+    "rationale": "Correcting dietary insufficiencies of vitamin antioxidants is important. Consuming supraphysiologic doses using dietary supplements seems of little benefit.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > POTENTIAL INTERVENTIONS TO REDUCE OXIDATIVE DAMAGE & DISEASES ASSOCIATED WITH ROS",
+    "relation": "treated_with",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Prostaglandins are converted into which substance?",
+    "options": [
+      "arachidonic acid",
+      "hydrogen peroxide",
+      "hydroxyl",
+      "hypochlorous acid",
+      "sunlight"
+    ],
+    "answer": "arachidonic acid",
+    "rationale": "Cyclooxygenases convert arachidonic acid to proinflammatory signaling lipids such as prostaglandins.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > POTENTIAL INTERVENTIONS TO REDUCE OXIDATIVE DAMAGE & DISEASES ASSOCIATED WITH ROS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Leukotrienes are converted into which substance?",
+    "options": [
+      "arachidonic acid",
+      "hydrogen peroxide",
+      "hydroxyl",
+      "hypochlorous acid",
+      "sunlight"
+    ],
+    "answer": "arachidonic acid",
+    "rationale": "Lipoxygenases convert arachidonic acid to proinflammatory signaling lipids such as leukotrienes.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients > POTENTIAL INTERVENTIONS TO REDUCE OXIDATIVE DAMAGE & DISEASES ASSOCIATED WITH ROS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Mitochondrial ROS are converted into which substance?",
+    "options": [
+      "electron",
+      "lipids",
+      "NOXs",
+      "reactive oxygen species",
+      "superoxide"
+    ],
+    "answer": "superoxide",
+    "rationale": "Major ROS include superoxide radical, hydrogen peroxide, hydroxyl radical, peroxynitrite, and hypochlorous acid.",
+    "citation": "chapter_45_free_radicals_and_antioxidant_nutrients — Free Radicals & Antioxidant Nutrients",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

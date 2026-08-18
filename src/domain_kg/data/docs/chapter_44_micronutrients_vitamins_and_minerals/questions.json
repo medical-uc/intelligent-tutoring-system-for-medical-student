@@ -1,0 +1,1911 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognised cause of night blindness?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin A",
+    "rationale": "Night blindness is a deficiency syndrome associated with vitamin A.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which of the following is a recognised cause of neurologic disorders?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin E",
+    "rationale": "Neurologic disorders can result from vitamin E deficiency.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of hemolytic anemia?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin E",
+    "rationale": "Hemolytic anemia of the newborn can result from vitamin E deficiency.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognised cause of hemorrhagic disease?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin K",
+    "rationale": "Hemorrhagic disease of the newborn can result from vitamin K deficiency.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of glossitis?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "riboflavin deficiency",
+    "rationale": "Cheilosis, glossitis, and seborrhea are deficiency syndromes associated with riboflavin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which of the following is a recognised cause of seborrhea?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "riboflavin deficiency",
+    "rationale": "Cheilosis, glossitis, and seborrhea are deficiency syndromes associated with riboflavin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which of the following is a recognised cause of megaloblastic anemia?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin B12 deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin B12 deficiency",
+    "rationale": "Megaloblastic anemia, methylmalonic aciduria, and pernicious anemia are deficiency syndromes associated with vitamin B12.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which of the following is a recognised cause of methylmalonic aciduria?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin B12 deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin B12 deficiency",
+    "rationale": "Megaloblastic anemia, methylmalonic aciduria, and pernicious anemia are deficiency syndromes associated with vitamin B12.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which of the following is a recognised cause of pernicious anemia?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin B12 deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin B12 deficiency",
+    "rationale": "Megaloblastic anemia, methylmalonic aciduria, and pernicious anemia are deficiency syndromes associated with vitamin B12.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which of the following is a recognised cause of scurvy?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin C deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin C deficiency",
+    "rationale": "Scurvy is a deficiency syndrome associated with vitamin C.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognized cause of anemia?",
+    "options": [
+      "iron deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "iron deficiency",
+    "rationale": "Anemia is a deficiency sign associated with iron.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognized cause of cretinism?",
+    "options": [
+      "iodine deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "iodine deficiency",
+    "rationale": "Cretinism and goiter are deficiency signs associated with iodine.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognized cause of goiter?",
+    "options": [
+      "iodine deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "iodine deficiency",
+    "rationale": "Cretinism and goiter are deficiency signs associated with iodine.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which of the following is a recognized cause of rickets?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin D deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin D deficiency",
+    "rationale": "Deficiency of Vitamin D leads to rickets, which is poor mineralization of bone in children, and osteomalacia, which is bone demineralization in adults.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which of the following is a recognized cause of osteomalacia?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin D deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin D deficiency",
+    "rationale": "Deficiency of Vitamin D leads to rickets, which is poor mineralization of bone in children, and osteomalacia, which is bone demineralization in adults.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognized cause of xerophthalmia?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin A deficiency",
+    "rationale": "Deficiency of Vitamin A causes night blindness, xerophthalmia, and keratinization of the skin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Which of the following is a recognized cause of keratinization?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin A deficiency",
+    "rationale": "Deficiency of Vitamin A causes night blindness, xerophthalmia, and keratinization of the skin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognized cause of neurologic dysfunction?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E deficiency",
+      "vitamin K"
+    ],
+    "answer": "vitamin E deficiency",
+    "rationale": "Deficiency of Vitamin E is extremely rare but can cause serious neurologic dysfunction.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which of the following is a recognized cause of impaired blood clotting?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K deficiency"
+    ],
+    "answer": "vitamin K deficiency",
+    "rationale": "Deficiency of Vitamin K results in impaired blood clotting and hemorrhagic disease.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognized cause of vitamin E deficiency?",
+    "options": [
+      "cholecalciferol",
+      "menaquinones",
+      "phylloquinone",
+      "retinaldehyde",
+      "tocotrienols"
+    ],
+    "answer": "tocotrienols",
+    "rationale": "Vitamin E, which includes tocopherols and tocotrienols, acts as an antioxidant, especially in cell membranes, and plays roles in cell signaling.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMINS ARE A DISPARATE GROUP OF COMPOUNDS WITH A VARIETY OF METABOLIC FUNCTIONS",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Carotenoids are converted into which substance?",
+    "options": [
+      "menaquinones",
+      "phylloquinone",
+      "tocopheroxyl",
+      "tocotrienols",
+      "vitamin A"
+    ],
+    "answer": "vitamin A",
+    "rationale": "Many carotenoids are precursors of vitamin A, as they can be cleaved to yield retinaldehyde. The alpha-, beta-, and gamma-carotenes and cryptoxanthin are the most important provitamin A carotenoids.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Beta-carotene is converted into which substance?",
+    "options": [
+      "menaquinones",
+      "phylloquinone",
+      "retinaldehyde",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "retinaldehyde",
+    "rationale": "Beta-carotene and other provitamin A carotenoids are cleaved in the intestinal mucosa by carotene dioxygenase, producing retinaldehyde. Retinaldehyde is reduced to retinol, esterified, and secreted in chylomicrons along with esters from dietary retinol.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Pigment epithelium is found within which structure?",
+    "options": [
+      "kidney",
+      "liver",
+      "muscle membrane",
+      "nerve membrane",
+      "retina"
+    ],
+    "answer": "retina",
+    "rationale": "In the pigment epithelium of the retina, all-trans-retinol is isomerized to 11-cis-retinol.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Has a Function in Vision",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "All-trans-retinol is converted into which substance?",
+    "options": [
+      "menaquinones",
+      "phylloquinone",
+      "retinaldehyde",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "retinaldehyde",
+    "rationale": "In the pigment epithelium of the retina, 11-cis-retinol is oxidized to 11-cis-retinaldehyde.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Has a Function in Vision",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Retinaldehyde is converted into which substance?",
+    "options": [
+      "FAD",
+      "homocysteine",
+      "methionine",
+      "rhodopsin",
+      "serine"
+    ],
+    "answer": "rhodopsin",
+    "rationale": "The final step is hydrolysis to release all-trans-retinaldehyde and opsin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Has a Function in Vision",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Retinaldehyde requires which substance?",
+    "options": [
+      "ATP",
+      "hydrophobic",
+      "iron",
+      "riboflavin",
+      "vitamin A deficiency"
+    ],
+    "answer": "vitamin A deficiency",
+    "rationale": "The key to initiation of the visual cycle is the availability of 11-cis-retinaldehyde, and hence vitamin A.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Has a Function in Vision",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of blindness?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin A deficiency",
+    "rationale": "Vitamin A deficiency is the most important preventable cause of blindness.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Deficiency Is a Major Public Health Problem Worldwide",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Vitamin A deficiency requires which substance for its transport in the bloodstream?",
+    "options": [
+      "FAD",
+      "isoleucine",
+      "osteocalcin",
+      "plasma lipoproteins",
+      "retinol-binding protein"
+    ],
+    "answer": "retinol-binding protein",
+    "rationale": "Retinol-binding protein is required to transport Vitamin A in the bloodstream.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Deficiency Is a Major Public Health Problem Worldwide",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which substance is transported by the bloodstream?",
+    "options": [
+      "calcium",
+      "niacin",
+      "one-carbon",
+      "pantothenic acid",
+      "vitamin A deficiency"
+    ],
+    "answer": "vitamin A deficiency",
+    "rationale": "Retinol-binding protein is required to transport Vitamin A in the bloodstream.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Deficiency Is a Major Public Health Problem Worldwide",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which of the following is a recognised cause of tissue damage?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A unbound",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin A unbound",
+    "rationale": "Unbound vitamin A causes membrane lysis and tissue damage.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > TWO GROUPS OF COMPOUNDS HAVE VITAMIN A ACTIVITY > Vitamin A Is Toxic in Excess",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which of the following is a recognised cause of hypercalcemia?",
+    "options": [
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin D",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "vitamin D",
+    "rationale": "Hypercalcemia in response to low intakes of vitamin D is due to genetic defects of calcidiol 24-hydroxylase in at least a few cases.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Is Toxic in Excess",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Vitamin D is converted into which substance?",
+    "options": [
+      "cholecalciferol",
+      "menaquinones",
+      "phylloquinone",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "cholecalciferol",
+    "rationale": "Previtamin D undergoes a further reaction over a period of hours to form cholecalciferol.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Is Synthesized in the Skin",
+    "relation": "converts_to",
+    "confidence": 0.95,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which substance is transported by cholecalciferol?",
+    "options": [
+      "blood clotting",
+      "bloodstream",
+      "electron",
+      "fatty acid",
+      "lipid-soluble vitamins deficiency"
+    ],
+    "answer": "bloodstream",
+    "rationale": "Cholecalciferol is absorbed into the bloodstream.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Is Synthesized in the Skin",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Cholecalciferol is converted into which substance in the liver?",
+    "options": [
+      "calcidiol",
+      "menaquinones",
+      "phylloquinone",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "calcidiol",
+    "rationale": "In the liver, cholecalciferol is hydroxylated to form the 25-hydroxy derivative, calcidiol. Calcidiol is released into the circulation bound to a vitamin D–binding globulin, which is the main storage form of the vitamin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Is Metabolized to the Active Metabolite, Calcitriol, in Liver & Kidney",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Which substance is transported by calcitriol?",
+    "options": [
+      "calcium",
+      "niacin",
+      "one-carbon",
+      "pantothenic acid",
+      "vitamin A deficiency"
+    ],
+    "answer": "calcium",
+    "rationale": "Calcitriol has a rapid effect to mobilize calcium transporters in the intestinal mucosa.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Metabolism Is Both Regulated by and Regulates Calcium Homeostasis",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "Which of the following is a recognised cause of undermineralized bones in children?",
+    "options": [
+      "calcium",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "calcium",
+    "rationale": "Poor absorption of calcium causes the bones of children to be undermineralized in rickets.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Deficiency Affects Children & Adults",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Which agent is used in the management of osteomalacia?",
+    "options": [
+      "biotin deficiency",
+      "methotrexate",
+      "niacin",
+      "vitamin D less",
+      "warfarin"
+    ],
+    "answer": "vitamin D less",
+    "rationale": "Vitamin D is essential for the prevention and treatment of osteomalacia in the elderly.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN D IS REALLY A HORMONE > Vitamin D Deficiency Affects Children & Adults",
+    "relation": "treated_with",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Which agent is used in the management of thrombosis?",
+    "options": [
+      "biotin deficiency",
+      "methotrexate",
+      "niacin",
+      "vitamin D less",
+      "warfarin"
+    ],
+    "answer": "warfarin",
+    "rationale": "Antagonists of vitamin K are used to reduce blood coagulation in patients at risk of thrombosis. The most widely used antagonist of vitamin K is warfarin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "What do intestinal bacteria synthesize?",
+    "options": [
+      "fat",
+      "hydrophobic",
+      "menaquinones",
+      "vitamin",
+      "vitamin A"
+    ],
+    "answer": "menaquinones",
+    "rationale": "Menaquinones are synthesized by intestinal bacteria and have differing lengths of side chain.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "What does vitamin K require for the synthesis of certain proteins?",
+    "options": [
+      "FAD",
+      "isoleucine",
+      "osteocalcin",
+      "plasma lipoproteins",
+      "retinol-binding protein"
+    ],
+    "answer": "osteocalcin",
+    "rationale": "Vitamin K is important in the synthesis of bone and other calcium-binding proteins. Osteocalcin undergoes vitamin K-dependent carboxylation of glutamate to GLA. The matrix Gla protein in bone also undergoes this carboxylation.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN K IS REQUIRED FOR SYNTHESIS OF BLOOD-CLOTTING PROTEINS > Vitamin K Is Also Important in Synthesis of Bone & Other Calcium-Binding Proteins",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which substance is synthesized by thiamine pyrophosphokinase?",
+    "options": [
+      "fat",
+      "hydrophobic",
+      "thiamin diphosphate",
+      "vitamin",
+      "vitamin A"
+    ],
+    "answer": "thiamin diphosphate",
+    "rationale": "Thiamin is rapidly phosphorylated to thiamin diphosphate by thiamine pyrophosphokinase once inside the cell.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Which substance is required by thiamine for its role in carbohydrate metabolism?",
+    "options": [
+      "carbohydrates",
+      "cholesterol",
+      "fatty acid",
+      "flavin",
+      "glycogen"
+    ],
+    "answer": "carbohydrates",
+    "rationale": "Thiamin has a central role in the metabolism of carbohydrates (Figure 44--8).",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q043",
+    "stem": "Which of the following is a recognized cause of peripheral neuritis?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "thiamin deficiency",
+    "rationale": "Thiamin deficiency can result in three distinct syndromes: a chronic peripheral neuritis, beriberi, and Wernicke encephalopathy with Korsakoff psychosis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q044",
+    "stem": "Which of the following is a recognized cause of beriberi?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "thiamin deficiency",
+    "rationale": "Thiamin deficiency can result in three distinct syndromes: a chronic peripheral neuritis, beriberi, and Wernicke encephalopathy with Korsakoff psychosis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q045",
+    "stem": "Which of the following is a recognized cause of Wernicke encephalopathy?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "thiamin deficiency",
+    "rationale": "Thiamin deficiency can result in three distinct syndromes: a chronic peripheral neuritis, beriberi, and Wernicke encephalopathy with Korsakoff psychosis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q046",
+    "stem": "Which of the following is a recognized cause of Korsakoff psychosis?",
+    "options": [
+      "riboflavin deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "thiamin deficiency",
+    "rationale": "Thiamin deficiency can result in three distinct syndromes: a chronic peripheral neuritis, beriberi, and Wernicke encephalopathy with Korsakoff psychosis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q047",
+    "stem": "Heart failure can develop as a complication of which condition?",
+    "options": [
+      "acute pernicious",
+      "deficiency syndrome",
+      "night blindness",
+      "pellagra",
+      "vitamin A. Xerophthalmia"
+    ],
+    "answer": "acute pernicious",
+    "rationale": "Acute pernicious (fulminating) beriberi, also known as Shoshin beriberi, is characterized by heart failure and metabolic abnormalities, without peripheral neuritis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q048",
+    "stem": "Metabolic abnormalities can develop as a complication of which condition?",
+    "options": [
+      "acute pernicious",
+      "deficiency syndrome",
+      "night blindness",
+      "pellagra",
+      "vitamin A. Xerophthalmia"
+    ],
+    "answer": "acute pernicious",
+    "rationale": "Acute pernicious (fulminating) beriberi, also known as Shoshin beriberi, is characterized by heart failure and metabolic abnormalities, without peripheral neuritis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q049",
+    "stem": "Pyruvate dehydrogenase acts on which substrate?",
+    "options": [
+      "beta-carotene",
+      "dihydrofolate",
+      "tetrahydrofolate",
+      "thiamin diphosphate",
+      "trimethoprim"
+    ],
+    "answer": "thiamin diphosphate",
+    "rationale": "Thiamin diphosphate plays a role in pyruvate dehydrogenase, and in thiamin deficiency, there is impaired conversion of pyruvate to acetyl-CoA.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₁ (THIAMIN) HAS A KEY ROLE IN CARBOHYDRATE METABOLISM > Thiamin Deficiency Affects the Nervous System & the Heart",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q050",
+    "stem": "FMN is converted into which substance?",
+    "options": [
+      "FAD",
+      "homocysteine",
+      "methionine",
+      "rhodopsin",
+      "serine"
+    ],
+    "answer": "FAD",
+    "rationale": "FAD is synthesized by further reaction with ATP in which the AMP moiety is transferred onto FMN.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q051",
+    "stem": "Which substance is required for the formation of FMN?",
+    "options": [
+      "hydrophobic",
+      "iron",
+      "riboflavin",
+      "vitamin",
+      "vitamin A deficiency"
+    ],
+    "answer": "riboflavin",
+    "rationale": "FMN is formed by ATP-dependent phosphorylation of riboflavin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q052",
+    "stem": "Which substance is transported by flavin coenzymes in oxidoreduction reactions?",
+    "options": [
+      "blood",
+      "bloodstream",
+      "electron",
+      "fatty acid",
+      "lipid-soluble vitamins deficiency"
+    ],
+    "answer": "electron",
+    "rationale": "Flavin coenzymes are electron carriers in oxidoreduction reactions. The mitochondrial respiratory chain involves flavin coenzymes.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM > Flavin Coenzymes Are Electron Carriers in Oxidoreduction Reactions",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q053",
+    "stem": "Which substance is required by erythrocyte glutathione reductase?",
+    "options": [
+      "FAD",
+      "isoleucine",
+      "osteocalcin",
+      "plasma lipoproteins",
+      "retinol-binding protein"
+    ],
+    "answer": "FAD",
+    "rationale": "Erythrocyte glutathione reductase is an FAD-dependent enzyme.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B₂ (RIBOFLAVIN) HAS A CENTRAL ROLE IN ENERGY-YIELDING METABOLISM > Riboflavin Deficiency Is Widespread but Not Fatal",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q054",
+    "stem": "Nicotinamide is converted into which substance?",
+    "options": [
+      "menaquinones",
+      "niacin",
+      "phylloquinone",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "niacin",
+    "rationale": "Two compounds, nicotinic acid and nicotinamide, have the biological activity of niacin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q055",
+    "stem": "NAD is converted into which substance in the process of ADP-ribosylation?",
+    "options": [
+      "ADP-ribose",
+      "carbon dioxide",
+      "dUMP",
+      "epoxide",
+      "tetrahydrofolate"
+    ],
+    "answer": "ADP-ribose",
+    "rationale": "NAD is the source of ADP-ribose for the ADP-ribosylation of proteins.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > NAD Is the Source of ADP-Ribose",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q056",
+    "stem": "Depressive psychosis can develop as a complication of which condition?",
+    "options": [
+      "acute pernicious",
+      "deficiency syndrome",
+      "night blindness",
+      "pellagra",
+      "vitamin A. Xerophthalmia"
+    ],
+    "answer": "pellagra",
+    "rationale": "Pellagra leads to depressive psychosis as it progresses.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > Pellagra Is Caused by Deficiency of Tryptophan & Niacin",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q057",
+    "stem": "Which of the following is a recognised cause of pellagra?",
+    "options": [
+      "c",
+      "methionine deficiency",
+      "plasma lipoproteins",
+      "tryptophan deficiency",
+      "γ-carboxyglutamate"
+    ],
+    "answer": "tryptophan deficiency",
+    "rationale": "Pellagra is caused by a deficiency of tryptophan or niacin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > Pellagra Is Caused by Deficiency of Tryptophan & Niacin",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q058",
+    "stem": "Which condition is a recognised cause of carcinoid syndrome?",
+    "options": [
+      "night blindness",
+      "pellagra",
+      "vitamin A toxicity",
+      "vitamin A. Xerophthalmia",
+      "xerophthalmia"
+    ],
+    "answer": "pellagra",
+    "rationale": "Carcinoid syndrome can cause pellagra by reducing NAD synthesis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > Pellagra Can Result from Disease Despite an Adequate Intake of Tryptophan & Niacin",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q059",
+    "stem": "Which substance is transported by breast milk?",
+    "options": [
+      "calcium",
+      "niacin",
+      "one-carbon",
+      "pantothenic acid",
+      "vitamin A deficiency"
+    ],
+    "answer": "niacin",
+    "rationale": "Niacin can pass into breast milk.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > Niacin Is Toxic in Excess",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q060",
+    "stem": "Which agent is used in the management of hyperlipidemia?",
+    "options": [
+      "biotin deficiency",
+      "methotrexate",
+      "niacin",
+      "vitamin D less",
+      "warfarin"
+    ],
+    "answer": "niacin",
+    "rationale": "Nicotinic acid is used to treat hyperlipidemia at doses ranging from 1 to 6 g/day.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > NIACIN IS NOT STRICTLY A VITAMIN > Niacin Is Toxic in Excess",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q061",
+    "stem": "In which structure is glycogen phosphorylase primarily found?",
+    "options": [
+      "kidney",
+      "liver",
+      "muscle membrane",
+      "nerve membrane",
+      "retina"
+    ],
+    "answer": "muscle membrane",
+    "rationale": "Pyridoxal phosphate is mostly associated with glycogen phosphorylase in muscle.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q062",
+    "stem": "What substance is associated with the release of pyridoxal phosphate during starvation?",
+    "options": [
+      "carbohydrates",
+      "cholesterol",
+      "fatty acid",
+      "flavin",
+      "glycogen"
+    ],
+    "answer": "glycogen",
+    "rationale": "In starvation, pyridoxal phosphate is released when glycogen reserves become depleted.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B6 IS IMPORTANT IN AMINO ACID & GLYCOGEN METABOLISM & IN STEROID HORMONE ACTION",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q063",
+    "stem": "Which substrate is acted upon by methylmalonyl-CoA?",
+    "options": [
+      "c",
+      "cysteine",
+      "plasma lipoproteins",
+      "propionyl-CoA carboxylase",
+      "tryptophan"
+    ],
+    "answer": "propionyl-CoA carboxylase",
+    "rationale": "Methylmalonyl-CoA is also formed by the carboxylation of propionyl-CoA. Propionyl-CoA arises from the catabolism of isoleucine, cholesterol, and fatty acids with an odd number of carbon atoms.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN > There Are Two Vitamin B 12 -Dependent Enzymes",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q064",
+    "stem": "What substance is required for the metabolism of propionyl-CoA?",
+    "options": [
+      "FAD",
+      "isoleucine",
+      "osteocalcin",
+      "plasma lipoproteins",
+      "retinol-binding protein"
+    ],
+    "answer": "isoleucine",
+    "rationale": "Propionyl-CoA arises from the catabolism of isoleucine, cholesterol, and fatty acids with an odd number of carbon atoms. Propionyl-CoA also comes from microbial fermentation in ruminants.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN > There Are Two Vitamin B 12 -Dependent Enzymes",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q065",
+    "stem": "What is a recognized cause of neurological damage in pernicious anemia?",
+    "options": [
+      "c",
+      "methionine deficiency",
+      "plasma lipoproteins",
+      "tryptophan deficiency",
+      "γ-carboxyglutamate"
+    ],
+    "answer": "methionine deficiency",
+    "rationale": "Methionine deficiency, rather than secondary folate deficiency, is responsible for the neurologic damage in pernicious anemia. Exogenous folic acid can be metabolized to tetrahydrofolate, thereby limiting the anemia.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > VITAMIN B 12 IS FOUND ONLY IN FOODS OF ANIMAL ORIGIN > Vitamin B 12 Deficiency Causes Pernicious Anemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q066",
+    "stem": "Which substance is transported by tetrahydrofolate?",
+    "options": [
+      "calcium",
+      "niacin",
+      "one-carbon",
+      "pantothenic acid",
+      "vitamin A deficiency"
+    ],
+    "answer": "one-carbon",
+    "rationale": "Tetrahydrofolate can carry one-carbon fragments attached to N-5 (formyl, formimino, or methyl groups), N-10 (formyl) or bridging N-5–N-10 (methylene or methenyl groups).",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Tetrahydrofolate Is a Carrier of One-Carbon Units",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q067",
+    "stem": "Tetrahydrofolate is converted into which substance?",
+    "options": [
+      "ADP-ribose",
+      "carbon dioxide",
+      "dUMP",
+      "epoxide",
+      "lipid-soluble vitamins deficiency"
+    ],
+    "answer": "carbon dioxide",
+    "rationale": "When one-carbon folates are not required, the oxidation of formyltetrahydrofolate to yield carbon dioxide provides a means of maintaining a pool of free folate.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Tetrahydrofolate Is a Carrier of One-Carbon Units",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q068",
+    "stem": "What substance is glycine converted into in the liver for gluconeogenesis?",
+    "options": [
+      "FAD",
+      "homocysteine",
+      "methionine",
+      "rhodopsin",
+      "serine"
+    ],
+    "answer": "serine",
+    "rationale": "In the liver, the reaction can form serine from glycine as a substrate for gluconeogenesis.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Tetrahydrofolate Is a Carrier of One-Carbon Units",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q069",
+    "stem": "Methyl is converted into which substance?",
+    "options": [
+      "ADP-ribose",
+      "carbon dioxide",
+      "dUMP",
+      "epoxide",
+      "tetrahydrofolate"
+    ],
+    "answer": "tetrahydrofolate",
+    "rationale": "Methylene-, methenyl-, and 10-formyltetrahydrofolates are interconvertible.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Tetrahydrofolate Is a Carrier of One-Carbon Units",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q070",
+    "stem": "What substance is thymidine monophosphate converted into during the catalysis by thymidylate synthase?",
+    "options": [
+      "ADP-ribose",
+      "carbon dioxide",
+      "dUMP",
+      "epoxide",
+      "tetrahydrofolate"
+    ],
+    "answer": "dUMP",
+    "rationale": "Thymidylate synthase catalyzes the methylation of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP). The one-carbon fragment of methylene-tetrahydrofolate is reduced to a methyl group during the methylation process.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q071",
+    "stem": "What substance is trimethoprim converted into?",
+    "options": [
+      "ADP-ribose",
+      "carbon dioxide",
+      "dUMP",
+      "epoxide",
+      "tetrahydrofolate"
+    ],
+    "answer": "dUMP",
+    "rationale": "Thymidylate synthase catalyzes the methylation of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP). The one-carbon fragment of methylene-tetrahydrofolate is reduced to a methyl group during the methylation process.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q072",
+    "stem": "What substrate does thymidylate synthase act on?",
+    "options": [
+      "blood",
+      "blood clotting",
+      "carotenes",
+      "lipid-soluble vitamins deficiency",
+      "thymidine monophosphate"
+    ],
+    "answer": "thymidine monophosphate",
+    "rationale": "Thymidylate synthase catalyzes the methylation of deoxyuridine monophosphate (dUMP) to thymidine monophosphate (TMP). The one-carbon fragment of methylene-tetrahydrofolate is reduced to a methyl group during the methylation process.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q073",
+    "stem": "What substrate does dihydrofolate reductase act on?",
+    "options": [
+      "beta-carotene",
+      "biotin deficiency",
+      "tetrahydrofolate",
+      "thiamin diphosphate",
+      "vitamin"
+    ],
+    "answer": "tetrahydrofolate",
+    "rationale": "Dihydrofolate reductase reduces dihydrofolate back to tetrahydrofolate. Thymidylate synthase and dihydrofolate reductase are especially active in tissues with a high rate of cell division.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q074",
+    "stem": "Which agent is used in the management of cancers?",
+    "options": [
+      "biotin deficiency",
+      "methotrexate",
+      "niacin",
+      "vitamin",
+      "warfarin"
+    ],
+    "answer": "methotrexate",
+    "rationale": "Methotrexate is used in cancer chemotherapy. The dihydrofolate reductases of some bacteria and parasites differ from the human enzyme.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Inhibitors of Folate Metabolism Provide Cancer Chemotherapy, Antibacterial, & Antimalarial Drugs",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q075",
+    "stem": "What substance is S-adenosyl-methionine converted into?",
+    "options": [
+      "collagen",
+      "FAD",
+      "homocysteine",
+      "rhodopsin",
+      "serine"
+    ],
+    "answer": "homocysteine",
+    "rationale": "S-adenosyl methionine acts as a methyl donor and forms homocysteine.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Vitamin B 12 Deficiency Causes Functional Folate Deficiency—the “Folate Trap”",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q076",
+    "stem": "What substance is methyltetrahydrofolate converted into?",
+    "options": [
+      "menaquinones",
+      "phylloquinone",
+      "tetrahydrofolate",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "tetrahydrofolate",
+    "rationale": "Methyltetrahydrofolate is the major source of tetrahydrofolate for tissues.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > THERE ARE MULTIPLE FORMS OF FOLATE IN THE DIET > Vitamin B 12 Deficiency Causes Functional Folate Deficiency—the “Folate Trap”",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q077",
+    "stem": "What substrate does biotinidase act on?",
+    "options": [
+      "beta-carotene",
+      "biotin deficiency",
+      "dihydrofolate",
+      "thiamin diphosphate",
+      "trimethoprim"
+    ],
+    "answer": "biotin deficiency",
+    "rationale": "Biotin is widely distributed in many foods as biocytin, which is released on proteolysis and subsequent metabolism by biotinidase to release free biotin. Biotin is synthesized by intestinal flora in excess of requirements.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > BIOTIN DEFICIENCY IS RARE",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q078",
+    "stem": "What substance is pantothenic acid deficiency converted into?",
+    "options": [
+      "menaquinones",
+      "pantetheine",
+      "phylloquinone",
+      "tocopheroxyl",
+      "tocotrienols"
+    ],
+    "answer": "pantetheine",
+    "rationale": "Pantothenic acid acts as the pantetheine functional moiety of coenzyme A (CoA) or acyl carrier protein (ACP). The pantetheine moiety is formed when pantothenate combines with cysteine, which provides the—SH prosthetic group for CoA and ACP.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > AS PART OF COENZYME A & ACP, PANTOTHENIC ACID ACTS AS A CARRIER OF ACYL GROUPS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q079",
+    "stem": "What substrate does pantothenate act on?",
+    "options": [
+      "c",
+      "cysteine",
+      "plasma lipoproteins",
+      "propionyl-CoA carboxylase",
+      "tryptophan"
+    ],
+    "answer": "cysteine",
+    "rationale": "The pantetheine moiety is formed when pantothenate combines with cysteine, which provides the—SH prosthetic group for CoA and ACP. CoA participates in the reactions of the citric acid cycle.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > AS PART OF COENZYME A & ACP, PANTOTHENIC ACID ACTS AS A CARRIER OF ACYL GROUPS",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q080",
+    "stem": "What substance does ascorbate require?",
+    "options": [
+      "ATP",
+      "iron",
+      "riboflavin",
+      "vitamin",
+      "vitamin A deficiency"
+    ],
+    "answer": "iron",
+    "rationale": "In these enzymes, ascorbate is required to reduce the iron prosthetic group after accidental oxidation during reaction. Ascorbate is neither consumed stoichiometrically with the substrates nor does it have a simple catalytic role.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES > Vitamin C Is the Coenzyme for Two Groups of Hydroxylases",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q081",
+    "stem": "Proline is converted into which substance?",
+    "options": [
+      "collagen",
+      "FAD",
+      "homocysteine",
+      "rhodopsin",
+      "serine"
+    ],
+    "answer": "collagen",
+    "rationale": "Proline and lysine hydroxylases are required for the postsynthetic modification of procollagen to collagen. Proline hydroxylase is also required in the formation of osteocalcin.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > ASCORBIC ACID IS A VITAMIN FOR ONLY SOME SPECIES > Vitamin C Is the Coenzyme for Two Groups of Hydroxylases",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q082",
+    "stem": "Which of the following is a recognised cause of mineral deficiencies?",
+    "options": [
+      "selenium deficiency",
+      "thiamin deficiency",
+      "vitamin A",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "selenium deficiency",
+    "rationale": "Mineral deficiencies occur when foods come from one region where the soil may be deficient in some minerals, such as iodine and selenium.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > MINERALS ARE REQUIRED FOR BOTH PHYSIOLOGIC & BIOCHEMICAL FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q083",
+    "stem": "Which of the following is a recognised cause of toxicity?",
+    "options": [
+      "riboflavin deficiency",
+      "selenium excess",
+      "thiamin deficiency",
+      "vitamin E",
+      "vitamin K"
+    ],
+    "answer": "selenium excess",
+    "rationale": "Foods grown on soil containing high levels of selenium cause toxicity.",
+    "citation": "chapter_44_micronutrients_vitamins_and_minerals — Micronutrients: Vitamins & Minerals > MINERALS ARE REQUIRED FOR BOTH PHYSIOLOGIC & BIOCHEMICAL FUNCTIONS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

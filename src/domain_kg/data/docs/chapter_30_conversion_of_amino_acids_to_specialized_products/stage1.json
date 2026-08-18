@@ -1,0 +1,980 @@
+{
+  "doc_id": "chapter_30_conversion_of_amino_acids_to_specialized_products",
+  "source": {
+    "source_id": "chapter_30_conversion_of_amino_acids_to_specialized_products",
+    "title": "Conversion of Amino Acids to Specialized Products",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the conversion of amino acids into specialized products and their roles in biological processes.",
+    "page": null,
+    "origin": "chapter_30_conversion_of_amino_acids_to_specialized_products.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 03:29:43"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Certain proteins contain amino acids that have been posttranslationally modified to perform specialized functions. Proline is hydroxylated to form 3- and 4-hydroxyproline in collagen. Lysine is hydroxylated to 5-hydroxylysine, which stabilizes maturing collagen fibers through modification and cross-linking.\n\nAmino acids serve as precursors for diverse biologic materials including heme, purines, pyrimidines, hormones, neurotransmitters, and biologically active peptides. Histamine plays a central role in many allergic reactions. Many drugs used to treat neurologic and psychiatric conditions alter the metabolism of these neurotransmitters.",
+      "char_start": 1159,
+      "char_end": 1803,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Alanine serves as a carrier of ammonia and of the carbons of pyruvate from skeletal muscle to the liver via the Cori cycle.\n\nAlanine, together with glycine, constitutes a major fraction of the free amino acids in plasma.",
+      "char_start": 1817,
+      "char_end": 2037,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Alanine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "alanine"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Arginine serves as a carrier of nitrogen atoms in urea biosynthesis. The guanidino group of arginine is incorporated into creatine. Arginine is converted to ornithine, and its carbon skeleton serves as a precursor of the polyamines putrescine and spermine. Putrescine and spermine synthesis occurs in both mammals and bacteria (Figure 30-1).",
+      "char_start": 2052,
+      "char_end": 2393,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Arginine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-1"
+      ],
+      "table_refs": [],
+      "section_id": "arginine"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Proteins are converted to Proline.\nProline is converted to Glutamate-γ-semialdehyde.\nGlutamate-γ-semialdehyde is converted to Glutamate.\nGlutamate is converted to Putrescine, spermidine, spermine.\nPutrescine, spermidine, spermine is converted to Ornithine.\nOrnithine is converted to Arginine.\nArginine is converted back to Proteins.\nArginine is converted to Urea.\nArginine is converted to Nitric oxide.\nArginine is converted to Creatine phosphate, creatinine.\nArginine can also be converted to Arginine phosphate in invertebrate muscle.\nThe diagram illustrates the metabolic pathways of Arginine, Ornithine, and Proline, including their conversion to specialized products such as Urea, Nitric oxide, and Creatine phosphate, as well as the role of Arginine phosphate in invertebrates.",
+      "char_start": 2712,
+      "char_end": 3495,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Arginine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "arginine"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The reaction catalyzed by nitric oxide synthase, EC 1.14.13.39, converts one nitrogen of the guanidine group of arginine to nitric oxide (Figure 30-2). Nitric oxide is an intercellular signaling molecule. Nitric oxide serves as a neurotransmitter. Nitric oxide acts as a smooth muscle relaxant. Nitric oxide functions as a vasodilator (see Chapter 50).",
+      "char_start": 3497,
+      "char_end": 3849,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Arginine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-2"
+      ],
+      "table_refs": [],
+      "section_id": "arginine"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Arginine phosphate in invertebrate muscle functions as a phosphagen analogous to creatine phosphate in mammalian muscle (Figure 30-1).",
+      "char_start": 3920,
+      "char_end": 4054,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Arginine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-1"
+      ],
+      "table_refs": [],
+      "section_id": "arginine"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Cysteine participates in the biosynthesis of coenzyme A by reacting with pantothenate to form 4-phosphopantothenoylcysteine.",
+      "char_start": 4069,
+      "char_end": 4193,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cysteine"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Cysteine is converted to Sulfinoalanine (Cysteine sulfinate) by the action of cysteine dioxygenase, using O2 and Fe++.\nSulfinoalanine (Cysteine sulfinate) is converted to Hypotaurine by the action of cysteine sulfinate decarboxylase, releasing CO2.\nHypotaurine is converted to Taurine by the action of hypotaurine decarboxylase, using H2O and NAD+.\nTaurine is converted back to Hypotaurine by the action of Hypotaurine dehydrogenase, producing NADH and H+.\nThe diagram illustrates the conversion of cysteine to taurine through a series of enzymatic reactions.",
+      "char_start": 4382,
+      "char_end": 4941,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Cysteine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cysteine"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Sulfinoalanine decarboxylase and hypotaurine dehydrogenase also participate in the conversion of cysteine to taurine (Figure 30-3).\n\nTaurine can displace the coenzyme A moiety of cholyl-CoA to form the bile acid taurocholic acid.",
+      "char_start": 4943,
+      "char_end": 5172,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-3"
+      ],
+      "table_refs": [],
+      "section_id": "cysteine"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Glycine conjugation converts many relatively apolar metabolites into water-soluble compounds. Hippuric acid is an example of a glycine conjugate formed from benzoate, a food additive (Figure 30--4). Many drugs, drug metabolites, and other compounds with carboxyl groups are conjugated with glycine. Glycine conjugation increases their water solubility. Increased water solubility facilitates the excretion of these compounds in the urine. Similar reactions occur with many acidic drugs and catabolites (Figure 30--4).",
+      "char_start": 5186,
+      "char_end": 5703,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Glycine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glycine"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Histidine decarboxylase catalyzes the decarboxylation of histidine to histamine. Histidine decarboxylase is a pyridoxal 5'-phosphate-dependent enzyme, classified as EC 4.1.1.22 (Figure 30–5).",
+      "char_start": 5832,
+      "char_end": 6023,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-5"
+      ],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Histamine is a biogenic amine that functions in allergic reactions and gastric secretion. Histamine is present in all tissues. The concentration of histamine in the brain hypothalamus varies according to a circadian rhythm.",
+      "char_start": 6096,
+      "char_end": 6319,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Histidine-containing compounds in the human body include carnosine, ergothioneine, and anserine (Figure 30–6).",
+      "char_start": 6427,
+      "char_end": 6537,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-6"
+      ],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Urinary levels of 3-methylhistidine are unusually low in patients with Wilson disease.",
+      "char_start": 6810,
+      "char_end": 6896,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Ergothioneine is a derivative of histidine. The SH group of ergothioneine derives from cysteine (Figure 30–6).",
+      "char_start": 7005,
+      "char_end": 7115,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-6"
+      ],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "The major nonprotein fate of methionine is its conversion to S-adenosylmethionine, which is the principal source of methyl groups in the body. S-adenosylmethionine is synthesized from methionine and ATP by the enzyme methionine adenosyltransferase (MAT), classified as EC 2.5.1.6. Human tissues contain three isozymes of MAT: MAT-1 and MAT-3 are found in the liver, while MAT-2 is present in nonhepatic tissues. If hepatic MAT-1 and MAT-3 activity is severely decreased, hypermethioninemia can result. However, if there is residual MAT-1 or MAT-3 activity and MAT-2 activity is normal, a high tissue concentration of methionine will ensure adequate synthesis of S-adenosylmethionine.\n\nPolyamines are crucial for cell proliferation and growth and act as growth factors for cultured mammalian cells. Polyamines also stabilize intact cells, subcellular organelles, and membranes. Pharmacologically, polyamines can induce hypothermia and hypotension. Due to their multiple positive charges, polyamines readily associate with DNA and RNA. The biosynthesis of polyamines from methionine and ornithine is summarized in Figure 30-7, and their catabolism is detailed in Figure 30-8.",
+      "char_start": 7132,
+      "char_end": 8305,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Methionine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-7",
+        "fig-30-8"
+      ],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "L-Ornithine is converted to Putrescine by Ornithine decarboxylase.\nL-Ornithine is converted to S-Adenosylmethionine by S-Adenosylmethionine decarboxylase.\nPutrescine is converted to Spermidine by Spermidine synthase.\nPutrescine is converted to Methylthioadenosine by Spermidine synthase.\nS-Adenosylmethionine decarboxylase is converted to S-Adenosylmethionine decarboxylase by S-Adenosylmethionine decarboxylase.\nSpermidine is converted to Spermine by Spermine synthase.\nMethylthioadenosine is converted to Methylthioadenosine by Spermine synthase.\nS-Adenosylmethionine decarboxylase is converted to Spermine by Spermine synthase.\nSpermidine is converted to Spermine by Spermine synthase.\nThis diagram illustrates the biosynthesis pathways of spermidine and spermine from L-Ornithine and S-Adenosylmethionine.",
+      "char_start": 8418,
+      "char_end": 9227,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Methionine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Spermine is converted to β-Aminopropionaldehyde by Polyamine oxidase in the presence of O2, producing H2O2.\nβ-Aminopropionaldehyde is further converted to O=C-CH2-CH2NH3+.\nO=C-CH2-CH2NH3+ is then converted to Spermidine with the release of H2O2.\nSpermidine is converted to β-Aminopropionaldehyde by Polyamine oxidase in the presence of O2, producing H2O2.\nβ-Aminopropionaldehyde is converted to Spermidine with the release of O2.\nSpermidine is converted to Putrescine with the release of NH4+ and CO2.\nPutrescine is converted to Putrescine, indicating a stable end product in the catabolism of polyamines.",
+      "char_start": 9275,
+      "char_end": 9880,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Methionine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Serine participates in the biosynthesis of sphingosine.\n\nSerine participates in the biosynthesis of purines and pyrimidines.\n\nSerine provides carbons 2 and 8 of purines.\n\nSerine provides the methyl group of thymine.\n\nSerine serves as the precursor of peptidyl selenocysteine.",
+      "char_start": 9893,
+      "char_end": 10168,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Serine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "serine"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Tryptophan is hydroxylated to 5-hydroxytryptophan in the liver by tryptophan hydroxylase (EC 1.14.16.4). 5-hydroxytryptophan undergoes subsequent decarboxylation to form serotonin (5-hydroxytryptamine). Serotonin is a potent vasoconstrictor. Serotonin is a stimulator of smooth muscle contraction. Catabolism of serotonin is initiated by deamination to 5-hydroxyindole-3-acetate. Monoamine oxidase catalyzes the reaction of deamination of serotonin to 5-hydroxyindole-3-acetate, EC 1.4.3.4 (Figure 30–9).",
+      "char_start": 10185,
+      "char_end": 10689,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Tryptophan"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-9"
+      ],
+      "table_refs": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Iproniazid prolongs the action of serotonin by inhibiting monoamine oxidase. Iproniazid results in psychic stimulation by inhibiting monoamine oxidase. In carcinoid tumors, tumor cells overproduce serotonin. Urinary metabolites of serotonin in patients with carcinoid include N-acetylserotonin glucuronide. Urinary metabolites of serotonin in patients with carcinoid include the glycine conjugate of 5-hydroxyindoleacetate. Serotonin is metabolized to the corresponding acids by monoamine oxidase. 5-methoxytryptamine is metabolized to the corresponding acids by monoamine oxidase.\n\nN-Acetylation of serotonin forms melatonin in the pineal body. O-methylation follows the N-acetylation of serotonin in the pineal body. Circulating melatonin is taken up by all tissues, including the brain. Melatonin is rapidly metabolized by hydroxylation. Melatonin is conjugated with sulfate or with glucuronic acid after hydroxylation. Kidney tissue converts tryptophan to tryptamine, then to indole 3-acetate. Liver tissue converts tryptophan to tryptamine, then to indole 3-acetate. Fecal bacteria convert tryptophan to tryptamine, then to indole 3-acetate. The principal normal urinary catabolites of tryptophan are 5-hydroxyindoleacetate and indole 3-acetate (see Figure 30–9).",
+      "char_start": 10855,
+      "char_end": 12123,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Tryptophan"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-9"
+      ],
+      "table_refs": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Neural cells convert tyrosine to epinephrine and norepinephrine (Figure 30--10). DOPA decarboxylase (EC 4.1.1.28), a pyridoxal phosphate-dependent enzyme, forms dopamine from dopa. Dopamine β-oxidase (EC 1.14.17.1) catalyzes the hydroxylation of dopamine to form norepinephrine. Phenylethanolamine N-methyltransferase (EC 2.1.1.28) utilizes S-adenosylmethionine to methylate the primary amine of norepinephrine, forming epinephrine in the adrenal medulla. Tyrosine is a precursor of triiodothyronine and thyroxine.\n\nDifferent enzymes hydroxylate tyrosine in melanocytes for the formation of melanin. Tyrosine serves as an intermediate in the formation of melanin.",
+      "char_start": 12138,
+      "char_end": 12801,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Tyrosine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "L-Tyrosine is converted to Dopa by tyrosine hydroxylase, with H4• biopterin and H2• biopterin as cofactors.\nDopa is converted to Dopamine by DOPA decarboxylase, with PLP as a cofactor and releases CO2.\nDopamine is converted to Norepinephrine by dopamine β-oxidase, with Cu2+ and Vitamin C as cofactors.\nNorepinephrine is converted to Epinephrine by phenylethanolamine N-methyltransferase, with S-Adenosylmethionine and S-Adenosylhomocysteine as cofactors.\nThe diagram illustrates the conversion of tyrosine to epinephrine and norepinephrine in neuronal and adrenal cells.",
+      "char_start": 12940,
+      "char_end": 13511,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Tyrosine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "The biosynthesis and catabolism of sarcosine (N-methylglycine) occur in mitochondria. Formation of sarcosine from dimethyl glycine is catalyzed by the flavoprotein dimethyl glycine dehydrogenase EC 1.5.8.4. The reaction requires reduced pteroylpentaglutamate (TPG).\n\nDimethylglycine + FADH₂ + H₄TPG + H₂O → Sarcosine + N-formyl-TPG. Traces of sarcosine can also arise by methylation of glycine. The reaction is catalyzed by glycine N-methyltransferase, EC 2.1.1.20.\n\nGlycine + S-Adenosylmethionine → Sarcosine + S-Adenosylhomocysteine. Catabolism of sarcosine to glycine is catalyzed by the flavoprotein sarcosine dehydrogenase EC 1.5.8.3. Catabolism of sarcosine to glycine also requires reduced TPG.\n\nThe demethylation reactions that form and degrade sarcosine represent important sources of one-carbon units.",
+      "char_start": 13545,
+      "char_end": 14356,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Sarcosine (N-Methylglycine)"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "sarcosine-n-methylglycine"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Creatinine is formed in muscle from creatine phosphate by nonenzymatic dehydration and loss of phosphate (Figure 30--11).",
+      "char_start": 14384,
+      "char_end": 14505,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Creatine & Creatinine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "The 24-hour urinary excretion of creatinine is proportionate to muscle mass.\n\nCreatinine provides a measure of whether a complete 24-hour urine specimen has been collected.\n\nGlycine, arginine, and methionine all participate in creatine biosynthesis.",
+      "char_start": 14740,
+      "char_end": 14989,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Creatine & Creatinine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Synthesis of creatine is completed by methylation of guanidoacetate by S-adenosylmethionine (see Figure 30--11).",
+      "char_start": 15123,
+      "char_end": 15235,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "BIOMEDICAL IMPORTANCE",
+        "Creatine & Creatinine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "β-Alanine is formed during the catabolism of the pyrimidine uracil. β-Aminoisobutyrate is formed during the catabolism of the pyrimidine thymine. Traces of β-alanine also result from the hydrolysis of β-alanyl dipeptides by the enzyme carnosinase, EC 3.4.13.20. β-Aminoisobutyrate also arises by transamination of methylmalonate semialdehyde, a catabolite of L-valine.\n\nThe initial reaction of β-alanine catabolism is transamination to malonate semialdehyde. Subsequent transfer of coenzyme A from succinyl-CoA forms malonyl-CoA semialdehyde. Malonyl-CoA semialdehyde is then oxidized to malonyl-CoA. Malonyl-CoA is decarboxylated to the amphibolic intermediate acetyl-CoA. Analogous reactions characterize the catabolism of β-aminoisobutyrate. Transamination forms methylmalonate semialdehyde. Methylmalonate semialdehyde is converted to the amphibolic intermediate succinyl-CoA by reactions 8V and 9V of Figure 29–22.\n\nDisorders of β-alanine and β-aminoisobutyrate metabolism arise from defects in enzymes of the pyrimidine catabolic pathway. Principal among these are disorders that result from a total or partial deficiency of dihydropyrimidine dehydrogenase.",
+      "char_start": 15556,
+      "char_end": 16719,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "NON-α-AMINO ACIDS",
+        "β-Alanine & β-Aminoisobutyrate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "alanine-aminoisobutyrate"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Carnosine and anserine activate myosin ATPase (EC 3.6.4.1). Carnosine and anserine chelate copper. Carnosine and anserine enhance copper uptake. Carnosine synthetase catalyzes the biosynthesis of carnosine (EC 6.3.2.11). Carnosinase deficiency is a heritable disorder characterized by carnosinuria. Homocarnosine is present in the human brain at higher levels than carnosine. Carnosine synthetase synthesizes homocarnosine. Serum carnosinase does not hydrolyze homocarnosine. Homocarnosinosis is a rare genetic disorder associated with progressive spastic paraplegia and mental retardation.",
+      "char_start": 16745,
+      "char_end": 17335,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "NON-α-AMINO ACIDS",
+        "β-Alanyl Dipeptides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "alanyl-dipeptides"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "GABA functions in brain tissue as an inhibitory neurotransmitter by altering transmembrane potential differences. GABA is formed by decarboxylation of glutamate by L-glutamate decarboxylase, EC 4.1.1.15 (Figure 30-12).",
+      "char_start": 17357,
+      "char_end": 17575,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "NON-α-AMINO ACIDS",
+        "γ-Aminobutyrate"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-12"
+      ],
+      "table_refs": [],
+      "section_id": "aminobutyrate"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "L-Glutamate decarboxylase converts L-Glutamate to γ-Aminobutyrate using PLP as a cofactor.\nγ-Aminobutyrate is converted to Succinate semialdehyde using α-KA.\nγ-Aminobutyrate is converted to Succinate semialdehyde using α-AA.\nSuccinate semialdehyde is converted to γ-Hydroxybutyrate using α-Ketoglutarate and Lactate dehydrogenase with NAD+.\nLactate dehydrogenase converts Succinate semialdehyde to α-Ketoglutarate using NADH + H+.\nSuccinate semialdehyde is converted to L-Glutamate with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nγ-Hydroxybutyrate is converted to L-Glutamate using α-KA.\nγ-Hydroxybutyrate is converted to Succinate semialdehyde using α-AA.\nL-Glutamate is converted to L-Glutamate using PLP.\nL-Glutamate is converted to L-Glutamate using PLP and Transaminase.\nTransaminase converts L-Glutamate to L-Glutamate using α-KA.\nTransaminase converts L-Glutamate to Succinate semialdehyde using α-AA.\nL-Glutamate is converted to L-Glutamate using PLP.\nL-Glutamate is converted to L-Glutamate using PLP and Transaminase.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde using H2O.\nSuccinate semialdehyde is converted to Succinate semialdehyde using NAD+.\nSuccinate semialdehyde is converted to Succinate semialdehyde using NADH + H+.\nThe diagram illustrates the metabolism of γ-aminobutyrate, showing its conversion pathways and the involvement of various cofactors and enzymes.",
+      "char_start": 17698,
+      "char_end": 19334,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "NON-α-AMINO ACIDS",
+        "γ-Aminobutyrate"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "aminobutyrate"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Transamination of GABA forms succinate semialdehyde. Succinate semialdehyde can be oxidized to succinate.\n\nA rare genetic disorder of GABA metabolism involves a defective GABA aminotransferase EC 2.6.1.19. GABA aminotransferase participates in the catabolism of GABA subsequent to its postsynaptic release in brain tissue.\n\nDefects in succinic semialdehyde dehydrogenase, EC 1.2.1.24 (see Figure 30-12) are responsible for 4-hydroxybutyric aciduria. 4-hydroxybutyric aciduria is a rare metabolic disorder of GABA catabolism characterized by the presence of 4-hydroxybutyrate in urine, plasma, and cerebrospinal fluid (CSF).\n\nNo present treatment is available for the accompanying mild to severe neurologic symptoms of 4-hydroxybutyric aciduria.",
+      "char_start": 19336,
+      "char_end": 20080,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products",
+        "NON-α-AMINO ACIDS",
+        "γ-Aminobutyrate"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-30-12"
+      ],
+      "table_refs": [],
+      "section_id": "aminobutyrate"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Arginine provides the formamidine group of creatine and the nitrogen of NO. Via ornithine, arginine provides the skeleton of the polyamines putrescine, spermine, and spermidine.\nCysteine provides the thioethanolamine portion of coenzyme A and, following its conversion to taurine, is part of the bile acid taurocholic acid.\nGlycine participates in the biosynthesis of heme, purines, creatine, and N-methylglycine (sarcosine). Many drugs and drug metabolites are excreted as glycine conjugates. This enhances their water solubility for urinary excretion.\nDecarboxylation of histidine forms the neurotransmitter histamine. Histidine compounds present in the human body include ergothioneine, carnosine, and anserine.\nS-Adenosylmethionine, the principal source of methyl groups in metabolism, contributes its carbon skeleton to the biosynthesis of the polyamines spermine and spermidine.\nIn addition to its roles in phospholipid and sphingosine biosynthesis, serine provides carbons 2 and 8 of purines and the methyl group of thymine.\nKey tryptophan metabolites include serotonin and melatonin. Kidney and liver tissue, and also fecal bacteria, convert tryptophan to tryptamine and thence to indole 3-acetate. The principal tryptophan catabolites in urine are indole 3-acetate and 5-hydroxyindoleacetate.\nTyrosine forms norepinephrine and epinephrine, and following iodination, the thyroid hormones triiodothyronine and thyroxine.\nGlycine, arginine, and S-adenosylmethionine all participate in the biosynthesis of creatine, which as creatine phosphate serves as a major energy reserve in muscle and brain tissue. Excretion in the urine of its catabolite creatinine is proportionate to muscle mass.\nDecarboxylation of glutamate forms the inhibitory neurotransmitter GABA. Two rare metabolic disorders are associated with defects in GABA catabolism.",
+      "char_start": 20082,
+      "char_end": 21926,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-30-1",
+      "image_path": "images/f0d227c6efee99925378eb9277260f16d9f913e8f71d990f12b9377a54edcfec.jpg",
+      "caption": "Arginine, ornithine, and proline metabolism. Reactions with solid arrows all occur in mammalian tissues. Putrescine and spermine synthesis occurs in both mammals and bacteria. Arginine phosphate of invertebrate muscle functions as a phosphagen analogous to creatine phosphate of mammalian muscle.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-30-1]",
+      "description": "Proteins are converted to Proline.\nProline is converted to Glutamate-γ-semialdehyde.\nGlutamate-γ-semialdehyde is converted to Glutamate.\nGlutamate is converted to Putrescine, spermidine, spermine.\nPutrescine, spermidine, spermine is converted to Ornithine.\nOrnithine is converted to Arginine.\nArginine is converted back to Proteins.\nArginine is converted to Urea.\nArginine is converted to Nitric oxide.\nArginine is converted to Creatine phosphate, creatinine.\nArginine can also be converted to Arginine phosphate in invertebrate muscle.\nThe diagram illustrates the metabolic pathways of Arginine, Ornithine, and Proline, including their conversion to specialized products such as Urea, Nitric oxide, and Creatine phosphate, as well as the role of Arginine phosphate in invertebrates.",
+      "label": "Figure 30-1",
+      "panel": "",
+      "content_chunk": "c004",
+      "caption_span": [
+        2414,
+        2710
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "arginine"
+    },
+    {
+      "fig_id": "fig-30-2",
+      "image_path": "images/e256f46015acd1cf33f9a5493d86e735f0d7e75b8acd385cf7e14b81e0baaa20.jpg",
+      "caption": "The reaction catalyzed by nitric oxide synthase.",
+      "referenced_from": "c005",
+      "marker": "[FIGURE:fig-30-2]",
+      "description": "",
+      "label": "Figure 30-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3870,
+        3918
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "arginine"
+    },
+    {
+      "fig_id": "fig-30-3",
+      "image_path": "images/671866dbbfb62e8e7111eadb811f8beb3fe242ec970bddbd4effae066f7d1f9b.jpg",
+      "caption": "Conversion of cysteine to taurine. The reactions are catalyzed by cysteine dioxygenase, cysteine sulfinate decarboxylase, and hypotaurine decarboxylase, respectively.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-30-3]",
+      "description": "Cysteine is converted to Sulfinoalanine (Cysteine sulfinate) by the action of cysteine dioxygenase, using O2 and Fe++.\nSulfinoalanine (Cysteine sulfinate) is converted to Hypotaurine by the action of cysteine sulfinate decarboxylase, releasing CO2.\nHypotaurine is converted to Taurine by the action of hypotaurine decarboxylase, using H2O and NAD+.\nTaurine is converted back to Hypotaurine by the action of Hypotaurine dehydrogenase, producing NADH and H+.\nThe diagram illustrates the conversion of cysteine to taurine through a series of enzymatic reactions.",
+      "label": "Figure 30-3",
+      "panel": "",
+      "content_chunk": "c008",
+      "caption_span": [
+        4214,
+        4380
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cysteine"
+    },
+    {
+      "fig_id": "fig-30-4",
+      "image_path": "images/319849caa7015b7ab52c0c14ad5f9baebe8b1a4f59d42ee354819ffb08049d34.jpg",
+      "caption": "Biosynthesis of hippurate. Analogous reactions occur with many acidic drugs and catabolites.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-30-4]",
+      "description": "",
+      "label": "Figure 30-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5724,
+        5816
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glycine"
+    },
+    {
+      "fig_id": "fig-30-5",
+      "image_path": "images/8a317487f8fbbc32fcc23bc465e2f2a7704d0eb4c365a5e517c62a0b60b790ca.jpg",
+      "caption": "The reaction catalyzed by histidine decarboxylase.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-30-5]",
+      "description": "",
+      "label": "Figure 30-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6044,
+        6094
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/09d5b6ffa556017f5eb3a47cbd8a967095ffdb9104f78d4de67902cc5fc8dd9f.jpg",
+      "caption": "Chemical structure of a peptide derivative featuring amide and ester functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6338,
+        6425
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-30-6",
+      "image_path": "images/8778bbeb02c460fdb65489195da2ff4845744884421d104219ae470ea4b57cc3.jpg",
+      "caption": "Derivatives of histidine. Colored boxes surround the components not derived from histidine. The SH group of ergothioneine derives from cysteine.",
+      "referenced_from": "c013",
+      "marker": "[FIGURE:fig-30-6]",
+      "description": "",
+      "label": "Figure 30-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6558,
+        6702
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-x8",
+      "image_path": "images/d7a993fdaed7bfff4787d6021af8e2bc7d3d141b17873d4849997a8c3c91205d.jpg",
+      "caption": "Chemical structure of a peptide derivative featuring amide and ester functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x8]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6721,
+        6808
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-x9",
+      "image_path": "images/f8f7f2cfce78ab39f5b5f4c75ffe3092965fee5292b5405641f7f55a1ce393bd.jpg",
+      "caption": "Chemical structure of a triazole derivative featuring amide and ester functional groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x9]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6915,
+        7003
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-30-7",
+      "image_path": "images/ff58786ff25caa819021222a97e594ec9ab17b184dc099e636e0e4d7aed66bb4.jpg",
+      "caption": "Intermediates and enzymes that participate in the biosynthesis of spermidine and spermine.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-30-7]",
+      "description": "L-Ornithine is converted to Putrescine by Ornithine decarboxylase.\nL-Ornithine is converted to S-Adenosylmethionine by S-Adenosylmethionine decarboxylase.\nPutrescine is converted to Spermidine by Spermidine synthase.\nPutrescine is converted to Methylthioadenosine by Spermidine synthase.\nS-Adenosylmethionine decarboxylase is converted to S-Adenosylmethionine decarboxylase by S-Adenosylmethionine decarboxylase.\nSpermidine is converted to Spermine by Spermine synthase.\nMethylthioadenosine is converted to Methylthioadenosine by Spermine synthase.\nS-Adenosylmethionine decarboxylase is converted to Spermine by Spermine synthase.\nSpermidine is converted to Spermine by Spermine synthase.\nThis diagram illustrates the biosynthesis pathways of spermidine and spermine from L-Ornithine and S-Adenosylmethionine.",
+      "label": "Figure 30-7",
+      "panel": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        8326,
+        8416
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "methionine"
+    },
+    {
+      "fig_id": "fig-30-8",
+      "image_path": "images/edf4cd01329b3f29056538dd143c609f32f6fbb2d8ab9aff7eaa13ab3ec7d928.jpg",
+      "caption": "Catabolism of polyamines.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-30-8]",
+      "description": "Spermine is converted to β-Aminopropionaldehyde by Polyamine oxidase in the presence of O2, producing H2O2.\nβ-Aminopropionaldehyde is further converted to O=C-CH2-CH2NH3+.\nO=C-CH2-CH2NH3+ is then converted to Spermidine with the release of H2O2.\nSpermidine is converted to β-Aminopropionaldehyde by Polyamine oxidase in the presence of O2, producing H2O2.\nβ-Aminopropionaldehyde is converted to Spermidine with the release of O2.\nSpermidine is converted to Putrescine with the release of NH4+ and CO2.\nPutrescine is converted to Putrescine, indicating a stable end product in the catabolism of polyamines.",
+      "label": "Figure 30-8",
+      "panel": "",
+      "content_chunk": "c018",
+      "caption_span": [
+        9248,
+        9273
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "methionine"
+    },
+    {
+      "fig_id": "fig-30-9",
+      "image_path": "images/1726ffc9fc62f29c89277266a8f089fa524397d4832dde7046598311fe8358e5.jpg",
+      "caption": "Biosynthesis and metabolism of serotonin and melatonin. ( [NH4+] , by transamination; MAO, monoamine oxidase; CH3 , from S-adenosylmethionine.)",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-30-9]",
+      "description": "",
+      "label": "Figure 30-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10710,
+        10853
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "fig_id": "fig-30-10",
+      "image_path": "images/cdcb218859d3bd779f36b838d4a28e5c4d3431d3ac33a486d315f2202baa0c9a.jpg",
+      "caption": "Conversion of tyrosine to epinephrine and norepinephrine in neuronal and adrenal cells. (PLP, pyridoxal phosphate.)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-30-10]",
+      "description": "L-Tyrosine is converted to Dopa by tyrosine hydroxylase, with H4• biopterin and H2• biopterin as cofactors.\nDopa is converted to Dopamine by DOPA decarboxylase, with PLP as a cofactor and releases CO2.\nDopamine is converted to Norepinephrine by dopamine β-oxidase, with Cu2+ and Vitamin C as cofactors.\nNorepinephrine is converted to Epinephrine by phenylethanolamine N-methyltransferase, with S-Adenosylmethionine and S-Adenosylhomocysteine as cofactors.\nThe diagram illustrates the conversion of tyrosine to epinephrine and norepinephrine in neuronal and adrenal cells.",
+      "label": "Figure 30-10",
+      "panel": "",
+      "content_chunk": "c023",
+      "caption_span": [
+        12823,
+        12938
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "fig_id": "fig-30-11",
+      "image_path": "",
+      "caption": "Biosynthesis of creatine and creatinine. Conversion of glycine and the guanidine group of arginine to creatine and creatine phosphate. Also shown is the nonenzymic hydrolysis of creatine phosphate to creatinine.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-30-11]",
+      "description": "",
+      "label": "Figure 30-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14527,
+        14738
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-x15",
+      "image_path": "images/697faed46f8693bdfc68dbed04cfc77f38bfa7c99b073d7f4ab94d61dd854b09.jpg",
+      "caption": "Diagram shows conversion of S-Adenosylmethionine and S-Adenosylhomocysteine to Guanidoacetate methyltransferase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x15]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15009,
+        15121
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-x16",
+      "image_path": "images/e856dc25a0a95f870854faa96ed7eb11d0191913d7b328371cd2a8f85c283443.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x16]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-x17",
+      "image_path": "images/56d10cc841a98bc170a0f6bc334e9081e65733355db3f6fed3228e563e37ce42.jpg",
+      "caption": "Chemical structure of a piperidine derivative featuring amino and methyl substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x17]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15273,
+        15359
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-x18",
+      "image_path": "images/1fda5c50ccb3d71f84915ed9e06cda9bdd1a5644a9f603b71633ab14b00c5095.jpg",
+      "caption": "Diagram illustrating the presence of hydrogen peroxide (H₂O) and Pi in nonenzymatic muscle processes.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x18]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15379,
+        15480
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-x19",
+      "image_path": "images/1e7c6b34ca5ed71159f283f90d2ef295fd9898682daa5c5af4b9e2699fa6488f.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x19]",
+      "description": "",
+      "label": "",
+      "panel": "Creatini",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "creatine-creatinine"
+    },
+    {
+      "fig_id": "fig-30-12",
+      "image_path": "images/0f33e098d9fdaf20d4874312e27f81c89c0d398b11b92e91f276192b70e1af0d.jpg",
+      "caption": "Metabolism of γ-aminobutyrate. (α-AA, α-amino acids; α-KA, α-keto acids; PLP, pyridoxal phosphate.)",
+      "referenced_from": "c030",
+      "marker": "[FIGURE:fig-30-12]",
+      "description": "L-Glutamate decarboxylase converts L-Glutamate to γ-Aminobutyrate using PLP as a cofactor.\nγ-Aminobutyrate is converted to Succinate semialdehyde using α-KA.\nγ-Aminobutyrate is converted to Succinate semialdehyde using α-AA.\nSuccinate semialdehyde is converted to γ-Hydroxybutyrate using α-Ketoglutarate and Lactate dehydrogenase with NAD+.\nLactate dehydrogenase converts Succinate semialdehyde to α-Ketoglutarate using NADH + H+.\nSuccinate semialdehyde is converted to L-Glutamate with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nγ-Hydroxybutyrate is converted to L-Glutamate using α-KA.\nγ-Hydroxybutyrate is converted to Succinate semialdehyde using α-AA.\nL-Glutamate is converted to L-Glutamate using PLP.\nL-Glutamate is converted to L-Glutamate using PLP and Transaminase.\nTransaminase converts L-Glutamate to L-Glutamate using α-KA.\nTransaminase converts L-Glutamate to Succinate semialdehyde using α-AA.\nL-Glutamate is converted to L-Glutamate using PLP.\nL-Glutamate is converted to L-Glutamate using PLP and Transaminase.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde with the release of CO2.\nSuccinate semialdehyde is converted to Succinate semialdehyde using H2O.\nSuccinate semialdehyde is converted to Succinate semialdehyde using NAD+.\nSuccinate semialdehyde is converted to Succinate semialdehyde using NADH + H+.\nThe diagram illustrates the metabolism of γ-aminobutyrate, showing its conversion pathways and the involvement of various cofactors and enzymes.",
+      "label": "Figure 30-12",
+      "panel": "",
+      "content_chunk": "c031",
+      "caption_span": [
+        17597,
+        17696
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "aminobutyrate"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Cite examples of how amino acids participate in biosynthetic processes other than protein synthesis.\nOutline how arginine participates in the biosynthesis of creatine, nitric oxide (NO), putrescine, spermine, and spermidine.\nIndicate the contribution of cysteine and of β -alanine to the structure of coenzyme A.\nDiscuss the role played by glycine in drug catabolism and excretion.\nDocument the role of glycine in the biosynthesis of heme, purines, creatine, and sarcosine.\nIdentify the reaction that converts an amino acid to the neurotransmitter histamine.\nDocument the role of S-adenosylmethionine in metabolism.\nRecognize the structures of tryptophan metabolites serotonin, melatonin, tryptamine, and indole 3-acetate.\nDescribe how tyrosine gives rise to norepinephrine and epinephrine.\nDiagram the roles of glycine, arginine, and S-adenosylmethionine in the biosynthesis of creatine.\nExplain the role of creatine phosphate in energy homeostasis.\nIllustrate the formation of γ -aminobutyrate (GABA) and the rare metabolic disorders associated with defects in GABA catabolism.",
+      "char_start": 53,
+      "char_end": 1132,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Alghamdi MA, Alkhamis WH, Jamjoom DZ, et al: Succinic semialdehyde dehydrogenase deficiency presenting with central hypothyroidism. Clin Case Rep 2021;9:229. [PubMed: 33489165]\nBergkvist M, Stephens C, Schilling T, et al: Aromatic L-amino acid decarboxylase deficiency: a systematic review. Fut Neurol 2022;17: https://doi.org/10.2217/fnl-2022-0012.\nLee HHC, McGinty GE, Pearl PL, Rotenberg R: Understanding the molecular mechanisms of succinic semialdehyde dehydrogenase deficiency (SSADHD): towards the development of SSADHD-targeted medicine. Int J Mol Sci 2022;23:2606. [PubMed: 35269750]\nNashabat M, Al-Khenaizan S, Alfadhel M: Methionine adenosyltransferase I/III deficiency: beyond the central nervous system manifestations. Therap Clinic Risk Manag 2018;14:225.\nPark JE, Lee T, Ha K, et al: Carrier frequency of aromatic L-amino acid decarboxylase deficiency: a gnomAD-based study. Pediat Res 2023;94:1764. [PubMed: 37286773]\nPearson TS, Gupta N, Sebastian WS, et al: Gene therapy for aromatic L-amino acid decarboxylase deficiency by MR-guided direct delivery of AAV2-AADC to midbrain dopaminergic neurons. Nature Commun 2021;12:4251.\nSchippers KJ, Nichols SA: Deep, dark secrets of melatonin in animal evolution. Cell 2014;159:9. [PubMed: 25259913]\nXuan M, Gu X, Li J, et al: Polyamines: their significance for maintaining health and contributing to diseases. Cell Commun Signal 2023;21:348. [PubMed: 38049863]",
+      "char_start": 21928,
+      "char_end": 23348,
+      "section_path": [
+        "Conversion of Amino Acids to Specialized Products"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-30-4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-30-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-30-11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x15",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x16",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x17",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x18",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x19",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-30-11",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_30_conversion_of_amino_acids_to_specialized_products.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_30_conversion_of_amino_acids_to_specialized_products/chapter_30_conversion_of_amino_acids_to_specialized_products.normalized.md"
+}

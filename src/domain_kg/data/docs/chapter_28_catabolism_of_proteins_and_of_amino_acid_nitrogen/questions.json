@@ -1,0 +1,945 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Amino acids are converted into which substance?",
+    "options": [
+      "ADP",
+      "amide nitrogen",
+      "blood",
+      "carbon skeletons",
+      "l-malate"
+    ],
+    "answer": "carbon skeletons",
+    "rationale": "The major portion of the carbon skeletons of the amino acids is converted to amphibolic intermediates.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEIN TURNOVER",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Amino acid nitrogen is converted into which substance?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "In humans, the amino nitrogen is converted to urea and excreted in the urine.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEIN TURNOVER",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Ubiquitin requires which substance for its function?",
+    "options": [
+      "ammonia",
+      "ammonium",
+      "ATP",
+      "E2",
+      "urea"
+    ],
+    "answer": "ATP",
+    "rationale": "Degradation of short-lived regulatory proteins and abnormal or misfolded proteins in the cytosol requires ATP and ubiquitin.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS > ATP & Ubiquitin-Dependent Degradation",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognised cause of Angelman syndrome?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "ubiquitin",
+    "rationale": "Genetic disorders resulting from defects in genes encoding ubiquitin, ubiquitin ligases, or deubiquitinating enzymes include Angelman syndrome, autosomal recessive juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS > ATP & Ubiquitin-Dependent Degradation",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of autosomal recessive juvenile Parkinson disease?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "ubiquitin",
+    "rationale": "Genetic disorders resulting from defects in genes encoding ubiquitin, ubiquitin ligases, or deubiquitinating enzymes include Angelman syndrome, autosomal recessive juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS > ATP & Ubiquitin-Dependent Degradation",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which of the following is a recognised cause of von Hippel-Lindau syndrome?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "ubiquitin",
+    "rationale": "Genetic disorders resulting from defects in genes encoding ubiquitin, ubiquitin ligases, or deubiquitinating enzymes include Angelman syndrome, autosomal recessive juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS > ATP & Ubiquitin-Dependent Degradation",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which of the following is a recognised cause of congenital polycythemia?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "ubiquitin",
+    "rationale": "Genetic disorders resulting from defects in genes encoding ubiquitin, ubiquitin ligases, or deubiquitinating enzymes include Angelman syndrome, autosomal recessive juvenile Parkinson disease, von Hippel-Lindau syndrome, and congenital polycythemia.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > PROTEASES & PEPTIDASES DEGRADE PROTEINS TO AMINO ACIDS > ATP & Ubiquitin-Dependent Degradation",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is transported by muscle?",
+    "options": [
+      "branched-chain amino acids",
+      "glutamine",
+      "serine",
+      "ubiquitin",
+      "valine"
+    ],
+    "answer": "branched-chain amino acids",
+    "rationale": "Branched-chain amino acids, particularly valine, are released by muscle.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which substance is synthesised by the liver?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "The liver is the site of the urea cycle enzymes.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substance is transported by the liver?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "branched-chain amino acids",
+      "glutamine",
+      "serine"
+    ],
+    "answer": "alanine",
+    "rationale": "Alanine is extracted primarily by the liver.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substance is predominantly transported by the brain?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamine",
+      "serine",
+      "valine"
+    ],
+    "answer": "valine",
+    "rationale": "Branched-chain amino acids, particularly valine, are taken up predominantly by the brain.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substance is transported by glucose in the context of organ interactions after feeding?",
+    "options": [
+      "amide nitrogen",
+      "amino acid nitrogen",
+      "bloodstream",
+      "carbon skeletons",
+      "nitrogen"
+    ],
+    "answer": "bloodstream",
+    "rationale": "Glucose is released into the bloodstream by the liver. Glucose is available for uptake by muscle and resynthesis of alanine. Figure 28-6provides a summary of amino acid exchange between organs immediately after feeding.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "transports",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substance is secreted by the liver into the bloodstream?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "E1",
+      "E2",
+      "glucose"
+    ],
+    "answer": "glucose",
+    "rationale": "Glucose is released into the bloodstream by the liver. Glucose is available for uptake by muscle and resynthesis of alanine.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > INTERORGAN EXCHANGE MAINTAINS CIRCULATING LEVELS OF AMINO ACIDS",
+    "relation": "secretes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which substance is transported by amino acids glutamate?",
+    "options": [
+      "blood",
+      "bloodstream",
+      "carbon skeletons",
+      "nitrogen",
+      "urine"
+    ],
+    "answer": "nitrogen",
+    "rationale": "Amino acids glutamate and glutamine are utilized as transporters for moving waste nitrogen into the mitochondria.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > BIOSYNTHESIS OF UREA",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which substance is transported by glutamine?",
+    "options": [
+      "blood",
+      "bloodstream",
+      "carbon skeletons",
+      "nitrogen",
+      "urine"
+    ],
+    "answer": "nitrogen",
+    "rationale": "Amino acids glutamate and glutamine are utilized as transporters for moving waste nitrogen into the mitochondria.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > BIOSYNTHESIS OF UREA",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Alanine requires which substance for its role in transamination?",
+    "options": [
+      "aspartate",
+      "carbamoyl phosphate synthetase I",
+      "glutamate aminotransferase",
+      "glutamine",
+      "n-acetylglutamate"
+    ],
+    "answer": "glutamate aminotransferase",
+    "rationale": "Alanine is a substrate for glutamate aminotransferase. The α-amino nitrogen from amino acids that undergo transamination can be concentrated in glutamate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > BIOSYNTHESIS OF UREA > Transamination Transfers α-Amino Nitrogen to α-Ketoglutarate, Forming Glutamate",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "PLP acts on which substrate in the process of transamination?",
+    "options": [
+      "alanine",
+      "aminotransferase",
+      "gly",
+      "liver GDH",
+      "lysine"
+    ],
+    "answer": "aminotransferase",
+    "rationale": "Pyridoxal phosphate (PLP) is present at the catalytic site of all aminotransferases. PLP plays a key role in catalysis. PLP serves as a 'carrier' of amino groups during transamination.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > BIOSYNTHESIS OF UREA > Transamination Transfers α-Amino Nitrogen to α-Ketoglutarate, Forming Glutamate",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Liver GDH acts on which substrate?",
+    "options": [
+      "ammonia",
+      "E2",
+      "fumarate",
+      "nitric oxide",
+      "urea"
+    ],
+    "answer": "ammonia",
+    "rationale": "Hepatic L-glutamate dehydrogenase (GDH) releases nitrogen as ammonia from L-glutamate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > L-GLUTAMATE DEHYDROGENASE OCCUPIES A CENTRAL POSITION IN NITROGEN METABOLISM",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Glutamate aminotransferase acts on which substrate in the process of transdeamination?",
+    "options": [
+      "amino acids",
+      "glutamine synthetase",
+      "gly",
+      "liver GDH",
+      "lysine"
+    ],
+    "answer": "liver GDH",
+    "rationale": "The conversion of α-amino nitrogen to ammonia by glutamate aminotransferase and GDH is termed 'transdeamination'.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > L-GLUTAMATE DEHYDROGENASE OCCUPIES A CENTRAL POSITION IN NITROGEN METABOLISM",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "L-Amino acid oxidase is found within which structure?",
+    "options": [
+      "liver",
+      "muscle",
+      "renal tubule",
+      "tissue",
+      "uterine tissue"
+    ],
+    "answer": "liver",
+    "rationale": "L-Amino acid oxidase of the liver and kidney converts an amino acid to an α-imino acid.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of slurred speech?",
+    "options": [
+      "ammonia excess",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "ammonia excess",
+    "rationale": "Symptoms of ammonia intoxication include tremor, slurred speech, blurred vision, coma, and ultimately death.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Ammonia Intoxication Is Life-Threatening",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which of the following is a recognised cause of blurred vision?",
+    "options": [
+      "ammonia excess",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "ammonia excess",
+    "rationale": "Symptoms of ammonia intoxication include tremor, slurred speech, blurred vision, coma, and ultimately death.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Ammonia Intoxication Is Life-Threatening",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which of the following is a recognised cause of coma?",
+    "options": [
+      "ammonia excess",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "ammonia excess",
+    "rationale": "Symptoms of ammonia intoxication include tremor, slurred speech, blurred vision, coma, and ultimately death.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Ammonia Intoxication Is Life-Threatening",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which of the following is a recognised cause of death?",
+    "options": [
+      "ammonia excess",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "ammonia excess",
+    "rationale": "Symptoms of ammonia intoxication include tremor, slurred speech, blurred vision, coma, and ultimately death.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Ammonia Intoxication Is Life-Threatening",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which substance is secreted by renal tubular cells?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "E2",
+      "glucose",
+      "urea"
+    ],
+    "answer": "ammonia",
+    "rationale": "Excretion into urine of ammonia produced by renal tubular cells facilitates cation conservation.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Formation & Secretion of Ammonia Maintains Acid–Base Balance",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Urea synthesis requires which substance?",
+    "options": [
+      "ammonia",
+      "ammonium",
+      "E1",
+      "E2",
+      "PP"
+    ],
+    "answer": "ammonium",
+    "rationale": "Synthesis of 1 mol of urea requires 1 mol of ammonium ion. Synthesis of 1 mol of urea requires 1 mol of aspartate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Urea Is the Major End Product of Nitrogen Catabolism in Humans",
+    "relation": "requires",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which substance is transported by argininosuccinate?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "Argininosuccinate serves as a carrier in urea synthesis. The major metabolic role of ornithine in mammals is urea synthesis.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Urea Is the Major End Product of Nitrogen Catabolism in Humans",
+    "relation": "transports",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Carbamoyl phosphate synthetase I requires which substance for activity?",
+    "options": [
+      "aspartate",
+      "glutamate aminotransferase",
+      "glutamine",
+      "n-acetylglutamate",
+      "ubiquitin"
+    ],
+    "answer": "n-acetylglutamate",
+    "rationale": "Carbamoyl phosphate synthetase I requires N-acetylglutamate for activity.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Carbamoyl Phosphate Synthetase I Initiates Urea Biosynthesis",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Citrulline is converted into which substance?",
+    "options": [
+      "amino acids",
+      "N-acetyl-L-glutamate",
+      "ornithine",
+      "ubiquitin",
+      "ubiquitin ligases"
+    ],
+    "answer": "ornithine",
+    "rationale": "L-Ornithine transcarbamoylase (EC 2.1.3.3) catalyzes the transfer of the carbamoyl group of carbamoyl phosphate to ornithine forms citrulline and orthophosphate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Carbamoyl Phosphate Plus Ornithine Forms Citrulline",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Orthophosphate is a product of which reaction?",
+    "options": [
+      "argininosuccinate",
+      "N-acetyl-L-glutamate",
+      "ornithine",
+      "ubiquitin",
+      "ubiquitin ligases"
+    ],
+    "answer": "ornithine",
+    "rationale": "L-Ornithine transcarbamoylase (EC 2.1.3.3) catalyzes the transfer of the carbamoyl group of carbamoyl phosphate to ornithine forms citrulline and orthophosphate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Carbamoyl Phosphate Plus Ornithine Forms Citrulline",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Aspartate is converted into which substance in the urea cycle?",
+    "options": [
+      "argininosuccinate",
+      "N-acetyl-L-glutamate",
+      "ornithine",
+      "ubiquitin",
+      "ubiquitin ligases"
+    ],
+    "answer": "argininosuccinate",
+    "rationale": "The displacement of AMP by aspartate forms argininosuccinate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Citrulline Plus Aspartate Forms Argininosuccinate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Fumarate is converted into which substance in the citric acid cycle?",
+    "options": [
+      "ADP",
+      "amide nitrogen",
+      "blood",
+      "carbon skeletons",
+      "l-malate"
+    ],
+    "answer": "l-malate",
+    "rationale": "Subsequent addition of water to fumarate forms L-malate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Cleavage of Argininosuccinate Forms Arginine & Fumarate",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Fumarase acts on which substrate?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "fumarate",
+      "nitric oxide",
+      "urea"
+    ],
+    "answer": "fumarate",
+    "rationale": "The reactions involving the conversion of fumarate to oxaloacetate are analogous to reactions of the citric acid cycle but are catalyzed by fumarase and malate dehydrogenase.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Cleavage of Argininosuccinate Forms Arginine & Fumarate",
+    "relation": "catalyzes",
+    "confidence": 0.7,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which substance does fumarate transport in the urea cycle?",
+    "options": [
+      "blood",
+      "bloodstream",
+      "carbon skeletons",
+      "nitrogen",
+      "urine"
+    ],
+    "answer": "nitrogen",
+    "rationale": "The carbon skeleton of aspartate-fumarate acts as a carrier of the nitrogen of glutamate into a precursor of urea.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > AMINO ACID OXIDASES REMOVE NITROGEN AS AMMONIA > Cleavage of Argininosuccinate Forms Arginine & Fumarate",
+    "relation": "transports",
+    "confidence": 0.6,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Which of the following is a recognised cause of irritability?",
+    "options": [
+      "ammonia excess",
+      "ATP",
+      "E1",
+      "E2",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "Clinical symptoms common to all urea cycle disorders include vomiting, avoidance of high-protein foods, intermittent ataxia, irritability, lethargy, and severe mental retardation.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "N-acetyl-L-glutamate is required for the activity of which enzyme?",
+    "options": [
+      "aspartate",
+      "carbamoyl phosphate synthetase I",
+      "glutamine",
+      "n-acetylglutamate",
+      "ubiquitin"
+    ],
+    "answer": "carbamoyl phosphate synthetase I",
+    "rationale": "Acetylglutamate is essential for the activity of carbamoyl phosphate synthetase I, EC 6.3.4.16.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > Carbamoyl Phosphate Synthetase I",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Which of the following is a recognized cause of hyperammonemia?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "ornithine carbamoyl deficiency",
+      "ornithine transcarbamoylase deficiency",
+      "ubiquitin"
+    ],
+    "answer": "ornithine transcarbamoylase deficiency",
+    "rationale": "Ornithine transcarbamoylase deficiency is an X-chromosome–linked condition known as hyperammonemia type 2.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > Ornithine Transcarbamoylase",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Which agent is used in the management of NAGS?",
+    "options": [
+      "amino acids",
+      "glutamine",
+      "n-acetylglutamate",
+      "ubiquitin",
+      "ubiquitin ligases"
+    ],
+    "answer": "n-acetylglutamate",
+    "rationale": "A deficiency in NAGS may respond to administered N-acetylglutamate.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > -Acetylglutamate Synthetase",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Which of the following is a recognized cause of hyperornithinemia?",
+    "options": [
+      "argininosuccinate lyase deficiency",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine",
+      "ubiquitin"
+    ],
+    "answer": "ornithine",
+    "rationale": "The inoperable urea cycle leads to hyperornithinemia due to the accumulation of cytosolic ornithine.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > Ornithine Permease",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "Which of the following is a recognized cause of argininosuccinic aciduria?",
+    "options": [
+      "argininosuccinate excess",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "argininosuccinate excess",
+    "rationale": "Argininosuccinic aciduria is associated with elevated levels of argininosuccinate in blood, cerebrospinal fluid, and urine. Argininosuccinic aciduria is associated with friable, tufted hair known as trichorrhexis nodosa.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > Argininosuccinate Lyase",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which of the following is a recognised cause of hyperargininemia?",
+    "options": [
+      "arginase",
+      "argininosuccinate synthetase deficiency",
+      "carbamoyl phosphate synthetase I deficiency",
+      "ornithine carbamoyl deficiency",
+      "ubiquitin"
+    ],
+    "answer": "arginase",
+    "rationale": "Hyperargininemia is an autosomal recessive defect in the gene for arginase.",
+    "citation": "chapter_28_catabolism_of_proteins_and_of_amino_acid_nitrogen — Catabolism of Proteins & of Amino Acid Nitrogen > METABOLIC DISORDERS ARE ASSOCIATED WITH EACH REACTION OF THE UREA CYCLE > Arginase",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

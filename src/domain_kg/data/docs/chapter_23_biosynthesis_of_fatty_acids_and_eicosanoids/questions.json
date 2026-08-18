@@ -1,0 +1,807 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Acetyl-CoA requires which substance?",
+    "options": [
+      "3-ketoacyl derivatives",
+      "fatty acids",
+      "leukotrienes",
+      "malate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Acetyl-CoA is the immediate substrate for fatty acid synthesis.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Acetyl-CoA is converted into which substance in the citric acid cycle?",
+    "options": [
+      "eicosanoids",
+      "hydrogen",
+      "NADPH",
+      "oxaloacetate",
+      "TX2"
+    ],
+    "answer": "oxaloacetate",
+    "rationale": "Citrate is produced by the condensation of acetyl-CoA with oxaloacetate in the citric acid cycle within mitochondria.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The provision of Acetyl-CoA for Lipogenesis Requires a Special Transport Mechanism",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Carboxyl transferase acts on which substrate to form malonyl-CoA?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "malate",
+      "NADPH",
+      "pyruvate"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Step 2 is catalyzed by carboxyl transferase, resulting in the transfer of the carboxyl group to acetyl-CoA, forming the product, malonyl-CoA (Figure 23-1).",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > Production of Malonyl-CoA Is the Initial & Controlling Step in Fatty Acid Synthesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is transported by biotin?",
+    "options": [
+      "4'-phosphopantetheine",
+      "acetyl-CoA carboxylase",
+      "carboxyl transferase",
+      "desaturating fatty acids",
+      "fatty acid synthase complex"
+    ],
+    "answer": "acetyl-CoA carboxylase",
+    "rationale": "Acetyl-CoA carboxylase is a multienzyme protein containing biotin carboxylase, a carboxyl transferase, and a biotin carrier protein which binds biotin.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > Production of Malonyl-CoA Is the Initial & Controlling Step in Fatty Acid Synthesis",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Dehydratase acts on which substrate in the fatty acid synthesis pathway?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "malate",
+      "NADPH",
+      "pyruvate"
+    ],
+    "answer": "3-ketoacyl",
+    "rationale": "The 3-ketoacyl group undergoes dehydration by dehydratase. The 3-ketoacyl group undergoes further reduction by enoyl reductase to form a saturated acyl enzyme.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Enoyl reductase acts on which substrate to form a saturated acyl enzyme?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "malate",
+      "NADPH",
+      "pyruvate"
+    ],
+    "answer": "3-ketoacyl",
+    "rationale": "The 3-ketoacyl group undergoes further reduction by enoyl reductase to form a saturated acyl enzyme. The saturated acyl residue transfers from the —SH of the 4' phosphopantetheine to the free cysteine —SH group.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "NADPH requires which substance?",
+    "options": [
+      "3-ketoacyl derivatives",
+      "extramitochondrial",
+      "fatty acids",
+      "leukotrienes",
+      "thromboxanes"
+    ],
+    "answer": "3-ketoacyl derivatives",
+    "rationale": "NADPH is involved as a donor of reducing equivalents in the reduction of the 3-ketoacyl derivatives (see Figure 23-3, reactions 3 and 5).",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Pentose phosphate is converted into which substance in the pentose phosphate pathway?",
+    "options": [
+      "acetyl-CoA",
+      "hydrogen",
+      "malonyl-CoA",
+      "NADPH",
+      "oxaloacetate"
+    ],
+    "answer": "hydrogen",
+    "rationale": "The oxidative reactions of the pentose phosphate pathway are the chief source of the hydrogen required for the synthesis of fatty acids.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Pentose phosphate requires which substance?",
+    "options": [
+      "3-ketoacyl derivatives",
+      "fatty acids",
+      "leukotrienes",
+      "malate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids",
+    "rationale": "The oxidative reactions of the pentose phosphate pathway are the chief source of the hydrogen required for the synthesis of fatty acids.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "NADP malate dehydrogenase acts on which substrate?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "NADPH",
+      "oxaloacetate",
+      "pyruvate"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Other sources of NADPH include the reaction that converts malate to pyruvate catalyzed by the NADP malate dehydrogenase (malic enzyme) (Figure 23-4).",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substrate does isocitrate dehydrogenase act on?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "malate",
+      "NADPH",
+      "pyruvate"
+    ],
+    "answer": "NADPH",
+    "rationale": "The extramitochondrial isocitrate dehydrogenase reaction is another source of NADPH, particularly in ruminants.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway",
+    "relation": "catalyzes",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substrate does NADH-linked malate dehydrogenase act on?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "NADPH",
+      "oxaloacetate",
+      "pyruvate"
+    ],
+    "answer": "oxaloacetate",
+    "rationale": "Oxaloacetate can form malate via NADH-linked malate dehydrogenase.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The provision of Acetyl-CoA for Lipogenesis Requires a Special Transport Mechanism",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Malate is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "eicosanoids",
+      "hydrogen",
+      "malonyl-CoA",
+      "NADPH"
+    ],
+    "answer": "NADPH",
+    "rationale": "Malate can generate NADPH and pyruvate via the malic enzyme.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The provision of Acetyl-CoA for Lipogenesis Requires a Special Transport Mechanism",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which substance is required by the tricarboxylate transporter in the mitochondrial membrane?",
+    "options": [
+      "3-ketoacyl derivatives",
+      "fatty acids",
+      "leukotrienes",
+      "malate",
+      "thromboxanes"
+    ],
+    "answer": "malate",
+    "rationale": "The citrate (tricarboxylate) transporter in the mitochondrial membrane requires malate to exchange with citrate.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL > The provision of Acetyl-CoA for Lipogenesis Requires a Special Transport Mechanism",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Glucose is converted into which substance during lipogenesis?",
+    "options": [
+      "arachidonic acid",
+      "aspirin",
+      "fat",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "fat",
+    "rationale": "Lipogenesis converts surplus glucose and intermediates such as pyruvate, lactate, and acetyl-CoA to fat.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE NUTRITIONAL STATE REGULATES LIPOGENESIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Pyruvate is converted into which substance during lipogenesis?",
+    "options": [
+      "arachidonic acid",
+      "fat",
+      "glucose",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "fat",
+    "rationale": "Lipogenesis converts surplus glucose and intermediates such as pyruvate, lactate, and acetyl-CoA to fat.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE NUTRITIONAL STATE REGULATES LIPOGENESIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Lactate is converted into which substance during lipogenesis?",
+    "options": [
+      "arachidonic acid",
+      "fat",
+      "glucose",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "fat",
+    "rationale": "Lipogenesis converts surplus glucose and intermediates such as pyruvate, lactate, and acetyl-CoA to fat.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE NUTRITIONAL STATE REGULATES LIPOGENESIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which substance is required for the formation of prostaglandin and thromboxane from fatty acids?",
+    "options": [
+      "aspirin",
+      "ATP-ADP",
+      "glucose",
+      "ibuprofen",
+      "prostaglandins"
+    ],
+    "answer": "prostaglandins",
+    "rationale": "Essential fatty acids are required for the formation of prostaglandin. Essential fatty acids are required for the formation of thromboxane.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE ESSENTIAL FATTY ACIDS (EFA) HAVE IMPORTANT FUNCTIONS IN THE BODY",
+    "relation": "requires",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "DHA is found in high concentrations within which structures?",
+    "options": [
+      "arterial walls",
+      "cerebral cortex",
+      "liver",
+      "muscle",
+      "tissues"
+    ],
+    "answer": "cerebral cortex",
+    "rationale": "DHA is present in high concentrations in the cerebral cortex. DHA is present in high concentrations in the testis.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE ESSENTIAL FATTY ACIDS (EFA) HAVE IMPORTANT FUNCTIONS IN THE BODY",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Arachidonate is converted into which substances by the lipoxygenase pathway?",
+    "options": [
+      "acetyl-CoA",
+      "hydrogen",
+      "LX4",
+      "malonyl-CoA",
+      "oxaloacetate"
+    ],
+    "answer": "LX4",
+    "rationale": "Arachidonate is also the substrate for the synthesis of LT4 and LX4 series by the lipoxygenase pathway. The cyclooxygenase and lipoxygenase pathways compete for arachidonate.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > EICOSANOIDS ARE FORMED FROM C20 POLYUNSATURATED FATTY ACIDS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Eicosapentaenoate is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "eicosanoids",
+      "hydrogen",
+      "malonyl-CoA",
+      "oxaloacetate"
+    ],
+    "answer": "eicosanoids",
+    "rationale": "Eicosanoids are also derived from dietary arachidonate and eicosapentaenoate. Arachidonate is usually derived from the position 2 of phospholipids in the plasma membrane.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > EICOSANOIDS ARE FORMED FROM C20 POLYUNSATURATED FATTY ACIDS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Phospholipase A2 acts on which substrate?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "arachidonate",
+      "malate",
+      "pyruvate"
+    ],
+    "answer": "arachidonate",
+    "rationale": "Phospholipase A2 acts on phospholipids to release arachidonate. Arachidonate is the substrate for the synthesis of PG2 and TX2 series by the cyclooxygenase pathway.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > EICOSANOIDS ARE FORMED FROM C20 POLYUNSATURATED FATTY ACIDS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Cyclooxygenase acts on which substrate?",
+    "options": [
+      "arachidonic acid",
+      "biotin",
+      "citrate",
+      "glucose",
+      "hydroperoxides"
+    ],
+    "answer": "hydroperoxides",
+    "rationale": "Cyclooxygenase (COX), also known as prostaglandin H synthase, catalyzes the first reaction in this pathway. COX exists as two isoenzymes: COX-1 and COX-2. The product of the COX reaction is an endoperoxide called PGH.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE CYCLOOXYGENASE PATHWAY IS RESPONSIBLE FOR PROSTANOID SYNTHESIS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "COX acts on which substrate?",
+    "options": [
+      "arachidonic acid",
+      "biotin",
+      "citrate",
+      "glucose",
+      "hydroperoxides"
+    ],
+    "answer": "hydroperoxides",
+    "rationale": "Cyclooxygenase (COX), also known as prostaglandin H synthase, catalyzes the first reaction in this pathway. COX exists as two isoenzymes: COX-1 and COX-2. The product of the COX reaction is an endoperoxide called PGH.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > THE CYCLOOXYGENASE PATHWAY IS RESPONSIBLE FOR PROSTANOID SYNTHESIS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "5-lipoxygenase acts on which substrate?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "leukotrienes",
+      "malate",
+      "pyruvate"
+    ],
+    "answer": "leukotrienes",
+    "rationale": "Only 5-lipoxygenase forms leukotrienes (Figure 23–12).",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which of the following is a recognised cause of acrodermatitis enteropathica?",
+    "options": [
+      "acetyl-CoA",
+      "extramitochondrial",
+      "fatty acids abnormal",
+      "palmitate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids abnormal",
+    "rationale": "Abnormal metabolism of essential fatty acids is noted in acrodermatitis enteropathica.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Abnormal Metabolism of Essential Fatty Acids Occurs in Several Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of Sjögren-Larsson syndrome?",
+    "options": [
+      "acetyl-CoA",
+      "extramitochondrial",
+      "fatty acids abnormal",
+      "palmitate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids abnormal",
+    "rationale": "Abnormal metabolism of essential fatty acids is noted in Sjögren-Larsson syndrome.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Abnormal Metabolism of Essential Fatty Acids Occurs in Several Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of neuronal degeneration?",
+    "options": [
+      "acetyl-CoA",
+      "extramitochondrial",
+      "fatty acids abnormal",
+      "palmitate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids abnormal",
+    "rationale": "Abnormal metabolism of essential fatty acids is noted in multisystem neuronal degeneration.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Abnormal Metabolism of Essential Fatty Acids Occurs in Several Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of cirrhosis?",
+    "options": [
+      "acetyl-CoA",
+      "extramitochondrial",
+      "fatty acids abnormal",
+      "palmitate",
+      "thromboxanes"
+    ],
+    "answer": "fatty acids abnormal",
+    "rationale": "Abnormal metabolism of essential fatty acids is noted in cirrhosis and alcoholism.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Abnormal Metabolism of Essential Fatty Acids Occurs in Several Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which agent is used in the management of labor?",
+    "options": [
+      "aspirin",
+      "glucose",
+      "ibuprofen",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "prostaglandins",
+    "rationale": "Prostanoids may be used to induce labor at term.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Prostanoids May Be Used Therapeutically",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which agent is used in the management of gastric ulcers?",
+    "options": [
+      "aspirin",
+      "glucose",
+      "ibuprofen",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "prostaglandins",
+    "rationale": "Prostanoids may be used to prevent or alleviate gastric ulcers.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Prostanoids May Be Used Therapeutically",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which agent is used in the management of inflammation?",
+    "options": [
+      "aspirin",
+      "glucose",
+      "ibuprofen",
+      "prostaglandins",
+      "saturated fatty acids"
+    ],
+    "answer": "prostaglandins",
+    "rationale": "Prostanoids may be used to control inflammation.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Prostanoids May Be Used Therapeutically",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Leukotrienes are a risk factor for which condition?",
+    "options": [
+      "asthma",
+      "coronary heart disease",
+      "diabetes mellitus",
+      "inflammation",
+      "obesity"
+    ],
+    "answer": "asthma",
+    "rationale": "Leukotrienes are important regulators in many diseases involving inflammatory or immediate hypersensitivity reactions, such as asthma.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Leukotrienes & Lipoxins Are Potent Regulators of Many Disease Processes",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "5-lipoxygenase is found within which structure?",
+    "options": [
+      "arterial walls",
+      "cerebral cortex",
+      "retina",
+      "testis",
+      "tissues"
+    ],
+    "answer": "arterial walls",
+    "rationale": "5-lipoxygenase has been found in arterial walls.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids > LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY > Leukotrienes & Lipoxins Are Potent Regulators of Many Disease Processes",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Fatty acid synthase complex acts on which substrate?",
+    "options": [
+      "3-ketoacyl",
+      "acetyl-CoA",
+      "malate",
+      "palmitate",
+      "pyruvate"
+    ],
+    "answer": "palmitate",
+    "rationale": "Acetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA, and then fatty acid synthase, a multienzyme complex consisting of two identical polypeptide chains, each containing six separate enzymatic activities and ACP, catalyzes the formation of palmitate from one acetyl-CoA and seven malonyl-CoA molecules.",
+    "citation": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids — Biosynthesis of Fatty Acids & Eicosanoids",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

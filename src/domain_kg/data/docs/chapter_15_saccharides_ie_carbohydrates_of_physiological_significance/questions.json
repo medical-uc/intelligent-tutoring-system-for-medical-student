@@ -1,0 +1,784 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Disaccharides are converted into which substance?",
+    "options": [
+      "adenine",
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "monosaccharides",
+    "rationale": "Disaccharides are condensation products of two monosaccharide units.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Oligosaccharides are converted into which substance?",
+    "options": [
+      "adenine",
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "monosaccharides",
+    "rationale": "Oligosaccharides are condensation products of 3 to 10 monosaccharides.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Cellulose is converted into which substance?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "glycosides",
+      "pyran"
+    ],
+    "answer": "glucose",
+    "rationale": "Cellulose, a glucose polymer, is an example of a nonstarch polysaccharide found in foods.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Inulin is converted into which substance?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "glycosides",
+      "pyran"
+    ],
+    "answer": "fructose",
+    "rationale": "Inulin, a fructose polymer, is an example of a nonstarch polysaccharide found in foods.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Furanose is converted into which substance?",
+    "options": [
+      "ATP",
+      "fructose",
+      "furan",
+      "glycerol",
+      "glycosides"
+    ],
+    "answer": "furan",
+    "rationale": "Furanose structures are similar to the rings of furan, a five-membered ring. In solution, more than 99% of glucose is in the pyranose form (Figure 15-3).",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Monosaccharides Exhibit Various Forms of Isomerism",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Glucose is converted into which substance?",
+    "options": [
+      "adenine",
+      "d-glucuronate",
+      "glucoside",
+      "methanol",
+      "monosaccharides"
+    ],
+    "answer": "glucoside",
+    "rationale": "If the hemiacetal portion is glucose, the resulting compound is a glucoside. If the hemiacetal portion is galactose, the resulting compound is a galactoside.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Ribose requires which substance?",
+    "options": [
+      "amylopectin",
+      "carbohydrates",
+      "flavin",
+      "gums",
+      "pentose phosphate"
+    ],
+    "answer": "flavin",
+    "rationale": "D-Ribose is a structural component of nucleic acids and coenzymes, including ATP, NAD(P), and flavin coenzymes.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "D-Ribulose requires which substance?",
+    "options": [
+      "coenzymes",
+      "flavin",
+      "gums",
+      "nucleic acids",
+      "pentose phosphate"
+    ],
+    "answer": "pentose phosphate",
+    "rationale": "D-Ribulose is an intermediate in the pentose phosphate pathway.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "D-Arabinose requires which substance?",
+    "options": [
+      "coenzymes",
+      "flavin",
+      "gums",
+      "nucleic acids",
+      "pentose phosphate"
+    ],
+    "answer": "gums",
+    "rationale": "D-Arabinose is a sugar found in plant gums.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "D-Xylose requires which substance?",
+    "options": [
+      "amino acids",
+      "amylase",
+      "hexokinase",
+      "proteoglycans",
+      "sucrase deficiency"
+    ],
+    "answer": "proteoglycans",
+    "rationale": "D-Xylose is a sugar found in plant gums, proteoglycans, glycosaminoglycans.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of pentosuria?",
+    "options": [
+      "carbohydrates",
+      "carbon hydrate",
+      "cellulose",
+      "h",
+      "L-Xylulose"
+    ],
+    "answer": "L-Xylulose",
+    "rationale": "L-Xylulose is excreted in the urine in essential pentosuria.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognised cause of glucosuria?",
+    "options": [
+      "calories",
+      "hereditary galactosemia",
+      "hyperglycemia",
+      "hypoglycemia",
+      "p"
+    ],
+    "answer": "hyperglycemia",
+    "rationale": "In poorly controlled diabetes mellitus, D-glucose is excreted in the urine as glucosuria due to hyperglycemia.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "antonym of the answer",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of hypoglycemia?",
+    "options": [
+      "fructose",
+      "glucose",
+      "glycosides",
+      "nonstarch polysaccharides",
+      "sucrose"
+    ],
+    "answer": "fructose",
+    "rationale": "Hereditary fructose intolerance leads to the accumulation of fructose metabolites, impairing glucose production and inducing hypoglycemia.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Galactose is converted into which substance?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "glycosides",
+      "pyran"
+    ],
+    "answer": "glucose",
+    "rationale": "D-Galactose is readily metabolized to glucose and is synthesized in the mammary gland for lactose synthesis in milk.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which substance is synthesised by the mammary gland?",
+    "options": [
+      "carbohydrates",
+      "carbon hydrate",
+      "cellulose",
+      "galactose",
+      "h"
+    ],
+    "answer": "galactose",
+    "rationale": "D-Galactose is readily metabolized to glucose and is synthesized in the mammary gland for lactose synthesis in milk.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognised cause of cataracts?",
+    "options": [
+      "calories",
+      "diabetes",
+      "hereditary galactosemia",
+      "hyperglycemia",
+      "p"
+    ],
+    "answer": "hereditary galactosemia",
+    "rationale": "Hereditary galactosemia, resulting from the failure to metabolize galactose, leads to cataracts.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "L-iduronate is converted into which substance?",
+    "options": [
+      "adenine",
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "d-glucuronate",
+    "rationale": "L-iduronate, a metabolic derivative of D-glucuronate, is found in glycosaminoglycans (Figure 15–6).",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Many Monosaccharides Are Physiologically Important",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Hydroxyl is converted into which substance?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "glycosides",
+      "pyran"
+    ],
+    "answer": "glycosides",
+    "rationale": "If the second group is also a hydroxyl, the O-glycosidic bond is an acetal link. The O-glycosidic bond results from a reaction between a hemiacetal group and another —OH group.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Amine is converted into which substance?",
+    "options": [
+      "adenine",
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "adenine",
+    "rationale": "If the second group is an amine, an N-glycosidic bond is formed. An example of an N-glycosidic bond is between adenine and ribose in nucleotides such as ATP.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Adenine is converted into which substance?",
+    "options": [
+      "ATP",
+      "fructose",
+      "furan",
+      "glucose",
+      "pyran"
+    ],
+    "answer": "ATP",
+    "rationale": "An example of an N-glycosidic bond is between adenine and ribose in nucleotides such as ATP.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is an aglycone in glycosides?",
+    "options": [
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides",
+      "sterol"
+    ],
+    "answer": "sterol",
+    "rationale": "The aglycone in glycosides may be methanol, glycerol, a sterol, a phenol, or a base such as adenine. Cardiac glycosides are important in medicine due to their action on the heart.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substance is derived from digitalis?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "ouabain",
+      "pyran"
+    ],
+    "answer": "ouabain",
+    "rationale": "Digitalis and strophanthus derivatives, such as ouabain, are examples of cardiac glycosides. Other glycosides include antibiotics such as streptomycin.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which substance is a glycoside?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "pyran",
+      "streptomycin"
+    ],
+    "answer": "streptomycin",
+    "rationale": "Other glycosides include antibiotics such as streptomycin.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Saccharides Form Glycosides With Other Compounds & With Each Other",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which substance is galactosamine a constituent of?",
+    "options": [
+      "chondroitin",
+      "fructose",
+      "furan",
+      "glucose",
+      "pyran"
+    ],
+    "answer": "chondroitin",
+    "rationale": "D-galactosamine, also known as chondrosamine, is an amino sugar and a constituent of chondroitin.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Amino Sugars (Hexosamines) Are Components of Glycoproteins, Gangliosides, & Glycosaminoglycans",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which substance is related to D-mannosamine?",
+    "options": [
+      "amino sugars",
+      "d-glucuronate",
+      "furanose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "amino sugars",
+    "rationale": "D-mannosamine is another amino sugar.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Amino Sugars (Hexosamines) Are Components of Glycoproteins, Gangliosides, & Glycosaminoglycans",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "In which structures is sucrose commonly found?",
+    "options": [
+      "connective tissue",
+      "exoskeleton",
+      "fruits",
+      "intestinal",
+      "liver"
+    ],
+    "answer": "fruits",
+    "rationale": "Sucrose is found in cane and beet sugar, sorghum, and some fruits and vegetables.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Maltose, Sucrose, & Lactose Are Important Disaccharides",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which substance is required for the enzymic hydrolysis of starch to produce maltose?",
+    "options": [
+      "amino acids",
+      "amylase",
+      "hexokinase",
+      "proteoglycans",
+      "sucrase deficiency"
+    ],
+    "answer": "amylase",
+    "rationale": "Maltose is derived from the enzymic hydrolysis of starch by amylase and is found in germinating cereals and malt.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Maltose, Sucrose, & Lactose Are Important Disaccharides",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Isomaltose requires which substance?",
+    "options": [
+      "amylopectin",
+      "coenzymes",
+      "flavin",
+      "nucleic acids",
+      "pentose phosphate"
+    ],
+    "answer": "amylopectin",
+    "rationale": "Isomaltose is derived from the enzymic hydrolysis of starch at the branch points in amylopectin.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS > Maltose, Sucrose, & Lactose Are Important Disaccharides",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which condition is diabetes a risk factor for?",
+    "options": [
+      "calories",
+      "hereditary galactosemia",
+      "obesity",
+      "p",
+      "weight reduction"
+    ],
+    "answer": "obesity",
+    "rationale": "Microorganisms in the gut of ruminants and other herbivores can hydrolyze these bonds and ferment the products into short-chain fatty acids, which can impact metabolic health in at-risk individuals such as those with diabetes, obesity, or irritable bowel disease. By manipulating the microbial composition using prebiotics, one can shift the microbial population and possibly improve metabolic health.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "In which structure is chitin found?",
+    "options": [
+      "connective tissue",
+      "exoskeleton",
+      "fruits",
+      "intestinal",
+      "liver"
+    ],
+    "answer": "exoskeleton",
+    "rationale": "Chitin is a structural polysaccharide found in the exoskeleton of crustaceans and insects, as well as in mushrooms.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Glycosaminoglycans are converted into which substance when attached to a protein molecule?",
+    "options": [
+      "amino acids",
+      "hemoglobin",
+      "hexokinase",
+      "proteoglycans",
+      "sucrase deficiency"
+    ],
+    "answer": "proteoglycans",
+    "rationale": "Glycosaminoglycans may be attached to a protein molecule to form a proteoglycan.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Glycated is converted into which substance?",
+    "options": [
+      "amino acids",
+      "hemoglobin",
+      "hexokinase",
+      "proteoglycans",
+      "sucrase deficiency"
+    ],
+    "answer": "hemoglobin",
+    "rationale": "Hemoglobin A1c, a glycated form of hemoglobin, increases in individuals with diabetes.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview > POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Maltose is converted into which substance during the digestion of starch?",
+    "options": [
+      "fructose",
+      "furan",
+      "glucose",
+      "glycosides",
+      "pyran"
+    ],
+    "answer": "glucose",
+    "rationale": "The important disaccharides include maltose (glucosyl-glucose), an intermediate in the digestion of starch; sucrose (glucosyl-fructose), important as a dietary constituent containing fructose; and lactose (galactosyl-glucose), in milk.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Lactose is converted into which substance during digestion?",
+    "options": [
+      "d-glucuronate",
+      "furanose",
+      "galactose",
+      "glucoside",
+      "monosaccharides"
+    ],
+    "answer": "galactose",
+    "rationale": "The important disaccharides include maltose (glucosyl-glucose), an intermediate in the digestion of starch; sucrose (glucosyl-fructose), important as a dietary constituent containing fructose; and lactose (galactosyl-glucose), in milk.",
+    "citation": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance — Overview",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

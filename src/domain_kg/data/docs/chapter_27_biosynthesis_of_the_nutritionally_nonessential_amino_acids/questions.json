@@ -1,0 +1,531 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognised cause of marasmus?",
+    "options": [
+      "amino acids deficiency",
+      "hydroxylysine",
+      "hydroxyproline",
+      "procollagen-lysine 5-hydroxylase",
+      "selenophosphate"
+    ],
+    "answer": "amino acids deficiency",
+    "rationale": "Marasmus may occur if both caloric intake and specific amino acids are deficient.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which of the following is a recognised cause of scurvy?",
+    "options": [
+      "connective tissue disorders",
+      "death",
+      "dietary deficiency",
+      "marasmus",
+      "short bowel syndrome"
+    ],
+    "answer": "dietary deficiency",
+    "rationale": "The nutritional disorder scurvy is a dietary deficiency of vitamin C.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of Menkes syndrome?",
+    "options": [
+      "bleeding",
+      "connective tissue disorders",
+      "dietary deficiency",
+      "marasmus",
+      "scurvy"
+    ],
+    "answer": "dietary deficiency",
+    "rationale": "Menkes syndrome results from a dietary deficiency of copper.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognised cause of Ehlers-Danlos syndrome?",
+    "options": [
+      "amino acids deficiency",
+      "hydroxylysine",
+      "hydroxyproline",
+      "procollagen-lysine 5-hydroxylase",
+      "selenophosphate"
+    ],
+    "answer": "procollagen-lysine 5-hydroxylase",
+    "rationale": "Ehlers-Danlos syndrome is due to defects in the genes that encode enzymes such as procollagen-lysine 5-hydroxylase.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Pyruvate is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "tyrosine"
+    ],
+    "answer": "alanine",
+    "rationale": "Transamination of pyruvate forms alanine.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Alanine & Aspartate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Oxaloacetate is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "tyrosine"
+    ],
+    "answer": "aspartate",
+    "rationale": "Transamination of oxaloacetate forms aspartate.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Alanine & Aspartate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Aspartate is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "glutamine",
+      "thyroxine",
+      "tyrosine"
+    ],
+    "answer": "alanine",
+    "rationale": "The amino donor in the formation of alanine may be glutamate or aspartate.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Alanine & Aspartate",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Glutamate dehydrogenase acts on which substrate?",
+    "options": [
+      "ammonium",
+      "betaine aldehyde",
+      "choline",
+      "copper deficiency",
+      "tetrahydrofolate"
+    ],
+    "answer": "ammonium",
+    "rationale": "Glutamate dehydrogenase, glutamine synthetase, and the aminotransferases play central roles in amino acid biosynthesis. The combined action of these enzymes results in the incorporation of potentially cytotoxic ammonium ion into nontoxic amino acids. The reaction catalyzed by asparagine synthetase (EC 6.3.5.4) is similar to and different from the glutamine synthetase reaction (Figure 27-4).",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Glutamate Dehydrogenase, Glutamine Synthetase, & Aminotransferases Play Central Roles in Amino Acid Biosynthesis",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Aminotransferases act on which substrate?",
+    "options": [
+      "ammonium",
+      "betaine aldehyde",
+      "choline",
+      "copper deficiency",
+      "tetrahydrofolate"
+    ],
+    "answer": "ammonium",
+    "rationale": "Glutamate dehydrogenase, glutamine synthetase, and the aminotransferases play central roles in amino acid biosynthesis. The combined action of these enzymes results in the incorporation of potentially cytotoxic ammonium ion into nontoxic amino acids. The reaction catalyzed by asparagine synthetase (EC 6.3.5.4) is similar to and different from the glutamine synthetase reaction (Figure 27-4).",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Glutamate Dehydrogenase, Glutamine Synthetase, & Aminotransferases Play Central Roles in Amino Acid Biosynthesis",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Ammonium is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "tyrosine"
+    ],
+    "answer": "amino acids",
+    "rationale": "The combined action of these enzymes results in the incorporation of potentially cytotoxic ammonium ion into nontoxic amino acids. The reaction catalyzed by asparagine synthetase (EC 6.3.5.4) is similar to and different from the glutamine synthetase reaction (Figure 27-4).",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Glutamate Dehydrogenase, Glutamine Synthetase, & Aminotransferases Play Central Roles in Amino Acid Biosynthesis",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substrate does glycine aminotransferase act on?",
+    "options": [
+      "amino acids, 8",
+      "cross-links",
+      "glyoxylate",
+      "gums",
+      "pyruvate"
+    ],
+    "answer": "glyoxylate",
+    "rationale": "Glycine aminotransferases catalyze the synthesis of glycine from glyoxylate and glutamate or alanine. Unlike most aminotransferase reactions, glycine synthesis is strongly favored.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Glycine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substrate does dimethylglycine dehydrogenase act on?",
+    "options": [
+      "alanine",
+      "deiodinase",
+      "glutamate",
+      "glycine",
+      "thioredoxin reductase"
+    ],
+    "answer": "glycine",
+    "rationale": "Dimethylglycine dehydrogenase (EC 1.5.8.4) is also involved in this pathway (Figure 27-7).",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Glycine",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Phenylalanine is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Phenylalanine hydroxylase converts phenylalanine to tyrosine (Figure 27-11).",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Tyrosine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which of the following is a recognized cause of bleeding?",
+    "options": [
+      "connective tissue disorders",
+      "dietary deficiency",
+      "marasmus",
+      "scurvy",
+      "short bowel syndrome"
+    ],
+    "answer": "scurvy",
+    "rationale": "Scurvy results in bleeding gums.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Hydroxyproline & Hydroxylysine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which substrate does selenocysteine act on?",
+    "options": [
+      "alanine",
+      "glutamate",
+      "glycine",
+      "thioredoxin reductase",
+      "tyrosine"
+    ],
+    "answer": "thioredoxin reductase",
+    "rationale": "Selenocysteine is located at the active site of several human enzymes that catalyze redox reactions. Thioredoxin reductase is an example of an enzyme that contains selenocysteine. Glutathione peroxidase is another example of an enzyme that contains selenocysteine.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Selenocysteine, the 21st Amino Acid",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Deiodinase converts which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "thyroxine"
+    ],
+    "answer": "thyroxine",
+    "rationale": "The deiodinase enzyme, which converts thyroxine to triiodothyronine, also contains selenocysteine. Selenocysteine participates in the catalytic mechanism of these enzymes.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Selenocysteine, the 21st Amino Acid",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Thyroxine is converted into which substance?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "aspartate",
+      "glutamine",
+      "triiodothyronine"
+    ],
+    "answer": "triiodothyronine",
+    "rationale": "The deiodinase enzyme, which converts thyroxine to triiodothyronine, also contains selenocysteine. Selenocysteine participates in the catalytic mechanism of these enzymes.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Selenocysteine, the 21st Amino Acid",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognized cause of selenium deficiency cardiomyopathy?",
+    "options": [
+      "hydroxylysine",
+      "hydroxyproline",
+      "lysyl oxidase",
+      "procollagen-lysine 5-hydroxylase",
+      "selenophosphate"
+    ],
+    "answer": "selenophosphate",
+    "rationale": "Selenium deficiency cardiomyopathy, known as Keshan disease, is linked to impairments in human selenoproteins.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Selenocysteine, the 21st Amino Acid",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Selenophosphate requires which substance?",
+    "options": [
+      "ammonium",
+      "ATP",
+      "choline",
+      "copper deficiency",
+      "tetrahydrofolate"
+    ],
+    "answer": "ATP",
+    "rationale": "Selenophosphate is formed from ATP and selenate.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids > NUTRITIONALLY ESSENTIAL & NUTRITIONALLY NONESSENTIAL AMINO ACIDS > Selenocysteine, the 21st Amino Acid",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Cysteine acts on which substrate?",
+    "options": [
+      "alanine",
+      "glutamate",
+      "glycine",
+      "thioredoxin reductase",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Cysteine, tyrosine, and hydroxylysine are formed from nutritionally essential amino acids. Serine provides the carbon skeleton and homocysteine the sulfur for cysteine biosynthesis.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substrate does hydroxyproline act on in the posttranslational modification process?",
+    "options": [
+      "alanine",
+      "glutamate",
+      "glycine",
+      "proline",
+      "thioredoxin reductase"
+    ],
+    "answer": "proline",
+    "rationale": "Peptidyl hydroxyproline and hydroxylysine are formed posttranslationally by hydroxylation of peptidyl proline or lysine in reactions catalyzed by mixed-function oxidases that require vitamin C as cofactor.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substrate does hydroxylysine act on in the posttranslational modification process?",
+    "options": [
+      "alanine",
+      "glutamate",
+      "glycine",
+      "lysine",
+      "thioredoxin reductase"
+    ],
+    "answer": "lysine",
+    "rationale": "Peptidyl hydroxyproline and hydroxylysine are formed posttranslationally by hydroxylation of peptidyl proline or lysine in reactions catalyzed by mixed-function oxidases that require vitamin C as cofactor.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "What is a requirement for vitamin C in the context of posttranslational modification reactions?",
+    "options": [
+      "amino acids, 8",
+      "cross-links",
+      "gums",
+      "mixed-function",
+      "pyruvate"
+    ],
+    "answer": "mixed-function",
+    "rationale": "Peptidyl hydroxyproline and hydroxylysine are formed posttranslationally by hydroxylation of peptidyl proline or lysine in reactions catalyzed by mixed-function oxidases that require vitamin C as cofactor.",
+    "citation": "chapter_27_biosynthesis_of_the_nutritionally_nonessential_amino_acids — Biosynthesis of the Nutritionally Nonessential Amino Acids",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

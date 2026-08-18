@@ -1,0 +1,968 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognised cause of duodenal ulcers?",
+    "options": [
+      "blood loss",
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "helicobacter pylori infection",
+    "rationale": "Excessive secretion of gastric acid, associated with Helicobacter pylori infection, can result in the development of gastric and duodenal ulcers.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which of the following is a recognised cause of gallstones?",
+    "options": [
+      "bile",
+      "carbohydrates",
+      "fatty acids",
+      "lipids",
+      "monosaccharides"
+    ],
+    "answer": "bile",
+    "rationale": "Small changes in the composition of bile can result in crystallization of cholesterol as gallstones.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of malabsorption?",
+    "options": [
+      "blood loss",
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "failure of exocrine pancreatic secretion",
+    "rationale": "Failure of exocrine pancreatic secretion leads to malabsorption.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognised cause of steatorrhea?",
+    "options": [
+      "blood loss",
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "failure of exocrine pancreatic secretion",
+    "rationale": "Failure of exocrine pancreatic secretion leads to steatorrhea.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of failure of exocrine pancreatic secretion?",
+    "options": [
+      "blood loss",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "HFE",
+      "lactose intolerance"
+    ],
+    "answer": "fibrosis",
+    "rationale": "Cystic fibrosis leads to failure of exocrine pancreatic secretion.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which of the following is a recognised cause of allergic reactions?",
+    "options": [
+      "amino acids",
+      "insulin resistance",
+      "lactase",
+      "salivary amylase",
+      "wheat gluten"
+    ],
+    "answer": "wheat gluten",
+    "rationale": "Celiac disease is an allergic reaction to wheat gluten.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Oligosaccharides are converted into which substance?",
+    "options": [
+      "carbohydrates",
+      "fatty acids",
+      "maltotriose",
+      "monosaccharides",
+      "triacylglycerols"
+    ],
+    "answer": "monosaccharides",
+    "rationale": "Oligosaccharides are degraded by enzymes at the brush border of the intestinal epithelium to form monosaccharides.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "The brush border is part of which structure?",
+    "options": [
+      "gastric",
+      "intestinal lumen",
+      "intestinal mucosal cells",
+      "intestine",
+      "tissue"
+    ],
+    "answer": "intestinal mucosal cells",
+    "rationale": "Oligosaccharides are degraded by enzymes at the brush border of the intestinal epithelium to form monosaccharides.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Monosaccharides are found within which structure?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosal cells",
+      "intestine",
+      "tissue"
+    ],
+    "answer": "intestinal mucosal cells",
+    "rationale": "Monosaccharides are absorbed by the intestinal epithelia.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which of the following is a recognised cause of failure to thrive?",
+    "options": [
+      "blood loss",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "HFE",
+      "lactose intolerance"
+    ],
+    "answer": "lactose intolerance",
+    "rationale": "Lactose intolerance causes failure to thrive when infants are fed on breast milk or normal infant formula.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES > Disaccharidases Are Brush Border Enzymes",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Lactose is converted into which substance by bacterial fermentation?",
+    "options": [
+      "dextrins",
+      "glucose",
+      "glycerol",
+      "lactate",
+      "maltose"
+    ],
+    "answer": "lactate",
+    "rationale": "Lactose is a substrate for bacterial fermentation to lactate.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES > Disaccharidases Are Brush Border Enzymes",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substances are transported by SGLT?",
+    "options": [
+      "carbohydrates",
+      "cholesterol",
+      "fatty acids",
+      "galactose",
+      "lipids"
+    ],
+    "answer": "galactose",
+    "rationale": "Glucose and galactose are carried by the same transport protein (SGLT 1). Glucose and galactose compete with each other for intestinal absorption.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF CARBOHYDRATES > There Are Two Separate Mechanisms for the Absorption of Monosaccharides in the Small Intestine",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Gastric lipases acts on which substrate?",
+    "options": [
+      "carbohydrates",
+      "fatty acids",
+      "minerals",
+      "monosaccharides",
+      "phospholipids"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Lingual and gastric lipases attack the sn-3 ester bond. The attack by lingual and gastric lipases forms 1,2-diacylglycerols and free fatty acids. Free fatty acids act as emulsifying agents.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Pancreatic lipase acts on which substrate?",
+    "options": [
+      "carbohydrates",
+      "fatty acids",
+      "lipids",
+      "monosaccharides",
+      "phospholipids"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Pancreatic lipase targets the primary ester links at positions 1 and 3 in triacylglycerols. The targeting by pancreatic lipase results in 2-monoacylglycerols and free fatty acids as the major end products. Inhibitors of pancreatic lipase are used to treat severe obesity by inhibiting triacylglycerol hydrolysis.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which substance is secreted by the liver and emulsifies dietary fat?",
+    "options": [
+      "bile salts",
+      "carbohydrates",
+      "fatty acids",
+      "lipids",
+      "monosaccharides"
+    ],
+    "answer": "bile salts",
+    "rationale": "Bile salts are formed in the liver and secreted in the bile. Bile salts emulsify dietary fat into large droplets.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Pancreatic phospholipase A2 acts on which substrate?",
+    "options": [
+      "carbohydrates",
+      "fatty acids",
+      "lipids",
+      "monosaccharides",
+      "triacylglycerols"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Hydrolysis by pancreatic phospholipase A2 releases fatty acids and lysophosphatidylcholine. Hydrolysis by pancreatic phospholipase A2 allows pancreatic lipase to act on the triglycerides.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Bile salts are found within which structure in the digestive system?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "intestinal lumen",
+    "rationale": "Bile salts remain in the intestinal lumen. Bile salts are absorbed in the ileum into the enterohepatic circulation.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which substance is secreted by the ileum and absorbed into the enterohepatic circulation?",
+    "options": [
+      "bile salts",
+      "carbohydrates",
+      "fatty acids",
+      "lipids",
+      "monosaccharides"
+    ],
+    "answer": "bile salts",
+    "rationale": "Bile salts are absorbed in the ileum into the enterohepatic circulation.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "2-monoacylglycerols are converted into which substances within the intestinal epithelium?",
+    "options": [
+      "dextrins",
+      "glucose",
+      "glycerol",
+      "lactate",
+      "maltose"
+    ],
+    "answer": "glycerol",
+    "rationale": "Within the intestinal epithelium, 1-monoacylglycerols are hydrolyzed to fatty acids and glycerol.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Glycerol is found within which structure?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "hepatic portal vein",
+    "rationale": "Glycerol released in the intestinal lumen is absorbed into the hepatic portal vein.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Long-chain fatty acids are converted into which substance in the mucosal cells?",
+    "options": [
+      "carbohydrates",
+      "lipids",
+      "maltotriose",
+      "monosaccharides",
+      "triacylglycerols"
+    ],
+    "answer": "triacylglycerols",
+    "rationale": "Long-chain fatty acids are esterified to triacylglycerol in the mucosal cells.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substance is synthesised by mucosal cells from long-chain fatty acids?",
+    "options": [
+      "carbohydrates",
+      "lipids",
+      "oxaloacetate",
+      "pyruvate",
+      "triacylglycerols"
+    ],
+    "answer": "triacylglycerols",
+    "rationale": "Long-chain fatty acids are esterified to triacylglycerol in the mucosal cells.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Medium-chain fatty acids are absorbed into which structure?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "hepatic portal vein",
+    "rationale": "Short- and medium-chain fatty acids are mainly absorbed into the hepatic portal vein as free fatty acids.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Cholesterol is absorbed within which structure before being incorporated into chylomicrons?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestine",
+      "tissue"
+    ],
+    "answer": "intestinal mucosa",
+    "rationale": "Cholesterol is absorbed dissolved in lipid micelles. Cholesterol is mainly esterified in the intestinal mucosa before being incorporated into chylomicrons.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Cholesterol is converted into which substance in the intestinal mucosa?",
+    "options": [
+      "amino acids",
+      "chylomicrons",
+      "insulin",
+      "lactase",
+      "wheat gluten"
+    ],
+    "answer": "chylomicrons",
+    "rationale": "Cholesterol is mainly esterified in the intestinal mucosa before being incorporated into chylomicrons.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which substance is transported by unesterified?",
+    "options": [
+      "carbohydrates",
+      "cholesterol",
+      "fatty acids",
+      "galactose",
+      "lipids"
+    ],
+    "answer": "cholesterol",
+    "rationale": "Unesterified cholesterol is actively transported out of the mucosal cells into the intestinal lumen.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF LIPIDS",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Vitamins are found within which structure?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "intestine",
+    "rationale": "Water-soluble vitamins are absorbed from the small intestine either by active transport or by carrier-mediated diffusion.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Minerals are found within which structure?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "intestine",
+    "rationale": "Most mineral salts are absorbed from the small intestine either by active transport or by carrier-mediated diffusion.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Calcium absorption requires which substance?",
+    "options": [
+      "iodine",
+      "matrix",
+      "vitamin A",
+      "vitamin D",
+      "vitamins"
+    ],
+    "answer": "vitamin D",
+    "rationale": "Calcium absorption is dependent on vitamin D.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Calcium absorption is dependent on which vitamin?",
+    "options": [
+      "hepatic portal vein",
+      "intestinal lumen",
+      "intestinal mucosa",
+      "intestinal mucosal cells",
+      "intestine"
+    ],
+    "answer": "intestine",
+    "rationale": "Vitamin D is required for the intestinal absorption of calcium.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS > Calcium Absorption Is Dependent on Vitamin D",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "What is the substrate that phytase acts on?",
+    "options": [
+      "1,2-diacylglycerols",
+      "2-monoacylglycerols",
+      "dextrins",
+      "phytate",
+      "vitamins"
+    ],
+    "answer": "phytate",
+    "rationale": "Yeast contains an enzyme, phytase, that dephosphorylates phytate, rendering it inactive. High concentrations of fatty acids in the intestinal lumen, because of impaired fat absorption, can also reduce calcium absorption by forming insoluble calcium salts.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS > Calcium Absorption Is Dependent on Vitamin D",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which of the following is a recognized cause of intestinal bleeding?",
+    "options": [
+      "blood loss",
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "blood loss",
+    "rationale": "Intestinal bleeding secondary to malignancy can cause blood loss leading to iron deficiency. Inadequate dietary iron absorption is not the main cause of iron deficiency.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS > Iron Absorption Is Limited & Strictly Controlled by Hepcidin",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which of the following is a recognized cause of hemochromatosis?",
+    "options": [
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "HFE",
+      "lactose intolerance"
+    ],
+    "answer": "HFE",
+    "rationale": "Mutations in the hereditary hemochromatosis gene (HFE) regulate hepcidin. Hemochromatosis is more common in the white population of European backgrounds.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS > Iron Absorption Is Limited & Strictly Controlled by Hepcidin",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which substance is transported by mucosal cells?",
+    "options": [
+      "ferroportin",
+      "insulin",
+      "lactase",
+      "salivary amylase",
+      "wheat gluten"
+    ],
+    "answer": "ferroportin",
+    "rationale": "Iron leaves the mucosal cell via the transport protein ferroportin. Iron leaves the mucosal cell only if there is free transferrin in the plasma to bind to.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > DIGESTION & ABSORPTION OF VITAMINS & MINERALS > Iron Absorption Is Limited & Strictly Controlled by Hepcidin",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Which of the following is a recognized cause of kwashiorkor?",
+    "options": [
+      "failure of exocrine pancreatic secretion",
+      "fatty infiltration",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "fatty infiltration",
+    "rationale": "Kwashiorkor involves fatty infiltration of the liver. Marasmus is a state of extreme emaciation.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > There Are Two Extreme Forms of Undernutrition",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "Which substance is synthesized by the liver?",
+    "options": [
+      "amino acids",
+      "fibronectin",
+      "lactase",
+      "phenylalanine",
+      "wheat gluten"
+    ],
+    "answer": "fibronectin",
+    "rationale": "The liver shows marked augmentation in the synthesis of specific proteins like fibronectin. This protein synthesis is partly driven by the high inflammatory state seen in these diseases.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > Patients With Advanced Disease Are Often Malnourished",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "What substance is required for threonine excess?",
+    "options": [
+      "acute-phase",
+      "amino acids",
+      "insulin",
+      "lactase",
+      "wheat gluten"
+    ],
+    "answer": "acute-phase",
+    "rationale": "Excessive utilization of threonine and cysteine in the synthesis of acute-phase proteins leads to catabolism of lean body tissues.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > There Is a Loss of Body Protein in Response to Trauma & Infection",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Which substance is synthesized by tyrosine?",
+    "options": [
+      "amino acids",
+      "fibronectin",
+      "lactase",
+      "phenylalanine",
+      "wheat gluten"
+    ],
+    "answer": "phenylalanine",
+    "rationale": "Tyrosine is synthesized from phenylalanine. The dietary intakes of cysteine and tyrosine affect the requirements for methionine and phenylalanine.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > The Requirement Is Not Just for Protein, but for Specific Amino Acids",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Which substance is synthesized by alanine?",
+    "options": [
+      "carbohydrates",
+      "lipids",
+      "oxaloacetate",
+      "pyruvate",
+      "triacylglycerols"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Alanine is synthesized by transamination of pyruvate. Aspartate is synthesized by transamination of oxaloacetate.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > The Requirement Is Not Just for Protein, but for Specific Amino Acids",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "Which substance is synthesized by aspartate?",
+    "options": [
+      "carbohydrates",
+      "lipids",
+      "oxaloacetate",
+      "pyruvate",
+      "triacylglycerols"
+    ],
+    "answer": "oxaloacetate",
+    "rationale": "Aspartate is synthesized by transamination of oxaloacetate. Glutamate is synthesized by transamination of ketoglutarate.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > The Requirement Is Not Just for Protein, but for Specific Amino Acids",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which substance is synthesised from glutamate?",
+    "options": [
+      "iron",
+      "ketoglutarate",
+      "matrix",
+      "vitamin A",
+      "vitamins"
+    ],
+    "answer": "ketoglutarate",
+    "rationale": "Glutamate is synthesized by transamination of ketoglutarate. The remaining amino acids are considered nonessential, but under some circumstances, the requirement may outstrip the capacity for their synthesis.",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview > ENERGY BALANCE: OVER- & UNDERNUTRITION > The Requirement Is Not Just for Protein, but for Specific Amino Acids",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Which of the following is a recognised cause of undernutrition?",
+    "options": [
+      "chronic illness",
+      "failure of exocrine pancreatic secretion",
+      "fibrosis",
+      "helicobacter pylori infection",
+      "lactose intolerance"
+    ],
+    "answer": "chronic illness",
+    "rationale": "Chronic illness can also lead to undernutrition and protein wasting (cachexia).",
+    "citation": "chapter_43_nutrition_digestion_and_absorption — Overview",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

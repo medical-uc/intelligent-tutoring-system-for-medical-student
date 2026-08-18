@@ -1,0 +1,117 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is transported by ATP in metabolic processes?",
+    "options": [
+      "CDP-acylglycerol",
+      "diphosphates",
+      "phosphoryl",
+      "sugar",
+      "vitamin derivatives"
+    ],
+    "answer": "phosphoryl",
+    "rationale": "Nucleoside tri- and diphosphates such as ATP and ADP are the principal donors and acceptors of phosphoryl groups in metabolism.",
+    "citation": "chapter_32_nucleotides — Nucleotides > BIOMEDICAL IMPORTANCE",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is transported by ADP in metabolic processes?",
+    "options": [
+      "CDP-acylglycerol",
+      "diphosphates",
+      "phosphoryl",
+      "sugar",
+      "vitamin derivatives"
+    ],
+    "answer": "phosphoryl",
+    "rationale": "Nucleoside tri- and diphosphates such as ATP and ADP are the principal donors and acceptors of phosphoryl groups in metabolism.",
+    "citation": "chapter_32_nucleotides — Nucleotides > BIOMEDICAL IMPORTANCE",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which agent is used in the management of cancer?",
+    "options": [
+      "ADP",
+      "coenzymes",
+      "nucleic acid",
+      "nucleoside",
+      "pyrimidines"
+    ],
+    "answer": "pyrimidines",
+    "rationale": "Synthetic purine and pyrimidine analogs containing halogens, thiols, or additional nitrogen atoms are used in the chemotherapy of cancer and viral diseases.",
+    "citation": "chapter_32_nucleotides — Nucleotides > BIOMEDICAL IMPORTANCE",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which agent is used in the management of hyperuricemia?",
+    "options": [
+      "1 mmol/L. ATP",
+      "allopurinol",
+      "cytarabine",
+      "diphosphates",
+      "vitamin derivatives"
+    ],
+    "answer": "allopurinol",
+    "rationale": "The purine analog allopurinol is used to treat hyperuricemia and gout. Allopurinol inhibits purine biosynthesis and xanthine oxidase activity.",
+    "citation": "chapter_32_nucleotides — Nucleotides > SYNTHETIC NUCLEOTIDE ANALOGS ARE USED IN CHEMOTHERAPY",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which agent is used in the management of gout?",
+    "options": [
+      "1 mmol/L. ATP",
+      "allopurinol",
+      "cytarabine",
+      "diphosphates",
+      "vitamin derivatives"
+    ],
+    "answer": "allopurinol",
+    "rationale": "The purine analog allopurinol is used to treat hyperuricemia and gout. Allopurinol inhibits purine biosynthesis and xanthine oxidase activity.",
+    "citation": "chapter_32_nucleotides — Nucleotides > SYNTHETIC NUCLEOTIDE ANALOGS ARE USED IN CHEMOTHERAPY",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

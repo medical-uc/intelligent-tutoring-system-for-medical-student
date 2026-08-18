@@ -1,0 +1,784 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Myofibrils are part of which structure?",
+    "options": [
+      "cardiac",
+      "cardiac muscle",
+      "muscle-specific",
+      "skeletal muscle",
+      "tissues"
+    ],
+    "answer": "skeletal muscle",
+    "rationale": "\\- The myofibrils of skeletal muscle consist of thick, myosin-based and thin, actin-based filaments.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Sarcomeres are part of which structure?",
+    "options": [
+      "cardiac muscle cells",
+      "l-type",
+      "muscle fiber cells",
+      "nonmuscle cells",
+      "syncytial"
+    ],
+    "answer": "muscle fiber cells",
+    "rationale": "Most muscle fiber cells are aligned so that their sarcomeres are in parallel register (Figure 50-1).",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > BIOMEDICAL IMPORTANCE > The Sarcomere Is the Functional Unit of Muscle",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Myosin is found within which structure?",
+    "options": [
+      "cardiac",
+      "head",
+      "muscle",
+      "sarcoplasm",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "The predominant form of myosin in contractile tissues is myosin II, hereafter referred to simply as myosin, an asymmetric hexamer.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > BIOMEDICAL IMPORTANCE > Actin & Myosin Account for 75% of the Protein Mass in Muscle",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Myosin acts on which substrate?",
+    "options": [
+      "actin",
+      "arginine",
+      "ATP-powered",
+      "citrulline",
+      "creatine phosphate"
+    ],
+    "answer": "actin",
+    "rationale": "When skeletal muscle myosin is complexed to actin to form actomyosin complex, the complex exhibits ATPase activity.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > BIOMEDICAL IMPORTANCE > Actin & Myosin Account for 75% of the Protein Mass in Muscle",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Tropomyosin is found within which structure?",
+    "options": [
+      "cardiac muscle",
+      "muscle-like",
+      "sarcoplasm",
+      "skeletal muscle",
+      "tissues"
+    ],
+    "answer": "muscle-like",
+    "rationale": "Tropomyosin is present in all muscle and muscle-like structures.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > BIOMEDICAL IMPORTANCE > Tropomyosin & the Troponins Are Key Components of the Thin Filaments in Striated Muscle",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Troponin is found within which structure?",
+    "options": [
+      "cardiac",
+      "head",
+      "muscle",
+      "sarcoplasm",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "Troponin is unique to striated muscle.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > BIOMEDICAL IMPORTANCE > Tropomyosin & the Troponins Are Key Components of the Thin Filaments in Striated Muscle",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "ADP is converted into which substance?",
+    "options": [
+      "ATP",
+      "nitroglycerin",
+      "nitrous oxide",
+      "thin",
+      "vasodilators"
+    ],
+    "answer": "ATP",
+    "rationale": "While hydrolysis of ATP ultimately powers the cycle, the release of ADP provides the immediate driver for the conformational change in S-1 that translates chemical energy into the mechanical power stroke.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "S-1 requires which substance?",
+    "options": [
+      "ADP",
+      "electron",
+      "extracellular fluid Ca^{2",
+      "h",
+      "intracellular fluid termed"
+    ],
+    "answer": "ADP",
+    "rationale": "While hydrolysis of ATP ultimately powers the cycle, the release of ADP provides the immediate driver for the conformational change in S-1 that translates chemical energy into the mechanical power stroke.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONVERTS CHEMICAL ENERGY TO MECHANICAL ENERGY",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Cardiac muscle requires which substance for contraction?",
+    "options": [
+      "ADP",
+      "electron",
+      "extracellular fluid Ca^{2",
+      "h",
+      "intracellular fluid termed"
+    ],
+    "answer": "extracellular fluid Ca^{2",
+    "rationale": "Cardiac muscle requires extracellular fluid Ca^{2+} for contraction.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+ > Regulation of Contraction in Cardiac Muscle Is Also Actin-Based",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Smooth muscle requires which substance for contraction?",
+    "options": [
+      "ADP",
+      "electron",
+      "extracellular fluid Ca^{2",
+      "h",
+      "intracellular fluid termed"
+    ],
+    "answer": "extracellular fluid Ca^{2",
+    "rationale": "Smooth muscle requires extracellular fluid Ca^{2+} for contraction.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+ > Regulation of Contraction in Cardiac Muscle Is Also Actin-Based",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In which structure are ion channels typically found?",
+    "options": [
+      "cardiac",
+      "muscle-like",
+      "sarcoplasm",
+      "skeletal muscle",
+      "tissues"
+    ],
+    "answer": "skeletal muscle",
+    "rationale": "Ion channels are important in skeletal muscle.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > CONTRACTION IS ORCHESTRATED BY THE SECOND MESSENGER Ca 2+ > Ca2+ Enters Cardiomyocytes via Ca2+ Channels & Leaves via the Na+-Ca2+ Exchanger & the Ca2+ ATPase",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "What is the substrate that adenylyl kinase acts upon?",
+    "options": [
+      "AMP",
+      "nitroglycerin",
+      "nitrous oxide",
+      "thin",
+      "vasodilators"
+    ],
+    "answer": "AMP",
+    "rationale": "Adenylyl kinase catalyzes the phosphorylation of AMP to form ADP.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Adenylyl Kinase Serves as a Reserve of Last Resort",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "What substance is required by muscle for its function?",
+    "options": [
+      "nitroglycerin",
+      "nitrous oxide",
+      "oxygen",
+      "thin",
+      "vasodilators"
+    ],
+    "answer": "oxygen",
+    "rationale": "Contracting muscles have a high demand for oxygen.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Under Aerobic Conditions, Muscle Generates ATP Mainly by Oxidative Phosphorylation",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "What substance is stored in significant amounts in skeletal muscle?",
+    "options": [
+      "ADP",
+      "electron",
+      "glycogen",
+      "h",
+      "intracellular fluid termed"
+    ],
+    "answer": "glycogen",
+    "rationale": "Skeletal muscle contains large stores of glycogen in the sarcoplasm.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Skeletal Muscle Contains Large Quantities of Glycogen",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "In which structure is glycogen primarily stored?",
+    "options": [
+      "cardiac muscle",
+      "muscle",
+      "muscle-like",
+      "sarcoplasm",
+      "tissues"
+    ],
+    "answer": "sarcoplasm",
+    "rationale": "Skeletal muscle contains large stores of glycogen in the sarcoplasm.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Skeletal Muscle Contains Large Quantities of Glycogen",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Creatine phosphate is converted into which substance during muscle activity?",
+    "options": [
+      "ATP",
+      "nitroglycerin",
+      "nitrous oxide",
+      "thin",
+      "vasodilators"
+    ],
+    "answer": "ATP",
+    "rationale": "Creatine phosphate can be used to regenerate ATP from ADP.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Creatine Phosphate Constitutes a Major Energy Reserve in Muscle",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "AMP is converted into which substance by adenylyl kinase?",
+    "options": [
+      "ADP",
+      "electron",
+      "h",
+      "intracellular fluid termed",
+      "TpT"
+    ],
+    "answer": "ADP",
+    "rationale": "Adenylyl kinase catalyzes the phosphorylation of AMP to form ADP.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > MUSCLE CONTRACTION REQUIRES LARGE QUANTITIES OF ATP > Adenylyl Kinase Serves as a Reserve of Last Resort",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "In which structure is myoglobin typically found?",
+    "options": [
+      "mesenchymal cells",
+      "muscle fiber cells",
+      "nonmuscle cells",
+      "type I fibers",
+      "type II fibers"
+    ],
+    "answer": "type I fibers",
+    "rationale": "Type I fibers contain myoglobin and mitochondria.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "In which structure are mitochondria typically found?",
+    "options": [
+      "glial cells",
+      "mesenchymal cells",
+      "muscle fiber cells",
+      "nonmuscle cells",
+      "type II fibers"
+    ],
+    "answer": "type II fibers",
+    "rationale": "Type II fibers lack myoglobin and contain few mitochondria.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "What is a recognized cause of dilated cardiomyopathy?",
+    "options": [
+      "actin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "dystrophin",
+    "rationale": "Mutations in the gene that encodes dystrophin have been implicated in dilated cardiomyopathy.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of Duchenne muscular dystrophy?",
+    "options": [
+      "desmin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "dystrophin",
+    "rationale": "Mutations in the gene that encodes dystrophin cause Duchenne muscular dystrophy.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which of the following is a recognised cause of Becker muscular dystrophy?",
+    "options": [
+      "desmin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "dystrophin",
+    "rationale": "Mutations in the gene that encodes dystrophin cause Becker muscular dystrophy.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which of the following is a recognised cause of limb-girdle muscular dystrophy?",
+    "options": [
+      "desmin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "sarcoglycan",
+    "rationale": "Mutations in genes encoding polypeptide components of the sarcoglycan complex are responsible for certain other congenital forms of muscular dystrophy such as limb-girdle.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "In which structure is sarcoglycan found?",
+    "options": [
+      "cardiac",
+      "head",
+      "muscle",
+      "sarcoplasm",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "The sarcoglycan complex is formed only in striated muscle.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Mutations in the Gene Encoding Dystrophin Cause Duchenne Muscular Dystrophy",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "EDRF is converted into which substance?",
+    "options": [
+      "ATP",
+      "nitroglycerin",
+      "nitrous oxide",
+      "thin",
+      "vasodilators"
+    ],
+    "answer": "nitrous oxide",
+    "rationale": "EDRF was identified as nitrous oxide (NO).",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > SKELETAL MUSCLE CONTAINS SLOW (RED) & FAST (WHITE) TWITCH FIBERS > Nitric Oxide Relaxes the Smooth Muscle of Blood Vessels",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "In which structure are actin filaments found?",
+    "options": [
+      "mesenchymal cells",
+      "muscle fiber cells",
+      "nonmuscle cells",
+      "type I fibers",
+      "type II fibers"
+    ],
+    "answer": "nonmuscle cells",
+    "rationale": "Although actin filaments in nonmuscle cells are not organized as in muscle, they can still interact with myosin.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Nonmuscle Cells Contain Microfilaments Containing G-Actin",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "In which structure is vimentin found?",
+    "options": [
+      "mesenchymal cells",
+      "muscle fiber cells",
+      "nonmuscle cells",
+      "type I fibers",
+      "type II fibers"
+    ],
+    "answer": "mesenchymal cells",
+    "rationale": "Vimentin-like proteins are distributed in various mesenchymal cells.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "In which structure is desmin found?",
+    "options": [
+      "cardiac",
+      "head",
+      "muscle",
+      "sarcoplasm",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "Desmin is distributed in muscle.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "In which structure is peripherin found?",
+    "options": [
+      "muscle fiber cells",
+      "neurons",
+      "nonmuscle cells",
+      "type I fibers",
+      "type II fibers"
+    ],
+    "answer": "neurons",
+    "rationale": "Peripherin is distributed in neurons.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "In which structure are neurofilaments found?",
+    "options": [
+      "muscle fiber cells",
+      "neurons",
+      "nonmuscle cells",
+      "type I fibers",
+      "type II fibers"
+    ],
+    "answer": "neurons",
+    "rationale": "Neurofilaments are distributed in neurons.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which of the following is a recognised cause of progeria?",
+    "options": [
+      "heart failure",
+      "hereditary diseases",
+      "lamin",
+      "LMNA",
+      "malignant hyperthermia"
+    ],
+    "answer": "LMNA",
+    "rationale": "Hutchinson-Gilford progeria syndrome (HGPS, progeria) is caused by mutations in the LMNA gene. The LMNA gene encodes lamin A and lamin C.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which of the following is a recognised cause of skin diseases?",
+    "options": [
+      "desmin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "keratins",
+    "rationale": "A number of skin diseases, mainly characterized by blistering, are due to mutations in genes encoding various keratins. Two such disorders are epidermolysis bullosa simplex and epidermolytic palmoplantar keratoderma.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which of the following is a recognised cause of blistering?",
+    "options": [
+      "desmin",
+      "dystrophin",
+      "keratins",
+      "myosin",
+      "sarcoglycan"
+    ],
+    "answer": "keratins",
+    "rationale": "A number of skin diseases, mainly characterized by blistering, are due to mutations in genes encoding various keratins. Two such disorders are epidermolysis bullosa simplex and epidermolytic palmoplantar keratoderma.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview > THE CYTOSKELETON PERFORMS MULTIPLE CELLULAR FUNCTIONS > Intermediate Filaments Differ From Microfilaments & Microtubules",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Cytoskeleton is part of which structure?",
+    "options": [
+      "cardiac muscle cells",
+      "l-type",
+      "nonmuscle cells",
+      "syncytial",
+      "type II fibers"
+    ],
+    "answer": "nonmuscle cells",
+    "rationale": "Nonmuscle cells contain an internal network of fibers called the cytoskeleton that provides the mechanical apparatus needed to maintain and change cell shape, provide cell motility, phagocytosis, etc.",
+    "citation": "chapter_50_muscle_and_the_cytoskeleton — Overview",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "What is a recognized substrate for β-galactosidase?",
+    "options": [
+      "agarose",
+      "blunt-ended DNA",
+      "cellular DNA",
+      "cohesive-end",
+      "REs"
+    ],
+    "answer": "cellular DNA",
+    "rationale": "A similar scheme relying on production of an in-frame fusion of a newly inserted DNA producing a peptide fragment capable of complementing an inactive, N-terminally truncated form of the enzyme β-galactosidase allows for blue-white colony formation on agar plates containing a dye hydrolyzable by β-galactosidase.",
+    "citation": "chapter_39_molecular_genetics_recombinant_dna_and_genomic_technology — Overview > RECOMBINANT DNA TECHNOLOGY INVOLVES ISOLATION & MANIPULATION OF DNA TO MAKE CHIMERIC MOLECULES > Cloning Amplifies DNA",
+    "relation": "catalyzes",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

@@ -1,0 +1,646 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Fatty acids are broken down in mitochondria to produce which substance?",
+    "options": [
+      "3-hydroxy-3-methylglutaryl-CoA",
+      "3-hydroxybutyrate",
+      "acetoacetate",
+      "acetyl-CoA",
+      "triacylglycerol"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Fatty acids are broken down in mitochondria by oxidation to acetyl-CoA in a process that generates large amounts of energy.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > BIOMEDICAL IMPORTANCE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is secreted by liver?",
+    "options": [
+      "3-hydroxybutyrate",
+      "acetyl-CoA",
+      "fatty acid",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "ketone",
+    "rationale": "The liver produces ketone bodies when fatty acid oxidation is proceeding at a high rate.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > BIOMEDICAL IMPORTANCE",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognized cause of diabetes mellitus?",
+    "options": [
+      "acetyl-CoA",
+      "alkali depletes",
+      "fatty acid",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "fatty acid",
+    "rationale": "Diabetes mellitus is a condition that increases fatty acid oxidation.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which of the following is a recognized cause of ketoacidosis?",
+    "options": [
+      "acetoacetate",
+      "acetyl-CoA",
+      "fatty acid",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "ketone",
+    "rationale": "Excess production of ketone bodies over long periods causes ketoacidosis.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognized cause of hypoglycemia?",
+    "options": [
+      "acetoacetate",
+      "acetyl-CoA",
+      "alkali depletes",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "hypoglycin",
+    "rationale": "Inhibition of fatty acid oxidation by hypoglycin leads to hypoglycemia.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Fatty acid oxidation requires the presence of which substance?",
+    "options": [
+      "acetone",
+      "ATP",
+      "nonesterified",
+      "oxygen",
+      "unesterified"
+    ],
+    "answer": "oxygen",
+    "rationale": "Fatty acid oxidation requires the presence of oxygen.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is transported by carnitine across the inner mitochondrial membrane?",
+    "options": [
+      "acetoacetate",
+      "acetyl-CoA",
+      "blood",
+      "fatty acid",
+      "succinyl-CoA"
+    ],
+    "answer": "fatty acid",
+    "rationale": "For transport across the inner mitochondrial membrane, acyl groups are transferred from CoA to carnitine by carnitine palmitoyltransferase-I.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA > Fatty Acids Are Activated Before Being Catabolized",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is transported by acylcarnitine?",
+    "options": [
+      "acetone",
+      "ATP",
+      "gluconeogenesis",
+      "matrix",
+      "oxygen"
+    ],
+    "answer": "matrix",
+    "rationale": "The acylcarnitine formed is carried into the matrix by a translocase enzyme in exchange for a free carnitine.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA > Fatty Acids Are Activated Before Being Catabolized",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Carnitine is particularly abundant in which structure?",
+    "options": [
+      "extrahepatic tissues",
+      "liver",
+      "muscle",
+      "rumen wall",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "Carnitine is a compound that is widely distributed in the body and particularly abundant in muscle.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA > Long-Chain Fatty Acids Cross the Inner Mitochondrial Membrane as Carnitine Derivatives",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Palmitic acid is converted into which substance after mitochondrial processing?",
+    "options": [
+      "3-hydroxy-3-methylglutaryl-CoA",
+      "3-hydroxybutyrate",
+      "acetoacetate",
+      "acetyl-CoA",
+      "triacylglycerol"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "For example, after seven cycles, the C16 fatty acid, palmitate, is converted to eight acetyl-CoA molecules.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA > The β-Oxidation Cycle Generates FADH₂ & NADH",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Palmitate is converted into which substance?",
+    "options": [
+      "3-hydroxy-3-methylglutaryl-CoA",
+      "acetoacetate",
+      "acetyl-CoA",
+      "fatty acid",
+      "triacylglycerol"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "For example, after seven cycles, the C16 fatty acid, palmitate, is converted to eight acetyl-CoA molecules.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA > The β-Oxidation Cycle Generates FADH₂ & NADH",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Palmitate requires which substance for its activation?",
+    "options": [
+      "acetone",
+      "ATP",
+      "gluconeogenesis",
+      "oxygen",
+      "unesterified"
+    ],
+    "answer": "ATP",
+    "rationale": "In the activation step, 2 ATP are used per mol of palmitate.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA > Oxidation of Fatty Acids Produces a Large Quantity of ATP",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Acetoacetate is converted into which substance?",
+    "options": [
+      "acetoacetyl-CoA",
+      "albumin",
+      "carnitine palmitoyltransferase deficiency",
+      "FAD",
+      "HMG-CoA"
+    ],
+    "answer": "HMG-CoA",
+    "rationale": "HMG-CoA lyase then causes acetyl-CoA to split off from the HMG-CoA, leaving free acetoacetate. Both enzymes must be present in mitochondria for ketogenesis to take place.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Acetoacetyl-CoA Is the Substrate for Ketogenesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which substance is stored in mitochondria?",
+    "options": [
+      "acetoacetyl-CoA",
+      "albumin",
+      "carnitine palmitoyltransferase deficiency",
+      "FAD",
+      "thiokinase"
+    ],
+    "answer": "acetoacetyl-CoA",
+    "rationale": "The enzymes responsible for ketone body formation (ketogenesis) are associated mainly with the mitochondria. Acetoacetyl-CoA is formed when two acetyl-CoA molecules produced via fatty acid breakdown condense to form acetoacetyl-CoA by a reversal of the thiolase reaction.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Acetoacetyl-CoA Is the Substrate for Ketogenesis",
+    "relation": "stores",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "HMG-CoA is converted into which substance?",
+    "options": [
+      "3-hydroxy-3-methylglutaryl-CoA",
+      "3-hydroxybutyrate",
+      "acetyl-CoA",
+      "fatty acid",
+      "triacylglycerol"
+    ],
+    "answer": "3-hydroxy-3-methylglutaryl-CoA",
+    "rationale": "Condensation of acetoacetyl-CoA with another molecule of acetyl-CoA by 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) synthase forms HMG-CoA. HMG-CoA lyase then causes acetyl-CoA to split off from the HMG-CoA, leaving free acetoacetate.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Acetoacetyl-CoA Is the Substrate for Ketogenesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "HMG-CoA lyase acts on which substrate?",
+    "options": [
+      "albumin",
+      "carnitine palmitoyltransferase deficiency",
+      "FAD",
+      "HMG-CoA",
+      "thiokinase"
+    ],
+    "answer": "HMG-CoA",
+    "rationale": "HMG-CoA lyase then causes acetyl-CoA to split off from the HMG-CoA, leaving free acetoacetate. Both enzymes must be present in mitochondria for ketogenesis to take place.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Acetoacetyl-CoA Is the Substrate for Ketogenesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Ketone bodies are formed in which structure?",
+    "options": [
+      "extrahepatic tissues",
+      "liver",
+      "muscle",
+      "rumen wall",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "In mammals, ketone bodies are formed solely in the liver and in the rumen epithelium. 3-Hydroxybutyrate is formed from acetoacetate.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Acetoacetyl-CoA Is the Substrate for Ketogenesis",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which substance is synthesised by the liver from acetoacetyl-CoA?",
+    "options": [
+      "3-hydroxybutyrate",
+      "acetoacetate",
+      "acetyl-CoA",
+      "fatty acid",
+      "hypoglycin"
+    ],
+    "answer": "acetoacetate",
+    "rationale": "In the liver, an active enzymatic mechanism produces acetoacetate from acetoacetyl-CoA. Once acetoacetate is formed, it can only be reactivated by linking directly to CoA in the cytosol.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Acetoacetate requires which substance for reactivation?",
+    "options": [
+      "acetyl-CoA",
+      "coenzyme A",
+      "fatty acid",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "coenzyme A",
+    "rationale": "Once acetoacetate is formed, it can only be reactivated by linking directly to CoA in the cytosol. The reactivation of acetoacetate is used in a less active pathway as a precursor in cholesterol synthesis.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which substance is synthesised by extrahepatic tissues?",
+    "options": [
+      "3-hydroxybutyrate",
+      "acetoacetate",
+      "acetyl-CoA",
+      "fatty acid",
+      "ketone"
+    ],
+    "answer": "acetoacetate",
+    "rationale": "In extrahepatic tissues, acetoacetate is activated to acetoacetyl-CoA by succinyl-CoA-acetoacetate-CoA transferase. CoA is transferred from succinyl-CoA to form acetoacetyl-CoA.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is transported by coenzyme A?",
+    "options": [
+      "3-hydroxybutyrate",
+      "acetyl-CoA",
+      "blood",
+      "fatty acid",
+      "succinyl-CoA"
+    ],
+    "answer": "succinyl-CoA",
+    "rationale": "CoA is transferred from succinyl-CoA to form acetoacetyl-CoA. The addition of a CoA allows two acetyl-CoA molecules to be formed by the splitting of acetoacetyl-CoA by thiolase.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Coenzyme A is converted into which substance?",
+    "options": [
+      "acetoacetyl-CoA",
+      "albumin",
+      "carnitine palmitoyltransferase deficiency",
+      "FAD",
+      "HMG-CoA"
+    ],
+    "answer": "acetoacetyl-CoA",
+    "rationale": "The addition of a CoA allows two acetyl-CoA molecules to be formed by the splitting of acetoacetyl-CoA by thiolase. Two acetyl-CoA molecules are oxidized in the citric acid cycle.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Acetyl-CoA is converted into which substance?",
+    "options": [
+      "acetone",
+      "ATP",
+      "citric acid",
+      "gluconeogenesis",
+      "oxygen"
+    ],
+    "answer": "citric acid",
+    "rationale": "Two acetyl-CoA molecules are oxidized in the citric acid cycle. 3-Hydroxybutyrate is utilized by converting to acetoacetate, which generates an NADH in the process.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER > Ketone Bodies Serve as a Fuel for Extrahepatic Tissues",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Esterified is converted into which substance?",
+    "options": [
+      "3-hydroxy-3-methylglutaryl-CoA",
+      "acetoacetate",
+      "acetyl-CoA",
+      "fatty acid",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "In the fed state, FFAs enter the liver cell in low concentrations and are nearly all esterified to acylglycerols and transported out of the liver in very-low-density lipoprotein (VLDL).",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which of the following is a recognized cause of Jamaican vomiting sickness?",
+    "options": [
+      "acetyl-CoA",
+      "alkali depletes",
+      "fatty acid",
+      "hypoglycin",
+      "ketone"
+    ],
+    "answer": "hypoglycin",
+    "rationale": "Jamaican vomiting sickness is caused by eating the unripe fruit of the akee tree. The unripe fruit of the akee tree contains the toxin hypoglycin. Hypoglycin inactivates medium- and short-chain acyl-CoA dehydrogenase.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS > Impaired Oxidation of Fatty Acids Gives Rise to Diseases Often Associated With Hypoglycemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which of the following is a recognized cause of dicarboxylic aciduria?",
+    "options": [
+      "albumin",
+      "carnitine palmitoyltransferase deficiency",
+      "FAD",
+      "medium-chain acyl-CoA dehydrogenase deficiency",
+      "thiokinase"
+    ],
+    "answer": "medium-chain acyl-CoA dehydrogenase deficiency",
+    "rationale": "Dicarboxylic aciduria is caused by a lack of mitochondrial medium-chain acyl-CoA dehydrogenase.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS > Impaired Oxidation of Fatty Acids Gives Rise to Diseases Often Associated With Hypoglycemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognized cause of severe neurologic symptoms?",
+    "options": [
+      "diabetes mellitus",
+      "hypoglycemia",
+      "ketoacidosis",
+      "ketosis",
+      "zellweger syndrome"
+    ],
+    "answer": "zellweger syndrome",
+    "rationale": "Zellweger syndrome causes severe neurologic symptoms. Most patients with Zellweger syndrome die in the first year of life.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS > Impaired Oxidation of Fatty Acids Gives Rise to Diseases Often Associated With Hypoglycemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognized cause of starvation ketosis?",
+    "options": [
+      "acetoacetate",
+      "acetyl-CoA",
+      "alkali depletes",
+      "fatty acid",
+      "hypoglycin"
+    ],
+    "answer": "fatty acid",
+    "rationale": "Starvation ketosis involves mobilization of free fatty acids (FFA). An exaggeration of the general pattern of metabolism in starvation produces pathologic states in diabetes mellitus.",
+    "citation": "chapter_22_oxidation_of_fatty_acids_ketogenesis — Oxidation of Fatty Acids: Ketogenesis > KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS > Ketoacidosis Results From Prolonged Ketosis",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

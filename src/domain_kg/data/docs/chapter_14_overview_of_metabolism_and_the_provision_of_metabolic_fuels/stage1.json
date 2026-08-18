@@ -1,0 +1,1026 @@
+{
+  "doc_id": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels",
+  "source": {
+    "source_id": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels",
+    "title": "Overview of Metabolism & the Provision of Metabolic Fuels",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the interconversion of chemical compounds in the body, categorizing metabolic pathways into anabolic, catabolic, and amphibolic, and their roles in processing dietary components like carbohydrates, lipids, and proteins.",
+    "page": null,
+    "origin": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 21:39:33"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Metabolism is the interconversion of chemical compounds in the body. Metabolic pathways include pathways taken by individual molecules in a specific cell. Metabolic pathways include the interrelationships of pathways in cells and between cells in an organ. Metabolic pathways include the interrelationships between organs. Metabolic pathways include regulatory mechanisms that regulate the flow of metabolites through the pathways. Metabolic pathways fall into three categories: anabolic, catabolic, and amphibolic. Anabolic pathways are involved in the synthesis of larger and more complex compounds from smaller precursors. An example of an anabolic pathway is the synthesis of protein from amino acids. An example of an anabolic pathway is the synthesis of triacylglycerol and glycogen from carbohydrates. Anabolic pathways are endothermic and require reducing equivalents or ATP. Catabolic pathways are involved in the breakdown of larger molecules. Catabolic pathways commonly involve oxidative reactions. Catabolic pathways are exothermic and produce reducing equivalents. Catabolic pathways mainly produce ATP via the respiratory chain. Amphibolic pathways occur at the 'crossroads' of metabolism. Amphibolic pathways can participate in both anabolic and catabolic functions. An example of an amphibolic pathway is the citric acid cycle.",
+      "char_start": 494,
+      "char_end": 1838,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Knowledge of normal metabolism is essential for understanding abnormalities that underlie disease. Normal metabolism requires cells to perform their normal resting or basal metabolic functions. Cells must adapt to a changing environment. Adaptations include periods of feasting, fasting, starvation, and exercise. Adaptations include pregnancy and lactation. Abnormal metabolism may result from nutritional deficiency. Abnormal metabolism may result from caloric excess. Abnormal metabolism may result from enzyme deficiency. Abnormal metabolism may result from inappropriate regulation. Abnormal metabolism may result from abnormal secretion of hormones. Abnormal metabolism may result from the actions of drugs and toxins.",
+      "char_start": 1840,
+      "char_end": 2564,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "A 70-kg adult human being requires about 8 to 12 MJ (1920-2900 kcal) from metabolic fuels each day. Caloric requirements increase as the size of the animal increases. For any given size, growing animals have a proportionally higher requirement to allow for the energy cost of growth. The energy requirement is met by our diet. For humans, the caloric content of our diet is derived from carbohydrates (40-60%), lipids (mainly triacylglycerol, 30-40%), and protein (10-15%), as well as alcohol. The mix of carbohydrate, lipid, and protein being oxidized varies. The mix varies depending on the actual composition of the diet. The mix varies depending on whether the subject is in the fed or fasting state. The mix varies depending on the duration and intensity of physical work.",
+      "char_start": 2566,
+      "char_end": 3343,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "There is a constant requirement for metabolic fuels throughout the day. The resting or basal metabolic rate accounts for ~60% of daily energy expenditure in humans. Physical activity accounts for a variable amount of total daily energy expenditure. Exercise can increase the metabolic rate by 40 to 50% over the basal or resting metabolic rate. Metabolism is not constant in a given individual in a 24-hour period. We cycle between anabolism and catabolism. In a weight stable person, these processes on average are equal. We are in net zero energy balance. Most people consume their daily intake of metabolic fuels in two or three meals. There is net anabolism where we store reserves of carbohydrate (glycogen in liver and muscle), lipid (triacylglycerol in adipose tissue), and labile protein stores. During the period following a meal, we mobilize and catabolize those stores when there is no intake of food.",
+      "char_start": 3345,
+      "char_end": 4257,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "If the intake of calories exceeds energy expenditure, the surplus is stored. The surplus is stored as glycogen (liver and muscle) or as triacylglycerol in adipose tissue. If this persists, it will lead to the development of obesity and its associated health hazards. If the intake of metabolic fuels is consistently lower than energy expenditure, the limited reserves of fat and carbohydrate get exhausted. The limited reserves of fat and carbohydrate getting exhausted forces the organism to oxidize amino acids. The amino acids arising from protein turnover that are normally reused for replacement protein synthesis are mobilized. The net protein breakdown will lead to protein wasting, emaciation, and, eventually, death.",
+      "char_start": 4259,
+      "char_end": 4984,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "After an overnight fast, the liver is the main source of glucose, producing approximately 9 grams per hour in humans (Figure 14-1). The glucose is derived from hepatic glycogen stores through glycogenolysis. The glucose is derived from the synthesis of new glucose through gluconeogenesis. Over 60% of the glucose released by the liver, approximately 6 grams per hour, is metabolized by the central nervous system. Over 60% of the glucose released by the liver, approximately 6 grams per hour, is metabolized by red blood cells. The central nervous system is largely dependent on glucose. Red blood cells are wholly reliant on glucose. Adipose tissue releases nonesterified fatty acids by hydrolyzing stored triacylglycerol. Nonesterified fatty acids serve as the primary oxidizable fuel for many tissues, including the heart, muscle, and liver. The liver can synthesize ketone bodies from fatty acids to export to muscle and other tissues for oxidation. As liver glycogen reserves deplete, amino acids from muscle protein breakdown support gluconeogenesis. As liver glycogen reserves deplete, glycerol from adipose tissue supports gluconeogenesis. As liver glycogen reserves deplete, lactate from muscle glycogen supports gluconeogenesis. Amino acids, glycerol, and lactate provide glucose to glucose-dependent tissues.",
+      "char_start": 5044,
+      "char_end": 6364,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-1"
+      ],
+      "table_refs": [],
+      "section_id": "overview-of-substrate-metabolism-in-fasting-feasting"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "In the fasting state, the Intestine releases glucose that is taken up by the Brain.\nIn the fasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the fasting state, the Muscle releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the fasting state, the Brain releases glucose that is taken up by the Intestine.\nIn the fasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Muscle.\nIn the feasting state, the Intestine releases glucose that is taken up by the Brain.\nIn the feasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the feasting state, the Muscle releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the feasting state, the Brain releases glucose that is taken up by the Intestine.\nIn the feasting state, the Brain releases glucose that is taken up by the Liver.\nIn the feasting state, the Brain releases glucose that is taken up by the Muscle.\nThe diagram illustrates the flux of glucose and lipids between organs in both fasting and fed states.",
+      "char_start": 6953,
+      "char_end": 8101,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview-of-substrate-metabolism-in-fasting-feasting"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "In the fed state, after a carbohydrate-rich meal, the metabolic fuel for most tissues switches to glucose. The liver becomes a glucose consumer in the fed state. The liver stores the majority of glucose carbon as glycogen in the fed state. A small amount of glucose is used for oxidation or lipid synthesis by the liver in the fed state. Glucose uptake by the brain and red blood cells remains unaltered at approximately 6 grams per hour in the fed state. The release of fatty acids from adipose tissue lipolysis is suppressed in the fed state. Tissues primarily reliant on fatty acid oxidation switch to glucose due to decreased fatty acid supply and increased glucose availability in the fed state. Dietary glucose not taken up by the liver is utilized by peripheral tissues for oxidation or storage in the fed state. Glucose is stored in muscle as glycogen in the fed state. Glucose is stored in adipose tissue as triacylglycerol in the fed state.",
+      "char_start": 8103,
+      "char_end": 9053,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview-of-substrate-metabolism-in-fasting-feasting"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The formation and mobilization of triacylglycerol and glycogen reserves are largely controlled by the hormones insulin and glucagon produced in the endocrine pancreas. The extent to which tissues take up and oxidize glucose is largely controlled by the hormones insulin and glucagon produced in the endocrine pancreas. Other neural and endocrine signals, such as the sympathetic nervous system and growth hormone, can also modulate the effects of insulin and glucagon. Plasma glucose concentration is tightly controlled to protect the central nervous system from low blood glucose, or hypoglycemia.\n\nIn the fasted state, the liver is the source of glucose. A large fraction of glucose production is taken up by the brain. Adipose tissue releases nonesterified fatty acids. Nonesterified fatty acids are used by the liver and skeletal muscle. In the fed state, the intestine becomes the source of glucose. The liver switches to a glucose consumer. Brain glucose uptake remains unaltered. Lipolysis is suppressed in the fed state. Muscle glucose uptake increases in the fed state. Adipose tissue glucose uptake increases in the fed state. Muscle fatty acid uptake decreases in the fed state (Figure 14-1).",
+      "char_start": 9055,
+      "char_end": 10258,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-1"
+      ],
+      "table_refs": [],
+      "section_id": "overview-of-substrate-metabolism-in-fasting-feasting"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The composition of the diet dictates the general metabolism of an organism. The major products in the diet are carbohydrate, lipid, and protein. Carbohydrates are processed into glucose. Lipids are processed into fatty acids and glycerol. Proteins are processed into amino acids. Metabolic pathways can adapt to changes in diet composition, such as high carbohydrate versus low carbohydrate diets. In ruminants, dietary cellulose is fermented by symbiotic microorganisms to short-chain fatty acids, including acetic, propionic, and butyric acids. Ruminants use these short-chain fatty acids as major substrates. The products of digestion, when completely oxidized, lead to a common product, acetyl-CoA. Acetyl-CoA is oxidized by the citric acid cycle. The citric acid cycle ultimately yields ATP by the process of oxidative phosphorylation (Figure 14-2).",
+      "char_start": 10314,
+      "char_end": 11168,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-2"
+      ],
+      "table_refs": [],
+      "section_id": "pathways-to-process-the-major-products-of-our-diet"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Carbohydrate leads to the production of Simple sugars (mainly glucose).\nProtein leads to the production of Amino acids.\nFat leads to the production of Fatty acids + glycerol.\nSimple sugars (mainly glucose) are converted into Acetyl-CoA.\nAmino acids are converted into Acetyl-CoA.\nFatty acids + glycerol are converted into Acetyl-CoA.\nAcetyl-CoA is oxidized in the citric acid cycle.\nThe citric acid cycle yields 2H.\n2H is used in the production of ATP by oxidative phosphorylation.\nThe citric acid cycle yields 2CO2.\nThe pathways for the catabolism of carbohydrate, protein, and fat ultimately lead to the production of ATP through the citric acid cycle and oxidative phosphorylation.",
+      "char_start": 11438,
+      "char_end": 12122,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pathways-to-process-the-major-products-of-our-diet"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Glucose is metabolized by all tissues. Glucose is an important energy source for many. Glucose is first metabolized to glucose-6-phosphate by hexokinase. Glucose-6-phosphate can be metabolized to pyruvate by the pathway of glycolysis. In aerobic tissues, pyruvate can be metabolized to acetyl-CoA. The citric acid cycle is linked to the formation of ATP in the process of oxidative phosphorylation. Glycolysis can also occur anaerobically where pyruvate is converted to lactate.",
+      "char_start": 12198,
+      "char_end": 12676,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbohydrate-metabolism-is-centered-on-oxidation-storage-of"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Glucose can be stored as a polymer called glycogen in skeletal muscle and liver. Glucose can be diverted to the pentose phosphate pathway. The pentose phosphate pathway is an alternative to part of the pathway of glycolysis. The pentose phosphate pathway is a source of reducing equivalents (NADPH) for fatty acid synthesis. The pentose phosphate pathway is the source of ribose for nucleotide and nucleic acid synthesis. In the glycolytic pathway, triose phosphate intermediates can give rise to the glycerol moiety of triacylglycerols. Pyruvate can provide for the synthesis of intermediates in the citric acid cycle. Intermediates in the citric acid cycle can provide the carbon skeletons for the synthesis of nonessential or dispensable amino acids. Acetyl-CoA derived from pyruvate is the precursor for the synthesis of fatty acids and cholesterol. Fatty acids and cholesterol are precursors for all the steroid hormones synthesized in the body. Some tissues can synthesize glucose from precursors such as lactate, amino acids, and glycerol by the process of gluconeogenesis. Gluconeogenesis is important for supplying glucose when dietary carbohydrate is low or inadequate.",
+      "char_start": 12678,
+      "char_end": 13857,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbohydrate-metabolism-is-centered-on-oxidation-storage-of"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Long-chain fatty acids are either derived from dietary lipid or synthesized from acetyl-CoA derived from carbohydrate or amino acids (lipogenesis).\n\nStored triacylglycerol in adipose tissue can be mobilized through lipolysis to release nonesterified fatty acids and glycerol.\n\nThe ketone bodies are acetoacetate, 3-hydroxybutyrate, and acetone, with acetone formed nonenzymically by decarboxylation of acetoacetate (Figure 14-3).",
+      "char_start": 13931,
+      "char_end": 14360,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Lipid Metabolism Is Concerned Mainly With Fatty Acids & Cholesterol"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-3"
+      ],
+      "table_refs": [],
+      "section_id": "lipid-metabolism-is-concerned-mainly-with-fatty-acids"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Triacylglycerol undergoes esterification to produce Fatty acids.\nLipolysis leads to Lipogenesis, resulting in Fatty acids.\nDiet contributes to Lipogenesis, producing Fatty acids.\nCarbohydrate converts to Acetyl-CoA through Amino acids.\nCholesterol participates in Cholesterologenesis to form Acetyl-CoA.\nKetone bodies are formed from Acetyl-CoA via Ketogenesis.\nThe Citric acid cycle yields Acetyl-CoA, releasing 2CO2.\nFatty acids undergo β-Oxidation to generate Acetyl-CoA.\nAcetyl-CoA is involved in Cholesterologenesis to produce Cholesterol.\nCholesterol undergoes Steroidogenesis to form Ketone bodies.\nThe diagram provides an overview of fatty acid metabolism, illustrating the major pathways and end products.",
+      "char_start": 14597,
+      "char_end": 15311,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Lipid Metabolism Is Concerned Mainly With Fatty Acids & Cholesterol"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "lipid-metabolism-is-concerned-mainly-with-fatty-acids"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Amino acids are required for protein synthesis (Figure 14-4). Essential amino acids must be supplied in the diet because they cannot be synthesized in the body. Nonessential amino acids can be formed from metabolic intermediates by transamination using the amino group from other amino acids. The carbon backbone of an amino acid must have the alpha amino nitrogen removed through deamination if it is to be used for other processes. The liver metabolizes the removed nitrogen into urea, which is then excreted by the kidney. After transamination, the remaining carbon skeletons can be oxidized to CO2 in the citric acid cycle. The carbon skeletons can also be used to synthesize glucose through gluconeogenesis. Additionally, the carbon skeletons can be used to synthesize fatty acids or form ketone bodies. Several amino acids serve as precursors for other compounds, such as purines, pyrimidines, hormones like epinephrine and thyroxine, and neurotransmitters.",
+      "char_start": 15371,
+      "char_end": 16334,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Much of Amino Acid Metabolism Involves Transamination"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-4"
+      ],
+      "table_refs": [],
+      "section_id": "much-of-amino-acid-metabolism-involves-transamination"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Diet protein provides amino acids.\nTissue protein provides amino acids.\nCarbohydrate (glucose) provides amino acids.\nAmino acids produce nonprotein nitrogen derivatives.\nAmino acids produce acetyl-CoA.\nAmino acids produce amino nitrogen in glutamate.\nAcetyl-CoA participates in the citric acid cycle.\nThe citric acid cycle produces 2CO2.\n2CO2 produces NH3.\nNH3 produces urea.\nAmino acids produce ketone bodies.\nAmino acids undergo deamination.\nThe diagram illustrates the major pathways and end products of amino acid metabolism.",
+      "char_start": 16435,
+      "char_end": 16964,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+        "Much of Amino Acid Metabolism Involves Transamination"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "much-of-amino-acid-metabolism-involves-transamination"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "At the whole organism level, substrates are moved between organs that can either remove or add substrates to the blood perfusing the organ.\n\nThe concentrations of the substrates entering and leaving tissues and organs can be measured to help describe how substrates move between organs.\n\nWithin each organ, substrates can be followed as they transverse the plasma membrane and enter the metabolic pathways.\n\nDepending on the specific pathway, it could all occur in the cytosol, such as glycolysis.\n\nSome pathways are compartmentalized in subcellular organelles, such as the citric acid cycle in the mitochondrion.",
+      "char_start": 17018,
+      "char_end": 17631,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-pathways-at-the-organ-cellular-level"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "When food is digested in the intestine, the substrates are either directly taken up and enter the portal vein. When food is digested in the intestine, the substrates are packaged and secreted into the lymphatic system. The portal vein sends all of the absorbed substrates to the liver. The liver can take up a small or large fraction of the substrates delivered into the portal vein. The liver allows the remaining substrates to pass into the systemic circulation. Substrates that enter the lymphatic circulation coalesce into a common thoracic duct. The common thoracic duct bypasses the liver and drains its contents into the systemic circulation.\n\nAmino acids resulting from the digestion of dietary protein are absorbed via the hepatic portal vein. Glucose resulting from the digestion of carbohydrates is absorbed via the hepatic portal vein. The liver regulates the blood concentration of these water-soluble metabolites by removing a variable portion of these substrates before they enter the systemic circulation. The uptake of glucose is a regulated process. The uptake of amino acids is a regulated process.",
+      "char_start": 17719,
+      "char_end": 18836,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "In the fed state, approximately 10 to 15% of the absorbed glucose is taken up by the liver. The majority of this glucose is used to synthesize glycogen through glycogenesis. A small fraction of this glucose is used for fatty acid synthesis through lipogenesis. The remainder of this glucose is broken down by glycolysis to generate pyruvate that can be oxidized in the citric acid cycle for pyruvate oxidation. The glucose not taken up by the liver is oxidized by the brain and many other tissues, including skeletal muscle. Between meals, the liver rapidly switches to a producer of glucose. The liver is the primary source of glucose in the fasted setting. The glucose is derived from stored glycogen through glycogenolysis and the synthesis of glucose from metabolites such as lactate, glycerol, and amino acids through gluconeogenesis.\n\nThe liver is a consumer of many dietary amino acids. Like glucose, only a fraction of the total absorbed amino acids are removed by the liver. In the liver, amino acids are substrates for the synthesis of major plasma proteins, such as albumin and fibrinogen. A significant fraction of amino acids is deaminated. The carbon backbone of amino acids can be oxidized. The nitrogen is converted to urea, transported to the kidney, and excreted. The remaining amino acids are taken up by peripheral tissues primarily for protein synthesis.",
+      "char_start": 18988,
+      "char_end": 20363,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "The main dietary lipids are triacylglycerols that are hydrolyzed to monoacylglycerols and fatty acids in the gut. Monoacylglycerols and fatty acids are reesterified in the intestinal mucosa and packaged with protein, such as apolipoproteins, and secreted into the lymphatic system as chylomicrons, bypassing the liver. Chylomicrons are the largest of the plasma lipoproteins and also contain other lipid-soluble nutrients from the diet, including vitamins A, D, E, and K. Unlike glucose and amino acids absorbed from the small intestine, chylomicron triacylglycerol is not taken up directly by the liver. Chylomicron triacylglycerol is first metabolized by tissues that have lipoprotein lipase, which hydrolyzes the triacylglycerol, releasing fatty acids that are incorporated into tissue lipids or oxidized as fuel. The chylomicron remnants are cleared by the liver. The other major source of long-chain fatty acids is synthesis from carbohydrate in adipose tissue and the liver through lipogenesis.",
+      "char_start": 20365,
+      "char_end": 21365,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Adipose tissue triacylglycerol is the main fuel reserve of the body. Adipose tissue triacylglycerol is hydrolyzed through lipolysis. Lipolysis releases glycerol and nonesterified (free) fatty acids into the circulation. Glycerol is used as a substrate for gluconeogenesis. Fatty acids are transported bound to serum albumin. Fatty acids are taken up by most tissues. Fatty acids are not taken up by the brain or erythrocytes. Fatty acids are either esterified to triacylglycerols for storage or oxidized as a fuel. In the liver, newly synthesized triacylglycerol, triacylglycerol from chylomicron remnants, and nonesterified (free) fatty acids from adipose tissue are packaged in very-low-density lipoprotein (VLDL). Very-low-density lipoprotein (VLDL) is secreted into the circulation. This triacylglycerol undergoes a fate similar to that of chylomicrons. Fatty acids can be partially oxidized in the liver in the fasting setting to form ketone bodies through ketogenesis. Ketone bodies are exported to extrahepatic tissues. Ketone bodies provide an alternative fuel in prolonged fasting and starvation.",
+      "char_start": 21585,
+      "char_end": 22690,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Skeletal muscle's primary fuel is fatty acids in the fasted setting. In the fed state, muscle glucose uptake increases markedly as its preferred substrate, fatty acid, decreases. A large fraction, greater than 50%, is stored as glycogen in the fed state. Skeletal muscle synthesizes muscle protein from plasma amino acids. Muscle accounts for approximately 50% of body mass and consequently represents a considerable store of protein that can be drawn upon to supply amino acids for gluconeogenesis and be oxidized in skeletal muscle in starvation. In long-term fasting, ketones can be a significant contributor to muscle substrate oxidation.",
+      "char_start": 22692,
+      "char_end": 23334,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Compartmentation of pathways in separate subcellular compartments or organelles permits integration and regulation of metabolism. The liver performs many anabolic processes simultaneously, including gluconeogenesis, lipogenesis, VLDL synthesis, and protein synthesis. Each of these processes requires energy in the form of ATP, NADH, and NADPH. Substrates for these processes can be derived from both exogenous dietary sources and endogenous sources. The mitochondrion is central to carbohydrate, lipid, and amino acid metabolism and is a site for energy generation to support these processes. Glycolysis, the pentose phosphate pathway, and fatty acid synthesis occur in the cytosol. Gluconeogenesis requires movement of molecules between cellular compartments. Lactate and pyruvate, formed in the cytosol, enter the mitochondrion to yield oxaloacetate, which then has to be moved to the cytosol to generate phosphoenolpyruvate, a precursor for glucose synthesis. The endoplasmic reticulum membranes contain the enzyme system for triacylglycerol synthesis, and ribosomes are responsible for protein synthesis. (Figure 14–7)",
+      "char_start": 23443,
+      "char_end": 24566,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL",
+        "At the Subcellular Level, Glycolysis Occurs in the Cytosol & the Citric Acid Cycle in the Mitochondria"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-7"
+      ],
+      "table_refs": [],
+      "section_id": "at-the-subcellular-level-glycolysis-occurs-in-the-cytosol"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Regulation of the overall flux through a pathway is important as it allows a cell to respond to a changing environment.\n\nThe regulation could be dictated by changes in overall substrates available to the cell.\n\nRegulation can also be influenced by changing metabolic needs of the cell, such as muscle during exercise.\n\nEndocrine signals can stimulate or inhibit specific metabolic pathways to subserve the needs of the organism.\n\nFor example, storing glycogen in the liver in the fed state and mobilizing it in the fasted setting is a form of regulation.",
+      "char_start": 24875,
+      "char_end": 25429,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "THE FLUX THROUGH METABOLIC PATHWAYS MUST BE REGULATED IN A CONCERTED MANNER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-flux-through-metabolic-pathways-must-be-regulated-in-a"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Regulation of the overall flux through a pathway is important as it allows a cell to respond to a changing environment. The regulation could be dictated by changes in overall substrates available to the cell. Regulation can also be influenced by changing metabolic needs of the cell, such as muscle during exercise. Endocrine signals can stimulate or inhibit specific metabolic pathways to subserve the needs of the organism. For example, storing glycogen in the liver in the fed state and mobilizing it in the fasted setting is a form of regulation. Regulation is achieved by one or more key reactions in the pathway catalyzed by regulatory enzymes and/or transport systems that shuttle metabolites across the plasma membrane or between intracellular compartments. The physicochemical factors that control the rate of an enzyme-catalyzed reaction, such as substrate concentration, are of primary importance in the control of the overall rate of a metabolic pathway.\n\nThe physicochemical factors that control the rate of an enzyme-catalyzed reaction, such as substrate concentration, are of primary importance in the control of the overall rate of a metabolic pathway.",
+      "char_start": 25431,
+      "char_end": 26599,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "THE FLUX THROUGH METABOLIC PATHWAYS MUST BE REGULATED IN A CONCERTED MANNER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-flux-through-metabolic-pathways-must-be-regulated-in-a"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "In a reaction at equilibrium, the forward reactions occur at equal rates. In a reaction at equilibrium, the reverse reactions occur at equal rates.\n\nThere is no net flux in either direction in a reaction at equilibrium.\n\nIn a closed system, if a fixed quantity of A is added, the reaction proceeds to the right to make C and D. In a closed system, if a fixed quantity of A is added, a new equilibrium is reached.\n\nThe final concentration of A, C, and D is determined by the absolute amount of A added and the properties of the enzymes.\n\nIn vivo, there is a net flux from left to right because there is a continuous supply of substrate A. In vivo, there is a net flux from left to right because there is continuous removal of product D.\n\nThe in vivo pathway is in a 'steady state' if the rates of the reactions are constant. The in vivo pathway is in a 'steady state' if the concentration of the substrates, products, and intermediates are constant.\n\nIn practice, there are normally one or more nonequilibrium reactions in a metabolic pathway. The reactants in nonequilibrium reactions are present in concentrations that are far from equilibrium.\n\nIn attempting to reach equilibrium, large losses of free energy occur. Nonequilibrium reactions are essentially irreversible.\n\nThe enzymes catalyzing nonequilibrium reactions are usually present in low concentration.\n\nThe enzymes catalyzing nonequilibrium reactions are subject to a variety of regulatory mechanisms.",
+      "char_start": 26659,
+      "char_end": 28122,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "THE FLUX THROUGH METABOLIC PATHWAYS MUST BE REGULATED IN A CONCERTED MANNER",
+        "Nonequilibrium Reactions Are Potential Control Points"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nonequilibrium-reactions-are-potential-control-points"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Most reactions in metabolic pathways cannot be classified as equilibrium or nonequilibrium. Most reactions in metabolic pathways fall somewhere between the two extremes.",
+      "char_start": 28124,
+      "char_end": 28293,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "THE FLUX THROUGH METABOLIC PATHWAYS MUST BE REGULATED IN A CONCERTED MANNER",
+        "Nonequilibrium Reactions Are Potential Control Points"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nonequilibrium-reactions-are-potential-control-points"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "The normal blood glucose concentration is 3 to 5 mmol/L. Glucose transport into the cell is necessary before glycolysis can occur. In some tissues, such as skeletal muscle, transport activity is low in the resting state compared to hexokinase activity. Low transport activity keeps intracellular glucose concentration relatively low. In the resting state, transport activity is a rate-limiting factor for glucose uptake. Insulin, a hormone produced by the endocrine pancreas, increases transport activity. With increased transport activity, glucose uptake is no longer limited by transport. After insulin action, hexokinase becomes the controlling factor for glucose uptake. The product of the hexokinase reaction is glucose-6-phosphate. Glucose-6-phosphate acts as an allosteric inhibitor of hexokinase. If downstream pathways cannot efficiently metabolize glucose-6-phosphate, it accumulates and inhibits hexokinase. Inhibition by glucose-6-phosphate regulates the flux through the pathway. The control of flux through pathways is rarely dominated by a single enzyme. Instead, control is distributed among different steps. The distribution of control allows for metabolic flux adjustments under different physiologic conditions.",
+      "char_start": 28356,
+      "char_end": 29586,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "THE FLUX THROUGH METABOLIC PATHWAYS MUST BE REGULATED IN A CONCERTED MANNER",
+        "The Control of Flux Through Many Pathways Is Distributed"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-control-of-flux-through-many-pathways-is-distributed"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Reactions A ↔ B and C ↔ D in the metabolic pathway are equilibrium reactions. Reaction B → C in the metabolic pathway is a nonequilibrium reaction. The flux through the metabolic pathway can be regulated by the availability of substrate A. The supply of substrate A depends on its availability from the blood. The availability of substrate A from the blood depends on food intake. The availability of substrate A from the blood depends on reactions that release substrates from tissue reserves into the bloodstream. Glycogen phosphorylase in the liver can mobilize liver glycogen. Hormone-sensitive lipase in adipose tissue can mobilize adipose tissue triglycerides. The transport of substrate A into the cell influences the flux of the pathway. Muscle tissue increases glucose transport from the bloodstream in response to the hormone insulin. Adipose tissue increases glucose transport from the bloodstream in response to the hormone insulin.",
+      "char_start": 29659,
+      "char_end": 30603,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "ALLOSTERIC & HORMONAL SIGNALS CONTROL OF ENZYME-CATALYZED REACTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "allosteric-hormonal-signals-control-of-enzyme-catalyzed"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Flux is determined by the removal of the end product D. Flux is determined by the availability of cosubstrates or cofactors. Enzymes catalyzing nonequilibrium reactions are often allosteric proteins. Allosteric proteins are subject to feedback or feed-forward control by allosteric modifiers. The end product of a biosynthetic pathway frequently inhibits the enzyme catalyzing the first reaction in the pathway. Hormones can regulate enzyme activity by altering the activity or cellular localization of existing enzyme molecules. Hormones can regulate enzyme activity by changing enzyme content through altering the rate of enzyme synthesis.\n\nHormones can regulate enzyme activity through several mechanisms (Figure 14-8). Hormones can regulate enzyme activity through alteration of membrane permeability. Hormones can regulate enzyme activity through conversion of an inactive enzyme to an active enzyme typically involving phosphorylation or dephosphorylation reactions. Hormones can regulate enzyme activity through alteration of the rate of translation of mRNA at the ribosomal level. Hormones can regulate enzyme activity through induction of new mRNA formation. Hormones can regulate enzyme activity through repression of mRNA formation. Mechanisms ① and ② are rapid. Mechanisms ③, ④, and ⑤ are slower.",
+      "char_start": 30605,
+      "char_end": 31913,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "ALLOSTERIC & HORMONAL SIGNALS CONTROL OF ENZYME-CATALYZED REACTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-8"
+      ],
+      "table_refs": [],
+      "section_id": "allosteric-hormonal-signals-control-of-enzyme-catalyzed"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Carbohydrate in excess of immediate energy needs can be used for fatty acid synthesis. Excess carbohydrate can be converted into triacylglycerol in adipose tissue. Excess carbohydrate can be converted into triacylglycerol in the liver. Triacylglycerol synthesized in the liver is exported in VLDL. The rate of lipogenesis in humans depends on the carbohydrate content of the diet. The rate of lipogenesis in humans depends on total caloric intake. In Western countries, dietary carbohydrates provide approximately 50% of energy intake. In less-developed countries, carbohydrate may provide 60 to 75% of energy intake. In less-developed countries, total caloric intake is low. In less-developed countries, low total caloric intake results in little surplus for lipogenesis. High fat intake normally inhibits lipogenesis in adipose tissue. High fat intake normally inhibits lipogenesis in the liver. In Western countries, despite higher fat intake, lipogenesis is significant due to excess caloric intake exceeding energy demand.",
+      "char_start": 32472,
+      "char_end": 33499,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-metabolic-fuels-are-interconvertible"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Fatty acids cannot be used for the synthesis of glucose. Ketone bodies formed from fatty acids cannot be used for the synthesis of glucose. The reaction of pyruvate dehydrogenase forming acetyl-CoA is irreversible. Acetyl-CoA entering the citric acid cycle loses carbon atoms as carbon dioxide before oxaloacetate is reformed. Acetyl-CoA cannot be used for gluconeogenesis. Substrates that yield acetyl-CoA cannot be used for gluconeogenesis. Propionyl-CoA, derived from fatty acids with an odd number of carbon atoms, can be a substrate for gluconeogenesis. Glycerol released by lipolysis of adipose tissue triacylglycerol reserves can be a substrate for gluconeogenesis.",
+      "char_start": 33501,
+      "char_end": 34173,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-metabolic-fuels-are-interconvertible"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Most amino acids in excess of protein synthesis requirements yield pyruvate or intermediates of the citric acid cycle. Pyruvate can be carboxylated to oxaloacetate. Oxaloacetate is the primary substrate for gluconeogenesis. Citric acid cycle intermediates increase the formation of oxaloacetate available for gluconeogenesis. Amino acids that yield pyruvate or intermediates of the citric acid cycle are classified as glucogenic. Lysine and leucine yield only acetyl-CoA on oxidation. Lysine and leucine cannot be used for gluconeogenesis. Phenylalanine, tyrosine, tryptophan, and isoleucine give rise to both acetyl-CoA and intermediates that can be used for gluconeogenesis. Amino acids that give rise to acetyl-CoA are referred to as ketogenic. During prolonged fasting and starvation, amino acids are mobilized from muscle protein to provide substrates for gluconeogenesis. Amino acids are oxidized by the liver to support energy demands and contribute to ketone body synthesis.",
+      "char_start": 34175,
+      "char_end": 35157,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-metabolic-fuels-are-interconvertible"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "Erythrocytes lack mitochondria. Erythrocytes are always wholly reliant on anaerobic glycolysis and the pentose phosphate pathway.\n\nThe brain normally metabolizes glucose. The brain can metabolize ketone bodies. When ketone availability is high, such as during prolonged fasting, ketone bodies can meet about 20% of brain energy requirements. The remainder of the brain's energy requirements must be supplied by glucose.\n\nIn the fasting state and starvation, metabolic changes preserve plasma glucose for use by the brain and red blood cells. Metabolic changes provide alternative metabolic fuels, such as lipids and amino acids, for other tissues (Figure 14-9).",
+      "char_start": 35235,
+      "char_end": 35896,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Glucose Is Always Required by the Central Nervous System & Erythrocytes"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-9"
+      ],
+      "table_refs": [],
+      "section_id": "glucose-is-always-required-by-the-central-nervous-system"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "In pregnancy, the fetus requires a significant amount of glucose. The mammary gland requires glucose for the synthesis of lactose during lactation.\n\nIn tissues such as the heart, metabolic fuels are oxidized in the following order of preference: fatty acids, ketone bodies, and glucose (Figure 14–9).",
+      "char_start": 36235,
+      "char_end": 36535,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Glucose Is Always Required by the Central Nervous System & Erythrocytes"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-9"
+      ],
+      "table_refs": [],
+      "section_id": "glucose-is-always-required-by-the-central-nervous-system"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "In the fed state, caloric intake typically exceeds energy requirements during the period of food absorption. The excess calories are stored as glycogen or lipid. When substrates are oxidized, oxygen is consumed. When substrates are oxidized, carbon dioxide is produced. For glucose oxidation, the molar ratio of carbon dioxide produced to oxygen consumed is one, known as the respiratory quotient. For fatty acids and proteins, the respiratory quotient is less than one. The respiratory exchange ratio reflects the mixture of substrates being oxidized by all tissues. In a typical person, the respiratory exchange ratio averages about 0.85 in a 24-hour period on a standard diet. After a carbohydrate-rich meal, the respiratory exchange ratio increases toward 1 due to increased carbohydrate oxidation. The process of storing excess calories as glycogen and lipid is called the thermic effect of food. The thermic effect of food accounts for about 10% of daily energy expenditure. As a person transitions to a fast, the rate of glucose oxidation decreases. As a person transitions to a fast, the rate of fat oxidation increases. As a person transitions to a fast, the decrease in the respiratory exchange ratio toward 0.7 is reflected (Table 14–1).",
+      "char_start": 36616,
+      "char_end": 37864,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-14-1"
+      ],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Carbohydrate has an energy yield of 16 kJ/g.\nCarbohydrate consumes 0.829 L/g of oxygen.\nCarbohydrate produces 0.829 L/g of carbon dioxide.\nCarbohydrate has an RQ of 1.00.\nCarbohydrate yields approximately 20 kJ per liter of oxygen consumed.\nProtein has an energy yield of 17 kJ/g.\nProtein consumes 0.966 L/g of oxygen.\nProtein produces 0.782 L/g of carbon dioxide.\nProtein has an RQ of 0.81.\nProtein yields approximately 20 kJ per liter of oxygen consumed.\nFat has an energy yield of 37 kJ/g.\nFat consumes 2.016 L/g of oxygen.\nFat produces 1.427 L/g of carbon dioxide.\nFat has an RQ of 0.71.\nFat yields approximately 20 kJ per liter of oxygen consumed.\nAlcohol has an energy yield of 29 kJ/g.\nAlcohol consumes 1.429 L/g of oxygen.\nAlcohol produces 0.966 L/g of carbon dioxide.\nAlcohol has an RQ of 0.66.\nAlcohol yields approximately 20 kJ per liter of oxygen consumed.",
+      "char_start": 37966,
+      "char_end": 38834,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Insulin, secreted by the beta-islet cells of the pancreas in response to increased glucose concentration, controls glucose uptake into muscle and adipose tissue. In the fasting state, glucose transporters (GLUT-4) in muscle and adipose tissue are located in intracellular vesicles. Insulin causes these vesicles to migrate to the cell surface, where they fuse with the plasma membrane, exposing active glucose transporters. In the absence of insulin, these transporters are internalized, reducing glucose uptake. However, in skeletal muscle, increased cytoplasmic calcium ion concentration from nerve stimulation and muscle contraction can stimulate glucose uptake independently of insulin. The transport capacity for glucose into the liver is high and independent of insulin. The liver uses glucose mainly for glycogen synthesis when plasma glucose is elevated. Insulin amplifies glycogen synthesis by stimulating glycogen synthetase. Insulin inhibits glycogen phosphorylase in both liver and skeletal muscle. Some glucose in the liver is used for lipogenesis and triacylglycerol synthesis. In adipose tissue, insulin stimulates glucose uptake for triacylglycerol synthesis. In adipose tissue, insulin inhibits intracellular lipolysis and the release of nonesterified fatty acids (see Figure 14-1).",
+      "char_start": 38836,
+      "char_end": 40135,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-1"
+      ],
+      "table_refs": [],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "The products of lipid digestion and absorption enter the circulation as chylomicrons. Chylomicrons are the largest plasma lipoproteins. Chylomicrons are rich in triacylglycerol. In adipose tissue and skeletal muscle, insulin activates extracellular lipoprotein lipase. Lipoprotein lipase hydrolyzes triacylglycerol in chylomicrons into nonesterified fatty acids and glycerol. The fatty acids are taken up by the tissue for resynthesis of triacylglycerol. Glycerol remains in the bloodstream. Glycerol is taken up by the liver for gluconeogenesis, glycogen synthesis, or lipogenesis. Fatty acids not used by the tissue remain in the bloodstream. Fatty acids not used by the tissue are taken up by the liver for reesterification. The lipid-depleted chylomicron remnants are cleared by the liver. The remaining triacylglycerol is exported in VLDL (see Chapter 25).",
+      "char_start": 40137,
+      "char_end": 40998,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "In healthy weight stable individuals, the rates of tissue protein catabolism and anabolism are equal over 24 hours. In healthy weight stable individuals, whole body protein stores are kept constant over 24 hours. Protein synthesis falls during fasting by about 20-25%. Protein synthesis increases during feeding by about 20-25%. Insulin increases the rate of protein synthesis in response to increased availability of amino acids and metabolic fuel. Protein synthesis is an energy-expensive process, accounting for up to 20% of resting energy expenditure after a meal. Protein synthesis accounts for only 9% of resting energy expenditure in the fasting state. An increased rate of protein catabolism occurs in cachexia associated with advanced cancer and other diseases. An increased rate of protein catabolism occurs with extended periods of caloric deficits.",
+      "char_start": 41000,
+      "char_end": 41860,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "In the fasting state, plasma glucose experiences a small decrease. Plasma glucose remains relatively stable as fasting progresses into starvation. Plasma nonesterified fatty acids increase during fasting. Plasma nonesterified fatty acids experience minimal further rise during starvation. The plasma concentration of ketone bodies, specifically acetoacetate and 3-hydroxybutyrate, increases significantly as fasting is prolonged (Table 14–2).",
+      "char_start": 41925,
+      "char_end": 42367,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Metabolic Fuel Reserves Are Mobilized in the Fasting State"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-14-2"
+      ],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "In the fed state, the plasma concentration of glucose is 5.5 mmol/L.\nIn the 40-h fasting state, the plasma concentration of glucose is 3.6 mmol/L.\nIn the 7 days starvation state, the plasma concentration of glucose is 3.5 mmol/L.\nIn the fed state, the plasma concentration of nonesterified fatty acids is 0.30 mmol/L.\nIn the 40-h fasting state, the plasma concentration of nonesterified fatty acids is 1.15 mmol/L.\nIn the 7 days starvation state, the plasma concentration of nonesterified fatty acids is 1.19 mmol/L.\nIn the fed state, the plasma concentration of ketone bodies is negligible.\nIn the 40-h fasting state, the plasma concentration of ketone bodies is 2.9 mmol/L.\nIn the 7 days starvation state, the plasma concentration of ketone bodies is 4.5 mmol/L.",
+      "char_start": 42448,
+      "char_end": 43212,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Metabolic Fuel Reserves Are Mobilized in the Fasting State"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "In the fasting state, the decrease in glucose concentration in the portal blood from the small intestine leads to a reduction in insulin secretion. Skeletal muscle and adipose tissue take up less glucose in the fasting state. Activation of glycogen phosphorylase mobilizes glycogen stores in the liver. The resulting glucose-6-phosphate is hydrolyzed by glucose-6-phosphatase. Glucose is released into the bloodstream primarily for use by the brain and erythrocytes (see Figure 14-1).\n\nMuscle glycogen cannot directly contribute to plasma glucose because muscle lacks glucose-6-phosphatase. Muscle glycogen provides glucose-6-phosphate and pyruvate for energy-yielding metabolism within the muscle itself. Acetyl-CoA formed by the oxidation of fatty acids in muscle inhibits pyruvate dehydrogenase. Inhibition of pyruvate dehydrogenase by acetyl-CoA leads to an accumulation of pyruvate. Most of this pyruvate is transaminated to alanine, utilizing amino acids from muscle protein breakdown, or released as lactate. Alanine, lactate, and the keto acids resulting from this transamination are exported from muscle and taken up by the liver to support gluconeogenesis.",
+      "char_start": 43214,
+      "char_end": 44380,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Metabolic Fuel Reserves Are Mobilized in the Fasting State"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-14-1"
+      ],
+      "table_refs": [],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "In adipose tissue, the decrease in insulin and increase in glucagon inhibit lipogenesis, inactivate and internalize lipoprotein lipase, and activate intracellular hormone-sensitive lipase (see Chapter 25). The decrease in insulin and increase in glucagon results in the release of increased amounts of glycerol, a substrate for gluconeogenesis in the liver, and nonesterified fatty acids, which serve as the preferred metabolic fuel for the liver, heart, and skeletal muscle, thus sparing glucose.\n\nAs fasting becomes more prolonged, the liver produces more acetyl-CoA than it can oxidize. This excess acetyl-CoA is used to synthesize ketone bodies (see Chapter 22). Ketone bodies become major metabolic fuels for skeletal and heart muscle. Ketone bodies can meet up to 20% of the brain's energy needs in long-term fasting. In prolonged starvation, glucose may represent less than 10% of whole body energy-yielding metabolism.\n\nWithout alternative glucose sources, liver and muscle glycogen would be depleted after about 18 hours of fasting. As fasting becomes more prolonged, an increasing amount of amino acids is released from protein catabolism. Amino acids released from protein catabolism are utilized in the liver and kidneys for gluconeogenesis (Table 14–3).",
+      "char_start": 44382,
+      "char_end": 45648,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Metabolic Fuel Reserves Are Mobilized in the Fasting State"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-14-3"
+      ],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "The liver performs glycolysis, gluconeogenesis, lipogenesis, β-oxidation, citric acid cycle, ketogenesis, lipoprotein metabolism, drug metabolism, synthesis of bile salts, urea, uric acid, cholesterol, and plasma proteins.\nThe liver primarily uses nonesterified fatty acids, glucose (in fed state), lactate, glycerol, fructose, amino acids, and alcohol as substrates.\nThe liver exports glucose, triacylglycerol in VLDL, ketone bodies, urea, uric acid, bile salts, cholesterol, and plasma proteins.\nThe liver utilizes specialist enzymes such as glucokinase, glucose-6-phosphatase, glycerol kinase, phosphoenolpyruvate carboxykinase, fructokinase, arginase, HMG-CoA synthase, HMG-CoA lyase, and alcohol dehydrogenase.\nThe brain engages in glycolysis, citric acid cycle, amino acid metabolism, and neurotransmitter synthesis.\nThe brain mainly utilizes glucose, amino acids, and ketone bodies in prolonged starvation as substrates.\nThe brain exports lactate and end products of neurotransmitter metabolism.\nThe brain utilizes enzymes for synthesis and catabolism of neurotransmitters.\nThe heart performs β-oxidation and citric acid cycle.\nThe heart primarily uses nonesterified fatty acids, ketone bodies, lactate, chylomicron and VLDL triacylglycerol, and some glucose as substrates.\nThe heart does not export major products.\nThe heart utilizes lipoprotein lipase and a very active electron transport chain.\nAdipose tissue engages in lipogenesis, esterification of fatty acids, and lipolysis (in fasting).\nAdipose tissue mainly utilizes glucose, chylomicron, and VLDL triacylglycerol as substrates.\nAdipose tissue exports nonesterified fatty acids and glycerol.\nAdipose tissue utilizes lipoprotein lipase, hormone-sensitive lipase, and enzymes of the pentose phosphate pathway.\nFast twitch muscle performs glycolysis.\nFast twitch muscle primarily uses glucose and glycogen as substrates.\nFast twitch muscle exports lactate and alanine and keto acids in fasting.\nFast twitch muscle does not utilize specialist enzymes.\nSlow twitch muscle performs β-oxidation and citric acid cycle.\nSlow twitch muscle primarily uses nonesterified fatty acids, ketone bodies, chylomicron, and VLDL triacylglycerol as substrates.\nSlow twitch muscle exports lactate and alanine.\nSlow twitch muscle utilizes lipoprotein lipase and a very active electron transport chain.\nThe kidney performs gluconeogenesis.\nThe kidney mainly utilizes nonesterified fatty acids, lactate, glycerol, and glucose as substrates.\nThe kidney exports glucose with long-term fasting.\nThe kidney utilizes glycerol kinase and phosphoenolpyruvate carboxykinase.\nErythrocytes perform anaerobic glycolysis and pentose phosphate pathway.\nErythrocytes primarily use glucose as a substrate.\nErythrocytes export lactate.\nErythrocytes utilize hemoglobin and enzymes of the pentose phosphate pathway.",
+      "char_start": 45715,
+      "char_end": 48554,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+        "Metabolic Fuel Reserves Are Mobilized in the Fasting State"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "In prolonged starvation, adipose tissue reserves are depleted. In prolonged starvation, the net rate of protein catabolism increases to provide amino acids for gluconeogenesis and as metabolic fuel for tissues. Death occurs when essential tissue proteins are catabolized and not replaced. In patients with cachexia, cytokines released in response to tumors and disease increase the rate of tissue protein catabolism and metabolic rate. In patients with cachexia, the state mimics advanced starvation. Death results when essential tissue proteins are catabolized and not replaced.",
+      "char_start": 48576,
+      "char_end": 49155,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "CLINICAL ASPECTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "clinical-aspects"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "The high demand for glucose by the fetus can lead to ketosis. The high demand for glucose during lactation can lead to ketosis. The high demand for glucose by the fetus or during lactation may manifest as mild ketosis with hypoglycemia in humans. In lactating cattle, it can result in pronounced ketoacidosis and profound hypoglycemia. In ewes carrying twin pregnancies, it can result in pronounced ketoacidosis and profound hypoglycemia. Ketogenic diets are characterized by low carbohydrate intake (<50 g/day). Ketogenic diets are characterized by low protein. Ketogenic diets are characterized by high fat. Ketogenic diets are used to treat intractable epilepsy, which affects about 30% of all patients with epilepsy. The carbohydrate intake on a ketogenic diet is well below the amount needed to support glucose-requiring tissues (144 g/day). Gluconeogenesis from glucogenic amino acids in the diet partially makes up the difference. Due to very low carbohydrate intake and high fat oxidation, a mild ketosis develops. Ketone bodies are provided to the brain to support energy requirements not met by glucose. Ketone bodies decrease overall carbohydrate requirements.",
+      "char_start": 49157,
+      "char_end": 50328,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "CLINICAL ASPECTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "clinical-aspects"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "Diabetes, or chronic hyperglycemia, affects approximately 7% of the US adult population. The three common forms of diabetes are type 1 diabetes mellitus (T1DM), type 2 diabetes (T2DM), and gestational diabetes. Type 2 diabetes (T2DM) accounts for 90 to 95% of diabetes cases. Type 2 diabetes (T2DM) is due to a combination of insulin resistance and impaired insulin secretion. Gestational diabetes occurs during pregnancy. Gestational diabetes affects 7 to 10% of all pregnancies. Other specific but less common types of diabetes include monogenic diabetes syndromes, diseases of the exocrine pancreas, and drug or chemical-induced diabetes. Inadequate diabetes management can lead to organ dysfunction, including blindness, renal and cardiovascular diseases. Inadequate management of gestational diabetes can lead to fetal complications. Tissue metabolism adapts to physiologic events to preserve metabolic health. Intact neuroendocrine systems are required to control inter- and intraorgan nutrient homeostasis.",
+      "char_start": 50330,
+      "char_end": 51343,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "CLINICAL ASPECTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "clinical-aspects"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "In poorly controlled diabetes mellitus, patients may become severely hyperglycemic due to lack of or inadequate insulin secretion. Inadequate insulin secretion fails to restrain hepatic glucose production in the fasted state. Inadequate insulin secretion fails to stimulate glucose uptake by hepatic and peripheral tissues in the fed state. Severe hyperglycemia can progress to diabetic ketoacidosis, a medical emergency. In the absence of adequate insulin, the actions of glucagon are not antagonized, leading to increased gluconeogenesis. Unrestrained lipolysis in adipose tissue increases fatty acid delivery to the liver. Increased sympathetic nervous system activity and glucagon amplify unrestrained lipolysis in adipose tissue. The relative excess of glucagon, a potent stimulator of ketogenesis, synergizes with the increase in fatty acid supply to markedly increase ketone body formation. Utilization of ketone bodies in muscle and other tissues may be impaired due to a lack of oxaloacetate, which is required for citric acid cycle activity. Lack of oxaloacetate amplifies the increase in circulating ketones. Ketone bodies, such as acetoacetate and 3-hydroxybutyrate, are relatively strong acids. Coma results from both the acidosis and the increased osmolality of the extracellular fluid and dehydration. Increased osmolality of the extracellular fluid and dehydration are primarily due to hyperglycemia and diuresis from the excretion of glucose and ketone bodies in the urine.",
+      "char_start": 51345,
+      "char_end": 52835,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels",
+        "CLINICAL ASPECTS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "clinical-aspects"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "The products of digestion provide the tissues with the building blocks for the biosynthesis of complex molecules and also with the fuel for metabolic processes.\nAcetyl-CoA is the precursor for synthesis of long-chain fatty acids, steroids (including cholesterol), and ketone bodies.\nGlucose provides carbon skeletons for the glycerol of triacylglycerols and nonessential amino acids.\nWater-soluble products of digestion are transported directly to the liver via the hepatic portal vein. The liver regulates the concentrations of glucose and amino acids available to other tissues. Lipids and lipid-soluble products of digestion enter the bloodstream from the lymphatic system, and the liver clears the remnants after extrahepatic tissues have taken up fatty acids.\nPathways are compartmentalized within the cell. Glycolysis, glycogenesis, glycogenolysis, the pentose phosphate pathway, and lipogenesis occur in the cytosol. The membranes of the endoplasmic reticulum contain the enzymes for a number of other processes, including triacylglycerol synthesis and drug metabolism.\nMetabolic pathways are regulated by rapid mechanisms affecting the activity of existing enzymes, that is, allosteric and covalent modification (often in response to hormone action) and slow mechanisms that affect the synthesis of enzymes.\nDietary carbohydrate and protein in excess of requirements can be used for fatty acid and hence triacylglycerol synthesis.\nIn fasting and starvation, glucose must be provided for the brain and red blood cells; in the early fasting state, a large fraction is supplied from hepatic glycogen reserves. As the fast progresses, the contribution of gluconeogenesis is the primary source of glucose carbon.\nWith prolonged fasting to spare glucose, muscle and other tissues minimize glucose uptake; they utilize fatty acids (and later ketone bodies) as their preferred fuel.\nAdipose tissue releases nonesterified fatty acids in the fasting state. In prolonged fasting and starvation, these are used by the liver for synthesis of ketone bodies, which along with the fatty acids provide the major fuel for muscle.\nMany of the amino acids, arising from the diet or from tissue protein turnover, can be used for gluconeogenesis, as can the glycerol from triacylglycerol.\nNeither fatty acids, arising from the diet or from lipolysis of adipose tissue triacylglycerol, nor ketone bodies, formed from fatty acids in the fasting state, can provide substrates for gluconeogenesis.",
+      "char_start": 52837,
+      "char_end": 55316,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-14-1",
+      "image_path": "images/a871fd9876f7dae6a51c62022b1189fa37f27bcf31e204f421fc794b7cb3e31a.jpg",
+      "caption": "Overview of Glucose and lipid flux in overnight fasted and fed humans. In the fasted setting liver is the source of the glucose and a large fraction of the glucose production is taken up by the brain. Adipose releases nonesterified fatty acids (FFA) that are used by the liver and skeletal muscle. In the fed state, the intestine becomes the source of glucose. The liver switches to a glucose consumer, while brain glucose uptake is unaltered. Lipolysis is suppressed, muscle and adipose tissue glucose uptake is increased, and muscle fatty acid uptake is decreased.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-14-1]",
+      "description": "In the fasting state, the Intestine releases glucose that is taken up by the Brain.\nIn the fasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the fasting state, the Muscle releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the fasting state, the Brain releases glucose that is taken up by the Intestine.\nIn the fasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Muscle.\nIn the feasting state, the Intestine releases glucose that is taken up by the Brain.\nIn the feasting state, the Liver releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the feasting state, the Muscle releases nonesterified fatty acids (FFA) that are used by the Adipose Tissue.\nIn the feasting state, the Brain releases glucose that is taken up by the Intestine.\nIn the feasting state, the Brain releases glucose that is taken up by the Liver.\nIn the feasting state, the Brain releases glucose that is taken up by the Muscle.\nThe diagram illustrates the flux of glucose and lipids between organs in both fasting and fed states.",
+      "label": "Figure 14-1",
+      "panel": "",
+      "content_chunk": "c007",
+      "caption_span": [
+        6385,
+        6951
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "overview-of-substrate-metabolism-in-fasting-feasting"
+    },
+    {
+      "fig_id": "fig-14-2",
+      "image_path": "images/373dfd5f2b7553cbb33a5438b7acff6917961b9ac2900e8d53164bbcfeb99225.jpg",
+      "caption": "Outline of the pathways for the catabolism of carbohydrate, protein, and fat. All these pathways lead to the production of acetyl-CoA, which is oxidized in the citric acid cycle, ultimately yielding ATP by the process of oxidative phosphorylation.",
+      "referenced_from": "c010",
+      "marker": "[FIGURE:fig-14-2]",
+      "description": "Carbohydrate leads to the production of Simple sugars (mainly glucose).\nProtein leads to the production of Amino acids.\nFat leads to the production of Fatty acids + glycerol.\nSimple sugars (mainly glucose) are converted into Acetyl-CoA.\nAmino acids are converted into Acetyl-CoA.\nFatty acids + glycerol are converted into Acetyl-CoA.\nAcetyl-CoA is oxidized in the citric acid cycle.\nThe citric acid cycle yields 2H.\n2H is used in the production of ATP by oxidative phosphorylation.\nThe citric acid cycle yields 2CO2.\nThe pathways for the catabolism of carbohydrate, protein, and fat ultimately lead to the production of ATP through the citric acid cycle and oxidative phosphorylation.",
+      "label": "Figure 14-2",
+      "panel": "",
+      "content_chunk": "c011",
+      "caption_span": [
+        11189,
+        11436
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "pathways-to-process-the-major-products-of-our-diet"
+    },
+    {
+      "fig_id": "fig-14-3",
+      "image_path": "images/ab0a18495d72ba1b976dda57bb2acc644739fa656cade87aad14b229e61e9cc5.jpg",
+      "caption": "Overview of fatty acid metabolism showing the major pathways and end products. The ketone bodies are acetoacetate, 3-hydroxybutyrate, and acetone (which is formed nonenzymically by decarboxylation of acetoacetate).",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-14-3]",
+      "description": "Triacylglycerol undergoes esterification to produce Fatty acids.\nLipolysis leads to Lipogenesis, resulting in Fatty acids.\nDiet contributes to Lipogenesis, producing Fatty acids.\nCarbohydrate converts to Acetyl-CoA through Amino acids.\nCholesterol participates in Cholesterologenesis to form Acetyl-CoA.\nKetone bodies are formed from Acetyl-CoA via Ketogenesis.\nThe Citric acid cycle yields Acetyl-CoA, releasing 2CO2.\nFatty acids undergo β-Oxidation to generate Acetyl-CoA.\nAcetyl-CoA is involved in Cholesterologenesis to produce Cholesterol.\nCholesterol undergoes Steroidogenesis to form Ketone bodies.\nThe diagram provides an overview of fatty acid metabolism, illustrating the major pathways and end products.",
+      "label": "Figure 14-3",
+      "panel": "",
+      "content_chunk": "c015",
+      "caption_span": [
+        14381,
+        14595
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "lipid-metabolism-is-concerned-mainly-with-fatty-acids"
+    },
+    {
+      "fig_id": "fig-14-4",
+      "image_path": "images/040eb0f5082f29fa9c2ee47e8a8eac7fd6b3afd41cbd7db19e8965cff30ab4c5.jpg",
+      "caption": "Overview of amino acid metabolism showing the major pathways and end products.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-14-4]",
+      "description": "Diet protein provides amino acids.\nTissue protein provides amino acids.\nCarbohydrate (glucose) provides amino acids.\nAmino acids produce nonprotein nitrogen derivatives.\nAmino acids produce acetyl-CoA.\nAmino acids produce amino nitrogen in glutamate.\nAcetyl-CoA participates in the citric acid cycle.\nThe citric acid cycle produces 2CO2.\n2CO2 produces NH3.\nNH3 produces urea.\nAmino acids produce ketone bodies.\nAmino acids undergo deamination.\nThe diagram illustrates the major pathways and end products of amino acid metabolism.",
+      "label": "Figure 14-4",
+      "panel": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        16355,
+        16433
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "much-of-amino-acid-metabolism-involves-transamination"
+    },
+    {
+      "fig_id": "fig-14-5",
+      "image_path": "images/6a82319df5285fdf1d46b8654fcaef8e51adb7e2f7c29db7f977a38d1263e922.jpg",
+      "caption": "Uptake and fate of major carbohydrate and amino acid substrates and metabolites. Note: Brain and adipose tissue are not depicted.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-14-5]",
+      "description": "",
+      "label": "Figure 14-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        18857,
+        18986
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "fig_id": "fig-14-6",
+      "image_path": "images/07af3f404cf6dfad1d507bcb9fd01f50fdb65fecb0a94bc83c91ce1356a5d1cd.jpg",
+      "caption": "Uptake and fate of major lipid substrates and metabolites. (LPL, lipoprotein lipase; MG, monoacylglycerol; NEFA, nonesterified fatty acids; TG, triacylglycerol; VLDL, very-low-density lipoprotein.)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-14-6]",
+      "description": "",
+      "label": "Figure 14-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21386,
+        21583
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-anatomical-location-of-an-organ-the-blood-circulation"
+    },
+    {
+      "fig_id": "fig-14-7",
+      "image_path": "images/36b238c778d6ecdbe3608239350f6e07d98ccb6ecc51c98508babf9a24c2678d.jpg",
+      "caption": "Intracellular location and overview of major metabolic pathways in a liver parenchymal cell. (AA →, metabolism of one or more essential amino acids; AA ↔, metabolism of one or more nonessential amino acids.)",
+      "referenced_from": "c024",
+      "marker": "[FIGURE:fig-14-7]",
+      "description": "",
+      "label": "Figure 14-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        24587,
+        24794
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "at-the-subcellular-level-glycolysis-occurs-in-the-cytosol"
+    },
+    {
+      "fig_id": "fig-14-8",
+      "image_path": "images/1b9beffc34c50d87410e72815fc53c0379f3213cb154c0808a6994814a1dce13.jpg",
+      "caption": "Mechanisms of control of an enzyme-catalyzed reaction. Circled numbers indicate possible sites of action of hormones: ① alteration of membrane permeability; ② conversion of an inactive enzyme to an active enzyme, usually involving phosphorylation/dephosphorylation reactions; ③ alteration of the rate translation of mRNA at the ribosomal level; ④ induction of new mRNA formation; and ⑤ repression of mRNA formation. ① and ② are rapid mechanisms of regulation, whereas ③, ④, and ⑤ are slower.",
+      "referenced_from": "c031",
+      "marker": "[FIGURE:fig-14-8]",
+      "description": "",
+      "label": "Figure 14-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        31934,
+        32425
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "allosteric-hormonal-signals-control-of-enzyme-catalyzed"
+    },
+    {
+      "fig_id": "fig-14-9",
+      "image_path": "images/634cbe7008cab4b00e452ec0bc1b1e83ac23c857d68055928570a96890501f0c.jpg",
+      "caption": "Metabolic interrelationships among adipose tissue, the liver, and extrahepatic tissues. In tissues such as heart, metabolic fuels are oxidized in the following order of preference: fatty acids > ketone bodies > glucose. (LPL, lipoprotein lipase; NEFA, nonesterified fatty acids; VLDL, very-low-density lipoproteins.)",
+      "referenced_from": "c035",
+      "marker": "[FIGURE:fig-14-9]",
+      "description": "",
+      "label": "Figure 14-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        35917,
+        36233
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "glucose-is-always-required-by-the-central-nervous-system"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-14-1",
+      "label": "Table 14-1",
+      "caption": "Energy Yields, Oxygen Consumption, & Carbon Dioxide Production in the Oxidation of Metabolic Fuels",
+      "referenced_from": "c037",
+      "content_chunk": "c038",
+      "caption_span": [
+        37866,
+        37964
+      ],
+      "section_id": "in-the-fed-state-the-exogenous-metabolic-fuels-are-both"
+    },
+    {
+      "table_id": "tbl-14-2",
+      "label": "Table 14-2",
+      "caption": "Plasma Concentrations of Metabolic Fuels (mmol/L) in the Fed & Fasting States",
+      "referenced_from": "c042",
+      "content_chunk": "c043",
+      "caption_span": [
+        42369,
+        42446
+      ],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    },
+    {
+      "table_id": "tbl-14-3",
+      "label": "Table 14-3",
+      "caption": "Summary of the Major Metabolic Features of the Principal Organs",
+      "referenced_from": "c045",
+      "content_chunk": "c046",
+      "caption_span": [
+        45650,
+        45713
+      ],
+      "section_id": "metabolic-fuel-reserves-are-mobilized-in-the-fasting-state"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain what is meant by anabolic, catabolic, and amphibolic metabolic pathways.\nDescribe the movement of carbohydrates, lipids, and amino acids between organs, and metabolism within organs at the subcellular level.\nDescribe the ways cells can modulate flux of metabolites through metabolic pathways.\nDescribe how the movement (storage and release) of substrates is regulated in the fed and fasting states.",
+      "char_start": 61,
+      "char_end": 467,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Frayn KN. The glucose-fatty acid cycle: a physiological perspective. Biochem Soc Trans 2003;31(Pt 6):1115–1119. [PubMed: 14641007]\nHall KD, Heymsfield SB, Kemnitz JW, Klein S, Schoeller DA, Speakman JR. Energy balance and its components: implications for body weight regulation. Am J Clin Nutr 2012;95(4):989–994. [PubMed: 22434603]\nMoore MC, Cherrington AD, Wasserman DH. Regulation of hepatic and peripheral glucose disposal. Best Pract Res Clin Endocrinol Metab 2003;17(3):343–364. [PubMed: 12962690]",
+      "char_start": 55318,
+      "char_end": 55821,
+      "section_path": [
+        "Overview of Metabolism & the Provision of Metabolic Fuels"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-14-5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-14-6",
+      "reason": "figure never anchored in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels/chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels.normalized.md"
+}
