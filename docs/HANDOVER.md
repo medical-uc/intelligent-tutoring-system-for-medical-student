@@ -61,14 +61,17 @@ make populate-students  # optional: seeded synthetic demo students/activity
 # or just: make populate   (all three population targets in sequence)
 ```
 
-**Regenerate content from scratch** (PDF → question bank, manual/human-in-the-loop by
-design, no single command does all three — see §2):
+**Regenerate content from scratch** (PDF → domain KG → question bank, see
+[08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)):
 
 ```bash
-.venv/bin/python scripts/ingest_data.py --dir data/textbook   # PDFs -> chunks
-# then run notebooks/mcq_generation.ipynb end-to-end             # chunks -> question_bank.json
-.venv/bin/python scripts/populate_mcq_postgres.py                # -> live Postgres table
+python -m src.domain_kg.cli.run                                  # PDFs -> KG docs -> questions.json per chapter
+.venv/bin/python scripts/populate_biochem_mcq_postgres.py         # -> live Postgres table
 ```
+
+(Superseded: `notebooks/mcq_generation.ipynb` + `scripts/populate_mcq_postgres.py` were
+the anatomy/endocrine-era pipeline — question bank is biochem-only now, see §2. Do not
+run `populate_mcq_postgres.py`; it's kept only as a superseded-artifact reference.)
 
 **Run the knowledge-tracing notebook** (BKT param EM-fitting — same fit the
 `GET /quiz/mastery/params` endpoint runs live in production; this notebook is the
@@ -86,10 +89,11 @@ make populate-students   # scripts/generate_dummy_interactions.py -> synthetic a
 **Tear down:** `make down` (stop stack, keep data) or `make clean` (stop stack **and
 destroy volumes** — Postgres + Neo4j + MinIO data gone; confirm before running).
 
-**Not part of "running the project" yet:** `src/domain_kg/` (§ new above,
-[08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)) has its own CLI entrypoints
-(`python -m src.domain_kg.cli.run`, etc.) but nothing in the run path above touches it —
-it's invoked standalone, if at all.
+**`src/domain_kg/` is now part of the run path** (as of `07050b5`/`a0a7438`): its CLI
+(`python -m src.domain_kg.cli.run`, § above) produces each chapter's `questions.json`,
+which `scripts/populate_biochem_mcq_postgres.py` loads into the live `mcq_questions`
+table — the quiz bank is biochem-only, sourced entirely from this pipeline now, not
+invoked standalone/unused as prior versions of this doc said.
 
 The knowledge-tracing notebook above is different: its BKT param-fitting logic (not
 `p_know` itself) *is* wired into the live app — `src/quiz/bkt_fit.py` runs the same EM
@@ -155,13 +159,22 @@ closest thing to "ground truth" is the source PDF text itself.
   → `src/ingestion/unify.py` → `src/ingestion/semantic_chunk.py` (sentence-transformers
   `all-MiniLM-L6-v2` embeddings, adaptive-percentile chunk splitting). Full stage table:
   [03-ingestion-pipeline.md](03-ingestion-pipeline.md).
-- `notebooks/mcq_generation.ipynb` — chunks → `question_bank.json`, 6-step LLM pipeline
-  (triple extraction → distractor generation → stem generation → self-critique → correct
-  → serialize). Full detail: [04-mcq-generation.md](04-mcq-generation.md). **Not a
-  script** — manual notebook run, not idempotent in any tracked way.
-- `scripts/populate_mcq_postgres.py` — loads `notebooks/master_mcq_with_topics.json`
-  (a separate, larger dataset than `question_bank.json`) into the `mcq_questions`
-  Postgres table the live app actually reads from.
+- `src/domain_kg/mcq.py` (via `python -m src.domain_kg.cli.run`) — generates each
+  chapter's `questions.json` (`src/domain_kg/data/docs/<chapter>/questions.json`)
+  straight from that chapter's KG extraction. Full detail:
+  [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
+- `scripts/populate_biochem_mcq_postgres.py` — converts every chapter's
+  `questions.json` into rows for the `mcq_questions` Postgres table the live app
+  actually reads from (keyed `"{chapter_dir}::{item_id}"`; upserts in place on
+  rerun). This is the only populator that should be run now — the quiz bank is
+  biochem-only as of `07050b5`/`a0a7438`.
+- **Superseded:** `notebooks/mcq_generation.ipynb` (chunks → `question_bank.json`,
+  6-step LLM pipeline) and `scripts/populate_mcq_postgres.py` (loaded
+  `notebooks/master_mcq_with_topics.json`) were the anatomy/endocrine-era pipeline.
+  `question_bank.json` and `master_mcq_with_topics.json` are now stale artifacts —
+  don't treat them as current data. Kept in-repo per convention of flagging
+  superseded artifacts rather than silently removing them; the quality-issues
+  paragraph below describes that old dataset, not the live one.
 
 **Known data quality issues:**
 - **116 of 188 questions (~62%) in `question_bank.json` have `valid_as_generated: false`**
@@ -180,12 +193,13 @@ closest thing to "ground truth" is the source PDF text itself.
 
 **Regenerating a dataset snapshot:**
 ```bash
-.venv/bin/python scripts/ingest_data.py --dir data/textbook   # PDFs → chunks (per-PDF, non-recursive)
-# then run notebooks/mcq_generation.ipynb end-to-end            # chunks → question_bank.json
-.venv/bin/python scripts/populate_mcq_postgres.py               # → live Postgres table
+python -m src.domain_kg.cli.run                             # PDFs → KG docs → questions.json per chapter
+.venv/bin/python scripts/populate_biochem_mcq_postgres.py    # → live Postgres table
 ```
-No single command does all three — this is a manual, human-in-the-loop pipeline by
-design (see [01-architecture.md](01-architecture.md), "Why two halves").
+
+See [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md) for the full stage breakdown
+(the old chunk/notebook/`populate_mcq_postgres.py` pipeline above this paragraph is
+superseded — don't run it).
 
 ---
 
@@ -265,13 +279,16 @@ src/
   quiz/               question bank loader + attempt recording
   flashcards/         card/review/session logic (Anki-style)
   domain_kg/           staged KG pipeline (stages 1-8): textbook markdown -> RDF graph
-                      + UMLS links + MCQs. Standalone, not called from app/ or scripts/
-                      yet. See [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
+                      + UMLS links + MCQs (mcq.py). Source of the live biochem question
+                      bank as of 07050b5/a0a7438 — see
+                      [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
   evaluation/          mineru_quality.py — diagnostic-only, not production path
 scripts/
-  ingest_data.py               PDF(s) → chunks — the production ingestion CLI
-  populate_mcq_postgres.py     question_bank JSON → live Postgres table
-  generate_dummy_interactions.py  synthetic demo student data (seeded, see below)
+  ingest_data.py                    PDF(s) → chunks — the production ingestion CLI
+                                     (superseded by src/domain_kg/ for the live bank)
+  populate_biochem_mcq_postgres.py  domain_kg questions.json → live Postgres table
+  populate_mcq_postgres.py          superseded anatomy-era loader — do not run
+  generate_dummy_interactions.py    synthetic demo student data (seeded, see below)
 notebooks/           interactive/manual pipeline stages, MCQ generation, parser spikes
 tests/               pytest suite (see §7)
 ```
@@ -422,7 +439,8 @@ silently update the other's schedule." Not documented before this handover; see
   Postgres) not running, or `.env` not populated. `app/dependencies.py` connects to Neo4j
   lazily on first request; `src/quiz/bank.py` connects to Postgres similarly.
 - Quiz/flashcard endpoints return empty → `mcq_questions` table not populated. Run
-  `scripts/populate_mcq_postgres.py` (needs Postgres reachable + `.env` `POSTGRES_*` set).
+  `scripts/populate_biochem_mcq_postgres.py` (needs Postgres reachable + `.env`
+  `POSTGRES_*` set).
 - Updated question content not reflected → `src/quiz/bank.py` caches the bank
   in-process (`@lru_cache(maxsize=1)`) — **restart the server** after re-populating.
 - `scripts/ingest_data.py` fails at a MinerU subprocess step → `.venv-mineru` doesn't
@@ -439,11 +457,12 @@ operation is regenerating the question bank. See §2's "Regenerating a dataset s
 No automated retraining trigger exists; it's a fully manual, reviewed process by design.
 
 **How to roll back a bad deploy.** Not applicable — no deployment pipeline exists to roll
-back (§5). At the data level: `question_bank.json` is git-tracked, so a bad regeneration
-can be reverted via git; the live-serving `mcq_questions` Postgres table has no
-documented backup/versioning beyond whatever `master_mcq_with_topics.json` state was last
-used to populate it — re-running `populate_mcq_postgres.py` against a previous git
-revision of that file is the closest thing to a rollback procedure currently available.
+back (§5). At the data level: each chapter's `questions.json` under
+`src/domain_kg/data/docs/` is git-tracked, so a bad regeneration can be reverted via git;
+the live-serving `mcq_questions` Postgres table has no documented backup/versioning
+beyond whatever `questions.json` state was last populated — re-running
+`populate_biochem_mcq_postgres.py` against a previous git revision of those files is the
+closest thing to a rollback procedure currently available.
 
 ---
 
@@ -509,12 +528,12 @@ criteria referenced in §1.
   the production `scripts/ingest_data.py` path. No documented decision on whether either
   is meant to replace or supplement MinerU. This is likely the actual in-flight work
   behind the `feat/textbook-parser` branch name — confirm scope/intent directly.
-- `src/domain_kg/` — full staged KG pipeline ported in but not called from anywhere in
-  `app/`/`scripts/` (§ new, see [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md)). No
-  decision recorded on how it relates to the existing `notebooks/mcq_generation.ipynb`
-  MCQ pipeline — same underlying problem (textbook → questions), two independent
-  mechanisms now in-repo, no documented plan for which one wins or whether both stay for
-  different purposes.
+- ~~`src/domain_kg/` not called from anywhere / relation to
+  `notebooks/mcq_generation.ipynb` undecided~~ — resolved as of `07050b5`/`a0a7438`:
+  `src/domain_kg/` (via `mcq.py` + `populate_biochem_mcq_postgres.py`) is now the sole
+  live pipeline; the old notebook/`question_bank.json`/`populate_mcq_postgres.py` chain
+  is superseded (see §2, §4). Textbook corpus also swapped from anatomy/endocrine to
+  biochem chapters in the same change.
 
 **Needs a judgment call, not just documentation:**
 
@@ -541,6 +560,9 @@ criteria referenced in §1.
 7. Get and record: original problem statement/success criteria, textbook licensing
    status, and where production credentials (if any) live — none of these are derivable
    from the repo itself.
-8. Decide how `src/domain_kg/` relates to `notebooks/mcq_generation.ipynb` — same
-   textbook-to-questions problem, two mechanisms, no documented plan for which persists.
-   See [08-domain-kg-pipeline.md](08-domain-kg-pipeline.md).
+8. ~~Decide how `src/domain_kg/` relates to `notebooks/mcq_generation.ipynb`~~ — done,
+   `src/domain_kg/` won (see §2, §4, §9 above). Remaining follow-up: `generate_dummy_interactions.py`
+   auto-sources topics from Postgres so it needs no code change, but the synthetic Neo4j
+   data it already wrote reflects whatever bank was live at generation time — re-run
+   `make populate` (postgres → neo4j → students, in that order) after any question-bank
+   swap so demo data doesn't reference retired topics.
