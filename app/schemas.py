@@ -172,7 +172,7 @@ class CancelSessionResponse(BaseModel):
 
 class HistoryItem(BaseModel):
     session_id: str
-    topic_path: str
+    topic_path: str | None
     status: str
     question_count: int
     correct_count: int
