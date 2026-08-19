@@ -10,6 +10,7 @@ from app.schemas import (
     NudgePreviewItem,
     NudgeResponse,
     NudgeSource,
+    NudgeTopicBreakdown,
     RestoreStreakResponse,
     SessionCheckResponse,
     SessionResponse,
@@ -213,29 +214,59 @@ def get_my_nudge(
     bank: QuestionBank = Depends(_get_bank),
 ) -> NudgeResponse:
     """Dashboard due-for-review nudge: how many quiz questions and flashcards this
-    student's spaced-repetition schedule says are due right now, plus whichever single
-    item is due soonest across both. Counts only (no full queues) — pair with
+    student's spaced-repetition schedule says are due right now, a per-topic breakdown
+    of that queue, plus whichever single item is due soonest across both. Pair with
     /quiz/review/due or /flashcards/review/due once the student acts on the nudge."""
     quiz_count = count_due_quiz(driver, student_id)
     flashcard_count = count_due_flashcards(driver, student_id)
 
-    soonest: NudgePreviewItem | None = None
-    quiz_top = due_quiz(driver, student_id, limit=1)
-    flashcard_top = due_flashcards(driver, student_id, limit=1)
+    # High limit so the breakdown below covers the full due queue, not just a preview —
+    # per-student due sets are small (spaced-repetition schedules, not the whole bank).
+    quiz_due = due_quiz(driver, student_id, limit=500)
+    flashcard_due = due_flashcards(driver, student_id, limit=500)
 
+    quiz_topic_paths: dict[str, str] = {}
+    for item in quiz_due:
+        question = bank.get(item["question_uid"])
+        quiz_topic_paths[item["question_uid"]] = question.topic_path if question else ""
+
+    flashcard_topic_paths: dict[str, str] = {}
+    for item in flashcard_due:
+        card = get_flashcard(item["question_uid"], bank=bank)
+        flashcard_topic_paths[item["question_uid"]] = (
+            " > ".join(card.topic_tag) if card else ""
+        )
+
+    breakdown_counts: dict[tuple[NudgeSource, str], int] = {}
+    for item in quiz_due:
+        topic_path = quiz_topic_paths[item["question_uid"]]
+        key = (NudgeSource.QUIZ, topic_path)
+        breakdown_counts[key] = breakdown_counts.get(key, 0) + 1
+    for item in flashcard_due:
+        topic_path = flashcard_topic_paths[item["question_uid"]]
+        key = (NudgeSource.FLASHCARD, topic_path)
+        breakdown_counts[key] = breakdown_counts.get(key, 0) + 1
+
+    breakdown = [
+        NudgeTopicBreakdown(source=source, topic_path=topic_path, due_count=count)
+        for (source, topic_path), count in sorted(
+            breakdown_counts.items(), key=lambda kv: kv[1], reverse=True
+        )
+    ]
+
+    soonest: NudgePreviewItem | None = None
     candidates = []
-    if quiz_top:
-        candidates.append((NudgeSource.QUIZ, quiz_top[0]))
-    if flashcard_top:
-        candidates.append((NudgeSource.FLASHCARD, flashcard_top[0]))
+    if quiz_due:
+        candidates.append((NudgeSource.QUIZ, quiz_due[0]))
+    if flashcard_due:
+        candidates.append((NudgeSource.FLASHCARD, flashcard_due[0]))
     if candidates:
         source, item = min(candidates, key=lambda c: c[1]["next_review_at"])
-        if source == NudgeSource.QUIZ:
-            question = bank.get(item["question_uid"])
-            topic_path = question.topic_path if question else ""
-        else:
-            card = get_flashcard(item["question_uid"], bank=bank)
-            topic_path = " > ".join(card.topic_tag) if card else ""
+        topic_path = (
+            quiz_topic_paths[item["question_uid"]]
+            if source == NudgeSource.QUIZ
+            else flashcard_topic_paths[item["question_uid"]]
+        )
         soonest = NudgePreviewItem(
             source=source,
             question_uid=item["question_uid"],
@@ -248,4 +279,5 @@ def get_my_nudge(
         flashcard_due_count=flashcard_count,
         total_due_count=quiz_count + flashcard_count,
         soonest_due=soonest,
+        breakdown=breakdown,
     )

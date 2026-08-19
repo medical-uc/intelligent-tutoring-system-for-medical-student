@@ -67,11 +67,18 @@ class NudgePreviewItem(BaseModel):
     next_review_at: datetime
 
 
+class NudgeTopicBreakdown(BaseModel):
+    source: NudgeSource
+    topic_path: str
+    due_count: int
+
+
 class NudgeResponse(BaseModel):
     quiz_due_count: int
     flashcard_due_count: int
     total_due_count: int
     soonest_due: NudgePreviewItem | None = None
+    breakdown: list[NudgeTopicBreakdown] = []
 
 
 class OptionOut(BaseModel):
