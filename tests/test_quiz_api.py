@@ -3,14 +3,14 @@ queue. Hits real Neo4j + Postgres-backed question bank; see tests/conftest.py.""
 
 
 def test_list_topics_requires_no_auth(client):
-    resp = client.get("/quiz/topics")
+    resp = client.get("/subjects/topics")
     assert resp.status_code == 200
     assert isinstance(resp.json()["topics"], list)
     assert len(resp.json()["topics"]) > 0
 
 
 def test_list_subjects(client):
-    resp = client.get("/quiz/subjects")
+    resp = client.get("/subjects")
     assert resp.status_code == 200
     subjects = resp.json()["subjects"]
     assert len(subjects) > 0
@@ -27,13 +27,13 @@ def test_get_all_questions_no_auth_required(client):
 
 
 def test_get_questions_for_unknown_topic_is_404(client):
-    resp = client.get("/quiz/topics/NO-SUCH-TOPIC-XYZ/questions")
+    resp = client.get("/subjects/NO-SUCH-TOPIC-XYZ/questions")
     assert resp.status_code == 404
     assert resp.json()["error"]["code"] == "NOT_FOUND"
 
 
 def test_get_questions_for_real_topic(client, sample_topic):
-    resp = client.get(f"/quiz/topics/{sample_topic}/questions")
+    resp = client.get(f"/subjects/{sample_topic}/questions")
     assert resp.status_code == 200
     questions = resp.json()
     assert len(questions) > 0

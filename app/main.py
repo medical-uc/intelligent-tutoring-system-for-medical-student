@@ -17,7 +17,7 @@ from app.dependencies import get_driver
 from app.errors import error_body, register_exception_handlers
 from app.limiter import limiter
 from app.openapi import install_openapi
-from app.routers import flashcards, quiz, students
+from app.routers import flashcards, quiz, students, subjects
 
 load_dotenv()
 
@@ -52,6 +52,7 @@ register_exception_handlers(app)
 
 app.include_router(students.router)
 app.include_router(quiz.router)
+app.include_router(subjects.router)
 app.include_router(flashcards.router)
 
 

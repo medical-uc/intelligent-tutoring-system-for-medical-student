@@ -28,10 +28,10 @@ _OPEN_PATHS = {
 _OPEN_PATTERNS = tuple(
     re.compile(p)
     for p in (
-        r"^/quiz/topics$",
-        r"^/quiz/subjects$",
+        r"^/subjects$",
+        r"^/subjects/topics$",
+        r"^/subjects/.+/questions$",
         r"^/quiz/questions$",
-        r"^/quiz/topics/.+/questions$",
         r"^/quiz/questions/[^/]+/check$",
         r"^/flashcards/cards$",
         r"^/flashcards/topics/.+/cards$",

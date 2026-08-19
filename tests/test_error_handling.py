@@ -28,7 +28,7 @@ def _assert_envelope(body: dict, expected_code: str) -> None:
             422,
             "VALIDATION_ERROR",
         ),
-        ("GET", "/quiz/topics/NO-SUCH-TOPIC/questions", {}, 404, "NOT_FOUND"),
+        ("GET", "/subjects/NO-SUCH-TOPIC/questions", {}, 404, "NOT_FOUND"),
         ("GET", "/does-not-exist", {}, 401, "UNAUTHORIZED"),
     ],
 )

@@ -30,7 +30,7 @@ Two layers now do auth-related work:
   <token>` header or the middleware short-circuits with a `401` (via `app/errors.py`'s
   envelope) before the request reaches the route handler. The allowlist is exact paths
   (`/health`, `/students/register`, `/students/login`, `/docs`, `/openapi.json`, `/redoc`,
-  `/docs/oauth2-redirect`) plus **regexes**, not prefixes — e.g. `^/quiz/topics/.+/questions$`
+  `/docs/oauth2-redirect`) plus **regexes**, not prefixes — e.g. `^/subjects/.+/questions$`
   is open but `^/quiz/questions/[^/]+/log$` is not, because a naive prefix match would
   wrongly open sibling write endpoints under the same parent path. See the module's own
   comments before adding a new public route — get the regex specific enough that it
@@ -41,8 +41,8 @@ Two layers now do auth-related work:
 
 Practically: if a route needs to be public, it must be added to
 `auth_middleware.py`'s allowlist *and* must not declare `get_current_student_id` as a
-dependency. Public routes as of this doc: `GET /quiz/topics`, `GET /quiz/subjects`,
-`GET /quiz/topics/{path}/questions`, `POST /quiz/questions/{uid}/check`,
+dependency. Public routes as of this doc: `GET /subjects/topics`, `GET /subjects`,
+`GET /subjects/{path}/questions`, `POST /quiz/questions/{uid}/check`,
 `GET /flashcards/cards`, `GET /flashcards/topics/{path}/cards`,
 `POST /flashcards/cards/{uid}/reveal` — all pure catalog lookups or stateless grading,
 no graph write.
@@ -97,9 +97,9 @@ the award inline; `GET /students/me/energy` exists purely to re-sync a displayed
 
 | Endpoint | Auth | Does |
 | --- | --- | --- |
-| `GET /quiz/topics` | none | Lists all topic paths (from `src/quiz/bank.py`'s flattened bank). |
-| `GET /quiz/subjects` | none | Subject → topic catalog for a browse page; `question_count`/`flashcard_count` per subject and per topic. |
-| `GET /quiz/topics/{topic_path}/questions` | none | Returns sanitized questions for a topic — `correct` flags stripped, see `OptionOut`/`QuestionOut` in [`app/schemas.py`](../app/schemas.py). |
+| `GET /subjects/topics` | none | Lists all topic paths (from `src/quiz/bank.py`'s flattened bank). |
+| `GET /subjects` | none | Subject → topic catalog for a browse page; `question_count`/`flashcard_count` per subject and per topic. |
+| `GET /subjects/{topic_path}/questions` | none | Returns sanitized questions for a topic — `correct` flags stripped, see `OptionOut`/`QuestionOut` in [`app/schemas.py`](../app/schemas.py). |
 
 The answer key never leaves `src/quiz/bank.py` — `QuestionOut`'s options only carry
 `index` + `text`, position doubling as the client-facing answer id.

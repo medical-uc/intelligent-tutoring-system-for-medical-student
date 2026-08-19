@@ -172,7 +172,7 @@ sequenceDiagram
 
     Note over QV,API: Setup — mode-dependent (singleTopic / multiTopic / dueBatch)
     par
-        QV->>API: GET /quiz/topics/{path}/questions  (per topic, no auth)
+        QV->>API: GET /subjects/{path}/questions  (per topic, no auth)
     and
         alt singleTopic
             QV->>API: POST /quiz/topics/{path}/sessions  (bearer)
