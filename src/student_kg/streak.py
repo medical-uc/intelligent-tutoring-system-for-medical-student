@@ -11,9 +11,10 @@ full activity-day history is cheap to pull (one date per session/review, not per
 and the consecutive-day walk is done in Python for clarity over a harder-to-read Cypher
 date-arithmetic query.
 
-A day counts if a quiz session was *started* that day (matches what the student
-experienced, not when a session happened to be finalized), a flashcard review was
-logged that day, or the student spent energy to restore that day via restore_streak()
+A day counts if a quiz session was *completed* that day (cancelled sessions don't
+count — a student who starts and immediately abandons a quiz shouldn't bank a streak
+day for it), a flashcard review was logged that day, or the student spent energy to
+restore that day via restore_streak()
 (see below) — restored dates are stored directly on the Student node
 (streak_restored_dates: list[date-string]) rather than as a fake QuizSession/
 FlashcardReview, so real activity history stays an honest record of what the student
@@ -37,9 +38,9 @@ RESTORE_STREAK_COST = 10  # energy spent to bridge exactly one missed day
 
 _ACTIVITY_DAYS_QUERY = """
 MATCH (s:Student {id: $student_id})
-OPTIONAL MATCH (s)-[:ATTEMPTED]->(sess:QuizSession)
+OPTIONAL MATCH (s)-[:ATTEMPTED]->(sess:QuizSession {status: "completed"})
 OPTIONAL MATCH (s)-[:HAS_FLASHCARD]->(:Flashcard)<-[:FOR_FLASHCARD]-(rev:InteractionEvent {type: "FLASHCARD_REVIEW"})
-WITH s, collect(DISTINCT date(sess.started_at)) + collect(DISTINCT date(rev.ts))
+WITH s, collect(DISTINCT date(sess.ended_at)) + collect(DISTINCT date(rev.ts))
         + [d IN coalesce(s.streak_restored_dates, []) | date(d)] AS days
 UNWIND days AS day
 WITH DISTINCT day
