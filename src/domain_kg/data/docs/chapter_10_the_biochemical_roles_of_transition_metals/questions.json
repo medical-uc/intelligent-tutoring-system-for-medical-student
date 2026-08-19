@@ -1,0 +1,577 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognized cause of Menkes disease?",
+    "options": [
+      "copper deficiency",
+      "deficiencies of these metals",
+      "molybdenum deficiency",
+      "pernicious anemia",
+      "press"
+    ],
+    "answer": "copper deficiency",
+    "rationale": "Menkes disease is associated with copper deficiency.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "In which structure is calcium primarily found?",
+    "options": [
+      "HOCl",
+      "intestinal epithelial cells",
+      "kidney",
+      "mucous membranes",
+      "teeth"
+    ],
+    "answer": "teeth",
+    "rationale": "Calcium contributes approximately 2% of the human body mass, primarily contained in bones, teeth, and cartilage. The remaining 0.4 to 0.5% of the human body mass is accounted for by numerous inorganic elements.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > BIOMEDICAL IMPORTANCE > Humans Require Minute Quantities of Several Inorganic Elements",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is required for the synthesis of tetraiodothyronine?",
+    "options": [
+      "GPNH",
+      "iodine",
+      "iron",
+      "oxygen",
+      "selenium"
+    ],
+    "answer": "iodine",
+    "rationale": "Iodine is required for the synthesis of tri- and tetraiodothyronine. Selenium is required for the synthesis of the amino acid selenocysteine.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > BIOMEDICAL IMPORTANCE > Humans Require Minute Quantities of Several Inorganic Elements",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is required for the synthesis of the amino acid selenocysteine?",
+    "options": [
+      "GPNH",
+      "iodine",
+      "iron",
+      "oxygen",
+      "selenium"
+    ],
+    "answer": "selenium",
+    "rationale": "Selenium is required for the synthesis of the amino acid selenocysteine. Vitamins are essential for health and are covered in Chapter 44.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > BIOMEDICAL IMPORTANCE > Humans Require Minute Quantities of Several Inorganic Elements",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is required by ribonucleotide reductase?",
+    "options": [
+      "GPNH",
+      "iodine",
+      "iron",
+      "oxygen",
+      "selenium"
+    ],
+    "answer": "iron",
+    "rationale": "Iron can be displaced by gallium in ribonucleotide reductase and Fe, Cu superoxide dismutase.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF HEAVY METALS > Displacement of an Essential Cation",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance is required by superoxide dismutase?",
+    "options": [
+      "GPNH",
+      "iodine",
+      "iron",
+      "oxygen",
+      "selenium"
+    ],
+    "answer": "iron",
+    "rationale": "Iron can be displaced by gallium in ribonucleotide reductase and Fe, Cu superoxide dismutase.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF HEAVY METALS > Displacement of an Essential Cation",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which agent is used in the management of heavy metal toxicity?",
+    "options": [
+      "copper",
+      "iron",
+      "oxygen",
+      "water",
+      "zinc"
+    ],
+    "answer": "water",
+    "rationale": "Acute heavy metal poisoning is treated by ingestion of chelating agents, the administration of diuretics along with the ingestion of water, or hemodialysis.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is required for the hydrolysis of urea?",
+    "options": [
+      "cobalt",
+      "flavin",
+      "inorganic",
+      "mn",
+      "nickel"
+    ],
+    "answer": "nickel",
+    "rationale": "The hydrolysis of urea requires the cooperative action of two active site Ni atoms (Figure 10–4).",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Complexation Enhances Solubility & Controls Reactivity of Transition Metal Ions",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which substance is synthesized by cytochrome oxidase?",
+    "options": [
+      "carbon",
+      "copper",
+      "iron",
+      "sulfur",
+      "zinc"
+    ],
+    "answer": "iron",
+    "rationale": "Cytochrome c and myoglobin are small, 12 to 17 kDa, monomeric proteins that contain a single heme iron.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Adjacent Ligands Can Modify Redox Potential",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substrate does superoxide dismutase act on?",
+    "options": [
+      "catalysts",
+      "hypoxanthine",
+      "melanin",
+      "phosphomonoesters",
+      "tricarboxylic acid"
+    ],
+    "answer": "catalysts",
+    "rationale": "Superoxide dismutases (SODs) illustrate how complexation can adapt different transition metals as catalysts for a common chemical reaction.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Adjacent Ligands Can Modify Redox Potential",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substance is transported by hemerythrin in marine invertebrates?",
+    "options": [
+      "carbon",
+      "copper",
+      "iron",
+      "oxygen",
+      "zinc"
+    ],
+    "answer": "oxygen",
+    "rationale": "In marine invertebrates, the iron present in the diiron center of hemerythrin can bind and transport oxygen (Figure 10–5).",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Iron",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Methane is converted into which substance by methane monooxygenase?",
+    "options": [
+      "inorganic",
+      "methanol",
+      "methylene",
+      "mn",
+      "uric acid"
+    ],
+    "answer": "methanol",
+    "rationale": "Methane monooxygenase uses a similar diiron center for the oxidation of methane to methanol. This is a powerful oxidant that participates in the reduction and neutralization of a broad range of xenobiotics.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Roles of Iron in Redox Reactions",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Isocitrate dehydrogenase acts on which substrate in the TCA cycle?",
+    "options": [
+      "catalysts",
+      "melanin",
+      "mn",
+      "phosphomonoesters",
+      "tricarboxylic acid"
+    ],
+    "answer": "tricarboxylic acid",
+    "rationale": "Manganese-containing enzymes include isocitrate dehydrogenase from the tricarboxylic acid (TCA) cycle.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Manganese",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Mn-catalase acts on which substrate in redox reactions?",
+    "options": [
+      "catalysts",
+      "melanin",
+      "mn",
+      "phosphomonoesters",
+      "tricarboxylic acid"
+    ],
+    "answer": "mn",
+    "rationale": "Mn-catalase is also an example of an enzyme using Mn in redox reactions.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Manganese",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Tyrosinase acts on which substrate?",
+    "options": [
+      "catalysts",
+      "melanin",
+      "mn",
+      "phosphomonoesters",
+      "tricarboxylic acid"
+    ],
+    "answer": "melanin",
+    "rationale": "Tyrosinase is the first and rate-limiting step in the synthesis of melanin. Dopamine β-hydroxylase is a member of the type 3 family of copper proteins.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Copper",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Lysyl oxidase converts which substance in collagen or elastin?",
+    "options": [
+      "allysine",
+      "amino acid selenocysteine",
+      "hemocyanin",
+      "hemoglobin",
+      "tetraiodothyronine"
+    ],
+    "answer": "allysine",
+    "rationale": "Lysyl oxidase converts the ε-NH2 groups on some lysine side chains in collagen or elastin to aldehydes.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Copper",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Urease requires which substance as a key component?",
+    "options": [
+      "cobalt",
+      "flavin",
+      "inorganic",
+      "mn",
+      "nickel"
+    ],
+    "answer": "nickel",
+    "rationale": "Nickel is a key component of urease.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Nickel",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Xanthine oxidase acts on which substrate?",
+    "options": [
+      "catalysts",
+      "hypoxanthine",
+      "mn",
+      "phosphomonoesters",
+      "tricarboxylic acid"
+    ],
+    "answer": "hypoxanthine",
+    "rationale": "Xanthine oxidase catalyzes the final two oxidative steps in the pathway by which uric acid is synthesized from purine nucleotides. The oxidation of hypoxanthine to xanthine is one of these steps. The oxidation of xanthine to uric acid is the other step.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Catalytic Roles of Molybdopterin",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Hypoxanthine is converted into which substance?",
+    "options": [
+      "ammonia",
+      "iron",
+      "water",
+      "xanthine",
+      "zinc"
+    ],
+    "answer": "xanthine",
+    "rationale": "The oxidation of hypoxanthine to xanthine is one of these steps. The oxidation of xanthine to uric acid is the other step.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Catalytic Roles of Molybdopterin",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Xanthine is converted into which substance by xanthine oxidase?",
+    "options": [
+      "inorganic",
+      "methanol",
+      "methylene",
+      "mn",
+      "uric acid"
+    ],
+    "answer": "uric acid",
+    "rationale": "The oxidation of xanthine to uric acid is the other step. The bound Mo atom in these enzymes cycles among +4, +5, and +6 valence states.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Catalytic Roles of Molybdopterin",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is required by xanthine oxidase?",
+    "options": [
+      "cobalt",
+      "flavin",
+      "inorganic",
+      "mn",
+      "nickel"
+    ],
+    "answer": "flavin",
+    "rationale": "Xanthine oxidase also contains flavin. Xanthine oxidase catalyzes the final two oxidative steps in the pathway by which uric acid is synthesized from purine nucleotides.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Catalytic Roles of Molybdopterin",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substance is required by molybdopterin?",
+    "options": [
+      "hemocyanin",
+      "hemoglobin",
+      "MOCS2",
+      "sulfite oxidase",
+      "tetraiodothyronine"
+    ],
+    "answer": "MOCS2",
+    "rationale": "MOCS1, MOCS2, or GPNH encode proteins that catalyze key steps in the synthesis of molybdopterin. Sulfite oxidase deficiency is an autosomal inherited inborn error of metabolism.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Iron & Molybdenum Metalloenzymes",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which substrate does duodenal cytochrome b act on?",
+    "options": [
+      "ferric reductase",
+      "hemocyanin",
+      "hemoglobin",
+      "sulfite oxidase",
+      "tetraiodothyronine"
+    ],
+    "answer": "ferric reductase",
+    "rationale": "This reaction is catalyzed by duodenal cytochrome b (Dcytb), a ferric reductase located on the apical membrane surface of enterocytes.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Transition Metals Are Absorbed by Diverse Mechanisms",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which of the following is a recognized cause of anemia?",
+    "options": [
+      "carbon",
+      "copper",
+      "iron",
+      "oxygen",
+      "zn excess"
+    ],
+    "answer": "zn excess",
+    "rationale": "Excess levels of Zn can inhibit Cu absorption, which can lead to a potentially lethal anemia.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Transition Metals Are Absorbed by Diverse Mechanisms",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Cubilin receptors are found within which structure?",
+    "options": [
+      "bones",
+      "cartilage",
+      "intestinal epithelial cells",
+      "mucous membranes",
+      "teeth"
+    ],
+    "answer": "intestinal epithelial cells",
+    "rationale": "The cobalamin-intrinsic factor complex is recognized and internalized by cubilin receptors on the surface of intestinal epithelial cells.",
+    "citation": "chapter_10_the_biochemical_roles_of_transition_metals — The Biochemical Roles of Transition Metals > TOXICITY OF TRANSITION METALS > Transition Metals Are Absorbed by Diverse Mechanisms",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  }
+]

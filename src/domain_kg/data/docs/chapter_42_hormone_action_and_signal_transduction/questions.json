@@ -1,0 +1,209 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is ATP converted into by the action of adenylyl cyclase?",
+    "options": [
+      "AMP",
+      "coregulators",
+      "cyclic nucleotide",
+      "estrogens",
+      "retinoid hormones"
+    ],
+    "answer": "cyclic nucleotide",
+    "rationale": "cAMP is a nucleotide derived from ATP through the action of adenylyl cyclase.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substrate does adenylyl cyclase act on to produce cAMP?",
+    "options": [
+      "coregulators",
+      "cyclic nucleotide",
+      "estrogens",
+      "inositol trisphosphate",
+      "retinoid hormones"
+    ],
+    "answer": "cyclic nucleotide",
+    "rationale": "cAMP is a nucleotide derived from ATP through the action of adenylyl cyclase.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is GTP converted into by the action of guanylyl cyclase?",
+    "options": [
+      "cGMP",
+      "DNA",
+      "extracellular fluid",
+      "glucocorticoid hormones",
+      "thyroid hormones"
+    ],
+    "answer": "cGMP",
+    "rationale": "cGMP is a nucleotide formed from GTP by guanylyl cyclase.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substrate does guanylyl cyclase act on to produce cGMP?",
+    "options": [
+      "acetylate",
+      "DNA",
+      "extracellular fluid",
+      "GTP",
+      "thyroid hormones"
+    ],
+    "answer": "GTP",
+    "rationale": "Cyclic GMP is made from GTP by the enzyme guanylyl cyclase.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS > cGMP Is Also an Intracellular Signal",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substrate does CBP/p300 act on to stimulate transcription factor activity?",
+    "options": [
+      "acetylate",
+      "cGMP",
+      "extracellular fluid",
+      "GTP",
+      "thyroid hormones"
+    ],
+    "answer": "acetylate",
+    "rationale": "CBP/p300 can also acetylate certain transcription factors, thereby stimulating their ability to bind DNA and modulate transcription.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS > Phosphoproteins",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Glycogen synthase kinase-3 acts on which substrate?",
+    "options": [
+      "cell surface receptors",
+      "glucocorticoid receptor",
+      "hsp90",
+      "inhibitor-2",
+      "interleukins"
+    ],
+    "answer": "inhibitor-2",
+    "rationale": "Inhibitor-2 is phosphorylated by glycogen synthase kinase-3. Phosphatases targeting phosphotyrosine are significant in signal transduction.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS > Phosphoprotein Phosphatases",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is transported by insulin in response to hyperglycemia?",
+    "options": [
+      "bloodstream",
+      "DNA",
+      "extracellular fluid",
+      "glucocorticoid hormones",
+      "thyroid hormones"
+    ],
+    "answer": "bloodstream",
+    "rationale": "Insulin is released into the bloodstream from pancreatic β cells in response to hyperglycemia.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS > Insulin Transmits Signals Through Several Kinase Signaling Cascades",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substrate does phosphoinositide-dependent kinase 1 act on in the context of PI3K signaling?",
+    "options": [
+      "coregulators",
+      "cyclic nucleotide",
+      "estrogens",
+      "inositol trisphosphate",
+      "retinoid hormones"
+    ],
+    "answer": "inositol trisphosphate",
+    "rationale": "PI-3 kinase (PI3K) is activated by IR-pY-IRS-pY bound proteins to generate inositol trisphosphate PIP3.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > GROUP II (PEPTIDE & CATECHOLAMINE) HORMONES HAVE MEMBRANE RECEPTORS & USE INTRACELLULAR MESSENGERS > Modulation of Small Molecule Constituents Required for Metabolism and Cell Growth",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "P160 coactivators requires which substance?",
+    "options": [
+      "AF-2 AD-dependent",
+      "cell surface receptors",
+      "glucocorticoid receptor",
+      "hsp90",
+      "interleukins"
+    ],
+    "answer": "AF-2 AD-dependent",
+    "rationale": "The p160 coactivators bind nuclear receptors in an agonist- and AF-2 AD-dependent manner. The p160 coactivators have a conserved amino terminal basic helix-loop-helix (bHLH) motif.",
+    "citation": "chapter_42_hormone_action_and_signal_transduction — Hormone Action & Signal Transduction > HORMONES CAN INFLUENCE SPECIFIC BIOLOGICAL EFFECTS BY MODULATING TRANSCRIPTION > A Large Number of Nuclear Receptor Coregulators Also Participate in Regulating Transcription",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

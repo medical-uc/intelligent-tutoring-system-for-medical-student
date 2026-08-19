@@ -1,0 +1,1244 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In which structure is glycogen found?",
+    "options": [
+      "adipose tissue",
+      "hepatic portal vein",
+      "muscle",
+      "organs",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "The surplus is stored as glycogen (liver and muscle) or as triacylglycerol in adipose tissue.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > BIOMEDICAL IMPORTANCE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "In which structure is triacylglycerol found?",
+    "options": [
+      "adipose tissue",
+      "hepatic portal vein",
+      "muscle",
+      "organs",
+      "tissues"
+    ],
+    "answer": "adipose tissue",
+    "rationale": "The surplus is stored as glycogen (liver and muscle) or as triacylglycerol in adipose tissue.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > BIOMEDICAL IMPORTANCE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is secreted by the liver?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "glucose",
+      "lactate"
+    ],
+    "answer": "glucose",
+    "rationale": "After an overnight fast, the liver is the main source of glucose, producing approximately 9 grams per hour in humans (Figure 14-1).",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is transported by the liver?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "glucose",
+      "lactate"
+    ],
+    "answer": "glucose",
+    "rationale": "Over 60% of the glucose released by the liver, approximately 6 grams per hour, is metabolized by the central nervous system. Over 60% of the glucose released by the liver, approximately 6 grams per hour, is metabolized by red blood cells.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance does the central nervous system require?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "fat limited reserves of fat",
+      "glucose"
+    ],
+    "answer": "glucose",
+    "rationale": "The central nervous system is largely dependent on glucose. Red blood cells are wholly reliant on glucose.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance do erythrocytes require?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "fat limited reserves of fat",
+      "glucose"
+    ],
+    "answer": "glucose",
+    "rationale": "Red blood cells are wholly reliant on glucose. Adipose tissue releases nonesterified fatty acids by hydrolyzing stored triacylglycerol.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is secreted by adipose tissue?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glycogen",
+      "lipids",
+      "nonesterified fatty acids"
+    ],
+    "answer": "nonesterified fatty acids",
+    "rationale": "Adipose tissue releases nonesterified fatty acids by hydrolyzing stored triacylglycerol. Nonesterified fatty acids serve as the primary oxidizable fuel for many tissues, including the heart, muscle, and liver.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is synthesized by the liver?",
+    "options": [
+      "fibrinogen",
+      "glucagon",
+      "glycogenesis",
+      "hexokinase",
+      "thyroxine"
+    ],
+    "answer": "fibrinogen",
+    "rationale": "In the liver, amino acids are substrates for the synthesis of major plasma proteins, such as albumin and fibrinogen.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which substance is stored in the liver?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glycogen",
+      "lipids",
+      "nonesterified fatty acids"
+    ],
+    "answer": "glycogen",
+    "rationale": "The liver stores the majority of glucose carbon as glycogen in the fed state.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substance do peripheral tissues require?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "fat limited reserves of fat",
+      "glucose"
+    ],
+    "answer": "glucose",
+    "rationale": "Dietary glucose not taken up by the liver is utilized by peripheral tissues for oxidation or storage in the fed state.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substance is stored in muscle as a form of glucose storage?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glycogen",
+      "lipids",
+      "triacylglycerol"
+    ],
+    "answer": "glycogen",
+    "rationale": "Glucose is stored in muscle as glycogen in the fed state.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which substance is stored in adipose tissue as a form of glucose storage?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glycogen",
+      "lipids",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "Glucose is stored in adipose tissue as triacylglycerol in the fed state.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > OVERVIEW OF SUBSTRATE METABOLISM IN FASTING & FEASTING",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Lipids are converted into which substances during processing?",
+    "options": [
+      "ATP",
+      "citric acid",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glycerol",
+    "rationale": "Lipids are processed into fatty acids and glycerol.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "In ruminants, dietary cellulose is converted into which substances by symbiotic microorganisms?",
+    "options": [
+      "carbon skeletons",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "short-chain fatty acids",
+    "rationale": "In ruminants, dietary cellulose is fermented by symbiotic microorganisms to short-chain fatty acids, including acetic, propionic, and butyric acids.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Hexokinase acts on which substrate?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glucose-6-phosphate",
+      "glycogen",
+      "triacylglycerol"
+    ],
+    "answer": "glucose-6-phosphate",
+    "rationale": "Glucose is first metabolized to glucose-6-phosphate by hexokinase.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Glucose-6-phosphate is converted into which substance in the glycolytic pathway?",
+    "options": [
+      "carbon skeletons",
+      "fatty acids",
+      "pyruvate",
+      "short-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Glucose-6-phosphate can be metabolized to pyruvate by the pathway of glycolysis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Pyruvate is converted into which substance through carboxylation?",
+    "options": [
+      "fatty acids",
+      "oxaloacetate",
+      "pentose phosphate",
+      "short-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "oxaloacetate",
+    "rationale": "Pyruvate can be carboxylated to oxaloacetate.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which substance is stored in skeletal muscle as a form of glucose storage?",
+    "options": [
+      "carbohydrate",
+      "catabolic",
+      "glycogen",
+      "lipids",
+      "triacylglycerol"
+    ],
+    "answer": "glycogen",
+    "rationale": "Glucose can be stored as a polymer called glycogen in skeletal muscle and liver.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Glucose is converted into which substance?",
+    "options": [
+      "nonesterified fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "pentose phosphate",
+    "rationale": "Glucose can be diverted to the pentose phosphate pathway.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Triose phosphate is converted into which substance in the glycolytic pathway?",
+    "options": [
+      "carbon skeletons",
+      "fatty acids",
+      "pyruvate",
+      "short-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "In the glycolytic pathway, triose phosphate intermediates can give rise to the glycerol moiety of triacylglycerols.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Carbohydrate Metabolism Is Centered on Oxidation & Storage of Glucose",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "What substance is released when triacylglycerol is mobilized in adipose tissue?",
+    "options": [
+      "ATP",
+      "citric acid",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glycerol",
+    "rationale": "Stored triacylglycerol in adipose tissue can be mobilized through lipolysis to release nonesterified fatty acids and glycerol.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Lipid Metabolism Is Concerned Mainly With Fatty Acids & Cholesterol",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "What substance is formed from acetoacetate through nonenzymatic decarboxylation?",
+    "options": [
+      "3-hydroxybutyrate",
+      "fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "3-hydroxybutyrate",
+    "rationale": "The ketone bodies are acetoacetate, 3-hydroxybutyrate, and acetone, with acetone formed nonenzymically by decarboxylation of acetoacetate (Figure 14-3).",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Lipid Metabolism Is Concerned Mainly With Fatty Acids & Cholesterol",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which substance can amino acids be used to synthesize?",
+    "options": [
+      "acetone",
+      "citric acid",
+      "gluconeogenesis",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "gluconeogenesis",
+    "rationale": "Many of the amino acids, arising from the diet or from tissue protein turnover, can be used for gluconeogenesis, as can the glycerol from triacylglycerol.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Carbon skeletons requires which substance?",
+    "options": [
+      "alpha amino nitrogen",
+      "fatty acids",
+      "glycogen",
+      "pentose phosphate",
+      "triacylglycerol"
+    ],
+    "answer": "alpha amino nitrogen",
+    "rationale": "The carbon backbone of an amino acid must have the alpha amino nitrogen removed through deamination if it is to be used for other processes.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Much of Amino Acid Metabolism Involves Transamination",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Carbon skeletons are converted into which substance?",
+    "options": [
+      "fatty acids",
+      "ketone",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "ketone",
+    "rationale": "Additionally, the carbon skeletons can be used to synthesize fatty acids or form ketone bodies.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > PATHWAYS TO PROCESS THE MAJOR PRODUCTS OF OUR DIET > Much of Amino Acid Metabolism Involves Transamination",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Where is glucose absorbed after the digestion of carbohydrates?",
+    "options": [
+      "brain",
+      "endocrine pancreas",
+      "hepatic portal vein",
+      "neural",
+      "organs"
+    ],
+    "answer": "hepatic portal vein",
+    "rationale": "Glucose resulting from the digestion of carbohydrates is absorbed via the hepatic portal vein.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "What substance is nitrogen converted into before being excreted?",
+    "options": [
+      "ATP",
+      "citric acid",
+      "glycerol",
+      "lactate",
+      "urea"
+    ],
+    "answer": "urea",
+    "rationale": "The nitrogen is converted to urea, transported to the kidney, and excreted.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which substance is secreted by intestinal mucosa?",
+    "options": [
+      "amino acids",
+      "chylomicrons",
+      "glucagon",
+      "hexokinase",
+      "insulin"
+    ],
+    "answer": "chylomicrons",
+    "rationale": "Monoacylglycerols and fatty acids are reesterified in the intestinal mucosa and packaged with protein, such as apolipoproteins, and secreted into the lymphatic system as chylomicrons, bypassing the liver.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "What happens to the fatty acids released from chylomicron triacylglycerol by lipoprotein lipase?",
+    "options": [
+      "3-hydroxybutyrate",
+      "carbon skeletons",
+      "pentose phosphate",
+      "pyruvate",
+      "tissue lipids"
+    ],
+    "answer": "tissue lipids",
+    "rationale": "Chylomicron triacylglycerol is first metabolized by tissues that have lipoprotein lipase, which hydrolyzes the triacylglycerol, releasing fatty acids that are incorporated into tissue lipids or oxidized as fuel.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which substance is synthesised by adipose tissue?",
+    "options": [
+      "carbohydrate",
+      "glycogen",
+      "ketone",
+      "lactose",
+      "long-chain fatty acids"
+    ],
+    "answer": "long-chain fatty acids",
+    "rationale": "The other major source of long-chain fatty acids is synthesis from carbohydrate in adipose tissue and the liver through lipogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which substance is transported by fatty acids?",
+    "options": [
+      "bloodstream",
+      "catabolic",
+      "glycogen",
+      "ketone",
+      "serum albumin"
+    ],
+    "answer": "serum albumin",
+    "rationale": "Fatty acids are transported bound to serum albumin. Fatty acids are taken up by most tissues.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which substance is transported by very-low-density lipoprotein (VLDL)?",
+    "options": [
+      "bloodstream",
+      "carbohydrate",
+      "glycogen",
+      "serum albumin",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "Very-low-density lipoprotein (VLDL) is secreted into the circulation. This triacylglycerol undergoes a fate similar to that of chylomicrons. Fatty acids can be partially oxidized in the liver in the fasting setting to form ketone bodies through ketogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "What is a recognized primary fuel for muscle in the fasted state?",
+    "options": [
+      "carbohydrate",
+      "fatty acids",
+      "glycogen",
+      "triacylglycerol",
+      "urine"
+    ],
+    "answer": "fatty acids",
+    "rationale": "Skeletal muscle's primary fuel is fatty acids in the fasted setting.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which substance is synthesised by muscle?",
+    "options": [
+      "albumin",
+      "amino acids",
+      "fibrinogen",
+      "glucagon",
+      "hexokinase"
+    ],
+    "answer": "amino acids",
+    "rationale": "Skeletal muscle synthesizes muscle protein from plasma amino acids.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > METABOLIC PATHWAYS AT THE ORGAN & CELLULAR LEVEL > The Anatomical Location of an Organ & the Blood Circulation Integrates Metabolism",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Phenylalanine is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Phenylalanine, tyrosine, tryptophan, and isoleucine give rise to both acetyl-CoA and intermediates that can be used for gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "Tyrosine is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Phenylalanine, tyrosine, tryptophan, and isoleucine give rise to both acetyl-CoA and intermediates that can be used for gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Tryptophan is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Phenylalanine, tyrosine, tryptophan, and isoleucine give rise to both acetyl-CoA and intermediates that can be used for gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Isoleucine is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "fatty acids",
+      "pentose phosphate",
+      "pyruvate",
+      "short-chain fatty acids"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Phenylalanine, tyrosine, tryptophan, and isoleucine give rise to both acetyl-CoA and intermediates that can be used for gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Amino acids are mobilized from which structure during prolonged fasting?",
+    "options": [
+      "adipose tissue",
+      "hepatic portal vein",
+      "muscle",
+      "organs",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "During prolonged fasting and starvation, amino acids are mobilized from muscle protein to provide substrates for gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "Which substance is synthesized by the mammary gland during lactation?",
+    "options": [
+      "glycogen",
+      "ketone",
+      "lactose",
+      "long-chain fatty acids",
+      "triacylglycerol"
+    ],
+    "answer": "lactose",
+    "rationale": "The mammary gland requires glucose for the synthesis of lactose during lactation.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE > Glucose Is Always Required by the Central Nervous System & Erythrocytes",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which substance is primarily oxidized by the heart for energy?",
+    "options": [
+      "alpha amino nitrogen",
+      "glycogen",
+      "ketone",
+      "pentose phosphate",
+      "triacylglycerol"
+    ],
+    "answer": "ketone",
+    "rationale": "In tissues such as the heart, metabolic fuels are oxidized in the following order of preference: fatty acids, ketone bodies, and glucose (Figure 14–9).",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE > Glucose Is Always Required by the Central Nervous System & Erythrocytes",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "What substance are chylomicrons converted into?",
+    "options": [
+      "amino acids",
+      "insulin",
+      "plasma lipoproteins",
+      "thyroxine",
+      "very-low-density lipoprotein"
+    ],
+    "answer": "plasma lipoproteins",
+    "rationale": "Chylomicrons are the largest plasma lipoproteins.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE > In the Fed State, the Exogenous Metabolic Fuels Are Both Oxidized & Stored",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q043",
+    "stem": "The intestine is part of which anatomical structure?",
+    "options": [
+      "central nervous system",
+      "endocrine",
+      "lymphatic",
+      "portal blood",
+      "sympathetic nervous system"
+    ],
+    "answer": "portal blood",
+    "rationale": "In the fasting state, the decrease in glucose concentration in the portal blood from the small intestine leads to a reduction in insulin secretion.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > MANY METABOLIC FUELS ARE INTERCONVERTIBLE > Metabolic Fuel Reserves Are Mobilized in the Fasting State",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q044",
+    "stem": "Acetyl-CoA is converted into which substance?",
+    "options": [
+      "ATP",
+      "glucose",
+      "glycerol",
+      "lactate",
+      "steroids"
+    ],
+    "answer": "steroids",
+    "rationale": "Acetyl-CoA is the precursor for synthesis of long-chain fatty acids, steroids (including cholesterol), and ketone bodies.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q045",
+    "stem": "Which of the following is a recognized cause of ketosis?",
+    "options": [
+      "alcohol",
+      "ATP",
+      "citric acid",
+      "fat excess",
+      "glycerol"
+    ],
+    "answer": "fat excess",
+    "rationale": "Due to very low carbohydrate intake and high fat oxidation, a mild ketosis develops. Ketone bodies are provided to the brain to support energy requirements not met by glucose.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q046",
+    "stem": "Which of the following is a recognized cause of ketoacidosis?",
+    "options": [
+      "amphibolic",
+      "ewes",
+      "humans",
+      "people",
+      "ruminants"
+    ],
+    "answer": "ewes",
+    "rationale": "In ewes carrying twin pregnancies, it can result in pronounced ketoacidosis and profound hypoglycemia. Ketogenic diets are characterized by low carbohydrate intake (<50 g/day).",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q047",
+    "stem": "Which of the following is a recognized cause of hypoglycemia?",
+    "options": [
+      "amphibolic",
+      "ewes",
+      "humans",
+      "people",
+      "ruminants"
+    ],
+    "answer": "ewes",
+    "rationale": "In ewes carrying twin pregnancies, it can result in pronounced ketoacidosis and profound hypoglycemia. Ketogenic diets are characterized by low carbohydrate intake (<50 g/day).",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q048",
+    "stem": "Blindness can develop as a complication of which condition?",
+    "options": [
+      "diabetes",
+      "hyperglycemia",
+      "nutritional deficiency",
+      "obesity",
+      "oxidize amino acids"
+    ],
+    "answer": "diabetes",
+    "rationale": "Inadequate diabetes management can lead to organ dysfunction, including blindness, renal and cardiovascular diseases.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "complication_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q049",
+    "stem": "Which of the following is a recognized cause of type 2 diabetes?",
+    "options": [
+      "amino acids",
+      "glucagon",
+      "hexokinase",
+      "insulin resistance",
+      "thyroxine"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Type 2 diabetes (T2DM) is due to a combination of insulin resistance and impaired insulin secretion.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q050",
+    "stem": "Diabetic ketoacidosis can develop as a complication of which condition?",
+    "options": [
+      "diabetes",
+      "hyperglycemia",
+      "hypoglycemia",
+      "nutritional deficiency",
+      "obesity"
+    ],
+    "answer": "hyperglycemia",
+    "rationale": "Severe hyperglycemia can progress to diabetic ketoacidosis, a medical emergency. In the absence of adequate insulin, the actions of glucagon are not antagonized, leading to increased gluconeogenesis.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "antonym of the answer",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q051",
+    "stem": "Which of the following is a recognised cause of coma?",
+    "options": [
+      "dehydration",
+      "hyperglycemia",
+      "nutritional deficiency",
+      "obesity",
+      "oxidize amino acids"
+    ],
+    "answer": "dehydration",
+    "rationale": "Coma results from both the acidosis and the increased osmolality of the extracellular fluid and dehydration. Increased osmolality of the extracellular fluid and dehydration are primarily due to hyperglycemia and diuresis from the excretion of glucose and ketone bodies in the urine.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q052",
+    "stem": "Which of the following is a recognised cause of dehydration?",
+    "options": [
+      "carbohydrate",
+      "fatty acids",
+      "glycogen",
+      "triacylglycerol",
+      "urine"
+    ],
+    "answer": "urine",
+    "rationale": "Increased osmolality of the extracellular fluid and dehydration are primarily due to hyperglycemia and diuresis from the excretion of glucose and ketone bodies in the urine.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels > CLINICAL ASPECTS",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q053",
+    "stem": "Which substance is transported by lipids?",
+    "options": [
+      "bloodstream",
+      "carbohydrate",
+      "glycogen",
+      "serum albumin",
+      "triacylglycerol"
+    ],
+    "answer": "bloodstream",
+    "rationale": "Lipids and lipid-soluble products of digestion enter the bloodstream from the lymphatic system, and the liver clears the remnants after extrahepatic tissues have taken up fatty acids.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q054",
+    "stem": "Gluconeogenesis is converted into which substance?",
+    "options": [
+      "acetone",
+      "ATP",
+      "citric acid",
+      "glucose",
+      "lactate"
+    ],
+    "answer": "glucose",
+    "rationale": "As the fast progresses, the contribution of gluconeogenesis is the primary source of glucose carbon.",
+    "citation": "chapter_14_overview_of_metabolism_and_the_provision_of_metabolic_fuels — Overview of Metabolism & the Provision of Metabolic Fuels",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

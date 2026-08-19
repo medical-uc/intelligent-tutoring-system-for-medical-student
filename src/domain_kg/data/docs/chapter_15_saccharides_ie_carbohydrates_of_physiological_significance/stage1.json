@@ -1,0 +1,932 @@
+{
+  "doc_id": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance",
+  "source": {
+    "source_id": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance",
+    "title": "Overview",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Carbohydrates, or saccharides, are polar molecules with structural and metabolic roles, classified as aldehyde or ketone derivatives of polyhydric alcohols, existing in various isomeric forms and forming glycosides.",
+    "page": null,
+    "origin": "chapter_15_saccharides_ie_carbohydrates_of_physiological_significance.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 22:00:08"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Chapter 15 focuses on saccharides, also known as carbohydrates, of physiological significance.\n\nOwen P. McGuinness is the author of this chapter.",
+      "char_start": 659,
+      "char_end": 804,
+      "section_path": [
+        "Overview",
+        "Overview"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Carbohydrates are extremely polar molecules. Carbohydrates are widely distributed in plants and animals. Carbohydrates have important structural and metabolic roles. The word carbohydrate comes from the designation of these molecules as carbon hydrate. All saccharides are not simply composed of C, H, and O. Saccharide is a more inclusive term. Saccharides are also called sugars. The designation of saccharides as sugars focuses on the sweetness of the molecule. The designation of saccharides as sugars misses the many functions of saccharides beyond sweetness.",
+      "char_start": 831,
+      "char_end": 1395,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "In plants, glucose is synthesized from carbon dioxide and water by photosynthesis. In plants, glucose is stored as starch. In plants, glucose is used to synthesize the cellulose of the plant cell walls. Animals can synthesize carbohydrates from amino acids. Most carbohydrates in animals are derived ultimately from plants they ingest. Glucose is the most important carbohydrate. Most dietary carbohydrate is absorbed into the bloodstream as simple sugars (ie, monosaccharide). Glucose is absorbed after the hydrolysis in the intestine of dietary starch and disaccharides. Other simple sugars are absorbed after digestion. Other simple sugars are rapidly converted to glucose in the liver. Glucose is a major metabolic fuel of mammals (except ruminants). Glucose is a universal fuel of the fetus. Glucose is the precursor for synthesis of all the other carbohydrates in the body, including glycogen for storage, ribose and deoxyribose in nucleic acids, galactose for synthesis of lactose in milk, in glycolipids, and in combination with protein in glycoproteins and proteoglycans.\n\nSucrose is the most commonly used carbohydrate in cooking. Sucrose is a naturally sweet molecule. Sucrose carries calories. Sweeteners were developed that are 600-to 20,000-fold sweeter than sucrose. Sweeteners can be used in substantially less amount. Sweeteners give the same sweetness as sucrose. Sweeteners are considered 'calorie free.'",
+      "char_start": 1397,
+      "char_end": 2820,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Diseases associated with carbohydrate metabolism include diabetes mellitus. Diseases associated with carbohydrate metabolism include galactosemia. Diseases associated with carbohydrate metabolism include glycogen storage diseases. Diseases associated with carbohydrate metabolism include fructose intolerance. Diseases associated with carbohydrate metabolism include lactose intolerance.\n\nGlycobiology is the study of the roles of saccharides in health and disease. The glycome is the entire complement of saccharides of an organism, whether free or in more complex molecules. Glycomics is the comprehensive study of glycomes, including genetic aspects. Glycomics is the comprehensive study of glycomes, including physiological aspects. Glycomics is the comprehensive study of glycomes, including pathological aspects. Glycomics is the comprehensive study of glycomes, including other aspects.",
+      "char_start": 2822,
+      "char_end": 3715,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "A very large number of glycoside links can be formed between saccharides. As a class, glycoside links can have more complexity than nucleotides, proteins, or peptides. Saccharides are the most abundant biomolecules due to their reactivity and structural plasticity. Three different saccharides, such as hexoses, may be linked to each other to form over 1000 different trisaccharides. The conformations of sugars in oligosaccharide chains vary depending on their linkages and proximity to other molecules. Oligosaccharide chains encode biological information that depends on their constituent sugars, sequences, and linkages.",
+      "char_start": 3717,
+      "char_end": 4341,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Carbohydrates are classified into monosaccharides, disaccharides, oligosaccharides, and polysaccharides. Monosaccharides are sugars that cannot be hydrolyzed into simpler saccharides. Monosaccharides are classified as trioses, tetroses, pentoses, hexoses, or heptoses based on the number of carbon atoms, ranging from 3 to 7. If the carbonyl group is a terminal aldehyde, the monosaccharide is an aldose. If the carbonyl group is not terminal, it is a ketone, and the monosaccharide is a ketose. For trioses, the possible monosaccharides are glyceraldehyde and dihydroxyacetone. Sugar alcohols, or polyols, are polyhydric alcohols that occur naturally in foods. Sugar alcohols are synthesized by reducing monosaccharides. Sugar alcohols are used in foods for weight reduction and for diabetics. Sugar alcohols are poorly absorbed and have about half the energy yield of sugars. The biggest side effect of sugar alcohols is flatulence due to fermentation by intestinal bacteria.",
+      "char_start": 4416,
+      "char_end": 5393,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "saccharides-are-aldehyde-or-ketone-derivatives-of"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Disaccharides are condensation products of two monosaccharide units. Examples of disaccharides include lactose, maltose, isomaltose, sucrose, and trehalose. Oligosaccharides are condensation products of 3 to 10 monosaccharides. Most oligosaccharides are not digested by human enzymes. Polysaccharides are condensation products of more than 10 monosaccharide units. Starches and dextrans are examples of polysaccharides. Polysaccharides can be linear or branched polymers. Polysaccharides are sometimes classified as hexosans or pentosans based on the constituent monosaccharides, which are hexoses or pentoses, respectively. Nonstarch polysaccharides are not digested by human enzymes. Nonstarch polysaccharides are a major component of dietary fiber. Cellulose, a glucose polymer, is an example of a nonstarch polysaccharide found in foods. Inulin, a fructose polymer, is an example of a nonstarch polysaccharide found in foods.",
+      "char_start": 5395,
+      "char_end": 6324,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "saccharides-are-aldehyde-or-ketone-derivatives-of"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The straight-chain structural formula of glucose, an aldohexose, accounts for some of its properties (Figure 15-1A). A cyclic structure of glucose, formed by a hemiacetal reaction between the aldehyde group and a hydroxyl group, is thermodynamically favored and explains other properties. The cyclic structure of glucose is typically depicted as a Haworth projection (Figure 15-1B), where the molecule is viewed from the side and above the plane of the ring. In the Haworth projection, bonds nearest to the viewer are bold and thickened, and hydroxyl groups are positioned above or below the plane of the ring. Hydrogen atoms attached to each carbon are not shown in the Haworth projection. The glucose ring is actually in the form of a chair (Figure 15-1C).",
+      "char_start": 6388,
+      "char_end": 7146,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "The Structure of Glucose Can Be Represented in Three Ways"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-1"
+      ],
+      "table_refs": [],
+      "section_id": "the-structure-of-glucose-can-be-represented-in-three-ways"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Glucose has four asymmetric carbon atoms. Glucose can form 16 isomers. D- and L-isomerism in glucose is determined by the spatial relationship to glycerose, a three-carbon sugar. The D and L forms of glucose are differentiated by the orientation of the —H and —OH groups around carbon 5. When the —OH group is on the right, the sugar is the D-isomer. When the —OH group is on the left, the sugar is the L-isomer. Most naturally occurring monosaccharides are D sugars. The enzymes that metabolize monosaccharides are specific for the D configuration (Figure 15–2).",
+      "char_start": 7325,
+      "char_end": 7888,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Monosaccharides Exhibit Various Forms of Isomerism"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-2"
+      ],
+      "table_refs": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The presence of asymmetric carbon atoms in glucose confers optical activity on the compound. When plane-polarized light passes through a solution of an optical isomer, it can rotate either to the right, dextrorotatory (+), or to the left, levorotatory (−). The direction of rotation is independent of the sugar's stereochemistry. The naturally occurring form of fructose is the D(−) isomer. The nomenclature d- and l- for dextrorotatory and levorotatory, respectively, is obsolete but may be encountered. In solution, glucose is dextrorotatory. Glucose solutions are sometimes known as dextrose.\n\nMonosaccharides like glucose can form pyranose ring structures. Monosaccharides like glucose can form furanose ring structures. Pyranose structures are similar to the rings of pyran, a six-membered ring. Furanose structures are similar to the rings of furan, a five-membered ring. In solution, more than 99% of glucose is in the pyranose form (Figure 15-3).",
+      "char_start": 8200,
+      "char_end": 9154,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Monosaccharides Exhibit Various Forms of Isomerism"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-3"
+      ],
+      "table_refs": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "The ring structure of an aldose, such as glucose, is a hemiacetal. The hemiacetal structure is formed by the reaction between an aldehyde and an alcohol group.\n\nEpimers are isomers that differ in the configuration of the —OH and —H groups on carbon atoms 2, 3, and 4 of glucose. Mannose is an epimer of glucose at carbon 2. Galactose is an epimer of glucose at carbon 4. Mannose and galactose are biologically important (Figure 15–4).",
+      "char_start": 9461,
+      "char_end": 9895,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Monosaccharides Exhibit Various Forms of Isomerism"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-4"
+      ],
+      "table_refs": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Aldose-ketose isomerism exists between sugars like glucose and fructose. Glucose has a potential aldehyde group at position 1. Fructose has a potential keto group at position 2. Aldoses are chemically reducing compounds. Aldoses provide a basis for testing glucose in urine (Figure 15-5).",
+      "char_start": 9937,
+      "char_end": 10225,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Monosaccharides Exhibit Various Forms of Isomerism"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-5"
+      ],
+      "table_refs": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Derivatives of trioses, tetroses, and pentoses, as well as the seven-carbon sugar sedoheptulose, are formed as metabolic intermediates in glycolysis. Pentoses are important in nucleotides, nucleic acids, and several coenzymes (Table 15–1). Glucose, galactose, fructose, and mannose are the physiologically important hexoses (Table 15–2).",
+      "char_start": 10365,
+      "char_end": 10702,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Many Monosaccharides Are Physiologically Important"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-15-1",
+        "tbl-15-2"
+      ],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "D-Ribose is a sugar found in nucleic acids and metabolic intermediate.\nD-Ribose is a structural component of nucleic acids and coenzymes, including ATP, NAD(P), and flavin coenzymes.\nD-Ribulose is a sugar that is a metabolic intermediate.\nD-Ribulose is an intermediate in the pentose phosphate pathway.\nD-Arabinose is a sugar found in plant gums.\nD-Arabinose is a constituent of glycoproteins.\nD-Xylose is a sugar found in plant gums, proteoglycans, glycosaminoglycans.\nD-Xylose is a constituent of glycoproteins.\nL-Xylulose is a sugar that is a metabolic intermediate.\nL-Xylulose is excreted in the urine in essential pentosuria.",
+      "char_start": 10742,
+      "char_end": 11372,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Many Monosaccharides Are Physiologically Important"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "D-Glucose is found in fruit juices, hydrolysis of starch, cane or beet sugar, maltose, and lactose. D-Glucose is the main metabolic fuel for tissues and is known as 'blood sugar'. In poorly controlled diabetes mellitus, D-glucose is excreted in the urine as glucosuria due to hyperglycemia.\n\nD-Fructose is sourced from fruit juices, honey, hydrolysis of cane or beet sugar and inulin, and enzymic isomerization of glucose syrups for food manufacture. D-Fructose is rapidly metabolized by the liver. Hereditary fructose intolerance leads to the accumulation of fructose metabolites, impairing glucose production and inducing hypoglycemia.",
+      "char_start": 11374,
+      "char_end": 12011,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Many Monosaccharides Are Physiologically Important"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "D-Galactose is obtained from the hydrolysis of lactose. D-Galactose is readily metabolized to glucose and is synthesized in the mammary gland for lactose synthesis in milk. It is also a constituent of glycolipids and glycoproteins. Hereditary galactosemia, resulting from the failure to metabolize galactose, leads to cataracts.\n\nD-Mannose is derived from the hydrolysis of plant mannan gums. D-Mannose is a constituent of glycoproteins.\n\nCarboxylic acid derivatives of glucose are important, including D-glucuronate, which is used for glucuronide formation and in glycosaminoglycans. L-iduronate, a metabolic derivative of D-glucuronate, is found in glycosaminoglycans (Figure 15–6). L-gulonate is an intermediate in the uronic acid pathway (see Figure 20–4).",
+      "char_start": 12030,
+      "char_end": 12790,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Many Monosaccharides Are Physiologically Important"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-6"
+      ],
+      "table_refs": [],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Glycosides are formed by condensation between the hydroxyl group of the anomeric carbon of a monosaccharide and a second compound. The second compound may be another monosaccharide, known as a glycone, or a nonsaccharide group, known as an aglycone. If the second group is also a hydroxyl, the O-glycosidic bond is an acetal link. The O-glycosidic bond results from a reaction between a hemiacetal group and another —OH group. If the hemiacetal portion is glucose, the resulting compound is a glucoside. If the hemiacetal portion is galactose, the resulting compound is a galactoside. If the second group is an amine, an N-glycosidic bond is formed. An example of an N-glycosidic bond is between adenine and ribose in nucleotides such as ATP.\n\nGlycosides are widely distributed in nature. The aglycone in glycosides may be methanol, glycerol, a sterol, a phenol, or a base such as adenine. Cardiac glycosides are important in medicine due to their action on the heart. Cardiac glycosides contain steroids as the aglycone. Digitalis and strophanthus derivatives, such as ouabain, are examples of cardiac glycosides. Other glycosides include antibiotics such as streptomycin.",
+      "char_start": 12933,
+      "char_end": 14106,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Saccharides Form Glycosides With Other Compounds & With Each Other"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "saccharides-form-glycosides-with-other-compounds-with-each"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Deoxy sugars are those in which one hydroxyl group has been replaced by hydrogen. An example of a deoxy sugar is deoxyribose (Figure 15–7), which is found in DNA. Another example is the deoxy sugar L-fucose, which occurs in glycoproteins (see Figure 15–13).",
+      "char_start": 14145,
+      "char_end": 14402,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Deoxy Sugars Lack an Oxygen Atom"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-13",
+        "fig-15-7"
+      ],
+      "table_refs": [],
+      "section_id": "deoxy-sugars-lack-an-oxygen-atom"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Tumors have very high rates of glucose uptake. 2-deoxyglucose is phosphorylated by hexokinase and cannot be further metabolized, leading to its accumulation. The accumulation of 2-deoxyglucose is detected using positron emission tomography.",
+      "char_start": 14538,
+      "char_end": 14778,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Deoxy Sugars Lack an Oxygen Atom"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "deoxy-sugars-lack-an-oxygen-atom"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "D-glucosamine is an amino sugar and a constituent of hyaluronic acid (Figure 15–8). D-galactosamine, also known as chondrosamine, is an amino sugar and a constituent of chondroitin. D-mannosamine is another amino sugar. Glucosamine is 2-amino-D-glucopyranose, and galactosamine is 2-amino-D-galactopyranose. Both glucosamine and galactosamine occur as N-acetyl derivatives in complex carbohydrates, such as glycoproteins. Some antibiotics, such as erythromycin, contain amino sugars, which are crucial for their antibiotic activity.",
+      "char_start": 14879,
+      "char_end": 15411,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Amino Sugars (Hexosamines) Are Components of Glycoproteins, Gangliosides, & Glycosaminoglycans"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-15-8"
+      ],
+      "table_refs": [],
+      "section_id": "amino-sugars-hexosamines-are-components-of-glycoproteins"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Disaccharides are sugars composed of two monosaccharide residues linked by a glycoside bond (Figure 15--9).",
+      "char_start": 15704,
+      "char_end": 15811,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Maltose, Sucrose, & Lactose Are Important Disaccharides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "The physiologically important disaccharides are maltose, sucrose, and lactose (Table 15--3).",
+      "char_start": 15886,
+      "char_end": 15978,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Maltose, Sucrose, & Lactose Are Important Disaccharides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Hydrolysis of sucrose yields a mixture of glucose and fructose called 'invert sugar'.\n\nFructose is strongly levorotatory and changes (inverts) the weaker dextrorotatory action of sucrose.",
+      "char_start": 16089,
+      "char_end": 16276,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Maltose, Sucrose, & Lactose Are Important Disaccharides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Sucrose is composed of glucosyl-fructose.\n\nLactose is composed of galactosyl-glucose.\n\nMaltose is composed of glucosyl-glucose.",
+      "char_start": 16420,
+      "char_end": 16547,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Maltose, Sucrose, & Lactose Are Important Disaccharides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Sucrose has the composition O-α-D-glucopyranosyl-(1→2)-β-D-fructofuranoside.\nSucrose is found in cane and beet sugar, sorghum, and some fruits and vegetables.\nA rare genetic lack of sucrase leads to sucrose intolerance, causing diarrhea and flatulence.\nLactose has the composition O-β-D-galactopyranosyl-(1→4)-β-D-glucopyranose.\nLactose is found in milk and many pharmaceutical preparations as a filler.\nLack of lactase, known as alactasia, leads to lactose intolerance, causing diarrhea and flatulence; lactose may also be excreted in the urine during pregnancy.\nMaltose has the composition O-α-D-glucopyranosyl-(1→4)-α-D-glucopyranose.\nMaltose is derived from the enzymic hydrolysis of starch by amylase and is found in germinating cereals and malt.\nIsomaltose has the composition O-α-D-glucopyranosyl-(1→6)-α-D-glucopyranose.\nIsomaltose is derived from the enzymic hydrolysis of starch at the branch points in amylopectin.\nLactulose has the composition O-α-D-galactopyranosyl-(1→4)-β-D-fructofuranose.\nLactulose is found in heated milk in small amounts and is mainly synthetic.\nLactulose is not hydrolyzed by intestinal enzymes but is fermented by intestinal bacteria, making it useful as a mild osmotic laxative.\nTrehalose has the composition O-α-D-glucopyranosyl-(1→1)-α-D-glucopyranoside.\nTrehalose is found in yeasts and fungi and is the main sugar in insect hemolymph.",
+      "char_start": 16592,
+      "char_end": 17968,
+      "section_path": [
+        "Overview",
+        "SACCHARIDES ARE ALDEHYDE OR KETONE DERIVATIVES OF POLYHYDRIC ALCOHOLS",
+        "Maltose, Sucrose, & Lactose Are Important Disaccharides"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Polysaccharides are physiologically important carbohydrates that can serve structural or mechanical protection. Polysaccharides are physiologically important carbohydrates that can serve energy storage. Polysaccharides are physiologically important carbohydrates that can serve water binding to resist dehydration. Starch is the most important dietary carbohydrate in cereals, potatoes, legumes, and other vegetables. Starch consists of two main constituents: amylose and amylopectin. Amylose is 13-20% of the composition and has a nonbranching helical structure. Amylopectin is 80-87% of the composition and consists of branched chains.",
+      "char_start": 18026,
+      "char_end": 18663,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "The extent to which starch in foods is hydrolyzed by amylase is influenced by its structure. The extent to which starch in foods is hydrolyzed by amylase is influenced by the degree of crystallization or hydration. The extent to which starch in foods is hydrolyzed by amylase is influenced by whether it is enclosed in intact plant cell walls. Individuals with diabetes or prediabetes are advised to eat complex carbohydrates that do not rapidly increase glucose levels upon ingestion. The glycemic index of a starchy food reflects how much it raises blood glucose concentration compared to an equivalent amount of glucose or a reference food like white bread or boiled rice. The glycemic index ranges from 1 (or 100%) for starches that are readily hydrolyzed in the small intestine to 0 for those that are not hydrolyzed at all. An important factor in determining the glycemic index is the digestibility of the starch.",
+      "char_start": 18665,
+      "char_end": 19584,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Glycogen is the energy storage polysaccharide in animals. Glycogen is sometimes referred to as animal starch. Glycogen is more highly branched than amylopectin. Muscle glycogen granules are spherical. Muscle glycogen granules can contain up to 60,000 glucose residues. Glycogen can be readily mobilized by the liver to support the glucose needs of peripheral tissues.\n\nInulin is a polysaccharide of fructose, known as a fructosan, found in the tubers and roots of dahlias, artichokes, and dandelions. Inulin is not hydrolyzed by intestinal enzymes and thus has no nutritional value. Inulin is used clinically to assess kidney function by measuring its excretion rate, which reflects the glomerular filtration rate. Dextrins are intermediates in the hydrolysis of starch. Cellulose is the chief constituent of plant cell walls. Microorganisms in the gut of ruminants and other herbivores can hydrolyze these bonds and ferment the products into short-chain fatty acids, which can impact metabolic health in at-risk individuals such as those with diabetes, obesity, or irritable bowel disease. By manipulating the microbial composition using prebiotics, one can shift the microbial population and possibly improve metabolic health. There is some bacterial metabolism of cellulose in the human colon. Chitin is a structural polysaccharide found in the exoskeleton of crustaceans and insects, as well as in mushrooms.",
+      "char_start": 20409,
+      "char_end": 21821,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Glycosaminoglycans, also known as mucopolysaccharides, are complex carbohydrates containing amino sugars and uronic acids. Glycosaminoglycans may be attached to a protein molecule to form a proteoglycan. Proteoglycans provide the ground or packing substance of connective tissue. Proteoglycans hold large quantities of water due to the large number of —OH groups and negative charges on the molecule, which keep the carbohydrate chains apart. Proteoglycans serve to cushion or lubricate structures such as connective tissue in joints and cartilage. Examples of glycosaminoglycans include hyaluronic acid and chondroitin sulfate. Heparin is an important anticoagulant (Figure 15--12).",
+      "char_start": 21904,
+      "char_end": 22587,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Glycoproteins, also known as mucoproteins, are proteins containing branched or unbranched oligosaccharide chains. Glycoproteins occur in cell membranes. Many proteins are glycosylated. Sialic acids are N- or O-acyl derivatives of neuraminic acid. Sialic acids are constituents of glycoproteins. Sialic acids are constituents of gangliosides. Neuraminic acid is a nine-carbon sugar derived from mannosamine and pyruvate. Sialic acids are components of glycoproteins and gangliosides (Figure 15--13).",
+      "char_start": 22676,
+      "char_end": 23174,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Proteins can undergo glycation, which is the nonenzymatic addition of a saccharide, such as glucose, to a protein. Glycation increases as glucose levels increase. Hemoglobin A1c, a glycated form of hemoglobin, increases in individuals with diabetes. Hemoglobin A1c is used for the diagnosis and monitoring of glucose management in diabetes.",
+      "char_start": 23276,
+      "char_end": 23616,
+      "section_path": [
+        "Overview",
+        "POLYSACCHARIDES SERVE STORAGE & STRUCTURAL FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Carbohydrates make up about 5% of the weight of cell membranes as part of glycoproteins and glycolipids. The carbohydrates are located on the outer surface of the plasma membrane, forming the glycocalyx. The glycocalyx can transduce signals from outside the cell by interacting with specific glycosyl residues. Glycophorin is a major integral membrane glycoprotein in human erythrocytes. Glycophorin has 130 amino acid residues and spans the lipid membrane. Glycophorin has polypeptide regions on both the external and internal (cytoplasmic) surfaces. Carbohydrate chains are attached to the amino terminal portion of glycophorin outside the external surface. In the vascular endothelium, selectins are specific carbohydrate-binding proteins. Selectins recognize and bind specific carbohydrate residues. E-selectin and P-selectin function in vascular adhesion. Selectins also play a role in thrombosis and cytokine signalling. Carbohydrates are present in apolipoprotein B of plasma lipoproteins. ABO blood groups are defined by different immunogenic molecules on erythrocytes. ABO blood group antigens are oligosaccharide chains attached to proteins. Polymorphisms in the enzyme ABO glycosyltransferase determine the single saccharide placed in the oligosaccharide chain. Blood group A expresses A-transferase, which places N-acetylgalactosamine. Blood group B expresses B-transferase, which places galactose. Individuals with blood type O have a mutation that produces an inactive ABO glycosyltransferase. In blood type O, no oligosaccharide is added to the protein. Adding oligosaccharides to cell surface proteins makes them antigens. Individuals with blood type O do not have this modification and are universal blood donors.",
+      "char_start": 23677,
+      "char_end": 25407,
+      "section_path": [
+        "Overview",
+        "CARBOHYDRATES OCCUR IN CELL MEMBRANES & IN LIPOPROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "carbohydrates-occur-in-cell-membranes-in-lipoproteins"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The glycome is the entire complement of sugars of an organism, whether free or present in more complex molecules. Glycomics is the study of glycomes, including genetic, physiological, pathological, and other aspects.\nCarbohydrates are major constituents of animal food and animal tissues. They are characterized by the type and number of monosaccharide residues in their molecules.\nGlucose is the most important carbohydrate in mammalian biochemistry because nearly all carbohydrate in food is converted to glucose for metabolism.\nSaccharides have large numbers of stereoisomers because they contain several asymmetric carbon atoms.\nThe physiologically important monosaccharides include glucose, the “blood sugar,” and ribose, an important constituent of nucleotides and nucleic acids.\nThe important disaccharides include maltose (glucosyl-glucose), an intermediate in the digestion of starch; sucrose (glucosyl-fructose), important as a dietary constituent containing fructose; and lactose (galactosyl-glucose), in milk.\nStarch and glycogen are storage polymers of glucose in plants and animals, respectively. Starch is the major metabolic fuel in the diet.\nComplex carbohydrates contain other sugar derivatives such as amino sugars, uronic acids, and sialic acids. They include proteoglycans and glycosaminoglycans, which are associated with structural elements of the tissues, and glycoproteins, which are proteins containing oligosaccharide chains; they are found in many situations including the cell membrane.\nOligosaccharide chains encode biological information, depending on their constituent sugars and their sequence and linkages.",
+      "char_start": 25409,
+      "char_end": 27049,
+      "section_path": [
+        "Overview"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-15-1",
+      "image_path": "",
+      "caption": "D-Glucose. (A) Straight-chain form. (B) α-D-glucose; Haworth projection. (C) α-D-glucose; chair form.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-15-1]",
+      "description": "",
+      "label": "Figure 15-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7167,
+        7268
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-structure-of-glucose-can-be-represented-in-three-ways"
+    },
+    {
+      "fig_id": "fig-15-2",
+      "image_path": "",
+      "caption": "D- and L-isomerism of glycerose and glucose. ![](images/1f1b0ef06d42ffb3c390b194c521a2acb39a0320a48641762972ff07cc4a2524.jpg) Source: P. J. Kennelly., K. M. Botham, O. P. McGuinness, P. A. Weil: Harper's Illustrated Biochemistry, 33 rd Edition Copyright © McGraw Hill. All rights reserved.",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-15-2]",
+      "description": "",
+      "label": "Figure 15-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7909,
+        8198
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "fig_id": "fig-15-3",
+      "image_path": "",
+      "caption": "Pyranose and furanose forms of glucose. ![](images/4fa0fdcd24451fb55f4801cb1d4492f40a6c140f68a9b498c8535908d75a3050.jpg) Source: P. J. Kennelly., K. M. Botham, O. P. McGuinness, P. A. Weil: Harper's Illustrated Biochemistry, 33 rd Edition Copyright © McGraw Hill. All rights reserved.",
+      "referenced_from": "c010",
+      "marker": "[FIGURE:fig-15-3]",
+      "description": "",
+      "label": "Figure 15-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9175,
+        9459
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "fig_id": "fig-15-4",
+      "image_path": "images/d1efda5624beb64f68126d97e3c90a0d2ee42e5d7993108d9bcd43de00f9ac39.jpg",
+      "caption": "Epimers of glucose.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-15-4]",
+      "description": "",
+      "label": "Figure 15-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9916,
+        9935
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "fig_id": "fig-15-5",
+      "image_path": "images/25544bba70731b79323305ac62188ad61e1fe8e9f39f3005905f3d20c6ac207d.jpg",
+      "caption": "Examples of aldoses and ketoses of physiological significance.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-15-5]",
+      "description": "",
+      "label": "Figure 15-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10246,
+        10308
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "monosaccharides-exhibit-various-forms-of-isomerism"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/e70851ff35d58d5a0afaea7ef199bb6eb73114788caa8b82d5f0b28c633a071c.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "fig_id": "fig-15-6",
+      "image_path": "images/097d37d554252084f889797b0c44f13696a7c44933cf1848d7f93f864f13d7b2.jpg",
+      "caption": "α-D-Glucuronate (left) and β-L-iduronate (right).",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-15-6]",
+      "description": "",
+      "label": "Figure 15-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12811,
+        12860
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "fig_id": "fig-15-7",
+      "image_path": "",
+      "caption": "2-Deoxy-D-ribofuranose (β-form). ![](images/41f2e139080fea1c8f5bae892bf558d338189494e540b4242c8a97fb00cb5ea1.jpg)",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-15-7]",
+      "description": "",
+      "label": "Figure 15-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14423,
+        14536
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "deoxy-sugars-lack-an-oxygen-atom"
+    },
+    {
+      "fig_id": "fig-15-8",
+      "image_path": "images/fd45fce84a00c23f4f5e7d40d92c4ac17ed77cde5a74abf19802497aa0a5046f.jpg",
+      "caption": "Glucosamine (2-amino-D-glucopyranose) (α-form). Galactosamine is 2-amino-D-galactopyranose. Both glucosamine and galactosamine occur as N-acetyl derivatives in complex carbohydrates, for example, glycoproteins.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-15-8]",
+      "description": "",
+      "label": "Figure 15-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15432,
+        15642
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-sugars-hexosamines-are-components-of-glycoproteins"
+    },
+    {
+      "fig_id": "fig-15-9",
+      "image_path": "images/925e034b1189e5cb4a7d725fd8a4315504d2824add99549dfd8cd22518405729.jpg",
+      "caption": "Structures of nutritionally important disaccharides.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-15-9]",
+      "description": "",
+      "label": "Figure 15-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15832,
+        15884
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "fig_id": "fig-x11",
+      "image_path": "images/b06026576e5d2ab40da7e8f468c93c1d7e1852848553ac2c01ab14ba5320a92e.jpg",
+      "caption": "Two identical glycoside molecular structures featuring hydroxyl and methoxy substituents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x11]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15998,
+        16087
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "fig_id": "fig-x12",
+      "image_path": "images/2a18d7fc104ecf2aeee812e252c1b70550c85841a1ef91029c47ed5109006e87.jpg",
+      "caption": "Two identical glucose-like molecular structures, each featuring multiple hydroxyl groups and a glucose ring, are depicted.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x12]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        16296,
+        16418
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    },
+    {
+      "fig_id": "fig-15-10",
+      "image_path": "images/9edae4c1d60677fe126a356a840d57b090acc24881b287001cee3178a7bee471.jpg",
+      "caption": "The structure of starch and glycogen. Amylose is a linear polymer of glucose residues linked α1arrow4 , which coils into a helix. Amylopectin and glycogen consist of short chains of glucose residues linked α1arrow4 with branch points formed by α1arrow6 glycoside bonds. The glycogen molecule is a sphere 21 nm in diameter that can be seen in electron micrographs. It has a molecular mass of 107 Da and consists of polysaccharide chains, each containing about 13 glucose residues. The chains are either branched or unbranched and are arranged in 12 concentric layers. The branched chains (each has two branches) are found in the inner layers and the unbranched chains in the outermost layer. The blue dot at the center of the glycogen molecule is glycogenin, the primer molecule for glycogen synthesis.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-15-10]",
+      "description": "",
+      "label": "Figure 15-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19606,
+        20407
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "fig_id": "fig-15-11",
+      "image_path": "images/051df14447412167ffcf8e5521103d4c16fda2a5c56e872429b450a318b66a46.jpg",
+      "caption": "The structures of some important nonstarch polysaccharides.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-15-11]",
+      "description": "",
+      "label": "Figure 15-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        21843,
+        21902
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "fig_id": "fig-15-12",
+      "image_path": "images/09b7d0cbcff04d0c4bf75a330ea9db0f5d0612bbe7b6cc3d5e06cdf2f474c3a8.jpg",
+      "caption": "Structure of some complex polysaccharides and glycosaminoglycans.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-15-12]",
+      "description": "",
+      "label": "Figure 15-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        22609,
+        22674
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    },
+    {
+      "fig_id": "fig-15-13",
+      "image_path": "images/0eaefc7ec4120dfe45366cd54436c96b7a3c61d07b87ef9701f34f25724ec407.jpg",
+      "caption": "β-L-Fucose (6-deoxy-β-L-galactose) and N-acetylneuraminic acid, a sialic acid.",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-15-13]",
+      "description": "",
+      "label": "Figure 15-13",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23196,
+        23274
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "polysaccharides-serve-storage-structural-functions"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-15-1",
+      "label": "Table 15-1",
+      "caption": "Pentoses of Physiological Importance",
+      "referenced_from": "c013",
+      "content_chunk": "c014",
+      "caption_span": [
+        10704,
+        10740
+      ],
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "table_id": "tbl-15-2",
+      "label": "Table 15-2",
+      "caption": "",
+      "referenced_from": "c013",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "many-monosaccharides-are-physiologically-important"
+    },
+    {
+      "table_id": "tbl-15-3",
+      "label": "Table 15-3",
+      "caption": "Disaccharides of Physiological Importance",
+      "referenced_from": "",
+      "content_chunk": "c025",
+      "caption_span": [
+        16549,
+        16590
+      ],
+      "section_id": "maltose-sucrose-lactose-are-important-disaccharides"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain what is meant by the glycome, glycobiology, and the science of glycomics.\nExplain what is meant by the terms monosaccharide, disaccharide, oligosaccharide, and polysaccharide.\nExplain the different ways in which the structures of glucose and other monosaccharides can be represented, and describe the various types of isomerism of sugars and the pyranose and furanose ring structures.\nDescribe the formation of glycosides and the structures of the important disaccharides and polysaccharides.\nExplain what is meant by the glycemic index of a carbohydrate.\nDescribe the roles of saccharides in cell membranes and lipoproteins.",
+      "char_start": 12,
+      "char_end": 645,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Varki A, Kornfeld S: Historical background and overview. In Essentials of Glycobiology, 4th ed. Varki A, Cummings RD, Esko JD, et al (editors). Cold Spring Harbor Laboratory Press, 2022.",
+      "char_start": 27051,
+      "char_end": 27237,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-15-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-15-2",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-15-3",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_15_saccharides_ie_carbohydrates_of_physiological_significance.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_15_saccharides_ie_carbohydrates_of_physiological_significance/chapter_15_saccharides_ie_carbohydrates_of_physiological_significance.normalized.md"
+}

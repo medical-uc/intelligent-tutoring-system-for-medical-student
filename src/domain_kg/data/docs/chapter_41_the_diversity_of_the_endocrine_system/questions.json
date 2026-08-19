@@ -1,0 +1,1267 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substrate does the insulin receptor act on?",
+    "options": [
+      "angiotensinogen",
+      "catecholamine hormone receptors",
+      "disulfide",
+      "ECF",
+      "retinoid hormone receptors"
+    ],
+    "answer": "disulfide",
+    "rationale": "The insulin receptor subunits are linked by multiple disulfide bonds.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > THE TARGET CELL CONCEPT > Receptors Are Proteins",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is secreted by the pituitary gland?",
+    "options": [
+      "angiotensin II",
+      "calcitonin",
+      "hormone-receptor",
+      "insulin",
+      "thyroid-stimulating hormone"
+    ],
+    "answer": "thyroid-stimulating hormone",
+    "rationale": "The pituitary gland produces thyroid-stimulating hormone [TSH], follicle-stimulating hormone [FSH], luteinizing hormone [LH], growth hormone [GH], PRL, and adrenocorticotropic hormone [ACTH].",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Synthesized in a Variety of Cellular Arrangements",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is secreted by the ovaries?",
+    "options": [
+      "androstenedione",
+      "catecholamines",
+      "dehydroepiandrosterone",
+      "progesterone",
+      "testosterone"
+    ],
+    "answer": "progesterone",
+    "rationale": "The ovaries produce mature oocytes and the reproductive hormones estradiol and progesterone. The testes produce mature spermatozoa and testosterone.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Synthesized in a Variety of Cellular Arrangements",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is secreted by the testes?",
+    "options": [
+      "androstenedione",
+      "dehydroepiandrosterone",
+      "estradiol",
+      "progesterone",
+      "testosterone"
+    ],
+    "answer": "testosterone",
+    "rationale": "The testes produce mature spermatozoa and testosterone.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Synthesized in a Variety of Cellular Arrangements",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is secreted by the thyroid gland?",
+    "options": [
+      "calcitonin",
+      "follicle-stimulating hormone",
+      "GH",
+      "luteinizing hormone",
+      "prolactin"
+    ],
+    "answer": "calcitonin",
+    "rationale": "The thyroid produces calcitonin. The kidney produces angiotensin II.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Synthesized in a Variety of Cellular Arrangements",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance is secreted by the kidney?",
+    "options": [
+      "angiotensin II",
+      "follicle-stimulating hormone",
+      "GH",
+      "luteinizing hormone",
+      "thyroid-stimulating hormone"
+    ],
+    "answer": "angiotensin II",
+    "rationale": "The kidney produces angiotensin II.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Synthesized in a Variety of Cellular Arrangements",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What substance is progesterone converted into?",
+    "options": [
+      "17-ketosteroids inactive or less active",
+      "cholesterol",
+      "di",
+      "glucocorticoid hormones",
+      "mevalonate"
+    ],
+    "answer": "glucocorticoid hormones",
+    "rationale": "Progesterone is a precursor in the formation of glucocorticoids, mineralocorticoids, testosterone, and estrogens.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Chemically Diverse",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What substance is testosterone converted into?",
+    "options": [
+      "18-hydroxycorticosterone",
+      "aldosterone",
+      "androgens",
+      "dihydrotestosterone",
+      "squalene"
+    ],
+    "answer": "dihydrotestosterone",
+    "rationale": "Testosterone is an obligatory intermediate in the formation of dihydrotestosterone (DHT).",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Hormones Are Chemically Diverse",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What substance is plasma converted into?",
+    "options": [
+      "17-ketosteroids inactive or less active",
+      "cholesterol",
+      "di",
+      "glucocorticoid hormones",
+      "mevalonate"
+    ],
+    "answer": "cholesterol",
+    "rationale": "The adrenal steroid hormones are synthesized from cholesterol, which is mostly derived from the plasma.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What substance is acetyl-CoA converted into?",
+    "options": [
+      "17-ketosteroids inactive or less active",
+      "cholesterol",
+      "di",
+      "glucocorticoid hormones",
+      "mevalonate"
+    ],
+    "answer": "mevalonate",
+    "rationale": "A small portion of cholesterol is synthesized in situ from acetyl-CoA via mevalonate and squalene.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Mevalonate is converted into which substance?",
+    "options": [
+      "18-hydroxycorticosterone",
+      "dihydrotestosterone",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "squalene",
+    "rationale": "A small portion of cholesterol is synthesized in situ from acetyl-CoA via mevalonate and squalene.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Cholesterol is found within which structure?",
+    "options": [
+      "adrenal",
+      "liver",
+      "placenta",
+      "prostate, external genitalia",
+      "zona glomerulosa cells"
+    ],
+    "answer": "adrenal",
+    "rationale": "Much of the cholesterol in the adrenal is esterified and stored in cytoplasmic lipid droplets.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substance is stored in cytoplasmic lipid droplets?",
+    "options": [
+      "DNA",
+      "esterified",
+      "extracellular fluid",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "esterified",
+    "rationale": "Much of the cholesterol in the adrenal is esterified and stored in cytoplasmic lipid droplets.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "stores",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "P450scc acts on which substrate?",
+    "options": [
+      "25-hydroxylation",
+      "cholesterol",
+      "extracellular fluid",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "cholesterol",
+    "rationale": "A cytochrome P450 side chain cleavage enzyme (P450scc) converts cholesterol to pregnenolone in the mitochondrion.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Cholesterol is converted into which substance?",
+    "options": [
+      "18-hydroxycorticosterone",
+      "dihydrotestosterone",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "pregnenolone",
+    "rationale": "A cytochrome P450 side chain cleavage enzyme (P450scc) converts cholesterol to pregnenolone in the mitochondrion.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Hydroxylases require which substance?",
+    "options": [
+      "DNA",
+      "extracellular fluid",
+      "NADPH",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "NADPH",
+    "rationale": "Hydroxylases that require molecular oxygen and NADPH are essential for steroid hormone formation.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "18-hydroxylase is found within which structure?",
+    "options": [
+      "adrenal",
+      "adrenal medulla",
+      "placenta",
+      "prostate, external genitalia",
+      "zona glomerulosa cells"
+    ],
+    "answer": "zona glomerulosa cells",
+    "rationale": "18-hydroxylase is found only in the zona glomerulosa cells.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Adrenal Steroidogenesis",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "18-hydroxylase acts on which substrate?",
+    "options": [
+      "androstenedione",
+      "corticosterone",
+      "epinephrine",
+      "norepinephrine",
+      "testosterone"
+    ],
+    "answer": "corticosterone",
+    "rationale": "The 18-hydroxylase (aldosterone synthase) acts on corticosterone to form 18-hydroxycorticosterone. 18-hydroxycorticosterone is changed to aldosterone by conversion of the 18-alcohol to an aldehyde.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Mineralocorticoid Synthesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Corticosterone is converted into which substance?",
+    "options": [
+      "18-hydroxycorticosterone",
+      "dihydrotestosterone",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "18-hydroxycorticosterone",
+    "rationale": "The 18-hydroxylase (aldosterone synthase) acts on corticosterone to form 18-hydroxycorticosterone. 18-hydroxycorticosterone is changed to aldosterone by conversion of the 18-alcohol to an aldehyde.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Mineralocorticoid Synthesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "18-hydroxycorticosterone is converted into which substance?",
+    "options": [
+      "aldosterone",
+      "dihydrotestosterone",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "aldosterone",
+    "rationale": "18-hydroxycorticosterone is changed to aldosterone by conversion of the 18-alcohol to an aldehyde.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Mineralocorticoid Synthesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Fasciculata is part of which structure?",
+    "options": [
+      "adrenal cortex",
+      "human fetuses",
+      "nervous",
+      "organs",
+      "tissues"
+    ],
+    "answer": "adrenal cortex",
+    "rationale": "Cortisol synthesis requires three hydroxylases located in the fasciculata and reticularis zones of the adrenal cortex.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Glucocorticoid Synthesis",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Reticularis zones are part of which structure?",
+    "options": [
+      "adrenal cortex",
+      "human fetuses",
+      "nervous",
+      "organs",
+      "tissues"
+    ],
+    "answer": "adrenal cortex",
+    "rationale": "Cortisol synthesis requires three hydroxylases located in the fasciculata and reticularis zones of the adrenal cortex.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Glucocorticoid Synthesis",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which substance is secreted by the adrenal cortex?",
+    "options": [
+      "androstenedione",
+      "dehydroepiandrosterone",
+      "estradiol",
+      "progesterone",
+      "testosterone"
+    ],
+    "answer": "dehydroepiandrosterone",
+    "rationale": "The major androgen or androgen precursor produced by the adrenal cortex is dehydroepiandrosterone (DHEA). Most 17-hydroxypregnenolone follows the glucocorticoid pathway.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Androgen Synthesis",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Estrogens are converted into which substance?",
+    "options": [
+      "androgens",
+      "dihydrotestosterone",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "androgens",
+    "rationale": "Estrogens are formed by the aromatization of androgens in a complex process that involves three hydroxylation steps.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Ovarian Steroidogenesis",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Aromatase acts on which substrate?",
+    "options": [
+      "androstenedione",
+      "corticosterone",
+      "epinephrine",
+      "norepinephrine",
+      "octapeptide"
+    ],
+    "answer": "androstenedione",
+    "rationale": "Granulosa cells convert androstenedione to estrone using the aromatase enzyme.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Ovarian Steroidogenesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which substance is secreted by theca cells?",
+    "options": [
+      "catecholamines",
+      "dehydroepiandrosterone",
+      "estradiol",
+      "progesterone",
+      "testosterone"
+    ],
+    "answer": "testosterone",
+    "rationale": "Theca cells are the source of androstenedione and testosterone.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Ovarian Steroidogenesis",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which substance is secreted by corpus luteum cells?",
+    "options": [
+      "androstenedione",
+      "dehydroepiandrosterone",
+      "estradiol",
+      "progesterone",
+      "testosterone"
+    ],
+    "answer": "progesterone",
+    "rationale": "The corpus luteum produces and secretes progesterone as an end-product hormone.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Ovarian Steroidogenesis",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Cytochrome P450 reductase acts on which substrate?",
+    "options": [
+      "25-hydroxylation",
+      "cholesterol",
+      "extracellular fluid",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "25-hydroxylation",
+    "rationale": "Two enzymes are involved in 25-hydroxylation: an NADPH-dependent cytochrome P450 reductase and a cytochrome P450.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Liver",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Cytochrome P450 acts on which substrate?",
+    "options": [
+      "25-hydroxylation",
+      "cholesterol",
+      "extracellular fluid",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "25-hydroxylation",
+    "rationale": "Two enzymes are involved in 25-hydroxylation: an NADPH-dependent cytochrome P450 reductase and a cytochrome P450.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Liver",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Chromaffin cells are found within which structure?",
+    "options": [
+      "adrenal medulla",
+      "liver",
+      "peripheral",
+      "placenta",
+      "prostate, external genitalia"
+    ],
+    "answer": "adrenal medulla",
+    "rationale": "Dopamine, norepinephrine, and epinephrine are synthesized from tyrosine in the chromaffin cells of the adrenal medulla.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Catecholamines Are Synthesized in Final Form & Stored in Secretion Granules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "In which structure is epinephrine found?",
+    "options": [
+      "adrenal medulla",
+      "liver",
+      "placenta",
+      "prostate, external genitalia",
+      "zona glomerulosa cells"
+    ],
+    "answer": "adrenal medulla",
+    "rationale": "Epinephrine and norepinephrine may be produced and stored in different cells in the adrenal medulla.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Catecholamines Are Synthesized in Final Form & Stored in Secretion Granules",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "What substance is norepinephrine converted into?",
+    "options": [
+      "dihydrotestosterone",
+      "epinephrine",
+      "estradiol",
+      "pregnenolone",
+      "squalene"
+    ],
+    "answer": "epinephrine",
+    "rationale": "The conversion of tyrosine to epinephrine requires four sequential steps: ring hydroxylation, decarboxylation, side chain hydroxylation to form norepinephrine, and N-methylation to form epinephrine.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Catecholamines Are Synthesized in Final Form & Stored in Secretion Granules",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "What substance is tyrosine converted into?",
+    "options": [
+      "insulin",
+      "l-dopa",
+      "parathyroid hormone",
+      "PTH1-34",
+      "PTH37"
+    ],
+    "answer": "l-dopa",
+    "rationale": "Tyrosine hydroxylase converts L-tyrosine to L-dihydroxyphenylalanine (L-dopa).",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Catecholamines Are Synthesized in Final Form & Stored in Secretion Granules",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "What substance does dopa decarboxylase require?",
+    "options": [
+      "catecholamines",
+      "hydrogen peroxide",
+      "iodine",
+      "pyridoxal phosphate",
+      "steroid"
+    ],
+    "answer": "pyridoxal phosphate",
+    "rationale": "Dopa decarboxylase is a soluble enzyme that requires pyridoxal phosphate for the conversion of L-dopa to 3,4-dihydroxyphenylethylamine (dopamine).",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Dopa Decarboxylase Is Present in All Tissues",
+    "relation": "requires",
+    "confidence": 0.95,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "What substrate does PNMT act on?",
+    "options": [
+      "androstenedione",
+      "corticosterone",
+      "epinephrine",
+      "octapeptide",
+      "testosterone"
+    ],
+    "answer": "epinephrine",
+    "rationale": "Phenylethanolamine-N-Methyltransferase (PNMT) catalyzes the N-methylation of norepinephrine to form epinephrine.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Phenylethanolamine-N-Methyltransferase (PNMT) Catalyzes the Production of Epinephrine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "What substance does triiodothyronine require?",
+    "options": [
+      "catecholamines",
+      "hydrogen peroxide",
+      "iodine",
+      "pyridoxal phosphate",
+      "steroid"
+    ],
+    "answer": "iodine",
+    "rationale": "Triiodothyronine and tetraiodothyronine require iodine for bioactivity.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > T3 & T4 Illustrate the Diversity in Hormone Synthesis",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "What substance does tetraiodothyronine require?",
+    "options": [
+      "catecholamines",
+      "hydrogen peroxide",
+      "iodine",
+      "pyridoxal phosphate",
+      "steroid"
+    ],
+    "answer": "iodine",
+    "rationale": "Triiodothyronine and tetraiodothyronine require iodine for bioactivity.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > T3 & T4 Illustrate the Diversity in Hormone Synthesis",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "What substance is synthesized by triiodothyronine?",
+    "options": [
+      "catecholamine hormone receptors",
+      "ECF",
+      "hormone-receptor",
+      "tetraiodothyronine",
+      "thyroglobulin"
+    ],
+    "answer": "thyroglobulin",
+    "rationale": "Triiodothyronine and tetraiodothyronine are synthesized as part of a very large precursor molecule called thyroglobulin.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > T3 & T4 Illustrate the Diversity in Hormone Synthesis",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "What substance is synthesized by tetraiodothyronine?",
+    "options": [
+      "catecholamine hormone receptors",
+      "ECF",
+      "hormone-receptor",
+      "retinoid hormone receptors",
+      "thyroglobulin"
+    ],
+    "answer": "thyroglobulin",
+    "rationale": "Triiodothyronine and tetraiodothyronine are synthesized as part of a very large precursor molecule called thyroglobulin.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > T3 & T4 Illustrate the Diversity in Hormone Synthesis",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "What substance is synthesized by the thyroid?",
+    "options": [
+      "catecholamine hormone receptors",
+      "ECF",
+      "hormone-receptor",
+      "tetraiodothyronine",
+      "thyroglobulin"
+    ],
+    "answer": "tetraiodothyronine",
+    "rationale": "The thyroid must synthesize thyronine from tyrosine.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > T3 & T4 Illustrate the Diversity in Hormone Synthesis",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which substance is required by peroxidase as an oxidizing agent?",
+    "options": [
+      "catecholamines",
+      "hydrogen peroxide",
+      "iodine",
+      "pyridoxal phosphate",
+      "steroid"
+    ],
+    "answer": "hydrogen peroxide",
+    "rationale": "Thyroperoxidase requires hydrogen peroxide (H2O2) as an oxidizing agent. H2O2 is produced by an NADPH-dependent enzyme resembling cytochrome c reductase.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Iodide Metabolism Involves Several Discrete Steps",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Proinsulin is converted into which substance?",
+    "options": [
+      "amino acids",
+      "insulin",
+      "l-dopa",
+      "PTH1-34",
+      "PTH37"
+    ],
+    "answer": "insulin",
+    "rationale": "Formation of the critical disulfide bridges in insulin requires that this hormone be first synthesized as part of a larger precursor molecule, proinsulin.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Several Hormones Are Made From Larger Peptide Precursors",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q043",
+    "stem": "Proinsulin requires which substance?",
+    "options": [
+      "catecholamine hormone receptors",
+      "disulfide",
+      "ECF",
+      "hormone-receptor",
+      "retinoid hormone receptors"
+    ],
+    "answer": "disulfide",
+    "rationale": "The removal of the leader sequence results in the 9000-MW proinsulin molecule, which provides the conformation necessary for the proper and efficient formation of the disulfide bridges.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Insulin Is Synthesized as a Preprohormone & Modified Within the β Cell",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q044",
+    "stem": "PTH1-34 is converted into which substance?",
+    "options": [
+      "17-ketosteroids inactive or less active",
+      "cholesterol",
+      "di",
+      "glucocorticoid hormones",
+      "mevalonate"
+    ],
+    "answer": "di",
+    "rationale": "PTH1-36 is rapidly and progressively cleaved into di- and tripeptides.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > PTH Is Secreted as an 84-Amino-Acid Peptide",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q045",
+    "stem": "Parathyroid hormone is found within which structure?",
+    "options": [
+      "adrenal",
+      "liver",
+      "placenta",
+      "prostate, external genitalia",
+      "zona glomerulosa cells"
+    ],
+    "answer": "liver",
+    "rationale": "PTH is also proteolytically degraded in other tissues, especially the liver, by similar mechanisms.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > PTH Is Secreted as an 84-Amino-Acid Peptide",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q046",
+    "stem": "Angiotensin II acts on which substrate?",
+    "options": [
+      "androstenedione",
+      "corticosterone",
+      "norepinephrine",
+      "octapeptide",
+      "testosterone"
+    ],
+    "answer": "octapeptide",
+    "rationale": "Angiotensin II is an octapeptide involved in these processes.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Angiotensin II Is Also Synthesized From a Large Precursor",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q047",
+    "stem": "Renin acts on which substrate to produce angiotensin I?",
+    "options": [
+      "angiotensinogen",
+      "catecholamine hormone receptors",
+      "disulfide",
+      "ECF",
+      "hormone-receptor"
+    ],
+    "answer": "angiotensinogen",
+    "rationale": "Renin acts on angiotensinogen to produce the decapeptide angiotensin I.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Angiotensin II Is Also Synthesized From a Large Precursor",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q048",
+    "stem": "Pro-opiomelanocortin is converted into which substance?",
+    "options": [
+      "amino acids",
+      "insulin",
+      "l-dopa",
+      "PTH1-34",
+      "PTH37"
+    ],
+    "answer": "amino acids",
+    "rationale": "POMC is synthesized as a pre-proprecursor molecule of 267 amino acids.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Complex Processing Generates the Pro-Opiomelanocortin (POMC) Peptide Family",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q049",
+    "stem": "The pituitary is part of which structure?",
+    "options": [
+      "adrenal cortex",
+      "human fetuses",
+      "nervous",
+      "organs",
+      "thyroid"
+    ],
+    "answer": "human fetuses",
+    "rationale": "The intermediate lobe of the pituitary is active in human fetuses.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > HORMONES CAN BE CLASSIFIED IN SEVERAL WAYS > Complex Processing Generates the Pro-Opiomelanocortin (POMC) Peptide Family",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q050",
+    "stem": "Which substance is stored in chromaffin cells?",
+    "options": [
+      "AMP",
+      "cAMP",
+      "catecholamines",
+      "retinoids",
+      "steroid"
+    ],
+    "answer": "catecholamines",
+    "rationale": "Catecholamines are stored in granules in the chromaffin cells in the adrenal medulla. Catecholamines are released into the circulation through exocytosis in response to neural stimulation.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > THERE IS SIGNIFICANT VARIATION IN THE STORAGE & SECRETION OF HORMONES",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q051",
+    "stem": "ProPTH is converted into which substance?",
+    "options": [
+      "insulin",
+      "l-dopa",
+      "parathyroid hormone",
+      "PTH1-34",
+      "PTH37"
+    ],
+    "answer": "parathyroid hormone",
+    "rationale": "Up to 80 to 90% of proPTH synthesized is degraded before entering the final storage compartment. A several-hour supply of PTH is stored in the parathyroid cells.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > THERE IS SIGNIFICANT VARIATION IN THE STORAGE & SECRETION OF HORMONES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q052",
+    "stem": "Which substance is secreted by the human pancreas?",
+    "options": [
+      "follicle-stimulating hormone",
+      "GH",
+      "insulin",
+      "luteinizing hormone",
+      "thyroid-stimulating hormone"
+    ],
+    "answer": "insulin",
+    "rationale": "The human pancreas secretes about 40 to 50 units of insulin daily. Insulin and C-peptide are secreted in equimolar amounts.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > THERE IS SIGNIFICANT VARIATION IN THE STORAGE & SECRETION OF HORMONES",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q053",
+    "stem": "Insulin is converted into which substance?",
+    "options": [
+      "amino acids",
+      "c-peptide",
+      "l-dopa",
+      "PTH1-34",
+      "PTH37"
+    ],
+    "answer": "c-peptide",
+    "rationale": "Insulin and C-peptide are secreted in equimolar amounts. Glucose provokes insulin secretion.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > THERE IS SIGNIFICANT VARIATION IN THE STORAGE & SECRETION OF HORMONES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q054",
+    "stem": "Which substance is transported by TBG?",
+    "options": [
+      "DNA",
+      "extracellular fluid",
+      "glucocorticoid hormones",
+      "plasma",
+      "thyroid hormones"
+    ],
+    "answer": "thyroid hormones",
+    "rationale": "TBG is a glycoprotein with a molecular mass of 50 kDa. The small, unbound (free) fraction of thyroid hormones is responsible for the biological activity. TBG does not bind any other hormones.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System > SOME HORMONES HAVE PLASMA TRANSPORT PROTEINS > Thyroid Hormones Are Transported by Thyroid-Binding Globulin",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q055",
+    "stem": "Amino acids are converted into which substance?",
+    "options": [
+      "insulin",
+      "l-dopa",
+      "PTH1-34",
+      "PTH37",
+      "tyrosine"
+    ],
+    "answer": "tyrosine",
+    "rationale": "Hormones are synthesized from a number of precursor molecules, including cholesterol, tyrosine per se, and all the constituent amino acids of peptides and proteins.",
+    "citation": "chapter_41_the_diversity_of_the_endocrine_system — The Diversity of the Endocrine System",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

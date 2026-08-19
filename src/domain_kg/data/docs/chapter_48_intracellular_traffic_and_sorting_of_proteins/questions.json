@@ -1,0 +1,462 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In which structure are secretory vesicles particularly prominent?",
+    "options": [
+      "cisternae",
+      "lumen",
+      "pancreas",
+      "rer Branch",
+      "trans-Golgi network"
+    ],
+    "answer": "pancreas",
+    "rationale": "Secretory vesicles are particularly prominent in the pancreas and certain other glands.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > SIGNAL SEQUENCES TARGET MANY PROTEINS TO THEIR DESTINATIONS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is transported by nuclear pore complexes (NPCs)?",
+    "options": [
+      "macromolecules",
+      "mannose 6-phosphate",
+      "mannose-6-phosphate",
+      "oligosaccharide chains",
+      "retrograde"
+    ],
+    "answer": "macromolecules",
+    "rationale": "More than a million macromolecules per minute are transported between the nucleus and the cytoplasm in an active eukaryotic cell. These macromolecules include histones, ribosomal proteins and ribosomal subunits, transcription factors, and mRNA molecules. The transport is bidirectional and occurs through the nuclear pore complexes (NPCs). NPCs are complex structures with a mass approximately 15 times that of a ribosome.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE CYTOSOLIC SORTING BRANCH DIRECTS PROTEINS TO SUBCELLULAR ORGANELLES > Transport of Macromolecules in & out of the Nucleus Involves Localization Signals",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "What is the product of the action of GTPase-accelerating protein (GAP) on Ran-GTP?",
+    "options": [
+      "ADP-chaperone",
+      "mannose 6-phosphate",
+      "mannose-6-phosphate",
+      "Ran-GTP",
+      "retrograde"
+    ],
+    "answer": "Ran-GTP",
+    "rationale": "In the cytoplasm, the action of GTPase-accelerating protein (GAP) converts Ran-GTP to Ran-GDP. This process frees importin and enables it to bind to another cargo protein.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE CYTOSOLIC SORTING BRANCH DIRECTS PROTEINS TO SUBCELLULAR ORGANELLES > Transport of Macromolecules in & out of the Nucleus Involves Localization Signals",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is transported by exportins?",
+    "options": [
+      "macromolecules",
+      "mannose 6-phosphate",
+      "mannose-6-phosphate",
+      "oligosaccharide chains",
+      "retrograde"
+    ],
+    "answer": "macromolecules",
+    "rationale": "Proteins similar to importins, referred to as exportins, are involved in the export of many macromolecules from the nucleus.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE CYTOSOLIC SORTING BRANCH DIRECTS PROTEINS TO SUBCELLULAR ORGANELLES > Transport of Macromolecules in & out of the Nucleus Involves Localization Signals",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "In which structure is the fully translocated polypeptide/protein released?",
+    "options": [
+      "cisternae",
+      "glands",
+      "lumen",
+      "pancreas",
+      "rer Branch"
+    ],
+    "answer": "lumen",
+    "rationale": "In Step 5, cleavage of the signal peptide by signal peptidase occurs, and the fully translocated polypeptide/protein is released into the lumen of the ER.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE ROUGH ER BRANCH DIRECTS PROTEINS TO THE ER PRIOR TO FURTHER SORTING > Translocation of Proteins to the Endoplasmic Reticulum Lumen May Be Cotranslational or Posttranslational",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What is ATP converted into during the interaction with BiP and Sec62/63?",
+    "options": [
+      "ADP-chaperone",
+      "mannose 6-phosphate",
+      "mannose-6-phosphate",
+      "Ran-GTP",
+      "retrograde"
+    ],
+    "answer": "ADP-chaperone",
+    "rationale": "ATP bound to BiP interacts with Sec62/63, ATP is hydrolyzed to ADP providing energy to move the protein forwards, while the bound BiP-ADP prevents its moving backward into the cytosol.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE ROUGH ER BRANCH DIRECTS PROTEINS TO THE ER PRIOR TO FURTHER SORTING > Translocation of Proteins to the Endoplasmic Reticulum Lumen May Be Cotranslational or Posttranslational",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is transported by COPI vesicles?",
+    "options": [
+      "amino acids",
+      "histones",
+      "hsp70",
+      "KDEL-containing",
+      "proteasomes"
+    ],
+    "answer": "KDEL-containing",
+    "rationale": "KDEL-containing proteins travel to the Golgi apparatus (GA) in vesicles coated with coat protein II (COPII). The process of KDEL-containing proteins traveling to the Golgi apparatus (GA) in vesicles coated with coat protein II (COPII) is known as anterograde vesicular transport.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > PROTEINS ARE INSERTED INTO OR ATTACHED TO THE MEMBRANES OF THE ENDOPLASMIC RETICULUM BY SEVERAL ROUTES > Other Routes Include Retention in the GA With Retrieval to the ER & Also Retrograde Transport From the GA",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What is the role of P97 in the process of protein extraction from the membrane?",
+    "options": [
+      "albumin",
+      "amino acids",
+      "ATPases",
+      "COPI",
+      "hsp70"
+    ],
+    "answer": "ATPases",
+    "rationale": "Misfolded proteins are then pulled from the membrane by P97, an ATPase.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > MISFOLDED PROTEINS UNDERGO ENDOPLASMIC RETICULUM-ASSOCIATED DEGRADATION",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What is required for the ubiquitin-mediated pathway of protein disposal?",
+    "options": [
+      "amino terminal leader",
+      "ATP",
+      "cytosolic chaperones",
+      "GA",
+      "hydrophobic"
+    ],
+    "answer": "ATP",
+    "rationale": "The major pathway involves ubiquitin and is ATP-dependent. The ubiquitin pathway is associated with the disposal of misfolded proteins.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > MISFOLDED PROTEINS UNDERGO ENDOPLASMIC RETICULUM-ASSOCIATED DEGRADATION > Ubiquitin Is a Key Molecule in Protein Degradation",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substance is transported by ubiquitin?",
+    "options": [
+      "amino acids",
+      "COPI",
+      "histones",
+      "KDEL-containing",
+      "proteasomes"
+    ],
+    "answer": "proteasomes",
+    "rationale": "Ubiquitin tags various proteins for degradation in proteasomes. The mechanism of attachment of ubiquitin to a target protein is described in detail in Chapter 28.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > MISFOLDED PROTEINS UNDERGO ENDOPLASMIC RETICULUM-ASSOCIATED DEGRADATION > Ubiquitin Is a Key Molecule in Protein Degradation",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which condition is associated with ubiquitin?",
+    "options": [
+      "NPC",
+      "poisoning",
+      "PTS",
+      "shock",
+      "viral infections"
+    ],
+    "answer": "viral infections",
+    "rationale": "Ubiquitin is involved in viral infections. Ubiquitin is a small protein consisting of 76 amino acids.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > MISFOLDED PROTEINS UNDERGO ENDOPLASMIC RETICULUM-ASSOCIATED DEGRADATION > Ubiquitin Is a Key Molecule in Protein Degradation",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognised cause of cystic fibrosis?",
+    "options": [
+      "alzheimer's disease",
+      "CFTR",
+      "NPC",
+      "PTS",
+      "shock"
+    ],
+    "answer": "CFTR",
+    "rationale": "The protein involved in the causation of cystic fibrosis is CFTR. Details about CFTR are discussed in Chapter 40.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > MISFOLDED PROTEINS UNDERGO ENDOPLASMIC RETICULUM-ASSOCIATED DEGRADATION > Ubiquitin Is a Key Molecule in Protein Degradation",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of poisoning?",
+    "options": [
+      "amino acids",
+      "ATPases",
+      "botulinum B toxin",
+      "COPI",
+      "cytosolic chaperones"
+    ],
+    "answer": "botulinum B toxin",
+    "rationale": "Botulinum B toxin is the most serious cause of food poisoning.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Factors Involved in the Formation of Non-Clathrin-Coated Vesicles & Their Transport",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which condition is associated with botulinum B toxin?",
+    "options": [
+      "NPC",
+      "poisoning",
+      "PTS",
+      "shock",
+      "viral infections"
+    ],
+    "answer": "poisoning",
+    "rationale": "Botulinum B toxin is the most serious cause of food poisoning.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Factors Involved in the Formation of Non-Clathrin-Coated Vesicles & Their Transport",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "What is the substrate that V acts on?",
+    "options": [
+      "amino acids",
+      "COPI",
+      "hsp70",
+      "proalbumin",
+      "t-SNAREs"
+    ],
+    "answer": "t-SNAREs",
+    "rationale": "In order to dissociate the four-helix bundle between the v- and t-SNARES so that they can be reused, two additional proteins are required.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Factors Involved in the Formation of Non-Clathrin-Coated Vesicles & Their Transport",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which substance is synthesised by hepatocytes?",
+    "options": [
+      "albumin",
+      "amino acids",
+      "ATPases",
+      "COPI",
+      "hsp70"
+    ],
+    "answer": "albumin",
+    "rationale": "Albumin is synthesized by hepatocytes as preproalbumin. The signal peptide is removed from preproalbumin as it moves into the ER, converting it to proalbumin.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Proteins Undergo Further Processing While Inside Vesicles",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "What is the substance that proalbumin is converted into?",
+    "options": [
+      "albumin",
+      "amino acids",
+      "ATPases",
+      "COPI",
+      "hsp70"
+    ],
+    "answer": "albumin",
+    "rationale": "Proalbumin, while inside secretory vesicles, is converted to albumin by the action of furin (Figure 48-11).",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Proteins Undergo Further Processing While Inside Vesicles",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "What is the substrate that furin acts on?",
+    "options": [
+      "amino acids",
+      "COPI",
+      "hsp70",
+      "proalbumin",
+      "t-SNAREs"
+    ],
+    "answer": "proalbumin",
+    "rationale": "Proalbumin, while inside secretory vesicles, is converted to albumin by the action of furin (Figure 48-11).",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > TRANSPORT VESICLES ARE KEY PLAYERS IN INTRACELLULAR PROTEIN TRAFFIC > Some Proteins Undergo Further Processing While Inside Vesicles",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which of the following is a recognised cause of neurodegenerative disorders?",
+    "options": [
+      "alzheimer's disease",
+      "CFTR",
+      "NPC",
+      "PTS",
+      "shock"
+    ],
+    "answer": "alzheimer's disease",
+    "rationale": "Mutations affecting intracellular transport to organelles include those linked to neurodegenerative disorders such as Alzheimer's disease, Huntington's disease, and Parkinson's disease.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE ASSEMBLY OF MEMBRANES IS COMPLEX > Various Disorders Result From Mutations in Genes Encoding Proteins Involved in Intracellular Transport",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognised cause of cancer?",
+    "options": [
+      "amino acids",
+      "ATPases",
+      "botulinum B toxin",
+      "COPI",
+      "hsp70"
+    ],
+    "answer": "hsp70",
+    "rationale": "Some proteins processed by Hsp90 are involved in cancer development.",
+    "citation": "chapter_48_intracellular_traffic_and_sorting_of_proteins — Intracellular Traffic & Sorting of Proteins > THE ASSEMBLY OF MEMBRANES IS COMPLEX > Various Disorders Result From Mutations in Genes Encoding Proteins Involved in Intracellular Transport",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

@@ -117,4 +117,4 @@ cython_debug/
 
 # Project-specific
 output/
-data/
+/data/

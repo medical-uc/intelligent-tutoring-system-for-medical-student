@@ -29,7 +29,7 @@ Usage:
     restore_streak(driver, student_id)  # spend energy to bridge a 1-day gap
 """
 
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta
 
 from neo4j import Driver
 
@@ -149,6 +149,13 @@ def restore_streak(driver: Driver, student_id: str) -> dict | None:
     if record is None:
         return None
     return {"restored_date": yesterday, "energy_balance": record["energy_balance"]}
+
+
+def activity_dates(driver: Driver, student_id: str) -> list[date]:
+    """Every distinct UTC calendar day the student has activity on (quiz session started,
+    flashcard review logged, or streak-restored), ascending — full history for a calendar
+    heatmap view, unlike week_activity()'s single-week bool row."""
+    return sorted(_active_days(driver, student_id))
 
 
 def week_activity(driver: Driver, student_id: str) -> list[bool]:

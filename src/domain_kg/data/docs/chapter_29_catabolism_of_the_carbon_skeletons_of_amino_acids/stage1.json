@@ -1,0 +1,1516 @@
+{
+  "doc_id": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids",
+  "source": {
+    "source_id": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids",
+    "title": "Catabolism of the Carbon Skeletons of Amino Acids",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the catabolism of amino acid carbon skeletons and related metabolic disorders.",
+    "page": null,
+    "origin": "chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 03:15:19"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Chapter 28 addresses the metabolic fates of the resulting hydrocarbon skeletons of each of the protein amino acids. Chapter 28 addresses the enzymes and intermediates involved in the metabolic fates of the protein amino acids. Chapter 28 addresses several associated metabolic diseases or “inborn errors of metabolism.”\n\nMost disorders of amino acid catabolism are comparatively rare. If left untreated, disorders of amino acid catabolism can result in irreversible brain damage and early mortality. Prenatal or early postnatal detection of metabolic disorders is essential. Timely initiation of treatment for metabolic disorders is essential. The ability to detect the activities of enzymes in cultured amniotic fluid cells facilitates prenatal diagnosis by amniocentesis. In the United States, all states conduct screening tests of newborns for up to 40 metabolic diseases. Screening tests for metabolic diseases include disorders associated with defects in the catabolism of amino acids. The most reliable screening tests use tandem mass spectrometry to detect catabolites suggestive of a given metabolic defect in a few drops of neonate blood. Screening tests for metabolic diseases implicate the absence or lowered activity of one or more specific enzymes.",
+      "char_start": 1275,
+      "char_end": 2536,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Mutations of a gene can result in the failure to synthesize the encoded enzyme. Mutations of associated regulatory regions of DNA can result in the failure to synthesize the encoded enzyme. Mutations of a gene can result in the synthesis of a partially nonfunctional enzyme. Mutations of associated regulatory regions of DNA can result in the synthesis of a partially nonfunctional enzyme. Mutations of a gene can result in the synthesis of a completely nonfunctional enzyme. Mutations of associated regulatory regions of DNA can result in the synthesis of a completely nonfunctional enzyme. Mutations that affect enzyme activity can have severe metabolic consequences. Mutations that compromise the three-dimensional structure of an enzyme can have severe metabolic consequences. Mutations that disrupt the catalytic sites of an enzyme can have severe metabolic consequences. Mutations that disrupt the regulatory sites of an enzyme can have severe metabolic consequences. Low catalytic efficiency of a mutant enzyme can result from impaired positioning of residues involved in catalysis. Low catalytic efficiency of a mutant enzyme can result from impaired positioning of residues involved in binding a substrate. Low catalytic efficiency of a mutant enzyme can result from impaired positioning of residues involved in binding a coenzyme. Low catalytic efficiency of a mutant enzyme can result from impaired positioning of residues involved in binding a metal ion. Mutations may impair the ability of certain enzymes to respond appropriately to the signals that modulate their activity. Mutations may alter an enzyme's affinity for an allosteric regulator of activity.",
+      "char_start": 2538,
+      "char_end": 4208,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Different mutations can have similar effects on any of the above factors. At a molecular level, these represent distinct molecular diseases. Various mutations may give rise to the same clinical signs and symptoms. Remediation of metabolic disorders of amino acid metabolism consists primarily of feeding diets low in the amino acid whose catabolism is impaired. Ultimately, genetic engineering may be able to permanently correct a given metabolic defect.",
+      "char_start": 4210,
+      "char_end": 4664,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Nutritional studies conducted between 1920 and 1940 established the interconvertibility of the carbon atoms of fat, carbohydrate, and protein. Studies using isotopically labeled amino acids from 1940 to 1950 reinforced these findings. Nutritional studies revealed that the carbon skeleton of every amino acid can be converted to carbohydrate, fat, or both. Figure 29-1outlines the amphibolic intermediates resulting from the catabolism of protein amino acids.",
+      "char_start": 4752,
+      "char_end": 5211,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "AMINO ACIDS ARE CATABOLIZED TO INTERMEDIATES FOR CARBOHYDRATE & LIPID BIOSYNTHESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-1"
+      ],
+      "table_refs": [],
+      "section_id": "amino-acids-are-catabolized-to-intermediates-for"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Ile Leu Trp converts to Acetyl-CoA.\nAla Cys Gly Hyp Ser Thr converts to Acetyl-CoA.\nPyruvate converts to Acetyl-CoA.\nLeu, Lys, Phe, Trp, Tyr converts to Acetoacetyl-CoA.\nAcetyl-CoA converts to Citrate.\nAcetoacetyl-CoA converts to Citrate.\nAspartate converts to Oxaloacetate.\nAsn converts to Fumarate.\nTyr Phe converts to Fumarate.\nIle Met Val converts to Succinyl-CoA.\nArg His Gln Pro converts to α-Ketoglutarate.\nSuccinyl-CoA converts to α-Ketoglutarate.\nα-Ketoglutarate converts to Glutamate.\nα-Ketoglutarate converts to Citrate cycle.\nOxaloacetate converts to Fumarate.\nFumarate converts to M.\nM converts to N.\nThe diagram relates the catabolism of amino acids into amphibolic intermediates.",
+      "char_start": 5330,
+      "char_end": 6024,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "AMINO ACIDS ARE CATABOLIZED TO INTERMEDIATES FOR CARBOHYDRATE & LIPID BIOSYNTHESIS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "amino-acids-are-catabolized-to-intermediates-for"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Transamination, catalyzed by a transaminase, is the first catabolic reaction of most protein amino acids.\n\nProline does not participate in transamination.\n\nHydroxyproline does not participate in transamination.\n\nThreonine does not participate in transamination.\n\nLysine does not participate in transamination.\n\nThe hydrocarbon skeletons that remain after transamination are degraded to amphibolic intermediates.",
+      "char_start": 6086,
+      "char_end": 6497,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "transamination-typically-initiates-amino-acid-catabolism"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Asparagine and aspartate form oxaloacetate through reactions involving asparaginase (EC 3.5.1.1) and a transaminase. Asparaginase catalyzes the conversion of asparagine and water into aspartate and ammonium. Transaminase catalyzes the conversion of aspartate and pyruvate into alanine and oxaloacetate. All four carbons of asparagine participate in forming oxaloacetate. All four carbons of aspartate participate in forming oxaloacetate.",
+      "char_start": 6544,
+      "char_end": 6981,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Asparagine & Aspartate Form Oxaloacetate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "asparagine-aspartate-form-oxaloacetate"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Glutaminase (EC 3.5.1.2) catalyzes the reaction of glutamine and water to form glutamate and ammonium.\n\nA transaminase catalyzes the reaction of glutamate and pyruvate to form alanine and α-ketoglutarate.\n\nGlutamate and aspartate are substrates for the same transaminase.\n\nMetabolic defects in transaminases, which fulfill central amphibolic functions, may be incompatible with life.\n\nNo known metabolic defect is associated with the pathways that convert asparagine and glutamine to amphibolic intermediates.",
+      "char_start": 7030,
+      "char_end": 7539,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Glutamine & Glutamate Form α-Ketoglutarate"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "glutamine-glutamate-form-ketoglutarate"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The catabolism of proline takes place in mitochondria. Proline does not participate in transamination.",
+      "char_start": 7553,
+      "char_end": 7655,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Proline"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "proline"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "There are two metabolic disorders of proline catabolism. Both disorders are inherited as autosomal recessive traits. Both disorders are consistent with a normal adult life. The metabolic block in type I hyperprolinemia is at proline dehydrogenase. There is no associated impairment of hydroxyproline catabolism in type I hyperprolinemia. In type II hyperprolinemia, proline catabolism is affected. In type II hyperprolinemia, hydroxyproline catabolism is affected.",
+      "char_start": 7787,
+      "char_end": 8251,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Proline"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "proline"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "L-Proline is converted to Δ1-Pyrroline-5-carboxylate by Proline dehydrogenase.\nΔ1-Pyrroline-5-carboxylate is converted to L-Glutamate-γ-semialdehyde by Proline dehydrogenase.\nL-Glutamate-γ-semialdehyde is converted to L-Glutamate by Δ1-Pyrroline-5-carboxylate dehydrogenase.\nL-Glutamate is converted to α-Ketoglutarate by Transaminase.\nThe catabolism of L-Proline to α-Ketoglutarate involves the enzymes Proline dehydrogenase, Δ1-Pyrroline-5-carboxylate dehydrogenase, and Transaminase.",
+      "char_start": 8405,
+      "char_end": 8891,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Proline"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "proline"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Arginine catabolism begins with the conversion of arginine to ornithine. Treatment for this condition involves restricting dietary arginine. In the hyperornithinemia-hyperammonemia syndrome, a defective ORC1 mitochondrial ornithine-citrulline antiporter impairs transport of ornithine into mitochondria. The impairment affects the participation of ornithine in urea synthesis.",
+      "char_start": 8918,
+      "char_end": 9294,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Arginine & Ornithine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "arginine-ornithine"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Histidine catabolism proceeds through urocanate, 4-imidazolone-5-propionate, and N-formiminoglutamate (Figlu). The formimino group is transferred to tetrahydrofolate, forming glutamate. In folic acid deficiency, the transfer of the formimino group is impaired, leading to the excretion of Figlu. Excretion of Figlu following a histidine dose can be used to detect folic acid deficiency. Benign disorders of histidine catabolism include histidinemia and urocanic aciduria. Histidinemia is associated with impaired histidase. Urocanic aciduria is associated with impaired urocanase.",
+      "char_start": 9728,
+      "char_end": 10308,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "L-Histidine is converted to Urocanate by Histidase.\nUrocanate is converted to 4-Imidazolone-5-propionate by Urocanase.\n4-Imidazolone-5-propionate is converted to N-Formiminoglutamate (Figlu) by Imidazolone propionate hydrolase.\nN-Formiminoglutamate (Figlu) is converted to L-Glutamate by Glutamate formimino transferase.\nL-Glutamate is converted to α-Ketoglutarate.\nCatabolism of L-histidine to α-ketoglutarate involves several enzymatic steps.",
+      "char_start": 10474,
+      "char_end": 10918,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Histidine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The glycine cleavage complex consists of three enzymes and an 'H-protein'. The 'H-protein' has a covalently attached dihydrolipoyl moiety (Figure 29--5). Nonketotic hyperglycinemia is a rare inborn error of glycine degradation. In nonketotic hyperglycinemia, glycine accumulates in all body tissues, including the central nervous system. In primary hyperoxaluria, glyoxylate formed by glycine deamination is not catabolized. The oxidation of glyoxylate to oxalate leads to urolithiasis, nephrocalcinosis, and early mortality from renal failure or hypertension in primary hyperoxaluria. Glycinuria results from a defect in renal tubular reabsorption. The three enzymes in the glycine cleavage complex are glycine dehydrogenase (decarboxylating), an ammonia-forming aminomethyltransferase, and dihydrolipoamide dehydrogenase.",
+      "char_start": 10920,
+      "char_end": 11743,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Histidine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "histidine"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Glycine hydroxymethyltransferase catalyzes the conversion of serine to glycine (Figure 29--6).\n\nSerine catabolism merges with that of glycine after serine is converted to glycine.\n\nTetrahydrofolate acts as a cofactor in the interconversion of serine and glycine (Figure 29--6).",
+      "char_start": 12090,
+      "char_end": 12367,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Serine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "serine"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Cystine is reduced to cysteine by cystine reductase (Figure 29-7).",
+      "char_start": 12531,
+      "char_end": 12597,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Cystine & Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-7"
+      ],
+      "table_refs": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Two pathways convert cysteine to pyruvate (Figure 29-8).",
+      "char_start": 12755,
+      "char_end": 12811,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Cystine & Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-8"
+      ],
+      "table_refs": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Cysteine is converted to cysteine sulfinate by cysteine dioxygenase in the presence of O2.\nCysteine sulfinate is transaminated to an α-Keto acid by Transaminase.\nCysteine sulfinate is also converted to an α-Amino acid, which leads to the formation of Sulfinylpyruvate.\nSulfinylpyruvate releases SO3^2- to form Pyruvate through Desulfinase.\nPyruvate is transaminated to an α-Keto acid by Transaminase.\nPyruvate is also converted to an α-Amino acid, leading to the formation of 3-Mercaptopyruvate (thiolpyruvate).\n3-Mercaptopyruvate (thiolpyruvate) is reduced to Pyruvate with the release of H2S.\n3-Mercaptopyruvate (thiolpyruvate) is also converted to 3-Mercaptolactate with the production of NADH + H+.\n3-Mercaptolactate is oxidized back to 3-Mercaptopyruvate (thiolpyruvate) with the consumption of NAD+.\nThe diagram illustrates two pathways for the catabolism of cysteine: the cysteine sulfinate pathway and the 3-mercaptopyruvate pathway.",
+      "char_start": 12949,
+      "char_end": 13890,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Cystine & Cysteine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Cystine, lysine, arginine, and ornithine are excreted in cystine-lysinuria (cystinuria).\n\nCystinuria is a defect in renal reabsorption of these amino acids.\n\nCystinuria is benign apart from cystine calculi.\n\nThe mixed disulfide of L-cysteine and L-homocysteine is more soluble than cystine (Figure 29-9).",
+      "char_start": 13892,
+      "char_end": 14196,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Cystine & Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-9"
+      ],
+      "table_refs": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "The mixed disulfide reduces the formation of cystine calculi in cystinuric patients.",
+      "char_start": 14281,
+      "char_end": 14365,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Cystine & Cysteine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Consequences of this deficiency include osteoporosis and mental retardation. Defective carrier-mediated transport of cystine results in cystinosis. Cystinosis is also known as cystine storage disease. Cystine crystals are deposited in tissues in cystinosis. Early mortality from acute renal failure is associated with cystinosis. Epidemiologic and other data link plasma homocysteine levels to cardiovascular risk. The role of homocysteine as a causal cardiovascular risk factor remains controversial.",
+      "char_start": 14397,
+      "char_end": 14898,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "(Cysteine) (Homocysteine)"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cysteine-homocysteine"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Threonine aldolase (EC 4.1.2.5) cleaves threonine to glycine and acetaldehyde.\n\nCatabolism of glycine is discussed earlier.\n\nOxidation of acetaldehyde to acetate is followed by formation of acetyl-CoA (Figure 29--10).",
+      "char_start": 14914,
+      "char_end": 15131,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Threonine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "threonine"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "L-Threonine is converted to H3C-CH=O by glycine.\nH3C-CH=O is processed by threonine aldolase.\nThreonine aldolase produces acetaldehyde.\nAcetaldehyde is converted to acetate by aldehyde dehydrogenase.\nAcetate is transformed into acetyl-CoA by acetate thiokinase.\nAcetyl-CoA is represented as H3C-C(=O)-S~CoA.\nH3C-C(=O)-S~CoA is broken down into acetate.\nAcetate is converted back to acetyl-CoA by acetate thiokinase.\nAcetate thiokinase releases water as a byproduct.\nWater is associated with the release of CoASH.\nCoASH is linked with the production of Mg-ATP and Mg-ADP.\nThe diagram as a whole relates the conversion of threonine to glycine and acetyl-CoA.",
+      "char_start": 15226,
+      "char_end": 15882,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Threonine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "threonine"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "A defect in 4-hydroxyproline dehydrogenase results in hyperhydroxyprolinemia. Hyperhydroxyprolinemia is benign. There is no associated impairment of proline catabolism in hyperhydroxyprolinemia.",
+      "char_start": 16187,
+      "char_end": 16381,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "4-Hydroxyproline"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "4-hydroxyproline"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "4-Hydroxy-L-proline is a chemical involved in the catabolic pathway.",
+      "char_start": 16496,
+      "char_end": 16564,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "4-Hydroxyproline"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "4-hydroxyproline"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Tyrosine is catabolized to amphibolic intermediates through a series of reactions. Tyrosine is transaminated to p-hydroxyphenylpyruvate. P-hydroxyphenylpyruvate is converted to homogentisate. Homogentisate is transformed into maleylacetoacetate. Maleylacetoacetate is changed into fumarylacetoacetate. Fumarylacetoacetate is broken down into fumarate and acetoacetate. Fumarate and acetoacetate are ultimately converted into acetyl-CoA and acetate.\n\nSeveral metabolic disorders are associated with the tyrosine catabolic pathway. Type I tyrosinemia, also known as tyrosinosis, is caused by a defect in fumarylacetoacetate hydrolase. Therapy for type I tyrosinemia involves a diet low in tyrosine and phenylalanine. Untreated type I tyrosinemia can lead to death from liver failure. Type II tyrosinemia, or Richner-Hanhart syndrome, results from a defect in tyrosine aminotransferase. Neonatal tyrosinemia is due to lowered activity of p-hydroxyphenylpyruvate hydroxylase. Therapy for type II tyrosinemia and neonatal tyrosinemia involves a diet low in protein.",
+      "char_start": 16579,
+      "char_end": 17639,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tyrosine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "L-Tyrosine is converted to p-Hydroxyphenylpyruvate with the involvement of α-KG, PLP, and Glu.\np-Hydroxyphenylpyruvate is transformed into Homogentisate through the action of p-Hydroxyphenylpyruvate hydroxylase.\nHomogentisate oxidase catalyzes the conversion of Homogentisate to Maleylacetoacetate.\nMaleylacetoacetate is rewritten to form Fumarylacetoacetate.\nFumarylacetoacetate is converted to Fumarate with the help of Glutathione.\nFumarate is transformed into Acetoacetate.\nAcetoacetate is converted to Acetyl-CoA by β-Ketothiolase.\nAcetyl-CoA is further converted to Acetate.\nThe diagram as a whole relates the catabolism of L-Tyrosine to Acetyl-CoA, involving conversion to homogentisate and subsequent steps, including the role of homogentisate oxidase and β-ketothiolase.",
+      "char_start": 17824,
+      "char_end": 18603,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tyrosine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Alkaptonuria is caused by a defective homogentisate oxidase. The urine darkens on exposure to air due to the oxidation of excreted homogentisate. Late in the disease, arthritis and connective tissue pigmentation (ochronosis) occur. Ochronosis results from the oxidation of homogentisate to benzoquinone acetate, which polymerizes and binds to connective tissue. Alkaptonuria was first described in the 16th century based on the observation that urine darkened upon air exposure. Alkaptonuria provided the basis for Sir Archibald Garrod's early 20th-century ideas on heritable metabolic disorders. The earliest known case of alkaptonuria was detected in an Egyptian mummy from 1500 BC, based on the presence of ochronosis and chemical evidence.\n\nFigure 29-12illustrates the intermediates in tyrosine catabolism. Carbons are numbered to emphasize their ultimate fate. The figure indicates probable sites of inherited metabolic defects in type II tyrosinemia and neonatal tyrosinemia.",
+      "char_start": 18605,
+      "char_end": 19586,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tyrosine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-12"
+      ],
+      "table_refs": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Phenylalanine is first converted to tyrosine (see Figure 27--11).\n\nHyperphenylalaninemias arise from defects in phenylalanine hydroxylase. Phenylalanine hydroxylase has the EC number 1.14.16.1. Type I hyperphenylalaninemia is known as classic phenylketonuria (PKU). Classic phenylketonuria (PKU) has a frequency of 1 in 10,000 births.\n\nHyperphenylalaninemias arise from defects in dihydrobiopterin reductase. Dihydrobiopterin reductase defects cause hyperphenylalaninemias in types II and III.\n\nHyperphenylalaninemias arise from defects in dihydrobiopterin biosynthesis. Hyperphenylalaninemias include types IV and V.\n\nAlternative catabolites are excreted (Figure 29--13).\n\nA diet low in phenylalanine can prevent the mental retardation of PKU.\n\nDNA probes facilitate prenatal diagnosis of defects in phenylalanine hydroxylase. DNA probes facilitate prenatal diagnosis of defects in dihydrobiopterin reductase.",
+      "char_start": 19908,
+      "char_end": 20818,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Phenylalanine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phenylalanine"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "L-Phenylalanine is converted to Transaminase with α-Ketoglutarate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nL-Phenylalanine is converted to Phenylpyruvate with L-Glutamate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nTransaminase is converted to Phenylpyruvate with α-Ketoglutarate and L-Glutamate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylpyruvate is converted to Phenylacetate with NAD+ and NADH + H+ in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylpyruvate is converted to Phenylactate with NAD+ and NADH + H+ in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylacetate is converted to Phenylacetylglutamine with L-Glutamine in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylactate is converted to Phenylacetylglutamine with H2O in alternative pathways of phenylalanine catabolism in phenylketonuria.\nThese reactions also occur in normal liver tissue but are of minor significance.",
+      "char_start": 20989,
+      "char_end": 22050,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Phenylalanine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phenylalanine"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Elevated blood phenylalanine may not be detectable until 3 to 4 days postpartum.\n\nFalse positives in premature infants may reflect delayed maturation of enzymes of phenylalanine catabolism.",
+      "char_start": 22052,
+      "char_end": 22241,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Phenylalanine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "phenylalanine"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The ultimate product of the carbon skeleton is crotonyl-CoA. Conversion to the thioester glutaryl-CoA is reaction 5. Decarboxylation of glutaryl-CoA to crotonyl-CoA is reaction 6. Defects involving the second activity are accompanied by elevated levels of blood saccharopine. A metabolic defect at reaction 6 results in an inherited metabolic disease. The inherited metabolic disease associated with reaction 6 is associated with striatal and cortical degeneration. The inherited metabolic disease associated with reaction 6 is characterized by elevated concentrations of glutarate and its metabolites glutaconate and 3-hydroxyglutarate. The challenge in clinical management of these metabolic defects is to restrict dietary intake of L-lysine without producing malnutrition. (Figure 29-14)",
+      "char_start": 22254,
+      "char_end": 23044,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Lysine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-14"
+      ],
+      "table_refs": [],
+      "section_id": "lysine"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Tryptophan is degraded to amphibolic intermediates via the kynurenine-anthranilate pathway (Figure 29--15). Tryptophan 2,3-dioxygenase, EC 1.13.11.11 (tryptophan pyrrolase) opens the indole ring, incorporates molecular oxygen, and forms N-formylkynurenine. Tryptophan oxygenase, an iron porphyrin metalloprotein, is inducible in the liver by adrenal corticosteroids and by tryptophan. Tryptophan oxygenase is feedback inhibited by nicotinic acid derivatives, including NADPH. Hydrolytic removal of the formyl group of N-formylkynurenine, catalyzed by kynurenine formylase (EC 3.5.1.9), produces kynurenine. Kynureninase (EC 3.7.1.3) requires pyridoxal phosphate.",
+      "char_start": 23139,
+      "char_end": 23801,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tryptophan"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "L-Tryptophan is converted to N-L-Formylkynurenine by Tryptophan oxygenase (inducible) in the presence of Fe2+.\nN-L-Formylkynurenine is converted to L-Kynurenine with the release of Formate.\nL-Kynurenine is converted to 3-Hydroxyanthranilate.\n3-Hydroxyanthranilate is converted to α-Ketoadipate by 3-Hydroxyanthranilate oxidase in the presence of O2.\n2-Acroleyl-3-aminofumarate is converted to 2-Amino-cis, cis-muconate semialdehyde.\n2-Amino-cis, cis-muconate semialdehyde is converted to Oxalocrotonate.\nOxalocrotonate is converted to NAD(P)H + H.\nNAD(P)H + H is converted to NAD(P).\nNAD(P) is converted to α-Ketoadipate.\nThe diagram illustrates the catabolic pathway of tryptophan, showing the reactions and intermediates involved in its breakdown.",
+      "char_start": 23994,
+      "char_end": 24743,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tryptophan"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Hartnup disease reflects impaired intestinal and renal transport of tryptophan and other neutral amino acids. Indole derivatives of unabsorbed tryptophan formed by intestinal bacteria are excreted. The defect in Hartnup disease limits tryptophan availability for niacin biosynthesis. The limited tryptophan availability accounts for the pellagra-like signs and symptoms in Hartnup disease.",
+      "char_start": 25104,
+      "char_end": 25493,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Tryptophan"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Methionine reacts with ATP to form S-adenosylmethionine, known as 'active methionine' (Figure 29-17).",
+      "char_start": 25510,
+      "char_end": 25611,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Methionine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-17"
+      ],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "S-adenosylmethionine has a high group transfer potential represented by ~ CH₃ (Figure 29-17).\n\nMethionine undergoes reactions to form propionyl-CoA (Figure 29-18).",
+      "char_start": 25745,
+      "char_end": 25908,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Methionine"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-17",
+        "fig-29-18"
+      ],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "L-Methionine is converted to S-Adenosyl-L-methionine with the help of ATP, P1 + PP1.\nS-Adenosyl-L-methionine transfers a methyl group to an acceptor, forming S-Adenosyl-L-homocysteine and CH3-Acceptor.\nS-Adenosyl-L-homocysteine is converted to L-Homocysteine with the help of H2O and Adenosine.\nL-Homocysteine combines with L-Serine to form Cystathionine.\nCystathionine is converted to L-Cysteine by the enzyme Cystathionine β-synthase.\nL-Cysteine releases NH4+ to form α-Ketobutyrate.\nα-Ketobutyrate is converted to Propionyl-CoA with the help of CoASH, CO2, NAD+, NADH + H+.\nThe overall process represents the conversion of methionine to propionyl-CoA.",
+      "char_start": 25974,
+      "char_end": 26628,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Methionine"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Propionyl-CoA is converted to succinyl-CoA through reactions 2, 3, and 4 (Figure 19-2).",
+      "char_start": 26630,
+      "char_end": 26717,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "TRANSAMINATION TYPICALLY INITIATES AMINO ACID CATABOLISM",
+        "Methionine"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "methionine"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "The initial reactions of the catabolism of isoleucine, leucine, and valine are analogous to reactions of fatty acid catabolism (Figure 29–19).",
+      "char_start": 26795,
+      "char_end": 26937,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "THE INITIAL REACTIONS ARE COMMON TO ALL THREE BRANCHED-CHAIN AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-19"
+      ],
+      "table_refs": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Dehydrogenation of the resulting coenzyme A thioesters proceeds like the dehydrogenation of lipid-derived fatty acyl-CoA thioesters (see Chapter 22).\n\nFigures 29–20, 29–21, and 29–22 illustrate the subsequent reactions unique for each amino acid skeleton.",
+      "char_start": 27556,
+      "char_end": 27811,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "THE INITIAL REACTIONS ARE COMMON TO ALL THREE BRANCHED-CHAIN AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-29-20"
+      ],
+      "table_refs": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "β-Methylcrotonyl-CoA is converted to β-Methylglutaconyl-CoA with the help of biotinyl-CO2, 4L.\nβ-Methylcrotonyl-CoA is also converted to β-Methylglutaconyl-CoA with the help of biotin.\nβ-Methylglutaconyl-CoA is converted to β-Hydroxy-β-methylglutaryl-CoA with the help of H2O and 5L.\nβ-Hydroxy-β-methylglutaryl-CoA is converted to Acetoacetate with the help of 6L.\nAcetoacetate is converted to Acetyl-CoA.",
+      "char_start": 27946,
+      "char_end": 28351,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "THE INITIAL REACTIONS ARE COMMON TO ALL THREE BRANCHED-CHAIN AMINO ACIDS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Maple syrup urine disease (branched-chain ketonuria, or MSUD) causes the urine to have a maple syrup or burnt sugar odor. The urinary keto acids in MSUD derive principally from leucine. Signs and symptoms of MSUD often include ketoacidosis, neurologic derangements, mental retardation, and a maple syrup odor of urine. The mechanism of toxicity in MSUD is unknown. Early diagnosis by enzymatic analysis is essential in MSUD to avoid brain damage and early mortality. Dietary protein is replaced by an amino acid mixture that lacks leucine, isoleucine, and valine in MSUD. The molecular genetics of MSUD are heterogeneous. Genetic subtypes of MSUD are recognized based on the locus affected. Type II MSUD arises from mutations in the E2 gene. Type III MSUD arises from mutations in the E3 gene. In intermittent branched-chain ketonuria, symptoms occur later in life. In isovaleric acidemia, ingestion of protein-rich foods elevates isovalerate. The impaired enzyme in isovaleric acidemia is isovaleryl-CoA dehydrogenase, EC 1.3.8.4. Vomiting, acidosis, and coma can follow ingestion of excess protein in isovaleric acidemia. Accumulated isovaleryl-CoA is hydrolyzed to isovalerate and excreted in isovaleric acidemia. Table 29-1summarizes the genetic subtypes of MSUD. Table 29-2summarizes the metabolic disorders associated with the catabolism of amino acids.",
+      "char_start": 28625,
+      "char_end": 29984,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "METABOLIC DISORDERS OF BRANCHED-CHAIN AMINO ACID CATABOLISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-29-1",
+        "tbl-29-2"
+      ],
+      "section_id": "metabolic-disorders-of-branched-chain-amino-acid-catabolism"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "The E1α component of the branched-chain α-ketoacid decarboxylase complex is associated with Maple Syrup Urine Disease Type 1A.\nThe E1α component of the branched-chain α-ketoacid decarboxylase complex has an OMIM reference of 608348.\nThe E1β component of the branched-chain α-ketoacid decarboxylase complex is associated with Maple Syrup Urine Disease Type 1B.\nThe E1β component of the branched-chain α-ketoacid decarboxylase complex has an OMIM reference of 248611.\nThe E2 component, which is dihydrolipoyl transacylase, is associated with Maple Syrup Urine Disease Type II.\nThe E2 component of the branched-chain α-ketoacid decarboxylase complex has an OMIM reference of 608770.\nThe E3 component, which is dihydrolipoamide dehydrogenase, is associated with Maple Syrup Urine Disease Type III.\nThe E3 component of the branched-chain α-ketoacid decarboxylase complex has an OMIM reference of 238331.",
+      "char_start": 30106,
+      "char_end": 31004,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "METABOLIC DISORDERS OF BRANCHED-CHAIN AMINO ACID CATABOLISM"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-disorders-of-branched-chain-amino-acid-catabolism"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "S-Adenosylhomocysteine hydrolase has the enzyme catalog number 3.3.1.1.\nS-Adenosylhomocysteine hydrolase is associated with the OMIM reference 180960.\nS-Adenosylhomocysteine hydrolase deficiency leads to hypermethioninemia.\nS-Adenosylhomocysteine hydrolase is referenced in figure and reaction 29-183.\nArginase has the enzyme catalog number 3.5.3.1.\nArginase is associated with the OMIM reference 207800.\nArginase deficiency leads to argininemia.\nArginase is referenced in figure and reaction 29-31.\nCystathionine-β-synthase has the enzyme catalog number 4.2.1.22.\nCystathionine-β-synthase is associated with the OMIM reference 236200.\nCystathionine-β-synthase deficiency leads to homocystinuria.\nCystathionine-β-synthase is referenced in figure and reaction 29-184.\nFumarylacetoacetate hydrolase has the enzyme catalog number 3.7.1.12.\nFumarylacetoacetate hydrolase is associated with the OMIM reference 276700.\nFumarylacetoacetate hydrolase deficiency leads to type I tyrosinemia (tyrosinosis).\nFumarylacetoacetate hydrolase is referenced in figure and reaction 29-124.\nHistidine ammonia lyase (histidase) has the enzyme catalog number 4.3.1.3.\nHistidine ammonia lyase (histidase) is associated with the OMIM reference 609457.\nHistidine ammonia lyase (histidase) deficiency leads to histidinemia and urocanic acidemia.\nHistidine ammonia lyase (histidase) is referenced in figure and reaction 29-41.\nHomogentisate oxidase has the enzyme catalog number 1.13.11.5.\nHomogentisate oxidase is associated with the OMIM reference 607474.\nHomogentisate oxidase deficiency leads to alkaptonuria. Homogentisate is excreted.\nHomogentisate oxidase is referenced in figure and reaction 29-123.\np-Hydroxyphenylpyruvate hydroxylase has the enzyme catalog number 1.13.11.27.\np-Hydroxyphenylpyruvate hydroxylase is associated with the OMIM reference 276710.\np-Hydroxyphenylpyruvate hydroxylase deficiency leads to neonatal tyrosinemia.\np-Hydroxyphenylpyruvate hydroxylase is referenced in figure and reaction 29-122.\nIsovaleryl-CoA dehydrogenase has the enzyme catalog number 1.3.8.4.\nIsovaleryl-CoA dehydrogenase is associated with the OMIM reference 607036.\nIsovaleryl-CoA dehydrogenase deficiency leads to isovaleric acidemia.\nIsovaleryl-CoA dehydrogenase is referenced in figure and reaction 29-193.\nBranched chain α-ketoacid decarboxylase complex is associated with the OMIM reference 248600.\nBranched chain α-ketoacid decarboxylase complex deficiency leads to branched-chain ketonuria (MSUD).\nBranched chain α-ketoacid decarboxylase complex is referenced in figure and reaction 29-192.\nMethionine adenosyltransferase has the enzyme catalog number 2.5.1.6.\nMethionine adenosyltransferase is associated with the OMIM reference 250850.\nMethionine adenosyltransferase deficiency leads to hypermethioninemia.\nMethionine adenosyltransferase is referenced in figure and reaction 29-171.\nOrnithine-δ-aminotransferase has the enzyme catalog number 2.6.1.13.\nOrnithine-δ-aminotransferase is associated with the OMIM reference 258870.\nOrnithine-δ-aminotransferase deficiency leads to ornithinemia and gyrate atrophy.\nOrnithine-δ-aminotransferase is referenced in figure and reaction 29-32.\nPhenylalanine hydroxylase has the enzyme catalog number 1.14.16.1.\nPhenylalanine hydroxylase is associated with the OMIM reference 261600.\nPhenylalanine hydroxylase deficiency leads to type I (classic) phenylketonuria.\nPhenylalanine hydroxylase is referenced in figure and reaction 27-111.\nProline dehydrogenase has the enzyme catalog number 1.5.5.2.\nProline dehydrogenase is associated with the OMIM reference 606810.\nProline dehydrogenase deficiency leads to type I hyperprolinemia.\nProline dehydrogenase is referenced in figure and reaction 29-21.\nΔ'-Pyrroline-5-carboxylate dehydrogenase has the enzyme catalog number 1.2.1.88.\nΔ'-Pyrroline-5-carboxylate dehydrogenase is associated with the OMIM reference 606811.\nΔ'-Pyrroline-5-carboxylate dehydrogenase deficiency leads to type II hyperprolinemia and hyper-4-hydroxyprolinemia.\nΔ'-Pyrroline-5-carboxylate dehydrogenase is referenced in figure and reaction 29-22.\nSaccharopine dehydrogenase has the enzyme catalog number 1.5.1.7.\nSaccharopine dehydrogenase is associated with the OMIM reference 268700.\nSaccharopine dehydrogenase deficiency leads to saccharopinuria.\nSaccharopine dehydrogenase is referenced in figure and reaction 29-142.\nTyrosine aminotransferase has the enzyme catalog number 2.6.1.5.\nTyrosine aminotransferase is associated with the OMIM reference 613018.\nTyrosine aminotransferase deficiency leads to type II tyrosinemia.\nTyrosine aminotransferase is referenced in figure and reaction 29-121.",
+      "char_start": 31051,
+      "char_end": 35689,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids",
+        "METABOLIC DISORDERS OF BRANCHED-CHAIN AMINO ACID CATABOLISM"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "metabolic-disorders-of-branched-chain-amino-acid-catabolism"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "Excess amino acids are catabolized to amphibolic intermediates that serve as sources of energy or for the biosynthesis of carbohydrates and lipids.\nTransamination is the most common initial reaction of amino acid catabolism.\nMetabolic diseases associated with glycine catabolism include glycinuria and primary hyperoxaluria.\nTwo distinct pathways convert cysteine to pyruvate. Metabolic disorders of cysteine catabolism include cystine-lysinuria, cystine storage disease, and the homocystinurias.\nThreonine catabolism merges with that of glycine after threonine aldolase cleaves threonine to glycine and acetaldehyde.\nFollowing transamination, the carbon skeleton of tyrosine is degraded to fumarate and acetoacetate. Metabolic diseases of tyrosine catabolism include tyrosinosis, Richner-Hanhart syndrome, neonatal tyrosinemia, and alkaptonuria.\nMetabolic disorders of phenylalanine catabolism include PKU and several hyperphenylalaninemias.\nNeither nitrogen of lysine participates in transamination. The same net effect is, however, achieved by the intermediate formation of saccharopine. Metabolic diseases of lysine catabolism include periodic and persistent forms of hyperlysinemia-ammonemia.\nThe catabolism of leucine, valine, and isoleucine presents many analogies to fatty acid catabolism. Metabolic disorders of branched-chain amino acid catabolism include hypervalinemia, maple syrup urine disease, intermittent branched-chain ketonuria, isovaleric acidemia, and methylmalonic aciduria.",
+      "char_start": 35691,
+      "char_end": 37187,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-29-1",
+      "image_path": "images/cd8168ad3530b5e6b3c5ad4f11d4f69d172ded8b039266e143dc46112672bcbc.jpg",
+      "caption": "Overview of the amphibolic intermediates that result from catabolism of the protein amino acids.",
+      "referenced_from": "c004",
+      "marker": "[FIGURE:fig-29-1]",
+      "description": "Ile Leu Trp converts to Acetyl-CoA.\nAla Cys Gly Hyp Ser Thr converts to Acetyl-CoA.\nPyruvate converts to Acetyl-CoA.\nLeu, Lys, Phe, Trp, Tyr converts to Acetoacetyl-CoA.\nAcetyl-CoA converts to Citrate.\nAcetoacetyl-CoA converts to Citrate.\nAspartate converts to Oxaloacetate.\nAsn converts to Fumarate.\nTyr Phe converts to Fumarate.\nIle Met Val converts to Succinyl-CoA.\nArg His Gln Pro converts to α-Ketoglutarate.\nSuccinyl-CoA converts to α-Ketoglutarate.\nα-Ketoglutarate converts to Glutamate.\nα-Ketoglutarate converts to Citrate cycle.\nOxaloacetate converts to Fumarate.\nFumarate converts to M.\nM converts to N.\nThe diagram relates the catabolism of amino acids into amphibolic intermediates.",
+      "label": "Figure 29-1",
+      "panel": "",
+      "content_chunk": "c005",
+      "caption_span": [
+        5232,
+        5328
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "amino-acids-are-catabolized-to-intermediates-for"
+    },
+    {
+      "fig_id": "fig-29-2",
+      "image_path": "",
+      "caption": "Catabolism of proline. Red bars and circled numerals indicate the locus of the inherited metabolic defects in",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-2]",
+      "description": "",
+      "label": "Figure 29-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7676,
+        7785
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "proline"
+    },
+    {
+      "fig_id": "fig-x3",
+      "image_path": "images/8731ed94c7343d7c0ce6284abf9de9a723965100b723d900f66465c96b7bf26c.jpg",
+      "caption": "Catabolism of L-Proline to α-Ketoglutarate through Proline dehydrogenase, Δ1-Pyrroline-5-carboxylate dehydrogenase, and Transaminase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x3]",
+      "description": "L-Proline is converted to Δ1-Pyrroline-5-carboxylate by Proline dehydrogenase.\nΔ1-Pyrroline-5-carboxylate is converted to L-Glutamate-γ-semialdehyde by Proline dehydrogenase.\nL-Glutamate-γ-semialdehyde is converted to L-Glutamate by Δ1-Pyrroline-5-carboxylate dehydrogenase.\nL-Glutamate is converted to α-Ketoglutarate by Transaminase.\nThe catabolism of L-Proline to α-Ketoglutarate involves the enzymes Proline dehydrogenase, Δ1-Pyrroline-5-carboxylate dehydrogenase, and Transaminase.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c011",
+      "caption_span": [
+        8270,
+        8403
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "proline"
+    },
+    {
+      "fig_id": "fig-29-3",
+      "image_path": "",
+      "caption": "Catabolism of arginine. Arginase-catalyzed cleavage of L-arginine forms urea and L-ornithine. This reaction (red bar) represents the site of the inherited metabolic defect in hyperargininemia. Subsequent transamination of ornithine to glutamate- γ -semialdehyde is followed by its oxidation to",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-3]",
+      "description": "",
+      "label": "Figure 29-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9315,
+        9608
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "arginine-ornithine"
+    },
+    {
+      "fig_id": "fig-x5",
+      "image_path": "images/d0bcc16f7b9b0904bcbe97ac52070908dc4882c5aa13384ee59f977947223093.jpg",
+      "caption": "Reaction pathway converting L-Arginine and L-Ornithine to L-Glutamate-γ-semialdehyde.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x5]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9627,
+        9712
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "arginine-ornithine"
+    },
+    {
+      "fig_id": "fig-29-4",
+      "image_path": "images/1ab2ed73191011acfac0351f71de3f6a14d5161ec9d6cd4258f4c89dddc31768.jpg",
+      "caption": "Catabolism of L-histidine to α -ketoglutarate. (H 4 folate, tetrahydrofolate.) The red bar indicates the site of an inherited metabolic defect.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-4]",
+      "description": "L-Histidine is converted to Urocanate by Histidase.\nUrocanate is converted to 4-Imidazolone-5-propionate by Urocanase.\n4-Imidazolone-5-propionate is converted to N-Formiminoglutamate (Figlu) by Imidazolone propionate hydrolase.\nN-Formiminoglutamate (Figlu) is converted to L-Glutamate by Glutamate formimino transferase.\nL-Glutamate is converted to α-Ketoglutarate.\nCatabolism of L-histidine to α-ketoglutarate involves several enzymatic steps.",
+      "label": "Figure 29-4",
+      "panel": "",
+      "content_chunk": "c014",
+      "caption_span": [
+        10329,
+        10472
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-29-5",
+      "image_path": "",
+      "caption": "The glycine cleavage system of liver mitochondria. The glycine cleavage complex consists of three enzymes and an “H-protein” that has covalently attached dihydrolipoate. Catalysts for the numbered reactions are",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-5]",
+      "description": "",
+      "label": "Figure 29-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11764,
+        11974
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-x8",
+      "image_path": "images/f503c11655690a351c8f102cb64048bc4691970799953701cb60dfe6287c1244.jpg",
+      "caption": "Enzymatic cycle of a protonated amino acid, illustrating intermediates and reagents.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x8]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11993,
+        12077
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "histidine"
+    },
+    {
+      "fig_id": "fig-29-6",
+      "image_path": "images/e59f9b287e3ac53d099b57d8375f01d167a0413f1c45e5545c6acead310c4a24.jpg",
+      "caption": "Interconversion of serine and glycine by glycine hydroxymethyltransferase. ( H4 folate, tetrahydrofolate.)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-6]",
+      "description": "",
+      "label": "Figure 29-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12388,
+        12494
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "serine"
+    },
+    {
+      "fig_id": "fig-29-7",
+      "image_path": "",
+      "caption": "Reduction of cystine to cysteine by cystine reductase. ![](images/c1c9e14fd1b9dc302cc4f62f60d3a35134a6e9cac2f7b7afc5bf96a7391b928a.jpg)",
+      "referenced_from": "c017",
+      "marker": "[FIGURE:fig-29-7]",
+      "description": "",
+      "label": "Figure 29-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        12618,
+        12753
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "fig_id": "fig-29-8",
+      "image_path": "images/147ad5e63fe1af9b083fc918b06270a3108961c0f2de18fe7c10df486d4c4341.jpg",
+      "caption": "Two pathways catabolize cysteine: the cysteine sulfinate pathway (top) and the 3-mercaptopyruvate pathway (bottom).",
+      "referenced_from": "c018",
+      "marker": "[FIGURE:fig-29-8]",
+      "description": "Cysteine is converted to cysteine sulfinate by cysteine dioxygenase in the presence of O2.\nCysteine sulfinate is transaminated to an α-Keto acid by Transaminase.\nCysteine sulfinate is also converted to an α-Amino acid, which leads to the formation of Sulfinylpyruvate.\nSulfinylpyruvate releases SO3^2- to form Pyruvate through Desulfinase.\nPyruvate is transaminated to an α-Keto acid by Transaminase.\nPyruvate is also converted to an α-Amino acid, leading to the formation of 3-Mercaptopyruvate (thiolpyruvate).\n3-Mercaptopyruvate (thiolpyruvate) is reduced to Pyruvate with the release of H2S.\n3-Mercaptopyruvate (thiolpyruvate) is also converted to 3-Mercaptolactate with the production of NADH + H+.\n3-Mercaptolactate is oxidized back to 3-Mercaptopyruvate (thiolpyruvate) with the consumption of NAD+.\nThe diagram illustrates two pathways for the catabolism of cysteine: the cysteine sulfinate pathway and the 3-mercaptopyruvate pathway.",
+      "label": "Figure 29-8",
+      "panel": "",
+      "content_chunk": "c019",
+      "caption_span": [
+        12832,
+        12947
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "fig_id": "fig-29-9",
+      "image_path": "images/636a3bede1b8383b3919c7d46b171608ca2a7013eec9e8b609779fad52245040.jpg",
+      "caption": "Structure of the mixed disulfide of cysteine and homocysteine.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-29-9]",
+      "description": "",
+      "label": "Figure 29-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14217,
+        14279
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cystine-cysteine"
+    },
+    {
+      "fig_id": "fig-29-10",
+      "image_path": "images/1b0570ac14d8ef3dda7968fcfdfdc2661d4d65cae26e8a72adda46d2d3fa849d.jpg",
+      "caption": "Intermediates in the conversion of threonine to glycine and acetyl-CoA.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-10]",
+      "description": "L-Threonine is converted to H3C-CH=O by glycine.\nH3C-CH=O is processed by threonine aldolase.\nThreonine aldolase produces acetaldehyde.\nAcetaldehyde is converted to acetate by aldehyde dehydrogenase.\nAcetate is transformed into acetyl-CoA by acetate thiokinase.\nAcetyl-CoA is represented as H3C-C(=O)-S~CoA.\nH3C-C(=O)-S~CoA is broken down into acetate.\nAcetate is converted back to acetyl-CoA by acetate thiokinase.\nAcetate thiokinase releases water as a byproduct.\nWater is associated with the release of CoASH.\nCoASH is linked with the production of Mg-ATP and Mg-ADP.\nThe diagram as a whole relates the conversion of threonine to glycine and acetyl-CoA.",
+      "label": "Figure 29-10",
+      "panel": "",
+      "content_chunk": "c024",
+      "caption_span": [
+        15153,
+        15224
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "threonine"
+    },
+    {
+      "fig_id": "fig-29-11",
+      "image_path": "",
+      "caption": "Intermediates in hydroxyproline catabolism. ( α -AA, α -amino acid; α -KA, α -keto acid.) Red bars indicate the sites of the inherited metabolic defects in",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-11]",
+      "description": "",
+      "label": "Figure 29-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15925,
+        16080
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "4-hydroxyproline"
+    },
+    {
+      "fig_id": "fig-x15",
+      "image_path": "images/1274a12c8afb1dec99b3933efbc70cb7458865642b39fea8912f0f017ffb147c.jpg",
+      "caption": "Chemical structure of a nucleoside derivative featuring hydroxyl and carbonyl groups.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x15]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        16100,
+        16185
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "4-hydroxyproline"
+    },
+    {
+      "fig_id": "fig-x16",
+      "image_path": "images/bf390ce3b72d7a14f29ca78fc94b6796aa04f84977da9449f65c0fe1c5911be3.jpg",
+      "caption": "Dehydrogenase catalyzes the reaction with NADH and H2O, forming a diester and releasing NH3+.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x16]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        16401,
+        16494
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "4-hydroxyproline"
+    },
+    {
+      "fig_id": "fig-x18",
+      "image_path": "images/5af7ea10dbbb219fdd3cf4052cc1ef03f9f7656ff6a5c940688a21500b3fd2e4.jpg",
+      "caption": "Catabolism of L-Tyrosine to Acetyl-CoA, involving conversion to homogentisate and subsequent steps, including the role of homogentisate oxidase and β-ketothiolase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x18]",
+      "description": "L-Tyrosine is converted to p-Hydroxyphenylpyruvate with the involvement of α-KG, PLP, and Glu.\np-Hydroxyphenylpyruvate is transformed into Homogentisate through the action of p-Hydroxyphenylpyruvate hydroxylase.\nHomogentisate oxidase catalyzes the conversion of Homogentisate to Maleylacetoacetate.\nMaleylacetoacetate is rewritten to form Fumarylacetoacetate.\nFumarylacetoacetate is converted to Fumarate with the help of Glutathione.\nFumarate is transformed into Acetoacetate.\nAcetoacetate is converted to Acetyl-CoA by β-Ketothiolase.\nAcetyl-CoA is further converted to Acetate.\nThe diagram as a whole relates the catabolism of L-Tyrosine to Acetyl-CoA, involving conversion to homogentisate and subsequent steps, including the role of homogentisate oxidase and β-ketothiolase.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c028",
+      "caption_span": [
+        17659,
+        17822
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "fig_id": "fig-29-12",
+      "image_path": "",
+      "caption": "Intermediates in tyrosine catabolism. Carbons are numbered to emphasize their ultimate fate. ( α -KG, α -ketoglutarate; Glu, glutamate; PLP, pyridoxal phosphate.) Red bars indicate the probable sites of the inherited metabolic defects in type II tyrosinemia; neonatal tyrosinemia;",
+      "referenced_from": "c029",
+      "marker": "[FIGURE:fig-29-12]",
+      "description": "",
+      "label": "Figure 29-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19608,
+        19888
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tyrosine"
+    },
+    {
+      "fig_id": "fig-29-13",
+      "image_path": "images/ec756ecd1fd3ed18482d88857d3f4821e0db94362bfd73b460f2cc86a9093d3f.jpg",
+      "caption": "Alternative pathways of phenylalanine catabolism in phenylketonuria. The reactions also occur in normal liver tissue but are of minor significance.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-13]",
+      "description": "L-Phenylalanine is converted to Transaminase with α-Ketoglutarate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nL-Phenylalanine is converted to Phenylpyruvate with L-Glutamate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nTransaminase is converted to Phenylpyruvate with α-Ketoglutarate and L-Glutamate in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylpyruvate is converted to Phenylacetate with NAD+ and NADH + H+ in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylpyruvate is converted to Phenylactate with NAD+ and NADH + H+ in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylacetate is converted to Phenylacetylglutamine with L-Glutamine in alternative pathways of phenylalanine catabolism in phenylketonuria.\nPhenylactate is converted to Phenylacetylglutamine with H2O in alternative pathways of phenylalanine catabolism in phenylketonuria.\nThese reactions also occur in normal liver tissue but are of minor significance.",
+      "label": "Figure 29-13",
+      "panel": "",
+      "content_chunk": "c031",
+      "caption_span": [
+        20840,
+        20987
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "phenylalanine"
+    },
+    {
+      "fig_id": "fig-29-14",
+      "image_path": "images/5d74383b74abf2f6815a08ac78d68208b77ed172a743d92983177ac5840690a7.jpg",
+      "caption": "Reactions and intermediates in the catabolism of lysine.",
+      "referenced_from": "c033",
+      "marker": "[FIGURE:fig-29-14]",
+      "description": "",
+      "label": "Figure 29-14",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23066,
+        23122
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "lysine"
+    },
+    {
+      "fig_id": "fig-29-15",
+      "image_path": "",
+      "caption": "Reactions and intermediates in the catabolism of tryptophan. (PLP, pyridoxal phosphate.) ![](images/2097e5e19cc41ed59a660eec5844fd8c77ee0bd64b5defe1aed4e5b83df48395.jpg)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-15]",
+      "description": "L-Tryptophan is converted to N-L-Formylkynurenine by Tryptophan oxygenase (inducible) in the presence of Fe2+.\nN-L-Formylkynurenine is converted to L-Kynurenine with the release of Formate.\nL-Kynurenine is converted to 3-Hydroxyanthranilate.\n3-Hydroxyanthranilate is converted to α-Ketoadipate by 3-Hydroxyanthranilate oxidase in the presence of O2.\n2-Acroleyl-3-aminofumarate is converted to 2-Amino-cis, cis-muconate semialdehyde.\n2-Amino-cis, cis-muconate semialdehyde is converted to Oxalocrotonate.\nOxalocrotonate is converted to NAD(P)H + H.\nNAD(P)H + H is converted to NAD(P).\nNAD(P) is converted to α-Ketoadipate.\nThe diagram illustrates the catabolic pathway of tryptophan, showing the reactions and intermediates involved in its breakdown.",
+      "label": "Figure 29-15",
+      "panel": "",
+      "content_chunk": "c035",
+      "caption_span": [
+        23823,
+        23992
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "fig_id": "fig-29-16",
+      "image_path": "images/583bf88632d48a893467a6ba119a375f929a48da150768806e1cdc216137afc3.jpg",
+      "caption": "Formation of xanthurenate in vitamin B6 deficiency. Conversion of the tryptophan metabolite 3-hydroxykynurenine to 3-hydroxyanthranilate is impaired (see Figure 29–15). A large portion is therefore converted to xanthurenate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-16]",
+      "description": "",
+      "label": "Figure 29-16",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        24765,
+        24989
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "fig_id": "fig-x23",
+      "image_path": "images/f646811cc87bc6d83126d30142dfb2da75f60d7077e463fc593bef32a82fd48c.jpg",
+      "caption": "Protonation of a naphthalene derivative by an ammonium ion, illustrating a chemical reaction.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x23]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        25009,
+        25102
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "tryptophan"
+    },
+    {
+      "fig_id": "fig-29-17",
+      "image_path": "images/943d8f92ba6773bbdec989fbeff86120969a31be29ec01f64b75751295c34175.jpg",
+      "caption": "Formation of S-adenosylmethionine. \\~ CH₃ represents the high group transfer potential of “active methionine.”",
+      "referenced_from": "c037",
+      "marker": "[FIGURE:fig-29-17]",
+      "description": "",
+      "label": "Figure 29-17",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        25633,
+        25743
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "methionine"
+    },
+    {
+      "fig_id": "fig-29-18",
+      "image_path": "images/51bf2d3698d4b664f4c4a6e2be25abb612e7f0a684b1ef83e563356d45a612d4.jpg",
+      "caption": "Conversion of methionine to propionyl-CoA.",
+      "referenced_from": "c038",
+      "marker": "[FIGURE:fig-29-18]",
+      "description": "L-Methionine is converted to S-Adenosyl-L-methionine with the help of ATP, P1 + PP1.\nS-Adenosyl-L-methionine transfers a methyl group to an acceptor, forming S-Adenosyl-L-homocysteine and CH3-Acceptor.\nS-Adenosyl-L-homocysteine is converted to L-Homocysteine with the help of H2O and Adenosine.\nL-Homocysteine combines with L-Serine to form Cystathionine.\nCystathionine is converted to L-Cysteine by the enzyme Cystathionine β-synthase.\nL-Cysteine releases NH4+ to form α-Ketobutyrate.\nα-Ketobutyrate is converted to Propionyl-CoA with the help of CoASH, CO2, NAD+, NADH + H+.\nThe overall process represents the conversion of methionine to propionyl-CoA.",
+      "label": "Figure 29-18",
+      "panel": "",
+      "content_chunk": "c039",
+      "caption_span": [
+        25930,
+        25972
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "methionine"
+    },
+    {
+      "fig_id": "fig-29-19",
+      "image_path": "images/49d4f25927a07f8657fa85126380b38047dc5298ff1d5fff88f6c192e1f71a0d.jpg",
+      "caption": "The first three reactions in the catabolism of leucine, valine, and isoleucine. Note the analogy of reactions 2 and 3 to reactions of the catabolism of fatty acids (see Figure 22–2). The analogy to fatty acid catabolism continues, as shown in subsequent figures.",
+      "referenced_from": "c041",
+      "marker": "[FIGURE:fig-29-19]",
+      "description": "",
+      "label": "Figure 29-19",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        26959,
+        27221
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-29-21",
+      "image_path": "images/d4b07a43ddecb3904a3690e13e8be81e9d57d025ee1b8126fa8b8f5e3e5b2436.jpg",
+      "caption": "Subsequent catabolism of the tiglyl-CoA formed from L-isoleucine.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-21]",
+      "description": "",
+      "label": "Figure 29-21",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        27243,
+        27308
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-29-22",
+      "image_path": "images/932210edbb89b90402bddf72a9867879107a8eb7e9ce5ce845023704f20f617a.jpg",
+      "caption": "Subsequent catabolism of the methacrylyl-CoA formed from L-valine (see Figure 29–19). (α-AA, α-amino acid; α-KA, α-keto acid.)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-29-22]",
+      "description": "",
+      "label": "Figure 29-22",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        27330,
+        27456
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-x30",
+      "image_path": "images/5ca63a972cfec9fe881b371d139380f33348f8c40afe7515a8db0da8620c50ae.jpg",
+      "caption": "Oxidation of a carboxylic acid to form a sulfonamide and CoA, catalyzed by 4V.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x30]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        27476,
+        27554
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-29-20",
+      "image_path": "images/41ea522e0930175471e5186e6bed1fd7ecdacf57441733380e94beb57075d986.jpg",
+      "caption": "Catabolism of the β-methylcrotonyl-CoA formed from L-leucine. Asterisks indicate carbon atoms derived from CO₂.",
+      "referenced_from": "c042",
+      "marker": "[FIGURE:fig-29-20]",
+      "description": "β-Methylcrotonyl-CoA is converted to β-Methylglutaconyl-CoA with the help of biotinyl-CO2, 4L.\nβ-Methylcrotonyl-CoA is also converted to β-Methylglutaconyl-CoA with the help of biotin.\nβ-Methylglutaconyl-CoA is converted to β-Hydroxy-β-methylglutaryl-CoA with the help of H2O and 5L.\nβ-Hydroxy-β-methylglutaryl-CoA is converted to Acetoacetate with the help of 6L.\nAcetoacetate is converted to Acetyl-CoA.",
+      "label": "Figure 29-20",
+      "panel": "",
+      "content_chunk": "c043",
+      "caption_span": [
+        27833,
+        27944
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-x31",
+      "image_path": "images/1ab29fea33019d03d950d71983ee089b8aa09f283d415c82b816187d4bea7518.jpg",
+      "caption": "Oxidation of a carboxylic acid with NAD+ and NADH + H+ under 6V.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x31]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        28371,
+        28435
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    },
+    {
+      "fig_id": "fig-x32",
+      "image_path": "images/5f2108ad9ab7fa1f4fef054f5ff5563a3fd4e4d5ea43fa1cca2fcd5d9aaec672.jpg",
+      "caption": "Diagram illustrates the conversion of Succinyl-CoA to Methylmalonyl-CoA, involving α-AA and α-KA enzymes.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x32]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        28455,
+        28560
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-initial-reactions-are-common-to-all-three-branched"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-29-1",
+      "label": "Table 29-1",
+      "caption": "Maple Syrup Urine Disease Can Reflect Impaired Function of Various Components of the α -Ketoacid Decarboxylase Complex",
+      "referenced_from": "c044",
+      "content_chunk": "c045",
+      "caption_span": [
+        29986,
+        30104
+      ],
+      "section_id": "metabolic-disorders-of-branched-chain-amino-acid-catabolism"
+    },
+    {
+      "table_id": "tbl-29-2",
+      "label": "Table 29-2",
+      "caption": "Metabolic Diseases of Amino Acid Metabolism",
+      "referenced_from": "c044",
+      "content_chunk": "c046",
+      "caption_span": [
+        31006,
+        31049
+      ],
+      "section_id": "metabolic-disorders-of-branched-chain-amino-acid-catabolism"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Name the principal catabolites of the carbon skeletons of the protein amino acids and the major metabolic fates of these catabolites.\nWrite an equation for an aminotransferase (transaminase) reaction and illustrate the role played by the coenzyme pyridoxal phosphate.\nIdentify reactions associated with clinically significant disorders of amino acid metabolism.\nProvide examples of aminoacidurias that arise from defects in glomerular tubular reabsorption and the consequences of impaired intestinal absorption of tryptophan.\nExplain why defects affecting different enzymes of the catabolism of a specific amino acid can be associated with similar clinical signs and symptoms.\nDescribe the implications of a metabolic defect in Δ1 -pyrroline-5-carboxylate dehydrogenase for the catabolism of proline and of 4-hydroxyproline.\nExplain how the α -amino nitrogen of proline and of lysine is removed.\nDraw analogies between the reactions that participate in the catabolism of fatty acids and of the branched-chain amino acids.\nIdentify the specific metabolic defects in hypervalinemia, maple syrup urine disease, intermittent branched-chain ketonuria, isovaleric acidemia, and methylmalonic aciduria.",
+      "char_start": 53,
+      "char_end": 1248,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Adams AD, Fiesco-Roa MO, Wong L: Phenylalanine hydroxylase deficiency treatment and management: a systematic evidence review of the American College of Medical Genetics and Genomics. Genetic Med 2023;25:100358.\nAdhikari AN, Gallagher RC, Wang Y, et al: The role of exome sequencing in newborn screening for inborn errors of metabolism. Nature Med 2020;26:1392. [PubMed: 32778825]\nBijarna-Mahay S, Kapoor S: Testing modalities for inborn errors of metabolism—what a clinician needs to know? Indian Pediatr 2019;56:757. [PubMed: 31638009]\nChinsky JM, Singh R, Ficioglu C, et al: Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations. Genetics Med 2017;19:1380.\nCronan JE: Progress in the enzymology of the mitochondrial diseases of lipoic acid requiring enzymes. Frontiers Genet 2020;11: https://doi.org/10.3389/fgene.2020.00510\nGeng J, Liu A: Heme-dependent dioxygenases in tryptophan oxidation. Arch Biochem Biophys 2014;44:18.\nHealy L, O'Shea M, McNulty J: Glutaric aciduria type 1: diagnosis, clinical features and long-term outcome in a large cohort of 34 Irish patients. JMD Rep 2022;63:379.\nHubner V, Hannibal L, Janzen N, et al: Methionine adenosyltransferase I/III deficiency detected by newborn screening. Genes 2022;13:1163. [PubMed: 35885946]\nJuliette B, Manuel S: Inherited disorders of lysine metabolism: a review. J Nutrition 2020;150:25565.\nPontoizeau C, Simon-Sola Gaborit C, et al: Neonatal gene therapy achieves sustained disease rescue of ample syrup urine disease in mice. Nature Commun 2022;13:3278.\nStenn FF, Milgram JW, Lee SL, et al: Biochemical identification of homogentisic acid pigment in an ochronotic Egyptian mummy. Science 1977;197:566. [PubMed: 327549]\nVettore L, Westbrook RL, Tennant DA: New aspects of amino acid metabolism in cancer. Br J Cancer 2020;122:150–156. [PubMed: 31819187]",
+      "char_start": 37189,
+      "char_end": 39061,
+      "section_path": [
+        "Catabolism of the Carbon Skeletons of Amino Acids"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-marker",
+      "reason": "bold/italic marker in tagged content",
+      "count": 5,
+      "example": "Oxalocrotonate is converted to NAD(P)H + H*."
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x15",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x16",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x18",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-15",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-16",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x23",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-21",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-22",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x30",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x31",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x32",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-29-15",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids/chapter_29_catabolism_of_the_carbon_skeletons_of_amino_acids.normalized.md"
+}

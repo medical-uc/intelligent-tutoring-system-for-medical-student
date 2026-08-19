@@ -1,0 +1,25 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Deoxyribonucleases act on which substrate?",
+    "options": [
+      "capsule",
+      "deoxyguanylate",
+      "deoxynucleotide",
+      "deoxyribonucleic acid",
+      "nucleic acids"
+    ],
+    "answer": "deoxyribonucleic acid",
+    "rationale": "Nucleases that exhibit specificity for DNA are referred to as deoxyribonucleases.",
+    "citation": "chapter_34_nucleic_acid_structure_and_function — Overview > SPECIFIC NUCLEASES DIGEST NUCLEIC ACIDS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

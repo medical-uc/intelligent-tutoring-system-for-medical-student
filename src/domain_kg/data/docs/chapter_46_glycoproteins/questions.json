@@ -1,0 +1,370 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "UDP-N-acetylglucosamine acts on which substrate?",
+    "options": [
+      "amino groups of",
+      "DNA",
+      "dolichol pyrophosphate",
+      "lipids",
+      "oligosaccharide"
+    ],
+    "answer": "dolichol pyrophosphate",
+    "rationale": "The first step in the synthesis of the oligosaccharide is a reaction between UDP-N-acetylglucosamine and dolichol phosphate, forming N-acetylglucosamine dolichol pyrophosphate.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > -LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE > The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Asparagine acts on which substrate?",
+    "options": [
+      "amino groups of",
+      "DNA",
+      "dolichol pyrophosphate",
+      "lipids",
+      "oligosaccharide"
+    ],
+    "answer": "oligosaccharide",
+    "rationale": "The oligosaccharide is then transferred onto the acceptor asparagine residue of the nascent protein chain.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > -LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE > The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Dolichol pyrophosphate oligosaccharide requires which substance?",
+    "options": [
+      "amino acid",
+      "GDP-mannose",
+      "glycation",
+      "threonine",
+      "UDP-N-acetylglucosamine"
+    ],
+    "answer": "GDP-mannose",
+    "rationale": "The first five internal mannose residues in the pathway of biosynthesis of dolichol pyrophosphate oligosaccharide are donated by GDP mannose, while the more external mannose residues and glucose residues are donated by dolichol-P-mannose and dolichol-P-glucose (Figure 46-4).",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > -LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE > The Biosynthesis of N-Linked Glycoproteins Involves Dolichol-P-P-Oligosaccharide",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substrate does glucosidase act on to release the glycoprotein from the calnexin-ERp57 complex?",
+    "options": [
+      "chondroitin",
+      "glucose",
+      "glycosphingolipids",
+      "n-acetylglucosamine",
+      "sugar"
+    ],
+    "answer": "glucose",
+    "rationale": "The glycoprotein is released from the calnexin-ERp57 complex when the sole remaining glucose is hydrolyzed by a glucosidase.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > -LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE > Glycoproteins & Calnexin Ensure Correct Folding of Proteins in the Endoplasmic Reticulum",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is synthesized by cancer cells that differs from those made in normal cells?",
+    "options": [
+      "blood",
+      "glycosphingolipids",
+      "heparin sulfate chains",
+      "oligosaccharide",
+      "plasma"
+    ],
+    "answer": "oligosaccharide",
+    "rationale": "Cancer cells synthesize different oligosaccharide chains from those made in normal cells. Cancer cells express different patterns of glycosyltransferases compared to normal cells.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > -LINKED GLYCOPROTEINS CONTAIN AN ASPARAGINE- -ACETYLGLUCOSAMINE LINKAGE > Several Factors Regulate the Glycosylation of Glycoproteins",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance are fatty acids converted into during the synthesis of the GPI anchor?",
+    "options": [
+      "blood",
+      "nucleotide",
+      "oligosaccharide",
+      "phosphatidylinositol",
+      "plasma"
+    ],
+    "answer": "phosphatidylinositol",
+    "rationale": "The first stage in synthesis of the GPI anchor is insertion of the fatty acids of phosphatidylinositol into the luminal face of the endoplasmic reticulum membrane. The first stage in synthesis of the GPI anchor is followed by glycosylation, starting with esterification of N-acetyl-glucosamine to the phosphate group of phosphatidylinositol.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substance is transported by phosphatidylinositol during the synthesis of the GPI anchor?",
+    "options": [
+      "chondroitin",
+      "glycosphingolipids",
+      "lumen",
+      "n-acetylglucosamine",
+      "sugar"
+    ],
+    "answer": "lumen",
+    "rationale": "The first stage in synthesis of the GPI anchor is insertion of the fatty acids of phosphatidylinositol into the luminal face of the endoplasmic reticulum membrane. The first stage in synthesis of the GPI anchor is followed by glycosylation, starting with esterification of N-acetyl-glucosamine to the phosphate group of phosphatidylinositol.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES",
+    "relation": "transports",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substrate does GPI act on during the glycosylation process?",
+    "options": [
+      "chondroitin",
+      "glucose",
+      "glycosphingolipids",
+      "n-acetylglucosamine",
+      "sugar"
+    ],
+    "answer": "n-acetylglucosamine",
+    "rationale": "The first stage in synthesis of the GPI anchor is followed by glycosylation, starting with esterification of N-acetyl-glucosamine to the phosphate group of phosphatidylinositol. A terminal phosphoethanolamine moiety is added to the completed glycan chain.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > SOME PROTEINS ARE ANCHORED TO THE PLASMA MEMBRANE BY GLYCOPHOSPHATIDYL-INOSITOL STRUCTURES",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which substrate does glycation act on in the nonenzymatic attachment of sugars?",
+    "options": [
+      "blood",
+      "dolichol pyrophosphate",
+      "lipids",
+      "oligosaccharide",
+      "plasma"
+    ],
+    "answer": "lipids",
+    "rationale": "Glycation is the nonenzymic attachment of sugars, mainly glucose, to amino groups of proteins and other molecules like DNA and lipids. Glycosylation is an enzyme-catalyzed process.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > ADVANCED GLYCATION END-PRODUCTS (AGEs) ARE IMPORTANT IN CAUSING TISSUE DAMAGE IN DIABETES MELLITUS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Schiff is converted into which substance?",
+    "options": [
+      "amadori",
+      "chondroitin",
+      "glycosphingolipids",
+      "n-acetylglucosamine",
+      "sugar"
+    ],
+    "answer": "amadori",
+    "rationale": "The Schiff base then undergoes the Amadori rearrangement to yield ketoamines. The initial step is reversible if glucose concentration decreases.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > ADVANCED GLYCATION END-PRODUCTS (AGEs) ARE IMPORTANT IN CAUSING TISSUE DAMAGE IN DIABETES MELLITUS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which structure is the zona pellucida a part of?",
+    "options": [
+      "cancer cells",
+      "cell",
+      "hormone-cell",
+      "oocyte",
+      "platelets"
+    ],
+    "answer": "oocyte",
+    "rationale": "The zona pellucida is a thick, transparent envelope that surrounds the oocyte.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > GLYCOPROTEINS ARE INVOLVED IN MANY BIOLOGICal PROCESSES & IN MANY DISEASES > Glycoproteins Are Important in Fertilization",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognised cause of leukocyte adhesion deficiency II?",
+    "options": [
+      "blood",
+      "GDP-fucose absence of",
+      "glycosphingolipids",
+      "oligosaccharide",
+      "plasma"
+    ],
+    "answer": "GDP-fucose absence of",
+    "rationale": "Leukocyte adhesion deficiency II is a rare condition caused by mutations affecting the activity of a Golgi-located GDP-fucose transporter.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS > Abnormalities in the Synthesis of Glycoproteins Underlie Certain Diseases",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of fucosidosis?",
+    "options": [
+      "amino acid",
+      "glycation",
+      "o-linked glycoproteins",
+      "threonine",
+      "α-fucosidase"
+    ],
+    "answer": "α-fucosidase",
+    "rationale": "Fucosidosis is caused by a deficiency of α-fucosidase.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS > Genetic Deficiencies of Glycoprotein Lysosomal Hydrolases Cause Diseases Such as α-Mannosidosis",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which of the following is a recognised cause of aspartylglucosaminuria?",
+    "options": [
+      "bacterial infections",
+      "coronavirus disease",
+      "deficiency II",
+      "deficiency of aspartylglucosaminidase",
+      "diabetes mellitus"
+    ],
+    "answer": "deficiency of aspartylglucosaminidase",
+    "rationale": "Aspartylglucosaminuria is caused by a deficiency of aspartylglucosaminidase.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > LECTINS A CLASS OF CARBOHYDRATE BINDING PROTEINS > Genetic Deficiencies of Glycoprotein Lysosomal Hydrolases Cause Diseases Such as α-Mannosidosis",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which of the following is a recognised cause of peptic ulcers?",
+    "options": [
+      "bacterium-cell",
+      "biosimilar",
+      "coronavirus",
+      "helicobacter pylori",
+      "human"
+    ],
+    "answer": "helicobacter pylori",
+    "rationale": "Helicobacter pylori is the major cause of peptic ulcers.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins > HUMAN CELLS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Mucins are found within which structure?",
+    "options": [
+      "cancer cells",
+      "cell",
+      "epithelial cells",
+      "hormone-cell",
+      "neutrophil cell"
+    ],
+    "answer": "epithelial cells",
+    "rationale": "Mucins are a class of O-linked glycoproteins that are distributed on the surfaces of epithelial cells of the respiratory, gastrointestinal, and reproductive tracts.",
+    "citation": "chapter_46_glycoproteins — Glycoproteins",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

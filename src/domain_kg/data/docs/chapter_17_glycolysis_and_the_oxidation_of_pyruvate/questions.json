@@ -1,0 +1,485 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In the presence of oxygen, pyruvate is converted into which substance?",
+    "options": [
+      "1,3-bisphosphoglycerate",
+      "acetyl-CoA",
+      "dihydroxyacetone phosphate",
+      "fructose-6-phosphate",
+      "triose"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "In the presence of oxygen, pyruvate can be oxidized to form acetyl-CoA.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > Overview",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is predominantly required by the brain for its energy needs?",
+    "options": [
+      "cellular ATP",
+      "glucose",
+      "mg2+",
+      "mn2+",
+      "phosphate"
+    ],
+    "answer": "glucose",
+    "rationale": "The brain is predominantly reliant on glucose for its energy needs. In prolonged fasting, ketone bodies can meet about 20% of the brain's energy needs.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognized cause of lactic acidosis?",
+    "options": [
+      "anoxic",
+      "ischemia",
+      "liver disease",
+      "metabolic disorders",
+      "p"
+    ],
+    "answer": "liver disease",
+    "rationale": "Type B lactic acidosis is due to the impaired ability to metabolize lactate, such as in liver disease and thiamine deficiency. Thiamin (vitamin B1) deficiency impairs the activity of pyruvate dehydrogenase.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "NAD+ is converted into which substance during cellular respiration?",
+    "options": [
+      "acetyl-CoA",
+      "dihydroxyacetone phosphate",
+      "fructose-6-phosphate",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "pyruvate",
+    "rationale": "NADH is reoxidized by reducing pyruvate to lactate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CAN FUNCTION UNDER ANAEROBIC CONDITIONS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Glyceraldehyde-3-phosphate dehydrogenase acts on which substrate in the glycolysis pathway?",
+    "options": [
+      "cellular ATP",
+      "citric acid",
+      "glucose",
+      "NAD+",
+      "oxygen"
+    ],
+    "answer": "cellular ATP",
+    "rationale": "In the glycolysis pathway, glyceraldehyde-3-phosphate dehydrogenase catalyzes the reaction that leads to the respiratory chain oxidation of 2 NADH, producing 5 ATP per mol of glucose.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CAN FUNCTION UNDER ANAEROBIC CONDITIONS",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Isocitrate dehydrogenase acts on which substrate?",
+    "options": [
+      "cellular ATP",
+      "citric acid",
+      "glucose",
+      "NAD+",
+      "oxygen"
+    ],
+    "answer": "cellular ATP",
+    "rationale": "In the citric acid cycle, isocitrate dehydrogenase catalyzes the reaction that leads to the respiratory chain oxidation of 2 NADH, producing 5 ATP per mol of glucose.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CAN FUNCTION UNDER ANAEROBIC CONDITIONS",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Α-ketoglutarate dehydrogenase acts on which substrate?",
+    "options": [
+      "cellular ATP",
+      "citric acid",
+      "glucose",
+      "NAD+",
+      "oxygen"
+    ],
+    "answer": "cellular ATP",
+    "rationale": "In the citric acid cycle, α-ketoglutarate dehydrogenase catalyzes the reaction that leads to the respiratory chain oxidation of 2 NADH, producing 5 ATP per mol of glucose.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CAN FUNCTION UNDER ANAEROBIC CONDITIONS",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Glycogen phosphorylase acts on which substrate during anaerobic glycolysis in muscle?",
+    "options": [
+      "flavin adenine",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "pyruvate",
+      "substrate-level"
+    ],
+    "answer": "glucose-1-phosphate",
+    "rationale": "Using glycogen rather than glucose for anaerobic glycolysis in muscle is advantageous because the product of glycogen phosphorylase is glucose-1-phosphate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CAN FUNCTION UNDER ANAEROBIC CONDITIONS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Cellular ATP is required for which process involving glucose?",
+    "options": [
+      "cytosolic NADH",
+      "mg2+",
+      "mn2+",
+      "oxygen",
+      "phosphate"
+    ],
+    "answer": "phosphate",
+    "rationale": "ATP is used as the phosphate donor in the phosphorylation of glucose.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Hexokinase is found within which structure?",
+    "options": [
+      "adipose tissue",
+      "brain",
+      "liver",
+      "muscle",
+      "tissues"
+    ],
+    "answer": "muscle",
+    "rationale": "In muscle, hexokinase is found bound to the outer mitochondrial membrane.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substrate does phosphohexose isomerase act on in glycolysis?",
+    "options": [
+      "flavin adenine",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "pyruvate",
+      "substrate-level"
+    ],
+    "answer": "glucose-6-phosphate",
+    "rationale": "In glycolysis, glucose-6-phosphate is converted to fructose-6-phosphate by phosphohexose isomerase.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "What is the substrate for phosphofructokinase-1 in glycolysis?",
+    "options": [
+      "flavin adenine",
+      "fructose 1,6-bisphosphate",
+      "glucose-1-phosphate",
+      "pyruvate",
+      "substrate-level"
+    ],
+    "answer": "fructose 1,6-bisphosphate",
+    "rationale": "The reaction catalyzed by phosphohexose isomerase is followed by another phosphorylation catalyzed by phosphofructokinase-1, forming fructose 1,6-bisphosphate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "What substance is fructose 1,6-bisphosphate converted into by aldolase?",
+    "options": [
+      "1,3-bisphosphoglycerate",
+      "3-phosphoglycerate",
+      "acetyl-CoA",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "triose",
+    "rationale": "Fructose 1,6-bisphosphate is cleaved by aldolase into two triose phosphates: glyceraldehyde-3 phosphate and dihydroxyacetone phosphate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "What substance is arsenate converted into during glycolysis?",
+    "options": [
+      "3-phosphoglycerate",
+      "acetyl-CoA",
+      "fructose-6-phosphate",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "3-phosphoglycerate",
+    "rationale": "Arsenate forms 1-arseno-3-phosphoglycerate, which spontaneously hydrolyzes to 3-phosphoglycerate without ATP formation.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION > A flowchart for the oxidation of glyceraldehyde-3 phosphate.",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "What is the substrate that enolase acts on in glycolysis?",
+    "options": [
+      "flavin adenine",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "phosphoenolpyruvate",
+      "substrate-level"
+    ],
+    "answer": "phosphoenolpyruvate",
+    "rationale": "Enolase catalyzes the dehydration of 2-phosphoglycerate to form phosphoenolpyruvate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION > A flowchart for the oxidation of glyceraldehyde-3 phosphate.",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "What substance is required by enolase for its activity?",
+    "options": [
+      "cellular ATP",
+      "glucose",
+      "mn2+",
+      "phosphate",
+      "thiamin diphosphate"
+    ],
+    "answer": "mn2+",
+    "rationale": "Enolase requires Mn2+ ions for activity.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION > A flowchart for the oxidation of glyceraldehyde-3 phosphate.",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Pyruvic is converted into which substance?",
+    "options": [
+      "acetyl-CoA",
+      "dihydroxyacetone phosphate",
+      "fructose-6-phosphate",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "pyruvate",
+    "rationale": "This irreversibility is due to the large free-energy change and the spontaneous isomerization of the immediate product, enolpyruvate, to pyruvate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION > A flowchart for the oxidation of glyceraldehyde-3 phosphate.",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "What substance is acetyl-CoA converted into under aerobic conditions?",
+    "options": [
+      "1,3-bisphosphoglycerate",
+      "carbon dioxide",
+      "dihydroxyacetone phosphate",
+      "fructose-6-phosphate",
+      "triose"
+    ],
+    "answer": "carbon dioxide",
+    "rationale": "Under aerobic conditions, acetyl-CoA is oxidized to CO2 in the citric acid cycle.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS CONSTITUTES THE MAIN PATHWAY OF GLUCOSE UTILIZATION > A flowchart for the oxidation of glyceraldehyde-3 phosphate.",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "What substance is 2,3-bisphosphoglycerate converted into?",
+    "options": [
+      "3-phosphoglycerate",
+      "acetyl-CoA",
+      "fructose-6-phosphate",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "3-phosphoglycerate",
+    "rationale": "2,3-bisphosphoglycerate is then hydrolyzed to 3-phosphoglycerate and P by 2,3-bisphosphoglycerate phosphatase (Figure 17-4).",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > GLYCOLYSIS IS REGULATED AT THREE NONEQUILIBRIUM REACTIONS > In Erythrocytes, the First Site of ATP Formation in Glycolysis May Be Bypassed",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "What role does insulin play in the conversion of substances in adipose tissue?",
+    "options": [
+      "acetyl-CoA",
+      "dihydroxyacetone phosphate",
+      "fructose-6-phosphate",
+      "pyruvate",
+      "triose"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "In adipose tissue, pyruvate dehydrogenase is activated in response to insulin, where glucose provides acetyl-CoA for lipogenesis.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview > THE OXIDATION OF PYRUVATE TO ACETYL-COA IS THE IRREVERSIBLE ROUTE FROMGLYCOLYSIS TO THE CITRIC ACID CYCLE > Pyruvate Dehydrogenase Is Regulated by End-Product Inhibition & Covalent Modification",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is required by pyruvate dehydrogenase?",
+    "options": [
+      "glucose",
+      "mg2+",
+      "mn2+",
+      "oxygen",
+      "thiamin diphosphate"
+    ],
+    "answer": "thiamin diphosphate",
+    "rationale": "Pyruvate is oxidized to acetyl-CoA by a multienzyme complex, pyruvate dehydrogenase, which is dependent on the vitamin-derived cofactor thiamin diphosphate.",
+    "citation": "chapter_17_glycolysis_and_the_oxidation_of_pyruvate — Overview",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  }
+]

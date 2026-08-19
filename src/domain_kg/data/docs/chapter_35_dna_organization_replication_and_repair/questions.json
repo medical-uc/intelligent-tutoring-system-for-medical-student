@@ -1,0 +1,71 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substrate does DnaG act on?",
+    "options": [
+      "amino terminal thirds of",
+      "carboxyl",
+      "cellular DNA",
+      "dsDNA",
+      "nonprotein"
+    ],
+    "answer": "cellular DNA",
+    "rationale": "In E. coli, the enzyme dnaG, known as primase, catalyzes the formation of these RNA primers. In eukaryotes, DNA Pol α is responsible for synthesizing these RNA primers.",
+    "citation": "chapter_35_dna_organization_replication_and_repair — Overview > DNA SYNTHESIS & REPLICATION ARE RIGIDLY CONTROLLED > Initiation & Elongation of DNA Synthesis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which substance is synthesized by the cell during the S phase?",
+    "options": [
+      "amino terminal thirds of",
+      "carboxyl",
+      "cellular DNA",
+      "dsDNA",
+      "nonprotein"
+    ],
+    "answer": "cellular DNA",
+    "rationale": "During the S phase, mammalian cells produce more DNA polymerase.",
+    "citation": "chapter_35_dna_organization_replication_and_repair — Overview > DNA SYNTHESIS & REPLICATION ARE RIGIDLY CONTROLLED > DNA Synthesis Occurs During the S Phase of the Cell Cycle",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "P53 is a risk factor for which condition?",
+    "options": [
+      "\\~145",
+      "cancer",
+      "DNA wound",
+      "hereditary disease",
+      "p"
+    ],
+    "answer": "cancer",
+    "rationale": "P53 is one of the most frequently mutated genes in human cancers.",
+    "citation": "chapter_35_dna_organization_replication_and_repair — Overview > DNA SYNTHESIS & REPLICATION ARE RIGIDLY CONTROLLED > DNA & Chromosome Integrity Is Monitored Throughout the Cell Cycle",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

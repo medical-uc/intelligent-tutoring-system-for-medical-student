@@ -27,7 +27,7 @@ from neo4j import Driver
 from src.student_kg.driver import make_driver
 
 INFERRED_GRAPH = "inferred"
-IMPORT_FILE = "file:///import/domain_kg/graph.nt"
+IMPORT_FILE = "file:///import/domain_kg/data/graph.nt"
 
 
 def _default_graph_to_ntriples(
@@ -118,10 +118,10 @@ def rename_label_property(driver: Driver) -> None:
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--nq", default="src/domain_kg/graph.nq")
+    ap.add_argument("--nq", default="src/domain_kg/data/graph.nq")
     ap.add_argument(
         "--nt-out",
-        default="src/domain_kg/graph.nt",
+        default="src/domain_kg/data/graph.nt",
         help="intermediate N-Triples file, written under the " "neo4j import mount",
     )
     ap.add_argument(

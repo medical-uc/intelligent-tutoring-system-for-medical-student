@@ -1,0 +1,806 @@
+{
+  "doc_id": "chapter_22_oxidation_of_fatty_acids_ketogenesis",
+  "source": {
+    "source_id": "chapter_22_oxidation_of_fatty_acids_ketogenesis",
+    "title": "Oxidation of Fatty Acids: Ketogenesis",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the oxidation of fatty acids and ketogenesis, focusing on the metabolic processes and energy production involved.",
+    "page": null,
+    "origin": "chapter_22_oxidation_of_fatty_acids_ketogenesis.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 00:32:20"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Fatty acids are broken down in mitochondria by oxidation to acetyl-CoA in a process that generates large amounts of energy. Acetoacetate, D-3-hydroxybutyrate, and acetone are collectively known as the ketone bodies. The liver produces ketone bodies when fatty acid oxidation is proceeding at a high rate. Acetoacetate and D-3-hydroxybutyrate are used as fuels by extrahepatic tissues in normal metabolism. Overproduction of ketone bodies causes ketosis. Increased fatty acid oxidation leads to ketosis. Starvation is a condition that increases fatty acid oxidation. Diabetes mellitus is a condition that increases fatty acid oxidation. Ketone bodies are acidic. Excess production of ketone bodies over long periods causes ketoacidosis. Ketoacidosis is potentially life-threatening. Ketoacidosis occurs in diabetes. Gluconeogenesis is dependent on fatty acid oxidation. Impairment in fatty acid oxidation leads to hypoglycemia. Carnitine deficiency is a state that impairs fatty acid oxidation. Deficiency of essential enzymes in fatty acid oxidation leads to hypoglycemia. Carnitine palmitoyltransferase deficiency is an example of an enzyme deficiency that impairs fatty acid oxidation. Hypoglycin is a poison that inhibits fatty acid oxidation. Inhibition of fatty acid oxidation by hypoglycin leads to hypoglycemia.",
+      "char_start": 980,
+      "char_end": 2298,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Acetyl-CoA is an end point of fatty acid catabolism. Acetyl-CoA is the starting substrate for fatty acid synthesis. Fatty acid breakdown is not the reverse of the biosynthetic pathway. Fatty acid breakdown is an entirely separate process. Fatty acid oxidation occurs in mitochondria. Fatty acid biosynthesis occurs in the cytosol. Each process is individually controlled. Each process is integrated with tissue requirements.\n\nEach step in fatty acid oxidation involves acyl-CoA derivatives. Each step in fatty acid oxidation is catalyzed by separate enzymes. Each step utilizes FAD as a coenzyme. Each step generates ATP. Fatty acid oxidation is an aerobic process. Fatty acid oxidation requires the presence of oxygen.",
+      "char_start": 2351,
+      "char_end": 3070,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxidation-of-fatty-acids-occurs-in-mitochondria"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "Free fatty acids (FFAs) are in the unesterified state.\n\nFree fatty acids are also called unesterified (UFA) or nonesterified (NEFA) fatty acids.\n\nIn plasma, longer-chain FFA are combined with albumin.\n\nIn the cell, longer-chain FFA are attached to a fatty acid-binding protein.\n\nShorter-chain fatty acids are more water soluble.\n\nShorter-chain fatty acids exist as the unionized acid or as a fatty acid anion.",
+      "char_start": 3137,
+      "char_end": 3546,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA",
+        "Fatty Acids Are Transported in the Blood as Free Fatty Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "fatty-acids-are-transported-in-the-blood-as-free-fatty-acids"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Fatty acids must be converted to an active intermediate before they can be catabolized. The conversion of fatty acids to an active intermediate is the only step in the complete degradation of a fatty acid that requires energy from ATP. In the presence of ATP and coenzyme A, the enzyme acyl-CoA synthetase (thiokinase) catalyzes the conversion of a free fatty acid to an 'active FFA' or acyl-CoA. Acyl-CoA synthetases are found on the outer membrane of mitochondria and also in the endoplasmic reticulum and peroxisomes. Long-chain acyl-CoA freely enters the intermembrane space. For transport across the inner mitochondrial membrane, acyl groups are transferred from CoA to carnitine by carnitine palmitoyltransferase-I. The acylcarnitine formed is carried into the matrix by a translocase enzyme in exchange for a free carnitine. Acyl-CoA is reformed by carnitine palmitoyltransferase-II in the matrix (Figure 22–1).",
+      "char_start": 3603,
+      "char_end": 4521,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA",
+        "Fatty Acids Are Activated Before Being Catabolized"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-22-1"
+      ],
+      "table_refs": [],
+      "section_id": "fatty-acids-are-activated-before-being-catabolized"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Carnitine is a compound that is widely distributed in the body and particularly abundant in muscle.\n\nAcyl-CoAs are able to enter the intermembrane space but require carnitine to cross the inner mitochondrial membrane into the matrix where fatty acid breakdown takes place.\n\nCarnitine palmitoyltransferase-I is an enzyme located in the outer mitochondrial membrane.\n\nCarnitine palmitoyltransferase-I transfers the long-chain acyl group from CoA to carnitine, forming acylcarnitine and releasing CoA.\n\nCarnitine-acylcarnitine translocase is an enzyme found in the inner mitochondrial membrane.\n\nCarnitine-acylcarnitine translocase binds acylcarnitine and transports it across the membrane in exchange for carnitine.\n\nCarnitine palmitoyltransferase-II is located on the inside of the inner membrane.\n\nCarnitine palmitoyltransferase-II catalyzes the transfer of the acyl group to CoA, reforming acyl-CoA and releasing carnitine.",
+      "char_start": 5075,
+      "char_end": 5999,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "OXIDATION OF FATTY ACIDS OCCURS IN MITOCHONDRIA",
+        "Long-Chain Fatty Acids Cross the Inner Mitochondrial Membrane as Carnitine Derivatives"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "long-chain-fatty-acids-cross-the-inner-mitochondrial"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "In the pathway for the oxidation of fatty acids, two carbons at a time are cleaved from acyl-CoA molecules, starting at the carboxyl end. The two-carbon units formed are acetyl-CoA. Palmitoyl(C16)-CoA forms eight acetyl-CoA molecules.",
+      "char_start": 6087,
+      "char_end": 6321,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxidation-of-fatty-acids-involves-successive-cleavage-with"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "FADH_{2} and NADH are used to form ATP by oxidative phosphorylation (see Chapter 13) (Figure 22-2).",
+      "char_start": 6372,
+      "char_end": 6471,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "The β-Oxidation Cycle Generates FADH₂ & NADH"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-22-2"
+      ],
+      "table_refs": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "L-3-hydroxyacyl-CoA dehydrogenase forms 3-ketoacyl-CoA. 3-ketoacyl-CoA-thiolase splits 3-ketoacyl-CoA at the 2,3-position. 3-ketoacyl-CoA-thiolase forms acetyl-CoA and a new acyl-CoA two carbons shorter than the original molecule. The shorter acyl-CoA reenters the oxidative pathway at reaction 2. For example, after seven cycles, the C16 fatty acid, palmitate, is converted to eight acetyl-CoA molecules. The citric acid cycle achieves complete oxidation of fatty acids.",
+      "char_start": 6569,
+      "char_end": 7040,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "The β-Oxidation Cycle Generates FADH₂ & NADH"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Fatty acid is converted to CoA - SH by Acyl-CoA synthetase.\nCoA - SH reacts with ATP to form AMP + PPi.\nAMP + PPi is associated with R-3CH2-2CH2-C ~ S - CoA.\nR-3CH2-2CH2-C ~ S - CoA is converted to Acyl-CoA.\nAcyl-CoA is transported by the Carnitine transporter to R-3CH2-2CH2-C ~ S - CoA.\nR-3CH2-2CH2-C ~ S - CoA is converted to Acyl-CoA.\nAcyl-CoA is dehydrogenated by Acyl-CoA dehydrogenase with the help of FAD.\nFAD is reduced to FADH2 in the presence of Acyl-CoA.\nFADH2 donates electrons to the respiratory chain producing 1.5 ~ P.\n1.5 ~ P is associated with the production of H2O.\nH2O is involved in the formation of Δ2-trans-Enoyl-CoA.\nΔ2-trans-Enoyl-CoA is hydrated by Δ2-Enoyl-CoA hydratase to form OH.\nOH is converted to L-3-Hydroxy-acyl-CoA.\nL-3-Hydroxy-acyl-CoA is dehydrated by H2O to form L-3-Hydroxyacyl-CoA dehydrogenase.\nL-3-Hydroxyacyl-CoA dehydrogenase reduces NAD+ to NADH + H+.\nNADH + H+ produces 2.5 ~ Z.\n2.5 ~ Z is associated with the formation of 3-Ketoacyl-CoA.\n3-Ketoacyl-CoA is converted to 3-Ketoacyl-CoA by Thiolase.\n3-Ketoacyl-CoA reacts with CoA - SH in the enzymatic steps involved in the beta-oxidation of fatty acids, showing the conversion of acyl-CoA to acetyl-CoA and the associated energy production.",
+      "char_start": 7239,
+      "char_end": 8475,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "The β-Oxidation Cycle Generates FADH₂ & NADH"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Acyl-CoA is converted to Acetyl-CoA.\nAcetyl-CoA enters the citric acid cycle.\nThe citric acid cycle produces 2CO2.\nAcyl-CoA is converted to Acetyl-CoA, which enters the citric acid cycle to produce 2CO2.",
+      "char_start": 8584,
+      "char_end": 8787,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "The β-Oxidation Cycle Generates FADH₂ & NADH"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Fatty acids with an odd number of carbon atoms are oxidized by the same pathway. The β-oxidation pathway produces acetyl-CoA until a three-carbon (propionyl-CoA) residue remains. Propionyl-CoA is converted to succinyl-CoA. Succinyl-CoA is a constituent of the citric acid cycle (see Chapter 16). The propionyl residue from an odd-chain fatty acid is the only part of a fatty acid that is glucogenic.",
+      "char_start": 8789,
+      "char_end": 9188,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "The β-Oxidation Cycle Generates FADH₂ & NADH"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "The breakdown of 1 mol of the C16 fatty acid, palmitate, requires seven cycles and produces 8 mol of acetyl-CoA.\n\nOxidation of the reducing equivalents via the respiratory chain leads to the synthesis of 28 mol of ATP (Table 22--1 and see Chapter 13).\n\nOxidation of acetyl-CoA via the citric acid cycle produces 80 mol of ATP (see Table 22--1 and Chapter 16).\n\nThe breakdown of 1 mol of palmitate yields a gross total of 108 mol of ATP.",
+      "char_start": 9252,
+      "char_end": 9688,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "Oxidation of Fatty Acids Produces a Large Quantity of ATP"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxidation-of-fatty-acids-produces-a-large-quantity-of-atp"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "In the activation step, 2 ATP are used per mol of palmitate.\nIn the β-oxidation step, 7 mol of FADH2 are formed per mol of palmitate.\nEach mol of FADH2 formed in the β-oxidation step yields 1.5 mol of ATP.\nIn the β-oxidation step, 10.5 mol of ATP are formed per mol of palmitate from FADH2.\nIn the β-oxidation step, 7 mol of NADH are formed per mol of palmitate.\nEach mol of NADH formed in the β-oxidation step yields 2.5 mol of ATP.\nIn the β-oxidation step, 17.5 mol of ATP are formed per mol of palmitate from NADH.\nIn the citric acid cycle, 8 mol of acetyl-CoA are formed per mol of palmitate.\nEach mol of acetyl-CoA formed in the citric acid cycle yields 10 mol of ATP.\nIn the citric acid cycle, 80 mol of ATP are formed per mol of palmitate from acetyl-CoA.\nThe total ATP formed per mol of palmitate is 108 mol.\nThe total ATP used per mol of palmitate is 2 mol.",
+      "char_start": 9757,
+      "char_end": 10623,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "Oxidation of Fatty Acids Produces a Large Quantity of ATP"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxidation-of-fatty-acids-produces-a-large-quantity-of-atp"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Two high-energy phosphates are used in the initial activation step (see Figure 22--2).\n\nThere is a net gain of 106 mol of ATP per mole of palmitate used (see Table 22--1).\n\nThe net gain of 106 mol of ATP represents 33% of the free energy of combustion of palmitic acid.\n\nThe oxidation of 1 mol of the C16 fatty acid, palmitate, generates 106 mol of ATP (108 formed in total—2 used in the activation step).",
+      "char_start": 10625,
+      "char_end": 11030,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "Oxidation of Fatty Acids Produces a Large Quantity of ATP"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxidation-of-fatty-acids-produces-a-large-quantity-of-atp"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Peroxisomes perform a modified form of β-oxidation. Peroxisomes break down very-long-chain fatty acids, such as C20 and C22. The breakdown results in the formation of acetyl-CoA and H_{2}O_{2}. Peroxisomes do not form ATP during this process. Catalase breaks down H_{2}O_{2}.\n\nHigh-fat diets induce the enzymes involved in peroxisomal oxidation. In some species, hypolipidemic drugs like clofibrate also induce these enzymes.",
+      "char_start": 11084,
+      "char_end": 11509,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "β-OXIDATION OF FATTY ACIDS INVOLVES SUCCESSIVE CLEAVAGE WITH RELEASE OF ACETYL-COA",
+        "Peroxisomes Oxidize Very-Long-Chain Fatty Acids"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "peroxisomes-oxidize-very-long-chain-fatty-acids"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Acetoacetate undergoes spontaneous decarboxylation to yield acetone. Acetoacetate, D-3-hydroxybutyrate, and acetone are collectively known as the ketone bodies. Ketone bodies are also called acetone bodies or [incorrectly] 'ketones'.\n\nAcetoacetate and 3-hydroxybutyrate are interconverted by the mitochondrial enzyme D-3-hydroxybutyrate dehydrogenase.",
+      "char_start": 11678,
+      "char_end": 12029,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-occurs-when-there-is-a-high-rate-of-fatty-acid"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Acetone spontaneously converts to Acetoacetate.\nAcetoacetate, in the presence of NADH + H⁺, is converted by D-3-Hydroxybutyrate dehydrogenase.\nD-3-Hydroxybutyrate dehydrogenase requires NAD⁺ to convert back to Acetoacetate.\nD-3-Hydroxybutyrate dehydrogenase produces D-3-Hydroxybutyrate from Acetoacetate.\nD-3-Hydroxybutyrate releases CO₂ to form Acetone.\nThe diagram illustrates the interrelationships of the ketone bodies.",
+      "char_start": 12153,
+      "char_end": 12577,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-occurs-when-there-is-a-high-rate-of-fatty-acid"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The concentration of total ketone bodies in the blood of well-fed mammals does not normally exceed 0.2 mmol/L. In ruminants, 3-hydroxybutyrate is formed continuously from butyric acid in the rumen wall. In nonruminants, the liver appears to be the only organ that adds significant quantities of ketone bodies to the blood.\n\nExtrahepatic tissues utilize acetoacetate as respiratory substrates. Extrahepatic tissues utilize 3-hydroxybutyrate as respiratory substrates. Acetone is a waste product. Acetone is volatile, and can be excreted via the lungs. There is active synthesis of ketone bodies in the liver. There is little utilization of ketone bodies in the liver. Ketone bodies are used in extrahepatic tissues. Ketone bodies are not produced in extrahepatic tissues. There is a net flow of ketone compounds to the extrahepatic tissues.",
+      "char_start": 12579,
+      "char_end": 13418,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-occurs-when-there-is-a-high-rate-of-fatty-acid"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "The enzymes responsible for ketone body formation (ketogenesis) are associated mainly with the mitochondria. Acetoacetyl-CoA is formed when two acetyl-CoA molecules produced via fatty acid breakdown condense to form acetoacetyl-CoA by a reversal of the thiolase reaction.",
+      "char_start": 13473,
+      "char_end": 13744,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER",
+        "Acetoacetyl-CoA Is the Substrate for Ketogenesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acetoacetyl-coa-is-the-substrate-for-ketogenesis"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Condensation of acetoacetyl-CoA with another molecule of acetyl-CoA by 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) synthase forms HMG-CoA. HMG-CoA lyase then causes acetyl-CoA to split off from the HMG-CoA, leaving free acetoacetate. Both enzymes must be present in mitochondria for ketogenesis to take place.\n\nIn mammals, ketone bodies are formed solely in the liver and in the rumen epithelium. 3-Hydroxybutyrate is formed from acetoacetate. 3-Hydroxybutyrate is quantitatively the predominant ketone body present in the blood and urine in ketosis.",
+      "char_start": 13829,
+      "char_end": 14376,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER",
+        "Acetoacetyl-CoA Is the Substrate for Ketogenesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acetoacetyl-coa-is-the-substrate-for-ketogenesis"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "In the liver, an active enzymatic mechanism produces acetoacetate from acetoacetyl-CoA. Once acetoacetate is formed, it can only be reactivated by linking directly to CoA in the cytosol. The reactivation of acetoacetate is used in a less active pathway as a precursor in cholesterol synthesis. The net production of ketone bodies by the liver is accounted for by this process.\n\nIn extrahepatic tissues, acetoacetate is activated to acetoacetyl-CoA by succinyl-CoA-acetoacetate-CoA transferase. CoA is transferred from succinyl-CoA to form acetoacetyl-CoA. The addition of a CoA allows two acetyl-CoA molecules to be formed by the splitting of acetoacetyl-CoA by thiolase. Two acetyl-CoA molecules are oxidized in the citric acid cycle. 3-Hydroxybutyrate is utilized by converting to acetoacetate, which generates an NADH in the process. 1 mol of acetoacetate or 3-hydroxybutyrate yields 19 or 21.5 mol of ATP, respectively, by these pathways. At this stage, a large proportion of oxygen consumption may be accounted for by their oxidation.",
+      "char_start": 14437,
+      "char_end": 15476,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER",
+        "Ketone Bodies Serve as a Fuel for Extrahepatic Tissues"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketone-bodies-serve-as-a-fuel-for-extrahepatic-tissues"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "In moderate ketonemia, the loss of ketone bodies via the urine is only a few percent of the total ketone body production and utilization. There are renal threshold-like effects that vary between species and individuals. Measurement of ketonemia, not ketonuria, is the preferred method of assessing the severity of ketosis. The term ketones should not be used as there are ketones in blood that are not ketone bodies, for example, pyruvate and fructose. (Figure 22-5)",
+      "char_start": 15478,
+      "char_end": 15944,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER",
+        "Ketone Bodies Serve as a Fuel for Extrahepatic Tissues"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-22-5"
+      ],
+      "table_refs": [],
+      "section_id": "ketone-bodies-serve-as-a-fuel-for-extrahepatic-tissues"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "FFA undergoes β-Oxidation to form Acyl-CoA.\nAcyl-CoA undergoes β-Oxidation to produce Acetyl-CoA.\nAcetyl-CoA is converted into HMG-CoA.\nHMG-CoA is transformed into Acetoacetate.\nAcetoacetate produces NADH + H+.\nAcetoacetate consumes NAD+.\nAcetoacetate is converted into 3-Hydroxybutyrate.\n3-Hydroxybutyrate is converted back into Acetoacetate.\nAcetoacetate produces NADH + H+.\nNADH + H+ is converted into NAD+.\nNAD+ facilitates the conversion of Acetoacetyl-CoA.\nAcetoacetyl-CoA is broken down by Thiolase to form Acetyl-CoA.\nAcetyl-CoA is used to form Acetoacetyl-CoA.\nAcetoacetyl-CoA is converted into Succinate.\nSuccinate is converted into OAA.\nOAA enters the Citric acid cycle.\nThe Citric acid cycle produces Succinyl-CoA.\nSuccinyl-CoA is converted into Citrate.\nCitrate is broken down into 2CO2.\n2CO2 produces NADH + H+.\nNADH + H+ is converted into Acetyl-CoA.\nAcetyl-CoA is utilized in extrahepatic tissues, such as muscle.\nThe diagram illustrates the transport and utilization of ketone bodies from the liver in extrahepatic tissues.",
+      "char_start": 16264,
+      "char_end": 17304,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS OCCURS WHEN THERE IS A HIGH RATE OF FATTY ACID OXIDATION IN THE LIVER",
+        "Ketone Bodies Serve as a Fuel for Extrahepatic Tissues"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketone-bodies-serve-as-a-fuel-for-extrahepatic-tissues"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "Ketosis does not occur in vivo unless there is an increase in the level of circulating free fatty acids (FFAs) arising from lipolysis of triacylglycerol in adipose tissue. Free fatty acids (FFAs) are the precursors of ketone bodies in the liver. The liver extracts approximately 30% of the free fatty acids (FFAs) passing through it. At high concentrations, the flux of free fatty acids (FFAs) into the liver is substantial. The factors regulating mobilization of free fatty acids (FFAs) from adipose tissue are important in controlling ketogenesis (Figures 22–6and 25–6).",
+      "char_start": 17357,
+      "char_end": 17929,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-22-6"
+      ],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "Carnitine palmitoyltransferase-I (CPT-I) regulates the entry of fatty acids into the oxidative pathway (see Figure 22–1). CPT-I activity is low in the fed state, leading to depression of fatty acid oxidation, and high in starvation, allowing fatty acid oxidation to increase. Malonyl-CoA, the initial intermediate in fatty acid biosynthesis (see Figure 23–1), is a potent inhibitor of CPT-I (Figure 22–7). In the fed state, FFAs enter the liver cell in low concentrations and are nearly all esterified to acylglycerols and transported out of the liver in very-low-density lipoprotein (VLDL).",
+      "char_start": 17978,
+      "char_end": 18569,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-22-1",
+        "fig-22-7"
+      ],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "As the concentration of FFA increases with the onset of starvation, acetyl-CoA carboxylase is inhibited directly by acyl-CoA. The inhibition of acetyl-CoA carboxylase and the decrease in malonyl-CoA are reinforced in starvation by a decrease in the (insulin)/(glucagon) ratio. The balance of FFA uptake not oxidized is esterified.",
+      "char_start": 18723,
+      "char_end": 19053,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Triacylglycerol is present in adipose tissue.\nAdipose tissue undergoes lipolysis.\nLipolysis produces FFA.\nFFA enters the blood.\nFFA in the blood is converted to Acyl-CoA.\nAcyl-CoA undergoes β-oxidation.\nAcyl-CoA produces Acetyl-CoA.\nAcetyl-CoA undergoes esterification.\nAcetyl-CoA is used to form acylglycerols.\nAcetyl-CoA is involved in ketogenesis.\nAcetyl-CoA participates in the citric acid cycle.\nAcetyl-CoA is converted to ketone bodies.\nAcyl-CoA, β-oxidation, Acetyl-CoA, esterification, acylglycerols, ketogenesis, citric acid cycle, and ketone bodies all involve the CPT-I gateway.\nThe diagram illustrates the process of fatty acid oxidation, from lipolysis in adipose tissue to β-oxidation and ketogenesis, highlighting the CPT-I gateway.",
+      "char_start": 19232,
+      "char_end": 19979,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "As the level of serum FFA is raised, proportionately more of the acetyl-CoA produced from their breakdown is converted to ketone bodies.",
+      "char_start": 19981,
+      "char_end": 20117,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Glucose undergoes lipogenesis to produce Acetyl-CoA.\nBlood undergoes lipogenesis to produce Acetyl-CoA.\nFFA undergoes lipogenesis to produce Acyl-CoA.\nVLDL undergoes lipogenesis to produce Acylglycerols.\nAcetyl-CoA undergoes lipogenesis to produce Lipogenesis.\nAcetyl-CoA undergoes lipogenesis to produce Malonyl-CoA.\nAcetyl-CoA undergoes lipogenesis to produce Carnitine palmitoyl-transferase I.\nAcetyl-CoA undergoes lipogenesis to produce Esterification.\nAcetyl-CoA undergoes lipogenesis to produce Glucagon.\nAcetyl-CoA undergoes lipogenesis to produce Esterification.\nMalonyl-CoA undergoes lipogenesis to produce Palmitate.\nMalonyl-CoA undergoes lipogenesis to produce Carnitine.\nCarnitine undergoes lipogenesis to produce Mitochondrial membrane.\nCarnitine undergoes lipogenesis to produce Acyl-CoA.\nAcyl-CoA undergoes lipogenesis to produce β-Oxidation.\nAcyl-CoA undergoes lipogenesis to produce Ketogenesis.\nAcetyl-CoA undergoes lipogenesis to produce CO2.\nAcetyl-CoA undergoes lipogenesis to produce Ketone bodies.\nThe diagram illustrates the pathways of Acetyl-CoA from glucose, blood, and FFA undergoing lipogenesis, β-oxidation, and ketogenesis, interacting with malonyl-CoA and carnitine pathways.",
+      "char_start": 20284,
+      "char_end": 21491,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Only 26 mol of ATP are produced when acetoacetate is the end product. Only 16 mol of ATP are produced when 3-hydroxybutyrate is the end product. Ketogenesis may be regarded as a mechanism that allows the liver to oxidize increasing quantities of fatty acids. Ketogenesis operates within the constraints of a tightly coupled system of oxidative phosphorylation.\n\nA fall in the concentration of oxaloacetate, particularly within the mitochondria, can impair the ability of the citric acid cycle to metabolize acetyl-CoA and divert fatty acid oxidation toward ketogenesis. A fall in the concentration of oxaloacetate also occurs when gluconeogenesis is elevated due to low blood glucose levels. The activation by acetyl-CoA of pyruvate carboxylase, which catalyzes the conversion of pyruvate to oxaloacetate, partially alleviates the problem of decreased oxaloacetate concentration. In conditions such as starvation and untreated diabetes mellitus, ketone bodies are overproduced and cause ketosis.",
+      "char_start": 21493,
+      "char_end": 22488,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Carnitine deficiency occurs particularly in the newborn or preterm infants due to inadequate biosynthesis or renal leakage. Carnitine deficiency can also occur due to losses in hemodialysis. Carnitine deficiency leads to hypoglycemia. Hypoglycemia results from impaired fatty acid oxidation. Carnitine deficiency leads to lipid accumulation with muscular weakness. Treatment for carnitine deficiency is by oral supplementation with carnitine.\n\nInherited CPT-I deficiency affects only the liver. Inherited CPT-I deficiency leads to reduced fatty acid oxidation and ketogenesis. Inherited CPT-I deficiency causes hypoglycemia. CPT-II deficiency primarily affects skeletal muscle. CPT-II deficiency affects the liver when severe. Sulfonylurea drugs, such as glyburide [glibenclamide] and tolbutamide, are used in treating type 2 diabetes mellitus. Sulfonylurea drugs reduce fatty acid oxidation and hyperglycemia by inhibiting CPT-I.\n\nDefects have been identified in long-chain 3-hydroxyacyl-CoA dehydrogenase. Defects have been identified in short-chain 3-hydroxyacyl-CoA dehydrogenase. Deficiency of the long-chain enzyme may cause acute fatty liver of pregnancy. 3-Ketoacyl-CoA thiolase deficiency affects the degradation of leucine. HMG-CoA lyase deficiency affects the degradation of leucine. Leucine is a ketogenic amino acid.",
+      "char_start": 22586,
+      "char_end": 23915,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS",
+        "Impaired Oxidation of Fatty Acids Gives Rise to Diseases Often Associated With Hypoglycemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "impaired-oxidation-of-fatty-acids-gives-rise-to-diseases"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "Jamaican vomiting sickness is caused by eating the unripe fruit of the akee tree. The unripe fruit of the akee tree contains the toxin hypoglycin. Hypoglycin inactivates medium- and short-chain acyl-CoA dehydrogenase. Dicarboxylic aciduria is caused by a lack of mitochondrial medium-chain acyl-CoA dehydrogenase.\n\nRefsum disease is a rare neurologic disorder that results in the accumulation of phytanic acid. Phytanic acid is found in dairy products and ruminant fat and meat. Phytanic acid affects membrane function. Phytanic acid affects protein prenylation. Phytanic acid affects gene expression. Zellweger syndrome occurs in individuals with a rare inherited absence of peroxisomes in all tissues. Zellweger syndrome exhibits a generalized loss of peroxisomal functions. Zellweger syndrome causes severe neurologic symptoms. Most patients with Zellweger syndrome die in the first year of life.",
+      "char_start": 23917,
+      "char_end": 24816,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS",
+        "Impaired Oxidation of Fatty Acids Gives Rise to Diseases Often Associated With Hypoglycemia"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "impaired-oxidation-of-fatty-acids-gives-rise-to-diseases"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "Higher than normal quantities of ketone bodies in the blood constitute ketonemia. Higher than normal quantities of ketone bodies in the urine constitute ketonuria. The overall condition of having higher than normal ketone bodies is called ketosis. The basic form of ketosis occurs in starvation. Starvation ketosis involves depletion of available carbohydrate. Starvation ketosis involves mobilization of free fatty acids (FFA). An exaggeration of the general pattern of metabolism in starvation produces pathologic states in diabetes mellitus. Type 2 diabetes mellitus is increasingly common in Western countries. Twin lamb disease is a pathologic state related to exaggerated ketosis. Ketosis in lactating cattle is a pathologic state related to exaggerated ketosis. Nonpathologic forms of ketosis are found under conditions of high-fat feeding. Nonpathologic forms of ketosis occur after severe exercise in the postabsorptive state.\n\nAcetoacetic acid is a moderately strong acid. 3-hydroxybutyric acid is a moderately strong acid. Acetoacetic and 3-hydroxybutyric acids are buffered when present in blood or other tissues. Acetoacetic and 3-hydroxybutyric acids' continual excretion in quantity progressively depletes the alkali reserve. Depletion of the alkali reserve causes ketoacidosis. Ketoacidosis may be fatal in uncontrolled diabetes mellitus.",
+      "char_start": 24866,
+      "char_end": 26220,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis",
+        "KETOGENESIS IS REGULATED AT THREE CRUCIAL STEPS",
+        "Ketoacidosis Results From Prolonged Ketosis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ketoacidosis-results-from-prolonged-ketosis"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "The acetyl-CoA is oxidized in the citric acid cycle, generating further ATP.\nThe ketone bodies (acetoacetate, 3-hydroxybutyrate, and acetone) are formed in hepatic mitochondria when there is a high rate of fatty acid oxidation. The pathway of ketogenesis involves synthesis and breakdown of HMG-CoA by two key enzymes: HMG-CoA synthase and HMG-CoA lyase.\nKetone bodies are important fuels in extrahepatic tissues.\nKetogenesis is regulated at three crucial steps: (1) control of FFA mobilization from adipose tissue; (2) the activity of carnitine palmitoyltransferase-I in liver, which determines the proportion of the fatty acid flux that is oxidized rather than esterified; and (3) partition of acetyl-CoA between the pathway of ketogenesis and the citric acid cycle.\nDiseases associated with impairment of fatty acid oxidation lead to hypoglycemia, fatty infiltration of organs, and hypoketonemia.\nKetosis is mild in starvation but severe in diabetes mellitus and ruminant ketosis.",
+      "char_start": 26222,
+      "char_end": 27205,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-22-1",
+      "image_path": "images/2e770e51ceadb293bf65bb07dc5b4218a755e703c7ef0fc566aeb11bd1464598.jpg",
+      "caption": "The transport of long-chain fatty acids through the inner mitochondrial membrane. Long-chain acyl-CoA freely enters the intermembrane space. For transport across the inner membrane, acyl groups are transferred from CoA to carnitine by carnitine palmitoyltransferase-I. The acylcarnitine formed is carried into the matrix by a translocase enzyme in exchange for a free carnitine and acyl-CoA is reformed by carnitine palmitoyltransferase-II.",
+      "referenced_from": "c004",
+      "marker": "[FIGURE:fig-22-1]",
+      "description": "",
+      "label": "Figure 22-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4542,
+        4982
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "fatty-acids-are-activated-before-being-catabolized"
+    },
+    {
+      "fig_id": "fig-22-2",
+      "image_path": "",
+      "caption": "β-Oxidation of fatty acids. Long-chain acyl-CoA is cycled through reactions",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-22-2]",
+      "description": "",
+      "label": "Figure 22-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6492,
+        6567
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "fig_id": "fig-x3",
+      "image_path": "images/9483de0aa698d5446b6ceed4b4019145855bb78b17c6214483a72837524f55d9.jpg",
+      "caption": "This diagram illustrates the enzymatic steps involved in the beta-oxidation of fatty acids, showing the conversion of acyl-CoA to acetyl-CoA and the associated energy production.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x3]",
+      "description": "Fatty acid is converted to CoA - SH by Acyl-CoA synthetase.\nCoA - SH reacts with ATP to form AMP + PPi.\nAMP + PPi is associated with R-3CH2-2CH2-C ~ S - CoA.\nR-3CH2-2CH2-C ~ S - CoA is converted to Acyl-CoA.\nAcyl-CoA is transported by the Carnitine transporter to R-3CH2-2CH2-C ~ S - CoA.\nR-3CH2-2CH2-C ~ S - CoA is converted to Acyl-CoA.\nAcyl-CoA is dehydrogenated by Acyl-CoA dehydrogenase with the help of FAD.\nFAD is reduced to FADH2 in the presence of Acyl-CoA.\nFADH2 donates electrons to the respiratory chain producing 1.5 ~ P.\n1.5 ~ P is associated with the production of H2O.\nH2O is involved in the formation of Δ2-trans-Enoyl-CoA.\nΔ2-trans-Enoyl-CoA is hydrated by Δ2-Enoyl-CoA hydratase to form OH.\nOH is converted to L-3-Hydroxy-acyl-CoA.\nL-3-Hydroxy-acyl-CoA is dehydrated by H2O to form L-3-Hydroxyacyl-CoA dehydrogenase.\nL-3-Hydroxyacyl-CoA dehydrogenase reduces NAD+ to NADH + H+.\nNADH + H+ produces 2.5 ~ Z.\n2.5 ~ Z is associated with the formation of 3-Ketoacyl-CoA.\n3-Ketoacyl-CoA is converted to 3-Ketoacyl-CoA by Thiolase.\n3-Ketoacyl-CoA reacts with CoA - SH in the enzymatic steps involved in the beta-oxidation of fatty acids, showing the conversion of acyl-CoA to acetyl-CoA and the associated energy production.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c009",
+      "caption_span": [
+        7059,
+        7237
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "fig_id": "fig-x4",
+      "image_path": "images/31b9315137d4d1ffd98f9f0f63b5927a76e8a586120dddb51ae6f532dae7307f.jpg",
+      "caption": "Acyl-CoA is converted to Acetyl-CoA, which enters the citric acid cycle to produce 2CO2.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x4]",
+      "description": "Acyl-CoA is converted to Acetyl-CoA.\nAcetyl-CoA enters the citric acid cycle.\nThe citric acid cycle produces 2CO2.\nAcyl-CoA is converted to Acetyl-CoA, which enters the citric acid cycle to produce 2CO2.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c010",
+      "caption_span": [
+        8494,
+        8582
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-oxidation-cycle-generates-fadh-nadh"
+    },
+    {
+      "fig_id": "fig-22-3",
+      "image_path": "images/79a34bbeff060dbea73594b1077688a02b93cd1467205226c5ce8722f53c5cdf.jpg",
+      "caption": "Interrelationships of the ketone bodies. D-3-Hydroxybutyrate dehydrogenase is a mitochondrial enzyme.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-22-3]",
+      "description": "Acetone spontaneously converts to Acetoacetate.\nAcetoacetate, in the presence of NADH + H⁺, is converted by D-3-Hydroxybutyrate dehydrogenase.\nD-3-Hydroxybutyrate dehydrogenase requires NAD⁺ to convert back to Acetoacetate.\nD-3-Hydroxybutyrate dehydrogenase produces D-3-Hydroxybutyrate from Acetoacetate.\nD-3-Hydroxybutyrate releases CO₂ to form Acetone.\nThe diagram illustrates the interrelationships of the ketone bodies.",
+      "label": "Figure 22-3",
+      "panel": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        12050,
+        12151
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketogenesis-occurs-when-there-is-a-high-rate-of-fatty-acid"
+    },
+    {
+      "fig_id": "fig-22-4",
+      "image_path": "images/393cdd2f50bfe0b15d66f5e8cb11933fb6412b4fdef2918eead28363fca4fb18.jpg",
+      "caption": "Pathways of ketogenesis in the liver. (FFA, free fatty acids.)",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-22-4]",
+      "description": "",
+      "label": "Figure 22-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        13765,
+        13827
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "acetoacetyl-coa-is-the-substrate-for-ketogenesis"
+    },
+    {
+      "fig_id": "fig-22-5",
+      "image_path": "images/c8a1d462960e6251c5dad071fa071048769e242468369cb6a485933f00d29683.jpg",
+      "caption": "Transport of ketone bodies from the liver and pathways of utilization and oxidation in extrahepatic tissues. CoA transferase, succinyl-CoA-acetoacetate-CoA transferase. The breakdown of acetoacetyl-CoA by thiolase produces two acetyl-CoA molecules and requires the addition of one CoA (not shown).",
+      "referenced_from": "c022",
+      "marker": "[FIGURE:fig-22-5]",
+      "description": "FFA undergoes β-Oxidation to form Acyl-CoA.\nAcyl-CoA undergoes β-Oxidation to produce Acetyl-CoA.\nAcetyl-CoA is converted into HMG-CoA.\nHMG-CoA is transformed into Acetoacetate.\nAcetoacetate produces NADH + H+.\nAcetoacetate consumes NAD+.\nAcetoacetate is converted into 3-Hydroxybutyrate.\n3-Hydroxybutyrate is converted back into Acetoacetate.\nAcetoacetate produces NADH + H+.\nNADH + H+ is converted into NAD+.\nNAD+ facilitates the conversion of Acetoacetyl-CoA.\nAcetoacetyl-CoA is broken down by Thiolase to form Acetyl-CoA.\nAcetyl-CoA is used to form Acetoacetyl-CoA.\nAcetoacetyl-CoA is converted into Succinate.\nSuccinate is converted into OAA.\nOAA enters the Citric acid cycle.\nThe Citric acid cycle produces Succinyl-CoA.\nSuccinyl-CoA is converted into Citrate.\nCitrate is broken down into 2CO2.\n2CO2 produces NADH + H+.\nNADH + H+ is converted into Acetyl-CoA.\nAcetyl-CoA is utilized in extrahepatic tissues, such as muscle.\nThe diagram illustrates the transport and utilization of ketone bodies from the liver in extrahepatic tissues.",
+      "label": "Figure 22-5",
+      "panel": "",
+      "content_chunk": "c023",
+      "caption_span": [
+        15965,
+        16262
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketone-bodies-serve-as-a-fuel-for-extrahepatic-tissues"
+    },
+    {
+      "fig_id": "fig-22-6",
+      "image_path": "images/d4eb706ee9857307d8a1c676744fd988729043367898e527eab91a828cc75a90.jpg",
+      "caption": "Regulation of ketogenesis.",
+      "referenced_from": "c024",
+      "marker": "[FIGURE:fig-22-6]",
+      "description": "",
+      "label": "Figure 22-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        17950,
+        17976
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "fig_id": "fig-22-7",
+      "image_path": "",
+      "caption": "Regulation of long-chain fatty acid oxidation in the liver. (FFA, free fatty acids; VLDL, very-low-density lipoprotein.) Positive (",
+      "referenced_from": "c025",
+      "marker": "[FIGURE:fig-22-7]",
+      "description": "",
+      "label": "Figure 22-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        18590,
+        18721
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "fig_id": "fig-x9",
+      "image_path": "images/a65646f31c1a3e4021410dc600d73183052045d8547424f6ccf17524bb6aa814.jpg",
+      "caption": "This diagram illustrates the process of fatty acid oxidation, from lipolysis in adipose tissue to β-oxidation and ketogenesis, highlighting the CPT-I gateway.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x9]",
+      "description": "Triacylglycerol is present in adipose tissue.\nAdipose tissue undergoes lipolysis.\nLipolysis produces FFA.\nFFA enters the blood.\nFFA in the blood is converted to Acyl-CoA.\nAcyl-CoA undergoes β-oxidation.\nAcyl-CoA produces Acetyl-CoA.\nAcetyl-CoA undergoes esterification.\nAcetyl-CoA is used to form acylglycerols.\nAcetyl-CoA is involved in ketogenesis.\nAcetyl-CoA participates in the citric acid cycle.\nAcetyl-CoA is converted to ketone bodies.\nAcyl-CoA, β-oxidation, Acetyl-CoA, esterification, acylglycerols, ketogenesis, citric acid cycle, and ketone bodies all involve the CPT-I gateway.\nThe diagram illustrates the process of fatty acid oxidation, from lipolysis in adipose tissue to β-oxidation and ketogenesis, highlighting the CPT-I gateway.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c027",
+      "caption_span": [
+        19072,
+        19230
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    },
+    {
+      "fig_id": "fig-x11",
+      "image_path": "images/2e12f0eea551898df4aabd166b20f95ddd5baff8b14380a3fa82df67a691d42e.jpg",
+      "caption": "Acetyl-CoA from glucose, blood, and FFA undergoes lipogenesis, β-oxidation, and ketogenesis, interacting with malonyl-CoA and carnitine pathways.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x11]",
+      "description": "Glucose undergoes lipogenesis to produce Acetyl-CoA.\nBlood undergoes lipogenesis to produce Acetyl-CoA.\nFFA undergoes lipogenesis to produce Acyl-CoA.\nVLDL undergoes lipogenesis to produce Acylglycerols.\nAcetyl-CoA undergoes lipogenesis to produce Lipogenesis.\nAcetyl-CoA undergoes lipogenesis to produce Malonyl-CoA.\nAcetyl-CoA undergoes lipogenesis to produce Carnitine palmitoyl-transferase I.\nAcetyl-CoA undergoes lipogenesis to produce Esterification.\nAcetyl-CoA undergoes lipogenesis to produce Glucagon.\nAcetyl-CoA undergoes lipogenesis to produce Esterification.\nMalonyl-CoA undergoes lipogenesis to produce Palmitate.\nMalonyl-CoA undergoes lipogenesis to produce Carnitine.\nCarnitine undergoes lipogenesis to produce Mitochondrial membrane.\nCarnitine undergoes lipogenesis to produce Acyl-CoA.\nAcyl-CoA undergoes lipogenesis to produce β-Oxidation.\nAcyl-CoA undergoes lipogenesis to produce Ketogenesis.\nAcetyl-CoA undergoes lipogenesis to produce CO2.\nAcetyl-CoA undergoes lipogenesis to produce Ketone bodies.\nThe diagram illustrates the pathways of Acetyl-CoA from glucose, blood, and FFA undergoing lipogenesis, β-oxidation, and ketogenesis, interacting with malonyl-CoA and carnitine pathways.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c029",
+      "caption_span": [
+        20137,
+        20282
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "ketogenesis-is-regulated-at-three-crucial-steps"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-22-1",
+      "label": "Table 22-1",
+      "caption": "Generation of ATP From the Complete Oxidation of a C16 Fatty Acid",
+      "referenced_from": "",
+      "content_chunk": "c013",
+      "caption_span": [
+        9690,
+        9755
+      ],
+      "section_id": "oxidation-of-fatty-acids-produces-a-large-quantity-of-atp"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the processes by which fatty acids are transported in the blood, activated and transported into the matrix of the mitochondria for breakdown to obtain energy.\nOutline the β -oxidation pathway by which fatty acids are metabolized to acetyl-CoA and explain how this leads to the production of large quantities of ATP.\nIdentify the three compounds termed “ketone bodies” and describe the reactions by which they are formed in liver mitochondria.\nRecognize that ketone bodies are important fuels for extrahepatic tissues and indicate the conditions in which their synthesis and use are favored.\nIndicate the three stages in the metabolism of fatty acids where ketogenesis is regulated.\nIndicate that overproduction of ketone bodies leads to ketosis and, if prolonged, ketoacidosis, and identify pathologic conditions when this occurs.\nGive examples of diseases associated with impaired fatty acid oxidation.",
+      "char_start": 41,
+      "char_end": 953,
+      "section_path": [
+        "Oxidation of Fatty Acids: Ketogenesis"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-marker",
+      "reason": "bold/italic marker in tagged content",
+      "count": 1,
+      "example": "The net energy output is $106 \\\\times 30.5^{*} = 3233$ kJ."
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-22-3",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-22-4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-22-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-22-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-22-1",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_22_oxidation_of_fatty_acids_ketogenesis.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_22_oxidation_of_fatty_acids_ketogenesis/chapter_22_oxidation_of_fatty_acids_ketogenesis.normalized.md"
+}

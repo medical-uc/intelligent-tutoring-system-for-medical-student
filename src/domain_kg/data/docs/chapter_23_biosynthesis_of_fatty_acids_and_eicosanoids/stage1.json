@@ -1,0 +1,1034 @@
+{
+  "doc_id": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids",
+  "source": {
+    "source_id": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids",
+    "title": "Biosynthesis of Fatty Acids & Eicosanoids",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "The chapter discusses the biosynthesis of fatty acids and eicosanoids, focusing on the pathways and regulation of lipogenesis in the cytosol.",
+    "page": null,
+    "origin": "chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 01:02:21"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Fatty acids are synthesized by an extramitochondrial system. The extramitochondrial system is responsible for the complete synthesis of palmitate from acetyl-CoA in the cytosol. In most mammals, glucose is the primary substrate for lipogenesis. Critical diseases of the lipogenesis pathway have not been reported in humans. Inhibition of lipogenesis occurs in type 1 diabetes mellitus. Variations in the activity of lipogenesis affect the nature and extent of obesity.\n\nUnsaturated fatty acids in phospholipids of the cell membrane are important in maintaining membrane fluidity. A high ratio of polyunsaturated fatty acids to saturated fatty acids in the diet is beneficial in preventing coronary heart disease. Animal tissues have limited capacity for desaturating fatty acids. Certain dietary polyunsaturated fatty acids are required, which are derived from plants. Eicosanoic fatty acids give rise to eicosanoids such as prostaglandins, thromboxanes, leukotrienes, and lipoxins. Prostaglandins mediate inflammation. Prostaglandins mediate pain. Prostaglandins induce sleep. Prostaglandins regulate blood coagulation. Prostaglandins regulate reproduction. Nonsteroidal anti-inflammatory drugs (NSAIDs) such as aspirin and ibuprofen inhibit prostaglandin synthesis. Leukotrienes have muscle contractant properties. Leukotrienes have chemotactic properties. Leukotrienes are important in allergic reactions. Leukotrienes are important in inflammation.",
+      "char_start": 1182,
+      "char_end": 2634,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "The main pathway for de novo synthesis of fatty acids occurs in the cytosol.\n\nThe main pathway for de novo synthesis of fatty acids is present in many tissues, including liver, kidney, brain, lung, mammary gland, and adipose tissue.\n\nAcetyl-CoA is the immediate substrate for fatty acid synthesis.\n\nFree palmitate is the end product of fatty acid synthesis.",
+      "char_start": 2729,
+      "char_end": 3086,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-main-pathway-for-de-novo-synthesis-of-fatty-acids"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The initial step in fatty acid synthesis is the carboxylation of acetyl-CoA to form malonyl-CoA by acetyl-CoA carboxylase. The reaction requires ATP and the B vitamin biotin. Acetyl-CoA carboxylase is a multienzyme protein containing biotin carboxylase, a carboxyl transferase, and a biotin carrier protein which binds biotin. The reaction takes place in two steps. Step 1 is catalyzed by biotin carboxylase, resulting in the carboxylation of biotin and uses ATP. Step 2 is catalyzed by carboxyl transferase, resulting in the transfer of the carboxyl group to acetyl-CoA, forming the product, malonyl-CoA (Figure 23-1). Acetyl-CoA carboxylase has a major role in the regulation of fatty acid synthesis. Biotin is covalently linked to the biotin carrier protein.",
+      "char_start": 3176,
+      "char_end": 3937,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "Production of Malonyl-CoA Is the Initial & Controlling Step in Fatty Acid Synthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-1"
+      ],
+      "table_refs": [],
+      "section_id": "production-of-malonyl-coa-is-the-initial-controlling-step"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Overall reaction uses ATP, ADP + Pi to proceed through Acetyl-CoA carboxylase.\nAcetyl-CoA carboxylase utilizes biotin in its reaction.\nAcetyl-CoA carboxylase produces Malonyl-CoA along with ADP + Pi.\nStep 1 of the reaction involves the Acetyl-CoA carboxylase enzyme complex with E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nStep 2 of the reaction involves the Acetyl-CoA carboxylase enzyme complex with E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nStep 2, catalyzed by Carboxyl transferase (E2), involves Acetyl-CoA.\nAcetyl-CoA is converted to Malonyl-CoA.\nMalonyl-CoA returns to E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nThe diagram as a whole relates the biosynthesis of malonyl-CoA by acetyl-CoA carboxylase, involving biotin carboxylase (E1) and carboxyltransferase (E2) in a two-step process.",
+      "char_start": 4448,
+      "char_end": 5341,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "Production of Malonyl-CoA Is the Initial & Controlling Step in Fatty Acid Synthesis"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "production-of-malonyl-coa-is-the-initial-controlling-step"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The fatty acid synthase complex is a homodimer of two identical polypeptide chains. Each chain of the fatty acid synthase complex contains six enzyme activities and the acyl carrier protein (ACP). The fatty acid synthase complex is arranged in an X shape, as shown by X-ray crystallography. The enzymes in the fatty acid synthase complex are linked in a specific sequence in the primary structure of the protein. The acyl carrier protein (ACP) contains 4'-phosphopantetheine, which includes the vitamin pantothenic acid. The structure of the fatty acid synthase complex allows for the compartmentalization of the fatty acid synthesis process within the cell without the need for permeability barriers. All enzymes in the fatty acid synthase complex are synthesized coordinately because they are encoded by a single gene.",
+      "char_start": 5480,
+      "char_end": 6300,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Ketoacyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nEnoyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nACP connects to Hydratase in the fatty acid synthase multienzyme complex.\nThioesterase connects to Hydratase in the fatty acid synthase multienzyme complex.\nMalonyl/acetyl transacylase connects to Hydratase in the fatty acid synthase multienzyme complex.\nHydratase connects to Ketoacyl synthase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to ACP in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Thioesterase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Malonyl/acetyl transacylase in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to ACP in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to Thioesterase in the fatty acid synthase multienzyme complex.\nACP connects to Malonyl/acetyl transacylase in the fatty acid synthase multienzyme complex.\nThioesterase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nThe diagram represents the structure and enzyme interactions within the fatty acid synthase multienzyme complex.",
+      "char_start": 6678,
+      "char_end": 8229,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Fatty acid synthesis begins with the combination of acetyl-CoA with a cysteine —SH group on the ACP of one monomer of the fatty acid synthase complex (Figure 23–3, reaction 1a). Malonyl-CoA combines with the adjacent —SH on the 4'-phosphopantetheine of the ACP of the other monomer (reaction 1b). These reactions are catalyzed by malonyl acetyl transacylase. The reaction forms 3-ketoacyl enzyme (acetoacetyl enzyme). Decarboxylation facilitates the reaction's completion by pulling the sequence of reactions forward. The 3-ketoacyl group undergoes reduction by 3-ketoacylreductase. The 3-ketoacyl group undergoes dehydration by dehydratase. The 3-ketoacyl group undergoes further reduction by enoyl reductase to form a saturated acyl enzyme. The saturated acyl residue transfers from the —SH of the 4' phosphopantetheine to the free cysteine —SH group. The transfer makes way for a new malonyl-CoA. This cycle repeats six more times until a saturated 16-carbon acyl radical (palmitoyl) is assembled. The palmitoyl is released from the enzyme complex by thioesterase. Free palmitate must be activated to acyl-CoA to proceed in other metabolic pathways. Possible fates for palmitate include esterification into acylglycerols, chain elongation, desaturation, or esterification into cholesteryl ester.",
+      "char_start": 8231,
+      "char_end": 9529,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-3"
+      ],
+      "table_refs": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The acetyl-CoA used as a primer forms carbon atoms 15 and 16 of palmitate. Propionyl-CoA is used as the primer for the synthesis of long-chain fatty acids with an odd number of carbon atoms. Propionyl-CoA is particularly used in ruminant fat and milk.",
+      "char_start": 10187,
+      "char_end": 10438,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The Fatty Acid Synthase Complex Is a Homodimer of Two Polypeptide Chains Containing Six Enzyme Activities & the Acyl Carrier Protein"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "NADPH is involved as a donor of reducing equivalents in the reduction of the 3-ketoacyl derivatives (see Figure 23-3, reactions 3 and 5). NADPH is involved as a donor of reducing equivalents in the reduction of the 2,3-unsaturated acyl derivatives (see Figure 23-3, reactions 3 and 5).\n\nThe oxidative reactions of the pentose phosphate pathway are the chief source of the hydrogen required for the synthesis of fatty acids. Tissues specializing in active lipogenesis, such as the liver, adipose tissue, and the lactating mammary gland, possess an active pentose phosphate pathway. Both the pentose phosphate pathway and lipogenesis occur in the cytosol of the cell, eliminating membranes or permeability barriers against the transfer of NADPH.\n\nOther sources of NADPH include the reaction that converts malate to pyruvate catalyzed by the NADP malate dehydrogenase (malic enzyme) (Figure 23-4). The extramitochondrial isocitrate dehydrogenase reaction is another source of NADPH, particularly in ruminants.",
+      "char_start": 10518,
+      "char_end": 11524,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The Main Source of NADPH for Lipogenesis Is the Pentose Phosphate Pathway"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-3",
+        "fig-23-4"
+      ],
+      "table_refs": [],
+      "section_id": "the-main-source-of-nadph-for-lipogenesis-is-the-pentose"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "Acetyl-CoA is formed from glucose via the oxidation of pyruvate in the matrix of the mitochondria.\n\nAcetyl-CoA does not diffuse readily across the mitochondrial membranes.\n\nCitrate is used for the transport of acetyl-CoA into the cytosol.\n\nCitrate is produced by the condensation of acetyl-CoA with oxaloacetate in the citric acid cycle within mitochondria.\n\nCitrate can be translocated into the extramitochondrial compartment via the tricarboxylate transporter.\n\nIn the presence of CoA and ATP, citrate undergoes cleavage to acetyl-CoA and oxaloacetate by ATP-citrate lyase.\n\nATP-citrate lyase increases in activity in the well-fed state.\n\nThe acetyl-CoA is then available for malonyl-CoA formation and synthesis of fatty acids.\n\nOxaloacetate can form malate via NADH-linked malate dehydrogenase.\n\nMalate can generate NADPH and pyruvate via the malic enzyme.\n\nNADPH becomes available in the cytosol for lipogenesis.\n\nPyruvate can be used to regenerate acetyl-CoA after transport into the mitochondrion.\n\nThe pathway for transferring reducing equivalents from extramitochondrial NADH to NADP to form NADPH involves the conversion of malate to oxaloacetate and the generation of NADPH for lipogenesis.\n\nThe citrate (tricarboxylate) transporter in the mitochondrial membrane requires malate to exchange with citrate.\n\nMalate can be transported into the mitochondrion, where it is able to reform oxaloacetate.",
+      "char_start": 11811,
+      "char_end": 13217,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "The provision of Acetyl-CoA for Lipogenesis Requires a Special Transport Mechanism"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-provision-of-acetyl-coa-for-lipogenesis-requires-a"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "The microsomal system elongates saturated and unsaturated fatty acyl-CoAs by two carbons.\n\nThe microsomal system uses malonyl-CoA as the acetyl donor.\n\nThe microsomal system uses NADPH as the reductant.\n\nThe microsomal fatty acid elongase system of enzymes catalyzes the elongation process.",
+      "char_start": 13291,
+      "char_end": 13581,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE MAIN PATHWAY FOR DE NOVO SYNTHESIS OF FATTY ACIDS (LIPOGENESIS) OCCURS IN THE CYTOSOL",
+        "Elongation of Fatty Acid Chains Occurs in the Endoplasmic Reticulum"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "elongation-of-fatty-acid-chains-occurs-in-the-endoplasmic"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Excess carbohydrate is stored as fat in many animals in anticipation of periods of caloric deficiency such as starvation, hibernation, etc.\n\nLipogenesis converts surplus glucose and intermediates such as pyruvate, lactate, and acetyl-CoA to fat.\n\nThe nutritional state of the organism is the main factor regulating the rate of lipogenesis.\n\nThe rate of lipogenesis is high in the well-fed animal whose diet contains a high proportion of carbohydrate.\n\nThe rate of lipogenesis is depressed by restricted caloric intake, high-fat diet, or a deficiency of insulin, as in diabetes mellitus.\n\nRestricted caloric intake, high-fat diet, or a deficiency of insulin, as in diabetes mellitus, are associated with increased concentrations of plasma-free fatty acids.\n\nAn inverse relationship has been demonstrated between hepatic lipogenesis and the concentration of serum-free fatty acids.\n\nLipogenesis is increased when sucrose is fed instead of glucose because fructose bypasses the phosphofructokinase control point in glycolysis and floods the lipogenic pathway.",
+      "char_start": 13630,
+      "char_end": 14686,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE NUTRITIONAL STATE REGULATES LIPOGENESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nutritional-state-regulates-lipogenesis"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Long-chain fatty acid synthesis is controlled in the short term by allosteric modification of enzymes.\n\nLong-chain fatty acid synthesis is controlled in the short term by covalent modification of enzymes.\n\nLong-chain fatty acid synthesis is controlled in the long term by changes in gene expression.\n\nChanges in gene expression govern the rates of synthesis of enzymes.",
+      "char_start": 14742,
+      "char_end": 15111,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "short-long-term-mechanisms-regulate-lipogenesis"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Acetyl-CoA carboxylase is an allosteric enzyme. Citrate activates acetyl-CoA carboxylase. Citrate increases in concentration in the well-fed state. Citrate indicates a plentiful supply of acetyl-CoA. Citrate promotes the conversion of acetyl-CoA carboxylase from an inactive dimer to an active polymeric form. The active polymeric form of acetyl-CoA carboxylase has a molecular mass of several million. Phosphorylation of the enzyme promotes inactivation. Long-chain acyl-CoA molecules promote inactivation. Long-chain acyl-CoA molecules provide negative feedback inhibition. Negative feedback inhibition occurs when a product of a reaction inhibits the enzyme. Acyl-CoA reduces the rate of synthesis of new fatty acid if it accumulates. Acyl-CoA accumulates if it is not esterified quickly enough. Acyl-CoA accumulates because of increased lipolysis. Acyl-CoA accumulates due to an influx of free fatty acids into the tissue. Acyl-CoA inhibits the mitochondrial tricarboxylate transporter. Inhibition of the mitochondrial tricarboxylate transporter prevents activation of the enzyme by citrate. Inhibition of the mitochondrial tricarboxylate transporter decreases the citrate concentration in the cytosol. Decreased citrate concentration in the cytosol favors inactivation of the enzyme (Figure 23–5).",
+      "char_start": 15202,
+      "char_end": 16504,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Acetyl-CoA Carboxylase Is the Most Important Enzyme in the Regulation of Lipogenesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-5"
+      ],
+      "table_refs": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The Mitochondrion produces Citrate.\nCitrate is transported by the Tricarboxylate transporter.\nThe Tricarboxylate transporter moves Citrate into the Cytosol.\nIn the Cytosol, Citrate converts Acetyl-CoA Carboxylase from an inactive dimer to an active polymer.\nPhosphorylation inactivates the active polymer form of Acetyl-CoA Carboxylase.\nThe active polymer form of Acetyl-CoA Carboxylase converts Acetyl CoA to Malonyl CoA.\nMalonyl CoA is a substrate for Fatty Acid Synthase.\nFatty Acid Synthase converts Malonyl CoA to Palmitoyl CoA.\nPalmitoyl CoA inhibits the Tricarboxylate transporter, reducing citrate transport into the cytosol.\nThis diagram illustrates the regulation of acetyl-CoA carboxylase and the interplay between citrate, acyl-CoA, and fatty acid synthesis.",
+      "char_start": 17050,
+      "char_end": 17820,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Acetyl-CoA Carboxylase Is the Most Important Enzyme in the Regulation of Lipogenesis"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Acetyl-CoA carboxylase is inactivated by phosphorylation by AMP-activated protein kinase (AMPK). AMPK is phosphorylated and activated by AMP-activated protein kinase kinase (AMPKK). Glucagon increases cAMP. Epinephrine increases cAMP. Increased cAMP activates AMPKK via cAMP-dependent protein kinase. AMPKK is believed to be activated by acyl-CoA. Insulin activates acetyl-CoA carboxylase via dephosphorylation of AMPK (Figure 23–6).",
+      "char_start": 17822,
+      "char_end": 18255,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Acetyl-CoA Carboxylase Is the Most Important Enzyme in the Regulation of Lipogenesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-6"
+      ],
+      "table_refs": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Protein phosphatase activates Acetyl-CoA carboxylase (active) by dephosphorylation.\nAcetyl-CoA carboxylase (inactive) is converted to Acetyl-CoA carboxylase (active) by Protein phosphatase.\nAcetyl-CoA carboxylase (active) converts Acetyl-CoA to Malonyl-CoA.\nAcetyl-CoA carboxylase (active) is inactivated by AMPK (active).\nMalonyl-CoA is influenced by Acyl-CoA.\nAMPK (active) is inactivated to AMPK (inactive) by ATP.\nInsulin activates AMPK (inactive) to AMPK (active) by dephosphorylation.\nAMPK (inactive) is activated by AMPKK.\ncAMP-dependent protein kinase activates AMPKK.\ncAMP-dependent protein kinase activates itself.\nAMPKK activates cAMP-dependent protein kinase.\ncAMP-dependent protein kinase is activated by Glucagon.",
+      "char_start": 18786,
+      "char_end": 19513,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Acetyl-CoA Carboxylase Is the Most Important Enzyme in the Regulation of Lipogenesis"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Acyl-CoA inhibits pyruvate dehydrogenase by inhibiting the ATP-ADP exchange transporter of the inner mitochondrial membrane.\n\nAcyl-CoA inhibits pyruvate dehydrogenase by inhibiting the ATP-ADP exchange transporter of the inner mitochondrial membrane. leads to increased intramitochondrial (ATP)/(ADP) ratios.\n\nIncreased intramitochondrial (ATP)/(ADP) ratios cause conversion of active to inactive pyruvate dehydrogenase.\n\nConversion of active to inactive pyruvate dehydrogenase regulates the availability of acetyl-CoA for lipogenesis.",
+      "char_start": 19572,
+      "char_end": 20107,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Pyruvate Dehydrogenase Is Also Regulated by Acyl-CoA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "pyruvate-dehydrogenase-is-also-regulated-by-acyl-coa"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Insulin stimulates lipogenesis by increasing acetyl-CoA carboxylase activity. Insulin increases the transport of glucose into the cell in adipose tissue. Insulin increases the availability of pyruvate and acetyl-CoA for fatty acid synthesis. Insulin also increases the availability of glycerol-3-phosphate for triacylglycerol synthesis. Insulin converts the inactive form of pyruvate dehydrogenase to the active form in adipose tissue. Insulin does not convert the inactive form of pyruvate dehydrogenase to the active form in the liver. Insulin inhibits lipolysis in adipose tissue by depressing the level of intracellular cAMP. Insulin reduces the concentration of plasma-free fatty acids. Insulin reduces the concentration of long-chain acyl-CoA. Long-chain acyl-CoA inhibits lipogenesis. Plasma-free fatty acids inhibit lipogenesis.",
+      "char_start": 20168,
+      "char_end": 21004,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "Insulin Also Regulates Lipogenesis by Other Mechanisms"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "insulin-also-regulates-lipogenesis-by-other-mechanisms"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "The Fatty Acid Synthase Complex and Acetyl-CoA Carboxylase adapt to the body's physiologic needs through changes in gene expression.\n\nThe changes lead to increases in the total amount of enzyme protein present in the fed state.\n\nChanges in gene expression lead to decreases in the total amount of enzyme protein during intake of a high-fat diet.\n\nChanges in gene expression lead to decreases in the total amount of enzyme protein in conditions such as starvation and diabetes mellitus.\n\nInsulin plays an important role in promoting gene expression and induction of enzyme biosynthesis.\n\nGlucagon, via cAMP, antagonizes the effect of insulin on gene expression and enzyme biosynthesis.\n\nFeeding fats containing polyunsaturated fatty acids regulates the inhibition of expression of key enzymes of glycolysis and lipogenesis.\n\nMechanisms for longer-term regulation of lipogenesis take several days to become fully manifested.\n\nMechanisms for longer-term regulation of lipogenesis augment the direct and immediate effect of free fatty acids and hormones such as insulin and glucagon.",
+      "char_start": 21088,
+      "char_end": 22167,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SHORT- & LONG-TERM MECHANISMS REGULATE LIPOGENESIS",
+        "The Fatty Acid Synthase Complex & Acetyl-CoA Carboxylase Are Adaptive Enzymes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-fatty-acid-synthase-complex-acetyl-coa-carboxylase-are"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "In humans and most other mammals, arachidonic acid can be formed from linoleic acid. Certain long-chain unsaturated fatty acids of metabolic significance in mammals are shown in Figure 23–7.",
+      "char_start": 22233,
+      "char_end": 22423,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "SOME POLYUNSATURATED FATTY ACIDS ARE NUTRITIONALLY ESSENTIAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-7"
+      ],
+      "table_refs": [],
+      "section_id": "some-polyunsaturated-fatty-acids-are-nutritionally-essential"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Several tissues, including the liver, are responsible for the formation of nonessential monounsaturated fatty acids from saturated fatty acids. Oxygen and either NADH or NADPH are necessary for the reaction.",
+      "char_start": 22612,
+      "char_end": 22819,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "UNSATURATED FATTY ACIDS ARE SYNTHESIZED BY DESATURASE & ELONGASE SYSTEMS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Stearoyl — CoA is converted to Δ⁹ Desaturase in the presence of O2 and NADH + H+.\nΔ⁹ Desaturase is converted to Oleoyl — CoA with the help of Cyt b5.\nOleoyl — CoA is converted back to Δ⁹ Desaturase in the presence of NAD+ and 2H2O.\nThe diagram illustrates the conversion process involving Stearoyl — CoA, Δ⁹ Desaturase, and Oleoyl — CoA.",
+      "char_start": 22867,
+      "char_end": 23204,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "UNSATURATED FATTY ACIDS ARE SYNTHESIZED BY DESATURASE & ELONGASE SYSTEMS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "The nutritional requirement for arachidonate may be dispensed with if there is adequate linoleate in the diet.",
+      "char_start": 23206,
+      "char_end": 23316,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "UNSATURATED FATTY ACIDS ARE SYNTHESIZED BY DESATURASE & ELONGASE SYSTEMS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "The desaturation and chain elongation system are greatly diminished in the starving state. The desaturation and chain elongation system are greatly diminished in response to glucagon and epinephrine administration. The desaturation and chain elongation system are greatly diminished in the absence of insulin as in type 1 diabetes mellitus.",
+      "char_start": 23977,
+      "char_end": 24317,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "UNSATURATED FATTY ACIDS ARE SYNTHESIZED BY DESATURASE & ELONGASE SYSTEMS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "Oleic acid (18:1 ω9) transforms into 20:1 ω9 within the ω9 Family.\nOleic acid (18:2 ω9) transforms into 22:1 ω9 within the ω9 Family.\nOleic acid (18:2 ω9) transforms into 20:2 ω9 within the ω9 Family.\nOleic acid (20:3 ω9) transforms into 24:1 ω9 within the ω9 Family.\n20:1 ω9 accumulates in EFA deficiency.\n22:1 ω9 accumulates in EFA deficiency.\n20:2 ω9 transforms into Δ⁵ DS within the ω9 Family.\n24:1 ω9 accumulates in EFA deficiency.\nLinoleic acid (18:2 ω6) transforms into 18:3 ω6 (GLA) within the ω6 Family.\nLinoleic acid (18:2 ω6) transforms into α-Linolenic acid (18:3 ω3) within the ω6 Family.\n18:3 ω6 (GLA) transforms into 20:3 ω6 within the ω6 Family.\n18:3 ω6 (GLA) transforms into 20:4 ω6 (AA) within the ω6 Family.\n20:3 ω6 transforms into 20:4 ω6 within the ω6 Family.\n20:4 ω6 (AA) transforms into 20:4 ω6 within the ω6 Family.\n20:4 ω6 transforms into 20:5 ω3 (EPA) within the ω6 Family.\n20:4 ω6 transforms into 22:4 ω6 within the ω6 Family.\n20:4 ω6 transforms into 22:5 ω3 within the ω6 Family.\n20:5 ω3 (EPA) transforms into 22:5 ω3 within the ω6 Family.\n22:4 ω6 transforms into 24:4 ω6 within the ω6 Family.\n22:5 ω3 transforms into 24:5 ω3 within the ω6 Family.\n22:5 ω3 transforms into 24:5 ω3 within the ω6 Family.\n24:4 ω6 transforms into 24:6 ω3 within the ω6 Family.\n24:5 ω3 transforms into 24:6 ω3 within the ω6 Family.\n24:5 ω3 transforms into 24:6 ω3 within the ω6 Family.\n24:6 ω3 transforms into 24:6 ω3 within the ω6 Family.\nω3 Family transforms into 22:5 ω6 through β-OXIDATION.\nω3 Family transforms into 22:6 ω3 (DHA) through β-OXIDATION.\nThis diagram illustrates the biosynthesis pathways of fatty acids within the ω9, ω6, and ω3 families, highlighting key intermediates and their transformations.",
+      "char_start": 24498,
+      "char_end": 26219,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "UNSATURATED FATTY ACIDS ARE SYNTHESIZED BY DESATURASE & ELONGASE SYSTEMS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Rats fed a purified nonlipid diet containing vitamins A and D exhibit a reduced growth rate. Rats fed a purified nonlipid diet containing vitamins A and D exhibit reproductive deficiency. The addition of linoleic acid to the diet cures the deficiency. The addition of arachidonic acid to the diet cures the deficiency. Essential fatty acids are required for the formation of prostaglandin. Essential fatty acids are required for the formation of thromboxane. Essential fatty acids are required for the formation of leukotriene. Essential fatty acids are required for the formation of lipoxin. Essential fatty acids are found in the structural lipids of the cell, often in position 2 of phospholipids. Essential fatty acids are concerned with the structural integrity of the mitochondrial membrane. Arachidonic acid is present in membranes. Arachidonic acid accounts for 5 to 15% of the fatty acids in phospholipids. DHA is present in high concentrations in the retina. DHA is present in high concentrations in the cerebral cortex. DHA is present in high concentrations in the testis. DHA is present in high concentrations in the sperm. DHA is particularly needed for the development of the brain and retina. DHA is supplied via the placenta and milk. Patients with retinitis pigmentosa are reported to have low blood levels of DHA. The triene:tetraene ratio in plasma lipids can be used to diagnose the extent of essential fatty acid deficiency.",
+      "char_start": 26293,
+      "char_end": 27738,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE ESSENTIAL FATTY ACIDS (EFA) HAVE IMPORTANT FUNCTIONS IN THE BODY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-essential-fatty-acids-efa-have-important-functions-in"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Arachidonate and other C20 polyunsaturated fatty acids give rise to eicosanoids. Eicosanoids include prostaglandins (PG), thromboxanes (TX), leukotrienes (LT), and lipoxins (LX). Eicosanoids are physiologically and pharmacologically active compounds. Eicosanoids are considered to act as local hormones. Eicosanoids function through G-protein–linked receptors to elicit their biochemical effects. There are three groups of eicosanoids synthesized from C20 eicosanoic acids. C20 eicosanoic acids are derived from the essential fatty acids linoleate and α-linolenate. Eicosanoids are also derived from dietary arachidonate and eicosapentaenoate. Arachidonate is usually derived from the position 2 of phospholipids in the plasma membrane. Phospholipase A2 acts on phospholipids to release arachidonate. Arachidonate is the substrate for the synthesis of PG2 and TX2 series by the cyclooxygenase pathway. Arachidonate is also the substrate for the synthesis of LT4 and LX4 series by the lipoxygenase pathway. The cyclooxygenase and lipoxygenase pathways compete for arachidonate. The subscript in eicosanoid names denotes the total number of double bonds in the molecule and the series to which the compound belongs. (Figure 23–10)",
+      "char_start": 27803,
+      "char_end": 29031,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "EICOSANOIDS ARE FORMED FROM C20 POLYUNSATURATED FATTY ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-10"
+      ],
+      "table_refs": [],
+      "section_id": "eicosanoids-are-formed-from-c20-polyunsaturated"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "Diet provides linoleate.\nLinoleate undergoes desaturation to form γ-Linolenate.\nγ-Linolenate undergoes elongation to form 8,11,14-Eicosatrienoate (dihomo γ-linolenate).\n8,11,14-Eicosatrienoate undergoes desaturation to form leukotrienes, including LTA3, LTC3, and LTD3.\nLeukotrienes can be converted into prostanoids, including PGE1, PGF1, and TXA1.\nLeukotrienes can also be converted into 5,8,11,14-Eicosatetraenoate (Arachidonate).\nProstanoids can be further converted into other prostanoids, including PGD2, PGE2, PGF2, PGI2, and TXA2.\nProstanoids can also be converted back into leukotrienes, including LTA4, LTB4, LTC4, LTD4, and LTE4.\nLeukotrienes can be converted into 5,8,11,14,17-Eicosapentaenoate.\nProstanoids can be converted into 5,8,11,14-Eicosatetraenoate.\n5,8,11,14-Eicosatetraenoate can undergo desaturation to form γ-Linolenate.\n5,8,11,14-Eicosatetraenoate can also be converted into 5,8,11,14-Eicosapentaenoate.\n5,8,11,14-Eicosapentaenoate can undergo desaturation to form γ-Linolenate.\nγ-Linolenate can undergo desaturation to form α-Linolenate.\nα-Linolenate can undergo desaturation to form Octadecatetraenoate.\nOctadecatetraenoate can undergo elongation to form γ-Linolenate.\nDietary linoleate undergoes desaturation and elongation to form eicosanoids, including leukotrienes and prostanoids, with pathways involving γ-linolenate and arachidonate.",
+      "char_start": 29309,
+      "char_end": 30677,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "EICOSANOIDS ARE FORMED FROM C20 POLYUNSATURATED FATTY ACIDS"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "eicosanoids-are-formed-from-c20-polyunsaturated"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "Prostanoids are synthesized by the cyclooxygenase pathway. Cyclooxygenase (COX), also known as prostaglandin H synthase, catalyzes the first reaction in this pathway. COX exists as two isoenzymes: COX-1 and COX-2. The product of the COX reaction is an endoperoxide called PGH.\n\nProstanoids are synthesized by many different cell types, but each cell type produces only one type of prostanoid. Cyclooxygenase is a 'suicide enzyme,' meaning it undergoes self-catalyzed destruction, which contributes to the 'switching off' of prostaglandin activity. Prostaglandins are rapidly inactivated by 15-hydroxyprostaglandin dehydrogenase. Sulfasalazine and indomethacin can block this enzyme, thereby prolonging the half-life of prostaglandins in the body.\n\nFigure 23-11illustrates the conversion of arachidonic acid to prostaglandins and thromboxanes of series 2. Both cyclooxygenase activities are attributed to the cyclooxygenase enzyme (prostaglandin H synthase). Similar conversions occur in prostaglandins and thromboxanes of series 1 and 3.",
+      "char_start": 30749,
+      "char_end": 31786,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE CYCLOOXYGENASE PATHWAY IS RESPONSIBLE FOR PROSTANOID SYNTHESIS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-11"
+      ],
+      "table_refs": [],
+      "section_id": "the-cyclooxygenase-pathway-is-responsible-for-prostanoid"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Thromboxanes are synthesized in platelets. Thromboxanes cause vasoconstriction. Thromboxanes cause platelet aggregation. Low-dose aspirin specifically inhibits the synthesis of thromboxanes. Thromboxanes and prostacyclins are antagonistic.\n\nAs little as 1 ng/mL of plasma prostaglandins causes contraction of smooth muscle in animals.",
+      "char_start": 32220,
+      "char_end": 32554,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE CYCLOOXYGENASE PATHWAY IS RESPONSIBLE FOR PROSTANOID SYNTHESIS",
+        "Prostanoids Are Potent, Biologically Active Substances"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "prostanoids-are-potent-biologically-active-substances"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "The role of essential fatty acids in membrane formation is unrelated to prostaglandin formation.\n\nProstaglandins do not relieve symptoms of essential fatty acid deficiency.\n\nAn essential fatty acid deficiency is not caused by inhibition of prostaglandin synthesis.",
+      "char_start": 32653,
+      "char_end": 32917,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "THE CYCLOOXYGENASE PATHWAY IS RESPONSIBLE FOR PROSTANOID SYNTHESIS",
+        "Essential Fatty Acids Do Not Exert All Their Physiologic Effects via Prostaglandin Synthesis"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "essential-fatty-acids-do-not-exert-all-their-physiologic"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The leukotrienes are a family of conjugated trienes formed from eicosanoic acids in leukocytes, mastocytoma cells, platelets, and macrophages by the lipoxygenase pathway. The lipoxygenase pathway responds to both immunologic and nonimmunologic stimuli. Three different lipoxygenases insert oxygen into the 5, 12, and 15 positions of arachidonic acid, giving rise to hydroperoxides (HPETE). Only 5-lipoxygenase forms leukotrienes (Figure 23–12).",
+      "char_start": 32985,
+      "char_end": 33429,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-12"
+      ],
+      "table_refs": [],
+      "section_id": "leukotrienes-lipoxins-are-formed-by-the-lipoxygenase-pathway"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Lipoxins are a family of conjugated tetraenes that also arise in leukocytes. Lipoxins are formed by the combined action of more than one lipoxygenase (Figure 23–12).\n\nHETE stands for hydroxyeicosatetraenoate and HPETE stands for hydroperoxyeicosatetraenoate.\n\nFigure 23-12illustrates the conversion of arachidonic acid to leukotrienes and lipoxins of series 4 via the lipoxygenase pathway. Similar conversions occur in series 3 and 5 leukotrienes.",
+      "char_start": 33617,
+      "char_end": 34064,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-23-12"
+      ],
+      "table_refs": [],
+      "section_id": "leukotrienes-lipoxins-are-formed-by-the-lipoxygenase-pathway"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "12-Lipoxygenase catalyzes the formation of Arachidonate.\n15-Lipoxygenase catalyzes the formation of 15-HPETE.\n15-HETE is converted by 5-Lipoxygenase into further products.\n12-HPETE is converted into 12-HETE.\n5-HPETE is converted into 5-HETE.\n5-Lipoxygenase catalyzes the formation of Lipoxins, such as LXA4.\nLeukotriene B4 is associated with Glutamic acid.\nLeukotriene A4 interacts with 15-Lipoxygenase.\nGlutathione is associated with Glutamic acid.\nGlycine is associated with Cysteine.\nLeukotriene C4 is associated with Glutamic acid.\nLeukotriene D4 is associated with Glycine.\nLeukotriene E4 is associated with Cysteine.\nThis diagram illustrates the pathways of arachidonic acid metabolism by lipoxygenases, leading to the formation of various eicosanoids like leukotrienes and lipoxins.",
+      "char_start": 34252,
+      "char_end": 35041,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "leukotrienes-lipoxins-are-formed-by-the-lipoxygenase-pathway"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "Dietary intake of essential fatty acids is associated with a reduction in the development of cardiovascular disease.\n\nDietary intake of essential fatty acids is associated with a reduction in the development of cancer.\n\nDietary intake of essential fatty acids is associated with a reduction in the development of arthritis.\n\nDietary intake of essential fatty acids is associated with a reduction in the development of diabetes mellitus.\n\nDietary intake of essential fatty acids is associated with a reduction in the development of various neurologic conditions.\n\nChanges in gene expression are believed to be involved in the mechanisms of essential fatty acids.\n\nProstanoid production is believed to be involved in the mechanisms of essential fatty acids.\n\nChanges in membrane composition are believed to be involved in the mechanisms of essential fatty acids.",
+      "char_start": 35121,
+      "char_end": 35981,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Essential Fatty Acids Play a Role in the Prevention of Diseases in Humans"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "essential-fatty-acids-play-a-role-in-the-prevention-of"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "In adults subsisting on ordinary diets, no signs of essential fatty acid deficiencies have been reported.\n\nInfants receiving formula diets low in fat show deficiency symptoms that can be prevented by an essential fatty acid intake of 1 to 2% of the total caloric requirement.\n\nPatients maintained for long periods exclusively by intravenous nutrition low in essential fatty acids show deficiency symptoms that can be prevented by an essential fatty acid intake of 1 to 2% of the total caloric requirement.",
+      "char_start": 36094,
+      "char_end": 36599,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Symptoms of Essential Fatty Acid Deficiency in Humans Include Skin Lesions & Impairment of Lipid Transport"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "symptoms-of-essential-fatty-acid-deficiency-in-humans"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "Abnormal metabolism of essential fatty acids is noted in cystic fibrosis.\n\nAbnormal metabolism of essential fatty acids is noted in acrodermatitis enteropathica.\n\nAbnormal metabolism of essential fatty acids is noted in hepatorenal syndrome.\n\nAbnormal metabolism of essential fatty acids is noted in Sjögren-Larsson syndrome.\n\nAbnormal metabolism of essential fatty acids is noted in multisystem neuronal degeneration.\n\nAbnormal metabolism of essential fatty acids is noted in Crohn disease.\n\nAbnormal metabolism of essential fatty acids is noted in cirrhosis and alcoholism.\n\nAbnormal metabolism of essential fatty acids is noted in Reye syndrome.\n\nElevated levels of very-long-chain polyenoic acids have been found in the brains of patients with Zellweger syndrome.\n\nDiets with a high P:S (polyunsaturated:saturated fatty acid) ratio reduce serum cholesterol levels.\n\nDiets with a high P:S (polyunsaturated:saturated fatty acid) ratio are beneficial in terms of the risk of development of coronary heart disease.",
+      "char_start": 36677,
+      "char_end": 37691,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Abnormal Metabolism of Essential Fatty Acids Occurs in Several Diseases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "abnormal-metabolism-of-essential-fatty-acids-occurs-in"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "Small amounts of trans-unsaturated fatty acids are found in ruminant fat. Butter fat contains 2-7% trans-unsaturated fatty acids. Trans-unsaturated fatty acids arise from the action of microorganisms in the rumen. The main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils. Margarine is an example of a partially hydrogenated vegetable oil.\n\nTrans fatty acids compete with essential fatty acids. Trans fatty acids may exacerbate essential fatty acid deficiency. Trans fatty acids are structurally similar to saturated fatty acids. Trans fatty acids have effects comparable to saturated fatty acids. Trans fatty acids promote hypercholesterolemia. Trans fatty acids promote atherosclerosis.",
+      "char_start": 37751,
+      "char_end": 38477,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Trans Fatty Acids Are Implicated in Various Disorders"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "trans-fatty-acids-are-implicated-in-various-disorders"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) that inhibits COX-1 and COX-2.\n\nIndomethacin is a nonsteroidal anti-inflammatory drug (NSAID).\n\nIbuprofen is a nonsteroidal anti-inflammatory drug (NSAID).\n\nIndomethacin inhibits cyclooxygenases by competing with arachidonate.\n\nIbuprofen inhibits cyclooxygenases by competing with arachidonate.\n\nInhibition of COX-1 causes stomach irritation often associated with taking NSAIDs.\n\nCoxibs are drugs that selectively inhibit COX-2.\n\nSome coxibs have been withdrawn or suspended from the market due to undesirable side effects and safety issues.\n\nTranscription of COX-2 is completely inhibited by anti-inflammatory corticosteroids.\n\nTranscription of COX-1 is not inhibited by anti-inflammatory corticosteroids.",
+      "char_start": 38532,
+      "char_end": 39295,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Nonsteroidal Anti-Inflammatory Drugs Inhibit COX"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "nonsteroidal-anti-inflammatory-drugs-inhibit-cox"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Prostanoids may be used to prevent conception. Prostanoids may be used to induce labor at term. Prostanoids may be used to terminate a pregnancy. Prostanoids may be used to prevent or alleviate gastric ulcers. Prostanoids may be used to control inflammation. Prostanoids may be used to control blood pressure. Prostanoids may be used to relieve asthma. Prostanoids may be used to relieve nasal congestion.\n\nProstaglandins increase cAMP in platelets. Prostaglandins increase cAMP in the thyroid. Prostaglandins increase cAMP in the corpus luteum. Prostaglandins increase cAMP in fetal bone. Prostaglandins increase cAMP in the adenohypophysis. Prostaglandins increase cAMP in the lung. Prostaglandins reduce cAMP in renal tubule cells. Prostaglandins reduce cAMP in adipose tissue.",
+      "char_start": 39341,
+      "char_end": 40121,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Prostanoids May Be Used Therapeutically"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "prostanoids-may-be-used-therapeutically"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "Slow-reacting substance of anaphylaxis (SRS-A) is a potent constrictor of the bronchial airway musculature.\n\nLeukotrienes are important regulators in many diseases involving inflammatory or immediate hypersensitivity reactions, such as asthma.\n\nLeukotrienes are vasoactive.\n\n5-lipoxygenase has been found in arterial walls.\n\nLipoxins have an anti-inflammatory role in vasoactive and immunoregulatory function.\n\nLipoxins act as counterregulatory compounds (chalones) of the immune response.",
+      "char_start": 40199,
+      "char_end": 40688,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids",
+        "LEUKOTRIENES & LIPOXINS ARE FORMED BY THE LIPOXYGENASE PATHWAY",
+        "Leukotrienes & Lipoxins Are Potent Regulators of Many Disease Processes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "leukotrienes-lipoxins-are-potent-regulators-of-many-disease"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "The synthesis of long-chain fatty acids (lipogenesis) is carried out by two enzyme systems: acetyl-CoA carboxylase and fatty acid synthase.\nAcetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA, and then fatty acid synthase, a multienzyme complex consisting of two identical polypeptide chains, each containing six separate enzymatic activities and ACP, catalyzes the formation of palmitate from one acetyl-CoA and seven malonyl-CoA molecules.\nLipogenesis is regulated at the acetyl-CoA carboxylase step by allosteric modifiers, phosphorylation/dephosphorylation, and induction and repression of enzyme synthesis. The enzyme is allosterically activated by citrate and deactivated by long-chain acyl-CoA. Dephosphorylation (eg, by insulin) promotes its activity, while phosphorylation (eg, by glucagon or epinephrine) is inhibitory.\nBiosynthesis of unsaturated long-chain fatty acids is achieved by desaturase and elongase enzymes, which introduce double bonds and lengthen existing acyl chains, respectively.",
+      "char_start": 40690,
+      "char_end": 41702,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-23-1",
+      "image_path": "images/4679b298dd036cfd81fa9ef92312c2eae8558c0f57ec0aac098ca8e6ff260f63.jpg",
+      "caption": "Biosynthesis of malonyl-CoA by acetyl-CoA carboxylase. Acetyl carboxylase is a multienzyme complex containing two enzymes, biotin carboxylase (E1) and a carboxyltransferase (E2), and the biotin carrier protein (BCP). Biotin is covalently linked to the BCP. The reaction proceeds in two steps. In step 1, catalyzed by E1, biotin is carboxylated as it accepts a COO - group from HCO 3- and ATP is used. In step 2, catalyzed by E2, the COO - is transferred to acetyl-CoA forming malonyl-CoA.",
+      "referenced_from": "c003",
+      "marker": "[FIGURE:fig-23-1]",
+      "description": "Overall reaction uses ATP, ADP + Pi to proceed through Acetyl-CoA carboxylase.\nAcetyl-CoA carboxylase utilizes biotin in its reaction.\nAcetyl-CoA carboxylase produces Malonyl-CoA along with ADP + Pi.\nStep 1 of the reaction involves the Acetyl-CoA carboxylase enzyme complex with E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nStep 2 of the reaction involves the Acetyl-CoA carboxylase enzyme complex with E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nStep 2, catalyzed by Carboxyl transferase (E2), involves Acetyl-CoA.\nAcetyl-CoA is converted to Malonyl-CoA.\nMalonyl-CoA returns to E1: biotin, BCP.\nE1: biotin, BCP transfers the reaction to E2: biotin, BCP.\nThe diagram as a whole relates the biosynthesis of malonyl-CoA by acetyl-CoA carboxylase, involving biotin carboxylase (E1) and carboxyltransferase (E2) in a two-step process.",
+      "label": "Figure 23-1",
+      "panel": "",
+      "content_chunk": "c004",
+      "caption_span": [
+        3958,
+        4446
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "production-of-malonyl-coa-is-the-initial-controlling-step"
+    },
+    {
+      "fig_id": "fig-23-2",
+      "image_path": "images/4340576cb3bd3401a8b73f26cdfbe5813a0fb52f52ccd2db93e91f450978edfb.jpg",
+      "caption": "Fatty acid synthase multienzyme complex. The complex is a dimer of two identical polypeptide monomers in which six enzymes and the acyl carrier protein (ACP) are linked in the primary structure in the sequence shown. X-ray crystallography of the three-dimensional structure has demonstrated that the two monomers in the complex are arranged in an X-shape.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-23-2]",
+      "description": "Ketoacyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nEnoyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to Hydratase in the fatty acid synthase multienzyme complex.\nACP connects to Hydratase in the fatty acid synthase multienzyme complex.\nThioesterase connects to Hydratase in the fatty acid synthase multienzyme complex.\nMalonyl/acetyl transacylase connects to Hydratase in the fatty acid synthase multienzyme complex.\nHydratase connects to Ketoacyl synthase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to ACP in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Thioesterase in the fatty acid synthase multienzyme complex.\nKetoacyl synthase connects to Malonyl/acetyl transacylase in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to ACP in the fatty acid synthase multienzyme complex.\nKetoacyl reductase connects to Thioesterase in the fatty acid synthase multienzyme complex.\nACP connects to Malonyl/acetyl transacylase in the fatty acid synthase multienzyme complex.\nThioesterase connects to Ketoacyl reductase in the fatty acid synthase multienzyme complex.\nThe diagram represents the structure and enzyme interactions within the fatty acid synthase multienzyme complex.",
+      "label": "Figure 23-2",
+      "panel": "",
+      "content_chunk": "c006",
+      "caption_span": [
+        6321,
+        6676
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "fig_id": "fig-23-3",
+      "image_path": "",
+      "caption": "Biosynthesis of long-chain fatty acids. After the initial priming step in which acetyl-CoA is bound to a cysteine-SH group on the fatty acid synthase enzyme (reaction 1a), the addition of a malonyl residue causes the acyl chain to grow by two carbon atoms in each cycle. (Cys, cysteine residue; Pan, 4'-phosphopantetheine.) The blocks highlighted in blue contain the C2 unit derived from acetyl-CoA initially (as illustrated) and subsequently the Cn unit formed in reaction 5.",
+      "referenced_from": "c007",
+      "marker": "[FIGURE:fig-23-3]",
+      "description": "",
+      "label": "Figure 23-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9550,
+        10026
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "fig_id": "fig-x4",
+      "image_path": "images/fb033a25d8d37edd7ea215f0b684f2837bc71b1270f3b8ca36f3de3ced8813b6.jpg",
+      "caption": "The diagram illustrates the enzymatic pathway of fatty acid synthase, depicting the conversion of acyl acetyl-malonyl enzyme into palmitate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x4]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10045,
+        10185
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-fatty-acid-synthase-complex-is-a-homodimer-of-two"
+    },
+    {
+      "fig_id": "fig-23-4",
+      "image_path": "images/8194e8265ba0bec4bd761c9b96d407abd798760139483fcff65e39279fcc33ce.jpg",
+      "caption": "The provision of acetyl-CoA and NADPH for lipogenesis. (K, α -ketoglutarate transporter; P, pyruvate transporter; PPP, pentose phosphate pathway; T, tricarboxylate transporter.)",
+      "referenced_from": "c009",
+      "marker": "[FIGURE:fig-23-4]",
+      "description": "",
+      "label": "Figure 23-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        11545,
+        11722
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-main-source-of-nadph-for-lipogenesis-is-the-pentose"
+    },
+    {
+      "fig_id": "fig-23-5",
+      "image_path": "images/f8b6cbc55624acf9e195abd2b84f8472ffce1b4dbd4bf90215f185adcd810804.jpg",
+      "caption": "Regulation of acetyl-CoA carboxylase. Acetyl-CoA carboxylase is activated by citrate, which promotes the conversion of the enzyme from an inactive dimer to an active polymeric form. Inactivation is promoted by phosphorylation of the enzyme and by long-chain acyl-CoA molecules such as palmitoyl-CoA. In addition, acyl-CoA inhibits the tricarboxylate transporter, which transports citrate out of mitochondria into the cytosol, thus decreasing the citrate concentration in the cytosol and favoring inactivation of the enzyme.",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-23-5]",
+      "description": "The Mitochondrion produces Citrate.\nCitrate is transported by the Tricarboxylate transporter.\nThe Tricarboxylate transporter moves Citrate into the Cytosol.\nIn the Cytosol, Citrate converts Acetyl-CoA Carboxylase from an inactive dimer to an active polymer.\nPhosphorylation inactivates the active polymer form of Acetyl-CoA Carboxylase.\nThe active polymer form of Acetyl-CoA Carboxylase converts Acetyl CoA to Malonyl CoA.\nMalonyl CoA is a substrate for Fatty Acid Synthase.\nFatty Acid Synthase converts Malonyl CoA to Palmitoyl CoA.\nPalmitoyl CoA inhibits the Tricarboxylate transporter, reducing citrate transport into the cytosol.\nThis diagram illustrates the regulation of acetyl-CoA carboxylase and the interplay between citrate, acyl-CoA, and fatty acid synthesis.",
+      "label": "Figure 23-5",
+      "panel": "",
+      "content_chunk": "c015",
+      "caption_span": [
+        16525,
+        17048
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "fig_id": "fig-23-6",
+      "image_path": "images/c11b3cbb9c7ccde580d0e34b700db4f99bae3535418aeaca9d8c4be6ec250da7.jpg",
+      "caption": "Regulation of acetyl-CoA carboxylase by phosphorylation/dephosphorylation. The enzyme is inactivated by phosphorylation by AMP-activated protein kinase (AMPK), which in turn is phosphorylated and activated by AMP-activated protein kinase kinase (AMPKK). Glucagon and epinephrine increase cAMP, and thus activate this latter enzyme via cAMP-dependent protein kinase. The kinase kinase enzyme is also believed to be activated by acyl-CoA. Insulin activates acetyl-CoA carboxylase via dephosphorylation of AMPK.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-23-6]",
+      "description": "Protein phosphatase activates Acetyl-CoA carboxylase (active) by dephosphorylation.\nAcetyl-CoA carboxylase (inactive) is converted to Acetyl-CoA carboxylase (active) by Protein phosphatase.\nAcetyl-CoA carboxylase (active) converts Acetyl-CoA to Malonyl-CoA.\nAcetyl-CoA carboxylase (active) is inactivated by AMPK (active).\nMalonyl-CoA is influenced by Acyl-CoA.\nAMPK (active) is inactivated to AMPK (inactive) by ATP.\nInsulin activates AMPK (inactive) to AMPK (active) by dephosphorylation.\nAMPK (inactive) is activated by AMPKK.\ncAMP-dependent protein kinase activates AMPKK.\ncAMP-dependent protein kinase activates itself.\nAMPKK activates cAMP-dependent protein kinase.\ncAMP-dependent protein kinase is activated by Glucagon.",
+      "label": "Figure 23-6",
+      "panel": "",
+      "content_chunk": "c017",
+      "caption_span": [
+        18276,
+        18784
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "acetyl-coa-carboxylase-is-the-most-important-enzyme-in-the"
+    },
+    {
+      "fig_id": "fig-23-7",
+      "image_path": "images/324fa9ea31c254db7faeaf5dc6677822f2ac6e207ec16ac11c739f6dcd68d956.jpg",
+      "caption": "Structure of some unsaturated fatty acids. \\Nutritionally essential fatty acids in humans.",
+      "referenced_from": "c021",
+      "marker": "[FIGURE:fig-23-7]",
+      "description": "",
+      "label": "Figure 23-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        22444,
+        22534
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "some-polyunsaturated-fatty-acids-are-nutritionally-essential"
+    },
+    {
+      "fig_id": "fig-23-8",
+      "image_path": "images/bb3ce776ef23f645b015dfd6a0d08122b7e272f905ef9e8a5ab041464d79b22e.jpg",
+      "caption": "Microsomal Δ9 desaturase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-23-8]",
+      "description": "Stearoyl — CoA is converted to Δ⁹ Desaturase in the presence of O2 and NADH + H+.\nΔ⁹ Desaturase is converted to Oleoyl — CoA with the help of Cyt b5.\nOleoyl — CoA is converted back to Δ⁹ Desaturase in the presence of NAD+ and 2H2O.\nThe diagram illustrates the conversion process involving Stearoyl — CoA, Δ⁹ Desaturase, and Oleoyl — CoA.",
+      "label": "Figure 23-8",
+      "panel": "",
+      "content_chunk": "c023",
+      "caption_span": [
+        22840,
+        22865
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "fig_id": "fig-23-9",
+      "image_path": "",
+      "caption": "Biosynthesis of the 9 , 6 , and 3 families of polyunsaturated fatty acids. In animals, the 9 , 6 , and 3 families of polyunsaturated fatty acids are synthesized in the endoplasmic reticulum from oleic, linoleic, and β -linolenic acids, respectively, by a series of elongation and desaturation reactions. The production of 22:5 6 (osbond acid) or 22:6 3 (docosahexaenoic acid [DHA]), however, requires one cycle of β -oxidation, which takes place inside peroxisomes after the formation of 24:5 6 or 24:6 3 . (AA, arachidonic acid; DS, desaturase; E, elongase; EFA, essential fatty acids; EPA, eicosapentaenoic acid; GLA, γ -linolenic acid;",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-23-9]",
+      "description": "",
+      "label": "Figure 23-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23337,
+        23975
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "fig_id": "fig-x11",
+      "image_path": "images/7fae1f43741fdcd9f25a382ce07b53f398d2b7ea69a5d839c9ef5087750eeb56.jpg",
+      "caption": "This diagram illustrates the biosynthesis pathways of fatty acids within the ω9, ω6, and ω3 families, highlighting key intermediates and their transformations.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x11]",
+      "description": "Oleic acid (18:1 ω9) transforms into 20:1 ω9 within the ω9 Family.\nOleic acid (18:2 ω9) transforms into 22:1 ω9 within the ω9 Family.\nOleic acid (18:2 ω9) transforms into 20:2 ω9 within the ω9 Family.\nOleic acid (20:3 ω9) transforms into 24:1 ω9 within the ω9 Family.\n20:1 ω9 accumulates in EFA deficiency.\n22:1 ω9 accumulates in EFA deficiency.\n20:2 ω9 transforms into Δ⁵ DS within the ω9 Family.\n24:1 ω9 accumulates in EFA deficiency.\nLinoleic acid (18:2 ω6) transforms into 18:3 ω6 (GLA) within the ω6 Family.\nLinoleic acid (18:2 ω6) transforms into α-Linolenic acid (18:3 ω3) within the ω6 Family.\n18:3 ω6 (GLA) transforms into 20:3 ω6 within the ω6 Family.\n18:3 ω6 (GLA) transforms into 20:4 ω6 (AA) within the ω6 Family.\n20:3 ω6 transforms into 20:4 ω6 within the ω6 Family.\n20:4 ω6 (AA) transforms into 20:4 ω6 within the ω6 Family.\n20:4 ω6 transforms into 20:5 ω3 (EPA) within the ω6 Family.\n20:4 ω6 transforms into 22:4 ω6 within the ω6 Family.\n20:4 ω6 transforms into 22:5 ω3 within the ω6 Family.\n20:5 ω3 (EPA) transforms into 22:5 ω3 within the ω6 Family.\n22:4 ω6 transforms into 24:4 ω6 within the ω6 Family.\n22:5 ω3 transforms into 24:5 ω3 within the ω6 Family.\n22:5 ω3 transforms into 24:5 ω3 within the ω6 Family.\n24:4 ω6 transforms into 24:6 ω3 within the ω6 Family.\n24:5 ω3 transforms into 24:6 ω3 within the ω6 Family.\n24:5 ω3 transforms into 24:6 ω3 within the ω6 Family.\n24:6 ω3 transforms into 24:6 ω3 within the ω6 Family.\nω3 Family transforms into 22:5 ω6 through β-OXIDATION.\nω3 Family transforms into 22:6 ω3 (DHA) through β-OXIDATION.\nThis diagram illustrates the biosynthesis pathways of fatty acids within the ω9, ω6, and ω3 families, highlighting key intermediates and their transformations.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c026",
+      "caption_span": [
+        24337,
+        24496
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "unsaturated-fatty-acids-are-synthesized-by-desaturase"
+    },
+    {
+      "fig_id": "fig-23-10",
+      "image_path": "",
+      "caption": "The three groups of eicosanoids and their biosynthetic origins.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-23-10]",
+      "description": "",
+      "label": "Figure 23-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        29053,
+        29116
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "eicosanoids-are-formed-from-c20-polyunsaturated"
+    },
+    {
+      "fig_id": "fig-x13",
+      "image_path": "images/907605c32d76be6b54cb620665f3c5e1c781bc6ff9bd6595664aa574d6460395.jpg",
+      "caption": "Dietary linoleate undergoes desaturation and elongation to form eicosanoids, including leukotrienes and prostanoids, with pathways involving γ-linolenate and arachidonate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x13]",
+      "description": "Diet provides linoleate.\nLinoleate undergoes desaturation to form γ-Linolenate.\nγ-Linolenate undergoes elongation to form 8,11,14-Eicosatrienoate (dihomo γ-linolenate).\n8,11,14-Eicosatrienoate undergoes desaturation to form leukotrienes, including LTA3, LTC3, and LTD3.\nLeukotrienes can be converted into prostanoids, including PGE1, PGF1, and TXA1.\nLeukotrienes can also be converted into 5,8,11,14-Eicosatetraenoate (Arachidonate).\nProstanoids can be further converted into other prostanoids, including PGD2, PGE2, PGF2, PGI2, and TXA2.\nProstanoids can also be converted back into leukotrienes, including LTA4, LTB4, LTC4, LTD4, and LTE4.\nLeukotrienes can be converted into 5,8,11,14,17-Eicosapentaenoate.\nProstanoids can be converted into 5,8,11,14-Eicosatetraenoate.\n5,8,11,14-Eicosatetraenoate can undergo desaturation to form γ-Linolenate.\n5,8,11,14-Eicosatetraenoate can also be converted into 5,8,11,14-Eicosapentaenoate.\n5,8,11,14-Eicosapentaenoate can undergo desaturation to form γ-Linolenate.\nγ-Linolenate can undergo desaturation to form α-Linolenate.\nα-Linolenate can undergo desaturation to form Octadecatetraenoate.\nOctadecatetraenoate can undergo elongation to form γ-Linolenate.\nDietary linoleate undergoes desaturation and elongation to form eicosanoids, including leukotrienes and prostanoids, with pathways involving γ-linolenate and arachidonate.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c029",
+      "caption_span": [
+        29136,
+        29307
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "eicosanoids-are-formed-from-c20-polyunsaturated"
+    },
+    {
+      "fig_id": "fig-23-11",
+      "image_path": "images/bfd0ad781b8cbcee46c73eadf9f09a3260942ba27a45a6c93cd78fe0c653e25a.jpg",
+      "caption": "Conversion of arachidonic acid to prostaglandins and thromboxanes of series 2. HHT, hydroxyheptadecatrienoate; PG, prostaglandin; PGI, prostacyclin; TX, thromboxane. \\Both of these starred activities are attributed to the cyclooxygenase enzyme (prostaglandin H synthase). Similar conversions occur in prostaglandins and thromboxanes of series 1 and 3.",
+      "referenced_from": "c030",
+      "marker": "[FIGURE:fig-23-11]",
+      "description": "",
+      "label": "Figure 23-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        31808,
+        32159
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-cyclooxygenase-pathway-is-responsible-for-prostanoid"
+    },
+    {
+      "fig_id": "fig-23-12",
+      "image_path": "",
+      "caption": "Conversion of arachidonic acid to leukotrienes and lipoxins of series 4 via the lipoxygenase pathway. Some similar conversions occur in series 3 and 5 leukotrienes.",
+      "referenced_from": "c033",
+      "marker": "[FIGURE:fig-23-12]",
+      "description": "",
+      "label": "Figure 23-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        33451,
+        33615
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "leukotrienes-lipoxins-are-formed-by-the-lipoxygenase-pathway"
+    },
+    {
+      "fig_id": "fig-x16",
+      "image_path": "images/dbeaf929e7ef84be75b195a7a1fe90ef4b7b06c798fa7bfa439d641315977f1a.jpg",
+      "caption": "This diagram illustrates the pathways of arachidonic acid metabolism by lipoxygenases, leading to the formation of various eicosanoids like leukotrienes and lipoxins.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x16]",
+      "description": "12-Lipoxygenase catalyzes the formation of Arachidonate.\n15-Lipoxygenase catalyzes the formation of 15-HPETE.\n15-HETE is converted by 5-Lipoxygenase into further products.\n12-HPETE is converted into 12-HETE.\n5-HPETE is converted into 5-HETE.\n5-Lipoxygenase catalyzes the formation of Lipoxins, such as LXA4.\nLeukotriene B4 is associated with Glutamic acid.\nLeukotriene A4 interacts with 15-Lipoxygenase.\nGlutathione is associated with Glutamic acid.\nGlycine is associated with Cysteine.\nLeukotriene C4 is associated with Glutamic acid.\nLeukotriene D4 is associated with Glycine.\nLeukotriene E4 is associated with Cysteine.\nThis diagram illustrates the pathways of arachidonic acid metabolism by lipoxygenases, leading to the formation of various eicosanoids like leukotrienes and lipoxins.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c035",
+      "caption_span": [
+        34084,
+        34250
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "leukotrienes-lipoxins-are-formed-by-the-lipoxygenase-pathway"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Describe the reaction catalyzed by acetyl-CoA carboxylase and understand the mechanisms by which its activity is regulated to control the rate of fatty acid synthesis.\nOutline the structure of the fatty acid synthase multienzyme complex, indicating the sequence of enzymes in the two peptide chains of the homodimer.\nExplain how long-chain fatty acids are synthesized by the repeated condensation of two carbon units, with formation of the 16-carbon palmitate being favored in most tissues, and identify the cofactors required.\nIndicate the sources of reducing equivalents (NADPH) for fatty acid synthesis.\nExplain how fatty acid synthesis is regulated by nutritional status and identify other control mechanisms that operate in addition to modulation of the activity of acetyl-CoA carboxylase.\nIdentify the nutritionally essential fatty acids and explain why they cannot be formed in the body.\nExplain how polyunsaturated fatty acids are synthesized by desaturase and elongation enzymes.\nOutline the cyclooxygenase and lipoxygenase pathways responsible for the formation of the various classes of eicosanoids.",
+      "char_start": 45,
+      "char_end": 1155,
+      "section_path": [
+        "Biosynthesis of Fatty Acids & Eicosanoids"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-marker",
+      "reason": "bold/italic marker in tagged content",
+      "count": 2,
+      "example": "Structure of some unsaturated fatty acids. \\*Nutritionally essential fatty acids in humans."
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-8",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x16",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-9",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-23-12",
+      "reason": "figure has no src image"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids/chapter_23_biosynthesis_of_fatty_acids_and_eicosanoids.normalized.md"
+}

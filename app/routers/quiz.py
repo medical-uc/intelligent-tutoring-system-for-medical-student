@@ -2,7 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
+from app.openapi import error_responses
 from app.schemas import (
+    BKTParamsResponse,
     CancelSessionResponse,
     CheckAnswerRequest,
     CheckAnswerResponse,
@@ -17,6 +19,8 @@ from app.schemas import (
     MasteryResponse,
     OptionOut,
     QuestionOut,
+    StartBatchQuizSessionRequest,
+    StartBatchQuizSessionResponse,
     StartSessionResponse,
     SubjectListResponse,
     SubjectOut,
@@ -27,6 +31,7 @@ from app.schemas import (
 )
 from src.quiz.attempts import due_for_review, record_attempt
 from src.quiz.bank import Question, QuestionBank, load_question_bank
+from src.quiz.bkt_fit import get_fitted_params
 from src.quiz.mastery import mastery_for_student, upsert_mastery
 from src.quiz.sessions import (
     cancel_session,
@@ -69,12 +74,16 @@ def _validate_selected_index(question: Question, selected_index: int) -> None:
         )
 
 
-@router.get("/topics", response_model=TopicListResponse)
+@router.get(
+    "/topics", response_model=TopicListResponse, responses=error_responses(401)
+)
 def list_topics(bank: QuestionBank = Depends(_get_bank)) -> TopicListResponse:
     return TopicListResponse(topics=bank.topics())
 
 
-@router.get("/subjects", response_model=SubjectListResponse)
+@router.get(
+    "/subjects", response_model=SubjectListResponse, responses=error_responses(401)
+)
 def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListResponse:
     """Subject -> topic catalog for the Subjects browse page. flashcard_count mirrors
     question_count since every flashcard is 1:1-derived from a bank question (see
@@ -100,7 +109,22 @@ def list_subjects(bank: QuestionBank = Depends(_get_bank)) -> SubjectListRespons
     )
 
 
-@router.get("/topics/{topic_path:path}/questions", response_model=list[QuestionOut])
+@router.get(
+    "/questions", response_model=list[QuestionOut], responses=error_responses(401)
+)
+def get_all_questions(bank: QuestionBank = Depends(_get_bank)) -> list[QuestionOut]:
+    """The whole question bank, unscoped — pairs with POST /sessions (the cross-topic
+    batch session), same way GET /flashcards/cards pairs with POST /flashcards/sessions:
+    the client fetches everything once, builds a uid -> question lookup, and filters
+    against a session's question_uids locally rather than fetching per-topic."""
+    return [_to_question_out(q) for q in bank.all()]
+
+
+@router.get(
+    "/topics/{topic_path:path}/questions",
+    response_model=list[QuestionOut],
+    responses=error_responses(401, 404),
+)
 def get_questions_for_topic(
     topic_path: str,
     bank: QuestionBank = Depends(_get_bank),
@@ -113,7 +137,35 @@ def get_questions_for_topic(
     return [_to_question_out(q) for q in questions]
 
 
-@router.post("/topics/{topic_path:path}/sessions", response_model=StartSessionResponse)
+@router.post(
+    "/sessions",
+    response_model=StartBatchQuizSessionResponse,
+    responses=error_responses(401, 404),
+)
+def start_batch_quiz_session(
+    body: StartBatchQuizSessionRequest = StartBatchQuizSessionRequest(),
+    student_id: str = Depends(get_current_student_id),
+    bank: QuestionBank = Depends(_get_bank),
+    driver: Driver = Depends(get_driver),
+) -> StartBatchQuizSessionResponse:
+    """Starts a due-first batch of up to `size` questions (10 by default) drawn from the
+    whole bank: due-for-review questions first (soonest-due), then never-answered
+    questions top up the rest. The returned question_uids is the fixed batch for this
+    session — walk it with /questions/{uid}/check and /questions/{uid}/log same as a
+    topic run, then call /sessions/{id}/end."""
+    session = start_session(driver, student_id=student_id, bank=bank, size=body.size)
+    if session is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="no questions available"
+        )
+    return StartBatchQuizSessionResponse(**session)
+
+
+@router.post(
+    "/topics/{topic_path:path}/sessions",
+    response_model=StartSessionResponse,
+    responses=error_responses(401, 404),
+)
 def start_quiz_session(
     topic_path: str,
     student_id: str = Depends(get_current_student_id),
@@ -127,11 +179,15 @@ def start_quiz_session(
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND, detail="no questions for this topic"
         )
-    session_id = start_session(driver, student_id=student_id, topic_path=topic_path)
-    return StartSessionResponse(session_id=session_id)
+    session = start_session(driver, student_id=student_id, topic_path=topic_path)
+    return StartSessionResponse(session_id=session["session_id"])
 
 
-@router.post("/sessions/{session_id}/end", response_model=EndSessionResponse)
+@router.post(
+    "/sessions/{session_id}/end",
+    response_model=EndSessionResponse,
+    responses=error_responses(401, 404),
+)
 def end_quiz_session(
     session_id: str,
     student_id: str = Depends(get_current_student_id),
@@ -148,7 +204,11 @@ def end_quiz_session(
     return EndSessionResponse(**summary)
 
 
-@router.post("/sessions/{session_id}/cancel", response_model=CancelSessionResponse)
+@router.post(
+    "/sessions/{session_id}/cancel",
+    response_model=CancelSessionResponse,
+    responses=error_responses(401, 404),
+)
 def cancel_quiz_session(
     session_id: str,
     student_id: str = Depends(get_current_student_id),
@@ -169,7 +229,9 @@ def cancel_quiz_session(
     return CancelSessionResponse(**summary)
 
 
-@router.get("/history", response_model=HistoryResponse)
+@router.get(
+    "/history", response_model=HistoryResponse, responses=error_responses(401)
+)
 def get_history(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -199,31 +261,41 @@ def get_history(
     return HistoryResponse(items=items)
 
 
-@router.get("/review/due", response_model=DueReviewResponse)
+@router.get(
+    "/review/due", response_model=DueReviewResponse, responses=error_responses(401)
+)
 def get_due_for_review(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
+    bank: QuestionBank = Depends(_get_bank),
 ) -> DueReviewResponse:
     """Questions this student has answered before whose spaced-repetition schedule says
     they're due again now, soonest-due first. A question the student has never answered
     has no schedule yet and never appears here — pair with /topics/{path}/questions for
-    "answer this for the first time" flows."""
+    "answer this for the first time" flows. Rows whose question no longer exists in the
+    bank are skipped, same convention as GET /history."""
     items = due_for_review(driver, student_id=student_id)
-    return DueReviewResponse(
-        items=[
+    result = []
+    for r in items:
+        question = bank.get(r["question_uid"])
+        if question is None:
+            continue
+        result.append(
             DueReviewItem(
                 question_uid=r["question_uid"],
+                topic_path=question.topic_path,
                 streak=r["streak"],
                 interval_days=r["interval_days"],
                 last_reviewed_at=r["last_reviewed_at"].to_native(),
                 next_review_at=r["next_review_at"].to_native(),
             )
-            for r in items
-        ]
-    )
+        )
+    return DueReviewResponse(items=result)
 
 
-@router.get("/mastery", response_model=MasteryResponse)
+@router.get(
+    "/mastery", response_model=MasteryResponse, responses=error_responses(401)
+)
 def get_mastery(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -245,7 +317,11 @@ def get_mastery(
     )
 
 
-@router.put("/mastery", response_model=UpdateMasteryResponse)
+@router.put(
+    "/mastery",
+    response_model=UpdateMasteryResponse,
+    responses=error_responses(401, 404),
+)
 def update_mastery(
     body: UpdateMasteryRequest,
     student_id: str = Depends(get_current_student_id),
@@ -268,7 +344,39 @@ def update_mastery(
     return UpdateMasteryResponse(updated_count=updated_count)
 
 
-@router.post("/questions/{uid}/check", response_model=CheckAnswerResponse)
+@router.get(
+    "/mastery/params", response_model=BKTParamsResponse, responses=error_responses(401)
+)
+def get_mastery_params(
+    student_id: str = Depends(get_current_student_id),
+    driver: Driver = Depends(get_driver),
+) -> BKTParamsResponse:
+    """The global BKT emission/transition parameters (p_init, p_transit, p_slip,
+    p_guess), EM-fit from every student's QUIZ_ANSWER history pooled together (see
+    src/quiz/bkt_fit.py) — not this student's own data alone. The client's on-device BKT
+    (BKTStore.swift) fetches and caches these, replacing its own hard-coded defaults, so
+    the shared model of "how noisy is a confident vs. guessing answer" stays current as
+    real interaction volume grows, while p_know itself stays entirely client-computed.
+    fitted_from_defaults is true if there wasn't yet enough data to fit and the original
+    hand-picked defaults were returned as-is — the client should still cache and use
+    them the same way, just without expecting the improved accuracy a real fit gives."""
+    fitted = get_fitted_params(driver)
+    return BKTParamsResponse(
+        p_init=fitted.p_init,
+        p_transit=fitted.p_transit,
+        p_slip=fitted.p_slip,
+        p_guess=fitted.p_guess,
+        n_attempts=fitted.n_attempts,
+        n_sequences=fitted.n_sequences,
+        fitted_from_defaults=fitted.fitted_from_defaults,
+    )
+
+
+@router.post(
+    "/questions/{uid}/check",
+    response_model=CheckAnswerResponse,
+    responses=error_responses(400, 401, 404),
+)
 def check_answer(
     uid: str,
     body: CheckAnswerRequest,
@@ -288,7 +396,11 @@ def check_answer(
     )
 
 
-@router.post("/questions/{uid}/log", response_model=LogAttemptResponse)
+@router.post(
+    "/questions/{uid}/log",
+    response_model=LogAttemptResponse,
+    responses=error_responses(400, 401, 404),
+)
 def log_attempt(
     uid: str,
     body: LogAttemptRequest,

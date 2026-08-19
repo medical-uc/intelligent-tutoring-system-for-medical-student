@@ -1,0 +1,1405 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which condition is associated with components of the extracellular matrix?",
+    "options": [
+      "atherosclerotic plaques",
+      "osteoarthritis",
+      "osteogenesis imperfecta",
+      "rheumatoid arthritis",
+      "senile osteoporosis"
+    ],
+    "answer": "rheumatoid arthritis",
+    "rationale": "Certain components of the ECM are involved in rheumatoid arthritis and osteoarthritis.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "risk_factor_for",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "In which structure is type XV collagen typically found?",
+    "options": [
+      "basement membranes",
+      "connective tissue",
+      "lung",
+      "tendons",
+      "vascular"
+    ],
+    "answer": "basement membranes",
+    "rationale": "Type XV collagen is associated with collagens close to basement membranes in many tissues, including the eye, muscle, and microvessels.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGEN IS THE MOST ABUNDANT PROTEIN IN THE ANIMAL WORLD",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "In which structure is type II collagen typically found?",
+    "options": [
+      "bone",
+      "cartilage",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "cartilage",
+    "rationale": "Type II collagen is present in cartilage and the vitreous humor.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGEN IS THE MOST ABUNDANT PROTEIN IN THE ANIMAL WORLD",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "In which structure is type III collagen typically found?",
+    "options": [
+      "bone",
+      "cartilage",
+      "human tissues",
+      "lung",
+      "tendons"
+    ],
+    "answer": "lung",
+    "rationale": "Type III collagen is located in extensible connective tissues, such as skin, lung, and the vascular system.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGEN IS THE MOST ABUNDANT PROTEIN IN THE ANIMAL WORLD",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Glycine requires which substance?",
+    "options": [
+      "amino acid",
+      "collagen",
+      "elastin",
+      "lysyl hydroxylase",
+      "proteoglycans"
+    ],
+    "answer": "amino acid",
+    "rationale": "Glycine residues occur at every third position of the triple helical portion of the alpha chain. Glycine is the only amino acid small enough to be accommodated in the limited space available in the central core of the triple helix. The repeating structure (Gly-X-Y)n is an absolute requirement for the formation of the triple helix.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substrate does lysyl hydroxylase act on?",
+    "options": [
+      "collagen",
+      "elastin",
+      "fibrillin",
+      "lysine",
+      "proteoglycans"
+    ],
+    "answer": "lysine",
+    "rationale": "Lysyl hydroxylase modifies lysines to hydroxylysine. Lysyl hydroxylase has similar cofactors to prolyl hydroxylase.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Which substrate does lysyl oxidase act on?",
+    "options": [
+      "aldehydes",
+      "biomolecules",
+      "ECM",
+      "peptide-bound",
+      "vitreous humor"
+    ],
+    "answer": "aldehydes",
+    "rationale": "After secretion from the cell, certain lysyl residues of tropoelastin are oxidatively deaminated to aldehydes by lysyl oxidase.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > ELASTIN CONFERS EXTENSIBILITY & RECOIL",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What substance is lysine converted into by lysyl oxidase?",
+    "options": [
+      "aldehydes",
+      "biomolecules",
+      "ECM",
+      "IdUA",
+      "uronic acid"
+    ],
+    "answer": "aldehydes",
+    "rationale": "Covalent cross-links form through the action of lysyl oxidase, a copper-dependent enzyme that oxidatively deaminates the \\(ε\\) -amino groups of certain lysine and hydroxylysine residues, yielding reactive aldehydes.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What substance is hydroxylysine converted into by lysyl oxidase?",
+    "options": [
+      "aldehydes",
+      "biomolecules",
+      "ECM",
+      "IdUA",
+      "uronic acid"
+    ],
+    "answer": "aldehydes",
+    "rationale": "Covalent cross-links form through the action of lysyl oxidase, a copper-dependent enzyme that oxidatively deaminates the \\(ε\\) -amino groups of certain lysine and hydroxylysine residues, yielding reactive aldehydes.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Procollagen is converted into which substance?",
+    "options": [
+      "amino acid",
+      "collagen",
+      "elastin",
+      "fibrillin",
+      "proteoglycans"
+    ],
+    "answer": "collagen",
+    "rationale": "The polypeptide extensions in procollagen are not present in mature collagen.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > Collagen Undergoes Extensive Posttranslational Modifications",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "What substance is collagen converted into after the removal of propeptides?",
+    "options": [
+      "amino acid",
+      "elastin",
+      "fibrillin",
+      "proteoglycans",
+      "tropocollagen"
+    ],
+    "answer": "tropocollagen",
+    "rationale": "The removal of propeptides forms the monomeric units of collagen, termed tropocollagen.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > Extracellular",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Which of the following is a recognised cause of chondrodysplasias?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "COL5A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "COL2A1",
+    "rationale": "Mutations in COL2A1 can lead to severe chondrodysplasia.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of osteogenesis imperfecta?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "COL5A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "collagen I",
+    "rationale": "Types I to IV of osteogenesis imperfecta are caused by mutations in the COL1A1 or COL1A2 genes or both. Type I osteogenesis imperfecta is mild.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which of the following is a recognised cause of osteoporosis?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "COL5A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "collagen I",
+    "rationale": "Mutations in COL1A1 can lead to osteoporosis.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which of the following is a recognised cause of Ehlers-Danlos syndrome?",
+    "options": [
+      "chondroitin 4-sulfate",
+      "dermatan sulfate",
+      "estrogen deficiency",
+      "hyaluronic acid",
+      "tenascin XB"
+    ],
+    "answer": "tenascin XB",
+    "rationale": "Mutations in Tenascin XB (TNXB) can lead to classical-like Ehlers-Danlos syndrome (cLEDS).",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognised cause of osteoarthritis?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "COL5A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "COL2A1",
+    "rationale": "Mutations in COL2A1 can lead to osteoarthritis.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Which of the following is a recognised cause of Alport syndrome?",
+    "options": [
+      "autosomal",
+      "osteoarthritis",
+      "osteogenesis imperfecta",
+      "rheumatoid arthritis",
+      "skeletal dysplasia"
+    ],
+    "answer": "autosomal",
+    "rationale": "Mutations in COL4A3 can lead to Alport syndrome (autosomal and X-linked).",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognised cause of Schmid metaphyseal chondrodysplasia?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "COL5A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "COL10A1",
+    "rationale": "Mutations in COL10A1 can lead to Schmid metaphyseal chondrodysplasia.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which of the following is a recognised cause of Menkes disease?",
+    "options": [
+      "ATP7A",
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "type III collagen"
+    ],
+    "answer": "ATP7A",
+    "rationale": "Mutations in ATP7A can lead to Menkes disease.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognised cause of classical-like Ehlers-Danlos syndrome (cEDS)?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "TNXB",
+      "type III collagen"
+    ],
+    "answer": "TNXB",
+    "rationale": "The classical-like EDS (cEDS) involves defects in Tenascin XB (TNXB). The classical-like EDS (cEDS) has an incidence of less than 1:1,000,000.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of myopathic EDS?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "type III collagen",
+      "type XV collagen"
+    ],
+    "answer": "type XV collagen",
+    "rationale": "The myopathic EDS (mEDS) involves defects in type XII collagen. The myopathic EDS (mEDS) has an incidence of less than 1:1,000,000.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which of the following is a recognised cause of epidermolysis bullosa?",
+    "options": [
+      "blisters",
+      "hyperextensibility",
+      "musculoskeletal abnormalities",
+      "ocular lesions",
+      "skin hyperextensibility"
+    ],
+    "answer": "blisters",
+    "rationale": "Epidermolysis bullosa is a condition where the skin breaks and blisters as a result of minor trauma.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Ascorbic acid requires which substance?",
+    "options": [
+      "collagen",
+      "elastin",
+      "fibrillin",
+      "lysyl hydroxylase",
+      "proteoglycans"
+    ],
+    "answer": "lysyl hydroxylase",
+    "rationale": "Prolyl and lysyl hydroxylases require ascorbic acid as a cofactor.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > COLLAGENS HAVE A TRIPLE HELIX STRUCTURE > A Number of Genetic & Deficiency Diseases Result From Abnormalities in the Synthesis of Collagen",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "In which structure is elastin found in large amounts?",
+    "options": [
+      "bone",
+      "connective tissue",
+      "human tissues",
+      "tendons",
+      "vascular"
+    ],
+    "answer": "vascular",
+    "rationale": "Elastin is present in large amounts in large arterial blood vessels.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > ELASTIN CONFERS EXTENSIBILITY & RECOIL",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "What is the soluble monomer form of elastin called?",
+    "options": [
+      "collagen",
+      "fibrillin",
+      "fibronectin",
+      "proteoglycans",
+      "tropoelastin"
+    ],
+    "answer": "tropoelastin",
+    "rationale": "Elastin is synthesized as a soluble monomer of approximately 70 kDa called tropoelastin.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > ELASTIN CONFERS EXTENSIBILITY & RECOIL",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which of the following is a recognised cause of pulmonary emphysema?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "elastin",
+      "type III collagen"
+    ],
+    "answer": "elastin",
+    "rationale": "Fragmentation or a decrease of elastin is found in conditions such as pulmonary emphysema.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > ELASTIN CONFERS EXTENSIBILITY & RECOIL",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of dermatosparaxis?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "elastin",
+      "type III collagen"
+    ],
+    "answer": "elastin",
+    "rationale": "Fragmentation or a decrease of elastin is found in conditions such as cutis laxa.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > ELASTIN CONFERS EXTENSIBILITY & RECOIL",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of Marfan syndrome?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "fibrillin-1",
+      "type III collagen"
+    ],
+    "answer": "fibrillin-1",
+    "rationale": "Most cases of Marfan syndrome are caused by mutations in the gene for fibrillin-1.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > FIBRILLINS ARE STRUCTURAL COMPONENTS OF MICROFIBRILS > Marfan Syndrome Is Caused by Mutations in the Gene for Fibrillin-1",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of acromicric dysplasia?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "fibrillin-1",
+      "type III collagen"
+    ],
+    "answer": "fibrillin-1",
+    "rationale": "Mutations in the fibrillin-1 gene have also been identified as the cause of acromicric dysplasia.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > FIBRILLINS ARE STRUCTURAL COMPONENTS OF MICROFIBRILS > Marfan Syndrome Is Caused by Mutations in the Gene for Fibrillin-1",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which structure does laminin form networks in?",
+    "options": [
+      "basement membranes",
+      "bone",
+      "bones",
+      "extracellular matrix",
+      "eye"
+    ],
+    "answer": "basement membranes",
+    "rationale": "Laminin forms networks in basal laminas.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "In which structure is heparan sulfate found?",
+    "options": [
+      "basement membranes",
+      "bone",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "basement membranes",
+    "rationale": "Although some plasma proteins, such as albumin, are smaller than the pore size, they are prevented from passing through by the negative charges of heparan sulfate and certain sialic acid-containing glycoproteins present in the lamina.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "In which structure are sialic acid-containing glycoproteins found?",
+    "options": [
+      "basement membranes",
+      "bone",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "basement membranes",
+    "rationale": "Although some plasma proteins, such as albumin, are smaller than the pore size, they are prevented from passing through by the negative charges of heparan sulfate and certain sialic acid-containing glycoproteins present in the lamina.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which of the following is a recognised cause of albuminuria?",
+    "options": [
+      "bone",
+      "bones",
+      "cartilage",
+      "extracellular matrix",
+      "renal glomerulus"
+    ],
+    "answer": "renal glomerulus",
+    "rationale": "Damage to the normal structure of the glomerulus can result in severe albuminuria, with relatively massive amounts of albumin and certain other plasma proteins passing through into the urine.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "GlcUA is converted into which substance?",
+    "options": [
+      "aldehydes",
+      "biomolecules",
+      "ECM",
+      "IdUA",
+      "uronic acid"
+    ],
+    "answer": "IdUA",
+    "rationale": "Modifications also involve the epimerization of GlcUA to IdUA residues.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Further Modifications",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "In which structure are proteoglycans mainly found?",
+    "options": [
+      "bone",
+      "connective tissue",
+      "extracellular matrix",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "extracellular matrix",
+    "rationale": "Proteoglycans are mainly located in the extracellular matrix or ground substance.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Proteoglycans Are Important in the Structural Organization of the Extracellular Matrix",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "In which structure is keratan sulfate found?",
+    "options": [
+      "bone",
+      "connective tissue",
+      "cornea",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "cornea",
+    "rationale": "Keratan sulfate I and II are located in the cornea, cartilage, and loose connective tissue.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Various Glycosaminoglycans Exhibit Differences in Structure & Have Diverse Functions",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Which substance is transported by heparin?",
+    "options": [
+      "biomolecules",
+      "blood",
+      "ECM",
+      "protons",
+      "vitreous humor"
+    ],
+    "answer": "blood",
+    "rationale": "Heparin is released into the blood from capillary walls by the action of lipoprotein lipase.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Heparin",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Which of the following is a recognised cause of mental retardation?",
+    "options": [
+      "autosomal",
+      "end-stage renal disease",
+      "hearing loss",
+      "hunter syndrome",
+      "skeletal dysplasia"
+    ],
+    "answer": "hunter syndrome",
+    "rationale": "Hunter syndrome causes mental retardation.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Deficiencies of Enzymes That Degrade Glycosaminoglycans Result in Mucopolysaccharidoses",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Which of the following is a recognised cause of Sanfilippo syndrome B?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "hyaluronidase",
+      "type III collagen"
+    ],
+    "answer": "hyaluronidase",
+    "rationale": "A genetic defect in hyaluronidase causes MPS IX (Natowicz syndrome).",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Deficiencies of Enzymes That Degrade Glycosaminoglycans Result in Mucopolysaccharidoses",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "Hyaluronidase acts on which substrate?",
+    "options": [
+      "300-nm",
+      "glycosaminoglycans",
+      "hyaluronic acid",
+      "phosphate",
+      "pulmonary surfactant"
+    ],
+    "answer": "hyaluronic acid",
+    "rationale": "Hyaluronidase is an important enzyme involved in the catabolism of both hyaluronic acid and chondroitin sulfate.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Deficiencies of Enzymes That Degrade Glycosaminoglycans Result in Mucopolysaccharidoses",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Dermatan sulfate is a risk factor for which condition?",
+    "options": [
+      "atherosclerotic plaques",
+      "osteoarthritis",
+      "osteogenesis imperfecta",
+      "rheumatoid arthritis",
+      "senile osteoporosis"
+    ],
+    "answer": "atherosclerotic plaques",
+    "rationale": "Dermatan sulfate may play a role in the development of atherosclerotic plaques.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > LAMININ IS A MAJOR PROTEIN COMPONENT OF BASAL LAMINAS > Proteoglycans Are Associated With Major Diseases & Aging",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Noncollagen proteins are found within which structure?",
+    "options": [
+      "bone",
+      "cartilage",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "bone",
+    "rationale": "Noncollagen proteins are a category of proteins found in bone.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q043",
+    "stem": "Plasma proteins are found within which structure?",
+    "options": [
+      "bone",
+      "cartilage",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "bone",
+    "rationale": "Plasma proteins are a mixture of various plasma proteins found in bone.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q044",
+    "stem": "BMPs are found within which structure?",
+    "options": [
+      "bone",
+      "cartilage",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "bone",
+    "rationale": "Bone morphogenetic proteins (BMPs) are a family of at least 20 secreted proteins with a variety of actions on bone, many of which induce ectopic bone growth.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q045",
+    "stem": "Bone requires which substance for its strength and resilience?",
+    "options": [
+      "300-nm",
+      "calcium",
+      "glycosaminoglycans",
+      "PAPS",
+      "pulmonary surfactant"
+    ],
+    "answer": "calcium",
+    "rationale": "Approximately 99% of the body's calcium is contained in bone. Hydroxyapatite confers on bone the strength and resilience required for its physiologic roles.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q046",
+    "stem": "Osteocytes are found within which structure?",
+    "options": [
+      "bone",
+      "cartilage",
+      "connective tissue",
+      "human tissues",
+      "tendons"
+    ],
+    "answer": "bone",
+    "rationale": "Osteocytes are found in mature bone. Osteocytes are involved in the maintenance of the bone matrix.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q047",
+    "stem": "Cortical is part of which structure?",
+    "options": [
+      "basement membranes",
+      "bone",
+      "extracellular matrix",
+      "eye",
+      "tissues"
+    ],
+    "answer": "bone",
+    "rationale": "Bone consists of two types of tissue: trabecular (cancellous or spongy) bone and compact (cortical) bone.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q048",
+    "stem": "The cortex is part of which structure?",
+    "options": [
+      "basement membranes",
+      "bones",
+      "extracellular matrix",
+      "eye",
+      "tissues"
+    ],
+    "answer": "bones",
+    "rationale": "Compact bone forms the cortex (or outer shell) of most bones. Compact bone accounts for about 80% of the weight of the human skeleton.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS A MINERALIZED CONNECTIVE TISSUE",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q049",
+    "stem": "The sclera is part of which structure?",
+    "options": [
+      "basement membranes",
+      "bone",
+      "bones",
+      "extracellular matrix",
+      "eye"
+    ],
+    "answer": "eye",
+    "rationale": "The sclera of the eye in osteogenesis imperfecta is often abnormally thin and translucent. The sclera of the eye in osteogenesis imperfecta appears blue due to a deficiency of connective tissue.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q050",
+    "stem": "Glycine is converted into which substance?",
+    "options": [
+      "amino acid",
+      "collagen",
+      "elastin",
+      "proteoglycans",
+      "tropocollagen"
+    ],
+    "answer": "amino acid",
+    "rationale": "The replacement of glycine by another bulkier amino acid affects the formation of the collagen triple helix. Mutations in the COL1A1 and COL1A2 genes generally result in decreased expression of collagen.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q051",
+    "stem": "Which of the following is a recognised cause of Pfeiffer syndrome?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "fibroblast growth factor receptor",
+      "type III collagen"
+    ],
+    "answer": "fibroblast growth factor receptor",
+    "rationale": "Pfeiffer, Jackson-Weiss, and Crouzon syndromes are caused by mutations in the gene for fibroblast growth factor receptor (FGFR) 1 and/or 2.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q052",
+    "stem": "Which of the following is a recognised cause of Crouzon syndrome?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "fibroblast growth factor receptor",
+      "type III collagen"
+    ],
+    "answer": "fibroblast growth factor receptor",
+    "rationale": "Pfeiffer, Jackson-Weiss, and Crouzon syndromes are caused by mutations in the gene for fibroblast growth factor receptor (FGFR) 1 and/or 2.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q053",
+    "stem": "Which of the following is a recognised cause of craniosynostosis?",
+    "options": [
+      "bones",
+      "cartilage",
+      "extracellular matrix",
+      "renal glomerulus",
+      "tissues"
+    ],
+    "answer": "bones",
+    "rationale": "In the Pfeiffer, Jackson-Weiss, and Crouzon syndromes, there is premature fusion of some bones in the skull, known as craniosynostosis.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q054",
+    "stem": "Which of the following is a recognised cause of rickets?",
+    "options": [
+      "chondroitin 4-sulfate",
+      "dermatan sulfate",
+      "hyaluronic acid",
+      "tenascin XB",
+      "vitamin D deficiency"
+    ],
+    "answer": "vitamin D deficiency",
+    "rationale": "Rickets is caused by a deficiency of vitamin D in childhood.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q055",
+    "stem": "Which of the following is a recognised cause of osteomalacia?",
+    "options": [
+      "chondroitin 4-sulfate",
+      "dermatan sulfate",
+      "hyaluronic acid",
+      "tenascin XB",
+      "vitamin D deficiency"
+    ],
+    "answer": "vitamin D deficiency",
+    "rationale": "Osteomalacia is caused by a deficiency of vitamin D in adults.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q056",
+    "stem": "Which of the following is a recognised cause of hyperparathyroidism?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "parathyroid hormone excess",
+      "type III collagen"
+    ],
+    "answer": "parathyroid hormone excess",
+    "rationale": "Hyperparathyroidism is caused by excess parathyroid hormone leading to bone resorption.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > BONE IS AFFECTED BY MANY METABOLIC & GENETIC DISORDERS",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q057",
+    "stem": "Which of the following is a recognised cause of achondroplasia?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "fibroblast growth factor receptor 3",
+      "type III collagen"
+    ],
+    "answer": "fibroblast growth factor receptor 3",
+    "rationale": "Achondroplasia is due to mutations in the gene encoding fibroblast growth factor receptor 3 (FGFR3).",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > CHONDRODYSPLASIAS ARE HEREDITARY DISORDERS AFFECTING CARTILAGE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q058",
+    "stem": "Which substance is synthesised by chondrocytes in cartilage?",
+    "options": [
+      "c1q",
+      "collagen",
+      "fibrillin",
+      "fibronectin",
+      "tropoelastin"
+    ],
+    "answer": "collagen",
+    "rationale": "Various proteases, such as collagenases and stromelysin, synthesized by chondrocytes can degrade collagen and other proteins in cartilage. Chondronectin is involved in the attachment of type II collagen to chondrocytes (cartilage cells).",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > THE MAJOR COMPONENTS OF CARTILAGE ARE TYPE II COLLAGEN & CERTAIN PROTEOGLYCANS",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q059",
+    "stem": "Which of the following is a recognised cause of hypochondroplasia?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "FGFR3",
+      "type III collagen"
+    ],
+    "answer": "FGFR3",
+    "rationale": "Mutations in the FGFR3 gene can result in hypochondroplasia.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > CHONDRODYSPLASIAS ARE HEREDITARY DISORDERS AFFECTING CARTILAGE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q060",
+    "stem": "Which of the following is a recognised cause of SADDAN?",
+    "options": [
+      "COL10A1",
+      "COL2A1",
+      "collagen I",
+      "FGFR3",
+      "type III collagen"
+    ],
+    "answer": "FGFR3",
+    "rationale": "Mutations in the FGFR3 gene can lead to the SADDAN phenotype.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > CHONDRODYSPLASIAS ARE HEREDITARY DISORDERS AFFECTING CARTILAGE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q061",
+    "stem": "Which of the following is a recognised cause of diastrophic dysplasia?",
+    "options": [
+      "estrogen deficiency",
+      "hyaluronic acid",
+      "sulfate",
+      "tenascin XB",
+      "vitamin D deficiency"
+    ],
+    "answer": "sulfate",
+    "rationale": "Diastrophic dysplasia is due to mutation in a sulfate transporter.",
+    "citation": "chapter_49_the_extracellular_matrix — Overview > CHONDRODYSPLASIAS ARE HEREDITARY DISORDERS AFFECTING CARTILAGE",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

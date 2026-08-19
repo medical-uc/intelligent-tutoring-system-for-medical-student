@@ -1,8 +1,10 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
+from app.limiter import limiter
+from app.openapi import error_responses
 from app.schemas import (
     EnergyResponse,
     NudgePreviewItem,
@@ -17,10 +19,12 @@ from app.schemas import (
     StudentRegisterRequest,
     StudentRegisterResponse,
 )
+from src.flashcards.cards import get_flashcard
 from src.flashcards.reviews import count_due_for_review as count_due_flashcards
 from src.flashcards.reviews import due_for_review as due_flashcards
 from src.quiz.attempts import count_due_for_review as count_due_quiz
 from src.quiz.attempts import due_for_review as due_quiz
+from src.quiz.bank import QuestionBank, load_question_bank
 from src.student_kg.energy import get_energy
 from src.student_kg.enrollment import enroll_student, get_student_by_id
 from src.student_kg.session import (
@@ -29,6 +33,7 @@ from src.student_kg.session import (
     revoke_session,
 )
 from src.student_kg.streak import (
+    activity_dates,
     current_streak,
     previous_streak,
     restore_streak,
@@ -39,8 +44,19 @@ router = APIRouter(prefix="/students", tags=["students"])
 _bearer_scheme = HTTPBearer()
 
 
-@router.post("/register", response_model=StudentRegisterResponse, status_code=201)
+def _get_bank() -> QuestionBank:
+    return load_question_bank()
+
+
+@router.post(
+    "/register",
+    response_model=StudentRegisterResponse,
+    status_code=201,
+    responses=error_responses(429),
+)
+@limiter.limit("5/minute")
 def register_student(
+    request: Request,
     body: StudentRegisterRequest,
     driver: Driver = Depends(get_driver),
 ) -> StudentRegisterResponse:
@@ -55,8 +71,12 @@ def register_student(
     )
 
 
-@router.post("/login", response_model=SessionResponse)
+@router.post(
+    "/login", response_model=SessionResponse, responses=error_responses(404, 429)
+)
+@limiter.limit("10/minute")
 def login_student(
+    request: Request,
     body: StudentLoginRequest,
     driver: Driver = Depends(get_driver),
 ) -> SessionResponse:
@@ -72,7 +92,7 @@ def login_student(
     )
 
 
-@router.post("/logout", status_code=204)
+@router.post("/logout", status_code=204, responses=error_responses(401))
 def logout_student(
     credentials: HTTPAuthorizationCredentials = Depends(_bearer_scheme),
     driver: Driver = Depends(get_driver),
@@ -80,14 +100,18 @@ def logout_student(
     revoke_session(driver, credentials.credentials)
 
 
-@router.get("/me", response_model=SessionCheckResponse)
+@router.get("/me", response_model=SessionCheckResponse, responses=error_responses(401))
 def check_session(
     student_id: str = Depends(get_current_student_id),
 ) -> SessionCheckResponse:
     return SessionCheckResponse(authenticated=True, student_id=student_id)
 
 
-@router.get("/me/profile", response_model=StudentProfileResponse)
+@router.get(
+    "/me/profile",
+    response_model=StudentProfileResponse,
+    responses=error_responses(401, 404),
+)
 def get_my_profile(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -106,7 +130,9 @@ def get_my_profile(
     )
 
 
-@router.get("/me/streak", response_model=StreakResponse)
+@router.get(
+    "/me/streak", response_model=StreakResponse, responses=error_responses(401)
+)
 def get_my_streak(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -119,15 +145,24 @@ def get_my_streak(
     still live — equal to current_streak while the streak is active, or the length of
     the run that just ended when current_streak reads 0 (broken). Frontend: show
     "streak broken" using previous_streak when current_streak == 0 and previous_streak
-    > 0."""
+    > 0.
+
+    activity_dates is the student's full activity history (every UTC day with a quiz
+    session or flashcard review), ascending — for a calendar/heatmap view beyond the
+    single-week_activity row."""
     return StreakResponse(
         current_streak=current_streak(driver, student_id),
         previous_streak=previous_streak(driver, student_id),
         week_activity=week_activity(driver, student_id),
+        activity_dates=activity_dates(driver, student_id),
     )
 
 
-@router.post("/me/streak/restore", response_model=RestoreStreakResponse)
+@router.post(
+    "/me/streak/restore",
+    response_model=RestoreStreakResponse,
+    responses=error_responses(401, 409),
+)
 def restore_my_streak(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -149,7 +184,9 @@ def restore_my_streak(
     )
 
 
-@router.get("/me/energy", response_model=EnergyResponse)
+@router.get(
+    "/me/energy", response_model=EnergyResponse, responses=error_responses(401, 404)
+)
 def get_my_energy(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -167,10 +204,13 @@ def get_my_energy(
     return EnergyResponse(energy=balance)
 
 
-@router.get("/me/nudge", response_model=NudgeResponse)
+@router.get(
+    "/me/nudge", response_model=NudgeResponse, responses=error_responses(401)
+)
 def get_my_nudge(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
+    bank: QuestionBank = Depends(_get_bank),
 ) -> NudgeResponse:
     """Dashboard due-for-review nudge: how many quiz questions and flashcards this
     student's spaced-repetition schedule says are due right now, plus whichever single
@@ -190,9 +230,16 @@ def get_my_nudge(
         candidates.append((NudgeSource.FLASHCARD, flashcard_top[0]))
     if candidates:
         source, item = min(candidates, key=lambda c: c[1]["next_review_at"])
+        if source == NudgeSource.QUIZ:
+            question = bank.get(item["question_uid"])
+            topic_path = question.topic_path if question else ""
+        else:
+            card = get_flashcard(item["question_uid"], bank=bank)
+            topic_path = " > ".join(card.topic_tag) if card else ""
         soonest = NudgePreviewItem(
             source=source,
             question_uid=item["question_uid"],
+            topic_path=topic_path,
             next_review_at=item["next_review_at"].to_native(),
         )
 

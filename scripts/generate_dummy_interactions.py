@@ -331,7 +331,7 @@ def _run_quiz_session(
     identical either way from the graph's perspective."""
     session_id = start_session(
         driver, student_id, topic_path=session_topic, ts=current_time
-    )
+    )["session_id"]
     n_quiz_answers = 0
     for _ in range(n_in_session):
         question = random.choice(candidates)

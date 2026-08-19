@@ -1,0 +1,48 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "In human cells, extra DNA is converted into which substance?",
+    "options": [
+      "baker",
+      "galactoside",
+      "lac",
+      "lactose",
+      "mRNA-encoding"
+    ],
+    "answer": "mRNA-encoding",
+    "rationale": "In human cells, relatively little of the total DNA is organized into mRNA-encoding genes and their associated regulatory regions.",
+    "citation": "chapter_38_regulation_of_gene_expression — Regulation of Gene Expression > ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Hyperglycemia is a risk factor for which condition?",
+    "options": [
+      "breast cancer",
+      "CAP",
+      "disease",
+      "DNA-damaging",
+      "down syndrome"
+    ],
+    "answer": "breast cancer",
+    "rationale": "Glycation is physiologically relevant in breast cancer and hyperglycemia.",
+    "citation": "chapter_38_regulation_of_gene_expression — Regulation of Gene Expression > ADDITIONAL FEATURES ARE INVOLVED IN REGULATION OF EUKARYOTIC GENETRANSCRIPTION > The Chromatin Template Contributes Importantly to Eukaryotic Gene Transcription Control",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

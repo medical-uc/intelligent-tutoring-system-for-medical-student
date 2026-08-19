@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+"""Build the SapBERT/FAISS UMLS index (./umls_index) from MRCONSO.RRF.
+
+One command produces the four files SapBertLinker reads at run time
+(umls.faiss, cuis.npy, codes.json, names.json).
+
+Pass --mrsty as well to write a fifth file, semantic_types.json. Stage 3 uses it
+to re-derive each span's ontology label from the semantic type of the concept it
+linked to, instead of trusting the NER model that tagged it. That is worth
+doing: on an anatomy corpus `en_ner_bionlp13cg_md` calls cavities
+PATHOLOGICAL_FORMATION and glands CANCER, and those labels were 72% of one
+run's relation rejections.
+
+NOTE: this stage needs scispaCy/spaCy<3.8/faiss-cpu/torch, which pin Python
+3.9-3.11 and are NOT declared in this project's pyproject.toml (which requires
+Python >=3.13). Run this in a separate Python 3.11 environment with those
+packages installed until that conflict is resolved -- see the note in
+pyproject.toml above the `domain_kg` dependencies comment.
+
+Examples:
+  # smoke test: embed 5k atoms, then round-trip a few mentions
+  python -m src.domain_kg.cli.build_index --mrconso /data/UMLS/META/MRCONSO.RRF --max-atoms 5000
+
+  # recommended full build: only SNOMED + RxNorm surface forms (far smaller
+  # than all of English MRCONSO, and those are the vocabularies we crosswalk)
+  python -m src.domain_kg.cli.build_index --mrconso META/MRCONSO.RRF --mrsty META/MRSTY.RRF
+      --sabs SNOMEDCT_US,RXNORM
+
+  # add semantic types to an index that already exists -- minutes, and it does
+  # not re-embed anything
+  python -m src.domain_kg.cli.build_index --mrsty /data/UMLS/META/MRSTY.RRF --semantic-types-only
+
+  # everything English (largest index, highest recall)
+  python -m src.domain_kg.cli.build_index --mrconso /data/UMLS/META/MRCONSO.RRF --sabs all
+"""
+import argparse
+import sys
+import time
+
+from .. import config
+from .. import console
+from ..stages.stage3_link import (build_index, build_semantic_types, indexed_cuis,
+                                  SapBertLinker)
+
+DEFAULT_PROBES = ["myocardial infarction", "heart attack", "aspirin", "chest pain"]
+
+
+def parse_sabs(s):
+    """'SNOMEDCT_US,RXNORM' -> {'SNOMEDCT_US','RXNORM'}; 'all'/''/None -> None (no filter)."""
+    if not s or s.strip().lower() in {"all", "*", ""}:
+        return None
+    return {tok.strip() for tok in s.split(",") if tok.strip()}
+
+
+def sanity_check(out_dir, model, probes):
+    """Round-trip known mentions to confirm the four files + model agree.
+
+    Prints top candidates (no floor) and the floored link() result. With a small
+    --max-atoms subset the 'right' concept is usually absent — that's expected;
+    the point is to prove embed -> FAISS search -> cui map -> uri all round-trip.
+    """
+    print()
+    print(f"sanity check: round-tripping {len(probes)} known mention(s) "
+          f"through the index just built")
+    linker = SapBertLinker(out_dir, model_name=model)
+    for position, m in enumerate(probes, start=1):
+        cands = linker.candidates(m, k=3)
+        best = linker.link(m, context=m)
+        names = getattr(linker, "names", {})
+        top = ", ".join(f"{cui}({names.get(cui, '?')}):{s:.2f}" for cui, s in cands) or "(none)"
+        console.announce_step(f"[{position}/{len(probes)}] {m!r} -> {top}")
+        if best:
+            console.announce_detail(
+                f"linked: {best[0]}  {best[1]}  score={best[2]:.2f}")
+        else:
+            console.announce_detail(
+                "below floor / not in subset (expected on --max-atoms)")
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--mrconso", help="path to UMLS MRCONSO.RRF "
+                                      "(not needed with --semantic-types-only)")
+    ap.add_argument("--mrsty", default="",
+                    help="path to UMLS MRSTY.RRF; also writes "
+                         "semantic_types.json, which lets Stage 3 correct "
+                         "span labels")
+    ap.add_argument("--semantic-types-only", action="store_true",
+                    help="write semantic_types.json into an existing index and "
+                         "stop; embeds nothing")
+    ap.add_argument("--out-dir", default="./umls_index")
+    ap.add_argument("--sabs", default="SNOMEDCT_US,RXNORM",
+                    help="comma-separated SABs to EMBED, or 'all' for every English atom "
+                         "(default: SNOMEDCT_US,RXNORM)")
+    ap.add_argument("--keep-sabs", default="SNOMEDCT_US,RXNORM",
+                    help="SABs whose codes go in the CUI->code crosswalk (default: SNOMEDCT_US,RXNORM)")
+    ap.add_argument("--max-atoms", type=int, default=None, help="cap embedded atoms (smoke test)")
+    ap.add_argument("--model", default=config.SAPBERT_MODEL)
+    ap.add_argument("--batch", type=int, default=256)
+    ap.add_argument("--no-progress", action="store_true")
+    ap.add_argument("--no-sanity", action="store_true", help="skip the post-build round-trip")
+    ap.add_argument("--probe", nargs="*", default=None, help="custom mentions for the sanity check")
+    args = ap.parse_args()
+
+    if args.semantic_types_only:
+        if not args.mrsty:
+            sys.stderr.write("error: --semantic-types-only needs --mrsty\n")
+            raise SystemExit(2)
+        print("adding semantic types to an existing index")
+        console.announce_step(f"mrsty      {args.mrsty}")
+        console.announce_step(f"out-dir    {args.out_dir}")
+        t0 = time.time()
+        # Sizing the sidecar to the index keeps it proportional: MRSTY covers
+        # every CUI in UMLS and the linker can only return the ones it embedded.
+        keep = indexed_cuis(args.out_dir)
+        if keep is None:
+            console.announce_detail(
+                "no cuis.npy in that directory; keeping every CUI in MRSTY")
+        build_semantic_types(args.mrsty, args.out_dir, restrict_to=keep)
+        print(f"semantic types written in "
+              f"{console.format_duration(time.time() - t0)}")
+        return
+
+    if not args.mrconso:
+        sys.stderr.write("error: --mrconso is required unless "
+                         "--semantic-types-only is given\n")
+        raise SystemExit(2)
+
+    embed_sabs = parse_sabs(args.sabs)
+    keep_sabs = parse_sabs(args.keep_sabs) or {"SNOMEDCT_US", "RXNORM"}
+
+    print("building the SapBERT/FAISS UMLS index")
+    console.announce_step(f"mrconso    {args.mrconso}")
+    console.announce_step(
+        f"mrsty      "
+        f"{args.mrsty or '(none: span labels stay as NER tagged them)'}")
+    console.announce_step(f"out-dir    {args.out_dir}")
+    console.announce_step(f"embed      {embed_sabs or 'ALL English'}"
+                          + (f" (capped at {args.max_atoms:,} atoms)"
+                             if args.max_atoms else ""))
+    console.announce_step(f"crosswalk  {sorted(keep_sabs)}")
+    console.announce_step(f"model      {args.model}")
+    t0 = time.time()
+    build_index(args.mrconso, args.out_dir, model_name=args.model,
+                keep_sabs=tuple(keep_sabs), embed_sabs=embed_sabs,
+                max_atoms=args.max_atoms, batch=args.batch,
+                progress=not args.no_progress, mrsty_path=args.mrsty)
+    print(f"index built in {console.format_duration(time.time() - t0)}")
+
+    if not args.no_sanity:
+        sanity_check(args.out_dir, args.model, args.probe or DEFAULT_PROBES)
+
+
+if __name__ == "__main__":
+    main()

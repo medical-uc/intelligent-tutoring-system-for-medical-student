@@ -5,8 +5,8 @@ from pydantic import BaseModel, Field
 
 
 class StudentRegisterRequest(BaseModel):
-    full_name: str = Field(min_length=1)
-    student_number: str = Field(min_length=1)
+    full_name: str = Field(min_length=1, max_length=200)
+    student_number: str = Field(min_length=1, max_length=50)
     academic_year: int = Field(ge=1, le=6)
 
 
@@ -17,7 +17,7 @@ class StudentRegisterResponse(BaseModel):
 
 
 class StudentLoginRequest(BaseModel):
-    student_number: str = Field(min_length=1)
+    student_number: str = Field(min_length=1, max_length=50)
 
 
 class SessionResponse(BaseModel):
@@ -43,6 +43,7 @@ class StreakResponse(BaseModel):
     current_streak: int
     previous_streak: int
     week_activity: list[bool] = Field(min_length=7, max_length=7)
+    activity_dates: list[date]
 
 
 class EnergyResponse(BaseModel):
@@ -62,6 +63,7 @@ class NudgeSource(str, Enum):
 class NudgePreviewItem(BaseModel):
     source: NudgeSource
     question_uid: str
+    topic_path: str
     next_review_at: datetime
 
 
@@ -116,7 +118,7 @@ class ConfidenceLevel(str, Enum):
 
 
 class CheckAnswerRequest(BaseModel):
-    selected_index: int = Field(ge=0)
+    selected_index: int = Field(ge=0, le=25)
 
 
 class CheckAnswerResponse(BaseModel):
@@ -126,11 +128,11 @@ class CheckAnswerResponse(BaseModel):
 
 
 class LogAttemptRequest(BaseModel):
-    session_id: str
-    selected_index: int = Field(ge=0)
+    session_id: str = Field(min_length=1)
+    selected_index: int = Field(ge=0, le=25)
     confidence: ConfidenceLevel
-    time_taken_seconds: float = Field(ge=0)
-    next_review_days: int | None = Field(default=None, ge=1)
+    time_taken_seconds: float = Field(ge=0, le=86400)
+    next_review_days: int | None = Field(default=None, ge=1, le=3650)
 
 
 class LogAttemptResponse(BaseModel):
@@ -141,6 +143,15 @@ class LogAttemptResponse(BaseModel):
 
 class StartSessionResponse(BaseModel):
     session_id: str
+
+
+class StartBatchQuizSessionRequest(BaseModel):
+    size: int = Field(default=10, ge=1, le=50)
+
+
+class StartBatchQuizSessionResponse(BaseModel):
+    session_id: str
+    question_uids: list[str]
 
 
 class EndSessionResponse(BaseModel):
@@ -177,6 +188,7 @@ class HistoryResponse(BaseModel):
 
 class DueReviewItem(BaseModel):
     question_uid: str
+    topic_path: str
     streak: int
     interval_days: int
     last_reviewed_at: datetime
@@ -198,8 +210,8 @@ class MasteryResponse(BaseModel):
 
 
 class MasteryUpdateItem(BaseModel):
-    topic_path: str
-    p_know: float
+    topic_path: str = Field(min_length=1)
+    p_know: float = Field(ge=0.0, le=1.0)
 
 
 class UpdateMasteryRequest(BaseModel):
@@ -208,6 +220,22 @@ class UpdateMasteryRequest(BaseModel):
 
 class UpdateMasteryResponse(BaseModel):
     updated_count: int
+
+
+class BKTConfidenceParams(BaseModel):
+    confident: float
+    unsure: float
+    guessing: float
+
+
+class BKTParamsResponse(BaseModel):
+    p_init: float
+    p_transit: float
+    p_slip: BKTConfidenceParams
+    p_guess: BKTConfidenceParams
+    n_attempts: int
+    n_sequences: int
+    fitted_from_defaults: bool
 
 
 class FlashcardOut(BaseModel):
@@ -234,7 +262,7 @@ class FlashcardRating(str, Enum):
 
 
 class LogFlashcardReviewRequest(BaseModel):
-    session_id: str
+    session_id: str = Field(min_length=1)
     rating: FlashcardRating
 
 
@@ -249,6 +277,7 @@ class LogFlashcardReviewResponse(BaseModel):
 
 class DueFlashcardItem(BaseModel):
     question_uid: str
+    topic_path: str
     streak: int
     interval_days: int
     last_reviewed_at: datetime

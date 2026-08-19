@@ -1,0 +1,827 @@
+{
+  "doc_id": "chapter_11_bioenergetics_the_role_of_atp",
+  "source": {
+    "source_id": "chapter_11_bioenergetics_the_role_of_atp",
+    "title": "Overview",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Bioenergetics focuses on the study of energy changes in biochemical reactions, particularly the role of ATP as the energy currency in cellular processes.",
+    "page": null,
+    "origin": "chapter_11_bioenergetics_the_role_of_atp.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 20:17:51"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Chapter 11 is about Bioenergetics: The Role of ATP.\n\nKathleen M. Botham is the author of the chapter.",
+      "char_start": 578,
+      "char_end": 679,
+      "section_path": [
+        "Overview",
+        "Overview"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Bioenergetics is the study of the energy changes accompanying biochemical reactions. Biological systems are essentially isothermic. Biological systems use chemical energy to power living processes. An animal obtains suitable fuel from its food to provide energy. Understanding this process is basic to the understanding of normal nutrition and metabolism. Death from starvation occurs when available energy reserves are depleted. Certain forms of malnutrition are associated with energy imbalance, such as marasmus. Thyroid hormones control the metabolic rate. The metabolic rate is the rate of energy release. Disease results if thyroid hormones malfunction. Excess storage of surplus energy causes obesity. Obesity is an increasingly common disease in Western society. Obesity predisposes to many diseases, including cardiovascular disease and diabetes mellitus type 2. Obesity lowers life expectancy.",
+      "char_start": 706,
+      "char_end": 1609,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The first law of thermodynamics states that the total energy of a system, including its surroundings, remains constant. The first law implies that within the total system, energy is neither lost nor gained during any change. Energy may be transferred from one part of the system to another. Energy may be transformed into another form of energy. In living systems, chemical energy may be transformed into heat, electrical, radiant, or mechanical energy.\n\nThe second law of thermodynamics states that the total entropy of a system must increase if a process is to occur spontaneously. Entropy is the extent of disorder or randomness of the system. Entropy becomes maximum as equilibrium is approached. T is the absolute temperature.\n\nWhen the reactants are present in concentrations of 1.0 mol/L, \\(\\Delta G^{0}\\) is the standard free-energy change. For biochemical reactions, a standard state is defined as having a pH of 7.0. The standard state is denoted by \\(\\Delta G^{0'}\\). The standard free-energy change can be calculated from the equilibrium constant \\(K_{eq}\\) using the equation \\(\\Delta G^{0\\prime} = -RT\\ln K_{\\text{eq}}\\). In this equation, R is the gas constant. In this equation, T is the absolute temperature. The actual \\(\\Delta G\\) may be larger or smaller than \\(\\Delta G^{0}\\) depending on the concentrations of the various reactants, including the solvent, various ions, and proteins.",
+      "char_start": 1726,
+      "char_end": 3131,
+      "section_path": [
+        "Overview",
+        "FREE ENERGY IS THE USEFUL ENERGY IN A SYSTEM",
+        "Biologic Systems Conform to the General Laws of Thermodynamics"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biologic-systems-conform-to-the-general-laws-of"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "In a biochemical system, an enzyme speeds up the attainment of equilibrium. In a biochemical system, an enzyme never alters the final concentrations of the reactants at equilibrium.",
+      "char_start": 3133,
+      "char_end": 3314,
+      "section_path": [
+        "Overview",
+        "FREE ENERGY IS THE USEFUL ENERGY IN A SYSTEM",
+        "Biologic Systems Conform to the General Laws of Thermodynamics"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biologic-systems-conform-to-the-general-laws-of"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The vital processes obtain energy by coupling to oxidative reactions. Biosynthetic reactions are vital processes. Muscular contraction is a vital process. Nerve impulse conduction is a vital process. Active transport is a vital process. The term exergonic indicates a process that involves a loss of free energy. The term endergonic indicates a process that involves a gain of free energy. An endergonic process cannot exist independently. An endergonic process must be part of a coupled exergonic-endergonic system. In a coupled exergonic-endergonic system, the overall net change is exergonic. Exergonic reactions are termed catabolism. Catabolism involves the breakdown or oxidation of fuel molecules. Anabolic reactions build up substances. The combined catabolic and anabolic processes constitute metabolism.",
+      "char_start": 3383,
+      "char_end": 4196,
+      "section_path": [
+        "Overview",
+        "ENDERGONIC PROCESSES PROCEED BY COUPLING TO EXERGONIC PROCESSES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "In the simplest form of coupling, if the reaction is to proceed from left to right, the overall process must be accompanied by a loss of free energy as heat. A possible mechanism of coupling involves a common obligatory intermediate (I) participating in both reactions, represented as $A + C \\\nightarrow I\nightarrow B + D$. Some exergonic and endergonic reactions in biologic systems are coupled in this manner. A common obligatory intermediate allows for biologic control of the rate of oxidative processes. The common intermediate enables the rate of utilization of the product D to determine the rate at which A is oxidized by mass action. These relationships provide a basis for the concept of respiratory control. Respiratory control prevents an organism from burning out of control. An extension of the coupling concept is seen in dehydrogenation reactions, which are coupled to hydrogenations by an intermediate carrier (Figure 11–2).",
+      "char_start": 4526,
+      "char_end": 5467,
+      "section_path": [
+        "Overview",
+        "ENDERGONIC PROCESSES PROCEED BY COUPLING TO EXERGONIC PROCESSES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-11-2"
+      ],
+      "table_refs": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "A couples with B through a carrier.\nB transfers the carrier minus H2 back to A.\nB also transfers BH2 to A.\nThe diagram illustrates the coupling of dehydrogenation and hydrogenation reactions by an intermediate carrier.",
+      "char_start": 5573,
+      "char_end": 5791,
+      "section_path": [
+        "Overview",
+        "ENDERGONIC PROCESSES PROCEED BY COUPLING TO EXERGONIC PROCESSES"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "An alternative method of coupling an exergonic to an endergonic process involves synthesizing a compound of high-energy potential in the exergonic reaction. An alternative method of coupling an exergonic to an endergonic process transfers free energy from the exergonic to the endergonic pathway. In living cells, the principal high-energy intermediate or carrier compound is adenosine triphosphate (ATP) (Figure 11–3).",
+      "char_start": 5793,
+      "char_end": 6212,
+      "section_path": [
+        "Overview",
+        "ENDERGONIC PROCESSES PROCEED BY COUPLING TO EXERGONIC PROCESSES"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-11-3"
+      ],
+      "table_refs": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "All organisms must obtain supplies of free energy from their environment to maintain life. Autotrophic organisms utilize simple exergonic processes to obtain free energy. Some autotrophic organisms use the energy of sunlight, like green plants. Heterotrophic organisms obtain free energy by coupling their metabolism to the breakdown of complex organic molecules in their environment. ATP plays a central role in the transference of free energy from exergonic to endergonic processes in all organisms. ATP is a nucleotide consisting of the nucleoside adenosine and three phosphate groups. Adenosine is adenine linked to ribose.",
+      "char_start": 6371,
+      "char_end": 6998,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "high-energy-phosphates-play-a-central-role-in-energy"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The standard free energy of hydrolysis for several biochemically important phosphates is listed in Table 11-1. The hydrolysis of the terminal phosphate of ATP, which converts ATP to ADP + Pi, serves as a reference point. High-energy phosphates include anhydrides like the 1-phosphate of 1,3-bisphosphoglycerate. High-energy phosphates include enol phosphates like phosphoenolpyruvate. High-energy phosphates include phosphoguanidines like creatine phosphate and arginine phosphate. ATP has a high group transfer potential. The phosphate in adenosine monophosphate (AMP) is of the low-energy type.",
+      "char_start": 7108,
+      "char_end": 7704,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER",
+        "The Intermediate Value for the Free Energy of Hydrolysis of ATP Has Important Bioenergetic Significance"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-11-1"
+      ],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "Phosphoenolpyruvate has a standard free energy of hydrolysis of -61.9 kJ/mol.\nPhosphoenolpyruvate has a standard free energy of hydrolysis of -14.8 kcal/mol.\nCarbamoyl phosphate has a standard free energy of hydrolysis of -51.4 kJ/mol.\nCarbamoyl phosphate has a standard free energy of hydrolysis of -12.3 kcal/mol.\n1,3-Bisphosphoglycerate (to 3-phosphoglycerate) has a standard free energy of hydrolysis of -49.3 kJ/mol.\n1,3-Bisphosphoglycerate (to 3-phosphoglycerate) has a standard free energy of hydrolysis of -11.8 kcal/mol.\nCreatine phosphate has a standard free energy of hydrolysis of -43.1 kJ/mol.\nCreatine phosphate has a standard free energy of hydrolysis of -10.3 kcal/mol.\nATP → AMP + PPi has a standard free energy of hydrolysis of -32.2 kJ/mol.\nATP → AMP + PPi has a standard free energy of hydrolysis of -7.7 kcal/mol.\nATP → ADP + Pi has a standard free energy of hydrolysis of -30.5 kJ/mol.\nATP → ADP + Pi has a standard free energy of hydrolysis of -7.3 kcal/mol.\nGlucose-1-phosphate has a standard free energy of hydrolysis of -20.9 kJ/mol.\nGlucose-1-phosphate has a standard free energy of hydrolysis of -5.0 kcal/mol.\nPPi has a standard free energy of hydrolysis of -19.2 kJ/mol.\nPPi has a standard free energy of hydrolysis of -4.6 kcal/mol.\nFructose-6-phosphate has a standard free energy of hydrolysis of -15.9 kJ/mol.\nFructose-6-phosphate has a standard free energy of hydrolysis of -3.8 kcal/mol.\nGlucose-6-phosphate has a standard free energy of hydrolysis of -13.8 kJ/mol.\nGlucose-6-phosphate has a standard free energy of hydrolysis of -3.3 kcal/mol.\nGlycerol-3-phosphate has a standard free energy of hydrolysis of -9.2 kJ/mol.\nGlycerol-3-phosphate has a standard free energy of hydrolysis of -2.2 kcal/mol.",
+      "char_start": 7793,
+      "char_end": 9530,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER",
+        "The Intermediate Value for the Free Energy of Hydrolysis of ATP Has Important Bioenergetic Significance"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "All values in Table 11-1are from Jencks WP: Free energies of hydrolysis and decarboxylation. In: Handbook of Biochemistry and Molecular Biology, vol 1. Physical and Chemical Data. Fasman GD (editor). Biochemistry 1995;34:11307. The values differ between investigators due to variations in measurement conditions.",
+      "char_start": 9532,
+      "char_end": 9844,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER",
+        "The Intermediate Value for the Free Energy of Hydrolysis of ATP Has Important Bioenergetic Significance"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-11-1"
+      ],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "ATP plays an important role in energy transfer due to its intermediate position. The high free-energy change on hydrolysis of ATP is not caused by breaking the P-O bond linking the terminal phosphate to the molecule. Energy is needed to break the P-O bond linking the terminal phosphate to the molecule. The strong electrostatic repulsion between the negatively charged oxygen atoms in the adjacent phosphate groups of ATP destabilizes the molecule. The destabilization of ATP by electrostatic repulsion makes the removal of one phosphate group energetically favorable. The orthophosphate produced is greatly stabilized by the formation of resonance hybrids. The resonance hybrids in orthophosphate share the three negative charges between the four oxygen atoms. Overall, the products of hydrolysis, ADP and orthophosphate, are more stable and lower in energy than ATP (Figure 11–5).",
+      "char_start": 10078,
+      "char_end": 10961,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER",
+        "Adenosine diphosphate (ADP) Adenosine monophosphate (AMP)"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-11-5"
+      ],
+      "table_refs": [],
+      "section_id": "adenosine-diphosphate-adp-adenosine-monophosphate-amp"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Thiol esters involving coenzyme A include acetyl-CoA. Thiol esters involving coenzyme A include acyl carrier protein. Amino acid esters involved in protein synthesis are high-energy compounds. S-adenosylmethionine, also known as active methionine, is a high-energy compound. Uridine diphosphate glucose (UDPGlc) is a high-energy compound. 5-Phosphoribosyl-1-pyrophosphate (PRPP) is a high-energy compound.",
+      "char_start": 11433,
+      "char_end": 11838,
+      "section_path": [
+        "Overview",
+        "HIGH-ENERGY PHOSPHATES PLAY A CENTRAL ROLE IN ENERGY CAPTURE & TRANSFER",
+        "Adenosine diphosphate (ADP) Adenosine monophosphate (AMP)"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenosine-diphosphate-adp-adenosine-monophosphate-amp"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "The high group transfer potential of ATP enables it to act as a donor of high-energy phosphate to form compounds listed in Table 11--1. With the necessary enzymes, ADP can accept phosphate groups to form ATP from compounds listed in Table 11--1. An ATP/ADP cycle connects processes that generate high-energy phosphate to those that utilize it (Figure 11--6). The total ATP/ADP pool is extremely small. The total ATP/ADP pool is sufficient to maintain an active tissue for only a few seconds.",
+      "char_start": 11889,
+      "char_end": 12380,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Phosphoenolpyruvate transfers a high-energy phosphate to 1,3-Bisphosphoglycerate.\nSuccinyl-CoA transfers a high-energy phosphate to Creatine.\nOxidative phosphorylation transfers a high-energy phosphate to Creatine.\nCreatine stores high-energy phosphate as (Store of ~ P).\nATP participates in the ATP/ADP cycle.\nATP/ADP cycle transfers high-energy phosphate to Glycerol-3-phosphate.\nGlycerol-3-phosphate is converted to ADP.\nADP is converted to ATP.\nATP releases a phosphate group as P.\nP is used in the formation of Glucose-6-phosphate.\nP is used in the formation of Glucose-1,6-bisphosphate.\nP is used in Other phosphorylations, activations, and endergonic processes.\nThe diagram illustrates the role of the ATP/ADP cycle in the transfer of high-energy phosphate.",
+      "char_start": 12462,
+      "char_end": 13226,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Oxidative phosphorylation is the greatest quantitative source of high-energy phosphate in aerobic organisms. ATP is generated in the mitochondrial matrix as O2 is reduced to H2O by electrons passing down the respiratory chain. Glycolysis results in a net formation of two high-energy phosphates from the formation of lactate from one molecule of glucose. The citric acid cycle generates one high-energy phosphate directly at the succinate thiokinase step.\n\nPhosphagens act as storage forms of group transfer potential. Creatine phosphate occurs in vertebrate skeletal muscle, heart, spermatozoa, and brain. Arginine phosphate occurs in invertebrate muscle. When ATP is rapidly utilized as a source of energy for muscular contraction, phosphagens maintain its concentration. When the ATP/ADP ratio is high, phosphagens can increase in concentration to act as an energy store (Figure 11–7).",
+      "char_start": 13228,
+      "char_end": 14116,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-11-7"
+      ],
+      "table_refs": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "When ATP acts as a phosphate donor to form compounds of lower free energy of hydrolysis, the phosphate group is converted to one of low energy. The phosphorylation of glycerol forms glycerol-3-phosphate.",
+      "char_start": 14198,
+      "char_end": 14401,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Glycerol + Adenosine interacts with Glycerol Kinase.\nGlycerol Kinase results in a process involving Glycerol + Adenosine.\nGlycerol and adenosine interact with glycerol kinase, resulting in a process involving glycerol and adenosine.",
+      "char_start": 14533,
+      "char_end": 14765,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Endergonic reactions cannot proceed without an input of free energy. The phosphorylation of glucose to glucose-6-phosphate is an example of an endergonic reaction. The phosphorylation of glucose to glucose-6-phosphate is the first step of glycolysis. The standard free energy change for this reaction is +13.8 kJ/mol. This positive ΔG indicates that the phosphorylation of glucose to glucose-6-phosphate is highly endergonic and cannot proceed under physiologic conditions without additional energy input. The hydrolysis of ATP is an exergonic reaction that can provide the necessary energy. The standard free energy change for ATP hydrolysis is -30.5 kJ/mol. This negative ΔG indicates that the hydrolysis of ATP is highly exergonic. When the phosphorylation of glucose and the hydrolysis of ATP are coupled, the overall reaction becomes exergonic. The coupling of these reactions is catalyzed by the enzyme hexokinase. The coupled reaction allows the phosphorylation of glucose to proceed readily and irreversibly under physiologic conditions. Many activation reactions in biochemistry follow this pattern of coupling endergonic reactions with exergonic ATP hydrolysis.",
+      "char_start": 14856,
+      "char_end": 16027,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "ATP Allows the Coupling of Thermodynamically Unfavorable Reactions to Favorable Ones"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "atp-allows-the-coupling-of-thermodynamically-unfavorable"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Adenylyl kinase is an enzyme present in most cells.\n\nAdenylyl kinase catalyzes the reaction that interconverts adenine nucleotides.\n\nAdenylyl kinase is important for maintaining energy homeostasis in cells.",
+      "char_start": 16095,
+      "char_end": 16301,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Adenylyl Kinase (Myokinase) Interconverts Adenine Nucleotides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-kinase-myokinase-interconverts-adenine-nucleotides"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "ATP and AMP are converted to 2ADP by the enzyme adenylate kinase.\nAdenylate kinase converts ATP and AMP into 2ADP.\nThe diagram relates the conversion of ATP and AMP to 2ADP by adenylate kinase.",
+      "char_start": 16388,
+      "char_end": 16581,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Adenylyl Kinase (Myokinase) Interconverts Adenine Nucleotides"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-kinase-myokinase-interconverts-adenine-nucleotides"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Adenylyl kinase allows the group transfer potential in ADP to be used in the synthesis of ATP.\n\nAdenylyl kinase enables AMP formed from ATP-activating reactions to be rephosphorylated to ADP.\n\nAdenylyl kinase allows AMP to increase in concentration when ATP becomes depleted.\n\nIncreased AMP concentration acts as a metabolic signal to increase the rate of catabolic reactions.\n\nCatabolic reactions lead to the generation of more ATP.",
+      "char_start": 16583,
+      "char_end": 17016,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Adenylyl Kinase (Myokinase) Interconverts Adenine Nucleotides"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "adenylyl-kinase-myokinase-interconverts-adenine-nucleotides"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "ATP can be hydrolyzed directly to AMP, releasing inorganic pyrophosphate (PP ₁). The hydrolysis of ATP to AMP occurs during the activation of long-chain fatty acids (see Figure 22–2).\n\nThe hydrolysis of ATP to AMP is accompanied by the release of free energy as heat. The release of free energy as heat ensures that the activation reaction proceeds to the right. The hydrolytic splitting of PP ₉, catalyzed by inorganic pyrophosphatase, further aids this process. The reaction has a large standard free energy change (ΔG°') of -19.2 kJ/mol.",
+      "char_start": 17086,
+      "char_end": 17626,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "When ATP Forms AMP, Inorganic Pyrophosphate (PP i ) Is Produced"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "PPi + H2O is catalyzed by INORGANIC PYROPHOSPHATASE to produce 2P_i.\nINORGANIC PYROPHOSPHATASE catalyzes the hydrolysis of PPi into two inorganic phosphate ions.\nThe diagram illustrates the catalytic action of inorganic pyrophosphatase in hydrolyzing PPi into two inorganic phosphate ions.",
+      "char_start": 17740,
+      "char_end": 18029,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "When ATP Forms AMP, Inorganic Pyrophosphate (PP i ) Is Produced"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "The pyrophosphate pathway allows for the recycling of phosphate and the interchange of adenine nucleotides (Figure 11–8).",
+      "char_start": 18031,
+      "char_end": 18152,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "When ATP Forms AMP, Inorganic Pyrophosphate (PP i ) Is Produced"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-11-8"
+      ],
+      "table_refs": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "Pi provides 2Pi to ATP.\nATP converts to ADP by releasing 2 Pi.\nADP converts to AMP by releasing 2 Pi.\nAMP is converted to inorganic pyrophosphate (PPi) by inorganic pyrophosphatase.\nInorganic pyrophosphate (PPi) can be used to regenerate ATP.\nInorganic pyrophosphate (PPi) is also used in reactions catalyzed by Acyl-CoA synthetase, etc.\nAcyl-CoA synthetase, etc. reactions produce AMP from PPi.\nADP can be recycled back to ADP.\nThe diagram illustrates the phosphate cycles and interchange of adenine nucleotides.",
+      "char_start": 18231,
+      "char_end": 18744,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "When ATP Forms AMP, Inorganic Pyrophosphate (PP i ) Is Produced"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "Nucleoside diphosphate (NDP) kinases synthesize UTP, GTP, and CTP from their diphosphates.\n\nUDP reacts with ATP to form UTP.",
+      "char_start": 18821,
+      "char_end": 18945,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Other Nucleoside Triphosphates Participate in Group Transfer Potential"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "other-nucleoside-triphosphates-participate-in-group"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "ATP + UDP is converted to ADP and UTP by nucleoside diphosphate kinase.\nNucleoside diphosphate kinase converts ATP + UDP to ADP and UTP.\nATP and UDP are converted to ADP and UTP by nucleoside diphosphate kinase.",
+      "char_start": 19041,
+      "char_end": 19252,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Other Nucleoside Triphosphates Participate in Group Transfer Potential"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "other-nucleoside-triphosphates-participate-in-group"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "All of these triphosphates participate in phosphorylations in the cell.\n\nSpecific nucleoside monophosphate (NMP) kinases catalyze the formation of NDP from the corresponding monophosphates.\n\nAdenylyl kinase is a specialized NMP kinase.",
+      "char_start": 19254,
+      "char_end": 19489,
+      "section_path": [
+        "Overview",
+        "ATP ACTS AS THE \"ENERGY CURRENCY\" OF THE CELL",
+        "Other Nucleoside Triphosphates Participate in Group Transfer Potential"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "other-nucleoside-triphosphates-participate-in-group"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "Biologic systems use chemical energy to power living processes.\nATP acts as the “energy currency” of the cell, transferring free energy derived from substances of higher energy potential to those of lower energy potential.",
+      "char_start": 19491,
+      "char_end": 19713,
+      "section_path": [
+        "Overview"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-11-1",
+      "image_path": "images/7b382e1e0ba846ec5b53ededb7fde54de97636cfdc1d0c16bf743afd7dae6bf6.jpg",
+      "caption": "Coupling of an exergonic to an endergonic reaction. The conversion of metabolite A to metabolite B occurs with release of free energy and is coupled to another reaction in which free energy is required to convert metabolite C to metabolite D. Overall the reaction can be represented as A+C arrow B+D+ Heat .",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-11-1]",
+      "description": "",
+      "label": "Figure 11-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        4217,
+        4524
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "fig_id": "fig-11-2",
+      "image_path": "images/943082d422cf52148418ffdfcce6fa3e2cb8c80c48b0bbb2b69725db19618572.jpg",
+      "caption": "Coupling of dehydrogenation and hydrogenation reactions by an intermediate carrier.",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-11-2]",
+      "description": "A couples with B through a carrier.\nB transfers the carrier minus H2 back to A.\nB also transfers BH2 to A.\nThe diagram illustrates the coupling of dehydrogenation and hydrogenation reactions by an intermediate carrier.",
+      "label": "Figure 11-2",
+      "panel": "",
+      "content_chunk": "c007",
+      "caption_span": [
+        5488,
+        5571
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "fig_id": "fig-11-3",
+      "image_path": "images/d34e2eccfd6a4a45d77a5a9f205033c6fafd5f12c3e5c6ae8b3fe1134816bb22.jpg",
+      "caption": "Adenosine triphosphate (ATP), shown as the magnesium complex.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-11-3]",
+      "description": "",
+      "label": "Figure 11-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6233,
+        6294
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "endergonic-processes-proceed-by-coupling-to-exergonic"
+    },
+    {
+      "fig_id": "fig-11-4",
+      "image_path": "images/7cd335013bba7e0020aa47959c4be59d6a35ebd52facb8e5e5528bf43a3bdc2e.jpg",
+      "caption": "Structure of ATP, ADP, and AMP showing the position and the number of high-energy phosphates ( P).",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-11-4]",
+      "description": "",
+      "label": "Figure 11-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        9865,
+        9963
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "fig_id": "fig-x5",
+      "image_path": "images/0793e9559c346ff6dfcaa9009a4d6968e06ec87d8b74f1bc4aeaed13e08f7853.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x5]",
+      "description": "",
+      "label": "",
+      "panel": "Adenosin",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "fig_id": "fig-x6",
+      "image_path": "images/ed2ec02872e400c3737969200ee00e5b6667f09014ddd5e47ff2b62405cfb957.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x6]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/d2945fd52de5690b47b9072a266d119625ce7140ec86065cdf6ce0fe3297cb13.jpg",
+      "caption": "",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    },
+    {
+      "fig_id": "fig-11-5",
+      "image_path": "images/09b53b7a3adde6043c55388b83f76b04f9652cedaa61de2c862f9550cafc752a.jpg",
+      "caption": "The free-energy change on hydrolysis of ATP to ADP. The relief of the strong electrostatic repulsion between the negatively charged oxygen atoms in the adjacent phosphate groups of ATP (2) makes the removal of one phosphate group energetically favorable. This, and the stabilization of the orthophosphate released (3) more than compensate for the initial energy input (1) and result in the high free-energy change seen when ATP is hydrolyzed to ADP.",
+      "referenced_from": "c013",
+      "marker": "[FIGURE:fig-11-5]",
+      "description": "",
+      "label": "Figure 11-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        10982,
+        11431
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "adenosine-diphosphate-adp-adenosine-monophosphate-amp"
+    },
+    {
+      "fig_id": "fig-11-6",
+      "image_path": "images/a2acbbd9805af28e1bf9ae2576a77e50031ed86e584ee70082ee358517131ede.jpg",
+      "caption": "Role of ATP/ADP cycle in transfer of high-energy phosphate.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-11-6]",
+      "description": "Phosphoenolpyruvate transfers a high-energy phosphate to 1,3-Bisphosphoglycerate.\nSuccinyl-CoA transfers a high-energy phosphate to Creatine.\nOxidative phosphorylation transfers a high-energy phosphate to Creatine.\nCreatine stores high-energy phosphate as (Store of ~ P).\nATP participates in the ATP/ADP cycle.\nATP/ADP cycle transfers high-energy phosphate to Glycerol-3-phosphate.\nGlycerol-3-phosphate is converted to ADP.\nADP is converted to ATP.\nATP releases a phosphate group as P.\nP is used in the formation of Glucose-6-phosphate.\nP is used in the formation of Glucose-1,6-bisphosphate.\nP is used in Other phosphorylations, activations, and endergonic processes.\nThe diagram illustrates the role of the ATP/ADP cycle in the transfer of high-energy phosphate.",
+      "label": "Figure 11-6",
+      "panel": "",
+      "content_chunk": "c016",
+      "caption_span": [
+        12401,
+        12460
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "fig_id": "fig-11-7",
+      "image_path": "images/31851e594e203be7e9c884163def7493e8e9d3d24503e052627dee63dd0ae8cc.jpg",
+      "caption": "Transfer of high-energy phosphate between ATP and creatine.",
+      "referenced_from": "c017",
+      "marker": "[FIGURE:fig-11-7]",
+      "description": "",
+      "label": "Figure 11-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        14137,
+        14196
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "fig_id": "fig-x11",
+      "image_path": "images/1785a28405cb406cc2fb64616659f5097b9838acad4fc2e1057ea5bf6f6faaff.jpg",
+      "caption": "Glycerol and adenosine interact with glycerol kinase, resulting in a process involving glycerol and adenosine.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x11]",
+      "description": "Glycerol + Adenosine interacts with Glycerol Kinase.\nGlycerol Kinase results in a process involving Glycerol + Adenosine.\nGlycerol and adenosine interact with glycerol kinase, resulting in a process involving glycerol and adenosine.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c019",
+      "caption_span": [
+        14421,
+        14531
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "atp-acts-as-the-energy-currency-of-the-cell"
+    },
+    {
+      "fig_id": "fig-x12",
+      "image_path": "images/f0b64528c77ea691bae36367e59b156d927e422f4cd2bfa2d45433432ddbfd27.jpg",
+      "caption": "ATP and AMP are converted to 2ADP by the enzyme adenylate kinase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x12]",
+      "description": "ATP and AMP are converted to 2ADP by the enzyme adenylate kinase.\nAdenylate kinase converts ATP and AMP into 2ADP.\nThe diagram relates the conversion of ATP and AMP to 2ADP by adenylate kinase.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c022",
+      "caption_span": [
+        16321,
+        16386
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "adenylyl-kinase-myokinase-interconverts-adenine-nucleotides"
+    },
+    {
+      "fig_id": "fig-x13",
+      "image_path": "images/6007651048b915f01d859c97a21fd20ae344643d9e9a2d88901a3759ac583724.jpg",
+      "caption": "Inorganic pyrophosphatase catalyzes the hydrolysis of PPi into two inorganic phosphate ions.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x13]",
+      "description": "PPi + H2O is catalyzed by INORGANIC PYROPHOSPHATASE to produce 2P_i.\nINORGANIC PYROPHOSPHATASE catalyzes the hydrolysis of PPi into two inorganic phosphate ions.\nThe diagram illustrates the catalytic action of inorganic pyrophosphatase in hydrolyzing PPi into two inorganic phosphate ions.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c025",
+      "caption_span": [
+        17646,
+        17738
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "fig_id": "fig-11-8",
+      "image_path": "images/e677267ca622baf3213d273c576cf52f069a53b809693198e6311cdba86e2f6f.jpg",
+      "caption": "Phosphate cycles and interchange of adenine nucleotides.",
+      "referenced_from": "c026",
+      "marker": "[FIGURE:fig-11-8]",
+      "description": "Pi provides 2Pi to ATP.\nATP converts to ADP by releasing 2 Pi.\nADP converts to AMP by releasing 2 Pi.\nAMP is converted to inorganic pyrophosphate (PPi) by inorganic pyrophosphatase.\nInorganic pyrophosphate (PPi) can be used to regenerate ATP.\nInorganic pyrophosphate (PPi) is also used in reactions catalyzed by Acyl-CoA synthetase, etc.\nAcyl-CoA synthetase, etc. reactions produce AMP from PPi.\nADP can be recycled back to ADP.\nThe diagram illustrates the phosphate cycles and interchange of adenine nucleotides.",
+      "label": "Figure 11-8",
+      "panel": "",
+      "content_chunk": "c027",
+      "caption_span": [
+        18173,
+        18229
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "when-atp-forms-amp-inorganic-pyrophosphate-pp-i-is-produced"
+    },
+    {
+      "fig_id": "fig-x15",
+      "image_path": "images/95adf6ee2483ea85fbd3117634de05f12a1980ee8e7f9ac6f6cb0f17ac8582ce.jpg",
+      "caption": "ATP and UDP are converted to ADP and UTP by nucleoside diphosphate kinase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x15]",
+      "description": "ATP + UDP is converted to ADP and UTP by nucleoside diphosphate kinase.\nNucleoside diphosphate kinase converts ATP + UDP to ADP and UTP.\nATP and UDP are converted to ADP and UTP by nucleoside diphosphate kinase.",
+      "label": "",
+      "panel": "",
+      "content_chunk": "c029",
+      "caption_span": [
+        18965,
+        19039
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "other-nucleoside-triphosphates-participate-in-group"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-11-1",
+      "label": "Table 11-1",
+      "caption": "Standard Free Energy of Hydrolysis of Some Organophosphates of Biochemical Importance",
+      "referenced_from": "c010",
+      "content_chunk": "c011",
+      "caption_span": [
+        7706,
+        7791
+      ],
+      "section_id": "the-intermediate-value-for-the-free-energy-of-hydrolysis-of"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "State the first and second laws of thermodynamics and understand how they apply to biologic systems.\nExplain what is meant by the terms free energy, entropy, enthalpy, exergonic, and endergonic.\nAppreciate how reactions that are endergonic may be driven by coupling to those that are exergonic in biologic systems.\nExplain the role of group transfer potential, adenosine triphosphate (ATP), and other nucleotide triphosphates in the transfer of free energy from exergonic to endergonic processes, enabling them to act as the “energy currency” of cells.",
+      "char_start": 12,
+      "char_end": 564,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-11-1",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-11-4",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-11-6",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x11",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x12",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x13",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x15",
+      "reason": "figure never anchored in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_11_bioenergetics_the_role_of_atp.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_11_bioenergetics_the_role_of_atp/chapter_11_bioenergetics_the_role_of_atp.normalized.md"
+}

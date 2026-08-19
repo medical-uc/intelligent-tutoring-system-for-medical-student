@@ -1,0 +1,1220 @@
+{
+  "doc_id": "chapter_37_protein_synthesis_and_the_genetic_code",
+  "source": {
+    "source_id": "chapter_37_protein_synthesis_and_the_genetic_code",
+    "title": "Protein Synthesis & the Genetic Code",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "The chapter discusses the process of protein synthesis and the genetic code, including how genetic information flows from DNA to RNA to protein, the nature of the genetic code, and the role of mutations.",
+    "page": null,
+    "origin": "chapter_37_protein_synthesis_and_the_genetic_code.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-14 07:33:31"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "The letters A, G, T, and C correspond to the nucleotides found in DNA. Within the protein-coding genes, these nucleotides are organized into three-letter code words called codons. The collection of these codons, once transcribed into mRNA, makes up the genetic code. The deciphering of the genetic code was essential to understand protein synthesis. The deciphering of the genetic code was necessary to explain the molecular effects of gene mutations. The genetic code provides a foundation for explaining how protein defects may cause genetic disease. The genetic code aids in the diagnosis and possible treatment of genetic disorders. The pathophysiology of many viral infections is related to these agents' ability to disrupt host cell protein synthesis. The pathophysiology of many viral infections is related to these agents' ability to co-opt host cell protein synthesis. Many antibacterial drugs are effective because they selectively disrupt protein synthesis in bacterial cells. Many antibacterial drugs do not affect protein synthesis in eukaryotic cells.",
+      "char_start": 1291,
+      "char_end": 2356,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "The genetic information within the nucleotide sequence of DNA is transcribed in the nucleus of eukaryotic cells into the specific nucleotide sequence of an mRNA molecule. The sequence of nucleotides in the RNA transcript is complementary to the nucleotide sequence of the template strand of its gene in accordance with Watson-Crick base-pairing rules. Several different classes of RNA combine to direct the synthesis of proteins.\n\nIn prokaryotes there is a linear correspondence between the gene and the messenger RNA transcribed from the gene. In prokaryotes there is a linear correspondence between the messenger RNA and the polypeptide product. In higher eukaryotic cells, the primary transcript is much larger than the mature mRNA. The large mRNA precursors contain coding regions (exons) that will form the mature mRNA. The large mRNA precursors contain long intervening sequences (introns) that separate the exons. The mRNA is processed within the nucleus. The introns are removed from the mRNA during processing. The introns typically make up much more of the RNA than the exons. Exons are spliced together to form mature mRNAs. Mature mRNAs are transported to the cytoplasm. Mature mRNAs are translated into protein in the cytoplasm.",
+      "char_start": 2414,
+      "char_end": 3655,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "GENETIC INFORMATION FLOWS FROM DNA TO RNA TO PROTEIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "genetic-information-flows-from-dna-to-rna-to-protein"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The cell must possess the machinery necessary to translate information accurately and efficiently from the nucleotide sequence of an mRNA into the sequence of amino acids of the corresponding specific protein. The process of translating the information in the mRNA nucleotide sequence into the amino acid sequence of a protein is termed translation. The deciphering of the genetic code was necessary for understanding this process. mRNA molecules have no affinity for amino acids. An intermediate adapter molecule is required for the translation of the information in the mRNA nucleotide sequence into the amino acid sequence of a protein. This adapter molecule must recognize a specific nucleotide sequence and a specific amino acid. With such an adapter molecule, the cell can direct a specific amino acid into the proper sequential position of a protein during its synthesis as dictated by the nucleotide sequence of the specific mRNA. The functional groups of the amino acids do not actually come into contact with the mRNA template.",
+      "char_start": 3657,
+      "char_end": 4694,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "GENETIC INFORMATION FLOWS FROM DNA TO RNA TO PROTEIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "genetic-information-flows-from-dna-to-rna-to-protein"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Twenty different amino acids are required for the synthesis of the cellular complement of proteins. There must be at least 20 distinct codons that make up the genetic code. Each codon must consist of more than a single purine or pyrimidine nucleotide. Codons consisting of two nucleotides each could provide for only 16 distinct codons, whereas codons of three nucleotides could provide 64 specific codons. Each codon consists of a sequence of three nucleotides, making it a triplet code (Table 37-1).",
+      "char_start": 4831,
+      "char_end": 5332,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE NUCLEOTIDE SEQUENCE OF AN mRNA MOLECULE CONTAINS A SERIES OF CODONS THAT SPECIFY THE AMINO ACID SEQUENCE OF THE ENCODED PROTEIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-37-1"
+      ],
+      "section_id": "the-nucleotide-sequence-of-an-mrna-molecule-contains-a"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "In the genetic code for mammalian messenger RNAs, the codon UUU codes for Phenylalanine (Phe).\nIn the genetic code for mammalian messenger RNAs, the codon UCU codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon UAU codes for Tyrosine (Tyr).\nIn the genetic code for mammalian messenger RNAs, the codon UGU codes for Cysteine (Cys).\nIn the genetic code for mammalian messenger RNAs, the codon UUC codes for Phenylalanine (Phe).\nIn the genetic code for mammalian messenger RNAs, the codon UCC codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon UAC codes for Tyrosine (Tyr).\nIn the genetic code for mammalian messenger RNAs, the codon UGC codes for Cysteine (Cys).\nIn the genetic code for mammalian messenger RNAs, the codon UUA codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon UCA codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon UAA is a termination codon (Term).\nIn the genetic code for mammalian messenger RNAs, the codon UGA is a termination codon (Term).\nIn the genetic code for mammalian messenger RNAs, the codon UUG codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon UCG codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon UAG is a termination codon (Term).\nIn the genetic code for mammalian messenger RNAs, the codon UGG codes for Tryptophan (Trp).\nIn the genetic code for mammalian messenger RNAs, the codon CUU codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon CCU codes for Proline (Pro).\nIn the genetic code for mammalian messenger RNAs, the codon CAU codes for Histidine (His).\nIn the genetic code for mammalian messenger RNAs, the codon CGU codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon CUC codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon CCC codes for Proline (Pro).\nIn the genetic code for mammalian messenger RNAs, the codon CAC codes for Histidine (His).\nIn the genetic code for mammalian messenger RNAs, the codon CGC codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon CUA codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon CCA codes for Proline (Pro).\nIn the genetic code for mammalian messenger RNAs, the codon CAA codes for Glutamine (Gln).\nIn the genetic code for mammalian messenger RNAs, the codon CGA codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon CUG codes for Leucine (Leu).\nIn the genetic code for mammalian messenger RNAs, the codon CCG codes for Proline (Pro).\nIn the genetic code for mammalian messenger RNAs, the codon CAG codes for Glutamine (Gln).\nIn the genetic code for mammalian messenger RNAs, the codon CGG codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon AUU codes for Isoleucine (Ile).\nIn the genetic code for mammalian messenger RNAs, the codon ACU codes for Threonine (Thr).\nIn the genetic code for mammalian messenger RNAs, the codon AAU codes for Asparagine (Asn).\nIn the genetic code for mammalian messenger RNAs, the codon AGU codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon AUC codes for Isoleucine (Ile).\nIn the genetic code for mammalian messenger RNAs, the codon ACC codes for Threonine (Thr).\nIn the genetic code for mammalian messenger RNAs, the codon AAC codes for Asparagine (Asn).\nIn the genetic code for mammalian messenger RNAs, the codon AGC codes for Serine (Ser).\nIn the genetic code for mammalian messenger RNAs, the codon AUA codes for Isoleucine (Ile).\nIn the genetic code for mammalian messenger RNAs, the codon ACA codes for Threonine (Thr).\nIn the genetic code for mammalian messenger RNAs, the codon AAA codes for Lysine (Lys).\nIn the genetic code for mammalian messenger RNAs, the codon AGA codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon AUG codes for Methionine (Met).\nIn the genetic code for mammalian messenger RNAs, the codon ACG codes for Threonine (Thr).\nIn the genetic code for mammalian messenger RNAs, the codon AAG codes for Lysine (Lys).\nIn the genetic code for mammalian messenger RNAs, the codon AGG codes for Arginine (Arg).\nIn the genetic code for mammalian messenger RNAs, the codon GUU codes for Valine (Val).\nIn the genetic code for mammalian messenger RNAs, the codon GCU codes for Alanine (Ala).\nIn the genetic code for mammalian messenger RNAs, the codon GAU codes for Aspartic Acid (Asp).\nIn the genetic code for mammalian messenger RNAs, the codon GGU codes for Glycine (Gly).\nIn the genetic code for mammalian messenger RNAs, the codon GUC codes for Valine (Val).\nIn the genetic code for mammalian messenger RNAs, the codon GCC codes for Alanine (Ala).\nIn the genetic code for mammalian messenger RNAs, the codon GAC codes for Aspartic Acid (Asp).\nIn the genetic code for mammalian messenger RNAs, the codon GGC codes for Glycine (Gly).\nIn the genetic code for mammalian messenger RNAs, the codon GUA codes for Valine (Val).\nIn the genetic code for mammalian messenger RNAs, the codon GCA codes for Alanine (Ala).\nIn the genetic code for mammalian messenger RNAs, the codon GAA codes for Glutamic Acid (Glu).\nIn the genetic code for mammalian messenger RNAs, the codon GGA codes for Glycine (Gly).\nIn the genetic code for mammalian messenger RNAs, the codon GUG codes for Valine (Val).\nIn the genetic code for mammalian messenger RNAs, the codon GCG codes for Alanine (Ala).\nIn the genetic code for mammalian messenger RNAs, the codon GAG codes for Glutamic Acid (Glu).\nIn the genetic code for mammalian messenger RNAs, the codon GGG codes for Glycine (Gly).",
+      "char_start": 5401,
+      "char_end": 11185,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE NUCLEOTIDE SEQUENCE OF AN mRNA MOLECULE CONTAINS A SERIES OF CODONS THAT SPECIFY THE AMINO ACID SEQUENCE OF THE ENCODED PROTEIN"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nucleotide-sequence-of-an-mrna-molecule-contains-a"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "The initial deciphering of the genetic code depended heavily on in vitro synthesis of nucleotide polymers, particularly triplets in repeated sequence. The synthetic triplet ribonucleotides were used as mRNAs to program protein synthesis in the test tube, which allowed investigators to deduce the genetic code.\n\nThe terms first, second, and third nucleotide refer to the individual nucleotides of a triplet codon read 5′–3′, left to right. A stands for the adenine nucleotide. C stands for the cytosine nucleotide. G stands for the guanine nucleotide. Term stands for a chain terminator codon. U stands for the uridine nucleotide. AUG codes for Met and serves as the initiator codon in mammalian cells. AUG also encodes for internal methionines in a protein. In mammalian mitochondria, AUA codes for Met and UGA for Trp. In mammalian mitochondria, AGA and AGG serve as chain terminators. (Abbreviations of amino acids are explained in Table 3-1.)",
+      "char_start": 11187,
+      "char_end": 12133,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE NUCLEOTIDE SEQUENCE OF AN mRNA MOLECULE CONTAINS A SERIES OF CODONS THAT SPECIFY THE AMINO ACID SEQUENCE OF THE ENCODED PROTEIN"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-nucleotide-sequence-of-an-mrna-molecule-contains-a"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Three of the 64 possible codons do not code for specific amino acids. Three of the 64 possible codons are termed nonsense codons. Nonsense codons are utilized in the cell as translation termination signals. The remaining 61 codons code for the 20 naturally occurring amino acids. There is degeneracy in the genetic code, meaning multiple codons can decode the same amino acid. Some amino acids are encoded by several codons. For example, six different codons specify serine. Other amino acids, such as methionine and tryptophan, have a single codon. In general, the third nucleotide in a codon is less important than the first two in determining the specific amino acid to be incorporated. The third nucleotide in a codon accounts for most of the degeneracy of the code. However, for any specific codon, only a single amino acid is specified. The genetic code is unambiguous, meaning given a specific codon, only a single amino acid is indicated. The distinction between ambiguity and degeneracy is an important concept.",
+      "char_start": 12232,
+      "char_end": 13252,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE GENETIC CODE IS DEGENERATE, UNAMBIGUOUS, NONOVERLAPPING, WITHOUT PUNCTUATION, & UNIVERSAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-genetic-code-is-degenerate-unambiguous-nonoverlapping"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The recognition of specific codons in the mRNA by the tRNA adapter molecules is dependent on the tRNA anticodon region. Specific base-pairing rules dictate tRNA–mRNA codon binding. Each tRNA molecule contains a specific sequence, complementary to a codon, termed its anticodon. For a given codon in the mRNA, only a single species of tRNA molecule possesses the proper anticodon. Each tRNA molecule can be charged with only one specific amino acid. Each codon therefore specifies only one amino acid. Some tRNA molecules can recognize more than one codon. With few exceptions, given a specific codon, only a specific amino acid will be incorporated. Given a specific amino acid, more than one codon may be used.\n\nThe reading of the genetic code during the process of protein synthesis does not involve any overlap of codons. The genetic code is nonoverlapping. Once the reading is commenced at a specific start codon, there is no punctuation between codons. The message is read in a continuing sequence of nucleotide triplets until a translation stop codon is reached.",
+      "char_start": 13254,
+      "char_end": 14322,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE GENETIC CODE IS DEGENERATE, UNAMBIGUOUS, NONOVERLAPPING, WITHOUT PUNCTUATION, & UNIVERSAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-genetic-code-is-degenerate-unambiguous-nonoverlapping"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Until recently, the genetic code was thought to be universal. The set of tRNA molecules in mitochondria reads four codons differently from the tRNA molecules in the cytoplasm of even the same cells. In mammalian mitochondria, the codon AUA is read as Met. In mammalian mitochondria, UGA codes for Trp. In mitochondria, the codons AGA and AGG are read as stop- or chain-terminator codons rather than as Arg. Mitochondria require only 22 tRNA molecules to read their genetic code. The cytoplasmic translation system possesses a full complement of 31 tRNA species. These exceptions noted, the genetic code is universal.\n\nThe frequency of use of each amino acid codon varies considerably between species. The frequency of use of each amino acid codon varies even among different tissues within a species. The specific tRNA levels generally mirror these codon usage biases. A particular abundantly used codon is decoded by a similarly abundant-specific tRNA which recognizes that particular codon. Tables of codon usage are quite accurate now that many genomes have been sequenced and analyzed. Tables of codon usage are vital for large-scale production of proteins for therapeutic purposes, such as insulin and erythropoietin. Currently, many therapeutic proteins are often produced using in vitro synthetic systems. Currently, many therapeutic proteins are often produced through the utilization of cultured nonhuman cells using recombinant DNA technology.",
+      "char_start": 14324,
+      "char_end": 15777,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "THE GENETIC CODE IS DEGENERATE, UNAMBIGUOUS, NONOVERLAPPING, WITHOUT PUNCTUATION, & UNIVERSAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-genetic-code-is-degenerate-unambiguous-nonoverlapping"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "tRNA molecules have similar functions. tRNA molecules have three-dimensional structures. The adapter function of tRNA molecules requires each specific tRNA to be charged with its specific amino acid. There is no affinity of nucleic acids for specific functional groups of amino acids. Recognition must be carried out by a protein molecule. A protein molecule must recognize both a specific tRNA molecule and a specific amino acid. At least 20 specific enzymes are required for these recognition functions and for attaching the 20 amino acids to specific tRNA molecules. The process of recognition and attachment, known as tRNA amino acid charging, is energy requiring. The process of recognition and attachment proceeds in two steps. Each of the 20 amino acids has its own enzyme for this process, termed aminoacyl-tRNA synthetases. These enzymes form an activated intermediate of aminoacyl-AMP–enzyme complex. The specific aminoacyl-AMP–enzyme complex then recognizes a specific tRNA and attaches the aminoacyl moiety at the 3′-hydroxyl adenosyl terminal. The amino acid remains attached to its specific tRNA in an ester linkage until it is incorporated into a polypeptide on the ribosome.",
+      "char_start": 15849,
+      "char_end": 17039,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "AT LEAST ONE SPECIES OF tRNA EXISTS FOR EACH OF THE 20 AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "at-least-one-species-of-trna-exists-for-each-of-the-20"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "The ribothymidine pseudouridine cytidine (TψC) arm of the tRNA molecule is involved in binding the aminoacyl-tRNA to the ribosomal surface at the site of protein synthesis. The tRNA dihydrouridine (D) arm is important for the proper recognition of a given tRNA species by its aminoacyl-tRNA synthetase. The tRNA acceptor arm is located at the 3′-hydroxyl adenosyl terminal. The tRNA acceptor arm is the site where the specific amino acid is attached.\n\nThe anticodon region of the tRNA consists of seven nucleotides. The anticodon region of the tRNA recognizes and binds to the three-letter codon in mRNA. The anticodon is read from the 3′ to 5′ direction. The genetic code is read 5′ to 3′. The codon and anticodon are antiparallel in their complementarity. The degeneracy of the genetic code mostly resides in the last nucleotide of the codon triplet. Wobble pairing allows for the degeneracy of the genetic code. Wobble pairing means that the base pairing between the last nucleotide and the anticodon is not strictly by the Watson-Crick rule. The two codons for arginine, AGA and AGG, can bind to the same anticodon having a uracil at its 5′ end (UCU). Three codons for glycine—GGU, GGC, and GGA—can pair with one anticodon, 3′ CCI 5′. Inosine (I) can base pair with U, C, and A. Inosine is generated by deamination of adenine.",
+      "char_start": 17041,
+      "char_end": 18371,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "AT LEAST ONE SPECIES OF tRNA EXISTS FOR EACH OF THE 20 AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "at-least-one-species-of-trna-exists-for-each-of-the-20"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Aminoacyl-tRNA synthetases catalyze the formation of aminoacyl-tRNA in a two-step reaction (Figure 37–1). The first reaction involves the formation of an AMP-amino acid–enzyme complex. The activated amino acid is then transferred to the corresponding tRNA molecule. The AMP and enzyme are released, and the enzyme can be reutilized. The anticodon region of tRNA charged with phenylalanine has the complementary sequence AAA, forming a base-pair complex with the codon UUU (Figure 37–2). The anticodon region typically consists of a sequence of seven nucleotides: variable (N), modified purine (Pu), X, Y, Z (here, A A A), and two pyrimidines (Py) in the 3' to 5' direction. The interaction between mRNA and tRNA is antiparallel.",
+      "char_start": 18373,
+      "char_end": 19101,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "AT LEAST ONE SPECIES OF tRNA EXISTS FOR EACH OF THE 20 AMINO ACIDS"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-1",
+        "fig-37-2"
+      ],
+      "table_refs": [],
+      "section_id": "at-least-one-species-of-trna-exists-for-each-of-the-20"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Although the initial change may not occur in the template strand of the double-stranded DNA molecule for that gene, after replication, daughter DNA molecules with mutations in the template strand will segregate and appear in the population of organisms.",
+      "char_start": 20050,
+      "char_end": 20303,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "mutations-result-when-changes-occur-in-the-nucleotide"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "Single-base changes, known as point mutations, can be classified into transitions or transversions. Transitions involve the substitution of one pyrimidine for another. Transitions involve the substitution of one purine for another. Transversions involve the substitution of a purine with a pyrimidine. Transversions involve the substitution of a pyrimidine with a purine. These substitutions are illustrated in Figure 37-3.",
+      "char_start": 20351,
+      "char_end": 20774,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Some Mutations Occur by Base Substitution"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-3"
+      ],
+      "table_refs": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "When a gene containing a mutation is transcribed into mRNA, the mutation's base change is reflected in the mRNA sequence. The mutation's base change can lead to several outcomes when the mRNA is translated into a protein.\n\nA silent mutation occurs when a base change does not alter the amino acid sequence due to the genetic code's degeneracy. Silent mutations are most likely to occur at the third nucleotide of a codon. Changes at the third nucleotide of a codon are least likely to affect translation due to wobble.\n\nA missense mutation results in the incorporation of a different amino acid at the corresponding site in the protein. The impact of a missense mutation on protein function can vary. The impact might be acceptable. The impact might be partially acceptable. The impact might be unacceptable. Most single-base changes result in amino acid replacements with similar functional groups. Amino acid replacements with similar functional groups serve as a genetic buffering mechanism to prevent drastic changes in protein properties. An acceptable missense mutation may produce a protein indistinguishable from the normal one. A partially acceptable missense results in a protein with partial but abnormal function. An unacceptable missense mutation renders the protein nonfunctional.",
+      "char_start": 20866,
+      "char_end": 22160,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Some Mutations Occur by Base Substitution"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "A nonsense mutation introduces a premature stop codon. A nonsense mutation leads to the production of a truncated protein fragment. A truncated protein fragment is unlikely to function normally. Examples of these mutation types and their effects on mRNA coding potential are shown in Figure 37-4and Figure 37-5.",
+      "char_start": 22162,
+      "char_end": 22473,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Some Mutations Occur by Base Substitution"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-4",
+        "fig-37-5"
+      ],
+      "table_refs": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "The hemoglobin Hikari β-chain mutation has normal physiologic properties. The hemoglobin Hikari β-chain mutation has altered electrophoretic mobility. Hemoglobin S, with a β-chain mutation, binds oxygen. Hemoglobin S precipitates when deoxygenated, causing sickle cell disease. Hemoglobin M Boston, with an α-chain mutation, cannot bind oxygen due to heme oxidation (Figure 37-4).\n\nA table provides details on acceptable missense mutations. A table provides details on partially acceptable missense mutations. A table provides details on unacceptable missense mutations.",
+      "char_start": 23581,
+      "char_end": 24151,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Some Mutations Occur by Base Substitution"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-4"
+      ],
+      "table_refs": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "The deletion of a single nucleotide from the coding strand of a gene results in an altered reading frame in the mRNA. The machinery translating the mRNA does not recognize that a base was missing. The reading of codons has no punctuation. A major alteration in the sequence of polymerized amino acids results from altering the reading frame. The alteration results in a garbled translation of the mRNA distal to the single nucleotide deletion. The sequence of amino acids distal to this deletion is garbled. The reading of the message can also result in the appearance of a nonsense codon. The production of a polypeptide is both garbled and prematurely terminated by the appearance of a nonsense codon.\n\nIf three nucleotides or a multiple of three nucleotides are deleted from a coding region, translation of the corresponding mRNA will generate a protein that is missing the corresponding number of amino acids. The reading frame is a triplet, so the reading phase will not be disturbed for those codons distal to the deletion. If deletion of one or two nucleotides occurs just prior to or within the normal termination codon, the reading of the normal termination signal is disturbed. Deletion of one or two nucleotides might result in reading through the now “mutated” termination signal until another nonsense codon is encountered.",
+      "char_start": 24267,
+      "char_end": 25603,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Frameshift Mutations Result From the Deletion or Insertion of Nucleotides in DNA That Generates Altered mRNAs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "frameshift-mutations-result-from-the-deletion-or-insertion"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Insertions of one, or two, or nonmultiples of three nucleotides into a gene result in an mRNA in which the reading frame is distorted on translation. Deletions in a gene also result in an mRNA in which the reading frame is distorted on translation. Insertions or deletions may result in garbled amino acid sequences distal to the insertion or deletion. Insertions or deletions may also result in the generation of a nonsense codon at, or distal to the insertion or deletion. Insertions or deletions may result in reading through the normal termination codon. Following a deletion in a gene, an insertion can reestablish the proper reading frame. Following an insertion in a gene, a deletion can reestablish the proper reading frame. The corresponding mRNA, when translated, would contain a garbled amino acid sequence between the insertion and deletion. Beyond the reestablishment of the reading frame, the amino acid sequence would be correct. Different combinations of insertions or deletions, or of both, would result in formation of a protein wherein a portion is abnormal. The abnormal portion of the protein is surrounded by the normal amino acid sequences. Different combinations of insertions or deletions, or of both, have been demonstrated convincingly in a number of human diseases.",
+      "char_start": 25605,
+      "char_end": 26898,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Frameshift Mutations Result From the Deletion or Insertion of Nucleotides in DNA That Generates Altered mRNAs"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "frameshift-mutations-result-from-the-deletion-or-insertion"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "The discussion of the altered protein products of gene mutations is based on the presence of normally functioning tRNA molecules. Abnormally functioning tRNA molecules have been discovered in prokaryotic and lower eukaryotic organisms. Abnormally functioning tRNA molecules are the result of mutations. Some abnormal tRNA molecules are capable of binding to and decoding altered codons. Supressor tRNA molecules can suppress the effects of mutations in distinct mutated mRNA-encoding structural genes. Suppressor tRNA molecules are usually formed as a result of alterations in their anticodon regions. Suppressor tRNA molecules are capable of suppressing certain missense mutations. Suppressor tRNA molecules are capable of suppressing certain nonsense mutations. Suppressor tRNA molecules are capable of suppressing certain frameshift mutations. Suppressor tRNA molecules are not capable of distinguishing between a normal codon and one resulting from a gene mutation. The presence of suppressor tRNA molecules in the cell usually results in decreased viability. Nonsense suppressor tRNA molecules can suppress the normal termination signals. Nonsense suppressor tRNA molecules allow a read-through when it is not desirable. Frameshift suppressor tRNA molecules may read a normal codon plus a component of a juxtaposed codon. Frameshift suppressor tRNA molecules provide a frameshift when it is not desirable. Supressor tRNA molecules may exist in mammalian cells. Read-through of translation has on occasion been observed in mammalian cells. Custom, lab-designed suppressor tRNAs have been shown to incorporate unnatural amino acids into defined protein locations. Mutated variants of aminoacyl-tRNA synthetases are capable of aminoacylating these altered tRNAs. Custom, lab-designed suppressor tRNAs and mutated variants of aminoacyl-tRNA synthetases provide investigators with powerful tools for genetic code expansion. Custom, lab-designed suppressor tRNAs and mutated variants of aminoacyl-tRNA synthetases enable probing and testing a huge range of fundamentally important biological questions.",
+      "char_start": 27006,
+      "char_end": 29107,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MUTATIONS RESULT WHEN CHANGES OCCUR IN THE NUCLEOTIDE SEQUENCE",
+        "Suppressor Mutations Can Counteract Some of the Effects of Missense, Nonsense, & Frameshift Mutations"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "suppressor-mutations-can-counteract-some-of-the-effects-of"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "Ribosomes are the machinery on which the mRNA nucleotide sequence is translated into the sequence of amino acids of the specified protein. The translation of the mRNA commences near its 5′ end with the formation of the corresponding amino terminus of the protein molecule. The message is decoded from 5′ to 3′, concluding with the formation of the carboxyl terminus of the protein. The concept of polarity is apparent in this process. The transcription of a gene into the corresponding mRNA or its precursor first forms the 5′ end of the RNA molecule. In prokaryotes, mRNA translation can begin before the transcription of the gene is completed. In eukaryotic organisms, transcription occurs in the nucleus, while mRNA translation occurs in the cytoplasm. In eukaryotic organisms, transcription and translation cannot occur simultaneously, enabling the processing necessary to generate mature mRNA from the primary transcript.",
+      "char_start": 29222,
+      "char_end": 30148,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "like-transcription-protein-synthesis-can-be-described-in"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Initiation of eukaryotic protein synthesis requires an mRNA molecule to be selected for translation by a ribosome. The ribosome must locate the initiation codon on the mRNA to set the correct reading frame, and translation begins. This process involves tRNA, rRNA, mRNA, and at least 10 eukaryotic initiation factors (eIFs), some of which have multiple subunits. GTP, ATP, and amino acids are also involved in the initiation process. Initiation can be divided into three steps, all of which are preceded by the dissociation of the 80S ribosome into its 40S and 60S subunits. The first step is the binding of a ternary complex consisting of the initiator methionyl-tRNA (met-tRNAi), GTP, and eIF-2 to the 40S ribosome subunit to form the 43S preinitiation complex. The second step involves the binding of mRNA to the 40S preinitiation complex to form the 48S initiation complex. The third step is the combination of the 48S initiation complex with the 60S ribosomal subunit to form the 80S initiation complex.",
+      "char_start": 30204,
+      "char_end": 31212,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Initiation Involves Several Protein-RNA Complexes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "initiation-involves-several-protein-rna-complexes"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "Eukaryotic mRNAs contain a 5′ 7meG-cap (Cap) and a 3′ poly(A) tail. Translation preinitiation complex formation proceeds in several steps. The first step is the dissociation of the 80S complex into component 40S and 60S subunits, facilitated by the binding of factors eIF1, eIF1A, and eIF3 to the ribosomal 40S subunit. The second step is the formation of the 43S preinitiation complex, a ternary complex consisting of met-tRNA and GTP-bound to the initiation factor eIF-2. The 43S preinitiation complex is then bound by the eIF5 initiation factor to form the complete 43S preinitiation complex. The third step is the activation of 5′-capped mRNA and formation of the 48S initiation complex. mRNA is bound via its 5′-cap by eIF4F, composed of eIF4E, eIF4G, and eIF4A factors, and the 3′ Poly(A) tail by Poly A binding (PAB) protein, forming the 48S initiation complex. ATP hydrolysis-dependent 5′ to 3′ mRNA scanning enables the location of the initiation codon AUG, which is then bound by met-tRNA. The fourth step is the formation of the 80S initiation complex when a recycled 60S ribosomal subunit joins the 48S complex. The reaction positions the initiator met-tRNA within the P site of the active 80S initiation complex and induces dissociation of eIF1A and GDP-bound eIF5B. The 80S initiation complex is now competent for translation initiation (Figure 37-6).",
+      "char_start": 31214,
+      "char_end": 32579,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Initiation Involves Several Protein-RNA Complexes"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-6"
+      ],
+      "table_refs": [],
+      "section_id": "initiation-involves-several-protein-rna-complexes"
+    },
+    {
+      "chunk_id": "c024",
+      "text": "80S ribosomes dissociate into 40S and 60S subunits during translation termination.\n\n80S ribosomes dissociate into 40S and 60S subunits during translation termination, allowing the components to participate in subsequent rounds of translation.\n\neIF-3 binds to the newly dissociated 40S ribosomal subunit.\n\neIF-1 binds to the newly dissociated 40S ribosomal subunit.\n\neIF-1A binds to the newly dissociated 40S ribosomal subunit.\n\nThe binding of these three eIFs delays the reassociation of the 40S subunit with the 60S subunit.\n\nThe binding of these three eIFs delays the reassociation of the 40S subunit with the 60S subunit, allowing other translation initiation factors to associate with the 40S subunit.",
+      "char_start": 34137,
+      "char_end": 34842,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Ribosomal Dissociation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "ribosomal-dissociation"
+    },
+    {
+      "chunk_id": "c025",
+      "text": "The first step of translation initiation involves the binding of GTP by eIF-2. The GTP-eIF-2 complex then binds to methionyl tRNAi. Methionyl tRNAi is a tRNA specifically involved in binding to the initiation codon AUG. There are two tRNAs for methionine: one specifies methionine for the initiator codon (met tRNAi), and the other for internal methionines (met tRNA). Both met tRNAi and met tRNA have unique nucleotide sequences. Both tRNAs are aminoacylated by the same methionyl-tRNA synthetase. The GTP-eIF-2-tRNAi ternary complex binds to the 40S ribosomal subunit to form the 43S preinitiation complex. The ternary complex–40S subunit complex is stabilized by eIF-3 and eIF-1A. The subsequent binding of eIF5 stabilizes the ternary complex–40S subunit complex.",
+      "char_start": 34891,
+      "char_end": 35657,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Formation of the 43S Preinitiation Complex"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "formation-of-the-43s-preinitiation-complex"
+    },
+    {
+      "chunk_id": "c026",
+      "text": "eIF-2 is one of two control points for protein synthesis initiation in eukaryotic cells. eIF-2 consists of α, β, and γ subunits. eIF-2α is phosphorylated on serine 51 by at least four different protein kinases: HCR, PKR, PERK, and GCN2. HCR, PKR, PERK, and GCN2 are activated when a cell is under stress and when the energy expenditure required for protein synthesis would be deleterious. Conditions that activate these kinases include amino acid or glucose starvation, virus infection, intracellular presence of large quantities of misfolded proteins (endoplasmic reticulum [ER] stress), serum deprivation (for cells in culture), hyperosmolality, and heat shock. PKR is particularly interesting in this regard. PKR is activated by viruses and provides a host defense mechanism that decreases protein synthesis, including viral protein synthesis, thereby inhibiting viral replication. Phosphorylated eIF-2α binds tightly to and inactivates the GTP-GDP recycling protein eIF-2B. Phosphorylated eIF-2α prevents the formation of the 43S preinitiation complex. Phosphorylated eIF-2α blocks protein synthesis by preventing the formation of the 43S preinitiation complex.",
+      "char_start": 35659,
+      "char_end": 36824,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Formation of the 43S Preinitiation Complex"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "formation-of-the-43s-preinitiation-complex"
+    },
+    {
+      "chunk_id": "c027",
+      "text": "The 5' termini of mRNA molecules in eukaryotic cells are capped with a 7meG-cap. The 7meG-cap facilitates the binding of mRNA to the 43S preinitiation complex. A cap-binding protein complex, eIF-4F, binds to the cap through the eIF-4E protein. The eIF-4F complex consists of eIF-4E and the eIF-4G-eIF-4A complex. eIF-4B binds to the complex and reduces the secondary structure of the 5' end of the mRNA through its ATP-dependent helicase activity. The association of mRNA with the 43S preinitiation complex to form the 48S initiation complex requires ATP hydrolysis. eIF-3 binds with high affinity to the 4G component of 4F, linking this complex to the 40S ribosomal subunit. The 43S preinitiation complex associates with the mRNA cap. The secondary structure near the 5' end of the mRNA is melted by the action of the 4B helicase and ATP. The complex translocates 5' to 3' and scans the mRNA for a suitable initiation codon. Generally, the initiation codon is the 5'-most AUG. The precise initiation codon is determined by Kozak consensus sequences surrounding the AUG initiation codon.",
+      "char_start": 36870,
+      "char_end": 37957,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Formation of the 48S Initiation Complex"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "formation-of-the-48s-initiation-complex"
+    },
+    {
+      "chunk_id": "c028",
+      "text": "The 3′ poly(A) tail and the poly(A)-binding protein, PAB, are required for efficient initiation of protein synthesis. The poly(A) tail stimulates the recruitment of the 40S ribosomal subunit to the mRNA. PAB, bound to the poly(A) tail, interacts with eIF-4G and 4E subunits of cap-bound eIF-4F to form a circular structure. The circular structure helps direct the 40S ribosomal subunit to the 5′ end of the mRNA. The circular structure also likely stabilizes mRNAs from exonucleolytic degradation. The cap and poly(A) tail structures have a synergistic effect on protein synthesis. Differential protein-protein interactions between general and specific mRNA translational repressors and eIF-4E result in m7G cap-dependent translation control (Figure 37–8).",
+      "char_start": 38152,
+      "char_end": 38908,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Role of the Poly(A) Tail in Initiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-8"
+      ],
+      "table_refs": [],
+      "section_id": "role-of-the-poly-a-tail-in-initiation"
+    },
+    {
+      "chunk_id": "c029",
+      "text": "A diagram depicts the movement of the ribosome on the mRNA and the release of a newly formed polypeptide chain. Figure 37-7shows a schematic of mRNA circularization via interactions between cap-bound elF4F and poly(A) tail-bound PAB, facilitating ribosomal translation and protein synthesis. Figure 37-8illustrates the activation of eIF-4E by insulin and the formation of the cap-binding eIF-4F complex. The 4F complex consists of eIF-4E (4E), eIF-4A (4A), and eIF-4G (4G). 4E is inactive when bound by one of a family of binding proteins (4E-BPs). Insulin and mitogenic growth polypeptides activate the PI3 kinase/AKT kinase signaling pathways, which activate the mTOR kinase. Insulin and mitogenic growth polypeptides result in the phosphorylation of 4E-BP. Phosphorylated 4E-BP dissociates from 4E, allowing 4E to form the 4F complex and bind to the mRNA cap. Growth polypeptides also induce phosphorylation of 4G by the mTOR and MAP kinase pathways. Phosphorylated 4F binds more avidly to the cap than nonphosphorylated 4F, stimulating 48S initiation complex formation and hence translation.",
+      "char_start": 39882,
+      "char_end": 40977,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Role of the Poly(A) Tail in Initiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-7",
+        "fig-37-8"
+      ],
+      "table_refs": [],
+      "section_id": "role-of-the-poly-a-tail-in-initiation"
+    },
+    {
+      "chunk_id": "c030",
+      "text": "The binding of the 60S ribosomal subunit to the 48S initiation complex involves hydrolysis of the GTP bound to eIF-2 by eIF-5.\n\nThe binding of the 60S ribosomal subunit to the 48S initiation complex involves hydrolysis of the GTP bound to eIF-2 by eIF-5 results in the release of the initiation factors bound to the 48S initiation complex.\n\nThe initiation factors bound to the 48S initiation complex are then recycled.\n\nThe rapid association of the 40S and 60S subunits forms the 80S ribosome.\n\nAt this point, the met-tRNAi is on the P site of the ribosome.\n\nThe met-tRNAi is ready for the elongation cycle to commence.",
+      "char_start": 41204,
+      "char_end": 41823,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Formation of the 80S Initiation Complex"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "formation-of-the-80s-initiation-complex"
+    },
+    {
+      "chunk_id": "c031",
+      "text": "The 4F complex is particularly important in controlling the rate of protein translation. 4E binds to the m7G cap structure at the 5' end of the mRNA. 4G serves as a scaffolding protein in the 4F complex. 4G binds to eIF-3, which links the complex to the 40S ribosomal subunit. 4G also binds 4A and 4B. 4A and 4B are the ATPase-helicase complex that helps unwind the RNA.",
+      "char_start": 41886,
+      "char_end": 42256,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "The Regulation of eIF-4E Controls the Rate of Initiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-regulation-of-eif-4e-controls-the-rate-of-initiation"
+    },
+    {
+      "chunk_id": "c032",
+      "text": "4E is responsible for recognition of the mRNA cap structure. Recognition of the mRNA cap structure is a rate-limiting step in translation. Phosphorylation regulates the process of 4E recognition of the mRNA cap structure. Insulin results in the phosphorylation of 4E on Ser209 (or Thr210). Mitogenic growth factors result in the phosphorylation of 4E on Ser209 (or Thr210). Phosphorylated 4E binds to the cap much more avidly than does the nonphosphorylated form. Phosphorylation of 4E enhances the rate of initiation. Components of the MAP kinase signaling pathway can be involved in these regulatory phosphorylation reactions under appropriate conditions. Components of the PI3K signaling pathway can be involved in these regulatory phosphorylation reactions under appropriate conditions. Components of the mTOR signaling pathway can be involved in these regulatory phosphorylation reactions under appropriate conditions. Components of the RAS signaling pathway can be involved in these regulatory phosphorylation reactions under appropriate conditions. Components of the S6 kinase signaling pathway can be involved in these regulatory phosphorylation reactions under appropriate conditions.",
+      "char_start": 42258,
+      "char_end": 43451,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "The Regulation of eIF-4E Controls the Rate of Initiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-regulation-of-eif-4e-controls-the-rate-of-initiation"
+    },
+    {
+      "chunk_id": "c033",
+      "text": "The activity of 4E is modulated by a set of proteins that bind to and inactivate it. These proteins include 4E-BP1 (BP1, also known as PHAS-1) and the closely related proteins 4E-BP2 and 4E-BP3. BP1 binds with high affinity to 4E. The 4E-BP1 association prevents 4E from binding to 4G. The 4E-BP1 association is essential for the binding of 4F to the ribosomal 40S subunit. The 4E-BP1 association is essential for correctly positioning 4F on the capped mRNA. BP-1 effectively inhibits translation initiation by preventing these interactions.\n\nInsulin and other growth factors result in the phosphorylation of BP-1 at seven unique sites. Phosphorylation of BP-1 results in its dissociation from 4E. BP-1 cannot rebind until critical sites are dephosphorylated. The effects on the activation of 4E explain in part how insulin causes a marked posttranscriptional increase of protein synthesis in liver, adipose, and muscle tissue.",
+      "char_start": 43453,
+      "char_end": 44380,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "The Regulation of eIF-4E Controls the Rate of Initiation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-regulation-of-eif-4e-controls-the-rate-of-initiation"
+    },
+    {
+      "chunk_id": "c034",
+      "text": "Elongation is a cyclic process on the ribosome where one amino acid at a time is added to the nascent peptide chain (Figure 37--9).\n\nThe peptide sequence is determined by the order of the codons in the mRNA.\n\nElongation involves several steps catalyzed by proteins called elongation factors (EFs).\n\nThe steps in elongation are binding of aminoacyl-tRNA to the A site, peptide bond formation, translocation of the ribosome on the mRNA, and expulsion of the deacylated tRNA from the P- and E-sites.\n\nElongation factors 1 and 2 are represented as EFIA and EF2, respectively, in the diagrammatic representation of the peptide elongation process (Figure 37--9).\n\nThe peptidyl-tRNA, aminoacyl-tRNA, and exit sites on the ribosome are represented by the P site, A site, and E site, respectively (Figure 37--9).\n\nSmall circles labeled n − 1, n, n + 1, etc, in the diagram represent the amino acid residues of the newly formed protein molecule in N-terminal to C-terminal orientation and the corresponding codons in the mRNA (Figure 37--9).",
+      "char_start": 44455,
+      "char_end": 45486,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Elongation Is Also a Multistep, Accessory Factor-Facilitated Process"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "elongation-is-also-a-multistep-accessory-factor-facilitated"
+    },
+    {
+      "chunk_id": "c035",
+      "text": "In the complete 80S ribosome, the A site and E site are free during initiation.\n\nThe binding of the appropriate aminoacyl-tRNA in the A site requires proper codon recognition.\n\nElongation factor 1A (EF1A) forms a ternary complex with GTP and the entering aminoacyl-tRNA.\n\nElongation factor 1A (EF1A) forms a ternary complex with GTP and the entering aminoacyl-tRNA allows the correct aminoacyl-tRNA to enter the A site.\n\nThe release of EF1A-GDP and phosphate occurs when the aminoacyl-tRNA enters the A site.\n\nGTP hydrolysis is catalyzed by an active site on the ribosome.\n\nHydrolysis induces a conformational change in the ribosome.\n\nHydrolysis induces a conformational change in the ribosome. This conformational change increases the ribosome's affinity for the tRNA.\n\nEF1A-GDP recycles to EF1A-GTP with the aid of other soluble protein factors and GTP.",
+      "char_start": 46031,
+      "char_end": 46886,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Binding of Aminoacyl-tRNA to the A Site"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "binding-of-aminoacyl-trna-to-the-a-site"
+    },
+    {
+      "chunk_id": "c036",
+      "text": "The α-amino group of the new aminoacyl-tRNA in the A site carries out a nucleophilic attack on the esterified carboxyl group of the peptidyl-tRNA occupying the P site. At initiation, the P site is occupied by the initiator met-tRNAi. The reaction is catalyzed by a peptidyl transferase, which is a component of the 28S RNA of the 60S ribosomal subunit. The catalysis by a peptidyl transferase is an example of ribozyme activity, indicating an important role for RNA in protein synthesis (Table 37--2). The amino acid on the aminoacyl-tRNA is already 'activated,' so no further energy source is required for this reaction. The reaction results in the attachment of the growing peptide chain to the tRNA in the A site.",
+      "char_start": 46915,
+      "char_end": 47631,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Peptide Bond Formation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "peptide-bond-formation"
+    },
+    {
+      "chunk_id": "c037",
+      "text": "Ribosomes can make peptide bonds even when proteins are removed or inactivated.\n\nCertain parts of the rRNA sequence are highly conserved in all species.\n\nCertain parts of the rRNA sequence are on the surface of the RNA molecule.\n\nRNA can be catalytic in many other chemical reactions.\n\nMutations that result in antibiotic resistance at the level of protein synthesis are more often found in rRNA than in the protein components of the ribosome.\n\nX-ray crystal structure of large subunit bound to tRNAs suggests detailed mechanism.",
+      "char_start": 47682,
+      "char_end": 48211,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Evidence That rRNA Is a Peptidyl Transferase"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "evidence-that-rrna-is-a-peptidyl-transferase"
+    },
+    {
+      "chunk_id": "c038",
+      "text": "The deacylated tRNA is attached by its anticodon to the P site on the large ribosomal subunit. The deacylated tRNA is attached by its open 3′ CCA tail to the E site on the large ribosomal subunit.\n\nElongation factor 2 (EF2) binds to the peptidyl tRNA. Elongation factor 2 (EF2) displaces the peptidyl tRNA from the A site to the P site.\n\nThe deacylated tRNA is on the E site. The deacylated tRNA leaves the ribosome.\n\nThe EF2-GTP complex is hydrolyzed to EF2-GDP. The mRNA is moved forward by one codon.\n\nThe A site is left open for occupancy by another ternary complex of amino acid tRNA–EF1A-GTP.\n\nThe charging of the tRNA molecule with the aminoacyl moiety requires the hydrolysis of an ATP to an AMP. The hydrolysis of an ATP to an AMP is equivalent to the hydrolysis of two ATPs to two ADPs and phosphates.\n\nThe entry of the aminoacyl-tRNA into the A site results in the hydrolysis of one GTP to GDP.\n\nTranslocation of the newly formed peptidyl-tRNA in the A site into the P site by EF2 results in hydrolysis of GTP to GDP. Hydrolysis of GTP to GDP and phosphate by EF2 results in the release of phosphate.\n\nThe energy requirements for the formation of one peptide bond include the equivalent of the hydrolysis of two ATP molecules to ADP. The energy requirements for the formation of one peptide bond include the equivalent of the hydrolysis of two GTP molecules to GDP. The energy requirements for the formation of one peptide bond include the hydrolysis of four high-energy phosphate bonds.",
+      "char_start": 48231,
+      "char_end": 49729,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Translocation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "translocation"
+    },
+    {
+      "chunk_id": "c039",
+      "text": "A eukaryotic ribosome can incorporate as many as six amino acids per second.\n\nProkaryotic ribosomes incorporate as many as 18 amino acids per second.\n\nThe energy requiring process of peptide synthesis occurs with great speed and accuracy. A termination codon stops the process of peptide synthesis.",
+      "char_start": 49731,
+      "char_end": 50029,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Translocation"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "translocation"
+    },
+    {
+      "chunk_id": "c040",
+      "text": "Termination is a relatively simple process compared to initiation and elongation. The stop or terminating codon of mRNA (UAA, UAG, UGA) appears in the A site after multiple cycles of elongation culminating in polymerization of the specific amino acids into a protein molecule. Normally, there is no tRNA with an anticodon capable of recognizing such a termination signal. Releasing factor 1 (RF1) recognizes that a stop codon resides in the A site. RF1 is bound by a complex consisting of releasing factor 3 (RF3) with bound GTP. The complex consisting of releasing factor 3 (RF3) with bound GTP, with the peptidyl transferase, promotes hydrolysis of the bond between the peptide and the tRNA occupying the P site. Thus, a water molecule rather than an amino acid is added. The hydrolysis releases the protein and the tRNA from the P site. On hydrolysis and release, the 80S ribosome dissociates into its 40S and 60S subunits, which are then recycled. Therefore, the releasing factors are proteins that hydrolyze the peptidyl-tRNA bond when a stop codon occupies the A site. The mRNA is then released from the ribosome, which dissociates into its component 40S and 60S subunits, and another cycle can be repeated. The 60S ribosomal peptidyl-tRNA, aminoacyl-tRNA, and exit sites are indicated as P site, A site, and E site, respectively. The termination (stop) codon is indicated by the three vertical bars and STOP. Releasing factor RF1 binds to the stop codon in the A site. Releasing factor RF3, with bound GTP, binds to RF1. N and C indicate the amino- and carboxy-terminal amino acids of the nascent polypeptide chain, respectively, and illustrate the polarity of protein synthesis.",
+      "char_start": 50086,
+      "char_end": 51772,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Termination Occurs When a Stop Codon Is Recognized"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "termination-occurs-when-a-stop-codon-is-recognized"
+    },
+    {
+      "chunk_id": "c041",
+      "text": "Ribosomes can translate the same mRNA molecule simultaneously. Ribosome particles cannot attach to an mRNA any closer than ~35 nucleotides apart. Multiple ribosomes on the same mRNA molecule form a polyribosome, or 'polysome'. In an unrestricted system, the number of ribosomes attached to an mRNA correlates positively with the length of the mRNA molecule.\n\nPolyribosomes actively synthesizing proteins can exist as free particles in the cellular cytoplasm. Polyribosomes can be attached to the endoplasmic reticulum (ER). Attachment of polyribosomes to the ER is responsible for its 'rough' appearance as seen by electron microscopy. The proteins synthesized by the attached polyribosomes are extruded into the cisternal space between the sheets of rough ER. Some of the protein products of the rough ER are packaged by the Golgi apparatus for eventual export. The polyribosomal particles free in the cytosol are responsible for the synthesis of proteins required for intracellular functions.\n\nNontranslating mRNAs can form ribonucleoprotein particles. Ribonucleoprotein particles can accumulate in cytoplasmic organelles termed.",
+      "char_start": 52674,
+      "char_end": 53805,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Polysomes Are Assemblies of Ribosomes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "polysomes-are-assemblies-of-ribosomes"
+    },
+    {
+      "chunk_id": "c042",
+      "text": "mRNAs are bound by specific packaging proteins. mRNAs are exported from the nucleus as ribonucleoprotein particles (mRNPs). mRNAs sometimes do not immediately associate with ribosomes for translation. Under certain conditions, untranslated mRNAs can associate with specific RNAs and proteins to form P bodies and stress granules (SG).\n\nP bodies and stress granules are biomolecular condensates composed of interacting RNAs and proteins. P bodies can be visualized via immunohistochemistry using appropriate antibodies (Figure 37–11).",
+      "char_start": 53839,
+      "char_end": 54372,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "P Bodies or Stress Granules"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-11"
+      ],
+      "table_refs": [],
+      "section_id": "p-bodies-or-stress-granules"
+    },
+    {
+      "chunk_id": "c043",
+      "text": "P bodies are related to small mRNA-containing granules found in neurons and certain maternal cells. P bodies and stress granules are thought to contribute importantly to mRNA metabolism. Over 35 distinct proteins have been suggested to reside exclusively or extensively within P bodies. Over 35 distinct proteins include mRNA-binding proteins. Over 35 distinct proteins include mRNA decapping enzymes. Over 35 distinct proteins include RNA helicases. Over 35 distinct proteins include RNA exonucleases (5'-3' and 3'-5'). Over 35 distinct proteins include components involved in miRNA function and mRNA quality control.\n\nIncorporation of an mRNA into P bodies or stress granules is not an unequivocal 'death sentence'. Certain mRNAs appear to be temporarily stored in P bodies or stress granules. Certain mRNAs are then retrieved for protein translation. The dynamic interaction of mRNA with polysomes and P body/SG protein/enzyme constituents controls, at least in part, the cytoplasmic functions of mRNA, including translation and degradation.",
+      "char_start": 55177,
+      "char_end": 56221,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "P Bodies or Stress Granules"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "p-bodies-or-stress-granules"
+    },
+    {
+      "chunk_id": "c044",
+      "text": "Elemental iron stimulates ferritin synthesis by causing the release of a cytoplasmic protein. The cytoplasmic protein binds to a specific region in the 5' nontranslated region of ferritin mRNA. Disruption of this protein-mRNA interaction activates ferritin mRNA. Activation of ferritin mRNA results in its translation.\n\nEnvironmental stress inhibits the positive roles of mTOR. Starvation inhibits the positive roles of mTOR. mTOR promotes activation of eIF-4F. mTOR promotes 48S complex formation.",
+      "char_start": 56299,
+      "char_end": 56797,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "The Machinery of Protein Synthesis Can Respond to Environmental Threats"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-machinery-of-protein-synthesis-can-respond-to"
+    },
+    {
+      "chunk_id": "c045",
+      "text": "Viruses use host cell processes for replication. Viruses use host cell processes for replication. These processes include protein synthesis. Some viral mRNAs are translated more efficiently than host cell mRNAs. Encephalomyocarditis virus mRNAs are an example of viral mRNAs translated more efficiently than host cell mRNAs. Reovirus replicates efficiently, giving its mRNAs a competitive advantage over host mRNAs for limited translation factors. Vesicular stomatitis virus replicates efficiently, giving its mRNAs a competitive advantage over host mRNAs for limited translation factors. Some viruses selectively inhibit host cell protein synthesis by preventing the association of mRNA with the 40S ribosome.",
+      "char_start": 56865,
+      "char_end": 57575,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Many Viruses Co-opt the Host Cell Protein Synthesis Machinery"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-viruses-co-opt-the-host-cell-protein-synthesis"
+    },
+    {
+      "chunk_id": "c046",
+      "text": "Poliovirus and other picornaviruses disrupt the 4F complex to gain a selective advantage. Poliovirus and other picornaviruses do not have a cap structure to direct the 40S ribosomal subunit. Poliovirus and other picornaviruses use an internal ribosomal entry site (IRES) that requires 4G but not 4E. Poliovirus has a protease that attacks 4G and removes the amino terminal 4E binding site. This prevents the formation of the 4E-4G complex (4F). The prevention of the 4E-4G complex (4F) stops the 40S ribosomal subunit from being directed to host capped mRNAs. The prevention of the 4E-4G complex (4F) abolishes host cell protein synthesis. The 4G fragment can direct the 40S ribosomal subunit to IRES-containing mRNAs. The 4G fragment makes viral mRNA translation very efficient (Figure 37–12).",
+      "char_start": 57577,
+      "char_end": 58371,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Many Viruses Co-opt the Host Cell Protein Synthesis Machinery"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-12"
+      ],
+      "table_refs": [],
+      "section_id": "many-viruses-co-opt-the-host-cell-protein-synthesis"
+    },
+    {
+      "chunk_id": "c047",
+      "text": "Poliovirus and other picornaviruses promote the dephosphorylation of BP1 (PHAS-1). The dephosphorylation of BP1 (PHAS-1) decreases cap (4E)-dependent translation. The figure illustrates how the 4E-4G complex directs the 40S ribosomal subunit to typical capped mRNAs. The figure illustrates how 4G alone targets the 40S ribosomal subunit to the IRES of certain viral mRNAs. Some viruses express a protease that cleaves the 4E binding site from the amino terminal end of 4G. The cleavage of the 4E binding site allows the truncated 4G to direct the 40S ribosomal subunit to IRES-containing mRNAs. The cleavage of the 4E binding site prevents the truncated 4G from directing the 40S ribosomal subunit to capped host cell mRNAs. This selective advantage is further explained in Figure 37–12.\n\nOther viruses use distinct processes to initiate translation selectively on their viral mRNAs via IRES elements. The figure highlights the rate of translation initiation from the AUG codon for both cellular and viral proteins. The widths of the colored arrows indicate the rate of translation initiation for cellular proteins. The widths of the colored arrows indicate the rate of translation initiation for viral proteins. The blue arrows represent cellular proteins. The red arrows represent viral proteins.",
+      "char_start": 59237,
+      "char_end": 60535,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "LIKE TRANSCRIPTION, PROTEIN SYNTHESIS CAN BE DESCRIBED IN THREE PHASES: INITIATION, ELONGATION, & TERMINATION",
+        "Many Viruses Co-opt the Host Cell Protein Synthesis Machinery"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-12"
+      ],
+      "table_refs": [],
+      "section_id": "many-viruses-co-opt-the-host-cell-protein-synthesis"
+    },
+    {
+      "chunk_id": "c048",
+      "text": "Some animal viruses, such as HIV, poliovirus, and hepatitis virus, synthesize long polycistronic proteins from one long mRNA molecule. The viral protein molecules translated from these long mRNAs are cleaved at defined sites. The cleavage of viral protein molecules provides several specific viral proteins required for viral function. In animal cells, many cellular proteins are synthesized from the mRNA template as a precursor molecule. The precursor molecule must be modified to achieve the active protein. Insulin is a prototype of such proteins. Insulin is a small protein with two polypeptide chains connected by interchain and intrachain disulfide bridges. Insulin is synthesized as a single chain precursor, or prohormone. The prohormone folds to allow the formation of specific disulfide bridges. A specific protease removes the segment connecting the two chains to form the functional insulin molecule.",
+      "char_start": 60607,
+      "char_end": 61520,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "POSTTRANSLATIONAL PROCESSING AFFECTS THE ACTIVITY OF MANY PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "posttranslational-processing-affects-the-activity-of-many"
+    },
+    {
+      "chunk_id": "c049",
+      "text": "Many other peptides are synthesized as precursor proproteins that require modifications before attaining biologic activity. Posttranslational modifications often involve the removal of amino terminal amino acid residues by specific aminopeptidases. Collagen is an abundant protein in the extracellular spaces of higher eukaryotes. Collagen is synthesized as procollagen. Three procollagen polypeptide molecules, which are not always identical in sequence, align in a particular way dependent on specific amino terminal peptides. Specific enzymes hydroxylate and oxidize specific amino acid residues within the procollagen molecules to provide cross-links for greater stability. Amino terminal peptides are cleaved off the molecule to form the final product, a strong, insoluble collagen molecule.\n\nCovalent modification by acetylation is common. Covalent modification by phosphorylation is common. Covalent modification by methylation is common. Covalent modification by ubiquitylation is common. Covalent modification by glycosylation is common. Acetylation, phosphorylation, methylation, ubiquitylation, and glycosylation are part of the broader category of posttranslational processing. Posttranslational processing affects the activity of many proteins.",
+      "char_start": 61522,
+      "char_end": 62779,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "POSTTRANSLATIONAL PROCESSING AFFECTS THE ACTIVITY OF MANY PROTEINS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "posttranslational-processing-affects-the-activity-of-many"
+    },
+    {
+      "chunk_id": "c050",
+      "text": "The bacterial ribosome is smaller compared to the mammalian ribosome. The bacterial ribosome is 70S. The mammalian ribosome is 80S.\n\nThe bacterial ribosome has a different complement of RNA and protein molecules compared to the mammalian ribosome. The bacterial ribosome has a simpler complement of RNA and protein molecules compared to the mammalian ribosome.\n\nRibosomes in bacteria differ from the mammalian ribosome. Ribosomes in the mitochondria of higher eukaryotic cells differ from the mammalian ribosome.\n\nMany effective antibiotics interact specifically with the proteins and RNAs of prokaryotic ribosomes. Many effective antibiotics inhibit bacterial protein synthesis.\n\nGrowth arrest results in bacteriostatic action of the bacterium. Death results in bactericidal action of the bacterium.\n\nThe most useful members of this class of antibiotics, such as tetracyclines, lincomycin, erythromycin, and chloramphenicol, do not interact with components of eukaryotic ribosomes. The most useful members of this class of antibiotics, such as tetracyclines, lincomycin, erythromycin, and chloramphenicol, are not toxic to eukaryotes.\n\nTetracycline prevents the binding of aminoacyl-tRNAs to the bacterial ribosome A-site.\n\nChloramphenicol works by binding to 23S rRNA.\n\nChloramphenicol's action is interesting. rRNA has a newly appreciated role in peptide bond formation through its peptidyl transferase activity.",
+      "char_start": 62862,
+      "char_end": 64277,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MANY ANTIBIOTICS WORK BY SELECTIVELY INHIBITING PROTEIN SYNTHESIS IN BACTERIA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-antibiotics-work-by-selectively-inhibiting-protein"
+    },
+    {
+      "chunk_id": "c051",
+      "text": "The close similarity between prokaryotic and mitochondrial ribosomes can lead to complications. Complications can arise in the use of some antibiotics due to ribosomal similarity.\n\nPuromycin inhibits protein synthesis on all ribosomes.\n\nPuromycin is a structural analog of tyrosinyl-tRNA.\n\nPuromycin is incorporated via the A-site on the ribosome into the carboxyl terminal position of a peptide. Puromycin causes the premature release of the polypeptide.\n\nPuromycin effectively inhibits protein synthesis in prokaryotes. Puromycin effectively inhibits protein synthesis in eukaryotes.\n\nCycloheximide inhibits peptidyl transferase in the 60S ribosomal subunit in eukaryotes. Cycloheximide presumably binds to an rRNA component.\n\nCycloheximide inhibits protein synthesis in eukaryotic cells.\n\nDiphtheria toxin catalyzes the ADP-ribosylation of EF-2. EF-2 contains the unique amino acid diphthamide in mammalian cells.\n\nEF-2 is inactivated by this modification. The modification specifically inhibits mammalian protein synthesis.\n\nMany animals are resistant to diphtheria toxin. Mice are resistant to diphtheria toxin.\n\nDiphtheria toxin resistance is due to the inability of the toxin to cross the cell membrane. Mouse EF-2 is not insensitive to diphtheria toxin-catalyzed ADP-ribosylation by NAD.\n\nRicin inactivates eukaryotic 28S ribosomal RNA by catalyzing the N-glycolytic cleavage of a single adenine. Ricin inactivates eukaryotic 28S ribosomal RNA by catalyzing the removal of a single adenine.",
+      "char_start": 64279,
+      "char_end": 65777,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MANY ANTIBIOTICS WORK BY SELECTIVELY INHIBITING PROTEIN SYNTHESIS IN BACTERIA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-antibiotics-work-by-selectively-inhibiting-protein"
+    },
+    {
+      "chunk_id": "c052",
+      "text": "Puromycin and cycloheximide are not clinically useful. Puromycin and cycloheximide have been important in the laboratory as tools to elucidate the role of protein synthesis in the regulation of metabolic processes. Puromycin and cycloheximide are particularly important for studying enzyme induction by hormones.\n\nFigure 37-13shows the comparative structures of the antibiotic puromycin. Figure 37-13shows the 3′ terminal portion of tyrosinyl-tRNA.",
+      "char_start": 65779,
+      "char_end": 66227,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code",
+        "MANY ANTIBIOTICS WORK BY SELECTIVELY INHIBITING PROTEIN SYNTHESIS IN BACTERIA"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-37-13"
+      ],
+      "table_refs": [],
+      "section_id": "many-antibiotics-work-by-selectively-inhibiting-protein"
+    },
+    {
+      "chunk_id": "c053",
+      "text": "The flow of genetic information generally follows the sequence DNA → RNA → protein.\nRibosomal RNA (rRNA), transfer RNA (tRNA), and messenger RNA (mRNA) are directly involved in protein synthesis.\nThe information in mRNA is a continuous linear array of codons, each of which is three nucleotides long.\nThe mRNA is read continuously from a start (AUG) to termination (UAA, UAG, UGA) codon.\nThe open reading frame, or ORF, of the mRNA is the series of contiguous codons (AUG to STOP), each codon specifying a certain amino acid, which determines the precise amino acid sequence of the protein.\nProtein synthesis, like DNA and RNA synthesis, follows the 5′ to 3′ polarity of mRNA and can be divided into three processes: initiation, elongation, and termination.\nMutant proteins arise when base substitutions result in codons that specify a different amino acid at a given position, when a stop codon results in a truncated protein, or when base additions or deletions alter the reading frame, so different codons are read.\nA variety of compounds, including several antibiotics, inhibit protein synthesis by affecting one or more of the steps involved in protein synthesis.",
+      "char_start": 66367,
+      "char_end": 67535,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-37-1",
+      "image_path": "",
+      "caption": "Formation of aminoacyl-tRNA. A two-step reaction, involving the enzyme aminoacyl-tRNA synthetase, results in the formation of aminoacyl-tRNA The first reaction involves the formation of an AMP-amino acid–enzyme complex. This activated amino acid is next transferred to the corresponding tRNA molecule. The AMP and enzyme are released, and the latter can be reutilized.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-37-1]",
+      "description": "",
+      "label": "Figure 37-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19122,
+        19490
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "at-least-one-species-of-trna-exists-for-each-of-the-20"
+    },
+    {
+      "fig_id": "fig-37-2",
+      "image_path": "",
+      "caption": "Recognition of the codon by the anticodon. One of the codons for phenylalanine is UUU. tRNA charged with phenylalanine (Phe) has the complementary sequence AAA; hence, it forms a base-pair complex with the codon. The anticodon region (arm) typically consists of a sequence of seven nucleotides: variable (N), modified purine (Pu\\), X, Y, Z (here, A A A), and two pyrimidines (Py) in the 3′ to 5′ direction. Note the antiparallel mode of interaction between mRNA and tRNA.",
+      "referenced_from": "c012",
+      "marker": "[FIGURE:fig-37-2]",
+      "description": "",
+      "label": "Figure 37-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        19511,
+        19982
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "at-least-one-species-of-trna-exists-for-each-of-the-20"
+    },
+    {
+      "fig_id": "fig-37-3",
+      "image_path": "",
+      "caption": "Diagrammatic representation of transition and transversion mutations.",
+      "referenced_from": "c014",
+      "marker": "[FIGURE:fig-37-3]",
+      "description": "",
+      "label": "Figure 37-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        20795,
+        20864
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "fig_id": "fig-37-4",
+      "image_path": "",
+      "caption": "Examples of three types of missense mutations resulting in abnormal hemoglobin chains. The amino acid alterations and possible alterations in the respective codons are indicated. The hemoglobin Hikari β-chain mutation has apparently normal physiologic properties but is electrophoretically altered. Hemoglobin S has a β-chain mutation and partial function; hemoglobin S binds oxygen but precipitates when deoxygenated; this causes red blood cells to sickle, and represents the cellular and molecular basis of sickle cell disease (see Figure 6–12). Hemoglobin M Boston, an α- chain mutation, permits the oxidation of the heme ferrous iron to the ferric state and so will not bind oxygen at all.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-37-4]",
+      "description": "",
+      "label": "Figure 37-4",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        22494,
+        23187
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "fig_id": "fig-37-5",
+      "image_path": "",
+      "caption": "Examples of the effects of deletions and insertions in a gene on the sequence of the mRNA transcript and of the polypeptide chain translated therefrom. The arrows indicate the sites of deletions or insertions, and the numbers in the ovals indicate the number of nucleotide residues deleted or inserted. Colored type indicates the correct amino acids in the correct order.",
+      "referenced_from": "c016",
+      "marker": "[FIGURE:fig-37-5]",
+      "description": "",
+      "label": "Figure 37-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        23208,
+        23579
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "some-mutations-occur-by-base-substitution"
+    },
+    {
+      "fig_id": "fig-37-6",
+      "image_path": "",
+      "caption": "Diagrammatic representation of the initiation phase of protein synthesis on a eukaryotic mRNA. Eukaryotic mRNAs contain a 5′ 7meG-cap (Cap) and 3′ poly(A) terminal [(A)n] as shown. Translation preinitiation complex formation proceeds in several steps: (1) Dissociation of the 80S complex to component 40S and 60S subunits, a process facilitated by binding of factors eIF1, eIF1A, and eIF3 to the ribosomal 40S subunit (top). (2) Formation of the 43S preinitiation complex, a ternary complex consisting of met-tRNA and GTP-bound to the initiation factor eIF-2 (eIF-2-GTP; left). This complex is then bound by the eIF5 initiation factor forming the complete 43S preinitiation complex. (3) Activation of 5′-capped mRNA and formation of the 48S initiation complex. mRNA is bound via its 5′-cap by eIF4F (composed of eIF4E, eIF4G, and eIF4A factors) and 3′ Poly(A) tail by Poly A binding (PAB) protein forming the 48S initiation complex. ATP hydrolysis-dependent 5′ to 3′ mRNA scanning enables location of the initiation codon AUG, which is then bound by met-tRNA . (4) Following addition of GTP-bound eI5B and dissociation of eIF1, eIF2-GDP, eIF3, and eIF5, formation of the 80S initiation complex occurs when a recycled 60S ribosomal subunit joins the 48S complex. This reaction positions the initiator met-tRNA within the P site of the active 80S initiation complex and induces dissociation of eIF1A and GDP-bound eIF5B (see text for details). This complex is now competent for translation initiation. (GTP, •;",
+      "referenced_from": "c023",
+      "marker": "[FIGURE:fig-37-6]",
+      "description": "",
+      "label": "Figure 37-6",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        32600,
+        34108
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "initiation-involves-several-protein-rna-complexes"
+    },
+    {
+      "fig_id": "fig-x7",
+      "image_path": "images/942ca3a4ca5b20809afc9a3ba7ad471d7d53aca4ed4367262fcb6cee74573c20.jpg",
+      "caption": "The diagram shows the chemical structure of GCCPu A/C C AUG G with charge labels, depicting nucleotide and amino acid interactions.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x7]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        37976,
+        38107
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "formation-of-the-48s-initiation-complex"
+    },
+    {
+      "fig_id": "fig-37-8",
+      "image_path": "",
+      "caption": "Activation of eIF-4E by insulin and formation of the cap-binding eIF-4F complex. The 4F-cap mRNA complex is depicted as in Figures 37–6and 37–7. The 4F complex consists of eIF-4E (4E), eIF-4A (4A), and eIF-4G (4G). 4E is inactive when bound by one of a family of binding proteins (4E-BPs). Insulin and mitogenic growth polypeptides, or growth factors (eg, IGF-1, PDGF, interleukin-2, and angiotensin II) activate the PI3 kinase/AKT kinase signaling pathways, which activate the mTOR kinase; this results in the phosphorylation of 4E-BP (see Figure 42–8). Phosphorylated 4E-BP dissociates from 4E, and the latter is then able to form the 4F complex and bind to the mRNA cap. These growth polypeptides also induce phosphorylation of 4G itself by the mTOR and MAP kinase pathways (see Chapter 42). Phosphorylated 4F binds much more avidly to the cap than does nonphosphorylated 4F, which stimulates 48S initiation complex formation and hence translation.",
+      "referenced_from": "c028",
+      "marker": "[FIGURE:fig-37-8]",
+      "description": "",
+      "label": "Figure 37-8",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        38929,
+        39880
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "role-of-the-poly-a-tail-in-initiation"
+    },
+    {
+      "fig_id": "fig-37-7",
+      "image_path": "",
+      "caption": "Schematic of mRNA circularization via interactions between cap-bound elF4F and poly(A) tail-bound PAB, facilitating ribosomal translation and protein synthesis.",
+      "referenced_from": "c029",
+      "marker": "[FIGURE:fig-37-7]",
+      "description": "",
+      "label": "Figure 37-7",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        40998,
+        41158
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "role-of-the-poly-a-tail-in-initiation"
+    },
+    {
+      "fig_id": "fig-37-9",
+      "image_path": "",
+      "caption": "Diagrammatic representation of the peptide elongation process of protein synthesis. The small circles labeled n − 1, n, n + 1, etc, represent the amino acid residues of the newly formed protein molecule (in N-terminal to C-terminal orientation) and the corresponding codons in the mRNA. EFIA and EF2 represent elongation factors 1 and 2, respectively. The peptidyl-tRNA, aminoacyl-tRNA, and exit sites on the ribosome are represented by P site, A site, and E site, respectively.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-37-9]",
+      "description": "",
+      "label": "Figure 37-9",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        45507,
+        45985
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "elongation-is-also-a-multistep-accessory-factor-facilitated"
+    },
+    {
+      "fig_id": "fig-37-10",
+      "image_path": "",
+      "caption": "Diagrammatic representation of the termination process of protein synthesis. The 60S ribosomal peptidyl-tRNA, aminoacyl-tRNA, and exit sites are indicated as P site, A site, and E site, respectively. The termination (stop) codon is indicated by the three vertical bars and STOP. Releasing factor RF1 binds to the stop codon in the A site. Releasing factor RF3, with bound GTP, binds to RF1. Hydrolysis of the peptidyl-tRNA complex is shown by the entry of water (H20); arrow. N and C indicate the amino- and carboxy-terminal amino acids of the nascent polypeptide chain, respectively, and illustrate the polarity of protein synthesis. Termination results in release of the mRNA, the newly synthesized protein (N- and C-termini; N, C), free tRNA, 40S and 60S subunits, as well as RF1, GDP-bound RF3, and inorganic Pj, as shown at bottom.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-37-10]",
+      "description": "",
+      "label": "Figure 37-10",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        51794,
+        52630
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "termination-occurs-when-a-stop-codon-is-recognized"
+    },
+    {
+      "fig_id": "fig-37-11",
+      "image_path": "",
+      "caption": "The P body is a cytoplasmic structure involved in mRNA metabolism. Shown is a photomicrograph of two mammalian cells in which a single distinct protein constituent of the P body has been visualized using the cognate-specific fluorescently labeled antibody. P bodies appear as small red circles of varying size throughout the cytoplasm. The cell plasma membranes are indicated by a solid white line, nuclei by a dashed line. Nuclei were counterstained using a fluorescent dye with different fluorescence excitation/emission spectra from the labeled antibody used to identify P bodies; the nuclear stain intercalates between the DNA base pairs and appears as blue/green. Modified from http://www.mcb.arizona.edu/parker/WHAT/what.htm. (Reproduced with permission from Dr. Roy Parker.)",
+      "referenced_from": "c042",
+      "marker": "[FIGURE:fig-37-11]",
+      "description": "",
+      "label": "Figure 37-11",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        54394,
+        55175
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "p-bodies-or-stress-granules"
+    },
+    {
+      "fig_id": "fig-37-12",
+      "image_path": "",
+      "caption": "Picornaviruses disrupt the 4F complex. The 4E-4G complex (4F) directs the 40S ribosomal subunit to the typical capped mRNA (see text). However, 4G alone is sufficient for targeting the 40S subunit to the internal ribosomal entry site (IRES) of certain viral mRNAs. To gain selective advantage, some viruses (eg, poliovirus) express a protease that cleaves the 4E binding site from the amino terminal end of 4G. This truncated 4G can direct the 40S ribosomal subunit to mRNAs that have an IRES but not to those that have a cap (ie, host cell mRNAs). The widths of the colored arrows indicate the rate of translation initiation from the AUG codon in each example (blue, cellular proteins; red, viral proteins). Other viruses utilize distinct processes to effect selective initiation of translation on their cognate viral mRNAs via IRES elements",
+      "referenced_from": "c046",
+      "marker": "[FIGURE:fig-37-12]",
+      "description": "",
+      "label": "Figure 37-12",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        58393,
+        59235
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-viruses-co-opt-the-host-cell-protein-synthesis"
+    },
+    {
+      "fig_id": "fig-37-13",
+      "image_path": "",
+      "caption": "The comparative structures of the antibiotic puromycin (top) and the 3′ terminal portion of tyrosinyl-tRNA (bottom).",
+      "referenced_from": "c052",
+      "marker": "[FIGURE:fig-37-13]",
+      "description": "",
+      "label": "Figure 37-13",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        66249,
+        66365
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-antibiotics-work-by-selectively-inhibiting-protein"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-37-1",
+      "label": "Table 37-1",
+      "caption": "The Genetic Codea (Codon Assignments in Mammalian Messenger RNAs)",
+      "referenced_from": "c004",
+      "content_chunk": "c005",
+      "caption_span": [
+        5334,
+        5399
+      ],
+      "section_id": "the-nucleotide-sequence-of-an-mrna-molecule-contains-a"
+    },
+    {
+      "table_id": "tbl-37-2",
+      "label": "Table 37-2",
+      "caption": "",
+      "referenced_from": "",
+      "content_chunk": "",
+      "caption_span": null,
+      "section_id": "peptide-bond-formation"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Understand that the genetic code is a three-letter nucleotide code (composed of triplets of A, G, C, and T) within the linear array of the exons of DNA of the protein coding genes. Further, that once transcribed into mRNA, this three-letter code, now composed of triplets of A, G, C, and U, specifies the linear order of amino acid addition during protein synthesis via the process of translation.\nAppreciate that the universal genetic code is degenerate, unambiguous, nonoverlapping, and punctuation free.\nExplain that the genetic code is composed of 64 codons, 61 of which encode amino acids while 3 specific codons induce the termination of protein synthesis.\nDescribe how the transfer RNAs (tRNAs) serve as the ultimate informational agents that decode the genetic code of mRNAs.\nUnderstand the mechanism of the highly energy-intensive process of protein synthesis that involves the steps of initiation, elongation, and termination, and occurs on RNA-protein complexes termed ribosomes.\nAppreciate that protein synthesis, like DNA replication and transcription, is precisely controlled through the action of multiple accessory factors that are responsive to multiple extra- and intracellular regulatory signaling inputs.",
+      "char_start": 40,
+      "char_end": 1264,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code"
+      ],
+      "section_id": ""
+    },
+    {
+      "passage_id": "p002",
+      "kind": "reference",
+      "text": "Aitken CE, Lorch R: A mechanistic overview of translation in eukaryotes. Nat Struc Mol Biol 2012;19:568–576.\nDeBenedictis EA, Söll D, Esvelt KM. Measuring the tolerance of the genetic code to altered codon size. Elife 2022;11:e76941. [PubMed: 35293861]\nDiercks CS, Dik DA, Schultz PG: Adding new chemistries to the central dogma of molecular biology. Chem 2021;7:2883–2895. [PubMed: 37621702]\nGerecht K, Freund N, Liu W, Liu Y, Fürst MJLJ, Holliger P: The expanded central dogma: genome resynthesis, orthogonal biosystems, synthetic genetics. Annu Rev Biophys 2023;52:413–432. [PubMed: 37159296]\nHinnebusch AG, Ivanov IP, Sonenberg N: Translational control by 5′-untranslated regions of eukaryotic mRNAs. Science 2016;352:1413–1416. [PubMed: 27313038]\nHinnebusch AG: The scanning mechanism of eukaryotic translation initiation. Ann Rev Biochem 2014;83:779–812. [PubMed: 24499181]\nKarbalaei M, Rezaee SA, Farsiani H: Pichia pastoris: a highly successful expression system for optimal synthesis of heterologous proteins. J Cell Physiol 2020;235:5867–5881. [PubMed: 32057111]\nKozak M: Structural features in eukaryotic mRNAs that modulate the initiation of translation. J Biol Chem 1991;266:1986–1970.\nKummer E, Ban N. Mechanisms and regulation of protein synthesis in mitochondria. Nat Rev Mol Cell Biol 202;22:307–325.\nLeiva LE, Zegarra V, Bange G, Ibba M: At the crossroad of nucleotide dynamics and protein synthesis in bacteria. Microbiol Mol Biol Rev 2023:21;87.\nMaharjan A, Park JH: Cell-free protein synthesis system: a new frontier for sustainable biotechnology-based products. Biotechnol Appl Biochem 2023;70:2136–2149. [PubMed: 37735977]\nManzer ZA, Selivanovitch E, Ostwalt AR, Daniel S: Membrane protein synthesis: no cells required. Trends Biochem Sci 2023;48:642–654. [PubMed: 37087310]\nSanders J, Hoffmann SA, Green AP, Cai Y: New opportunities for genetic code expansion in synthetic yeast. Curr Opin Biotechnol 2022;75:102691. [PubMed: 35151980]\nTahmasebi S, Sonenberg N, Hershey JWB, Mathews MB. Protein synthesis and translational control: a historical perspective. Cold Spring Harb Perspect Biol 2019;11(9):a035584. [PubMed: 30082466]\nTorre D de la, Chin JW: Reprogramming the genetic code. Nat Rev Genetics 2021;22:169–184. [PubMed: 33318706]\nWeatherall DJ: Thalassemia: the long road from bedside to genome. Nat Rev Genet 2004;5:625–631. [PubMed: 15266345]\nWilson DN: Ribosome-targeting antibiotics and mechanisms of bacterial resistance. Nat Rev Microbiol 2013;12:35–48.\nWu Q, Bazzini AA. Translation and mRNA Stability Control. Annu Rev Biochem 2023;92:227–245. [PubMed: 37001134]",
+      "char_start": 67537,
+      "char_end": 70138,
+      "section_path": [
+        "Protein Synthesis & the Genetic Code"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-marker",
+      "reason": "bold/italic marker in tagged content",
+      "count": 2,
+      "example": "Aminoacyl-tRNA synthetases catalyze the formation of aminoacyl-tRNA in a two-step reaction (Figure 37–1). The first reac"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x7",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-9",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-10",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-1",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-2",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-3",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-4",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-5",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-6",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-8",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-7",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-9",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-10",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-11",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-12",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-37-13",
+      "reason": "figure has no src image"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-37-2",
+      "reason": "table has no restated content"
+    },
+    {
+      "stage": "stage1-table",
+      "table_id": "tbl-37-2",
+      "reason": "table never cited in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_37_protein_synthesis_and_the_genetic_code.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_37_protein_synthesis_and_the_genetic_code/chapter_37_protein_synthesis_and_the_genetic_code.normalized.md"
+}

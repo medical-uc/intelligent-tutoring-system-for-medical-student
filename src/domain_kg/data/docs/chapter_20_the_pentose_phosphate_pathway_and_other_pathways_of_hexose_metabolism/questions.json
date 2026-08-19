@@ -1,0 +1,577 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Fructose is converted into which substance?",
+    "options": [
+      "glucose",
+      "nicotinamide adenine",
+      "ribose-5-phosphate",
+      "steroids",
+      "xylitol"
+    ],
+    "answer": "glucose",
+    "rationale": "Fructose can be converted to glucose, mainly in the liver.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > BIOMEDICAL IMPORTANCE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which of the following is a recognised cause of hemolytic anemia?",
+    "options": [
+      "deficiencies",
+      "hemolysis",
+      "infection",
+      "p",
+      "pentosuria"
+    ],
+    "answer": "hemolysis",
+    "rationale": "Acute hemolysis of red blood cells results in hemolytic anemia.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which of the following is a recognised cause of metabolic disease?",
+    "options": [
+      "deficiencies",
+      "hemolysis",
+      "hemolytic anemia",
+      "infection",
+      "p"
+    ],
+    "answer": "deficiencies",
+    "rationale": "Deficiencies in the enzymes of fructose and galactose metabolism lead to metabolic diseases.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Gluconolactone hydrolase acts on which substrate?",
+    "options": [
+      "6-phosphogluconolactone",
+      "four-carbon aldose erythrose-4-phosphate",
+      "ketose sedoheptulose-7-phosphate",
+      "ribose-5-phosphate",
+      "seven-carbon ketose sedoheptulose-7-phosphate"
+    ],
+    "answer": "6-phosphogluconolactone",
+    "rationale": "The hydrolysis of 6-phosphogluconolactone is accomplished by the enzyme gluconolactone hydrolase.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > REACTIONS OF THE PENTOSE PHOSPHATE PATHWAY OCCUR IN THE CYTOSOL > The Oxidative Phase Generates NADPH",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "NADPH is required for which process?",
+    "options": [
+      "amino acids",
+      "fructose 1,6-bisphosphatase",
+      "gulonolactone oxidase lack",
+      "transaldolase",
+      "transketolase"
+    ],
+    "answer": "amino acids",
+    "rationale": "NADPH is used for the synthesis of amino acids via glutamate dehydrogenase in these tissues.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > REACTIONS OF THE PENTOSE PHOSPHATE PATHWAY OCCUR IN THE CYTOSOL > Reducing Equivalents Are Generated in Those Tissues Specializing in Reductive Syntheses",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance is required for nucleotide synthesis?",
+    "options": [
+      "fatty acids",
+      "galactose",
+      "glycosphingolipids",
+      "NADPH",
+      "ribose"
+    ],
+    "answer": "ribose",
+    "rationale": "Tissues must synthesize ribose for nucleotide and nucleic acid synthesis using the pentose phosphate pathway.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > REACTIONS OF THE PENTOSE PHOSPHATE PATHWAY OCCUR IN THE CYTOSOL > Ribose Can Be Synthesized in Virtually All Tissues",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Glucose-1-phosphate is converted into which substance?",
+    "options": [
+      "d-xylulose",
+      "pyruvate",
+      "UDP-glucuronate",
+      "UDPGlc",
+      "xylulose"
+    ],
+    "answer": "UDPGlc",
+    "rationale": "Glucose-1-phosphate reacts with uridine triphosphate (UTP) to form uridine diphosphate glucose (UDPGlc).",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "UDPGlc is converted into which substance?",
+    "options": [
+      "glucose-6-phosphate",
+      "pyruvate",
+      "ribose-5-phosphate",
+      "UDP-glucuronate",
+      "xylulose"
+    ],
+    "answer": "UDP-glucuronate",
+    "rationale": "UDPGlc is oxidized at carbon 6 by NAD-dependent UDPGlc dehydrogenase. The oxidation of UDPGlc occurs in a two-step reaction. The reaction yields UDPglucuronate.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Glucuronate is converted into which substance?",
+    "options": [
+      "fructose 1,6-bisphosphatase",
+      "glucose-6-phosphate dehydrogenase deficiency",
+      "glutathione",
+      "gulonolactone oxidase lack",
+      "proteoglycans"
+    ],
+    "answer": "proteoglycans",
+    "rationale": "UDP-glucuronate is the source of glucuronate for reactions involving its incorporation into proteoglycans.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "3-keto-L-gulonate is converted into which substance?",
+    "options": [
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "pyruvate",
+      "ribose-5-phosphate",
+      "xylulose"
+    ],
+    "answer": "xylulose",
+    "rationale": "3-keto-L-gulonate is then decarboxylated to L-xylulose.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "L-Xylulose is converted into which substance by an NADPH-dependent reduction?",
+    "options": [
+      "ATP",
+      "glucose",
+      "nicotinamide adenine",
+      "ribose-5-phosphate",
+      "xylitol"
+    ],
+    "answer": "xylitol",
+    "rationale": "L-Xylulose is converted to xylitol by an NADPH-dependent reduction.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "Xylitol is converted into which substance in an NAD-dependent reaction?",
+    "options": [
+      "d-xylulose",
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "pyruvate",
+      "ribose-5-phosphate"
+    ],
+    "answer": "d-xylulose",
+    "rationale": "Xylitol is oxidized in an NAD-dependent reaction to D-xylulose.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GLUCURONATE, A PRECURSOR OF PROTEOGLYCANS & CONJUGATED GLUCURONIDES, IS A PRODUCT OF THE URONIC ACID PATHWAY",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Fructose is found within which structure?",
+    "options": [
+      "adrenal cortex",
+      "fetal",
+      "nervous",
+      "thyroid",
+      "tissues"
+    ],
+    "answer": "fetal",
+    "rationale": "Fructose is found in the fetal circulation of ungulates and whales.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > INGESTION OF LARGE QUANTITIES OF FRUCTOSE HAS PROFOUND METABOLICCONSEQUENCES",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "AMP is converted into which substance in the liver?",
+    "options": [
+      "glucose-1-phosphate",
+      "glucose-6-phosphate",
+      "hypoxanthine",
+      "pyruvate",
+      "ribose-5-phosphate"
+    ],
+    "answer": "hypoxanthine",
+    "rationale": "AMP can be converted to hypoxanthine in the liver and to uric acid, which can cause gout.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > INGESTION OF LARGE QUANTITIES OF FRUCTOSE HAS PROFOUND METABOLICCONSEQUENCES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Aldose reductase acts on which substrate in the placenta of the ewe?",
+    "options": [
+      "6-phosphogluconolactone",
+      "ketose sedoheptulose-7-phosphate",
+      "ribose-5-phosphate",
+      "seven-carbon ketose sedoheptulose-7-phosphate",
+      "sorbitol"
+    ],
+    "answer": "sorbitol",
+    "rationale": "Aldose reductase in the placenta of the ewe is responsible for the secretion of sorbitol into the fetal blood.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > INGESTION OF LARGE QUANTITIES OF FRUCTOSE HAS PROFOUND METABOLICCONSEQUENCES",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Aldolase B is predominantly found within which structure?",
+    "options": [
+      "adipose tissue",
+      "fetal",
+      "liver",
+      "muscle",
+      "nervous"
+    ],
+    "answer": "liver",
+    "rationale": "Aldolase B is the predominant form in the liver.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > INGESTION OF LARGE QUANTITIES OF FRUCTOSE HAS PROFOUND METABOLICCONSEQUENCES",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Galactokinase acts on which substrate in the phosphorylation reaction?",
+    "options": [
+      "galactose",
+      "glucose-6-phosphate",
+      "glyceraldehyde-3-phosphate",
+      "ribulose-5-phosphate",
+      "xylulose 5-phosphate"
+    ],
+    "answer": "galactose",
+    "rationale": "Galactokinase catalyzes the phosphorylation of galactose. ATP is used as the phosphate donor in the phosphorylation of galactose.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "4-epimerase acts on which substrate?",
+    "options": [
+      "glucose-6-phosphate",
+      "glyceraldehyde-3-phosphate",
+      "ribulose-5-phosphate",
+      "UDPGal",
+      "xylulose 5-phosphate"
+    ],
+    "answer": "UDPGal",
+    "rationale": "The conversion of UDPGal to UDPGlc is catalyzed by UDPGal 4-epimerase. The reaction involving UDPGal and UDPGlc includes oxidation and reduction at carbon 4.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which substance is required for the formation of lactose during lactation?",
+    "options": [
+      "fatty acids",
+      "galactose",
+      "glycosphingolipids",
+      "NADPH",
+      "ribose"
+    ],
+    "answer": "galactose",
+    "rationale": "Galactose is required for the formation of lactose during lactation. Galactose is a constituent of glycolipids (cerebrosides).",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS",
+    "relation": "requires",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which substance is stored in human tissues?",
+    "options": [
+      "fatty acids",
+      "NADPH",
+      "nine-carbon compound sialic acid",
+      "pentose phosphate",
+      "ribose"
+    ],
+    "answer": "nine-carbon compound sialic acid",
+    "rationale": "The principal sialic acid found in human tissues is N-acetylneuraminic acid (NeuAc).",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS > Glucose Is the Precursor of Amino Sugars (Hexosamines)",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of hemolysis in individuals with a specific susceptibility to oxidative stress?",
+    "options": [
+      "deficiencies",
+      "infection",
+      "metabolic disease",
+      "p",
+      "pentosuria"
+    ],
+    "answer": "infection",
+    "rationale": "The defect manifests as red cell hemolysis (hemolytic anemia) when susceptible individuals are subjected to oxidative stress from infection, drugs such as the antimalarial primaquine and sulfonamides, or after eating fava beans (Vicia faba).",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS > Impairment of the Pentose Phosphate Pathway Leads to Erythrocyte Hemolysis",
+    "relation": "caused_by",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which substance is synthesised by erythrocytes?",
+    "options": [
+      "fatty acids",
+      "NADPH",
+      "nucleotide",
+      "pentose phosphate",
+      "ribose"
+    ],
+    "answer": "pentose phosphate",
+    "rationale": "Erythrocytes can only form NADPH via the pentose phosphate pathway.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS > Impairment of the Pentose Phosphate Pathway Leads to Erythrocyte Hemolysis",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which of the following is a recognised cause of pentosuria?",
+    "options": [
+      "fructose 1,6-bisphosphatase",
+      "glucose-6-phosphate dehydrogenase deficiency",
+      "glutathione",
+      "gulonolactone oxidase lack",
+      "xylulose reductase deficiency"
+    ],
+    "answer": "xylulose reductase deficiency",
+    "rationale": "In essential pentosuria, a lack of xylulose reductase causes xylulose to appear in the urine. Xylulose reductase is the enzyme necessary to reduce xylulose to xylitol.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS > Disruption of the Uronic Acid Pathway Is Caused by Enzyme Defects & Some Drugs",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Inorganic phosphate is found within which structure?",
+    "options": [
+      "adipose tissue",
+      "fetal",
+      "liver",
+      "muscle",
+      "nervous"
+    ],
+    "answer": "liver",
+    "rationale": "Depletion of inorganic phosphate in the liver ultimately leads to liver failure.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose > GALACTOSE IS NEEDED FOR THE SYNTHESIS OF LACTOSE, GLYCOLIPIDS, PROTEOGLYCANS,& GLYCOPROTEINS > Enzyme Deficiencies in the Galactose Pathway Cause Galactosemia",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which substance is required by the lactating mammary gland for the synthesis of glycolipids, proteoglycans, and glycoproteins?",
+    "options": [
+      "fatty acids",
+      "galactose",
+      "glycosphingolipids",
+      "NADPH",
+      "ribose"
+    ],
+    "answer": "glycosphingolipids",
+    "rationale": "Galactose is synthesized from glucose in the lactating mammary gland and in other tissues where it is required for the synthesis of glycolipids, proteoglycans, and glycoproteins.",
+    "citation": "chapter_20_the_pentose_phosphate_pathway_and_other_pathways_of_hexose_metabolism — The Pentose Phosphate Pathway & Other Pathways of Hexose",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

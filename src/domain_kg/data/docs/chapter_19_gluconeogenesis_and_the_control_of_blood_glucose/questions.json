@@ -1,0 +1,1037 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which structure contains the renal cortex?",
+    "options": [
+      "kidney",
+      "liver",
+      "organ",
+      "pancreas",
+      "tissues"
+    ],
+    "answer": "kidney",
+    "rationale": "The renal cortex of the kidney may contribute about 10% of whole body gluconeogenesis after a short-term fast of 18 to 24 hours.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which structure includes the renal medulla?",
+    "options": [
+      "kidney",
+      "liver",
+      "organ",
+      "pancreas",
+      "tissues"
+    ],
+    "answer": "kidney",
+    "rationale": "The kidney is not a net source of glucose because the renal medulla is a consumer of glucose.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "part_of",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "In which structure are enterocytes found?",
+    "options": [
+      "intestine",
+      "kidney",
+      "liver",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "intestine",
+    "rationale": "Propionate from intestinal bacterial fermentation of carbohydrates is a substrate for gluconeogenesis in enterocytes.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is secreted by adipose tissue during fasting?",
+    "options": [
+      "carbon",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glycerol",
+    "rationale": "In the fasting state, adipose tissue lipolysis releases glycerol.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is released by skeletal muscle during fasting?",
+    "options": [
+      "ACTH",
+      "alanine",
+      "amino acids",
+      "insulin",
+      "ureagenesis"
+    ],
+    "answer": "amino acids",
+    "rationale": "In the fasting state, skeletal muscle releases gluconeogenic amino acids.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Hypoglycemia can develop as a complication of which condition?",
+    "options": [
+      "diabetes",
+      "disease",
+      "hyperglycemia",
+      "infection",
+      "liver failure"
+    ],
+    "answer": "liver failure",
+    "rationale": "With liver failure, hypoglycemia develops.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What is a substrate acted upon by hexokinase in glycolysis?",
+    "options": [
+      "fructose-6-phosphate",
+      "glycogen",
+      "noncarbohydrate",
+      "oxaloacetate",
+      "pyruvate"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Three nonequilibrium reactions in glycolysis are catalyzed by hexokinase, phosphofructokinase, and pyruvate kinase.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Thermodynamic Barriers Prevent a Simple Reversal of Glycolysis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What is a substrate acted upon by phosphofructokinase-1 in glycolysis?",
+    "options": [
+      "glycogen",
+      "noncarbohydrate",
+      "oxaloacetate",
+      "propionate",
+      "pyruvate"
+    ],
+    "answer": "pyruvate",
+    "rationale": "Three nonequilibrium reactions in glycolysis are catalyzed by hexokinase, phosphofructokinase, and pyruvate kinase.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Thermodynamic Barriers Prevent a Simple Reversal of Glycolysis",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "ATP requires which substance?",
+    "options": [
+      "carbon",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "gluconeogenesis",
+    "rationale": "ATP required for gluconeogenesis is supplied by the oxidation of fatty acids (Figure 19–1).",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Thermodynamic Barriers Prevent a Simple Reversal of Glycolysis",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "In which structures is fructose 1,6-bisphosphatase found?",
+    "options": [
+      "adipose tissue",
+      "intestine",
+      "placenta",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "skeletal muscle",
+    "rationale": "Fructose 1,6-bisphosphatase is present in the liver, kidney, and skeletal muscle.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Fructose 1,6-Bisphosphate & Fructose-6-Phosphate",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In which structure is glucose-6-phosphatase found?",
+    "options": [
+      "adipose tissue",
+      "heart",
+      "intestine",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "renal cortex",
+    "rationale": "Glucose-6-phosphatase is present in the liver and kidney (renal cortex).",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Glucose-6-Phosphate & Glucose",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "In which structure is glycerol found?",
+    "options": [
+      "adipose tissue",
+      "intestine",
+      "kidney",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "adipose tissue",
+    "rationale": "Glycerol is released from adipose tissue as a result of lipolysis of triacylglycerol in the fed state.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Glucose-1-Phosphate & Glycogen",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "What substance is triacylglycerol converted into?",
+    "options": [
+      "carbon",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glycerol",
+    "rationale": "Glycerol is released from adipose tissue as a result of lipolysis of triacylglycerol in the fed state. Glycerol may be used in the liver for reesterification of free fatty acids to form triacylglycerol.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Glucose-1-Phosphate & Glycogen",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "What substance is glycerol converted into?",
+    "options": [
+      "carbon",
+      "epinephrine",
+      "gluconeogenesis",
+      "glucose",
+      "lactate"
+    ],
+    "answer": "gluconeogenesis",
+    "rationale": "Glycerol may be a substrate for gluconeogenesis in the liver.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Glucose-1-Phosphate & Glycogen",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "In which structure does gluconeogenesis occur?",
+    "options": [
+      "adipose tissue",
+      "intestine",
+      "kidney",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "kidney",
+    "rationale": "In the fasting state, glycerol released from lipolysis of adipose tissue triacylglycerol is used as a substrate for gluconeogenesis in the liver and kidneys.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BIOMEDICAL IMPORTANCE > Glucose-1-Phosphate & Glycogen",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "What substance does pyruvate carboxylase require?",
+    "options": [
+      "acetyl-CoA",
+      "GTP",
+      "noncarbohydrate",
+      "nonesterified fatty acids little",
+      "short-chain fatty acids"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Pyruvate carboxylase requires acetyl-CoA as an allosteric activator.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > GLYCOLYSIS & GLUCONEOGENESIS SHARE THE SAME PATHWAY BUT IN OPPOSITE DIRECTIONS, & ARE RECIPROCALLY REGULATED > Allosteric Modification Is Instantaneous",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "What substrate does phosphofructokinase-2 act on?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "amino acids derived from",
+      "fructose 2,6-bisphosphate",
+      "ureagenesis"
+    ],
+    "answer": "fructose 2,6-bisphosphate",
+    "rationale": "Phosphofructokinase-2 breaks down fructose 2,6-bisphosphate because it has fructose 2,6-bisphosphatase activity.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > GLYCOLYSIS & GLUCONEOGENESIS SHARE THE SAME PATHWAY BUT IN OPPOSITE DIRECTIONS, & ARE RECIPROCALLY REGULATED > Fructose 2,6-Bisphosphate Plays a Unique Role in the Regulation of Glycolysis in Many Tissues & Gluconeogenesis in Liver",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "In which structure is phosphofructokinase-2 found?",
+    "options": [
+      "intestine",
+      "kidney",
+      "placenta",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "placenta",
+    "rationale": "PFKFB3 is expressed in the placenta and is induced in cancer cells.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > GLYCOLYSIS & GLUCONEOGENESIS SHARE THE SAME PATHWAY BUT IN OPPOSITE DIRECTIONS, & ARE RECIPROCALLY REGULATED > Fructose 2,6-Bisphosphate Plays a Unique Role in the Regulation of Glycolysis in Many Tissues & Gluconeogenesis in Liver",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "What is a recognised cause of hypoglycemia?",
+    "options": [
+      "dehydration",
+      "diabetes",
+      "disease",
+      "hyperglycemia",
+      "pituitary or adrenocortical insufficiency"
+    ],
+    "answer": "pituitary or adrenocortical insufficiency",
+    "rationale": "Hypoglycemia upon fasting can occur in pituitary or adrenocortical insufficiency. Pituitary or adrenocortical insufficiency leads to decreased antagonism to insulin.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "What substance is lactate converted into?",
+    "options": [
+      "carbon",
+      "epinephrine",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol"
+    ],
+    "answer": "glucose",
+    "rationale": "Lactate is transported to the liver and kidney where it reforms glucose. The process of lactate being transported to the liver and kidney where it reforms glucose is known as the Cori cycle, or the lactic acid cycle (Figure 19-4).",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is released by muscle during metabolism?",
+    "options": [
+      "carbon",
+      "epinephrine",
+      "gluconeogenesis",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "lactate",
+    "rationale": "Glycerol released by adipose tissue is another source of gluconeogenic carbon along with the lactate released by muscle.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS",
+    "relation": "secretes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "What is a product of pyruvate conversion in metabolic pathways?",
+    "options": [
+      "carbon",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glucose",
+    "rationale": "The ATP required for the hepatic synthesis of glucose from pyruvate or glycerol is formed by the oxidation of fatty acids derived from adipose tissue lipolysis.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which substance is transported by liver cells using a specific glucose transporter?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "amino acids derived from",
+      "GLUT 2",
+      "ureagenesis"
+    ],
+    "answer": "GLUT 2",
+    "rationale": "Liver cells are freely permeable to glucose in either direction via the GLUT 2 transporter.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "In which structures is GLUT 1 typically found?",
+    "options": [
+      "brain",
+      "intestine",
+      "kidney",
+      "liver",
+      "skeletal muscle"
+    ],
+    "answer": "brain",
+    "rationale": "GLUT 1 is located in the brain, kidney, colon, placenta, and erythrocytes.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "In which structures is GLUT 2 typically found?",
+    "options": [
+      "intestine",
+      "kidney",
+      "liver",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "liver",
+    "rationale": "GLUT 2 is located in the liver, pancreatic β cell, small intestine, and kidney.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which substance is transported by GLUT 2 in the body?",
+    "options": [
+      "fructose",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "glucose",
+    "rationale": "GLUT 2 functions in rapid uptake or release of glucose.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "transports",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "In which structures is GLUT 3 typically found?",
+    "options": [
+      "brain",
+      "intestine",
+      "kidney",
+      "liver",
+      "skeletal muscle"
+    ],
+    "answer": "brain",
+    "rationale": "GLUT 3 is located in the brain, kidney, and placenta.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "In which structures is GLUT 4 typically found?",
+    "options": [
+      "heart",
+      "intestine",
+      "kidney",
+      "liver",
+      "skeletal muscle"
+    ],
+    "answer": "heart",
+    "rationale": "GLUT 4 is located in the heart and skeletal muscle, and adipose tissue.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Metabolic & Hormonal Mechanisms Regulate the Concentration of Blood Glucose",
+    "relation": "located_in",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "In which structure is hexokinase typically found?",
+    "options": [
+      "intestine",
+      "kidney",
+      "liver",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "liver",
+    "rationale": "Hexokinase acts at a constant rate under all normal conditions in the liver. Hexokinase ensures an adequate rate of glycolysis to meet the liver’s needs.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucokinase Is Important in Regulating Blood Glucose After a Meal",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which substrate does glucokinase act upon in the liver?",
+    "options": [
+      "fructose-6-phosphate",
+      "glycogen",
+      "noncarbohydrate",
+      "oxaloacetate",
+      "pyruvate"
+    ],
+    "answer": "glycogen",
+    "rationale": "Glucokinase facilitates glycogen and fatty acid synthesis in the liver. The concentration of glucose in the hepatic portal vein may reach 20 mmol/L after a meal.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucokinase Is Important in Regulating Blood Glucose After a Meal",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "In which structure is glucokinase found?",
+    "options": [
+      "intestine",
+      "kidney",
+      "liver",
+      "renal cortex",
+      "skeletal muscle"
+    ],
+    "answer": "liver",
+    "rationale": "Glucokinase facilitates glycogen and fatty acid synthesis in the liver. The concentration of glucose in the hepatic portal vein may reach 20 mmol/L after a meal.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucokinase Is Important in Regulating Blood Glucose After a Meal",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "Which structure contains pancreatic islets?",
+    "options": [
+      "kidney",
+      "liver",
+      "organ",
+      "pancreas",
+      "tissues"
+    ],
+    "answer": "pancreas",
+    "rationale": "Insulin is produced by the β cells of the islets of Langerhans in the pancreas in response to hyperglycemia. The β-islet cells are freely permeable to glucose via the GLUT 2 transporter.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Insulin & Glucagon Play a Central Role in Regulating Blood Glucose",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q033",
+    "stem": "Which substance is secreted by the anterior pituitary gland?",
+    "options": [
+      "ACTH",
+      "alanine",
+      "amino acids",
+      "amino acids derived from",
+      "ureagenesis"
+    ],
+    "answer": "ACTH",
+    "rationale": "Adrenocorticotropic hormone (ACTH) is another hormone secreted by the anterior pituitary gland.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Other Hormones Affect Blood Glucose",
+    "relation": "secretes",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q034",
+    "stem": "Which of the following is a recognised cause of glycogenolysis?",
+    "options": [
+      "epinephrine",
+      "gluconeogenesis",
+      "glucose",
+      "glycerol",
+      "lactate"
+    ],
+    "answer": "epinephrine",
+    "rationale": "Epinephrine leads to glycogenolysis in the liver and muscle.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Other Hormones Affect Blood Glucose",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q035",
+    "stem": "Which of the following is a recognised cause of hyperglycemia?",
+    "options": [
+      "dehydration",
+      "diabetes",
+      "disease",
+      "hypoglycemia",
+      "pituitary or adrenocortical insufficiency"
+    ],
+    "answer": "diabetes",
+    "rationale": "Hyperglycemia occurs in poorly controlled diabetes mellitus. When the renal threshold for glucose is exceeded, glucosuria results.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucosuria Occurs When the Renal Threshold for Glucose Is Exceeded",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q036",
+    "stem": "Which of the following is a recognised cause of glucosuria?",
+    "options": [
+      "kidney",
+      "liver",
+      "organ",
+      "renal cortex",
+      "tissues"
+    ],
+    "answer": "kidney",
+    "rationale": "When the renal threshold for glucose is exceeded, glucosuria results. A common clinical presentation of diabetes is unexplained weight loss and frequent urination.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucosuria Occurs When the Renal Threshold for Glucose Is Exceeded",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q037",
+    "stem": "Which of the following is a recognised cause of weight loss?",
+    "options": [
+      "carbohydrate",
+      "glycogen decrease",
+      "nitrogen",
+      "noncarbohydrate",
+      "propionate"
+    ],
+    "answer": "glycogen decrease",
+    "rationale": "The rapid weight loss commonly seen with these diets is due to decreased glycogen stores.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Think Otherwise: Very Low Carbohydrate Diets Promote Weight Loss",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q038",
+    "stem": "Which of the following is a recognised cause of dehydration?",
+    "options": [
+      "kidney",
+      "liver",
+      "organ",
+      "renal cortex",
+      "tissues"
+    ],
+    "answer": "kidney",
+    "rationale": "Dehydration results from osmotic diuresis in the kidney. The loss of glucose calories in the urine contributes to the weight loss.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > Glucosuria Occurs When the Renal Threshold for Glucose Is Exceeded",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q039",
+    "stem": "Which substance is required for gluconeogenesis?",
+    "options": [
+      "acetyl-CoA",
+      "GTP",
+      "nitrogen",
+      "noncarbohydrate",
+      "short-chain fatty acids"
+    ],
+    "answer": "noncarbohydrate",
+    "rationale": "Gluconeogenesis is the process of synthesizing glucose or glycogen from noncarbohydrate precursors.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q040",
+    "stem": "Which substance is secreted by pancreatic β-islet cells?",
+    "options": [
+      "ACTH",
+      "alanine",
+      "amino acids",
+      "insulin",
+      "ureagenesis"
+    ],
+    "answer": "insulin",
+    "rationale": "Most people who gain weight do not become glucose intolerant because their beta cells compensate by producing additional insulin.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "secretes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q041",
+    "stem": "Which of the following is a recognised cause of diabetes?",
+    "options": [
+      "alanine",
+      "amino acids",
+      "amino acids derived from",
+      "insulin decreased",
+      "ureagenesis"
+    ],
+    "answer": "insulin decreased",
+    "rationale": "Impaired glucose tolerance in type 1 diabetes mellitus is due to decreased insulin secretion from the destruction of pancreatic β-islet cells. Type 2 diabetes mellitus (noninsulin-dependent diabetes [NIDDM]) impairs glucose tolerance.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q042",
+    "stem": "Obesity is a risk factor for which condition?",
+    "options": [
+      "atherosclerosis",
+      "diabetes",
+      "disease",
+      "hyperglycemia",
+      "infection"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Insulin resistance associated with obesity, particularly abdominal obesity, increases the risk of atherosclerosis, stroke, coronary heart disease, and overt diabetes. Individuals with three or more conditions, such as hypertension, hypertriglyceridemia, elevated fasting glucose, low high-density lipoprotein (HDL), and central obesity, are diagnosed with metabolic syndrome.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q043",
+    "stem": "Abdominal obesity is a risk factor for which condition?",
+    "options": [
+      "atherosclerosis",
+      "diabetes",
+      "disease",
+      "hyperglycemia",
+      "infection"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Insulin resistance associated with obesity, particularly abdominal obesity, increases the risk of atherosclerosis, stroke, coronary heart disease, and overt diabetes. Individuals with three or more conditions, such as hypertension, hypertriglyceridemia, elevated fasting glucose, low high-density lipoprotein (HDL), and central obesity, are diagnosed with metabolic syndrome.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q044",
+    "stem": "Which of the following is a recognised cause of death?",
+    "options": [
+      "dehydration",
+      "diabetes",
+      "hyperglycemia",
+      "hypoglycemia",
+      "pituitary or adrenocortical insufficiency"
+    ],
+    "answer": "hypoglycemia",
+    "rationale": "Hypoglycemia can lead to convulsions and death if glucose is not administered promptly. Hypoglycemia upon fasting can occur in pituitary or adrenocortical insufficiency.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose > BLOOD GLUCOSE IS DERIVED FROM THE DIET, GLUCONEOGENESIS, & GLYCOGENOLYSIS > The Ability to Utilize Glucose May Be Ascertained by Measuring Glucose Tolerance",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "antonym of the answer"
+    ]
+  },
+  {
+    "item_id": "q045",
+    "stem": "Which substance is transported by glucagon?",
+    "options": [
+      "carbon",
+      "citric acid",
+      "fructose",
+      "glucose",
+      "glycerol"
+    ],
+    "answer": "glucose",
+    "rationale": "Glucagon is secreted as a response to hypoglycemia and activates both glycogenolysis and gluconeogenesis in the liver, causing release of glucose into the blood.",
+    "citation": "chapter_19_gluconeogenesis_and_the_control_of_blood_glucose — Gluconeogenesis & the Control of Blood Glucose",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

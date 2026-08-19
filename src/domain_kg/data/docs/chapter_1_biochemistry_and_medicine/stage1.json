@@ -1,0 +1,301 @@
+{
+  "doc_id": "chapter_1_biochemistry_and_medicine",
+  "source": {
+    "source_id": "chapter_1_biochemistry_and_medicine",
+    "title": "Biochemistry & Medicine",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition",
+    "section": "The chapter explores the evolution of biochemistry and its pivotal role in understanding and treating multifactorial diseases in modern medicine.",
+    "page": null,
+    "origin": "chapter_1_biochemistry_and_medicine.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 23:45:32"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Life depends on biochemical reactions and processes. Biochemistry and molecular biology have a mutually cooperative relationship with medicine. Biochemical studies have illuminated many aspects of health and disease. Clinical investigations have provided seminal scientific insights (Figure 1–1).",
+      "char_start": 1054,
+      "char_end": 1350,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-1-1"
+      ],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Nucleic acids clarify our understanding of genetic diseases.\nProteins clarify our understanding of sickle cell anemia.\nBiochemistry clarifies our understanding of medicine.\nLipids clarify our understanding of atherosclerosis.\nCarbohydrates clarify our understanding of diabetes mellitus.\nThe diagram relates biochemical topics to diseases, illustrating how knowledge in each area informs the other.",
+      "char_start": 1790,
+      "char_end": 2188,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "The 21st-century 'omic' era has brought us to the threshold of individually tailored 'designer' medicine. Diagnosis and treatment will be informed by detailed genomic, metabolomic, and other individual patient data. New analytical techniques and information processing tools are providing this wealth of data. Systems approaches are advancing our understanding of multifactorial diseases. Multifactorial diseases include cancer, which arises from the complex interplay of genetic, epigenetic, nutritional, environmental, and other factors.\n\nIn this new, data-rich environment, a fundamental understanding of biochemistry has become more important than ever to the effective practice of medicine. Knowledge of biochemical topics has clarified our understanding of diseases such as sickle cell anemia, atherosclerosis, and diabetes mellitus. Sickle cell anemia is a genetic disease. Both atherosclerosis and diabetes mellitus have genetic components (Figure 1-1).",
+      "char_start": 2190,
+      "char_end": 3151,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-1-1"
+      ],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "Humankind has been engaged in scientific and medical research for many millennia. Scientific and medical research failed to coalesce into a coherent, growing body of practice and evidence. There was a lack of robust and economical means of storing and disseminating information. Stone carvings and cave paintings were highly durable. Stone carvings and cave paintings were difficult to duplicate. Stone carvings and cave paintings were impossible to disseminate. Parchment and animal skins were portable. Parchment and animal skins were vulnerable to insects, fire, and moisture. Preservation through redundancy relied on labor- and time-intensive hand copying. Most of what was discovered was eventually lost to the ravages of fire, flood, conflict, and the other ravages of time.\n\nGutenberg’s invention of an efficient and economic process for replicating documents, the printing press, liberated science and medicine from the cycle of discovery, loss, and rediscovery. The printing press facilitated the spread of information. The printing press preserved information for future generations through sheer redundancy. Ready dissemination of information and ideas through books and journals fostered discussion, comparison, replication, and collaboration. The ability to accumulate and share information over time transformed science and medicine into a coordinated, communal, and mutually supporting enterprise.",
+      "char_start": 3246,
+      "char_end": 4659,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "GUTENBERG’S REVOLUTION IN INFORMATION TECHNOLOGY WAS A WATERSHED FOR SCIENCE AND MEDICINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "gutenberg-s-revolution-in-information-technology-was-a"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "The Internet has further amplified the pace of discovery. The Internet disseminates information globally and instantly.",
+      "char_start": 4661,
+      "char_end": 4780,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "GUTENBERG’S REVOLUTION IN INFORMATION TECHNOLOGY WAS A WATERSHED FOR SCIENCE AND MEDICINE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "gutenberg-s-revolution-in-information-technology-was-a"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Living organisms were widely thought to be animated by a 'divine spark' that was beyond physical or chemical understanding. The view that living organisms were animated by a 'divine spark' was termed vitalism. Life was seen as an all or nothing proposition. One could not separate individual life processes from the organism that harbored them. The death of an organism resulted in the escape of this animating factor. The rupture of a cell membrane resulted in the escape of this animating factor. The escape of this animating factor led to the cessation of all life processes.\n\nBiochemistry and medicine played a key role in the rise of rationalism and the demise of vitalism. The birth of biochemistry can be traced to studies of alcoholic fermentation in the late 18th and early 19th centuries. Charles Cagniard de la Tour demonstrated in 1838 that yeast were living organisms. Louis Pasteur determined that these microorganisms were the causative source of alcoholic fermentation. Eduard Büchner observed in 1898 that an extract from yeast, 'press juice', that had been lysed and filtered to remove any remaining cells or cell debris, converted sugar into ethanol and carbon dioxide. The discovery that a cellular process could take place after the loss of the divine spark represented the final, pivotal step in the demise of vitalism.",
+      "char_start": 4822,
+      "char_end": 6163,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "ORIGINS: VITALISM VERSUS RATIONALISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "origins-vitalism-versus-rationalism"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "The pivotal discovery unleashed an avalanche of research that revealed the vital roles of inorganic phosphate, ADP, ATP, and NAD(H). The pivotal discovery led to the mapping of the entirety of central metabolism. The catalytic mechanisms and structures of enzymes were determined. DNA was identified as the genetic material. The sequence and identification of the genes encoded by the genomes of many thousands of microorganisms, plants, animals, and Homo sapiens were determined through the Human Genome Project.\n\nDuring this same period, similar discoveries were being made in medicine and physiology. In the 1770s, Lazzaro Spallanzani disproved the theory of the spontaneous generation of flies and maggots from rotting foods by placing sterilized samples of meat and vegetable matter in jars, some sealed and some open. Lazzaro Spallanzani showed that only the materials in the unsealed jars produced maggots. Lazzaro Spallanzani used the gastric juice of birds to show that digestion was an essentially chemical, rather than mechanical, process. In the 1800s, Louis Pasteur formulated the germ theory of disease. Robert Koch and Friedrich Loeffler developed Koch’s Postulates, a systematic approach for establishing a causal relationship between a microbe and its cognate disease.",
+      "char_start": 6165,
+      "char_end": 7450,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "ORIGINS: VITALISM VERSUS RATIONALISM"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "origins-vitalism-versus-rationalism"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "The 20th century saw a series of technological advances, many made possible through the emerging field of electrical engineering.\n\nFischer, Michaelis, Menten, and others established by 1913 that enzyme catalysis involved the formation of an enzyme-substrate complex, something atypical of ordinary chemical catalysts.\n\nSumner and colleagues were able to crystallize urease in 1926 and establish for the first time that this enzyme was a protein.\n\nThe growing availability of isotopically- and radioisotopically labeled compounds with the dawn of the nuclear age opened the way for Hans Krebs to map the tricarboxylic acid cycle.\n\nMeselson and Stahl determined that DNA replication was semiconservative.\n\nBloch determined that cholesterol is synthesized from acetyl-CoA.\n\nEdwin Krebs and Fischer discovered that protein phosphorylation was a primary component of cellular signal transduction networks.\n\nRadioisotopes proved critical to the development and use of DNA 'probes' so important to the development of molecular cloning and to the first DNA sequencing technology.\n\nAvery, Hershey, Chase, and others determined in the 1940s and 50s that DNA was the genetic material.\n\nFranklin, Watson, and Crick determined the double-helical structure of DNA.\n\nKendrew and Perutz determined the first three-dimensional structures for proteins, those of myoglobin and hemoglobin, in the late 1950s.\n\nThe Monod-Wyman-Changeux allosteric model was developed to describe the allosteric behavior of hemoglobin.",
+      "char_start": 7504,
+      "char_end": 9000,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE 20TH CENTURY: EMERGENCE OF THE CENTRAL DOGMA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-20th-century-emergence-of-the-central-dogma"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "The genetic code was cracked soon thereafter.\n\nBy the late 1960s, the first DNA cloning experiments were taking place.\n\nBiochemists and molecular biologists formulated a central dogma in the mid-20th century that genetic information is encoded by DNA and flows unidirectionally to messenger RNA to eventually be expressed in the form of enzymes and proteins.\n\nThe one gene one protein model paralleled current medical thinking that the cause of every disease could be traced to an individual virus, microorganism, toxin, or mutation.",
+      "char_start": 9002,
+      "char_end": 9535,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE 20TH CENTURY: EMERGENCE OF THE CENTRAL DOGMA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-20th-century-emergence-of-the-central-dogma"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "In 1989, the Human Genome Project was launched. The Human Genome Project aimed to determine the complete DNA sequence of the Homo sapiens genome. The project required nearly a decade and the development of new DNA sequencing and information processing technology. The goal was to identify every gene in the human genome. The project aimed to construct a complete map of the macromolecular processes in the human body. The project was expected to lead to the identification of genetic mutations responsible for many diseases. The project was projected to lead to new drugs, therapies, and cures, including the direct repair or replacement of genes.",
+      "char_start": 9574,
+      "char_end": 10221,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE DAWN OF THE COMBINATORIAL ERA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-dawn-of-the-combinatorial-era"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "As the Human Genome Project progressed, speculation was rife about the final gene count. Early projections estimated the number of genes needed to encode a human being at 50 to 200,000. The current best estimate is approximately 22,000 genes. The genome of the bacterium Escherichia coli contains 4,400 genes. The unicellular eukaryote Saccharomyces cerevisiae has about 6,000 genes. A plant, rice, has well over 30,000 genes. The numbers confirmed the suspicion that the Central Dogma was flawed. Biological complexity and sophistication derive from interactions among gene products, not just the number of genes. For example, when a protein kinase adds a phosphate group to a protein, a phosphoprotein is generated without the need for a third gene. At the molecular level, an extensive network of combinatorial interactions amplifies the information content of the human genome geometrically. The combinatorial interactions include alternative splicing of messenger RNA (mRNA), posttranslational modifications, and assembly of multi-subunit complexes. The 20th century was dominated by linear reductionism, focusing on individual genes, enzymes, or pathways. The next stage in understanding biochemistry and molecular biology will require mapping the architecture of interactive macromolecular networks, an approach sometimes referred to as systems biology (Figure 1-2).",
+      "char_start": 10223,
+      "char_end": 11596,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE DAWN OF THE COMBINATORIAL ERA"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-1-2"
+      ],
+      "table_refs": [],
+      "section_id": "the-dawn-of-the-combinatorial-era"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "The Human Genome Project (HGP) has influenced the field of Transcriptomics.\nThe Human Genome Project (HGP) has influenced the field of Proteomics.\nThe Human Genome Project (HGP) has influenced the field of Glycomics.\nThe Human Genome Project (HGP) has influenced the field of Lipidomics.\nThe Human Genome Project (HGP) has influenced the field of Nutrigenomics.\nThe Human Genome Project (HGP) has influenced the field of Bioinformatics.\nThe Human Genome Project (HGP) has influenced the field of Biotechnology.\nThe Human Genome Project (HGP) has influenced the field of Bioethics.\nThe Human Genome Project (HGP) has influenced the field of Gene therapy.\nThe Human Genome Project (HGP) has influenced the field of Synthetic biology.\nThe Human Genome Project (HGP) has influenced the field of Systems biology.\nThe Human Genome Project (HGP) has influenced the field of Molecular diagnostics.\nThe Human Genome Project (HGP) has influenced the field of Nanotechnology.\nThe Human Genome Project (HGP) has influenced the field of Stem cell biology.\nThe Human Genome Project (HGP) has influenced the field of Biophysics.\nThe Human Genome Project (HGP) has influenced the field of Bioengineering.\nThe Human Genome Project (HGP) has influenced the field of Pharmacogenomics.\nThe Human Genome Project (HGP) has influenced the field of Metabolomics.\nThe Human Genome Project (HGP) has influenced many disciplines and areas of research, including Transcriptomics, Proteomics, Glycomics, Lipidomics, Nutrigenomics, Bioinformatics, Biotechnology, Bioethics, Gene therapy, Synthetic biology, Systems biology, Molecular diagnostics, Nanotechnology, Stem cell biology, Biophysics, Bioengineering, Pharmacogenomics, and Metabolomics.",
+      "char_start": 11976,
+      "char_end": 13691,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE DAWN OF THE COMBINATORIAL ERA"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-dawn-of-the-combinatorial-era"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "The Human Genome Project has influenced many disciplines and areas of research. Biochemistry predates the Human Genome Project. Active areas of biochemical research include bioinformatics, genomics, glycomics, lipidomics, metabolomics, molecular diagnostics, proteomics, and transcriptomics.",
+      "char_start": 13693,
+      "char_end": 13984,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "THE DAWN OF THE COMBINATORIAL ERA"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "the-dawn-of-the-combinatorial-era"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "In the mid-20th century, polio and smallpox were nearly eradicated. Antibiotics emerged as a powerful arsenal postwar. In the early 1970s, the United States tasked the National Institutes of Health with curing cancer. Fifty years later, the war on cancer continues. Progress in cancer research has been moderate compared to initial expectations. Cancer was initially thought to be caused by a virus, genetic mutation, or toxin, either alone or in simple combination. Cancer is now understood as a multifactorial disease. Cancer arises from complex combinations of heredity, diet, lifestyle, and environmental factors. Many chronic human diseases, including cardiovascular and neurological ones, are also multifactorial. New systems-based approaches are needed to investigate and treat multifactorial diseases. New systems-based approaches must consider genomic, metabolomic, proteomic, and lifestyle information. Identifying intertwined networks of causality is essential. Artificial intelligence will play a crucial role in processing and interpreting the data involved. Physicians of the future need a solid grounding in molecular principles. A solid grounding in molecular principles is necessary to effectively exploit data for individually tailored treatments. Biochemistry remains essential for generating more effective treatments.",
+      "char_start": 14051,
+      "char_end": 15389,
+      "section_path": [
+        "Biochemistry & Medicine",
+        "21ST-CENTURY BIOMEDICINE: COPING WITH MULTIFACTORIAL DISEASES"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "21st-century-biomedicine-coping-with-multifactorial-diseases"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Biochemistry is the science concerned with the molecules present in living organisms, individual chemical reactions and their enzyme catalysts, and the expression and regulation of each metabolic process. It has become the basic language of all biologic sciences.\nBiochemistry, medicine, and other health care disciplines are intimately related. Health in all species depends on a harmonious balance of the biochemical reactions occurring in the body, while disease reflects abnormalities in biomolecules, biochemical reactions, or biochemical processes.\nAdvances in biochemical knowledge have illuminated many areas of medicine, and the study of diseases has often revealed previously unsuspected aspects of biochemistry.\nBiochemical approaches are often fundamental to illuminating the causes of diseases and designing appropriate therapies.\nThe sophistication of human and other living organisms derives to a large degree from the combinatorial interactions of gene products rather than the sheer number of genes in a genome.\nThe causes of many diseases and conditions are multifactorial in nature, requiring a systems approach to their analysis.\nThe mass of information yielded by -omics technologies and the Human Genome Project is making possible the practice of designer medicine that is informed by detailed genetic, metabolic, and other data for an individual patient.\nA sound knowledge of biochemistry and other related basic disciplines is essential for the effective practice of both traditional and 21st-century “designer” medicine.",
+      "char_start": 15391,
+      "char_end": 16936,
+      "section_path": [
+        "Biochemistry & Medicine"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Bioengineering is the application of engineering to biology and medicine.\nBioethics is the area of ethics that is concerned with the application of moral and ethical principles to biology and medicine.\nBioinformatics is the discipline concerned with the collection, storage, and analysis of biologic data, for example, DNA, RNA, and protein sequences.\nBiophysics is the application of physics and its techniques to biology and medicine.\nBiotechnology is the field in which biochemical, engineering, and other approaches are combined to develop biologic products of use in medicine and industry.\nCombinatorial interactions is the ability of two gene products, by interacting with one another to form a multicomponent complex and to covalently modify one another, can amplify the genome by generating a third macromolecular species for which no dedicated gene exists.\nDesigner Medicine Refers to the use of patient-specific -omic information to tailor medical treatments to a patient’s individual genetic, epigenetic, and macromolecular makeup.\nGene Replacement Therapy is Applies to the use of gene engineering tools such as CRISPR-Cas9 to treat various diseases by directly correcting defects in the genome.\nGenomics is the genome is the complete set of genes of an organism, and genomics is the in-depth study of the structures and functions of genomes.\nGlycomics is the glycome is the total complement of simple and complex carbohydrates in an organism. Glycomics is the systematic study of the structures and functions of glycomes such as the human glycome.\nLipidomics is the lipidome is the complete complement of lipids found in an organism. Lipidomics is the in-depth study of the structures and functions of all members of the lipidome and their interactions, in both health and disease.\nMetabolomics is the metabolome is the complete complement of metabolites (small molecules involved in metabolism) present in an organism. Metabolomics is the in-depth study of their structures, functions, and changes in various metabolic states.\nMolecular Diagnostics Refers to the use of molecular approaches such as DNA probes to assist in the diagnosis of various biochemical, genetic, immunologic, microbiologic, and other medical conditions.\nNanotechnology is the development and application to medicine and to other areas of devices such as nanoshells, which are only a few nanometers in size (10–9 m = 1 nm).\nNutrigenomics is the systematic study of the effects of nutrients on genetic expression and of the effects of genetic variations on the metabolism of nutrients.\n-Omics Refers to the collection of high-throughput analytical tools that enable an individual’s complete population of various biomolecules to be determined.\nPharmacogenomics is the use of genomic information and technologies to optimize the discovery and development of new drugs and drug targets.\nProteomics is the proteome is the complete complement of proteins of an organism. Proteomics is the systematic study of the structures and functions of proteomes and their variations in health and disease.\nStem Cell Biology is Stem cells are undifferentiated cells that have the potential to self-renew and to differentiate into any of the adult cells of an organism. Stem cell biology concerns the biology of stem cells and their potential for treating various diseases.\nSynthetic Biology is the field that combines biomolecular techniques with engineering approaches to build new biologic functions and systems.\nSystems Biology is the field concerns complex biologic systems studied as integrated entities.\nTranscriptomics is the comprehensive study of the transcriptome, the complete set of RNA transcripts produced by the genome during a fixed period of time.",
+      "char_start": 16938,
+      "char_end": 20672,
+      "section_path": [
+        "Biochemistry & Medicine"
+      ],
+      "kind": "definition",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-1-1",
+      "image_path": "images/9e1deb6d79633c0c873fa125df7f2a82910bf850627642ef3f6f31a8aac5974c.jpg",
+      "caption": "A two-way street connects biochemistry and medicine. Knowledge of the biochemical topics listed above the green line of the diagram has clarified our understanding of the diseases shown below the green line. Conversely, analyses of the diseases have cast light on many areas of biochemistry. Note that sickle cell anemia is a genetic disease and that both atherosclerosis and diabetes mellitus have genetic components.",
+      "referenced_from": "c001",
+      "marker": "[FIGURE:fig-1-1]",
+      "description": "Nucleic acids clarify our understanding of genetic diseases.\nProteins clarify our understanding of sickle cell anemia.\nBiochemistry clarifies our understanding of medicine.\nLipids clarify our understanding of atherosclerosis.\nCarbohydrates clarify our understanding of diabetes mellitus.\nThe diagram relates biochemical topics to diseases, illustrating how knowledge in each area informs the other.",
+      "label": "Figure 1-1",
+      "panel": "",
+      "content_chunk": "c002",
+      "caption_span": [
+        1370,
+        1788
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "fig_id": "fig-1-2",
+      "image_path": "images/c3c3f8651c8f50ce5f774eb929e0776694f675d5b7af124631ead90ea598a2f6.jpg",
+      "caption": "The Human Genome Project (HGP) has influenced many disciplines and areas of research. Biochemistry is not listed since it predates the commencement of the HGP, but disciplines such as bioinformatics, genomics, glycomics, lipidomics, metabolomics, molecular diagnostics, proteomics, and transcriptomics are, nevertheless, active areas of biochemical research.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-1-2]",
+      "description": "The Human Genome Project (HGP) has influenced the field of Transcriptomics.\nThe Human Genome Project (HGP) has influenced the field of Proteomics.\nThe Human Genome Project (HGP) has influenced the field of Glycomics.\nThe Human Genome Project (HGP) has influenced the field of Lipidomics.\nThe Human Genome Project (HGP) has influenced the field of Nutrigenomics.\nThe Human Genome Project (HGP) has influenced the field of Bioinformatics.\nThe Human Genome Project (HGP) has influenced the field of Biotechnology.\nThe Human Genome Project (HGP) has influenced the field of Bioethics.\nThe Human Genome Project (HGP) has influenced the field of Gene therapy.\nThe Human Genome Project (HGP) has influenced the field of Synthetic biology.\nThe Human Genome Project (HGP) has influenced the field of Systems biology.\nThe Human Genome Project (HGP) has influenced the field of Molecular diagnostics.\nThe Human Genome Project (HGP) has influenced the field of Nanotechnology.\nThe Human Genome Project (HGP) has influenced the field of Stem cell biology.\nThe Human Genome Project (HGP) has influenced the field of Biophysics.\nThe Human Genome Project (HGP) has influenced the field of Bioengineering.\nThe Human Genome Project (HGP) has influenced the field of Pharmacogenomics.\nThe Human Genome Project (HGP) has influenced the field of Metabolomics.\nThe Human Genome Project (HGP) has influenced many disciplines and areas of research, including Transcriptomics, Proteomics, Glycomics, Lipidomics, Nutrigenomics, Bioinformatics, Biotechnology, Bioethics, Gene therapy, Synthetic biology, Systems biology, Molecular diagnostics, Nanotechnology, Stem cell biology, Biophysics, Bioengineering, Pharmacogenomics, and Metabolomics.",
+      "label": "Figure 1-2",
+      "panel": "",
+      "content_chunk": "c012",
+      "caption_span": [
+        11616,
+        11974
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "the-dawn-of-the-combinatorial-era"
+    }
+  ],
+  "tables": [],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Appreciate the scope of biochemistry and its central role in the life sciences, and that biochemistry and medicine are intimately related disciplines.\nDescribe how the ability to duplicate text and images on a mass scale fueled the development of today’s interconnected, collective, and recorded scientific enterprise.\nDescribe the key role of early biochemists in moving from vitalism to rationalism as the basis for understanding life processes.\nAppreciate the factors that led to the development of linear models for biochemical and medical research, such as the Central Dogma and Koch’s postulates.\nAppreciate how high-throughput “-omic” analyses render patient-specific “designer medicine” possible.\nDescribe how combinatorial interactions between gene products amplifies the information content of the human genome and displaced linear models with interconnected networks.\nAppreciate the importance of systems approaches to the diagnosis and treatment of multifactorial diseases such as cancer.",
+      "char_start": 27,
+      "char_end": 1027,
+      "section_path": [
+        "Biochemistry & Medicine"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_1_biochemistry_and_medicine.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_1_biochemistry_and_medicine/chapter_1_biochemistry_and_medicine.normalized.md"
+}

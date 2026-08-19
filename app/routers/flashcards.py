@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from neo4j import Driver
 
 from app.dependencies import get_current_student_id, get_driver
+from app.openapi import error_responses
 from app.schemas import (
     DueFlashcardItem,
     DueFlashcardResponse,
@@ -56,14 +57,20 @@ def _to_flashcard_out(card: Flashcard) -> FlashcardOut:
     )
 
 
-@router.get("/cards", response_model=list[FlashcardOut])
+@router.get(
+    "/cards", response_model=list[FlashcardOut], responses=error_responses(401)
+)
 def get_all_cards(
     bank: QuestionBank = Depends(_get_bank),
 ) -> list[FlashcardOut]:
     return [_to_flashcard_out(c) for c in all_flashcards(bank=bank)]
 
 
-@router.get("/topics/{topic_path:path}/cards", response_model=list[FlashcardOut])
+@router.get(
+    "/topics/{topic_path:path}/cards",
+    response_model=list[FlashcardOut],
+    responses=error_responses(401, 404),
+)
 def get_cards_for_topic(
     topic_path: str,
     bank: QuestionBank = Depends(_get_bank),
@@ -76,7 +83,11 @@ def get_cards_for_topic(
     return [_to_flashcard_out(c) for c in cards]
 
 
-@router.post("/sessions", response_model=StartFlashcardSessionResponse)
+@router.post(
+    "/sessions",
+    response_model=StartFlashcardSessionResponse,
+    responses=error_responses(401, 404),
+)
 def start_flashcard_session(
     body: StartFlashcardSessionRequest = StartFlashcardSessionRequest(),
     student_id: str = Depends(get_current_student_id),
@@ -96,7 +107,9 @@ def start_flashcard_session(
 
 
 @router.post(
-    "/topics/{topic_path:path}/sessions", response_model=StartFlashcardSessionResponse
+    "/topics/{topic_path:path}/sessions",
+    response_model=StartFlashcardSessionResponse,
+    responses=error_responses(401, 404),
 )
 def start_flashcard_session_for_topic(
     topic_path: str,
@@ -116,7 +129,11 @@ def start_flashcard_session_for_topic(
     return StartFlashcardSessionResponse(**session)
 
 
-@router.post("/sessions/{session_id}/end", response_model=EndFlashcardSessionResponse)
+@router.post(
+    "/sessions/{session_id}/end",
+    response_model=EndFlashcardSessionResponse,
+    responses=error_responses(401, 404),
+)
 def end_flashcard_session(
     session_id: str,
     student_id: str = Depends(get_current_student_id),
@@ -135,7 +152,9 @@ def end_flashcard_session(
 
 
 @router.post(
-    "/sessions/{session_id}/cancel", response_model=EndFlashcardSessionResponse
+    "/sessions/{session_id}/cancel",
+    response_model=EndFlashcardSessionResponse,
+    responses=error_responses(401, 404),
 )
 def cancel_flashcard_session(
     session_id: str,
@@ -153,7 +172,11 @@ def cancel_flashcard_session(
     return EndFlashcardSessionResponse(**summary)
 
 
-@router.get("/sessions/history", response_model=FlashcardSessionHistoryResponse)
+@router.get(
+    "/sessions/history",
+    response_model=FlashcardSessionHistoryResponse,
+    responses=error_responses(401),
+)
 def get_session_history(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
@@ -177,7 +200,11 @@ def get_session_history(
     )
 
 
-@router.post("/cards/{uid}/reveal", response_model=FlashcardRevealResponse)
+@router.post(
+    "/cards/{uid}/reveal",
+    response_model=FlashcardRevealResponse,
+    responses=error_responses(401, 404),
+)
 def reveal_card(
     uid: str,
     bank: QuestionBank = Depends(_get_bank),
@@ -194,7 +221,11 @@ def reveal_card(
     )
 
 
-@router.post("/cards/{uid}/log", response_model=LogFlashcardReviewResponse)
+@router.post(
+    "/cards/{uid}/log",
+    response_model=LogFlashcardReviewResponse,
+    responses=error_responses(401, 404),
+)
 def log_review(
     uid: str,
     body: LogFlashcardReviewRequest,
@@ -235,7 +266,11 @@ def log_review(
     )
 
 
-@router.get("/cards/{uid}/history", response_model=FlashcardReviewHistoryResponse)
+@router.get(
+    "/cards/{uid}/history",
+    response_model=FlashcardReviewHistoryResponse,
+    responses=error_responses(401),
+)
 def get_review_history(
     uid: str,
     student_id: str = Depends(get_current_student_id),
@@ -254,7 +289,11 @@ def get_review_history(
     )
 
 
-@router.get("/history", response_model=FlashcardHistoryResponse)
+@router.get(
+    "/history",
+    response_model=FlashcardHistoryResponse,
+    responses=error_responses(401),
+)
 def get_history(
     student_id: str = Depends(get_current_student_id),
     bank: QuestionBank = Depends(_get_bank),
@@ -285,24 +324,34 @@ def get_history(
     return FlashcardHistoryResponse(items=items)
 
 
-@router.get("/review/due", response_model=DueFlashcardResponse)
+@router.get(
+    "/review/due",
+    response_model=DueFlashcardResponse,
+    responses=error_responses(401),
+)
 def get_due_for_review(
     student_id: str = Depends(get_current_student_id),
     driver: Driver = Depends(get_driver),
+    bank: QuestionBank = Depends(_get_bank),
 ) -> DueFlashcardResponse:
     """Cards this student has reviewed before whose schedule says they're due again now,
     soonest-due first. A card never reviewed yet has no schedule and never appears here —
-    pair with /topics/{path}/cards for "drill this topic fresh" flows."""
+    pair with /topics/{path}/cards for "drill this topic fresh" flows. Rows whose question
+    no longer exists in the bank are skipped, same convention as GET /history."""
     items = due_for_review(driver, student_id=student_id)
-    return DueFlashcardResponse(
-        items=[
+    result = []
+    for r in items:
+        card = get_flashcard(r["question_uid"], bank=bank)
+        if card is None:
+            continue
+        result.append(
             DueFlashcardItem(
                 question_uid=r["question_uid"],
+                topic_path=" > ".join(card.topic_tag),
                 streak=r["streak"],
                 interval_days=r["interval_days"],
                 last_reviewed_at=r["last_reviewed_at"].to_native(),
                 next_review_at=r["next_review_at"].to_native(),
             )
-            for r in items
-        ]
-    )
+        )
+    return DueFlashcardResponse(items=result)

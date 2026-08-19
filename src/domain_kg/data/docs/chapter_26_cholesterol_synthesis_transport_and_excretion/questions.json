@@ -1,0 +1,554 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which of the following is a recognised cause of coronary heart disease?",
+    "options": [
+      "ABCG1",
+      "atherosclerosis",
+      "diabetes mellitus",
+      "gallstones",
+      "lipid nephrosis"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Atherosclerosis causes cerebrovascular, coronary, and peripheral vascular disease.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Which of the following is a recognised cause of peripheral vascular disease?",
+    "options": [
+      "ABCG1",
+      "atherosclerosis",
+      "diabetes mellitus",
+      "gallstones",
+      "lipid nephrosis"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Atherosclerosis causes cerebrovascular, coronary, and peripheral vascular disease.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > BIOMEDICAL IMPORTANCE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Cholesterol synthesis requires which substance?",
+    "options": [
+      "acetyl-CoA",
+      "egg yolk",
+      "long-chain fatty acids",
+      "NADPH",
+      "plasma"
+    ],
+    "answer": "acetyl-CoA",
+    "rationale": "Cholesterol is synthesized from acetyl-CoA by a lengthy pathway that may be divided into five steps.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS BIOSYNTHESIZED FROM ACETYL-CoA > Acetyl-CoA Is the Source of All Carbon Atoms in Cholesterol",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Mevalonate phosphorylation requires which substance?",
+    "options": [
+      "acetyl-CoA. Cholesterol",
+      "ATP",
+      "corticosteroids",
+      "oxygen",
+      "steroids"
+    ],
+    "answer": "ATP",
+    "rationale": "Mevalonate is phosphorylated sequentially using ATP by three kinases.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS BIOSYNTHESIZED FROM ACETYL-CoA > Acetyl-CoA Is the Source of All Carbon Atoms in Cholesterol",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Farnesyl diphosphate is converted into which substance?",
+    "options": [
+      "corticosteroids",
+      "deoxycholic acid",
+      "lithocholic acid",
+      "steroids",
+      "ubiquinone"
+    ],
+    "answer": "ubiquinone",
+    "rationale": "Dolichol and ubiquinone are polyisoprenoids formed from farnesyl diphosphate by the addition of isopentenyl diphosphate residues.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS BIOSYNTHESIZED FROM ACETYL-CoA > Farnesyl Diphosphate Gives Rise to Dolichol & Ubiquinone",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance is stored in the endoplasmic reticulum?",
+    "options": [
+      "acetoacetyl-CoA",
+      "HDL",
+      "HMG-CoA",
+      "lipoproteins",
+      "mixed-function oxidase"
+    ],
+    "answer": "mixed-function oxidase",
+    "rationale": "Squalene epoxidase is a mixed-function oxidase in the endoplasmic reticulum.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS BIOSYNTHESIZED FROM ACETYL-CoA > Acetyl-CoA Is the Source of All Carbon Atoms in Cholesterol",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Oxidosqualene-lanosterol cyclase acts on which substrate?",
+    "options": [
+      "acetyl-CoA. Cholesterol",
+      "corticosteroids",
+      "squalene",
+      "steroids",
+      "vitamin D. Cholesterol"
+    ],
+    "answer": "squalene",
+    "rationale": "Cyclization is catalyzed by oxidosqualene-lanosterol cyclase.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS BIOSYNTHESIZED FROM ACETYL-CoA > Acetyl-CoA Is the Source of All Carbon Atoms in Cholesterol",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Which substance is transported by cholesterol?",
+    "options": [
+      "acetoacetyl-CoA",
+      "HMG-CoA",
+      "isopentenyl diphosphate",
+      "lipoproteins",
+      "very-low-density lipoprotein"
+    ],
+    "answer": "lipoproteins",
+    "rationale": "Cholesterol is transported in plasma in lipoproteins.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS TRANSPORTED BETWEEN TISSUES IN PLASMA LIPOPROTEINS",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Which substance is synthesised by the intestine?",
+    "options": [
+      "acetoacetyl-CoA",
+      "chylomicron",
+      "HDL",
+      "HMG-CoA",
+      "lipoproteins"
+    ],
+    "answer": "chylomicron",
+    "rationale": "Cholesterol synthesized in the intestines is incorporated into chylomicrons.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS TRANSPORTED BETWEEN TISSUES IN PLASMA LIPOPROTEINS",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substance is transported by the liver?",
+    "options": [
+      "acetoacetyl-CoA",
+      "HDL",
+      "HMG-CoA",
+      "lipoproteins",
+      "very-low-density lipoprotein"
+    ],
+    "answer": "very-low-density lipoprotein",
+    "rationale": "Most of the cholesterol secreted by the liver in very-low-density lipoprotein (VLDL) is retained during the formation of intermediate-density lipoprotein (IDL) and ultimately LDL.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS TRANSPORTED BETWEEN TISSUES IN PLASMA LIPOPROTEINS",
+    "relation": "transports",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In which structure is the LDL receptor found?",
+    "options": [
+      "brain",
+      "intestine",
+      "liver",
+      "meat",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "LDL is taken up by the LDL receptor in liver and extrahepatic tissues.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS TRANSPORTED BETWEEN TISSUES IN PLASMA LIPOPROTEINS",
+    "relation": "located_in",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "In which structure is cholesteryl ester found?",
+    "options": [
+      "extrahepatic tissues",
+      "intestine",
+      "liver",
+      "meat",
+      "tissues"
+    ],
+    "answer": "liver",
+    "rationale": "In humans, much of the cholesteryl ester carried in lipoproteins is delivered to the liver via VLDL remnants (IDL) or LDL.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS TRANSPORTED BETWEEN TISSUES IN PLASMA LIPOPROTEINS > Cholesteryl Ester Transfer Protein Facilitates Transfer of Cholesteryl Ester From HDL to Other Lipoproteins",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substance is synthesised by the liver?",
+    "options": [
+      "bile acids",
+      "egg yolk",
+      "long-chain fatty acids",
+      "plasma",
+      "plasma low-density lipoprotein"
+    ],
+    "answer": "bile acids",
+    "rationale": "Cholesterol is excreted from the body via the bile either in the unesterified form or after conversion into bile acids in the liver.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Which substrate does cholesterol 7α-hydroxylase act on?",
+    "options": [
+      "bile acids",
+      "cholesteryl ester",
+      "long-chain fatty acids",
+      "mevalonate",
+      "plasma"
+    ],
+    "answer": "bile acids",
+    "rationale": "The principal rate-limiting step in the biosynthesis of bile acids is at the CYP7A1 reaction.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Bile Acid Synthesis Is Regulated at the CYP7A1 Step",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which substance is required by cholesterol 7α-hydroxylase?",
+    "options": [
+      "27-carbon compound",
+      "ATP",
+      "corticosteroids",
+      "oxygen",
+      "steroids"
+    ],
+    "answer": "oxygen",
+    "rationale": "CYP7A1 requires oxygen, NADPH, and cytochrome P450.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Bile Acids Are Formed From Cholesterol",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Anions are converted into which substance?",
+    "options": [
+      "alkaline bile",
+      "cholesterol",
+      "farnesyl diphosphate",
+      "geranyl diphosphate",
+      "polyisoprenoids"
+    ],
+    "answer": "alkaline bile",
+    "rationale": "The anions of the glyco- or tauro- conjugates are termed bile salts.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Bile Acids Are Formed From Cholesterol",
+    "relation": "converts_to",
+    "confidence": 0.7,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "In which structure are bile acids found?",
+    "options": [
+      "brain",
+      "extrahepatic tissues",
+      "intestine",
+      "meat",
+      "tissues"
+    ],
+    "answer": "intestine",
+    "rationale": "The pool of bile acids, about 3-5 grams, is cycled through the intestine 6 to 10 times each day.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Most Bile Acids Return to the Liver in the Enterohepatic Circulation",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognised cause of atherosclerosis?",
+    "options": [
+      "acetoacetyl-CoA",
+      "HDL",
+      "HMG-CoA",
+      "LDL receptor",
+      "lipoproteins"
+    ],
+    "answer": "lipoproteins",
+    "rationale": "Atherosclerosis is an inflammatory disease characterized by the deposition of cholesterol and cholesteryl ester from the plasma lipoproteins into the artery wall.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Serum Cholesterol Is Correlated With the Incidence of Atherosclerosis & Coronary Heart Disease",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Plasma cholesterol excess is a risk factor for which condition?",
+    "options": [
+      "ABCG1",
+      "atherosclerosis",
+      "coronary heart disease",
+      "gallstones",
+      "peripheral vascular disease"
+    ],
+    "answer": "atherosclerosis",
+    "rationale": "Elevated plasma cholesterol levels greater than 5mmol/L are one of the most important factors in promoting atherosclerosis.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Serum Cholesterol Is Correlated With the Incidence of Atherosclerosis & Coronary Heart Disease",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "In which structure is very-low-density lipoprotein found?",
+    "options": [
+      "arteries",
+      "brain",
+      "extrahepatic tissues",
+      "intestine",
+      "meat"
+    ],
+    "answer": "extrahepatic tissues",
+    "rationale": "Smaller VLDL particles are utilized by extrahepatic tissues at a slower rate than larger particles, which is considered atherogenic.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Diet and Lifestyle Can Play an Important Role in Reducing Serum Cholesterol",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which of the following is a recognised cause of hypercholesterolemia?",
+    "options": [
+      "acetoacetyl-CoA",
+      "HDL",
+      "HMG-CoA",
+      "LDL receptor",
+      "lipoproteins"
+    ],
+    "answer": "LDL receptor",
+    "rationale": "The defect in familial hypercholesterolemia is most often in the gene for the LDL receptor. LDL is not cleared from the blood in familial hypercholesterolemia.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview > CHOLESTEROL IS EXCRETED FROM THE BODY IN THE BILE AS CHOLESTEROL OR AS BILE ACIDS > Primary Disorders of the Plasma Lipoproteins (Dyslipoproteinemias) Are Inherited",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "What is the substrate that HMG-CoA reductase acts on?",
+    "options": [
+      "bile acids",
+      "cholesteryl ester",
+      "long-chain fatty acids",
+      "mevalonate",
+      "plasma"
+    ],
+    "answer": "mevalonate",
+    "rationale": "Initially, mevalonate is synthesized from acetyl-CoA via a reaction catalyzed by HMG-CoA reductase, which regulated the entire pathway.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "A five-carbon isoprenoid unit is converted into which substance?",
+    "options": [
+      "deoxycholic acid",
+      "dimethylallyl diphosphate",
+      "lithocholic acid",
+      "squalene",
+      "ubiquinone"
+    ],
+    "answer": "squalene",
+    "rationale": "Next, a five-carbon isoprenoid unit is formed, and six of these condense to form squalene. Squalene undergoes cyclization to form the parent steroid lanosterol, which, after the loss of three methyl groups and other changes, forms cholesterol.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Squalene is converted into which substance?",
+    "options": [
+      "cholesterol",
+      "dolichol",
+      "geranyl diphosphate",
+      "lanosterol",
+      "polyisoprenoids"
+    ],
+    "answer": "lanosterol",
+    "rationale": "Squalene undergoes cyclization to form the parent steroid lanosterol, which, after the loss of three methyl groups and other changes, forms cholesterol.",
+    "citation": "chapter_26_cholesterol_synthesis_transport_and_excretion — Overview",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

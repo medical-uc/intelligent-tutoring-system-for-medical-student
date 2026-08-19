@@ -1,0 +1,738 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which substance is synthesised by human tissues?",
+    "options": [
+      "cellular DNA",
+      "coenzyme A",
+      "nucleoside triphosphates",
+      "purine nucleotide",
+      "pyrimidine"
+    ],
+    "answer": "pyrimidine",
+    "rationale": "Normal human tissues can synthesize purines and pyrimidines from amphibolic intermediates.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > PURINES & PYRIMIDINES ARE DIETARILY NONESSENTIAL",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Mononucleotides are converted into which substance?",
+    "options": [
+      "GDP",
+      "IMP",
+      "purine nucleotide",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "pyrimidine",
+    "rationale": "The resulting mononucleotides from their degradation in the intestinal tract may be absorbed or converted to purine and pyrimidine bases.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > PURINES & PYRIMIDINES ARE DIETARILY NONESSENTIAL",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "ATP is converted into which substance?",
+    "options": [
+      "GDP",
+      "IMP",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "GDP",
+    "rationale": "ATP is used to convert AMP and GMP to ADP and GDP, respectively. Conversion of GDP to GTP involves an additional phosphoryl transfer from ATP.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which agent is used in the management of cancer?",
+    "options": [
+      "allopurinol",
+      "ATP",
+      "orotic",
+      "tetrahydrofolates block",
+      "uracil"
+    ],
+    "answer": "tetrahydrofolates block",
+    "rationale": "Compounds that inhibit the formation of tetrahydrofolates block purine synthesis and have been used in cancer chemotherapy. Azaserine inhibits reaction ⑤ in Figure 33–2.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > INOSINE MONOPHOSPHATE (IMP) IS SYNTHESIZED FROM AMPHIBOLIC INTERMEDIATES > Antifolate Drugs & Glutamine Analogs Block Purine Nucleotide Biosynthesis",
+    "relation": "treated_with",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Adenine is converted into which substance?",
+    "options": [
+      "IMP",
+      "mononucleotides",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "mononucleotides",
+    "rationale": "Phosphoryl transfer from PRPP catalyzed by adenosine- and hypoxanthine-phosphoribosyl transferases converts adenine, hypoxanthine, and guanine to their mononucleotides (Figure 33–4).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Hypoxanthine is converted into which substance?",
+    "options": [
+      "GDP",
+      "mononucleotides",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "mononucleotides",
+    "rationale": "Phosphoryl transfer from PRPP catalyzed by adenosine- and hypoxanthine-phosphoribosyl transferases converts adenine, hypoxanthine, and guanine to their mononucleotides (Figure 33–4).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Guanine is converted into which substance?",
+    "options": [
+      "IMP",
+      "mononucleotides",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "mononucleotides",
+    "rationale": "Phosphoryl transfer from PRPP catalyzed by adenosine- and hypoxanthine-phosphoribosyl transferases converts adenine, hypoxanthine, and guanine to their mononucleotides (Figure 33–4).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Adenosine kinase acts on which substrate?",
+    "options": [
+      "carbamoyl phosphate",
+      "deoxyadenosine",
+      "purine",
+      "UMP",
+      "uric acid"
+    ],
+    "answer": "deoxyadenosine",
+    "rationale": "Phosphorylation of the purine nucleotides, catalyzed by adenosine kinase, converts adenosine and deoxyadenosine to AMP and dAMP.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Adenosine is converted into which substance?",
+    "options": [
+      "ATP",
+      "dAMP",
+      "dNDPs",
+      "inosine",
+      "NTPs"
+    ],
+    "answer": "inosine",
+    "rationale": "Adenosine is first converted to inosine by adenosine deaminase, EC 3.5.4.4.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > HUMANS CATABOLIZE PURINES TO URIC ACID",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Deoxyadenosine is converted into which substance?",
+    "options": [
+      "AMP",
+      "dAMP",
+      "dNDPs",
+      "inosine",
+      "NTPs"
+    ],
+    "answer": "dAMP",
+    "rationale": "Phosphorylation of the purine nucleotides, catalyzed by adenosine kinase, converts adenosine and deoxyadenosine to AMP and dAMP.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substance is synthesized by the liver?",
+    "options": [
+      "cellular DNA",
+      "coenzyme A",
+      "nucleoside triphosphates",
+      "purine nucleotide",
+      "pyrimidine"
+    ],
+    "answer": "purine nucleotide",
+    "rationale": "Liver is the major site of purine nucleotide biosynthesis and provides purines and purine nucleosides for salvage and for utilization by tissues incapable of their biosynthesis.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "What substance do erythrocytes require for nucleotide formation?",
+    "options": [
+      "5-phosphoribosylamine",
+      "adenosine deaminase",
+      "glycine",
+      "PRPP synthetase",
+      "purine nucleoside phosphorylase"
+    ],
+    "answer": "5-phosphoribosylamine",
+    "rationale": "Erythrocytes and polymorphonuclear leukocytes cannot synthesize 5-phosphoribosylamine and therefore also utilize exogenous purines to form nucleotides.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "What substance do polymorphonuclear leukocytes require for nucleotide formation?",
+    "options": [
+      "5-phosphoribosylamine",
+      "adenosine deaminase",
+      "glycine",
+      "PRPP synthetase",
+      "purine nucleoside phosphorylase"
+    ],
+    "answer": "5-phosphoribosylamine",
+    "rationale": "Erythrocytes and polymorphonuclear leukocytes cannot synthesize 5-phosphoribosylamine and therefore also utilize exogenous purines to form nucleotides.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > \"SALVAGE REACTIONS\" CONVERT PURINES & THEIR NUCLEOSIDES TO MONONUCLEOTIDES",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "What is the substrate acted upon by ribonucleotide reductase?",
+    "options": [
+      "2'-hydroxyl",
+      "adenosine",
+      "ATP",
+      "dihydrofolate",
+      "orotic"
+    ],
+    "answer": "2'-hydroxyl",
+    "rationale": "Reduction of the 2'-hydroxyl of purine and pyrimidine ribonucleotides is catalyzed by ribonucleotide reductase, EC 1.17.4.1 (Figure 33–7).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > REDUCTION OF RIBONUCLEOSIDE DIPHOSPHATES FORMS DEOXYRIBONUCLEOSIDE DIPHOSPHATES",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "What substance is formed from ribonucleoside diphosphates?",
+    "options": [
+      "AMP",
+      "dAMP",
+      "dNDPs",
+      "inosine",
+      "NTPs"
+    ],
+    "answer": "dNDPs",
+    "rationale": "Reduction of the 2'-hydroxyl of purine and pyrimidine ribonucleotides forms deoxyribonucleoside diphosphates (dNDPs).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > REDUCTION OF RIBONUCLEOSIDE DIPHOSPHATES FORMS DEOXYRIBONUCLEOSIDE DIPHOSPHATES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "What substance are nucleoside diphosphates (NDPs) converted into?",
+    "options": [
+      "AMP",
+      "ATP",
+      "dAMP",
+      "inosine",
+      "NTPs"
+    ],
+    "answer": "NTPs",
+    "rationale": "The conversion of both pyrimidine and purine nucleotides NDPs to NTPs is also feedback inhibited by purine and pyrimidine nucleotides (Figure 33-10).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED > Purine & Pyrimidine Nucleotide Biosynthesis are Coordinately Regulated",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "What substance is ribose 5-phosphate converted into?",
+    "options": [
+      "dCMP",
+      "IMP",
+      "mononucleotides",
+      "purine nucleotide",
+      "uric acid"
+    ],
+    "answer": "IMP",
+    "rationale": "Hypoxanthine and PRPP react to form IMP and PPi.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "What substance is required by thymidylate synthase?",
+    "options": [
+      "ATP",
+      "orotic",
+      "tetrahydrofolate",
+      "thymidine",
+      "uracil"
+    ],
+    "answer": "tetrahydrofolate",
+    "rationale": "The reaction catalyzed by thymidylate synthase, EC 2.1.1.45, is the only reaction of pyrimidine nucleotide biosynthesis that requires a tetrahydrofolate derivative. Dihydrofolate is the oxidized form of tetrahydrofolate.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED > Methotrexate Blocks Reduction of Dihydrofolate",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which agent is used in the management of gout?",
+    "options": [
+      "allopurinol",
+      "ATP",
+      "orotic",
+      "tetrahydrofolates block",
+      "uracil"
+    ],
+    "answer": "allopurinol",
+    "rationale": "Allopurinol is used to treat gout.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED > Certain Pyrimidine Analogs are Substrates for Enzymes of Pyrimidine Nucleotide Biosynthesis",
+    "relation": "treated_with",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "What substance is allopurinol converted into?",
+    "options": [
+      "IMP",
+      "nucleotide",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "nucleotide",
+    "rationale": "Allopurinol is converted to a nucleotide.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > THE DEOXYRIBONUCLEOSIDES OF URACIL & CYTOSINE ARE SALVAGED > Certain Pyrimidine Analogs are Substrates for Enzymes of Pyrimidine Nucleotide Biosynthesis",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Guanosine is converted into which substance?",
+    "options": [
+      "GDP",
+      "IMP",
+      "purine",
+      "pyrimidine",
+      "uric acid"
+    ],
+    "answer": "uric acid",
+    "rationale": "Humans convert adenosine and guanosine to uric acid (Figure 33--11).",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > HUMANS CATABOLIZE PURINES TO URIC ACID",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Uricase acts on which substrate?",
+    "options": [
+      "carbamoyl phosphate",
+      "deoxyadenosine",
+      "purine",
+      "UMP",
+      "uric acid"
+    ],
+    "answer": "uric acid",
+    "rationale": "In mammals other than higher primates, uricase (EC 1.7.3.3) converts uric acid to the water-soluble product allantoin.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > HUMANS CATABOLIZE PURINES TO URIC ACID",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which of the following is a recognised cause of gout?",
+    "options": [
+      "adenosine deaminase",
+      "hypoxanthine-guanine phosphoribosyl",
+      "ornithine transcarbamoylase deficiency",
+      "orotidylate decarboxylase deficiency",
+      "PRPP synthetase"
+    ],
+    "answer": "PRPP synthetase",
+    "rationale": "Genetic defects in PRPP synthetase can present clinically as gout.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which of the following is a recognised cause of gouty arthritis?",
+    "options": [
+      "cellular DNA",
+      "coenzyme A",
+      "purine excess",
+      "pyrimidine",
+      "sodium urate"
+    ],
+    "answer": "sodium urate",
+    "rationale": "Sodium urate crystals cause an inflammatory reaction known as gouty arthritis.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Uric acid lithiasis can develop as a complication of which condition?",
+    "options": [
+      "broken red lines",
+      "cancer",
+      "disease",
+      "gout",
+      "Lesch-Nyhan syndrome"
+    ],
+    "answer": "Lesch-Nyhan syndrome",
+    "rationale": "The Lesch-Nyhan syndrome is characterized by frequent episodes of uric acid lithiasis and a bizarre syndrome of self-mutilation.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM > Lesch-Nyhan Syndrome",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Self-mutilation can develop as a complication of which condition?",
+    "options": [
+      "broken red lines",
+      "cancer",
+      "disease",
+      "gout",
+      "Lesch-Nyhan syndrome"
+    ],
+    "answer": "Lesch-Nyhan syndrome",
+    "rationale": "The Lesch-Nyhan syndrome is characterized by frequent episodes of uric acid lithiasis and a bizarre syndrome of self-mutilation.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM > Lesch-Nyhan Syndrome",
+    "relation": "complication_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of von Gierke disease?",
+    "options": [
+      "cellular DNA",
+      "coenzyme A",
+      "purine excess",
+      "pyrimidine",
+      "sodium urate"
+    ],
+    "answer": "purine excess",
+    "rationale": "von Gierke disease involves purine overproduction and hyperuricemia.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM > von Gierke Disease",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of a deficiency?",
+    "options": [
+      "disease",
+      "gout",
+      "Lesch-Nyhan syndrome",
+      "liver damage",
+      "von Gierke disease"
+    ],
+    "answer": "liver damage",
+    "rationale": "A deficiency in xanthine oxidase can be due to severe liver damage.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > DISORDERS OF PURINE METABOLISM > Hypouricemia",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of aciduria?",
+    "options": [
+      "adenosine deaminase",
+      "hypoxanthine-guanine phosphoribosyl",
+      "ornithine transcarbamoylase deficiency",
+      "orotidylate decarboxylase deficiency",
+      "PRPP synthetase"
+    ],
+    "answer": "orotidylate decarboxylase deficiency",
+    "rationale": "Type II orotic aciduria is due to a deficiency only of orotidylate decarboxylase.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > OVERPRODUCTION OF PYRIMIDINE CATABOLITES > Orotic Aciduria",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which of the following is a recognised cause of orotic aciduria?",
+    "options": [
+      "adenosine deaminase",
+      "hypoxanthine-guanine phosphoribosyl",
+      "ornithine transcarbamoylase deficiency",
+      "PRPP synthetase",
+      "purine nucleoside phosphorylase"
+    ],
+    "answer": "ornithine transcarbamoylase deficiency",
+    "rationale": "The deficiency in liver mitochondrial ornithine transcarbamoylase results in mild orotic aciduria.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > OVERPRODUCTION OF PYRIMIDINE CATABOLITES > Deficiency of a Urea Cycle Enzyme Results in Excretion of Pyrimidine Precursors",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "In which structure is the apical membrane found?",
+    "options": [
+      "EC 2.7.6.1",
+      "erythrocytes",
+      "polymorphonuclear leukocytes",
+      "solid lines",
+      "tubular cells"
+    ],
+    "answer": "tubular cells",
+    "rationale": "Two of these encoded proteins are localized to the apical membrane of proximal tubular cells.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides > OVERPRODUCTION OF PYRIMIDINE CATABOLITES > Drugs May Precipitate Orotic Aciduria",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q032",
+    "stem": "IMP is converted into which substance?",
+    "options": [
+      "AMP",
+      "dAMP",
+      "dNDPs",
+      "inosine",
+      "NTPs"
+    ],
+    "answer": "AMP",
+    "rationale": "IMP is a precursor both of AMP and GMP. Glutamine provides the 2-amino group of GMP, and aspartate the 6-amino group of AMP.",
+    "citation": "chapter_33_metabolism_of_purine_and_pyrimidine_nucleotides — Metabolism of Purine & Pyrimidine Nucleotides",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

@@ -14,11 +14,19 @@ the frontend starts a session before the first question and ends it after the la
 grouping is exact rather than heuristic. See src/quiz/attempts.py::record_attempt, which
 takes the session_id returned by start_session().
 
+A session is either scoped to one topic (topic_path given — every question in
+questions_for_topic is fair game, not pinned to a fixed list) or, when topic_path is
+None, a fixed-size due-first batch pinned at start_session() time exactly like
+src.flashcards.sessions.start_session: due-for-review questions (soonest-due) fill the
+batch first, then never-answered questions from the whole bank top up to `size`. The
+topic-scoped path leaves question_uids empty/null since the frontend already fetches
+the full topic list via GET /topics/{path}/questions and doesn't need a pinned batch.
+
 Usage:
     from src.quiz.sessions import start_session, end_session, history_for_student
-    session_id = start_session(driver, student_id, topic_path="CARDIOLOGY > ...")
-    # ... record_attempt(..., session_id=session_id) for each question ...
-    end_session(driver, student_id, session_id)
+    session = start_session(driver, student_id, topic_path="CARDIOLOGY > ...")
+    # ... record_attempt(..., session_id=session["session_id"]) for each question ...
+    end_session(driver, student_id, session["session_id"])
     history_for_student(driver, student_id)
 """
 
@@ -27,7 +35,40 @@ from datetime import datetime
 
 from neo4j import Driver
 
+from src.quiz.attempts import due_for_review
+from src.quiz.bank import QuestionBank
 from src.student_kg.energy import ENERGY_PER_QUIZ_SESSION
+
+DEFAULT_BATCH_SESSION_SIZE = 10
+
+
+def _select_question_uids(
+    driver: Driver,
+    student_id: str,
+    bank: QuestionBank,
+    size: int,
+) -> list[str]:
+    """Due questions first (soonest-due), then never-answered questions from the whole
+    bank, capped at size. Mirrors src.flashcards.sessions._select_card_uids."""
+    all_questions = bank.all()
+    all_uids = {q.uid for q in all_questions}
+
+    due = due_for_review(driver, student_id=student_id, limit=size)
+    due_uids = [r["question_uid"] for r in due if r["question_uid"] in all_uids]
+
+    remaining = size - len(due_uids)
+    new_uids: list[str] = []
+    if remaining > 0:
+        seen = set(due_uids)
+        for question in all_questions:
+            if question.uid in seen:
+                continue
+            new_uids.append(question.uid)
+            if len(new_uids) == remaining:
+                break
+
+    return due_uids + new_uids
+
 
 _START_SESSION_QUERY = """
 MATCH (s:Student {id: $student_id})
@@ -37,6 +78,7 @@ CREATE (sess:InteractionEvent:QuizSession {
     id: $session_id,
     type: "QUIZ_SESSION",
     topic_path: $topic_path,
+    question_uids: $question_uids,
     status: "in_progress",
     started_at: effective_ts,
     ended_at: null,
@@ -49,19 +91,43 @@ CREATE (s)-[:ATTEMPTED]->(sess)
 FOREACH (_ IN CASE WHEN prev IS NOT NULL THEN [1] ELSE [] END | CREATE (prev)-[:NEXT]->(sess))
 DELETE latest
 CREATE (s)-[:LATEST_EVENT]->(sess)
-RETURN sess.id AS session_id
+RETURN sess.id AS session_id, sess.question_uids AS question_uids
 """
 
 
 def start_session(
-    driver: Driver, student_id: str, topic_path: str, ts: datetime | None = None
-) -> str:
-    """Creates a QuizSession event and returns its id. Raises if student_id doesn't match
-    a Student node.
+    driver: Driver,
+    student_id: str,
+    topic_path: str | None = None,
+    bank: QuestionBank | None = None,
+    size: int = DEFAULT_BATCH_SESSION_SIZE,
+    ts: datetime | None = None,
+) -> dict | None:
+    """Creates a QuizSession event and returns {"session_id", "question_uids"}.
+
+    With topic_path given, scopes to that topic — question_uids is left empty since the
+    frontend already fetches the topic's full question list separately; bank/size are
+    unused in this path. Raises if student_id doesn't match a Student node (an
+    already-validated topic_path is assumed, same as before).
+
+    With topic_path None, picks a due-first batch of up to `size` questions across the
+    whole bank (bank is required in this path) and pins it as question_uids, mirroring
+    src.flashcards.sessions.start_session. Returns None if the bank has no questions at
+    all.
 
     `ts` backdates started_at/ts for synthetic history generation (see
     scripts/generate_dummy_interactions.py) — real callers omit it and get datetime().
     """
+    if topic_path is None:
+        assert bank is not None, "bank is required for a cross-topic batch session"
+        question_uids = _select_question_uids(
+            driver, student_id=student_id, bank=bank, size=size
+        )
+        if not question_uids:
+            return None
+    else:
+        question_uids = []
+
     session_id = str(uuid.uuid4())
     with driver.session() as session:
         record = session.run(
@@ -69,10 +135,14 @@ def start_session(
             student_id=student_id,
             session_id=session_id,
             topic_path=topic_path,
+            question_uids=question_uids,
             ts=ts.isoformat() if ts else None,
         ).single()
     assert record, f"session start failed — no student with id={student_id}"
-    return record["session_id"]
+    return {
+        "session_id": record["session_id"],
+        "question_uids": record["question_uids"],
+    }
 
 
 _END_SESSION_QUERY = """

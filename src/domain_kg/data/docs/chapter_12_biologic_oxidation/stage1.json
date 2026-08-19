@@ -1,0 +1,553 @@
+{
+  "doc_id": "chapter_12_biologic_oxidation",
+  "source": {
+    "source_id": "chapter_12_biologic_oxidation",
+    "title": "Overview",
+    "edition": "Harper's Illustrated Biochemistry, 33rd Edition>",
+    "section": "Biologic oxidation involves the principles of oxidation-reduction, the role of oxygen in cellular respiration, and the functions of various enzymes like oxidases and dehydrogenases in energy production.",
+    "page": null,
+    "origin": "chapter_12_biologic_oxidation.md",
+    "generator": "huatuogpt-o1-72b-4bit",
+    "generated_at": "2026-08-13 20:34:35"
+  },
+  "chunks": [
+    {
+      "chunk_id": "c001",
+      "text": "Biologic oxidation is a process that involves the transfer of electrons in living systems.\n\nKathleen M. Botham is the author of Chapter 12 on Biologic Oxidation.",
+      "char_start": 1040,
+      "char_end": 1201,
+      "section_path": [
+        "Overview",
+        "Overview"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "overview"
+    },
+    {
+      "chunk_id": "c002",
+      "text": "Oxidation is defined as the removal of electrons. Reduction is defined as the gain of electrons. Oxidation of a molecule is always accompanied by reduction of a second molecule. Many biologic oxidations can occur without the participation of molecular oxygen. Dehydrogenations are an example of biologic oxidations that do not require molecular oxygen.\n\nHigher animals are absolutely dependent on a supply of oxygen for respiration. Respiration is the process by which cells derive energy in the form of ATP from the controlled reaction of hydrogen with oxygen to form water. Molecular oxygen is incorporated into a variety of substrates by enzymes known as oxygenases. The cytochrome P450 system is a class of enzymes that metabolizes drugs, pollutants, and chemical carcinogens known as xenobiotics. Administration of oxygen can be lifesaving in the treatment of patients with respiratory or circulatory failure.",
+      "char_start": 1228,
+      "char_end": 2142,
+      "section_path": [
+        "Overview",
+        "BIOMEDICAL IMPORTANCE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "biomedical-importance"
+    },
+    {
+      "chunk_id": "c003",
+      "text": "In reactions involving oxidation and reduction, the free energy change is proportionate to the tendency of reactants to donate or accept electrons.\n\nThe redox potentials of some redox systems of special interest in mammalian biochemistry are shown in Table 12-1. The relative positions of redox systems in the table allow prediction of the direction of flow of electrons from one redox couple to another.",
+      "char_start": 2212,
+      "char_end": 2616,
+      "section_path": [
+        "Overview",
+        "FREE ENERGY CHANGES CAN BE EXPRESSED IN TERMS OF REDOX POTENTIAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [
+        "tbl-12-1"
+      ],
+      "section_id": "free-energy-changes-can-be-expressed-in-terms-of-redox"
+    },
+    {
+      "chunk_id": "c004",
+      "text": "The redox potential of the Ubiquinone; ox/red system is +0.10 volts.\nThe redox potential of the Oxygen/water system is +0.82 volts.",
+      "char_start": 2692,
+      "char_end": 2823,
+      "section_path": [
+        "Overview",
+        "FREE ENERGY CHANGES CAN BE EXPRESSED IN TERMS OF REDOX POTENTIAL"
+      ],
+      "kind": "table",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "free-energy-changes-can-be-expressed-in-terms-of-redox"
+    },
+    {
+      "chunk_id": "c005",
+      "text": "Enzymes involved in oxidation and reduction are called oxidoreductases. Oxidoreductases are classified into four groups: oxidases, dehydrogenases, hydroperoxidases, and oxygenases.",
+      "char_start": 2825,
+      "char_end": 3005,
+      "section_path": [
+        "Overview",
+        "FREE ENERGY CHANGES CAN BE EXPRESSED IN TERMS OF REDOX POTENTIAL"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "free-energy-changes-can-be-expressed-in-terms-of-redox"
+    },
+    {
+      "chunk_id": "c006",
+      "text": "Oxidases catalyze the removal of hydrogen from a substrate using oxygen as a hydrogen acceptor. Oxidases form water or hydrogen peroxide as a reaction product (Figure 12-1).",
+      "char_start": 3053,
+      "char_end": 3226,
+      "section_path": [
+        "Overview",
+        "OXIDASES USE OXYGEN AS A HYDROGEN ACCEPTOR"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-12-1"
+      ],
+      "table_refs": [],
+      "section_id": "oxidases-use-oxygen-as-a-hydrogen-acceptor"
+    },
+    {
+      "chunk_id": "c007",
+      "text": "Cytochrome c oxidase is a hemoprotein widely distributed in many tissues.\n\nCytochrome c oxidase has the typical heme prosthetic group present in myoglobin, hemoglobin, and other cytochromes.\n\nCytochrome c oxidase is Complex IV of the chain of respiratory carriers found in mitochondria.\n\nCytochrome c oxidase functions to transfer electrons resulting from the oxidation of substrate molecules by dehydrogenases to their final acceptor, oxygen.\n\nThe cytochrome c oxidase enzyme complex contains two molecules of heme.\n\nThe cytochrome c oxidase enzyme complex contains two atoms of copper.\n\nOne atom of copper is associated with each heme unit in the cytochrome c oxidase enzyme complex.",
+      "char_start": 3472,
+      "char_end": 4157,
+      "section_path": [
+        "Overview",
+        "OXIDASES USE OXYGEN AS A HYDROGEN ACCEPTOR",
+        "Cytochrome Oxidase Is a Hemoprotein"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cytochrome-oxidase-is-a-hemoprotein"
+    },
+    {
+      "chunk_id": "c008",
+      "text": "Flavoprotein enzymes contain flavin mononucleotide (FMN) or flavin adenine dinucleotide (FAD) as prosthetic groups. FMN and FAD are formed in the body from the vitamin riboflavin. FMN and FAD are usually tightly bound to their respective apoenzyme proteins, but not covalently. Metalloflavoproteins contain one or more metals as essential cofactors. L-amino acid oxidase is an example of a flavoprotein oxidase. L-amino acid oxidase is found in the kidney. L-amino acid oxidase catalyzes the oxidative deamination of naturally occurring L-amino acids. Xanthine oxidase is another example of a flavoprotein oxidase. Xanthine oxidase is a molybdenum-containing enzyme. Xanthine oxidase plays an important role in the conversion of purine bases to uric acid. Xanthine oxidase is of particular significance in uricotelic animals. The mechanisms of oxidation and reduction of flavoprotein enzymes are complex. The first step forms a semiquinone intermediate. The reduction reaction involves the reduced flavin becoming oxidized, such as to FAD, and the substrate being reduced (Figure 12–2).",
+      "char_start": 4196,
+      "char_end": 5282,
+      "section_path": [
+        "Overview",
+        "OXIDASES USE OXYGEN AS A HYDROGEN ACCEPTOR",
+        "Other Oxidases Are Flavoproteins"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-12-2"
+      ],
+      "table_refs": [],
+      "section_id": "other-oxidases-are-flavoproteins"
+    },
+    {
+      "chunk_id": "c009",
+      "text": "Dehydrogenase enzymes perform two main functions. Dehydrogenase enzymes transfer hydrogen from one substrate to another in a coupled oxidation-reduction reaction. In this reaction, one substrate is oxidized and another is reduced. The reaction is freely reversible. Reducing equivalents can be transferred within the cell through this reaction. Oxidative processes can occur in the absence of oxygen due to this reaction, such as during the anaerobic phase of glycolysis. Dehydrogenase enzymes transfer electrons from substrate to oxygen in the respiratory chain electron transport system.\n\nDehydrogenase enzymes are part of a large class of enzymes.",
+      "char_start": 5805,
+      "char_end": 6455,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "dehydrogenases-perform-two-main-functions"
+    },
+    {
+      "chunk_id": "c010",
+      "text": "The oxidized forms of both nucleotides have a positive charge on the nitrogen atom of the nicotinamide moiety. The coenzymes are reduced by the specific substrate of the dehydrogenase. The coenzymes are reoxidized by a suitable electron acceptor. The coenzymes are able to freely and reversibly dissociate from their respective apoenzymes.",
+      "char_start": 6514,
+      "char_end": 6853,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+        "Many Dehydrogenases Depend on Nicotinamide Coenzymes"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "many-dehydrogenases-depend-on-nicotinamide-coenzymes"
+    },
+    {
+      "chunk_id": "c011",
+      "text": "When a substrate is oxidized, it loses two hydrogen atoms and two electrons. Many such reactions occur in the oxidative pathways of metabolism, particularly in glycolysis and the citric acid cycle. NADH is generated in these pathways via the oxidation of fuel molecules. The oxidation of NADH leads to the formation of ATP.\n\nNADP-linked dehydrogenases are found characteristically in biosynthetic pathways where reductive reactions are required. NADP-linked dehydrogenases are involved in the extramitochondrial pathway of fatty acid synthesis and steroid synthesis. NADP-linked dehydrogenases are involved in the pentose phosphate pathway. Nicotinamide coenzymes consist of a nicotinamide ring linked to an adenosine via a ribose and a phosphate group, forming a dinucleotide. R, the part of the molecule unchanged in the oxidation/reduction reaction, is shown (Figure 12-3).",
+      "char_start": 6949,
+      "char_end": 7825,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+        "Many Dehydrogenases Depend on Nicotinamide Coenzymes"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-12-3"
+      ],
+      "table_refs": [],
+      "section_id": "many-dehydrogenases-depend-on-nicotinamide-coenzymes"
+    },
+    {
+      "chunk_id": "c012",
+      "text": "Flavin groups such as FMN and FAD are associated with dehydrogenases and oxidases. Flavin groups are generally more tightly bound to their apoenzymes than are the nicotinamide coenzymes.",
+      "char_start": 8179,
+      "char_end": 8365,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+        "Other Dehydrogenases Depend on Riboflavin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "other-dehydrogenases-depend-on-riboflavin"
+    },
+    {
+      "chunk_id": "c013",
+      "text": "Most riboflavin-linked dehydrogenases are involved in electron transport in or to the respiratory chain. NADH dehydrogenase transfers electrons between NADH and components of higher redox potential. Succinate dehydrogenase, acyl-CoA dehydrogenase, and mitochondrial glycerol-3-phosphate dehydrogenase transfer reducing equivalents directly from the substrate to the respiratory chain. Flavin-dependent dehydrogenases are involved in the dehydrogenation of reduced lipoate, an intermediate in the oxidative decarboxylation of pyruvate and α-ketoglutarate. The electron-transferring flavoprotein (ETF) is an intermediary carrier of electrons between acyl-CoA dehydrogenase and the respiratory chain.",
+      "char_start": 8447,
+      "char_end": 9144,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+        "Other Dehydrogenases Depend on Riboflavin"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "other-dehydrogenases-depend-on-riboflavin"
+    },
+    {
+      "chunk_id": "c014",
+      "text": "The cytochromes are iron-containing hemoproteins.\n\nCytochromes are classified as dehydrogenases, except for cytochrome c oxidase.\n\nCytochrome c oxidase is also known as Complex IV.\n\nCytochromes are involved in the respiratory chain as carriers of electrons from flavoproteins to cytochrome c oxidase.\n\nCytochromes are also found in plant cells, bacteria, and yeasts.",
+      "char_start": 9201,
+      "char_end": 9567,
+      "section_path": [
+        "Overview",
+        "DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+        "Cytochromes May Also Be Regarded as Dehydrogenases"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cytochromes-may-also-be-regarded-as-dehydrogenases"
+    },
+    {
+      "chunk_id": "c015",
+      "text": "Hydroperoxidases include peroxidases and catalase, which are found in both animals and plants.\n\nHydroperoxidases protect the body against the harmful effects of reactive oxygen species (ROS).\n\nReactive oxygen species are highly reactive oxygen-containing molecules such as peroxides.\n\nReactive oxygen species are formed during normal metabolism.\n\nIf reactive oxygen species accumulate, they can be damaging.\n\nReactive oxygen species are believed to contribute to the causation of diseases such as cancer and atherosclerosis.\n\nReactive oxygen species are believed to contribute to the aging process in general.",
+      "char_start": 9647,
+      "char_end": 10256,
+      "section_path": [
+        "Overview",
+        "HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "hydroperoxidases-use-hydrogen-peroxide-or-an-organic"
+    },
+    {
+      "chunk_id": "c016",
+      "text": "Peroxidases are found in milk as well as in leukocytes, platelets, and other tissues involved in eicosanoid metabolism. Peroxidases have protoheme as their prosthetic group. Peroxidase catalyzes the reduction of hydrogen peroxide using substances that act as electron acceptors. Ascorbate, quinones, and cytochrome c are examples of electron acceptors in the reaction catalyzed by peroxidase.\n\nGlutathione peroxidase is an enzyme found in erythrocytes and other tissues. Glutathione peroxidase contains selenium as a prosthetic group. The enzyme converts reduced glutathione to its oxidized form. The process of converting reduced glutathione to its oxidized form protects membrane lipids and hemoglobin against oxidation by peroxides.",
+      "char_start": 10324,
+      "char_end": 11059,
+      "section_path": [
+        "Overview",
+        "HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE",
+        "Peroxidases Reduce Peroxides Using Various Electron Acceptors"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "peroxidases-reduce-peroxides-using-various-electron"
+    },
+    {
+      "chunk_id": "c017",
+      "text": "Catalase is a hemoprotein containing four heme groups. Catalase can act as a peroxidase. The reaction is one of the fastest enzyme reactions known. Under most conditions in vivo, the peroxidase activity of catalase seems to be favored.\n\nCatalase is found in blood. Catalase is found in bone marrow. Catalase is found in mucous membranes. Catalase is found in kidney. Catalase is found in liver. Peroxisomes are membrane-bound organelles. Peroxisomes are found in many tissues, including liver. Peroxisomes are rich in oxidases. Peroxisomes are rich in catalase.",
+      "char_start": 11135,
+      "char_end": 11696,
+      "section_path": [
+        "Overview",
+        "HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE",
+        "Catalase Uses Hydrogen Peroxide as Electron Donor & Electron Acceptor"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "catalase-uses-hydrogen-peroxide-as-electron-donor-electron"
+    },
+    {
+      "chunk_id": "c018",
+      "text": "Oxygenases are involved in the synthesis or degradation of many different types of metabolites.\n\nOxygenases catalyze the incorporation of oxygen into a substrate molecule in two steps.\n\nFirst, oxygen is bound to the enzyme at the active site.\n\nSecond, the bound oxygen is reduced or transferred to the substrate.\n\nOxygenases are divided into two subgroups: dioxygenases and monooxygenases.\n\nDioxygenases incorporate both atoms of molecular oxygen into the substrate.\n\nExamples of dioxygenases include homogentisate dioxygenase and 3-hydroxyanthranilate dioxygenase, both liver enzymes that contain iron.\n\nAnother example is L-tryptophan dioxygenase, which utilizes heme.",
+      "char_start": 11775,
+      "char_end": 12445,
+      "section_path": [
+        "Overview",
+        "OXYGENASES CATALYZE THE INCORPORATION OF OXYGEN INTO A SUBSTRATE MOLECULE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "oxygenases-catalyze-the-incorporation-of-oxygen-into-a"
+    },
+    {
+      "chunk_id": "c019",
+      "text": "Monoxygenases, also known as mixed-function oxidases or hydroxylases, incorporate only one atom of molecular oxygen into the substrate.\n\nThe other oxygen atom is reduced to water.\n\nAn additional electron donor or cosubstrate (Z) is necessary for this purpose.\n\nThe reaction can be represented as: $A - H + O _ {2} + Z H _ {2}\nightarrow A - O H + H _ {2} O + Z$.",
+      "char_start": 12570,
+      "char_end": 12931,
+      "section_path": [
+        "Overview",
+        "MONOOXYGENASES (MIXED-FUNCTION OXIDASES, HYDROXYLASES) INCORPORATE ONLY ONE ATOM OF MOLECULAR OXYGEN INTO THE SUBSTRATE"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "monooxygenases-mixed-function-oxidases-hydroxylases"
+    },
+    {
+      "chunk_id": "c020",
+      "text": "Cytochromes P450 are an important superfamily of heme-containing monooxygenases. More than 50 such enzymes have been found in the human genome. They are located mainly in the endoplasmic reticulum in the liver and intestine. They are also found in the mitochondria in some tissues. The cytochromes participate in an electron transport chain. Both NADH and NADPH may donate reducing equivalents in this chain. Electrons are passed to cytochrome P450 in reactions involving FAD or FMN. Class I and II systems are well characterized. Other cytochromes P450, which do not fit into either category, have been identified in recent years. In the final step, oxygen accepts the electrons from cytochrome P450 and is reduced. This series of enzymatic reactions is known as the hydroxylase cycle. The hydroxylase cycle is illustrated in Figure 12–5. Together, they have a major role in drug metabolism and detoxification. The rate of detoxification of many medicinal drugs by cytochromes P450 determines the duration of their action. Benzpyrene, aminopyrine, aniline, morphine, and benzphetamine are hydroxylated by cytochromes P450. This increases their solubility and aids their excretion. Many drugs, such as phenobarbital, have the ability to induce the synthesis of cytochromes P450. Mitochondrial cytochrome P450 systems are found in steroidogenic tissues such as the adrenal cortex, testis, ovary, and placenta. They are concerned with the biosynthesis of steroid hormones from cholesterol. Renal systems catalyze 1α- and 24-hydroxylations of 25-hydroxycholecalciferol in vitamin D metabolism. Cholesterol 7α-hydroxylase and sterol 27-hydroxylase are involved in bile acid biosynthesis from cholesterol in the liver. Most cytochromes P450 are class I or class II (Figure 12–4). Carbon monoxide (CO) inhibits the indicated step in the hydroxylase cycle (Figure 12–5).",
+      "char_start": 13044,
+      "char_end": 14907,
+      "section_path": [
+        "Overview",
+        "MONOOXYGENASES (MIXED-FUNCTION OXIDASES, HYDROXYLASES) INCORPORATE ONLY ONE ATOM OF MOLECULAR OXYGEN INTO THE SUBSTRATE",
+        "Cytochromes P450 Are Monooxygenases Important in Steroid Metabolism & for the Detoxification of Many Drugs"
+      ],
+      "kind": "prose",
+      "figure_refs": [
+        "fig-12-4",
+        "fig-12-5"
+      ],
+      "table_refs": [],
+      "section_id": "cytochromes-p450-are-monooxygenases-important-in-steroid"
+    },
+    {
+      "chunk_id": "c021",
+      "text": "FADH2 facilitates the reduction of Fe3+ to Fe2+ in the Fe2S2 cluster.\nFe2+ in the Fe2S2 cluster participates in the reaction O2 + RH → H2O + ROH in the P450 system.\nFAD → FMN → FMNH2 in P450 reductase enables the reaction O2 + RH → H2O + ROH in the P450 system.\nThe reaction O2 + RH → H2O + ROH in the P450 system leads to the involvement of Class II P450.",
+      "char_start": 15030,
+      "char_end": 15386,
+      "section_path": [
+        "Overview",
+        "MONOOXYGENASES (MIXED-FUNCTION OXIDASES, HYDROXYLASES) INCORPORATE ONLY ONE ATOM OF MOLECULAR OXYGEN INTO THE SUBSTRATE",
+        "Cytochromes P450 Are Monooxygenases Important in Steroid Metabolism & for the Detoxification of Many Drugs"
+      ],
+      "kind": "figure_content",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "cytochromes-p450-are-monooxygenases-important-in-steroid"
+    },
+    {
+      "chunk_id": "c022",
+      "text": "Superoxide dismutase (SOD) protects aerobic organisms against oxygen toxicity. Superoxide dismutase (SOD) is an enzyme that removes superoxide in all aerobic organisms. Superoxide dismutase (SOD) does not occur in obligate anaerobes. Superoxide can initiate free-radical chain reactions, amplifying its destructive effects. Superoxide is formed when reduced flavins are reoxidized univalently by molecular oxygen. Reduced flavins are present in enzymes like xanthine oxidase. Superoxide can reduce oxidized cytochrome c. Superoxide acts as both an oxidant and a reductant in its reactions. Superoxide dismutase (SOD) catalyzes the conversion of superoxide to molecular oxygen and hydrogen peroxide. Superoxide dismutase (SOD) is present in all major aerobic tissues, including the mitochondria and the cytosol. Exposure of animals to 100% oxygen causes an adaptive increase in SOD, particularly in the lungs. Prolonged exposure to 100% oxygen leads to lung damage and death. Antioxidants reduce the toxicity of oxygen.",
+      "char_start": 15737,
+      "char_end": 16755,
+      "section_path": [
+        "Overview",
+        "SUPEROXIDE DISMUTASE PROTECTS AEROBIC ORGANISMS AGAINST OXYGEN TOXICITY"
+      ],
+      "kind": "prose",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": "superoxide-dismutase-protects-aerobic-organisms-against"
+    },
+    {
+      "chunk_id": "c023",
+      "text": "In biologic systems, as in chemical systems, oxidation (loss of electrons) is always accompanied by reduction of an electron acceptor.\nOxidoreductases have a variety of functions in metabolism; oxidases and dehydrogenases play major roles in respiration; hydroperoxidases protect the body against damage by free radicals; and oxygenases mediate the hydroxylation of drugs and steroids.\nTissues are protected from oxygen toxicity caused by the superoxide free radical by the specific enzyme superoxide dismutase.",
+      "char_start": 16757,
+      "char_end": 17268,
+      "section_path": [
+        "Overview"
+      ],
+      "kind": "summary",
+      "figure_refs": [],
+      "table_refs": [],
+      "section_id": ""
+    }
+  ],
+  "figures": [
+    {
+      "fig_id": "fig-12-1",
+      "image_path": "images/5e81ac3f9e25837f3b8d6bd4ab315dcf5eb3e80081acd716b5cb6a2fe03a496c.jpg",
+      "caption": "Oxidation of a metabolite catalyzed by an oxidase (A) forming H2O and (B) forming H2O2 .",
+      "referenced_from": "c006",
+      "marker": "[FIGURE:fig-12-1]",
+      "description": "",
+      "label": "Figure 12-1",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3247,
+        3335
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "oxidases-use-oxygen-as-a-hydrogen-acceptor"
+    },
+    {
+      "fig_id": "fig-x2",
+      "image_path": "images/cf9d913a4533f97d60996bec2513252843284be928ae003511ee4058906e95f3.jpg",
+      "caption": "Diagram illustrates the oxidation of OH2 to O2 and H2O2, forming an oxidase.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x2]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        3354,
+        3430
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "oxidases-use-oxygen-as-a-hydrogen-acceptor"
+    },
+    {
+      "fig_id": "fig-12-2",
+      "image_path": "images/07a1bde3830a766af399ea40e2c1a3a09cfea653b610e3b32f1d4fe4f4f140c0.jpg",
+      "caption": "Oxidoreduction of isoalloxazine ring in flavin nucleotides via a semiquinone intermediate. In oxidation reactions, the flavin (eg, FAD) accepts two electrons and two H+ in two steps, forming the semiquinone intermediate followed by the reduced flavin (eg, FADH2 ) and the substrate is oxidized. In the reverse (reduction) reaction, the reduced flavin gives up two electrons and two H+ so that it becomes oxidized (eg, to FAD) and the substrate is reduced.",
+      "referenced_from": "c008",
+      "marker": "[FIGURE:fig-12-2]",
+      "description": "",
+      "label": "Figure 12-2",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        5303,
+        5758
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "other-oxidases-are-flavoproteins"
+    },
+    {
+      "fig_id": "fig-x5",
+      "image_path": "images/b6002808a81e0c7621b195786e2b897690d16549f959166cec73a3c5af0c57ba.jpg",
+      "caption": "NAD+ is added to form a carboxylic acid and NADH in this chemical reaction.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x5]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        6872,
+        6947
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-dehydrogenases-depend-on-nicotinamide-coenzymes"
+    },
+    {
+      "fig_id": "fig-12-3",
+      "image_path": "images/bb0d6b15824531b3fb84d41d56a817ab9c8589f2dcab386e2797f9be96129483.jpg",
+      "caption": "Oxidation and reduction of nicotinamide coenzymes. Nicotinamide coenzymes consist of a nicotinamide ring linked to an adenosine via a ribose and a phosphate group, forming a dinucleotide. NAD + /NADH are shown. R, the part of the molecule unchanged in the oxidation/reduction reaction.",
+      "referenced_from": "c011",
+      "marker": "[FIGURE:fig-12-3]",
+      "description": "",
+      "label": "Figure 12-3",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        7846,
+        8131
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "many-dehydrogenases-depend-on-nicotinamide-coenzymes"
+    },
+    {
+      "fig_id": "fig-x6",
+      "image_path": "images/b2cc89909d9c25e10006f74114094ed1ff5cf0ed29e801e5d992cda265f87b3f.jpg",
+      "caption": "FAD reacts with a ketone to form a carboxylic acid and FADH₂.",
+      "referenced_from": "",
+      "marker": "[FIGURE:fig-x6]",
+      "description": "",
+      "label": "",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        8384,
+        8445
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "other-dehydrogenases-depend-on-riboflavin"
+    },
+    {
+      "fig_id": "fig-12-4",
+      "image_path": "images/b91d8bc1362db98fa352bd637ae648936bcc1ae6a08121a69f39c6d3c3608dc9.jpg",
+      "caption": "Cytochromes P450 and b5 in the endoplasmic reticulum. Most cytochromes P450 are class I or class II.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-12-4]",
+      "description": "FADH2 facilitates the reduction of Fe3+ to Fe2+ in the Fe2S2 cluster.\nFe2+ in the Fe2S2 cluster participates in the reaction O2 + RH → H2O + ROH in the P450 system.\nFAD → FMN → FMNH2 in P450 reductase enables the reaction O2 + RH → H2O + ROH in the P450 system.\nThe reaction O2 + RH → H2O + ROH in the P450 system leads to the involvement of Class II P450.",
+      "label": "Figure 12-4",
+      "panel": "",
+      "content_chunk": "c021",
+      "caption_span": [
+        14928,
+        15028
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cytochromes-p450-are-monooxygenases-important-in-steroid"
+    },
+    {
+      "fig_id": "fig-12-5",
+      "image_path": "images/7531504b409a3a16119940f0c6572ca152b753c280bba44015ebd867b5169374.jpg",
+      "caption": "Cytochrome P450 hydroxylase cycle. The system shown is typical of steroid hydroxylases of the adrenal cortex. Liver microsomal cytochrome P450 hydroxylase does not require the iron-sulfur protein Fe2S2 . Carbon monoxide (CO) inhibits the indicated step.",
+      "referenced_from": "c020",
+      "marker": "[FIGURE:fig-12-5]",
+      "description": "",
+      "label": "Figure 12-5",
+      "panel": "",
+      "content_chunk": "",
+      "caption_span": [
+        15407,
+        15660
+      ],
+      "description_span": null,
+      "depicts": [],
+      "section_id": "cytochromes-p450-are-monooxygenases-important-in-steroid"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "tbl-12-1",
+      "label": "Table 12-1",
+      "caption": "Some Redox Potentials of Special Interest in Mammalian Oxidation Systems",
+      "referenced_from": "c003",
+      "content_chunk": "c004",
+      "caption_span": [
+        2618,
+        2690
+      ],
+      "section_id": "free-energy-changes-can-be-expressed-in-terms-of-redox"
+    }
+  ],
+  "spans": [],
+  "relations": [],
+  "instances": [],
+  "passages": [
+    {
+      "passage_id": "p001",
+      "kind": "objective",
+      "text": "Explain the meaning of redox potential and how it can be used to predict the direction of flow of electrons in biologic systems.\nIdentify the four classes of enzymes (oxidoreductases) involved in oxidation and reduction reactions.\nDescribe the action of oxidases and how they play an important role in metabolism.\nIndicate the two main functions of dehydrogenases and explain the importance of nicotinamide adenine dinucleotide (NAD)- and riboflavin-linked dehydrogenases in metabolic pathways such as glycolysis, the citric acid cycle, and the respiratory chain.\nIdentify the two types of enzymes classified as hydroperoxidases; indicate the reactions they catalyze and explain why they are important.\nGive the two steps of reactions catalyzed by oxygenases and identify the two subgroups of this class of enzymes.\nAppreciate the role of cytochrome P450 in drug detoxification and steroid synthesis.\nDescribe the reaction catalyzed by superoxide dismutase and explain how it protects tissues from oxygen toxicity.",
+      "char_start": 12,
+      "char_end": 1026,
+      "section_path": [
+        "Overview"
+      ],
+      "section_id": ""
+    }
+  ],
+  "needs_review": [
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x2",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x5",
+      "reason": "figure never anchored in prose"
+    },
+    {
+      "stage": "stage1-figure",
+      "fig_id": "fig-x6",
+      "reason": "figure never anchored in prose"
+    }
+  ],
+  "source_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/inputs/chapter_12_biologic_oxidation.md",
+  "normalized_path": "/opt/jupyter-homes/u257963335/work/org.iosda.id.aml1.c2/knowledge-graph-pipeline/artifacts/docs/chapter_12_biologic_oxidation/chapter_12_biologic_oxidation.normalized.md"
+}

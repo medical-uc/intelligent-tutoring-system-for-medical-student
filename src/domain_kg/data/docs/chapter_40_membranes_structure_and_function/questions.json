@@ -1,0 +1,715 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Phosphate is converted into which substance?",
+    "options": [
+      "aqueous",
+      "glucose",
+      "inorganic anion",
+      "oxygen",
+      "phosphorylcholine"
+    ],
+    "answer": "inorganic anion",
+    "rationale": "Phosphate is the major inorganic anion in the internal environment.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MAINTENANCE OF A NORMAL INTRA- & EXTRACELLULAR ENVIRONMENT IS FUNDAMENTAL TO LIFE > The Ionic Compositions of Intracellular & Extracellular Fluids Differ Greatly",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Phosphoglycerides require which substance?",
+    "options": [
+      "aqueous",
+      "glucose",
+      "glycerol-phosphate",
+      "inorganic anion",
+      "oxygen"
+    ],
+    "answer": "glycerol-phosphate",
+    "rationale": "Phosphoglycerides consist of a glycerol-phosphate backbone. Two fatty acids are attached to the glycerol-phosphate backbone in ester linkages.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Phospholipids",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Phosphatidic acid is converted into which substance?",
+    "options": [
+      "1,2-diacylglycerol 3-phosphate",
+      "human body",
+      "intracellular Fluid",
+      "sphingosine",
+      "sterol"
+    ],
+    "answer": "1,2-diacylglycerol 3-phosphate",
+    "rationale": "Phosphatidic acid is a 1,2-diacylglycerol 3-phosphate. Phosphatidic acid is a key intermediate in the formation of other phosphoglycerides.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Phospholipids",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Glycerol-phosphate requires which substance?",
+    "options": [
+      "alcohol",
+      "aqueous",
+      "glucose",
+      "inorganic anion",
+      "oxygen"
+    ],
+    "answer": "alcohol",
+    "rationale": "In most phosphoglycerides present in membranes, the 3-phosphate is esterified to an alcohol. The alcohol can be choline, ethanolamine, glycerol, inositol, or serine.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Phospholipids",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Fatty acids are converted into which substance?",
+    "options": [
+      "1,2-diacylglycerol 3-phosphate",
+      "human body",
+      "intracellular Fluid",
+      "sphingosine",
+      "sterol"
+    ],
+    "answer": "sphingosine",
+    "rationale": "A fatty acid is attached by an amide linkage to the amino group of sphingosine, forming ceramide. When the primary hydroxyl group of sphingosine is esterified to phosphorylcholine, sphingomyelin is formed.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Phospholipids",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Hydroxyl is converted into which substance?",
+    "options": [
+      "aqueous",
+      "glucose",
+      "inorganic anion",
+      "oxygen",
+      "phosphorylcholine"
+    ],
+    "answer": "phosphorylcholine",
+    "rationale": "When the primary hydroxyl group of sphingosine is esterified to phosphorylcholine, sphingomyelin is formed. Sphingomyelin is prominent in myelin sheaths.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Phospholipids",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Cholesterol is converted into which substance?",
+    "options": [
+      "1,2-diacylglycerol 3-phosphate",
+      "human body",
+      "intracellular Fluid",
+      "sphingosine",
+      "sterol"
+    ],
+    "answer": "sterol",
+    "rationale": "Cholesterol is the most common sterol in the membranes of animal cells.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Sterols",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Sarcoplasmic reticulum is found within which structure?",
+    "options": [
+      "excitation-response",
+      "head groups",
+      "inner leaflet",
+      "leaflet",
+      "muscle"
+    ],
+    "answer": "muscle",
+    "rationale": "The sarcoplasmic reticulum of muscle cells contains less than a dozen very abundant proteins.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Different Membranes Have Different Protein Compositions",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Phosphatidylserine is found within which structure?",
+    "options": [
+      "excitation-response",
+      "head groups",
+      "inner leaflet",
+      "leaflets",
+      "muscle"
+    ],
+    "answer": "inner leaflet",
+    "rationale": "Phosphatidylserine is preferentially located in the inner leaflet.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Membranes Are Asymmetric Structures",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Phosphatidylethanolamine is found within which structure?",
+    "options": [
+      "excitation-response",
+      "head groups",
+      "inner leaflet",
+      "leaflets",
+      "muscle"
+    ],
+    "answer": "inner leaflet",
+    "rationale": "Phosphatidylethanolamine is preferentially located in the inner leaflet.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Membranes Are Asymmetric Structures",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "In which structure are peripheral proteins typically found?",
+    "options": [
+      "excitation-response",
+      "head groups",
+      "inner leaflet",
+      "leaflet",
+      "muscle"
+    ],
+    "answer": "head groups",
+    "rationale": "Peripheral proteins are bound to the hydrophilic regions of specific integral proteins and the head groups of phospholipids.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Membranes Contain Integral & Peripheral Proteins",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "In which structure is spectrin typically found?",
+    "options": [
+      "cells",
+      "epithelial cells",
+      "erythrocyte",
+      "hybrid cells",
+      "lipid rafts"
+    ],
+    "answer": "erythrocyte",
+    "rationale": "Spectrin, a cytoskeletal structure within the erythrocyte, is bound to ankyrin.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANES ARE COMPLEX STRUCTURES COMPOSED OF LIPIDS, PROTEINS, & CARBOHYDRATE-CONTAINING MOLECULES > Membranes Contain Integral & Peripheral Proteins",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which substance is typically synthesised by a bilayer?",
+    "options": [
+      "extracellular fluid",
+      "human body",
+      "intracellular Fluid",
+      "lipids",
+      "plasma"
+    ],
+    "answer": "lipids",
+    "rationale": "The lipids in these vesicles form a bilayer. The structures created by the lipids are known as liposomes.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > ARTIFICIAL MEMBRANES BOTH ALLOW INVESTIGATORS TO MODEL MEMBRANE FUNCTION AND PROVIDE METHODS FOR THE EFFICIENT FORMATION OF LIPID NANOPARTICLES THAT ARE POTENT DRUG DELIVERY SYSTEMS",
+    "relation": "synthesizes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "In which structure are lipid rafts typically found?",
+    "options": [
+      "excitation-response",
+      "head groups",
+      "leaflet",
+      "muscle",
+      "myelin"
+    ],
+    "answer": "leaflet",
+    "rationale": "Lipid rafts are specialized areas of the exoplasmic (outer) leaflet of the lipid bilayer enriched in cholesterol, sphingolipids, and certain proteins (Figure 40--8).",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > THE FLUID MOSAIC MODEL OF MEMBRANE STRUCTURE > Lipid Rafts, Caveolae, & Tight Junctions Are Specialized Features of Plasma Membranes",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "In which structure are tight junctions typically found?",
+    "options": [
+      "epithelial cells",
+      "erythrocyte",
+      "hybrid cells",
+      "lipid rafts",
+      "neuronal cells"
+    ],
+    "answer": "epithelial cells",
+    "rationale": "Tight junctions are often located below the apical surfaces of epithelial cells. Tight junctions prevent the diffusion of macromolecules between cells.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > THE FLUID MOSAIC MODEL OF MEMBRANE STRUCTURE > Lipid Rafts, Caveolae, & Tight Junctions Are Specialized Features of Plasma Membranes",
+    "relation": "located_in",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognised cause of nephrogenic diabetes insipidus?",
+    "options": [
+      "AP-2",
+      "copper-dependent ATPase",
+      "fibroblast growth factor receptor 3",
+      "LDL-bound LDL receptor",
+      "spectrin"
+    ],
+    "answer": "AP-2",
+    "rationale": "Mutations in the gene encoding AP-2 have been shown to be the cause of one type of nephrogenic diabetes insipidus.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MEMBRANE SELECTIVITY ALLOWS ADJUSTMENTS OF CELL COMPOSITION & FUNCTION > Aquaporins Are Proteins That Form Water Channels in Certain Membranes",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Which of the following is a recognised cause of cystic fibrosis?",
+    "options": [
+      "CFTR",
+      "GSLs",
+      "ICF",
+      "p",
+      "specific deficiencies"
+    ],
+    "answer": "CFTR",
+    "rationale": "The CFTR is implicated in the causation of cystic fibrosis.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > ACTIVE TRANSPORT SYSTEMS REQUIRE A SOURCE OF ENERGY",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which structure does myelin form a part of?",
+    "options": [
+      "epithelial cells",
+      "erythrocyte",
+      "hybrid cells",
+      "lipid rafts",
+      "schwann cells"
+    ],
+    "answer": "schwann cells",
+    "rationale": "Myelin sheets, formed by Schwann cells, wrap around nerve fibers and provide an electrical insulator that surrounds most of the nerve.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > TRANSMISSION OF NERVE IMPULSES INVOLVES ION CHANNELS & PUMPS",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which substance is transported by glucose transporters?",
+    "options": [
+      "actin cytoskeleton",
+      "amino acids",
+      "cysteine",
+      "GLUT4",
+      "serine"
+    ],
+    "answer": "GLUT4",
+    "rationale": "In adipocytes and skeletal muscle, glucose enters by a specific transport system (GLUT4). In adipocytes and skeletal muscle, the transport system (GLUT4) is enhanced by insulin.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > TRANSPORT OF GLUCOSE INVOLVES SEVERAL MECHANISMS",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which substance is transported by the LDL-bound LDL receptor complex?",
+    "options": [
+      "asialoglycoproteins",
+      "cholesterol-containing low-density lipoprotein",
+      "fatty acids",
+      "human body",
+      "phospholipids"
+    ],
+    "answer": "cholesterol-containing low-density lipoprotein",
+    "rationale": "The cholesterol-containing low-density lipoprotein (LDL) molecule and its receptor are internalized via coated pits containing the LDL receptor. Endocytotic vesicles containing the LDL-bound LDL receptor complex fuse with lysosomes in the cell.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > CELLS TRANSPORT CERTAIN MACROMOLECULES ACROSS THE PLASMA MEMBRANE BY ENDOCYTOSIS & EXOCYTOSIS > Endocytosis Involves Ingestion of Parts of the Plasma Membrane",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Which substance is transported by hepatocytes through absorptive pinocytosis?",
+    "options": [
+      "asialoglycoproteins",
+      "cholesterol-containing low-density lipoprotein",
+      "fatty acids",
+      "human body",
+      "phospholipids"
+    ],
+    "answer": "asialoglycoproteins",
+    "rationale": "A galactosyl receptor on the surface of hepatocytes facilitates the absorptive pinocytosis of asialoglycoproteins from the circulation. Acid hydrolases taken up by absorptive pinocytosis in fibroblasts are recognized by their mannose-6-phosphate moieties.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > CELLS TRANSPORT CERTAIN MACROMOLECULES ACROSS THE PLASMA MEMBRANE BY ENDOCYTOSIS & EXOCYTOSIS > Endocytosis Involves Ingestion of Parts of the Plasma Membrane",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "Which of the following is a recognised cause of achondroplasia?",
+    "options": [
+      "AP-2",
+      "copper-dependent ATPase",
+      "fibroblast growth factor receptor 3",
+      "LDL-bound LDL receptor",
+      "spectrin"
+    ],
+    "answer": "fibroblast growth factor receptor 3",
+    "rationale": "Achondroplasia (OMIM 100800) results from mutations in the gene encoding the fibroblast growth factor receptor 3.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "Which of the following is a recognised cause of hypercholesterolemia?",
+    "options": [
+      "AP-2",
+      "copper-dependent ATPase",
+      "fibroblast growth factor receptor 3",
+      "LDL-bound LDL receptor",
+      "spectrin"
+    ],
+    "answer": "LDL-bound LDL receptor",
+    "rationale": "Familial hypercholesterolemia (OMIM 143890) is caused by mutations in the gene encoding the LDL receptor.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "Which of the following is a recognised cause of fibrosis?",
+    "options": [
+      "CFTR",
+      "GSLs",
+      "ICF",
+      "p",
+      "specific deficiencies"
+    ],
+    "answer": "CFTR",
+    "rationale": "Cystic fibrosis (OMIM 219700) arises from mutations in the gene encoding the CFTR protein, a Cl-transporter.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Which of the following is a recognised cause of long QT syndrome?",
+    "options": [
+      "excitation-response",
+      "heart",
+      "leaflet",
+      "leaflets",
+      "myelin"
+    ],
+    "answer": "heart",
+    "rationale": "Congenital long QT syndrome (OMIM 192500) is due to mutations in genes encoding ion channels in the heart.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Which of the following is a recognised cause of Wilson disease?",
+    "options": [
+      "AP-2",
+      "copper-dependent ATPase",
+      "fibroblast growth factor receptor 3",
+      "LDL-bound LDL receptor",
+      "spectrin"
+    ],
+    "answer": "copper-dependent ATPase",
+    "rationale": "Wilson disease (OMIM 277900) is attributed to mutations in the gene encoding a copper-dependent ATPase.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Which of the following is a recognised cause of I-cell disease?",
+    "options": [
+      "aqueous",
+      "GlcNAc",
+      "glucose",
+      "oxygen",
+      "phosphate"
+    ],
+    "answer": "GlcNAc",
+    "rationale": "I-cell disease (OMIM 252500) results from mutations in the gene encoding GlcNAc phosphotransferase, leading to the absence of the Man 6-P signal for lysosomal localization of certain hydrolases.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Which of the following is a recognised cause of hereditary spherocytosis?",
+    "options": [
+      "AP-2",
+      "copper-dependent ATPase",
+      "fibroblast growth factor receptor 3",
+      "LDL-bound LDL receptor",
+      "spectrin"
+    ],
+    "answer": "spectrin",
+    "rationale": "Hereditary spherocytosis (OMIM 182900) is caused by mutations in the genes encoding spectrin or other structural proteins in the red cell membrane.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "Which of the following is a recognised cause of fat maldigestion?",
+    "options": [
+      "CFTR",
+      "fibrosis",
+      "ICF",
+      "p",
+      "specific deficiencies"
+    ],
+    "answer": "fibrosis",
+    "rationale": "Cystic fibrosis causes fat maldigestion due to pancreatic exocrine insufficiency.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES > Cystic Fibrosis Is Due to Mutations in the Gene Encoding CFTR, a Chloride Transporter",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q030",
+    "stem": "Which of the following is a recognised cause of infertility in males?",
+    "options": [
+      "CFTR",
+      "fibrosis",
+      "ICF",
+      "p",
+      "specific deficiencies"
+    ],
+    "answer": "fibrosis",
+    "rationale": "Cystic fibrosis leads to infertility in males due to abnormal development of the vas deferens.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview > MUTATIONS AFFECTING MEMBRANE PROTEINS CAUSE DISEASES > Cystic Fibrosis Is Due to Mutations in the Gene Encoding CFTR, a Chloride Transporter",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q031",
+    "stem": "Which structure in a mammalian cell is defined by a membrane?",
+    "options": [
+      "adipocytes",
+      "cells",
+      "erythrocyte",
+      "lipid rafts",
+      "peripheral hydrophobic regions"
+    ],
+    "answer": "cells",
+    "rationale": "The 20 or so membranes in a mammalian cell have different compositions and functions and they define essential compartments, or specialized environments, within the cell that have specific functions.",
+    "citation": "chapter_40_membranes_structure_and_function — Overview",
+    "relation": "part_of",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

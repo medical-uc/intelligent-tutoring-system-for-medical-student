@@ -1,0 +1,255 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "FAD is converted into which substance?",
+    "options": [
+      "ATP",
+      "flavins",
+      "hydrogen peroxide",
+      "oxygen",
+      "ubiquinone"
+    ],
+    "answer": "flavins",
+    "rationale": "FMN and FAD are formed in the body from the vitamin riboflavin. FMN and FAD are usually tightly bound to their respective apoenzyme proteins, but not covalently.",
+    "citation": "chapter_12_biologic_oxidation — Overview > OXIDASES USE OXYGEN AS A HYDROGEN ACCEPTOR > Other Oxidases Are Flavoproteins",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "Dehydrogenases act on which substrate?",
+    "options": [
+      "flavin",
+      "heme",
+      "hydrogen",
+      "quinones",
+      "superoxide"
+    ],
+    "answer": "hydrogen",
+    "rationale": "Dehydrogenase enzymes transfer hydrogen from one substrate to another in a coupled oxidation-reduction reaction. In this reaction, one substrate is oxidized and another is reduced.",
+    "citation": "chapter_12_biologic_oxidation — Overview > DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "Which substance is transported by electron-transferring flavoprotein?",
+    "options": [
+      "acyl-CoA dehydrogenase",
+      "cytochromes P450",
+      "dehydrogenases",
+      "oxygenases",
+      "peroxidase"
+    ],
+    "answer": "acyl-CoA dehydrogenase",
+    "rationale": "The electron-transferring flavoprotein (ETF) is an intermediary carrier of electrons between acyl-CoA dehydrogenase and the respiratory chain.",
+    "citation": "chapter_12_biologic_oxidation — Overview > DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS > Other Dehydrogenases Depend on Riboflavin",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "Which substance is transported by ETF?",
+    "options": [
+      "acyl-CoA dehydrogenase",
+      "cytochromes P450",
+      "dehydrogenases",
+      "oxygenases",
+      "peroxidase"
+    ],
+    "answer": "acyl-CoA dehydrogenase",
+    "rationale": "The electron-transferring flavoprotein (ETF) is an intermediary carrier of electrons between acyl-CoA dehydrogenase and the respiratory chain.",
+    "citation": "chapter_12_biologic_oxidation — Overview > DEHYDROGENASES PERFORM TWO MAIN FUNCTIONS > Other Dehydrogenases Depend on Riboflavin",
+    "relation": "transports",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which of the following is a recognised cause of cancer?",
+    "options": [
+      "flavin",
+      "heme",
+      "hydrogen",
+      "reactive oxygen species accumulate",
+      "superoxide"
+    ],
+    "answer": "reactive oxygen species accumulate",
+    "rationale": "Reactive oxygen species are believed to contribute to the causation of diseases such as cancer and atherosclerosis.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which of the following is a recognised cause of atherosclerosis?",
+    "options": [
+      "flavin",
+      "heme",
+      "hydrogen",
+      "reactive oxygen species accumulate",
+      "superoxide"
+    ],
+    "answer": "reactive oxygen species accumulate",
+    "rationale": "Reactive oxygen species are believed to contribute to the causation of diseases such as cancer and atherosclerosis.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "Peroxidase acts on which substrate?",
+    "options": [
+      "flavin",
+      "heme",
+      "hydrogen",
+      "quinones",
+      "superoxide"
+    ],
+    "answer": "quinones",
+    "rationale": "Ascorbate, quinones, and cytochrome c are examples of electron acceptors in the reaction catalyzed by peroxidase.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE > Peroxidases Reduce Peroxides Using Various Electron Acceptors",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "Catalase acts on which substrate?",
+    "options": [
+      "cytochromes",
+      "cytochromes P450",
+      "dehydrogenases",
+      "oxygenases",
+      "peroxidase"
+    ],
+    "answer": "peroxidase",
+    "rationale": "Catalase can act as a peroxidase.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE > Catalase Uses Hydrogen Peroxide as Electron Donor & Electron Acceptor",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Catalase is found within which structure?",
+    "options": [
+      "adrenal cortex",
+      "intestine",
+      "mucous membranes",
+      "testis",
+      "tissues"
+    ],
+    "answer": "mucous membranes",
+    "rationale": "Catalase is found in mucous membranes.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE > Catalase Uses Hydrogen Peroxide as Electron Donor & Electron Acceptor",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "Which substance is stored in peroxisomes?",
+    "options": [
+      "catalase",
+      "cytochromes P450",
+      "dehydrogenases",
+      "oxygenases",
+      "peroxidase"
+    ],
+    "answer": "catalase",
+    "rationale": "Peroxisomes are rich in catalase.",
+    "citation": "chapter_12_biologic_oxidation — Overview > HYDROPEROXIDASES USE HYDROGEN PEROXIDE OR AN ORGANIC PEROXIDE AS SUBSTRATE > Catalase Uses Hydrogen Peroxide as Electron Donor & Electron Acceptor",
+    "relation": "stores",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of oxygen toxicity?",
+    "options": [
+      "flavin",
+      "heme",
+      "hydrogen",
+      "purine",
+      "superoxide"
+    ],
+    "answer": "superoxide",
+    "rationale": "Tissues are protected from oxygen toxicity caused by the superoxide free radical by the specific enzyme superoxide dismutase.",
+    "citation": "chapter_12_biologic_oxidation — Overview",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  }
+]

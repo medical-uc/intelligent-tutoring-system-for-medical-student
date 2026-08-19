@@ -1,0 +1,462 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "Which condition is triacylglycerol a risk factor for?",
+    "options": [
+      "gaucher disease",
+      "hyperlipoproteinemia",
+      "inflammation",
+      "respiratory distress syndrome",
+      "Tay-Sachs disease"
+    ],
+    "answer": "hyperlipoproteinemia",
+    "rationale": "Triacylglycerols are involved in diseases such as obesity, diabetes, and hyperlipoproteinemia.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > BIOMEDICAL IMPORTANCE",
+    "relation": "risk_factor_for",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "What substance is triacylglycerol converted into?",
+    "options": [
+      "choline",
+      "fat",
+      "glycerol",
+      "glycosphingolipids",
+      "phosphatidylcholine"
+    ],
+    "answer": "glycerol",
+    "rationale": "Triacylglycerols must be hydrolyzed by a lipase to their constituent fatty acids and glycerol before further catabolism can proceed.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > HYDROLYSIS INITIATES CATABOLISM OF TRIACYLGLYCEROLS",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "What substance is glycerol-3-phosphate converted into?",
+    "options": [
+      "fatty acids",
+      "phosphatidate",
+      "phosphatidylethanolamine",
+      "phospholipids",
+      "sphingomyelin"
+    ],
+    "answer": "phosphatidylethanolamine",
+    "rationale": "Glycerol-3-phosphate is a precursor for the formation of phosphatidylethanolamine.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "What substance is required for glycerol activation?",
+    "options": [
+      "ATP",
+      "dipalmitoyl-phosphatidylcholine",
+      "fat",
+      "glycosphingolipids",
+      "lung surfactant"
+    ],
+    "answer": "ATP",
+    "rationale": "Both glycerol and fatty acid components must be activated by ATP before they can be incorporated into acylglycerols.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "What substance is phosphatidate converted into?",
+    "options": [
+      "cardiolipin",
+      "fatty acids",
+      "phosphatidylethanolamine",
+      "phosphatidylinositol",
+      "triacylglycerol"
+    ],
+    "answer": "triacylglycerol",
+    "rationale": "Phosphatidate is converted to triacylglycerol in two steps.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Biosynthesis of Triacylglycerols",
+    "relation": "converts_to",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "What substrate does monoacylglycerol acyltransferase act on?",
+    "options": [
+      "1,2-diacylglycerol",
+      "dipalmitoyl-phosphatidylcholine",
+      "fat",
+      "glycerol-3-phosphate",
+      "lung surfactant"
+    ],
+    "answer": "1,2-diacylglycerol",
+    "rationale": "In the intestinal mucosa, monoacylglycerol acyltransferase converts monoacylglycerol to 1,2-diacylglycerol in the monoacylglycerol pathway.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Biosynthesis of Triacylglycerols",
+    "relation": "catalyzes",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What substance is phosphatidylcholine converted into?",
+    "options": [
+      "1,2-diacylglycerol",
+      "choline",
+      "fat",
+      "glycerol",
+      "glycosphingolipids"
+    ],
+    "answer": "choline",
+    "rationale": "An alternative pathway in the liver enables phosphatidylethanolamine to give rise directly to phosphatidylcholine by progressive methylation of the ethanolamine residue. Despite these endogenous sources, choline is considered an essential nutrient for humans and other mammals.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Biosynthesis of Phospholipids",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What substance is dihydroxyacetone phosphate converted into?",
+    "options": [
+      "fatty acids",
+      "phosphatidate",
+      "phosphatidylethanolamine",
+      "phosphatidylinositol",
+      "triacylglycerol"
+    ],
+    "answer": "phosphatidate",
+    "rationale": "1-Alkyldihydroxyacetone phosphate is then converted to 1-alkylglycerol 3-phosphate. After further acylation in the 2 position, the resulting 1-alkyl-2-acylglycerol 3-phosphate is hydrolyzed to give 1-alkyl-2-acylglycerol.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Biosynthesis of Glycerol Ether Phospholipids",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "What substrate does acyltransferase act on?",
+    "options": [
+      "acyl-CoA",
+      "lipid",
+      "phosphatidate",
+      "phospholipids",
+      "triacylglycerol"
+    ],
+    "answer": "acyl-CoA",
+    "rationale": "Lysophospholipid may be reacylated by acyl-CoA in the presence of an acyltransferase.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Phospholipases Allow Degradation & Remodeling of Phosphoglycerols",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What substrate do hydrolase enzymes act on?",
+    "options": [
+      "1,2-diacylglycerol",
+      "dipalmitoyl-phosphatidylcholine",
+      "fat",
+      "glycerol-3-phosphate",
+      "lung surfactant"
+    ],
+    "answer": "glycerol-3-phosphate",
+    "rationale": "The glyceryl phosphoryl base may then be split by a hydrolase, liberating glycerol-3-phosphate plus base.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > TRIACYLGLYCEROLS & PHOSPHOGLYCEROLS ARE FORMED BY ACYLATION OF TRIOSEPHOSPHATES > Phospholipases Allow Degradation & Remodeling of Phosphoglycerols",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which substance is required for the synthesis of ceramide in the endoplasmic reticulum?",
+    "options": [
+      "amino acid serine",
+      "glycerol kinase",
+      "glycerol-3-phosphate acyltransferase",
+      "glycerol-3-phosphate dehydrogenase",
+      "platelet-activating factor"
+    ],
+    "answer": "amino acid serine",
+    "rationale": "Ceramide is synthesized in the endoplasmic reticulum from the amino acid serine (Figure 24-6).",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "What substance is formed when sphingomyelin is converted in the metabolic pathway?",
+    "options": [
+      "fatty acids",
+      "phosphatidylethanolamine",
+      "phosphatidylinositol",
+      "phospholipids",
+      "triacylglycerol"
+    ],
+    "answer": "phospholipids",
+    "rationale": "Sphingomyelins are phospholipids formed when ceramide reacts with phosphatidylcholine, resulting in sphingomyelin plus diacylglycerol (Figure 24-7A).",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Ceramide is converted into which substance?",
+    "options": [
+      "fatty acids",
+      "phosphatidylethanolamine",
+      "phosphatidylinositol",
+      "sphingomyelin",
+      "triacylglycerol"
+    ],
+    "answer": "sphingomyelin",
+    "rationale": "Sphingomyelins are phospholipids formed when ceramide reacts with phosphatidylcholine, resulting in sphingomyelin plus diacylglycerol (Figure 24-7A).",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "GalCer is a major lipid component of which structure?",
+    "options": [
+      "adipose tissue",
+      "heart",
+      "liver",
+      "myelin",
+      "tissues"
+    ],
+    "answer": "myelin",
+    "rationale": "GalCer is a major lipid component of myelin.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Ceramide and One or More Sugar Residues Form Glycosphingolipids",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "Which of the following is a recognized cause of glycolipid storage diseases?",
+    "options": [
+      "globotriaosylceramide",
+      "glucosylceramide",
+      "GM2 Ganglioside",
+      "lipid",
+      "sphingomyelin"
+    ],
+    "answer": "lipid",
+    "rationale": "Sphingolipidoses are a group of inherited diseases caused by a genetic defect in the catabolism of lipids containing sphingosine.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Which of the following is a recognized cause of Tay-Sachs disease?",
+    "options": [
+      "ceramide",
+      "globotriaosylceramide",
+      "glucosylceramide",
+      "GM2 Ganglioside",
+      "lipid"
+    ],
+    "answer": "GM2 Ganglioside",
+    "rationale": "In Tay-Sachs disease, the lipid accumulating is GM2 Ganglioside.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Which of the following is a recognized cause of Fabry disease?",
+    "options": [
+      "globotriaosylceramide",
+      "glucosylceramide",
+      "GM2 Ganglioside",
+      "lipid",
+      "sphingomyelin"
+    ],
+    "answer": "globotriaosylceramide",
+    "rationale": "In Fabry disease, the lipid accumulating is Globotriaosylceramide.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Which of the following is a recognized cause of Krabbe disease?",
+    "options": [
+      "galactosylceramide",
+      "glycerol kinase",
+      "glycerol-3-phosphate acyltransferase",
+      "glycerol-3-phosphate dehydrogenase",
+      "platelet-activating factor"
+    ],
+    "answer": "galactosylceramide",
+    "rationale": "In Krabbe disease, the lipid accumulating is Galactosylceramide.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "Which of the following is a recognized cause of Gaucher disease?",
+    "options": [
+      "globotriaosylceramide",
+      "glucosylceramide",
+      "GM2 Ganglioside",
+      "lipid",
+      "sphingomyelin"
+    ],
+    "answer": "glucosylceramide",
+    "rationale": "In Gaucher disease, the lipid accumulating is Glucosylceramide.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Which of the following is a recognized cause of Niemann-Pick disease type A?",
+    "options": [
+      "ceramide",
+      "globotriaosylceramide",
+      "GM2 Ganglioside",
+      "lipid",
+      "sphingomyelin"
+    ],
+    "answer": "sphingomyelin",
+    "rationale": "In Niemann-Pick disease types A and B, the lipid accumulating is Sphingomyelin.",
+    "citation": "chapter_24_metabolism_of_acylglycerols_and_sphingolipids — Metabolism of Acylglycerols & Sphingolipids > ALL SPHINGOLIPIDS ARE FORMED FROM CERAMIDE > Phospholipids & Sphingolipids Are Involved in Multiple Sclerosis & Lipidoses",
+    "relation": "caused_by",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]

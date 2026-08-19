@@ -1,0 +1,669 @@
+[
+  {
+    "item_id": "q001",
+    "stem": "What substance is 5-hydroxylysine converted into?",
+    "options": [
+      "amino acids",
+      "creatine",
+      "lysine",
+      "ornithine",
+      "selenocysteine"
+    ],
+    "answer": "lysine",
+    "rationale": "Lysine is hydroxylated to 5-hydroxylysine, which stabilizes maturing collagen fibers through modification and cross-linking.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q002",
+    "stem": "What substance is arginine converted into?",
+    "options": [
+      "epinephrine",
+      "melatonin",
+      "nitric oxide",
+      "norepinephrine",
+      "pyrimidine uracil"
+    ],
+    "answer": "nitric oxide",
+    "rationale": "The reaction catalyzed by nitric oxide synthase, EC 1.14.13.39, converts one nitrogen of the guanidine group of arginine to nitric oxide (Figure 30-2).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Arginine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q003",
+    "stem": "What substance does carbon 2 require in the conversion of arginine?",
+    "options": [
+      "carboxyl",
+      "heme",
+      "purines",
+      "pyrimidines",
+      "spermine"
+    ],
+    "answer": "spermine",
+    "rationale": "Arginine is converted to ornithine, and its carbon skeleton serves as a precursor of the polyamines putrescine and spermine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Arginine",
+    "relation": "requires",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q004",
+    "stem": "What is the substrate acted upon by nitric oxide synthase?",
+    "options": [
+      "arginine",
+      "dopa",
+      "glycine",
+      "histidine",
+      "sarcosine"
+    ],
+    "answer": "arginine",
+    "rationale": "The reaction catalyzed by nitric oxide synthase, EC 1.14.13.39, converts one nitrogen of the guanidine group of arginine to nitric oxide (Figure 30-2).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Arginine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q005",
+    "stem": "Which substance is synthesised by cysteine?",
+    "options": [
+      "coenzyme A",
+      "heme",
+      "neurotransmitters",
+      "purines",
+      "pyrimidines"
+    ],
+    "answer": "coenzyme A",
+    "rationale": "Cysteine participates in the biosynthesis of coenzyme A by reacting with pantothenate to form 4-phosphopantothenoylcysteine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Cysteine",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q006",
+    "stem": "Which substance is synthesised by taurine?",
+    "options": [
+      "ammonia",
+      "bile acid taurocholic acid",
+      "carbons 2",
+      "guanidino",
+      "urea"
+    ],
+    "answer": "bile acid taurocholic acid",
+    "rationale": "Taurine can displace the coenzyme A moiety of cholyl-CoA to form the bile acid taurocholic acid.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Cysteine",
+    "relation": "synthesizes",
+    "confidence": 0.9,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q007",
+    "stem": "What substance is benzoate converted into?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "purines",
+      "pyrimidines",
+      "sphingosine"
+    ],
+    "answer": "hippuric acid",
+    "rationale": "Hippuric acid is an example of a glycine conjugate formed from benzoate, a food additive (Figure 30--4).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Glycine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q008",
+    "stem": "What substrate does glycine act on to form hippuric acid?",
+    "options": [
+      "benzoate",
+      "dopamine",
+      "epinephrine",
+      "guanidoacetate",
+      "norepinephrine"
+    ],
+    "answer": "benzoate",
+    "rationale": "Hippuric acid is an example of a glycine conjugate formed from benzoate, a food additive (Figure 30--4).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Glycine",
+    "relation": "catalyzes",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q009",
+    "stem": "Glycine requires which substance?",
+    "options": [
+      "carboxyl",
+      "heme",
+      "purines",
+      "putrescine",
+      "spermine"
+    ],
+    "answer": "carboxyl",
+    "rationale": "Many drugs, drug metabolites, and other compounds with carboxyl groups are conjugated with glycine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Glycine",
+    "relation": "requires",
+    "confidence": 0.7,
+    "stem_source": "template",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q010",
+    "stem": "What substance is required by histidine decarboxylase for its enzymatic activity?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "guanidino",
+      "pyridoxal 5'-phosphate-dependent",
+      "urea"
+    ],
+    "answer": "pyridoxal 5'-phosphate-dependent",
+    "rationale": "Histidine decarboxylase is a pyridoxal 5'-phosphate-dependent enzyme, classified as EC 4.1.1.22 (Figure 30–5).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Histidine",
+    "relation": "requires",
+    "confidence": 1.0,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q011",
+    "stem": "Which of the following is a recognised cause of allergic reactions?",
+    "options": [
+      "heme",
+      "histamine",
+      "neurotransmitters",
+      "purines",
+      "pyrimidines"
+    ],
+    "answer": "histamine",
+    "rationale": "Histamine is a biogenic amine that functions in allergic reactions and gastric secretion.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Histidine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q012",
+    "stem": "S-adenosylmethionine requires which substance for its synthesis?",
+    "options": [
+      "ammonia",
+      "ATP",
+      "guanidino",
+      "pyridoxal 5'-phosphate-dependent",
+      "urea"
+    ],
+    "answer": "ATP",
+    "rationale": "S-adenosylmethionine is synthesized from methionine and ATP by the enzyme methionine adenosyltransferase (MAT), classified as EC 2.5.1.6.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Methionine",
+    "relation": "requires",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q013",
+    "stem": "Which of the following is a recognised cause of hepatic MAT-1 activity?",
+    "options": [
+      "allergic reactions",
+      "cori",
+      "hypermethioninemia",
+      "neurologic and psychiatric",
+      "wilson disease"
+    ],
+    "answer": "hypermethioninemia",
+    "rationale": "If hepatic MAT-1 and MAT-3 activity is severely decreased, hypermethioninemia can result.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Methionine",
+    "relation": "caused_by",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same semantic type",
+      "same semantic type",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q014",
+    "stem": "Tryptophan is converted into which substance?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "purines",
+      "sphingosine",
+      "tryptamine"
+    ],
+    "answer": "tryptamine",
+    "rationale": "Fecal bacteria convert tryptophan to tryptamine, then to indole 3-acetate.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q015",
+    "stem": "5-hydroxytryptophan is converted into which substance?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "purines",
+      "serotonin",
+      "sphingosine"
+    ],
+    "answer": "serotonin",
+    "rationale": "5-hydroxytryptophan undergoes subsequent decarboxylation to form serotonin (5-hydroxytryptamine).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q016",
+    "stem": "Serotonin is converted into which substance?",
+    "options": [
+      "epinephrine",
+      "melatonin",
+      "nitric oxide",
+      "norepinephrine",
+      "pyrimidine uracil"
+    ],
+    "answer": "melatonin",
+    "rationale": "N-Acetylation of serotonin forms melatonin in the pineal body.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q017",
+    "stem": "Serotonin is found within which structure?",
+    "options": [
+      "brain tissue",
+      "human brain",
+      "liver",
+      "muscle",
+      "pineal body"
+    ],
+    "answer": "pineal body",
+    "rationale": "N-Acetylation of serotonin forms melatonin in the pineal body.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tryptophan",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q018",
+    "stem": "Tryptamine is converted into which substance?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "indole 3-acetate",
+      "purines",
+      "sphingosine"
+    ],
+    "answer": "indole 3-acetate",
+    "rationale": "Kidney tissue converts tryptophan to tryptamine, then to indole 3-acetate.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tryptophan",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q019",
+    "stem": "DOPA decarboxylase acts on which substrate?",
+    "options": [
+      "benzoate",
+      "dopamine",
+      "epinephrine",
+      "guanidoacetate",
+      "norepinephrine"
+    ],
+    "answer": "dopamine",
+    "rationale": "DOPA decarboxylase (EC 4.1.1.28), a pyridoxal phosphate-dependent enzyme, forms dopamine from dopa.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tyrosine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q020",
+    "stem": "Dopamine β-oxidase acts on which substrate?",
+    "options": [
+      "ammonia",
+      "benzoate",
+      "guanidoacetate",
+      "norepinephrine",
+      "urea"
+    ],
+    "answer": "norepinephrine",
+    "rationale": "Dopamine β-oxidase (EC 1.14.17.1) catalyzes the hydroxylation of dopamine to form norepinephrine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Tyrosine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q021",
+    "stem": "Guanidoacetate is converted into which substance?",
+    "options": [
+      "amino acids",
+      "creatine",
+      "lysine",
+      "ornithine",
+      "selenocysteine"
+    ],
+    "answer": "creatine",
+    "rationale": "Synthesis of creatine is completed by methylation of guanidoacetate by S-adenosylmethionine (see Figure 30--11).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Creatine & Creatinine",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q022",
+    "stem": "S-adenosylmethionine acts on which substrate?",
+    "options": [
+      "benzoate",
+      "dopamine",
+      "epinephrine",
+      "guanidoacetate",
+      "norepinephrine"
+    ],
+    "answer": "guanidoacetate",
+    "rationale": "Synthesis of creatine is completed by methylation of guanidoacetate by S-adenosylmethionine (see Figure 30--11).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > BIOMEDICAL IMPORTANCE > Creatine & Creatinine",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q023",
+    "stem": "β-Alanine is converted into which substance?",
+    "options": [
+      "epinephrine",
+      "melatonin",
+      "nitric oxide",
+      "norepinephrine",
+      "pyrimidine uracil"
+    ],
+    "answer": "pyrimidine uracil",
+    "rationale": "β-Alanine is formed during the catabolism of the pyrimidine uracil. β-Aminoisobutyrate is formed during the catabolism of the pyrimidine thymine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > β-Alanine & β-Aminoisobutyrate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q024",
+    "stem": "β-Aminoisobutyrate is converted into which substance?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "purines",
+      "sphingosine",
+      "thymine"
+    ],
+    "answer": "thymine",
+    "rationale": "β-Aminoisobutyrate is formed during the catabolism of the pyrimidine thymine. Traces of β-alanine also result from the hydrolysis of β-alanyl dipeptides by the enzyme carnosinase, EC 3.4.13.20.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > β-Alanine & β-Aminoisobutyrate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q025",
+    "stem": "Methylmalonate semialdehyde is converted into which substance?",
+    "options": [
+      "hippuric acid",
+      "histamine",
+      "purines",
+      "sphingosine",
+      "succinyl-CoA"
+    ],
+    "answer": "succinyl-CoA",
+    "rationale": "Methylmalonate semialdehyde is converted to the amphibolic intermediate succinyl-CoA by reactions 8V and 9V of Figure 29–22.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > β-Alanine & β-Aminoisobutyrate",
+    "relation": "converts_to",
+    "confidence": 0.8,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q026",
+    "stem": "Homocarnosine is found within which structure?",
+    "options": [
+      "brain tissue",
+      "human brain",
+      "liver",
+      "muscle",
+      "pineal body"
+    ],
+    "answer": "human brain",
+    "rationale": "Homocarnosine is present in the human brain at higher levels than carnosine. Carnosine synthetase synthesizes homocarnosine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > β-Alanyl Dipeptides",
+    "relation": "located_in",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same semantic type"
+    ]
+  },
+  {
+    "item_id": "q027",
+    "stem": "Carnosine is converted into which substance?",
+    "options": [
+      "amino acids",
+      "creatine",
+      "homocarnosine",
+      "lysine",
+      "ornithine"
+    ],
+    "answer": "homocarnosine",
+    "rationale": "Carnosine synthetase synthesizes homocarnosine. Serum carnosinase does not hydrolyze homocarnosine.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > β-Alanyl Dipeptides",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q028",
+    "stem": "Neurotransmitter GABA is converted into which substance?",
+    "options": [
+      "amino acids",
+      "creatine",
+      "lysine",
+      "ornithine",
+      "succinate semialdehyde"
+    ],
+    "answer": "succinate semialdehyde",
+    "rationale": "Transamination of GABA forms succinate semialdehyde.",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > γ-Aminobutyrate",
+    "relation": "converts_to",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  },
+  {
+    "item_id": "q029",
+    "stem": "L-glutamate decarboxylase acts on which substrate?",
+    "options": [
+      "arginine",
+      "dopa",
+      "histidine",
+      "neurotransmitter GABA",
+      "sarcosine"
+    ],
+    "answer": "neurotransmitter GABA",
+    "rationale": "GABA is formed by decarboxylation of glutamate by L-glutamate decarboxylase, EC 4.1.1.15 (Figure 30-12).",
+    "citation": "chapter_30_conversion_of_amino_acids_to_specialized_products — Conversion of Amino Acids to Specialized Products > NON-α-AMINO ACIDS > γ-Aminobutyrate",
+    "relation": "catalyzes",
+    "confidence": 0.9,
+    "stem_source": "llm",
+    "distractor_basis": [
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling",
+      "same-role sibling"
+    ]
+  }
+]
