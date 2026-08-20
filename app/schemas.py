@@ -319,7 +319,7 @@ class FlashcardHistoryResponse(BaseModel):
 
 
 class StartFlashcardSessionRequest(BaseModel):
-    size: int = Field(default=10, ge=1, le=50)
+    size: int = Field(default=10, ge=1, le=200)
 
 
 class StartFlashcardSessionResponse(BaseModel):
